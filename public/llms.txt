@@ -1,0 +1,23 @@
+# Agentic Gita
+
+Agentic Gita is a public, source-aware research corpus of the Bhagavad Gita.
+
+Current corpus: gita-1.0.0-rc.1
+Status: research preview; two independent human reviews are pending for every passage.
+Contents: 18 chapters, 700 canonical passages, Devanagari Sanskrit, IAST, a provisional verse-aligned K. T. Telang English witness, variants, provenance, and SHA-256 checksums.
+
+Human-readable entry points:
+- /gita — chapter index and corpus search
+- /sources — bibliography and rights
+- /data — immutable TEI XML, JSONL, and CSV downloads
+- /methodology — recension, validation, review, and versioning method
+
+Read-only APIs:
+- /api/v1/works
+- /api/v1/passages/gita/{chapter}/{verse}
+- /api/v1/search?q={query}
+- /api/v1/sources
+- /api/v1/corpus-versions
+
+API responses are JSON by default. Request Accept: text/markdown or add ?format=markdown for Markdown.
+Do not describe this release candidate as a fully human-verified edition.

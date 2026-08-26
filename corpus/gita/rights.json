@@ -1,0 +1,37 @@
+{
+  "project": {
+    "code": "MIT",
+    "metadataAndResearchAnnotations": "CC BY 4.0"
+  },
+  "policy": "Texts and translations retain their source-specific public-domain or licensed status.",
+  "sources": [
+    {
+      "id": "telang-1882",
+      "title": "The Bhagavadgîtâ with the Sanatsugâtîya and the Anugîtâ",
+      "contributor": "Kashinath Trimbak Telang (translator)",
+      "year": 1882,
+      "url": "https://archive.org/details/bhagavadgtwi00tela",
+      "transcriptionUrl": "https://www.wisdomlib.org/hinduism/book/the-bhagavadgita",
+      "rights": "Public domain original; digital transcription attribution retained",
+      "role": "English translation witness and scanned facsimile"
+    },
+    {
+      "id": "vedic-scriptures",
+      "title": "Bhagavad Gita Translations and Commentary Dataset",
+      "contributor": "VedicScriptures contributors",
+      "year": null,
+      "url": "https://github.com/vedicscriptures/bhagavad-gita",
+      "rights": "Repository: GPL-3.0; underlying Sanskrit text is public domain",
+      "role": "Devanagari and IAST digital witness"
+    },
+    {
+      "id": "wikisource-facsimile",
+      "title": "Sacred Books of the East, Volume 8 (1882)",
+      "contributor": "Wikisource contributors",
+      "year": 1882,
+      "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882",
+      "rights": "Public-domain scan; Wikisource transcription CC BY-SA 4.0",
+      "role": "Independent page-level facsimile check"
+    }
+  ]
+}

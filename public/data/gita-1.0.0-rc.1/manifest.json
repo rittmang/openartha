@@ -1,0 +1,46 @@
+{
+  "corpusVersion": "gita-1.0.0-rc.1",
+  "schemaVersion": 1,
+  "status": "research-preview",
+  "releaseEligible": false,
+  "passages": 700,
+  "chapters": 18,
+  "chapterCounts": [
+    47,
+    72,
+    43,
+    42,
+    29,
+    47,
+    30,
+    28,
+    34,
+    42,
+    55,
+    20,
+    34,
+    27,
+    20,
+    24,
+    28,
+    78
+  ],
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "files": [
+    {
+      "name": "gita.jsonl",
+      "bytes": 942909,
+      "sha256": "177a547facb4951f93d8c85401f3d32054a352e5d86eb02d155f4b884e78a073"
+    },
+    {
+      "name": "gita.csv",
+      "bytes": 462717,
+      "sha256": "a1f3902da207623ba46b1ab942581b2079512003792587e914a36c83425b91ea"
+    },
+    {
+      "name": "gita.xml",
+      "bytes": 703889,
+      "sha256": "d38de27c1dce5542187ca6c26cec40e7e44e3cab3d6c3f5dbc0b85cb5bf776fa"
+    }
+  ]
+}
