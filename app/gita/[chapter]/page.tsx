@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { chapterTitles, corpus, getChapter } from '@/app/lib/corpus';
 import { Breadcrumbs } from '@/components/breadcrumbs';
@@ -42,8 +41,8 @@ export default async function ChapterPage({ params }: Props) {
         {passages.map((passage) => <PassageCard key={passage.id} passage={passage} />)}
       </div>
       <nav className="chapter-navigation" aria-label="Chapter navigation">
-        {chapter > 1 ? <Link href={`/gita/${chapter - 1}`}>← Chapter {chapter - 1}</Link> : <span />}
-        {chapter < 18 ? <Link href={`/gita/${chapter + 1}`}>Chapter {chapter + 1} →</Link> : <Link href="/gita">All chapters</Link>}
+        {chapter > 1 ? <a href={`/gita/${chapter - 1}`}>← Chapter {chapter - 1}</a> : <span />}
+        {chapter < 18 ? <a href={`/gita/${chapter + 1}`}>Chapter {chapter + 1} →</a> : <a href="/gita">All chapters</a>}
       </nav>
     </main>
   );

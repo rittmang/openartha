@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Corpus methodology',
@@ -32,7 +31,7 @@ export default function MethodologyPage() {
       <section className="correction-policy">
         <h2>Report a correction</h2>
         <p>A useful correction identifies the canonical reference, representation, proposed reading, source, and exact locator. Corpus curation remains repository-reviewed; there is no public editing or administration interface in V1.</p>
-        <div><Link className="button button-secondary" href="/sources">Inspect sources</Link><Link className="button button-primary" href="/data">Download the corpus</Link></div>
+        <div><a className="button button-secondary" href="/sources">Inspect sources</a><a className="button button-primary" href="/data">Download the corpus</a></div>
       </section>
     </main>
   );

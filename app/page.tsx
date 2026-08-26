@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { StatusPill } from '@/components/status-pill';
 import { corpus, getPassage } from '@/app/lib/corpus';
 
@@ -14,8 +13,8 @@ export default function Home() {
           together with the sources and review state behind every passage.
         </p>
         <div className="hero-actions">
-          <Link className="button button-primary" href="/gita">Begin reading</Link>
-          <Link className="button button-secondary" href="/data">Download the data</Link>
+          <a className="button button-primary" href="/gita">Begin reading</a>
+          <a className="button button-secondary" href="/data">Download the data</a>
         </div>
         <dl className="hero-stats" aria-label="Corpus summary">
           <div><dt>Passages</dt><dd>{corpus.work.passageCount}</dd></div>
@@ -28,7 +27,7 @@ export default function Home() {
       <section className="shell specimen" aria-labelledby="specimen-title">
         <div className="section-heading">
           <span>One passage, three representations</span>
-          <Link href="/gita/2/47">Gītā 2.47</Link>
+          <a href="/gita/2/47">Gītā 2.47</a>
         </div>
         <article className="verse-card">
           <h2 id="specimen-title" className="devanagari" lang="sa-Deva">{specimen.representations.devanagari}</h2>
@@ -53,7 +52,7 @@ export default function Home() {
               The 700-verse structure is validated; human textual review is still open.
             </p>
             <StatusPill>Two human review passes pending</StatusPill>
-            <Link className="text-link" href="/methodology">Read the methodology <span aria-hidden="true">→</span></Link>
+            <a className="text-link" href="/methodology">Read the methodology <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </section>
@@ -64,21 +63,21 @@ export default function Home() {
           <h2 id="access-title">Read it. Inspect it. Take it with you.</h2>
         </div>
         <div className="access-cards">
-          <Link href="/gita" className="access-card">
+          <a href="/gita" className="access-card">
             <span className="card-number">01</span>
             <h3>Reader</h3>
             <p>Move through all eighteen chapters with Sanskrit, IAST, translation, and provenance together.</p>
-          </Link>
-          <Link href="/data" className="access-card">
+          </a>
+          <a href="/data" className="access-card">
             <span className="card-number">02</span>
             <h3>Dataset</h3>
             <p>Download versioned TEI XML, JSONL, and CSV with a manifest and SHA-256 checksums.</p>
-          </Link>
-          <Link href="/api/v1/works" className="access-card">
+          </a>
+          <a href="/api/v1/works" className="access-card">
             <span className="card-number">03</span>
             <h3>API</h3>
             <p>Use stable, read-only JSON or Markdown interfaces without an account or API key.</p>
-          </Link>
+          </a>
         </div>
       </section>
     </main>

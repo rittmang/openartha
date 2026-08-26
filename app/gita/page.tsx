@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { corpus, chapterTitles, searchCorpus } from '@/app/lib/corpus';
 import { PassageCard } from '@/components/passage-card';
 import { StatusPill } from '@/components/status-pill';
@@ -35,7 +34,7 @@ export default async function GitaIndex({ searchParams }: { searchParams: Promis
         <section className="search-results" aria-labelledby="search-results-title">
           <div className="section-heading">
             <h2 id="search-results-title">{results.length} results for “{query}”</h2>
-            <Link href="/gita">Clear search</Link>
+            <a href="/gita">Clear search</a>
           </div>
           {results.length ? (
             <div className="passage-list">{results.map((passage) => <PassageCard key={passage.id} passage={passage} compact />)}</div>
@@ -47,12 +46,12 @@ export default async function GitaIndex({ searchParams }: { searchParams: Promis
           <ol className="chapter-grid">
             {chapterTitles.map(([sanskritTitle, englishTitle], index) => (
               <li key={sanskritTitle}>
-                <Link href={`/gita/${index + 1}`}>
+                <a href={`/gita/${index + 1}`}>
                   <span className="chapter-number">{String(index + 1).padStart(2, '0')}</span>
                   <span className="chapter-name"><strong>{sanskritTitle}</strong><span>{englishTitle}</span></span>
                   <span className="chapter-count">{corpus.chapterCounts[index]} verses</span>
                   <span aria-hidden="true">↗</span>
-                </Link>
+                </a>
               </li>
             ))}
           </ol>

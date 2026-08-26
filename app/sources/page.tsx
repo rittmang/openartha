@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { corpus } from '@/app/lib/corpus';
 
 export const metadata: Metadata = {
@@ -25,14 +24,14 @@ export default function SourcesPage() {
               <p className="source-contributor">{source.contributor}{source.year ? ` · ${source.year}` : ''}</p>
               <p>{source.role}</p>
               <dl><div><dt>Rights</dt><dd>{source.rights}</dd></div><div><dt>Source ID</dt><dd><code>{source.id}</code></dd></div></dl>
-              <div className="source-links"><Link href={source.url}>Open source ↗</Link>{source.transcriptionUrl && <Link href={source.transcriptionUrl}>Open transcription ↗</Link>}</div>
+              <div className="source-links"><a href={source.url}>Open source ↗</a>{source.transcriptionUrl && <a href={source.transcriptionUrl}>Open transcription ↗</a>}</div>
             </div>
           </article>
         ))}
       </section>
       <section className="rights-section">
         <div><span className="eyebrow">Rights policy</span><h2>Rights attach to each layer.</h2></div>
-        <div><p>Project code is MIT licensed. Original project metadata and research annotations are offered under CC BY 4.0. Ancient source text is public domain; digital witnesses and transcriptions retain their own stated terms.</p><Link className="text-link" href="/data">Download the machine-readable rights manifest →</Link></div>
+        <div><p>Project code is MIT licensed. Original project metadata and research annotations are offered under CC BY 4.0. Ancient source text is public domain; digital witnesses and transcriptions retain their own stated terms.</p><a className="text-link" href="/data">Download the machine-readable rights manifest →</a></div>
       </section>
     </main>
   );

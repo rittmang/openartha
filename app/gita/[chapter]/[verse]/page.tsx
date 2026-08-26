@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { chapterTitles, getAdjacentPassages, getPassage } from '@/app/lib/corpus';
 import { Breadcrumbs } from '@/components/breadcrumbs';
@@ -101,14 +100,14 @@ export default async function VersePage({ params }: Props) {
           <div><dt>SHA-256</dt><dd className="checksum"><code>{passage.checksum}</code></dd></div>
         </dl>
         <div className="api-links">
-          <Link href={`/api/v1/passages/gita/${chapter}/${verse}`}>JSON response</Link>
-          <Link href={`/api/v1/passages/gita/${chapter}/${verse}?format=markdown`}>Markdown response</Link>
+          <a href={`/api/v1/passages/gita/${chapter}/${verse}`}>JSON response</a>
+          <a href={`/api/v1/passages/gita/${chapter}/${verse}?format=markdown`}>Markdown response</a>
         </div>
       </section>
 
       <nav className="passage-navigation" aria-label="Passage navigation">
-        {adjacent.previous ? <Link href={`/gita/${adjacent.previous.chapter}/${adjacent.previous.verse}`}><span>Previous</span><strong>{adjacent.previous.chapter}.{adjacent.previous.verse}</strong></Link> : <span />}
-        {adjacent.next ? <Link href={`/gita/${adjacent.next.chapter}/${adjacent.next.verse}`}><span>Next</span><strong>{adjacent.next.chapter}.{adjacent.next.verse}</strong></Link> : <Link href="/gita"><span>Return</span><strong>Index</strong></Link>}
+        {adjacent.previous ? <a href={`/gita/${adjacent.previous.chapter}/${adjacent.previous.verse}`}><span>Previous</span><strong>{adjacent.previous.chapter}.{adjacent.previous.verse}</strong></a> : <span />}
+        {adjacent.next ? <a href={`/gita/${adjacent.next.chapter}/${adjacent.next.verse}`}><span>Next</span><strong>{adjacent.next.chapter}.{adjacent.next.verse}</strong></a> : <a href="/gita"><span>Return</span><strong>Index</strong></a>}
       </nav>
     </main>
   );

@@ -2,6 +2,8 @@
 
 A source-aware, versioned Bhagavad Gita corpus and minimal public reader. The current release candidate contains 700 canonical passages in Devanagari, IAST, and a provisional verse-aligned English witness, together with provenance, review state, variants, and checksums.
 
+Production: https://agentic-gita.godmod.workers.dev
+
 The stable `gita-1.0.0` corpus is intentionally blocked until every passage receives two independent human review passes.
 
 ## Local development
@@ -23,9 +25,16 @@ pnpm test
 
 The canonical TEI source is `corpus/gita/tei/gita.xml`. Generated JSONL, CSV, simplified TEI, manifests, and checksums are published beneath `public/data/gita-1.0.0-rc.1/`. D1 schema and FTS5 setup live in `drizzle/`; compiled seed statements live in `db/seed.sql`.
 
-## Deployment
+## Cloudflare deployment
 
-The application is configured for Cloudflare-compatible Sites hosting with a logical D1 binding named `DB`. The bundled corpus remains a read-only fallback if a preview database has not yet been migrated and seeded.
+The application deploys directly to Cloudflare Workers with a D1 binding named `DB`; no ChatGPT Sites runtime or build plugin is used. The bundled corpus remains a read-only fallback if a local database has not yet been migrated.
+
+```sh
+pnpm db:migrate:remote
+pnpm deploy
+```
+
+Worker, asset, and D1 settings live in `wrangler.jsonc`.
 
 ## Rights
 

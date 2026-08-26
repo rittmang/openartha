@@ -1,9 +1,8 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://agentic-gita.rittmang.chatgpt.site'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://agentic-gita.godmod.workers.dev'),
   title: {
     default: 'Agentic Gita — A versioned public corpus',
     template: '%s · Agentic Gita',
@@ -33,15 +32,15 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a className="skip-link" href="#content">Skip to content</a>
         <header className="site-header">
           <div className="shell nav-wrap">
-            <Link className="brand" href="/" aria-label="Agentic Gita home">
+            <a className="brand" href="/" aria-label="Agentic Gita home">
               <span className="brand-mark" aria-hidden="true">अ</span>
               <span>Agentic Gita</span>
-            </Link>
+            </a>
             <nav aria-label="Primary navigation">
-              <Link href="/gita">Read</Link>
-              <Link href="/data">Data</Link>
-              <Link href="/sources">Sources</Link>
-              <Link href="/methodology">Methodology</Link>
+              <a href="/gita">Read</a>
+              <a href="/data">Data</a>
+              <a href="/sources">Sources</a>
+              <a href="/methodology">Methodology</a>
             </nav>
           </div>
         </header>

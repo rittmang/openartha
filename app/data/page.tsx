@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import manifest from '@/public/data/gita-1.0.0-rc.1/manifest.json';
 import { corpus } from '@/app/lib/corpus';
 import { StatusPill } from '@/components/status-pill';
@@ -45,9 +44,9 @@ export default function DataPage() {
       </section>
       <section className="data-notice">
         <div><span className="eyebrow">Release gate</span><h2>Structured does not mean final.</h2></div>
-        <div><p>{corpus.releaseBlocker}</p><p>The current files deliberately identify themselves as a research preview. Stable <code>gita-1.0.0</code> will be cut only when all 700 passages satisfy the review gate.</p><Link className="text-link" href="/methodology">See the validation process →</Link></div>
+        <div><p>{corpus.releaseBlocker}</p><p>The current files deliberately identify themselves as a research preview. Stable <code>gita-1.0.0</code> will be cut only when all 700 passages satisfy the review gate.</p><a className="text-link" href="/methodology">See the validation process →</a></div>
       </section>
-      <section className="api-callout"><div><span className="eyebrow">Read-only interface</span><h2>Prefer an API?</h2></div><div><code>GET /api/v1/passages/gita/2/47</code><code>GET /api/v1/search?q=action</code><Link href="/api/v1/works">Inspect the works response →</Link></div></section>
+      <section className="api-callout"><div><span className="eyebrow">Read-only interface</span><h2>Prefer an API?</h2></div><div><code>GET /api/v1/passages/gita/2/47</code><code>GET /api/v1/search?q=action</code><a href="/api/v1/works">Inspect the works response →</a></div></section>
     </main>
   );
 }
