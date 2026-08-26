@@ -3,7 +3,7 @@ import Link from 'next/link';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://agentic-gita.sites.openai.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://agentic-gita.rittmang.chatgpt.site'),
   title: {
     default: 'Agentic Gita — A versioned public corpus',
     template: '%s · Agentic Gita',
