@@ -22,5 +22,5 @@ test('reader navigation uses native links that survive client-router failures', 
     assert.doesNotMatch(source, /next\/link|<Link\b/);
   }
 
-  assert.match(sources[0], /href="\/gita">Begin reading<\/a>/);
+  assert.match(sources[0], /href="\/gita">Read the Gita<\/a>/);
 });
