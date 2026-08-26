@@ -1,4 +1,6 @@
 import corpusJson from '@/corpus/gita/gita.json';
+import { searchPassages } from '@/app/lib/search';
+export type { CorpusSearchResults, PassageSearchResult, SearchHit, SearchMatchKind } from '@/app/lib/search';
 
 export type Source = {
   id: string;
@@ -108,29 +110,12 @@ export function getAdjacentPassages(passage: Passage) {
   };
 }
 
-function normalizeSearch(value: string) {
-  return value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
+export function searchCorpusDetailed(query: string) {
+  return searchPassages(corpus.verses, query);
 }
 
 export function searchCorpus(query: string, limit = 30) {
-  const cleaned = normalizeSearch(query.trim());
-  if (!cleaned) return [];
-  const terms = cleaned.split(/\s+/).filter(Boolean);
-  return corpus.verses
-    .map((passage) => {
-      const haystack = normalizeSearch([
-        passage.canonicalRef,
-        `${passage.chapter}.${passage.verse}`,
-        passage.speaker,
-        passage.representations.devanagari,
-        passage.representations.iast,
-        passage.representations.english,
-      ].filter(Boolean).join(' '));
-      const score = terms.reduce((total, term) => total + (haystack.includes(term) ? 1 : 0), 0);
-      return { passage, score };
-    })
-    .filter((result) => result.score === terms.length)
-    .sort((left, right) => right.score - left.score || left.passage.chapter - right.passage.chapter || left.passage.verse - right.passage.verse)
+  return searchCorpusDetailed(query).results
     .slice(0, Math.max(1, Math.min(limit, 100)))
     .map((result) => result.passage);
 }

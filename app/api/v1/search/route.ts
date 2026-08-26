@@ -1,6 +1,5 @@
-import { corpus, publicPassage, searchCorpus } from '@/app/lib/corpus';
+import { publicPassage, searchCorpusDetailed } from '@/app/lib/corpus';
 import { jsonResponse, markdownResponse, wantsMarkdown } from '@/app/lib/http';
-import { searchD1 } from '@/db/corpus-repository';
 
 export async function GET(request: Request) {
   const url = new URL(request.url);
@@ -11,12 +10,31 @@ export async function GET(request: Request) {
     const message = 'Provide a non-empty q search parameter.';
     return wantsMarkdown(request) ? markdownResponse(`# Search error\n\n${message}\n`, { status: 400 }) : jsonResponse({ error: { code: 'MISSING_QUERY', message } }, { status: 400 });
   }
-  const d1Refs = await searchD1(query, limit);
-  const passages = d1Refs
-    ? d1Refs.map((reference) => corpus.verses.find((passage) => passage.canonicalRef === reference)).filter((passage): passage is NonNullable<typeof passage> => Boolean(passage))
-    : searchCorpus(query, limit);
+  const search = searchCorpusDetailed(query);
+  const results = search.results.slice(0, limit);
   if (wantsMarkdown(request)) {
-    return markdownResponse([`# Search: ${query}`, '', `${passages.length} result(s).`, '', ...passages.map((passage) => `- [${passage.chapter}.${passage.verse}](/gita/${passage.chapter}/${passage.verse}) — ${passage.representations.english}`), ''].join('\n'));
+    return markdownResponse([
+      `# Search: ${query}`,
+      '',
+      `${search.total} result(s): ${search.exactCount} exact word, ${search.compoundCount} compound form. Returning ${results.length}.`,
+      '',
+      ...results.map((result) => `- [${result.passage.chapter}.${result.passage.verse}](/gita/${result.passage.chapter}/${result.passage.verse}) — ${result.kind === 'exact' ? 'Exact word' : 'Compound form'} in ${result.hits[0]?.label ?? 'corpus'} — ${result.passage.representations.english}`),
+      '',
+    ].join('\n'));
   }
-  return jsonResponse({ data: passages.map(publicPassage), meta: { query, count: passages.length, limit, engine: d1Refs ? 'd1-fts5' : 'bundled-corpus' } });
+  return jsonResponse({
+    data: results.map((result) => ({
+      ...publicPassage(result.passage),
+      searchMatch: { kind: result.kind, hits: result.hits },
+    })),
+    meta: {
+      query,
+      total: search.total,
+      returned: results.length,
+      exactCount: search.exactCount,
+      compoundCount: search.compoundCount,
+      limit,
+      engine: 'corpus-lexical-v2',
+    },
+  });
 }

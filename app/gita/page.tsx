@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { corpus, chapterTitles, searchCorpus } from '@/app/lib/corpus';
+import { corpus, chapterTitles, searchCorpusDetailed } from '@/app/lib/corpus';
 import { PassageCard } from '@/components/passage-card';
 import { StatusPill } from '@/components/status-pill';
 
@@ -10,7 +10,9 @@ export const metadata: Metadata = {
 
 export default async function GitaIndex({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   const query = (await searchParams).q?.trim() ?? '';
-  const results = query ? searchCorpus(query, 40) : [];
+  const search = query ? searchCorpusDetailed(query) : null;
+  const exactResults = search?.results.filter((result) => result.kind === 'exact') ?? [];
+  const compoundResults = search?.results.filter((result) => result.kind === 'compound') ?? [];
   return (
     <main className="shell page-shell">
       <header className="page-header split-header">
@@ -30,15 +32,29 @@ export default async function GitaIndex({ searchParams }: { searchParams: Promis
         </div>
       </form>
 
-      {query ? (
+      {search ? (
         <section className="search-results" aria-labelledby="search-results-title">
           <div className="section-heading">
-            <h2 id="search-results-title">{results.length} results for “{query}”</h2>
+            <h2 id="search-results-title">{search.total} results for “{query}”</h2>
             <a href="/gita">Clear search</a>
           </div>
-          {results.length ? (
-            <div className="passage-list">{results.map((passage) => <PassageCard key={passage.id} passage={passage} compact />)}</div>
-          ) : <div className="empty-state"><p>No exact matches. Try a shorter word, an IAST term without diacritics, or a reference such as 2.47.</p></div>}
+          <p className="search-explainer">Literal matches across Devanagari, IAST, and English. Exact words appear first; compound matches contain the term inside a larger Sanskrit form.</p>
+          {search.total ? (
+            <div className="search-groups">
+              {exactResults.length ? (
+                <section className="search-group" aria-labelledby="exact-matches-title">
+                  <div className="search-group-heading"><h3 id="exact-matches-title">Exact word</h3><span>{search.exactCount} passages</span></div>
+                  <div className="passage-list">{exactResults.map((result) => <PassageCard key={result.passage.id} passage={result.passage} compact match={result} />)}</div>
+                </section>
+              ) : null}
+              {compoundResults.length ? (
+                <section className="search-group" aria-labelledby="compound-matches-title">
+                  <div className="search-group-heading"><h3 id="compound-matches-title">Compound form</h3><span>{search.compoundCount} passages</span></div>
+                  <div className="passage-list">{compoundResults.map((result) => <PassageCard key={result.passage.id} passage={result.passage} compact match={result} />)}</div>
+                </section>
+              ) : null}
+            </div>
+          ) : <div className="empty-state"><p>No lexical matches. Try a shorter word, an IAST term without diacritics, or a reference such as 2.47.</p></div>}
         </section>
       ) : (
         <section aria-labelledby="chapters-title">
