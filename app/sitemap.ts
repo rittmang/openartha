@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { corpus } from '@/app/lib/corpus';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://agentic-gita.godmod.workers.dev';
+  const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://gita.rittmang.xyz';
   const staticRoutes = ['', '/gita', '/sources', '/data', '/methodology'];
   return [
     ...staticRoutes.map((route) => ({ url: `${base}${route}`, changeFrequency: 'monthly' as const, priority: route === '' ? 1 : .8 })),

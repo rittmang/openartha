@@ -2,7 +2,7 @@
 
 A source-aware, versioned Bhagavad Gita corpus and minimal public reader. The current release candidate contains 700 canonical passages in Devanagari, IAST, and a provisional verse-aligned English witness, together with provenance, review state, variants, and checksums.
 
-Production: https://agentic-gita.godmod.workers.dev
+Production: https://gita.rittmang.xyz
 
 The stable `gita-1.0.0` corpus is intentionally blocked until every passage receives two independent human review passes.
 
