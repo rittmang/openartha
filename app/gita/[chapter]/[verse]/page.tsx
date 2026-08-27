@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { chapterTitles, getAdjacentPassages, getPassage } from '@/app/lib/corpus';
+import { getPassageCommentaries } from '@/app/lib/commentaries';
 import { Breadcrumbs } from '@/components/breadcrumbs';
+import { CommentaryComparison } from '@/components/commentary-comparison';
 import { StatusPill } from '@/components/status-pill';
 
-type Props = { params: Promise<{ chapter: string; verse: string }> };
+type Props = { params: Promise<{ chapter: string; verse: string }>; searchParams?: Promise<{ compare?: string | string[] }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const values = await params;
@@ -21,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function VersePage({ params }: Props) {
+export default async function VersePage({ params, searchParams }: Props) {
   const values = await params;
   const chapter = Number(values.chapter);
   const verse = Number(values.verse);
@@ -29,6 +31,11 @@ export default async function VersePage({ params }: Props) {
   const passage = getPassage(chapter, verse);
   if (!passage) notFound();
   const adjacent = getAdjacentPassages(passage);
+  const commentaries = await getPassageCommentaries(chapter, verse);
+  const comparison = (await searchParams)?.compare;
+  const requestedAuthors = Array.isArray(comparison) ? comparison : comparison ? [comparison] : [];
+  const defaultAuthors = ['shankaracharya', 'ramanuja', 'madhvacharya'];
+  const selectedAuthors = [...new Set(requestedAuthors.length ? requestedAuthors : defaultAuthors)].filter((id) => commentaries.some((commentary) => commentary.authorId === id)).slice(0, 3);
   const chapterTitle = chapterTitles[chapter - 1][0];
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -74,6 +81,8 @@ export default async function VersePage({ params }: Props) {
         </section>
       </article>
 
+      {commentaries.length ? <CommentaryComparison commentaries={commentaries} selectedIds={selectedAuthors} /> : null}
+
       {passage.variants.length > 0 && (
         <section className="variant-panel" aria-labelledby="variant-title">
           <div><span className="eyebrow">Critical apparatus</span><h2 id="variant-title">Recorded variant</h2></div>
@@ -102,6 +111,7 @@ export default async function VersePage({ params }: Props) {
         <div className="api-links">
           <a href={`/api/v1/passages/gita/${chapter}/${verse}`}>JSON response</a>
           <a href={`/api/v1/passages/gita/${chapter}/${verse}?format=markdown`}>Markdown response</a>
+          <a href={`/api/v2/passages/gita/${chapter}/${verse}`}>JSON with commentary</a>
         </div>
       </section>
 

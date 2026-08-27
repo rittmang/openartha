@@ -15,6 +15,104 @@
       "when": 1787730701256,
       "tag": "0001_seed_corpus",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787730701257,
+      "tag": "0002_commentary_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787730701258,
+      "tag": "0003_seed_commentaries_01",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787730701259,
+      "tag": "0004_seed_commentaries_02",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787730701260,
+      "tag": "0005_seed_commentaries_03",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787730701261,
+      "tag": "0006_seed_commentaries_04",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1787730701262,
+      "tag": "0007_seed_commentaries_05",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1787730701263,
+      "tag": "0008_seed_commentaries_06",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1787730701264,
+      "tag": "0009_seed_commentaries_07",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1787730701265,
+      "tag": "0010_seed_commentaries_08",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "6",
+      "when": 1787730701266,
+      "tag": "0011_seed_commentaries_09",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "6",
+      "when": 1787730701267,
+      "tag": "0012_seed_commentaries_10",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "6",
+      "when": 1787730701268,
+      "tag": "0013_seed_commentaries_11",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "6",
+      "when": 1787730701269,
+      "tag": "0014_seed_commentaries_12",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "6",
+      "when": 1787730701270,
+      "tag": "0015_seed_commentaries_13",
+      "breakpoints": true
     }
   ]
 }

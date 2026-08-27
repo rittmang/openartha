@@ -1,0 +1,28 @@
+{
+  "corpusVersion": "gita-commentaries-0.1.0",
+  "status": "research-preview",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "source": {
+    "id": "vedicscriptures-bhagavad-gita",
+    "title": "VedicScriptures Bhagavad Gita dataset",
+    "repository": "https://github.com/vedicscriptures/bhagavad-gita",
+    "commit": "43dfc8db815d01e15a347ea294b089334cf2aa17",
+    "license": "GPL-3.0",
+    "licenseUrl": "https://github.com/vedicscriptures/bhagavad-gita/blob/43dfc8db815d01e15a347ea294b089334cf2aa17/LICENSE",
+    "expectedSourceUnits": 719,
+    "expectedCanonicalAlignmentsPerPublicEdition": 700,
+    "expectedChapterCounts": [48, 73, 44, 43, 30, 48, 31, 29, 35, 43, 56, 21, 36, 28, 21, 25, 29, 79]
+  },
+  "mirror": {
+    "name": "Kaggle Bhagavad Gita dataset",
+    "role": "lineage comparison only",
+    "note": "The mirror is not treated as an independent textual witness; its stated license conflicts with the license file contained in its archive."
+  },
+  "alignment": {
+    "canonicalPassages": 700,
+    "chapterColophons": 18,
+    "chapter13AlternateOpening": 1,
+    "policy": "Chapter colophons and the alternate Chapter 13 opening are preserved as paratext. Chapter 13 source units 2–35 align to canonical verses 1–34."
+  }
+}

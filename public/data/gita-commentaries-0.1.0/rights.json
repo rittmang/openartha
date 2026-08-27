@@ -1,0 +1,263 @@
+{
+  "corpusVersion": "gita-commentaries-0.1.0",
+  "codeLicense": "MIT",
+  "projectMetadataLicense": "CC BY 4.0",
+  "sourceDatasetLicense": "GPL-3.0",
+  "sourceDatasetLicenseUrl": "https://github.com/vedicscriptures/bhagavad-gita/blob/43dfc8db815d01e15a347ea294b089334cf2aa17/LICENSE",
+  "notice": "The public text subset contains classical Sanskrit works. Their underlying texts are public domain; the digital transcriptions are redistributed under GPL-3.0. Modern translations and commentaries are metadata-only.",
+  "authors": [
+    {
+      "id": "swami-tejomayananda",
+      "displayName": "Swami Tejomayananda",
+      "availableFields": [
+        "ht"
+      ],
+      "publicFields": [],
+      "rightsStatus": "source-link-only",
+      "rightsNote": "The exact Hindi edition and redistribution permission have not been verified."
+    },
+    {
+      "id": "swami-sivananda",
+      "displayName": "Swami Sivananda",
+      "availableFields": [
+        "et",
+        "ec"
+      ],
+      "publicFields": [],
+      "rightsStatus": "source-link-only",
+      "rightsNote": "The exact English edition and redistribution permission have not been verified."
+    },
+    {
+      "id": "purohit-swami",
+      "displayName": "Shri Purohit Swami",
+      "availableFields": [
+        "et"
+      ],
+      "publicFields": [],
+      "rightsStatus": "source-link-only",
+      "rightsNote": "The exact English edition and redistribution permission have not been verified."
+    },
+    {
+      "id": "swami-chinmayananda",
+      "displayName": "Swami Chinmayananda",
+      "availableFields": [
+        "hc"
+      ],
+      "publicFields": [],
+      "rightsStatus": "source-link-only",
+      "rightsNote": "The exact Hindi edition and redistribution permission have not been verified."
+    },
+    {
+      "id": "s-sankaranarayan",
+      "displayName": "Dr. S. S. Sankaranarayan",
+      "availableFields": [
+        "et"
+      ],
+      "publicFields": [],
+      "rightsStatus": "source-link-only",
+      "rightsNote": "The exact English edition and redistribution permission have not been verified."
+    },
+    {
+      "id": "swami-adidevananda",
+      "displayName": "Swami Adidevananda",
+      "availableFields": [
+        "et"
+      ],
+      "publicFields": [],
+      "rightsStatus": "source-link-only",
+      "rightsNote": "The exact English edition and redistribution permission have not been verified."
+    },
+    {
+      "id": "swami-gambirananda",
+      "displayName": "Swami Gambirananda",
+      "availableFields": [
+        "et"
+      ],
+      "publicFields": [],
+      "rightsStatus": "source-link-only",
+      "rightsNote": "The exact English edition and redistribution permission have not been verified."
+    },
+    {
+      "id": "madhvacharya",
+      "displayName": "Madhvācārya",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "anandagiri",
+      "displayName": "Ānandagiri",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "swami-ramsukhdas",
+      "displayName": "Swami Ramsukhdas",
+      "availableFields": [
+        "ht",
+        "hc"
+      ],
+      "publicFields": [],
+      "rightsStatus": "source-link-only",
+      "rightsNote": "The exact Hindi edition and redistribution permission have not been verified."
+    },
+    {
+      "id": "ramanuja",
+      "displayName": "Rāmānuja",
+      "availableFields": [
+        "sc",
+        "et"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "partial-full-text",
+      "rightsNote": "The classical Sanskrit work is public domain and its digital transcription is GPL-3.0. The modern English rendering remains source-link-only."
+    },
+    {
+      "id": "abhinavagupta",
+      "displayName": "Abhinavagupta",
+      "availableFields": [
+        "sc",
+        "et"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "partial-full-text",
+      "rightsNote": "The classical Sanskrit work is public domain and its digital transcription is GPL-3.0. The modern English rendering remains source-link-only."
+    },
+    {
+      "id": "shankaracharya",
+      "displayName": "Śaṅkarācārya",
+      "availableFields": [
+        "ht",
+        "sc",
+        "et"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "partial-full-text",
+      "rightsNote": "The classical Sanskrit work is public domain and its digital transcription is GPL-3.0. The Hindi and English renderings remain source-link-only."
+    },
+    {
+      "id": "jayatirtha",
+      "displayName": "Jayatīrtha",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "vallabhacharya",
+      "displayName": "Vallabhācārya",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "madhusudana-sarasvati",
+      "displayName": "Madhusūdana Sarasvatī",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "sridhara-svamin",
+      "displayName": "Śrīdhara Svāmin",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "dhanapati",
+      "displayName": "Dhanapati",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "vedanta-desika",
+      "displayName": "Vedānta Deśika Veṅkaṭanātha",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "purushottama",
+      "displayName": "Puruṣottamajī",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "nilakantha",
+      "displayName": "Nīlakaṇṭha",
+      "availableFields": [
+        "sc"
+      ],
+      "publicFields": [
+        "sc"
+      ],
+      "rightsStatus": "full-text-allowed",
+      "rightsNote": "Classical Sanskrit work is public domain; this digital transcription is redistributed under the source snapshot's GPL-3.0 terms."
+    },
+    {
+      "id": "prabhupada",
+      "displayName": "A. C. Bhaktivedanta Swami Prabhupada",
+      "availableFields": [
+        "et",
+        "ec"
+      ],
+      "publicFields": [],
+      "rightsStatus": "blocked",
+      "rightsNote": "Modern English text is not redistributed. Author-level numbering shifts also require edition-specific alignment review."
+    }
+  ]
+}

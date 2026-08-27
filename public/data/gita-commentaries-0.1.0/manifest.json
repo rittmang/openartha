@@ -1,0 +1,33 @@
+{
+  "corpusVersion": "gita-commentaries-0.1.0",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "status": "research-preview",
+  "sourceCommit": "43dfc8db815d01e15a347ea294b089334cf2aa17",
+  "authors": 22,
+  "editions": 29,
+  "publicEditions": 13,
+  "canonicalPassages": 700,
+  "commentaryRecords": 9100,
+  "files": [
+    {
+      "name": "commentaries.jsonl",
+      "bytes": 20050632,
+      "sha256": "d70f52f8566fd1d27632bbddd7b8b58ac1075a4cb6c42a06c9d971f737b09b6c"
+    },
+    {
+      "name": "commentaries.xml",
+      "bytes": 17843099,
+      "sha256": "2aee32a8925442b86f86ea7ebc07e54f8b99195cca29f417b38b60a160096b51"
+    },
+    {
+      "name": "rights.json",
+      "bytes": 8311,
+      "sha256": "452ced2ccf85447647a48b7eba7bac25b3c0b1677dc7ec018e03033a222aa1b0"
+    },
+    {
+      "name": "alignment-report.json",
+      "bytes": 671,
+      "sha256": "d8518ba08c72c4bea7e5ed88fde279f25517e635c89674365dd962e994fb9183"
+    }
+  ]
+}

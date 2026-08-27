@@ -18,6 +18,8 @@
     "db:migrate:remote": "wrangler d1 migrations apply agentic-gita --remote",
     "corpus:build": "node scripts/build-corpus.mjs",
     "corpus:validate": "node scripts/validate-corpus.mjs && node scripts/validate-tei.mjs",
+    "commentaries:build": "node scripts/build-commentaries.mjs",
+    "commentaries:validate": "node scripts/validate-commentaries.mjs",
     "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {

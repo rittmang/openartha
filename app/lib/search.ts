@@ -82,7 +82,8 @@ function isTokenCharacter(character: string | undefined) {
   return Boolean(character && /[\p{L}\p{M}\p{N}]/u.test(character));
 }
 
-function findTerm(value: string, term: string) {
+export function findSearchTerm(value: string, rawTerm: string) {
+  const term = normalizeSearchText(rawTerm);
   const view = normalizedView(value);
   const occurrences: Array<SearchRange & { exact: boolean }> = [];
   let fromIndex = 0;
@@ -142,7 +143,7 @@ export function searchPassages<T extends SearchablePassage>(passages: T[], rawQu
       let everyFieldTermIsExact = true;
 
       for (const term of terms) {
-        const occurrences = findTerm(text, term);
+        const occurrences = findSearchTerm(text, term);
         if (!occurrences.length) continue;
         foundTerms.add(term);
         matchedTerms.push(term);

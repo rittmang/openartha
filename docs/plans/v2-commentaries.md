@@ -1,6 +1,6 @@
 # V2 commentary corpus plan
 
-Status: approved direction; implementation not started
+Status: research preview implemented and deployed; stable editorial release remains blocked on human review
 
 Last updated: 2026-08-26
 
@@ -17,6 +17,9 @@ Add the translations and commentaries represented in the VedicScriptures Bhagava
 - Keep the original verse first on every reading page.
 - Search the original text, translations, and commentaries through one unified search experience.
 - Do not add AI, curator, or generated analysis features in V2.
+- Publish the 13 classical Sanskrit commentary witnesses whose underlying works are public domain and whose digital transcriptions are supplied by the pinned GPL-3.0 source snapshot.
+- Keep modern English and Hindi translations and commentaries metadata-only until their exact editions and redistribution permissions are verified.
+- Label the first public commentary corpus as a research preview; machine-aligned records remain visibly pending human review.
 
 ## Plan
 
@@ -73,3 +76,29 @@ Before public deployment, verify source identity, rights, verse alignment, autho
 
 Create the pinned source snapshot manifest, author and edition registry, rights matrix, database migration, importer, and alignment report. Do not expose commentary text publicly during this slice.
 
+## Implementation checklist
+
+- [x] Pin source and mirror lineage.
+- [x] Decide the rights-safe public-text subset.
+- [x] Add the author, edition, rights, and snapshot registries.
+- [x] Add deterministic import, alignment, export, and validation tooling.
+- [x] Add the D1 commentary read model and full-text index.
+- [x] Add unified reader and API search.
+- [x] Add verse comparison and author-by-chapter views.
+- [x] Publish versioned commentary downloads and checksums.
+- [x] Apply migrations, deploy to Cloudflare, and verify production.
+
+## Implemented preview
+
+- Deployed at `https://gita.rittmang.xyz` on 2026-08-26.
+- Pinned source commit: `43dfc8db815d01e15a347ea294b089334cf2aa17`.
+- Registered 22 authors and 29 source fields/editions across Sanskrit, English, and Hindi.
+- Published 13 rights-reviewed classical Sanskrit witnesses: 9,100 verse-aligned records over the unchanged 700-verse canon.
+- Preserved 247 commentary paratext records: 234 chapter colophons and 13 copies of the alternate Chapter 13 opening.
+- Added unified FTS5-backed search, subtle substring highlighting, optional filters, verse comparison for up to three witnesses, author-by-chapter reading, V2 JSON/Markdown APIs, TEI/JSONL exports, rights manifest, alignment report, and checksums.
+- Kept modern or edition-uncertain text out of pages, APIs, search, downloads, and the public D1 read model.
+- Kept exports below Cloudflare's 25 MiB single-asset limit, so R2 was not introduced.
+
+## Remaining editorial work
+
+The deployed corpus is deliberately labeled a research preview. Human review of author attribution, edition identity, and all machine-generated verse alignments remains required before a stable commentary release. Modern English and Hindi full text remains blocked until exact editions and redistribution permissions are verified.

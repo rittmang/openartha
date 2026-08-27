@@ -38,6 +38,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </a>
             <nav aria-label="Primary navigation">
               <a href="/gita">Read the Gita</a>
+              <a href="/commentaries">Commentaries</a>
               <a href="/data">Downloads</a>
               <a href="/sources">Sources</a>
               <a href="/methodology">How it works</a>
@@ -48,7 +49,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <footer className="site-footer">
           <div className="shell footer-grid">
             <span>Agentic Gita</span>
-            <span>Read the text. Check the source. Track every correction.</span>
+            <span>Read the text. Compare its interpreters. Check every source.</span>
           </div>
         </footer>
       </body>

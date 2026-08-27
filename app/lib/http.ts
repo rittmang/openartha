@@ -7,6 +7,7 @@ export const publicHeaders = {
   'access-control-allow-origin': '*',
   'cache-control': 'public, max-age=300, s-maxage=3600, stale-while-revalidate=86400',
   'x-corpus-version': 'gita-1.0.0-rc.1',
+  'x-commentary-corpus-version': 'gita-commentaries-0.1.0',
 };
 
 export function jsonResponse(body: unknown, init: ResponseInit = {}) {

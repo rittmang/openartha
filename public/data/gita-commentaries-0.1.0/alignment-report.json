@@ -1,0 +1,20 @@
+{
+  "corpusVersion": "gita-commentaries-0.1.0",
+  "sourceCommit": "43dfc8db815d01e15a347ea294b089334cf2aa17",
+  "sourceFiles": 719,
+  "sourceFilesDigest": "5e6beaafde250e47dafa3548c7cee916d4e6739f17566e96a6c8722d4afc871d",
+  "publicEditions": 13,
+  "alignedCommentaryUnits": 9100,
+  "paratextUnits": 247,
+  "canonicalPassages": 700,
+  "chapterColophons": 234,
+  "chapter13AlternateOpenings": 13,
+  "status": "machine-validated; human review pending",
+  "exceptions": [
+    {
+      "authorId": "prabhupada",
+      "status": "blocked",
+      "note": "Known edition-specific numbering shift; public text is excluded until separately aligned and rights-cleared."
+    }
+  ]
+}
