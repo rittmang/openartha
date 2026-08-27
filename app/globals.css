@@ -190,6 +190,7 @@ a { color: inherit; text-decoration: none; }
 .breadcrumbs a:hover { color: var(--ink); }
 .chapter-header { text-align: center; margin-inline: auto; }
 .chapter-header h1 { font-size: clamp(48px, 7vw, 78px); }
+.chapter-header > p { margin-inline: auto; text-align: center; }
 .chapter-header > span, .chapter-kicker { color: var(--muted); font-size: 12px; font-weight: 650; letter-spacing: .1em; text-transform: uppercase; }
 .chapter-passages { margin-top: 10px; }
 .chapter-navigation { display: flex; justify-content: space-between; padding-top: 32px; color: var(--accent); font-weight: 650; }
