@@ -1,4 +1,4 @@
-import { commentaryDescriptor, commentaryLang, type Commentary } from '@/app/lib/commentaries';
+import { commentaryConfidence, commentaryDescriptor, commentaryLang, type Commentary } from '@/app/lib/commentaries';
 
 const contentTypeOrder: Record<string, number> = { translation: 0, commentary: 1 };
 const languageOrder: Record<string, number> = { en: 0, hi: 1, sa: 2 };
@@ -25,7 +25,7 @@ export function CommentaryWitnesses({ commentaries }: { commentaries: Commentary
             </div>
             <p className="witness-text" lang={commentaryLang(commentary)}>{commentary.content}</p>
             <div className="witness-meta">
-              <p>First review verified (google/gemini-3.8-flash); second review pending. SHA-256 <code>{commentary.checksum.slice(0, 12)}…</code></p>
+              <p>First review verified (google/gemini-3.8-flash confidence: {Math.round(commentaryConfidence(commentary) * 100)}%); second review pending. SHA-256 <code>{commentary.checksum.slice(0, 12)}…</code></p>
               <a href={`/gita/commentaries/${commentary.authorId}/${commentary.chapter}`}>Read more from {commentary.author} →</a>
             </div>
           </article>

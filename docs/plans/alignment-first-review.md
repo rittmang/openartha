@@ -30,9 +30,9 @@ Provide the first independent review pass for all 700 verse translations and all
    - Root verses (`app/gita/[chapter]/[verse]/page.tsx`):
      `This verse was aligned by machine and has completed first review ({passage.review.reviewerModel} confidence: {Math.round(passage.review.firstReviewConfidence * 100)}%); second review pending. Machine alignment confidence: {Math.round(passage.translation.alignmentConfidence * 100)}%.`
    - Commentary witnesses (`components/commentary-witnesses.tsx`):
-     `First review verified (google/gemini-3.8-flash); second review pending. SHA-256 {commentary.checksum.slice(0, 12)}…`
+     `First review verified (google/gemini-3.8-flash confidence: {Math.round(commentaryConfidence(commentary) * 100)}%); second review pending. SHA-256 {commentary.checksum.slice(0, 12)}…`
    - Commentary search cards (`components/commentary-search-card.tsx`):
-     `First review (google/gemini-3.8-flash) · second review pending`
+     `First review (google/gemini-3.8-flash confidence: {Math.round(commentaryConfidence(result) * 100)}%) · second review pending`
 
 ## Review methodology & evaluation results
 

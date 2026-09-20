@@ -1,6 +1,7 @@
 import { env } from 'cloudflare:workers';
 import authorRegistry from '@/corpus/gita-commentaries/authors.json';
 import sourceRegistry from '@/corpus/gita-commentaries/source.json';
+import { getPassage } from '@/app/lib/corpus';
 import { findSearchTerm, normalizeSearchText, type SearchMatchKind, type SearchRange } from '@/app/lib/search';
 
 export type CommentaryAuthor = {
@@ -40,12 +41,6 @@ export type CommentarySearchResult = Omit<Commentary, 'content'> & {
   ranges: SearchRange[];
 };
 
-export type CommentaryFilters = {
-  author?: string;
-  language?: string;
-  contentType?: string;
-};
-
 type CommentaryRow = {
   id: string;
   canonical_ref: string;
@@ -68,6 +63,73 @@ type CommentaryRow = {
 export const commentaryAuthors = authorRegistry as CommentaryAuthor[];
 export const commentarySource = sourceRegistry;
 export const publicCommentaryAuthors = commentaryAuthors.filter((author) => author.publicFields.length > 0);
+export const commentaryFieldLabels: Record<string, string> = {
+  et: 'English translation',
+  ec: 'English commentary',
+  ht: 'Hindi translation',
+  hc: 'Hindi commentary',
+  sc: 'Sanskrit commentary',
+};
+export const commentaryLanguageLabels: Record<string, string> = { en: 'English', hi: 'Hindi', sa: 'Sanskrit' };
+
+export function commentaryDescriptor(commentary: Pick<Commentary, 'contentType' | 'language'>) {
+  const contentType = commentary.contentType === 'translation' ? 'Translation' : 'Commentary';
+  return `${contentType} · ${commentaryLanguageLabels[commentary.language] ?? commentary.language}`;
+}
+
+export function commentaryLang(commentary: Pick<Commentary, 'language' | 'script'>) {
+  return `${commentary.language}-${commentary.script}`;
+}
+
+export function commentaryConfidence(commentary: Pick<Commentary, 'chapter' | 'verse' | 'language' | 'contentType' | 'content'>): number {
+  const passage = getPassage(commentary.chapter, commentary.verse);
+  const content = commentary.content || '';
+
+  if (/did not comment on this sloka|commentary starts from/i.test(content)) {
+    return 0.99;
+  }
+
+  if (!passage) return 0.85;
+
+  let score = 0.85;
+
+  if (commentary.language === 'sa') {
+    const devaWords = passage.representations.devanagari
+      .replace(/[।॥०-९0-9\n\r]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length > 2);
+    const matches = devaWords.filter((w) => content.includes(w)).length;
+    const ratio = devaWords.length ? matches / devaWords.length : 0;
+    score = 0.88 + Math.min(0.10, ratio * 0.15);
+  } else if (commentary.language === 'en') {
+    const enTokens = passage.representations.english
+      .toLowerCase()
+      .replace(/[^a-z0-9 ]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length > 3);
+    const commLower = content.toLowerCase();
+    const matches = enTokens.filter((w) => commLower.includes(w)).length;
+    const ratio = enTokens.length ? matches / enTokens.length : 0;
+    score = commentary.contentType === 'translation'
+      ? 0.90 + Math.min(0.08, ratio * 0.12)
+      : 0.87 + Math.min(0.09, ratio * 0.12);
+  } else if (commentary.language === 'hi') {
+    const devaWords = passage.representations.devanagari
+      .replace(/[।॥०-९0-9\n\r]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length > 2);
+    const matches = devaWords.filter((w) => content.includes(w)).length;
+    const ratio = devaWords.length ? matches / devaWords.length : 0;
+    score = 0.88 + Math.min(0.09, ratio * 0.12);
+  }
+
+  const headerPattern = new RegExp(`(\\\\b|\\\\|\\\\|)\\s*${passage.chapter}\\s*[.-]\\s*${passage.verse}`);
+  if (headerPattern.test(content.slice(0, 50))) {
+    score += 0.02;
+  }
+
+  return Math.min(0.99, Math.max(0.60, Number(score.toFixed(2))));
+}
 
 function database() {
   return (env as unknown as { DB?: D1Database }).DB;
@@ -117,7 +179,7 @@ export async function getPassageCommentaries(chapter: number, verse: number) {
   try {
     const result = await db.prepare(`${selectCommentary}
       WHERE u.passage_id = ? AND e.public_text = 1
-      ORDER BY a.display_name`).bind(`gita.${chapter}.${verse}`).all<CommentaryRow>();
+      ORDER BY a.display_name, e.content_type, e.language`).bind(`gita.${chapter}.${verse}`).all<CommentaryRow>();
     return result.results.map(toCommentary);
   } catch (error) {
     console.error('Could not load passage commentaries', error);
@@ -131,7 +193,7 @@ export async function getAuthorChapterCommentaries(authorId: string, chapter: nu
   try {
     const result = await db.prepare(`${selectCommentary}
       WHERE e.author_id = ? AND u.source_chapter = ? AND u.passage_id IS NOT NULL AND e.public_text = 1
-      ORDER BY u.source_verse`).bind(authorId, chapter).all<CommentaryRow>();
+      ORDER BY u.passage_id, e.content_type, e.language`).bind(authorId, chapter).all<CommentaryRow>();
     return result.results.map(toCommentary);
   } catch (error) {
     console.error('Could not load author chapter', error);
@@ -158,15 +220,11 @@ function matchEvidence(content: string, query: string) {
   return { kind: exact ? 'exact' as const : 'compound' as const, ranges };
 }
 
-export async function searchCommentaries(query: string, filters: CommentaryFilters = {}, limit = 60): Promise<CommentarySearchResult[]> {
+export async function searchCommentaries(query: string, limit = 60): Promise<CommentarySearchResult[]> {
   const db = database();
   const match = ftsQuery(query);
   if (!db || !match) return [];
-  const where = ['commentary_fts MATCH ?', 'e.public_text = 1'];
   const bindings: Array<string | number> = [match];
-  if (filters.author) { where.push('e.author_id = ?'); bindings.push(filters.author); }
-  if (filters.language) { where.push('e.language = ?'); bindings.push(filters.language); }
-  if (filters.contentType) { where.push('e.content_type = ?'); bindings.push(filters.contentType); }
   bindings.push(Math.min(Math.max(limit * 4, limit), 240));
   try {
     const result = await db.prepare(`
@@ -180,7 +238,7 @@ export async function searchCommentaries(query: string, filters: CommentaryFilte
       JOIN commentary_editions e ON e.id = u.edition_id
       JOIN commentary_authors a ON a.id = e.author_id
       JOIN commentary_sources s ON s.id = e.source_id
-      WHERE ${where.join(' AND ')}
+      WHERE commentary_fts MATCH ? AND e.public_text = 1
       ORDER BY rank, u.source_chapter, u.source_verse, a.display_name
       LIMIT ?
     `).bind(...bindings).all<CommentaryRow & { rank: number }>();

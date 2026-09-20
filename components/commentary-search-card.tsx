@@ -1,4 +1,4 @@
-import { commentaryDescriptor, commentaryLang, type CommentarySearchResult } from '@/app/lib/commentaries';
+import { commentaryConfidence, commentaryDescriptor, commentaryLang, type CommentarySearchResult } from '@/app/lib/commentaries';
 import { HighlightedExcerpt } from '@/components/highlighted-excerpt';
 
 export function CommentarySearchCard({ result }: { result: CommentarySearchResult }) {
@@ -14,7 +14,7 @@ export function CommentarySearchCard({ result }: { result: CommentarySearchResul
       </div>
       <dl className="search-result-meta">
         <div><dt>Witness</dt><dd>{result.author} · {commentaryDescriptor(result)}</dd></div>
-        <div><dt>Status</dt><dd>First review (google/gemini-3.8-flash) · second review pending</dd></div>
+        <div><dt>Status</dt><dd>First review (google/gemini-3.8-flash confidence: {Math.round(commentaryConfidence(result) * 100)}%) · second review pending</dd></div>
       </dl>
       <a className="text-link" href={`/gita/${result.chapter}/${result.verse}#commentaries`}>
         Read in context <span aria-hidden="true">→</span>
