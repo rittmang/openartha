@@ -13,7 +13,9 @@ Provide the first independent review pass for all 700 verse translations and all
 1. **Root translation evaluation scope:** All 18 chapters (700 canonical verses) evaluated in this first review pass.
 2. **Commentary evaluation scope:** All 20,300 aligned commentary units across all 22 authors and 29 public editions in Sanskrit, English, and Hindi.
 3. **Model tag:** Tag all notices explicitly with `google/gemini-3.8-flash` so multiple independent model passes remain distinguished.
-4. **Remote & PR:** Local repository currently has no git remote configured (`git remote -v` is empty). The user waived remote repository creation ("oh nvm then"). All changes are staged and committed cleanly on a local feature branch (`feature/first-human-review`).
+4. **GitHub Repository & PR:**
+   - Repository created: `https://github.com/rittmang/openartha` (Public)
+   - PR opened and linked: [PR #1](https://github.com/rittmang/openartha/pull/1) from `feature/first-human-review` to `main`.
 5. **Data model updates:**
    - Root verses:
      - `translation.status`: `'first review verified; second review pending'`
