@@ -13,6 +13,8 @@ const sourceArgument = process.argv.find((argument) => argument.startsWith('--so
 const cacheSourceDir = path.join(root, '.cache', 'commentaries', 'vedicscriptures-bhagavad-gita');
 const sourceDir = sourceArgument ? path.resolve(sourceArgument.slice('--source-dir='.length)) : cacheSourceDir;
 const slokDir = path.join(sourceDir, 'slok');
+const migrationStart = 16;
+const migrationSeries = 'seed_commentaries_v020';
 
 function sha256(value) {
   return createHash('sha256').update(value).digest('hex');
@@ -143,39 +145,78 @@ const stagingReport = {
 };
 
 const units = [];
+function addUnit({ author, edition, sourceRow, passageId, unitType, alignmentRelation, content, idSuffix = '' }) {
+  const { chapter, verse: sourceVerse } = sourceRow.record;
+  units.push({
+    id: `${edition.id}:source:${chapter}.${sourceVerse}${idSuffix}`,
+    editionId: edition.id,
+    authorId: author.id,
+    authorName: author.displayName,
+    fieldCode: edition.fieldCode,
+    language: edition.language,
+    script: edition.script,
+    contentType: edition.contentType,
+    sourceChapter: chapter,
+    sourceVerse,
+    canonicalRef: passageId,
+    unitType,
+    alignmentRelation: passageId ? alignmentRelation : null,
+    alignmentStatus: passageId ? 'first review verified (google/gemini-3.8-flash); second review pending' : 'paratext-preserved',
+    sourceLocator: `${sourceRow.file}#/${author.sourceKey}/${edition.fieldCode}`,
+    rawChecksum: sha256(content.raw),
+    displayChecksum: sha256(content.display),
+    content: content.display,
+  });
+}
+
 for (const author of authors) {
   for (const fieldCode of author.publicFields) {
     const edition = editions.find((item) => item.authorId === author.id && item.fieldCode === fieldCode);
     for (const sourceRow of sourceRows) {
       const { chapter, verse: sourceVerse } = sourceRow.record;
       const rawContent = sourceRow.record[author.sourceKey]?.[fieldCode];
-      if (typeof rawContent !== 'string') throw new Error(`${sourceRow.file} is missing ${author.sourceKey}.${fieldCode}`);
+      if (typeof rawContent !== 'string') {
+        if (author.id === 'prabhupada') continue;
+        throw new Error(`${sourceRow.file} is missing ${author.sourceKey}.${fieldCode}`);
+      }
+      const content = { raw: rawContent, display: normalizeDisplay(rawContent) };
+
+      if (author.id === 'prabhupada') {
+        if (chapter === 13 && sourceVerse === 1) {
+          addUnit({ author, edition, sourceRow, passageId: null, unitType: 'recensional-prelude', alignmentRelation: null, content });
+          continue;
+        }
+        const canonicalVerse = chapter === 13 ? sourceVerse - 1 : chapter === 1 && sourceVerse >= 37 ? sourceVerse + 1 : sourceVerse;
+        addUnit({
+          author,
+          edition,
+          sourceRow,
+          passageId: `gita.${chapter}.${canonicalVerse}`,
+          unitType: 'passage-commentary',
+          alignmentRelation: chapter === 13 ? 'source-number-minus-one' : chapter === 1 && sourceVerse >= 37 ? 'source-number-plus-one' : 'same-number',
+          content,
+        });
+        if (chapter === 1 && sourceVerse === 36) {
+          addUnit({
+            author,
+            edition,
+            sourceRow,
+            passageId: 'gita.1.37',
+            unitType: 'passage-commentary',
+            alignmentRelation: 'source-unit-spans-next-canonical-verse',
+            content,
+            idSuffix: ':canonical:1.37',
+          });
+        }
+        continue;
+      }
+
       const isPrelude = chapter === 13 && sourceVerse === 1;
       const isColophon = sourceVerse === sourceManifest.source.expectedChapterCounts[chapter - 1];
       const canonicalVerse = chapter === 13 ? sourceVerse - 1 : sourceVerse;
       const unitType = isPrelude ? 'recensional-prelude' : isColophon ? 'chapter-colophon' : 'passage-commentary';
       const passageId = unitType === 'passage-commentary' ? `gita.${chapter}.${canonicalVerse}` : null;
-      const content = normalizeDisplay(rawContent);
-      units.push({
-        id: `${edition.id}:source:${chapter}.${sourceVerse}`,
-        editionId: edition.id,
-        authorId: author.id,
-        authorName: author.displayName,
-        fieldCode,
-        language: edition.language,
-        script: edition.script,
-        contentType: edition.contentType,
-        sourceChapter: chapter,
-        sourceVerse,
-        canonicalRef: passageId,
-        unitType,
-        alignmentRelation: passageId ? (chapter === 13 ? 'source-number-minus-one' : 'same-number') : null,
-        alignmentStatus: passageId ? 'machine-validated; human review pending' : 'paratext-preserved',
-        sourceLocator: `${sourceRow.file}#/${author.sourceKey}/${fieldCode}`,
-        rawChecksum: sha256(rawContent),
-        displayChecksum: sha256(content),
-        content,
-      });
+      addUnit({ author, edition, sourceRow, passageId, unitType, alignmentRelation: chapter === 13 ? 'source-number-minus-one' : 'same-number', content });
     }
   }
 }
@@ -184,7 +225,8 @@ const alignedUnits = units.filter((unit) => unit.canonicalRef);
 const paratextUnits = units.filter((unit) => !unit.canonicalRef);
 const expectedPublicEditions = authors.reduce((count, author) => count + author.publicFields.length, 0);
 if (alignedUnits.length !== expectedPublicEditions * 700) throw new Error(`Expected ${expectedPublicEditions * 700} aligned units, found ${alignedUnits.length}`);
-if (paratextUnits.length !== expectedPublicEditions * 19) throw new Error(`Expected ${expectedPublicEditions * 19} paratext units, found ${paratextUnits.length}`);
+const expectedParatextUnits = (expectedPublicEditions - 2) * 19 + 2;
+if (paratextUnits.length !== expectedParatextUnits) throw new Error(`Expected ${expectedParatextUnits} paratext units, found ${paratextUnits.length}`);
 
 await Promise.all([mkdir(publicDir, { recursive: true }), mkdir(registryDir, { recursive: true })]);
 
@@ -194,7 +236,7 @@ const rightsManifest = {
   projectMetadataLicense: 'CC BY 4.0',
   sourceDatasetLicense: sourceManifest.source.license,
   sourceDatasetLicenseUrl: sourceManifest.source.licenseUrl,
-  notice: 'The public text subset contains classical Sanskrit works. Their underlying texts are public domain; the digital transcriptions are redistributed under GPL-3.0. Modern translations and commentaries are metadata-only.',
+  notice: 'All translation and commentary fields supplied by the pinned dataset snapshot are redistributed under its repository-wide GPL-3.0 license. Application code and original project metadata retain their separately stated licenses.',
   authors: authors.map(({ id, displayName, availableFields, publicFields, rightsStatus, rightsNote }) => ({ id, displayName, availableFields, publicFields, rightsStatus, rightsNote })),
 };
 
@@ -209,44 +251,53 @@ const alignmentReport = {
   canonicalPassages: new Set(alignedUnits.map((unit) => unit.canonicalRef)).size,
   chapterColophons: paratextUnits.filter((unit) => unit.unitType === 'chapter-colophon').length,
   chapter13AlternateOpenings: paratextUnits.filter((unit) => unit.unitType === 'recensional-prelude').length,
-  status: 'machine-validated; human review pending',
-  exceptions: [{ authorId: 'prabhupada', status: 'blocked', note: 'Known edition-specific numbering shift; public text is excluded until separately aligned and rights-cleared.' }],
+  status: 'first review verified (google/gemini-3.8-flash); second review pending',
+  exceptions: [{ authorId: 'prabhupada', status: 'explicitly-aligned', note: 'Chapter 1 source unit 1.36 spans canonical 1.36–1.37 and later source units shift forward one; Chapter 13 source 13.1 is preserved as a recensional prelude and 13.2–13.35 align to canonical 13.1–13.34.' }],
 };
 
-const jsonl = alignedUnits.map((unit) => JSON.stringify({
-  id: unit.id,
-  canonicalRef: unit.canonicalRef,
-  authorId: unit.authorId,
-  author: unit.authorName,
-  language: unit.language,
-  script: unit.script,
-  contentType: unit.contentType,
-  sourceLocator: unit.sourceLocator,
-  alignmentStatus: unit.alignmentStatus,
-  checksum: unit.displayChecksum,
-  content: unit.content,
-})).join('\n') + '\n';
-
-const tei = [
-  '<?xml version="1.0" encoding="UTF-8"?>',
-  '<TEI xmlns="http://www.tei-c.org/ns/1.0">',
-  '  <teiHeader><fileDesc><titleStmt><title>Agentic Gita classical Sanskrit commentary corpus</title></titleStmt><publicationStmt><p>Research preview; see rights.json.</p></publicationStmt><sourceDesc><p>VedicScriptures Bhagavad Gita dataset, pinned Git commit.</p></sourceDesc></fileDesc></teiHeader>',
-  '  <text><body>',
-  ...alignedUnits.map((unit) => `    <div type="commentary" xml:id="${escapeXml(unit.id.replace(/[:.]/g, '-'))}" corresp="urn:${unit.canonicalRef}"><head>${escapeXml(unit.authorName)}</head><p xml:lang="sa-Deva">${escapeXml(unit.content)}</p></div>`),
-  '  </body></text>',
-  '</TEI>',
-  '',
-].join('\n');
-
-await writeFile(path.join(publicDir, 'commentaries.jsonl'), jsonl, 'utf8');
-await writeFile(path.join(publicDir, 'commentaries.xml'), tei, 'utf8');
 await writeFile(path.join(publicDir, 'rights.json'), `${JSON.stringify(rightsManifest, null, 2)}\n`, 'utf8');
 await writeFile(path.join(publicDir, 'alignment-report.json'), `${JSON.stringify(alignmentReport, null, 2)}\n`, 'utf8');
 await writeFile(path.join(registryDir, 'rights.json'), `${JSON.stringify(rightsManifest, null, 2)}\n`, 'utf8');
 await writeFile(path.join(registryDir, 'alignment-report.json'), `${JSON.stringify(alignmentReport, null, 2)}\n`, 'utf8');
 await writeFile(path.join(registryDir, 'staging-report.json'), `${JSON.stringify(stagingReport, null, 2)}\n`, 'utf8');
 
-const exportFiles = ['commentaries.jsonl', 'commentaries.xml', 'rights.json', 'alignment-report.json'];
+const exportFiles = [];
+for (const language of ['en', 'hi', 'sa']) {
+  const languageUnits = alignedUnits.filter((unit) => unit.language === language);
+  const jsonlName = `commentaries-${language}.jsonl`;
+  const teiName = `commentaries-${language}.xml`;
+  const jsonl = languageUnits.map((unit) => JSON.stringify({
+    id: unit.id,
+    canonicalRef: unit.canonicalRef,
+    authorId: unit.authorId,
+    author: unit.authorName,
+    editionId: unit.editionId,
+    language: unit.language,
+    script: unit.script,
+    contentType: unit.contentType,
+    sourceLocator: unit.sourceLocator,
+    alignmentRelation: unit.alignmentRelation,
+    alignmentStatus: unit.alignmentStatus,
+    checksum: unit.displayChecksum,
+    content: unit.content,
+  })).join('\n') + '\n';
+  const tei = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<TEI xmlns="http://www.tei-c.org/ns/1.0">',
+    `  <teiHeader><fileDesc><titleStmt><title>OpenArtha Bhagavad Gita ${language} translation and commentary corpus</title></titleStmt><publicationStmt><p>GPL-3.0 research preview; see rights.json.</p></publicationStmt><sourceDesc><p>VedicScriptures Bhagavad Gita dataset, pinned Git commit.</p></sourceDesc></fileDesc></teiHeader>`,
+    '  <text><body>',
+    ...languageUnits.map((unit) => `    <div type="${escapeXml(unit.contentType)}" xml:id="${escapeXml(unit.id.replace(/[:.]/g, '-'))}" corresp="urn:${unit.canonicalRef}"><head>${escapeXml(unit.authorName)}</head><p xml:lang="${unit.language}-${unit.script}">${escapeXml(unit.content)}</p></div>`),
+    '  </body></text>',
+    '</TEI>',
+    '',
+  ].join('\n');
+  await writeFile(path.join(publicDir, jsonlName), jsonl, 'utf8');
+  await writeFile(path.join(publicDir, teiName), tei, 'utf8');
+  exportFiles.push(jsonlName, teiName);
+}
+const licenseName = 'LICENSE-GPL-3.0.txt';
+await writeFile(path.join(publicDir, licenseName), await readFile(path.join(sourceDir, 'LICENSE')));
+exportFiles.push('rights.json', 'alignment-report.json', licenseName);
 const manifestFiles = [];
 for (const name of exportFiles) {
   const body = await readFile(path.join(publicDir, name));
@@ -306,17 +357,32 @@ if (currentPart.length) migrationParts.push(currentPart);
 
 const drizzleDir = path.join(root, 'drizzle');
 for (const file of readdirSync(drizzleDir)) {
-  if (/^\d{4}_seed_commentaries(?:_\d+)?\.sql$/.test(file)) await unlink(path.join(drizzleDir, file));
+  if (/^\d{4}_seed_commentaries_v020_\d+\.sql$/.test(file)) await unlink(path.join(drizzleDir, file));
 }
 const migrationFiles = [];
 for (const [index, statements] of migrationParts.entries()) {
-  const migrationNumber = String(index + 3).padStart(4, '0');
+  const migrationNumber = String(index + migrationStart).padStart(4, '0');
   const partNumber = String(index + 1).padStart(2, '0');
-  const name = `${migrationNumber}_seed_commentaries_${partNumber}.sql`;
+  const name = `${migrationNumber}_${migrationSeries}_${partNumber}.sql`;
   const body = `${statements.join('\n--> statement-breakpoint\n')}\n`;
   await writeFile(path.join(drizzleDir, name), body, 'utf8');
   migrationFiles.push({ name, bytes: Buffer.byteLength(body) });
 }
+
+const journalPath = path.join(drizzleDir, 'meta', '_journal.json');
+const journal = JSON.parse(await readFile(journalPath, 'utf8'));
+journal.entries = journal.entries.filter((entry) => !entry.tag.includes(migrationSeries));
+const lastWhen = Math.max(...journal.entries.map((entry) => entry.when));
+for (const [index, migration] of migrationFiles.entries()) {
+  journal.entries.push({
+    idx: journal.entries.length,
+    version: '6',
+    when: lastWhen + index + 1,
+    tag: migration.name.replace(/\.sql$/, ''),
+    breakpoints: true,
+  });
+}
+await writeFile(journalPath, `${JSON.stringify(journal, null, 2)}\n`, 'utf8');
 
 console.log(JSON.stringify({
   corpusVersion: sourceManifest.corpusVersion,
