@@ -47,6 +47,9 @@ export type Passage = {
     firstHumanReview: string;
     secondHumanReview: string;
     releaseEligible: boolean;
+    firstReviewConfidence?: number;
+    firstReviewDate?: string;
+    firstReviewNotes?: string;
   };
   checksum: string;
 };
@@ -123,6 +126,7 @@ export function searchCorpus(query: string, limit = 30) {
 export function publicPassage(passage: Passage) {
   return {
     canonicalRef: passage.canonicalRef,
+    workId: passage.workId,
     work: passage.workId,
     edition: passage.editionId,
     corpusVersion: passage.corpusVersion,
@@ -154,7 +158,7 @@ export function passageAsMarkdown(passage: Passage) {
     '',
     passage.representations.iast,
     '',
-    `## English — ${passage.translation.translator}, ${passage.translation.editionYear}`,
+    `## English translation — ${passage.translation.translator}, ${passage.translation.editionYear}`,
     '',
     passage.representations.english,
     '',

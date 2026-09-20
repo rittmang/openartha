@@ -31,9 +31,11 @@ for (let chapter = 1; chapter <= 18; chapter += 1) {
     assert.match(passage.representations.iast, /[a-zāīūṛṝḷṅñṭḍṇśṣḥṃ]/iu, `${passage.canonicalRef} needs IAST`);
     assert.ok(passage.representations.english.length > 0, `${passage.canonicalRef} needs English text`);
     assert.ok(passage.provenance.length >= 2, `${passage.canonicalRef} needs two source roles`);
-    assert.equal(passage.review.firstHumanReview, 'pending');
+    assert.equal(passage.review.firstHumanReview, 'verified');
     assert.equal(passage.review.secondHumanReview, 'pending');
     assert.equal(passage.review.releaseEligible, false);
+    assert.equal(typeof passage.review.firstReviewConfidence, 'number');
+    assert.ok(passage.review.firstReviewConfidence >= 0 && passage.review.firstReviewConfidence <= 1);
     const expectedChecksum = sha256(JSON.stringify({
       canonicalRef: passage.canonicalRef,
       representations: passage.representations,

@@ -3,10 +3,10 @@ import { notFound } from 'next/navigation';
 import { chapterTitles, getAdjacentPassages, getPassage } from '@/app/lib/corpus';
 import { getPassageCommentaries } from '@/app/lib/commentaries';
 import { Breadcrumbs } from '@/components/breadcrumbs';
-import { CommentaryComparison } from '@/components/commentary-comparison';
+import { CommentaryWitnesses } from '@/components/commentary-witnesses';
 import { StatusPill } from '@/components/status-pill';
 
-type Props = { params: Promise<{ chapter: string; verse: string }>; searchParams?: Promise<{ compare?: string | string[] }> };
+type Props = { params: Promise<{ chapter: string; verse: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const values = await params;
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function VersePage({ params, searchParams }: Props) {
+export default async function VersePage({ params }: Props) {
   const values = await params;
   const chapter = Number(values.chapter);
   const verse = Number(values.verse);
@@ -32,10 +32,6 @@ export default async function VersePage({ params, searchParams }: Props) {
   if (!passage) notFound();
   const adjacent = getAdjacentPassages(passage);
   const commentaries = await getPassageCommentaries(chapter, verse);
-  const comparison = (await searchParams)?.compare;
-  const requestedAuthors = Array.isArray(comparison) ? comparison : comparison ? [comparison] : [];
-  const defaultAuthors = ['shankaracharya', 'ramanuja', 'madhvacharya'];
-  const selectedAuthors = [...new Set(requestedAuthors.length ? requestedAuthors : defaultAuthors)].filter((id) => commentaries.some((commentary) => commentary.authorId === id)).slice(0, 3);
   const chapterTitle = chapterTitles[chapter - 1][0];
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -73,19 +69,23 @@ export default async function VersePage({ params, searchParams }: Props) {
         </section>
         <section aria-labelledby="translation-title">
           <div className="detail-section-title">
-            <h2 id="translation-title">English witness</h2>
+            <h2 id="translation-title">English translation</h2>
             <span>{passage.translation.translator}, {passage.translation.editionYear}</span>
           </div>
           <blockquote>{passage.representations.english}</blockquote>
-          <p className="alignment-note">This verse-level alignment is machine-assisted and awaits two independent human checks. Confidence signal: {Math.round(passage.translation.alignmentConfidence * 100)}%.</p>
+          {passage.review.firstHumanReview === 'verified' && passage.review.firstReviewConfidence !== undefined ? (
+            <p className="alignment-note">This verse was aligned by machine and has completed first review (reviewer confidence: {Math.round(passage.review.firstReviewConfidence * 100)}%); second review pending. Machine alignment confidence: {Math.round(passage.translation.alignmentConfidence * 100)}%.</p>
+          ) : (
+            <p className="alignment-note">This verse was aligned by machine and has not yet completed two independent human reviews. Alignment confidence: {Math.round(passage.translation.alignmentConfidence * 100)}%.</p>
+          )}
         </section>
       </article>
 
-      {commentaries.length ? <CommentaryComparison commentaries={commentaries} selectedIds={selectedAuthors} /> : null}
+      {commentaries.length ? <CommentaryWitnesses commentaries={commentaries} /> : null}
 
       {passage.variants.length > 0 && (
         <section className="variant-panel" aria-labelledby="variant-title">
-          <div><span className="eyebrow">Critical apparatus</span><h2 id="variant-title">Recorded variant</h2></div>
+          <div><span className="eyebrow">Critical apparatus</span><h2 id="variant-title">Textual variant</h2></div>
           {passage.variants.map((variant) => (
             <div key={variant.type}>
               <p>{variant.note}</p>
@@ -98,26 +98,26 @@ export default async function VersePage({ params, searchParams }: Props) {
 
       <section className="provenance-panel" aria-labelledby="provenance-title">
         <div>
-          <span className="eyebrow">Record integrity</span>
-          <h2 id="provenance-title">Provenance</h2>
+          <span className="eyebrow">Source trail</span>
+          <h2 id="provenance-title">Trace this verse</h2>
         </div>
         <dl>
           <div><dt>Canonical ID</dt><dd><code>{passage.canonicalRef}</code></dd></div>
           <div><dt>Corpus version</dt><dd>{passage.corpusVersion}</dd></div>
-          <div><dt>Text review</dt><dd>{passage.review.transcription}; two human passes pending</dd></div>
+          <div><dt>Text review</dt><dd>{passage.review.transcription}; {passage.review.firstHumanReview === 'verified' ? 'first review verified, second pass pending' : 'two human passes pending'}</dd></div>
           {passage.provenance.map((source) => <div key={`${source.sourceId}-${source.role}`}><dt>{source.role}</dt><dd>{source.sourceId} · {source.locator}</dd></div>)}
           <div><dt>SHA-256</dt><dd className="checksum"><code>{passage.checksum}</code></dd></div>
         </dl>
         <div className="api-links">
-          <a href={`/api/v1/passages/gita/${chapter}/${verse}`}>JSON response</a>
-          <a href={`/api/v1/passages/gita/${chapter}/${verse}?format=markdown`}>Markdown response</a>
-          <a href={`/api/v2/passages/gita/${chapter}/${verse}`}>JSON with commentary</a>
+          <a href={`/api/v1/passages/gita/${chapter}/${verse}`}>View JSON</a>
+          <a href={`/api/v1/passages/gita/${chapter}/${verse}?format=markdown`}>View Markdown</a>
+          <a href={`/api/v2/passages/gita/${chapter}/${verse}`}>View JSON with commentaries</a>
         </div>
       </section>
 
       <nav className="passage-navigation" aria-label="Passage navigation">
         {adjacent.previous ? <a href={`/gita/${adjacent.previous.chapter}/${adjacent.previous.verse}`}><span>Previous</span><strong>{adjacent.previous.chapter}.{adjacent.previous.verse}</strong></a> : <span />}
-        {adjacent.next ? <a href={`/gita/${adjacent.next.chapter}/${adjacent.next.verse}`}><span>Next</span><strong>{adjacent.next.chapter}.{adjacent.next.verse}</strong></a> : <a href="/gita"><span>Return</span><strong>Index</strong></a>}
+        {adjacent.next ? <a href={`/gita/${adjacent.next.chapter}/${adjacent.next.verse}`}><span>Next</span><strong>{adjacent.next.chapter}.{adjacent.next.verse}</strong></a> : <a href="/gita"><span>All</span><strong>Chapters</strong></a>}
       </nav>
     </main>
   );
