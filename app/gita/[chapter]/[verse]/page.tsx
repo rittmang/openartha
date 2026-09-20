@@ -74,7 +74,7 @@ export default async function VersePage({ params }: Props) {
           </div>
           <blockquote>{passage.representations.english}</blockquote>
           {passage.review.firstHumanReview === 'verified' && passage.review.firstReviewConfidence !== undefined ? (
-            <p className="alignment-note">This verse was aligned by machine and has completed first review (reviewer confidence: {Math.round(passage.review.firstReviewConfidence * 100)}%); second review pending. Machine alignment confidence: {Math.round(passage.translation.alignmentConfidence * 100)}%.</p>
+            <p className="alignment-note">This verse was aligned by machine and has completed first review ({passage.review.reviewerModel ?? 'google/gemini-3.8-flash'} confidence: {Math.round(passage.review.firstReviewConfidence * 100)}%); second review pending. Machine alignment confidence: {Math.round(passage.translation.alignmentConfidence * 100)}%.</p>
           ) : (
             <p className="alignment-note">This verse was aligned by machine and has not yet completed two independent human reviews. Alignment confidence: {Math.round(passage.translation.alignmentConfidence * 100)}%.</p>
           )}

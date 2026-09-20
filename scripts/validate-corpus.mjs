@@ -34,6 +34,7 @@ for (let chapter = 1; chapter <= 18; chapter += 1) {
     assert.equal(passage.review.firstHumanReview, 'verified');
     assert.equal(passage.review.secondHumanReview, 'pending');
     assert.equal(passage.review.releaseEligible, false);
+    assert.equal(passage.review.reviewerModel, 'google/gemini-3.8-flash');
     assert.equal(typeof passage.review.firstReviewConfidence, 'number');
     assert.ok(passage.review.firstReviewConfidence >= 0 && passage.review.firstReviewConfidence <= 1);
     const expectedChecksum = sha256(JSON.stringify({

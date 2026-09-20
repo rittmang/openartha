@@ -16,12 +16,13 @@ Provide the first independent review pass for all 700 verse translations in the 
    - `translation.status`: `'first review verified; second review pending'`
    - `review.firstHumanReview`: `'verified'`
    - `review.secondHumanReview`: `'pending'`
+   - `review.reviewerModel`: `'google/gemini-3.8-flash'`
    - `review.firstReviewConfidence`: calibrated numeric score ($0.05$ to $0.98$)
    - `review.firstReviewDate`: `'2026-09-19'`
    - `review.firstReviewNotes`: summary alignment and witness notes
 4. **UI notice update:**
-   - In `app/gita/[chapter]/[verse]/page.tsx`, the alignment notice is updated to:
-     `This verse was aligned by machine and has completed first review (reviewer confidence: {Math.round(passage.review.firstReviewConfidence * 100)}%); second review pending. Machine alignment confidence: {Math.round(passage.translation.alignmentConfidence * 100)}%.`
+   - In `app/gita/[chapter]/[verse]/page.tsx`, the alignment notice explicitly tags the evaluating model:
+     `This verse was aligned by machine and has completed first review ({passage.review.reviewerModel} confidence: {Math.round(passage.review.firstReviewConfidence * 100)}%); second review pending. Machine alignment confidence: {Math.round(passage.translation.alignmentConfidence * 100)}%.`
    - In the provenance panel:
      `Text review: {passage.review.transcription}; first review verified, second pass pending`
 

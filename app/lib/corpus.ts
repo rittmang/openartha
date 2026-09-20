@@ -47,6 +47,7 @@ export type Passage = {
     firstHumanReview: string;
     secondHumanReview: string;
     releaseEligible: boolean;
+    reviewerModel?: string;
     firstReviewConfidence?: number;
     firstReviewDate?: string;
     firstReviewNotes?: string;

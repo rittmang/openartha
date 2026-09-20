@@ -287,6 +287,7 @@ for (let chapterIndex = 0; chapterIndex < sourceByChapter.length; chapterIndex +
         firstHumanReview: 'verified',
         secondHumanReview: 'pending',
         releaseEligible: false,
+        reviewerModel: 'google/gemini-3.8-flash',
         firstReviewConfidence: evaluation.confidence,
         firstReviewDate: '2026-09-19',
         firstReviewNotes: evaluation.notes,
