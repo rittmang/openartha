@@ -3,6 +3,12 @@ import path from 'node:path';
 
 const root = process.cwd();
 
+const subagentEvaluationsPath = path.join(root, 'research', 'subagent-evaluations-all-700.json');
+const subagentEvaluations = existsSync(subagentEvaluationsPath)
+  ? JSON.parse(readFileSync(subagentEvaluationsPath, 'utf8'))
+  : [];
+const subagentMap = new Map(subagentEvaluations.map((item) => [item.canonicalRef, item]));
+
 const stopWords = new Set('a an and are as at be been being but by do does for from had has have he her him his i if in into is it its me my no nor not of o on one or our she so that the their them then there these they this those through to up us was we were what when which who whom whose will with you your thou thee thy thine O'.toLowerCase().split(' '));
 
 export function cleanText(value) {
@@ -52,7 +58,19 @@ export function getWitnesses(chapter, verse) {
 }
 
 export function evaluateVerse(passage) {
-  const { chapter, verse } = passage;
+  const { chapter, verse, canonicalRef } = passage;
+  if (subagentMap.has(canonicalRef)) {
+    const sub = subagentMap.get(canonicalRef);
+    return {
+      canonicalRef,
+      chapter,
+      verse,
+      confidence: Number(sub.confidence.toFixed(3)),
+      notes: sub.notes,
+      source: 'gemini-3.8-flash-subagent',
+    };
+  }
+
   const telangRaw = passage.representations.english;
   const telangClean = cleanText(telangRaw);
   const telangTokens = tokenize(telangClean);

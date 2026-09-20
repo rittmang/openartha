@@ -1,0 +1,1304 @@
+[
+  {
+    "canonicalRef": "gita.2.1",
+    "chapter": 2,
+    "verse": 1,
+    "confidence": 0.72,
+    "notes": "Accurately renders verse 2.1 but exhibits forward boundary bleeding by appending the opening interrogative clause of verse 2.2."
+  },
+  {
+    "canonicalRef": "gita.2.2",
+    "chapter": 2,
+    "verse": 2,
+    "confidence": 0.22,
+    "notes": "Severe truncation leaving a four-word residual fragment, as its opening clauses bled into verse 2.1 and its concluding clause into verse 2.3."
+  },
+  {
+    "canonicalRef": "gita.2.3",
+    "chapter": 2,
+    "verse": 3,
+    "confidence": 0.74,
+    "notes": "Accurately renders verse 2.3 in full, though contaminated at the start by the concluding clause of verse 2.2."
+  },
+  {
+    "canonicalRef": "gita.2.4",
+    "chapter": 2,
+    "verse": 4,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.5",
+    "chapter": 2,
+    "verse": 5,
+    "confidence": 0.73,
+    "notes": "Faithfully renders verse 2.5 but exhibits forward boundary bleeding by annexing the opening hemistich of verse 2.6."
+  },
+  {
+    "canonicalRef": "gita.2.6",
+    "chapter": 2,
+    "verse": 6,
+    "confidence": 0.25,
+    "notes": "Severe truncation reducing the verse to an isolated fragment, having lost its first hemistich to verse 2.5 and its second hemistich to verse 2.7."
+  },
+  {
+    "canonicalRef": "gita.2.7",
+    "chapter": 2,
+    "verse": 7,
+    "confidence": 0.6,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the second hemistich of verse 2.6 and displacing its own closing clause into verse 2.8."
+  },
+  {
+    "canonicalRef": "gita.2.8",
+    "chapter": 2,
+    "verse": 8,
+    "confidence": 0.82,
+    "notes": "Faithfully translates verse 2.8 in full, though contaminated at the opening by the concluding clause of verse 2.7."
+  },
+  {
+    "canonicalRef": "gita.2.9",
+    "chapter": 2,
+    "verse": 9,
+    "confidence": 0.75,
+    "notes": "Faithfully renders verse 2.9 but suffers forward boundary bleeding by incorporating the introductory context of verse 2.10."
+  },
+  {
+    "canonicalRef": "gita.2.10",
+    "chapter": 2,
+    "verse": 10,
+    "confidence": 0.55,
+    "notes": "Truncated to the principal speech clause, having lost its vocative and contextual setting to verse 2.9."
+  },
+  {
+    "canonicalRef": "gita.2.11",
+    "chapter": 2,
+    "verse": 11,
+    "confidence": 0.72,
+    "notes": "Faithfully translates verse 2.11 but annexes the first hemistich of verse 2.12 at its conclusion."
+  },
+  {
+    "canonicalRef": "gita.2.12",
+    "chapter": 2,
+    "verse": 12,
+    "confidence": 0.48,
+    "notes": "Truncated by the loss of its opening hemistich to verse 2.11 while annexing the initial comparative connective of verse 2.13."
+  },
+  {
+    "canonicalRef": "gita.2.13",
+    "chapter": 2,
+    "verse": 13,
+    "confidence": 0.75,
+    "notes": "Substantially accurate for verse 2.13, though lacking its initial particle and annexing the opening subject phrase of verse 2.14."
+  },
+  {
+    "canonicalRef": "gita.2.14",
+    "chapter": 2,
+    "verse": 14,
+    "confidence": 0.5,
+    "notes": "Truncated at both ends, omitting its grammatical subject to verse 2.13 and its concluding imperative injunction to verse 2.15."
+  },
+  {
+    "canonicalRef": "gita.2.15",
+    "chapter": 2,
+    "verse": 15,
+    "confidence": 0.8,
+    "notes": "Faithfully translates verse 2.15 but exhibits backward boundary bleeding by incorporating the final imperative of verse 2.14."
+  },
+  {
+    "canonicalRef": "gita.2.16",
+    "chapter": 2,
+    "verse": 16,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.17",
+    "chapter": 2,
+    "verse": 17,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.18",
+    "chapter": 2,
+    "verse": 18,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.19",
+    "chapter": 2,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.20",
+    "chapter": 2,
+    "verse": 20,
+    "confidence": 0.7,
+    "notes": "Faithfully renders verse 2.20 but exhibits forward boundary bleeding by appending the opening clause and vocative of verse 2.21."
+  },
+  {
+    "canonicalRef": "gita.2.21",
+    "chapter": 2,
+    "verse": 21,
+    "confidence": 0.42,
+    "notes": "Severe truncation resulting from the displacement of its opening hemistich into verse 2.20 while annexing the initial phrase of verse 2.22."
+  },
+  {
+    "canonicalRef": "gita.2.22",
+    "chapter": 2,
+    "verse": 22,
+    "confidence": 0.88,
+    "notes": "Substantially accurate and complete, missing only the initial comparative subject phrase that bled into verse 2.21."
+  },
+  {
+    "canonicalRef": "gita.2.23",
+    "chapter": 2,
+    "verse": 23,
+    "confidence": 0.72,
+    "notes": "Faithfully translates verse 2.23 but suffers forward boundary bleeding by incorporating the first hemistich of verse 2.24."
+  },
+  {
+    "canonicalRef": "gita.2.24",
+    "chapter": 2,
+    "verse": 24,
+    "confidence": 0.58,
+    "notes": "Truncated by the loss of three initial adjectival predicates to verse 2.23, though the second hemistich is rendered accurately."
+  },
+  {
+    "canonicalRef": "gita.2.25",
+    "chapter": 2,
+    "verse": 25,
+    "confidence": 0.65,
+    "notes": "Truncated by the omission of its final imperative clause, which was severed and displaced into verse 2.26."
+  },
+  {
+    "canonicalRef": "gita.2.26",
+    "chapter": 2,
+    "verse": 26,
+    "confidence": 0.68,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the conclusion of verse 2.25 and annexing the opening clause of verse 2.27."
+  },
+  {
+    "canonicalRef": "gita.2.27",
+    "chapter": 2,
+    "verse": 27,
+    "confidence": 0.66,
+    "notes": "Suffers bidirectional bleeding, missing its initial conditional clause to verse 2.26 while annexing the opening clause and vocative of verse 2.28."
+  },
+  {
+    "canonicalRef": "gita.2.28",
+    "chapter": 2,
+    "verse": 28,
+    "confidence": 0.62,
+    "notes": "Truncated by the loss of its opening clause and vocative to verse 2.27, though the remainder is faithfully rendered."
+  },
+  {
+    "canonicalRef": "gita.2.29",
+    "chapter": 2,
+    "verse": 29,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.30",
+    "chapter": 2,
+    "verse": 30,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.31",
+    "chapter": 2,
+    "verse": 31,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.32",
+    "chapter": 2,
+    "verse": 32,
+    "confidence": 0.74,
+    "notes": "Faithfully translates verse 2.32 but exhibits forward boundary bleeding by appending the conditional clause of verse 2.33."
+  },
+  {
+    "canonicalRef": "gita.2.33",
+    "chapter": 2,
+    "verse": 33,
+    "confidence": 0.58,
+    "notes": "Truncated to the apodosis clause, having lost its opening conditional clause to verse 2.32."
+  },
+  {
+    "canonicalRef": "gita.2.34",
+    "chapter": 2,
+    "verse": 34,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.35",
+    "chapter": 2,
+    "verse": 35,
+    "confidence": 0.65,
+    "notes": "Truncated by the severance of its final predicate clause, which was displaced into verse 2.36."
+  },
+  {
+    "canonicalRef": "gita.2.36",
+    "chapter": 2,
+    "verse": 36,
+    "confidence": 0.82,
+    "notes": "Faithfully translates verse 2.36 in full, though contaminated at the opening by the concluding predicate of verse 2.35."
+  },
+  {
+    "canonicalRef": "gita.2.37",
+    "chapter": 2,
+    "verse": 37,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.38",
+    "chapter": 2,
+    "verse": 38,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.39",
+    "chapter": 2,
+    "verse": 39,
+    "confidence": 0.74,
+    "notes": "Faithfully translates verse 2.39 but suffers forward boundary bleeding by annexing the initial clause of verse 2.40."
+  },
+  {
+    "canonicalRef": "gita.2.40",
+    "chapter": 2,
+    "verse": 40,
+    "confidence": 0.65,
+    "notes": "Truncated by the loss of its opening clause to verse 2.39, though the remainder is accurately rendered."
+  },
+  {
+    "canonicalRef": "gita.2.41",
+    "chapter": 2,
+    "verse": 41,
+    "confidence": 0.45,
+    "notes": "Translates verse 2.41 accurately but suffers massive forward boundary bleeding by absorbing the majority of verses 2.42 through 2.44."
+  },
+  {
+    "canonicalRef": "gita.2.42",
+    "chapter": 2,
+    "verse": 42,
+    "confidence": 0.2,
+    "notes": "Severe alignment failure reducing the verse to a six-word fragment, as the remainder of the verse was absorbed into verse 2.41."
+  },
+  {
+    "canonicalRef": "gita.2.43",
+    "chapter": 2,
+    "verse": 43,
+    "confidence": 0.28,
+    "notes": "Severe truncation leaving only a single epithet clause, as the bulk of its content was absorbed into verse 2.41."
+  },
+  {
+    "canonicalRef": "gita.2.44",
+    "chapter": 2,
+    "verse": 44,
+    "confidence": 0.1,
+    "notes": "Complete alignment displacement; the verse's actual translation was absorbed into verse 2.41, leaving an erroneous fragment from verse 2.45 in its place."
+  },
+  {
+    "canonicalRef": "gita.2.45",
+    "chapter": 2,
+    "verse": 45,
+    "confidence": 0.52,
+    "notes": "Truncated at both boundaries, missing its opening Vedic premise to verse 2.44 and its final injunction to verse 2.46."
+  },
+  {
+    "canonicalRef": "gita.2.46",
+    "chapter": 2,
+    "verse": 46,
+    "confidence": 0.82,
+    "notes": "Faithfully translates verse 2.46 in full, though contaminated at the opening by the final injunction of verse 2.45."
+  },
+  {
+    "canonicalRef": "gita.2.47",
+    "chapter": 2,
+    "verse": 47,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.48",
+    "chapter": 2,
+    "verse": 48,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.49",
+    "chapter": 2,
+    "verse": 49,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.50",
+    "chapter": 2,
+    "verse": 50,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.51",
+    "chapter": 2,
+    "verse": 51,
+    "confidence": 0.5,
+    "notes": "Accurately translates verse 2.51 but suffers heavy forward bleeding by absorbing the entire translation of verse 2.52 and the opening of verse 2.53."
+  },
+  {
+    "canonicalRef": "gita.2.52",
+    "chapter": 2,
+    "verse": 52,
+    "confidence": 0.12,
+    "notes": "Complete alignment displacement; verse 2.52 was absorbed into verse 2.51, leaving a displaced fragment of verse 2.53 in its place."
+  },
+  {
+    "canonicalRef": "gita.2.53",
+    "chapter": 2,
+    "verse": 53,
+    "confidence": 0.28,
+    "notes": "Severe truncation leaving only a subordinate predicate fragment, as its subject bled into adjacent verses and its apodosis into verse 2.54."
+  },
+  {
+    "canonicalRef": "gita.2.54",
+    "chapter": 2,
+    "verse": 54,
+    "confidence": 0.78,
+    "notes": "Faithfully translates Arjuna's inquiry in verse 2.54, though contaminated at the opening by the concluding clause of verse 2.53."
+  },
+  {
+    "canonicalRef": "gita.2.55",
+    "chapter": 2,
+    "verse": 55,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.56",
+    "chapter": 2,
+    "verse": 56,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.57",
+    "chapter": 2,
+    "verse": 57,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.58",
+    "chapter": 2,
+    "verse": 58,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.59",
+    "chapter": 2,
+    "verse": 59,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.60",
+    "chapter": 2,
+    "verse": 60,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.61",
+    "chapter": 2,
+    "verse": 61,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.62",
+    "chapter": 2,
+    "verse": 62,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.63",
+    "chapter": 2,
+    "verse": 63,
+    "confidence": 0.7,
+    "notes": "Truncated by the severance of its final catastrophic clause, which was displaced into verse 2.64."
+  },
+  {
+    "canonicalRef": "gita.2.64",
+    "chapter": 2,
+    "verse": 64,
+    "confidence": 0.65,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the conclusion of verse 2.63 and annexing the opening temporal clause of verse 2.65."
+  },
+  {
+    "canonicalRef": "gita.2.65",
+    "chapter": 2,
+    "verse": 65,
+    "confidence": 0.82,
+    "notes": "Accurately renders verse 2.65 in substance, lacking only its initial locative clause that bled into verse 2.64."
+  },
+  {
+    "canonicalRef": "gita.2.66",
+    "chapter": 2,
+    "verse": 66,
+    "confidence": 0.68,
+    "notes": "Faithfully renders verse 2.66 but suffers forward boundary bleeding by annexing the principal clauses of verse 2.67."
+  },
+  {
+    "canonicalRef": "gita.2.67",
+    "chapter": 2,
+    "verse": 67,
+    "confidence": 0.3,
+    "notes": "Severe truncation leaving only the closing simile fragment, as the core proposition was absorbed into verse 2.66."
+  },
+  {
+    "canonicalRef": "gita.2.68",
+    "chapter": 2,
+    "verse": 68,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.69",
+    "chapter": 2,
+    "verse": 69,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.70",
+    "chapter": 2,
+    "verse": 70,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.71",
+    "chapter": 2,
+    "verse": 71,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.2.72",
+    "chapter": 2,
+    "verse": 72,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.1",
+    "chapter": 3,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.2",
+    "chapter": 3,
+    "verse": 2,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.3",
+    "chapter": 3,
+    "verse": 3,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.4",
+    "chapter": 3,
+    "verse": 4,
+    "confidence": 0.72,
+    "notes": "Faithfully translates verse 3.4 but exhibits forward boundary bleeding by appending the opening hemistich of verse 3.5."
+  },
+  {
+    "canonicalRef": "gita.3.5",
+    "chapter": 3,
+    "verse": 5,
+    "confidence": 0.58,
+    "notes": "Suffers bidirectional boundary bleeding, losing its opening hemistich to verse 3.4 while annexing the subject relative clause of verse 3.6."
+  },
+  {
+    "canonicalRef": "gita.3.6",
+    "chapter": 3,
+    "verse": 6,
+    "confidence": 0.76,
+    "notes": "Substantially accurate for verse 3.6, though lacking its subject phrase to verse 3.5 and annexing the opening adversative pronoun of verse 3.7."
+  },
+  {
+    "canonicalRef": "gita.3.7",
+    "chapter": 3,
+    "verse": 7,
+    "confidence": 0.62,
+    "notes": "Truncated to a relative clause, having lost its initial connective to verse 3.6 and its main predicate verb phrase to verse 3.8."
+  },
+  {
+    "canonicalRef": "gita.3.8",
+    "chapter": 3,
+    "verse": 8,
+    "confidence": 0.82,
+    "notes": "Faithfully translates verse 3.8 in full, though contaminated at the opening by the final predicate of verse 3.7."
+  },
+  {
+    "canonicalRef": "gita.3.9",
+    "chapter": 3,
+    "verse": 9,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.10",
+    "chapter": 3,
+    "verse": 10,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.11",
+    "chapter": 3,
+    "verse": 11,
+    "confidence": 0.78,
+    "notes": "Faithfully translates verse 3.11 but suffers forward boundary bleeding by annexing the initial participial phrase of verse 3.12."
+  },
+  {
+    "canonicalRef": "gita.3.12",
+    "chapter": 3,
+    "verse": 12,
+    "confidence": 0.85,
+    "notes": "Faithfully translates verse 3.12, lacking only its initial participial phrase that was annexed by verse 3.11."
+  },
+  {
+    "canonicalRef": "gita.3.13",
+    "chapter": 3,
+    "verse": 13,
+    "confidence": 0.7,
+    "notes": "Truncated by the severance of its final predicate clause, which was displaced into verse 3.14."
+  },
+  {
+    "canonicalRef": "gita.3.14",
+    "chapter": 3,
+    "verse": 14,
+    "confidence": 0.82,
+    "notes": "Faithfully translates verse 3.14 in full, though contaminated at the opening by the concluding verb of verse 3.13."
+  },
+  {
+    "canonicalRef": "gita.3.15",
+    "chapter": 3,
+    "verse": 15,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.16",
+    "chapter": 3,
+    "verse": 16,
+    "confidence": 0.68,
+    "notes": "Truncated by the loss of its final principal clause and vocative, which were severed and displaced into verse 3.17."
+  },
+  {
+    "canonicalRef": "gita.3.17",
+    "chapter": 3,
+    "verse": 17,
+    "confidence": 0.8,
+    "notes": "Faithfully translates verse 3.17 in full, though contaminated at the opening by the concluding clause of verse 3.16."
+  },
+  {
+    "canonicalRef": "gita.3.18",
+    "chapter": 3,
+    "verse": 18,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.19",
+    "chapter": 3,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.20",
+    "chapter": 3,
+    "verse": 20,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.21",
+    "chapter": 3,
+    "verse": 21,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.22",
+    "chapter": 3,
+    "verse": 22,
+    "confidence": 0.72,
+    "notes": "Faithfully translates verse 3.22 but exhibits forward boundary bleeding by appending the conditional clause of verse 3.23."
+  },
+  {
+    "canonicalRef": "gita.3.23",
+    "chapter": 3,
+    "verse": 23,
+    "confidence": 0.5,
+    "notes": "Truncated to the apodosis clause, having lost its opening conditional clause to verse 3.22 and its vocative to verse 3.24."
+  },
+  {
+    "canonicalRef": "gita.3.24",
+    "chapter": 3,
+    "verse": 24,
+    "confidence": 0.68,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the vocative of verse 3.23 and annexing the opening comparative clause of verse 3.25."
+  },
+  {
+    "canonicalRef": "gita.3.25",
+    "chapter": 3,
+    "verse": 25,
+    "confidence": 0.55,
+    "notes": "Truncated at both boundaries, losing its opening comparative clause to verse 3.24 and its final purposive participle to verse 3.26."
+  },
+  {
+    "canonicalRef": "gita.3.26",
+    "chapter": 3,
+    "verse": 26,
+    "confidence": 0.82,
+    "notes": "Faithfully translates verse 3.26 in full, though contaminated at the opening by the concluding participle of verse 3.25."
+  },
+  {
+    "canonicalRef": "gita.3.27",
+    "chapter": 3,
+    "verse": 27,
+    "confidence": 0.6,
+    "notes": "Truncated by the displacement of its relative clause describing nature's actions into verse 3.28."
+  },
+  {
+    "canonicalRef": "gita.3.28",
+    "chapter": 3,
+    "verse": 28,
+    "confidence": 0.62,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the displaced clause of verse 3.27 and losing its final causal participial clause to verse 3.29."
+  },
+  {
+    "canonicalRef": "gita.3.29",
+    "chapter": 3,
+    "verse": 29,
+    "confidence": 0.82,
+    "notes": "Faithfully translates verse 3.29 in full, though contaminated at the opening by the concluding clause of verse 3.28."
+  },
+  {
+    "canonicalRef": "gita.3.30",
+    "chapter": 3,
+    "verse": 30,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.31",
+    "chapter": 3,
+    "verse": 31,
+    "confidence": 0.73,
+    "notes": "Faithfully translates verse 3.31 but exhibits forward boundary bleeding by appending the opening conditional subject of verse 3.32."
+  },
+  {
+    "canonicalRef": "gita.3.32",
+    "chapter": 3,
+    "verse": 32,
+    "confidence": 0.5,
+    "notes": "Truncated at both boundaries, having lost its initial protasis clause to verse 3.31 and its final predicate adjective to verse 3.33."
+  },
+  {
+    "canonicalRef": "gita.3.33",
+    "chapter": 3,
+    "verse": 33,
+    "confidence": 0.85,
+    "notes": "Faithfully translates verse 3.33 in full, though contaminated at the opening by the concluding predicate of verse 3.32."
+  },
+  {
+    "canonicalRef": "gita.3.34",
+    "chapter": 3,
+    "verse": 34,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.35",
+    "chapter": 3,
+    "verse": 35,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.36",
+    "chapter": 3,
+    "verse": 36,
+    "confidence": 0.92,
+    "notes": "Faithfully renders verse 3.36, annexing only the subsequent speaker rubric for the response."
+  },
+  {
+    "canonicalRef": "gita.3.37",
+    "chapter": 3,
+    "verse": 37,
+    "confidence": 0.74,
+    "notes": "Faithfully translates verse 3.37 but exhibits forward boundary bleeding by appending the opening simile of verse 3.38."
+  },
+  {
+    "canonicalRef": "gita.3.38",
+    "chapter": 3,
+    "verse": 38,
+    "confidence": 0.2,
+    "notes": "Severe truncation reducing the verse to a four-word fragment, having lost its initial simile to verse 3.37 and its concluding clause to verse 3.39."
+  },
+  {
+    "canonicalRef": "gita.3.39",
+    "chapter": 3,
+    "verse": 39,
+    "confidence": 0.78,
+    "notes": "Faithfully translates verse 3.39 in full, though contaminated at the opening by the concluding clause of verse 3.38."
+  },
+  {
+    "canonicalRef": "gita.3.40",
+    "chapter": 3,
+    "verse": 40,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.41",
+    "chapter": 3,
+    "verse": 41,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.42",
+    "chapter": 3,
+    "verse": 42,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.3.43",
+    "chapter": 3,
+    "verse": 43,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.1",
+    "chapter": 4,
+    "verse": 1,
+    "confidence": 0.78,
+    "notes": "Faithfully translates verse 4.1 but suffers forward boundary bleeding by annexing the opening phrase of verse 4.2."
+  },
+  {
+    "canonicalRef": "gita.4.2",
+    "chapter": 4,
+    "verse": 2,
+    "confidence": 0.65,
+    "notes": "Suffers bidirectional boundary bleeding by losing its initial phrase to verse 4.1 and annexing the opening principal clause of verse 4.3."
+  },
+  {
+    "canonicalRef": "gita.4.3",
+    "chapter": 4,
+    "verse": 3,
+    "confidence": 0.58,
+    "notes": "Truncated to its subordinate causal clauses, having lost its principal proposition to verse 4.2."
+  },
+  {
+    "canonicalRef": "gita.4.4",
+    "chapter": 4,
+    "verse": 4,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.5",
+    "chapter": 4,
+    "verse": 5,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.6",
+    "chapter": 4,
+    "verse": 6,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.7",
+    "chapter": 4,
+    "verse": 7,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.8",
+    "chapter": 4,
+    "verse": 8,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.9",
+    "chapter": 4,
+    "verse": 9,
+    "confidence": 0.75,
+    "notes": "Faithfully translates verse 4.9 but suffers forward boundary bleeding by annexing the opening words of verse 4.10."
+  },
+  {
+    "canonicalRef": "gita.4.10",
+    "chapter": 4,
+    "verse": 10,
+    "confidence": 0.05,
+    "notes": "Catastrophic alignment failure reducing the entire verse to a single isolated noun, having lost its opening to verse 4.9 and its remainder to verse 4.11."
+  },
+  {
+    "canonicalRef": "gita.4.11",
+    "chapter": 4,
+    "verse": 11,
+    "confidence": 0.65,
+    "notes": "Faithfully renders verse 4.11 in full, but heavily contaminated at the opening by the absorbed majority of verse 4.10."
+  },
+  {
+    "canonicalRef": "gita.4.12",
+    "chapter": 4,
+    "verse": 12,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.13",
+    "chapter": 4,
+    "verse": 13,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.14",
+    "chapter": 4,
+    "verse": 14,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.15",
+    "chapter": 4,
+    "verse": 15,
+    "confidence": 0.55,
+    "notes": "Truncated by the loss of its second hemistich imperative injunction, which was displaced into verse 4.16."
+  },
+  {
+    "canonicalRef": "gita.4.16",
+    "chapter": 4,
+    "verse": 16,
+    "confidence": 0.65,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the second hemistich of verse 4.15 and annexing the opening clause of verse 4.17."
+  },
+  {
+    "canonicalRef": "gita.4.17",
+    "chapter": 4,
+    "verse": 17,
+    "confidence": 0.75,
+    "notes": "Substantially accurate for verse 4.17, lacking only its initial clause that bled into verse 4.16."
+  },
+  {
+    "canonicalRef": "gita.4.18",
+    "chapter": 4,
+    "verse": 18,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.19",
+    "chapter": 4,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.20",
+    "chapter": 4,
+    "verse": 20,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.21",
+    "chapter": 4,
+    "verse": 21,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.22",
+    "chapter": 4,
+    "verse": 22,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.23",
+    "chapter": 4,
+    "verse": 23,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.24",
+    "chapter": 4,
+    "verse": 24,
+    "confidence": 0.6,
+    "notes": "Truncated by the severance of its entire second hemistich, which was displaced into verse 4.25."
+  },
+  {
+    "canonicalRef": "gita.4.25",
+    "chapter": 4,
+    "verse": 25,
+    "confidence": 0.78,
+    "notes": "Faithfully translates verse 4.25 in full, though contaminated at the opening by the concluding hemistich of verse 4.24."
+  },
+  {
+    "canonicalRef": "gita.4.26",
+    "chapter": 4,
+    "verse": 26,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.27",
+    "chapter": 4,
+    "verse": 27,
+    "confidence": 0.72,
+    "notes": "Faithfully translates verse 4.27 but suffers forward boundary bleeding by annexing the opening hemistich of verse 4.28."
+  },
+  {
+    "canonicalRef": "gita.4.28",
+    "chapter": 4,
+    "verse": 28,
+    "confidence": 0.55,
+    "notes": "Truncated by the loss of its entire first hemistich, which was absorbed into verse 4.27."
+  },
+  {
+    "canonicalRef": "gita.4.29",
+    "chapter": 4,
+    "verse": 29,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.30",
+    "chapter": 4,
+    "verse": 30,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.31",
+    "chapter": 4,
+    "verse": 31,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.32",
+    "chapter": 4,
+    "verse": 32,
+    "confidence": 0.7,
+    "notes": "Faithfully translates verse 4.32 but exhibits forward boundary bleeding by appending the opening hemistich of verse 4.33."
+  },
+  {
+    "canonicalRef": "gita.4.33",
+    "chapter": 4,
+    "verse": 33,
+    "confidence": 0.52,
+    "notes": "Suffers bidirectional boundary bleeding by losing its first hemistich to verse 4.32 and annexing the opening clause of verse 4.34."
+  },
+  {
+    "canonicalRef": "gita.4.34",
+    "chapter": 4,
+    "verse": 34,
+    "confidence": 0.62,
+    "notes": "Truncated by the loss of its initial instructional clause to verse 4.33, though the second hemistich is faithfully rendered."
+  },
+  {
+    "canonicalRef": "gita.4.35",
+    "chapter": 4,
+    "verse": 35,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.36",
+    "chapter": 4,
+    "verse": 36,
+    "confidence": 0.48,
+    "notes": "Truncated to the conditional protasis, having lost its entire main apodosis clause to verse 4.37."
+  },
+  {
+    "canonicalRef": "gita.4.37",
+    "chapter": 4,
+    "verse": 37,
+    "confidence": 0.52,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the apodosis of verse 4.36 and displacing its own second hemistich into verse 4.38."
+  },
+  {
+    "canonicalRef": "gita.4.38",
+    "chapter": 4,
+    "verse": 38,
+    "confidence": 0.8,
+    "notes": "Faithfully translates verse 4.38 in full, though contaminated at the opening by the concluding hemistich of verse 4.37."
+  },
+  {
+    "canonicalRef": "gita.4.39",
+    "chapter": 4,
+    "verse": 39,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.40",
+    "chapter": 4,
+    "verse": 40,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.41",
+    "chapter": 4,
+    "verse": 41,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.4.42",
+    "chapter": 4,
+    "verse": 42,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.1",
+    "chapter": 5,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.2",
+    "chapter": 5,
+    "verse": 2,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.3",
+    "chapter": 5,
+    "verse": 3,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.4",
+    "chapter": 5,
+    "verse": 4,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.5",
+    "chapter": 5,
+    "verse": 5,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.6",
+    "chapter": 5,
+    "verse": 6,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.7",
+    "chapter": 5,
+    "verse": 7,
+    "confidence": 0.7,
+    "notes": "Faithfully translates verse 5.7 but exhibits forward boundary bleeding by appending the opening proposition of verse 5.8."
+  },
+  {
+    "canonicalRef": "gita.5.8",
+    "chapter": 5,
+    "verse": 8,
+    "confidence": 0.25,
+    "notes": "Severe truncation reducing the verse to an isolated list of sense actions, as its governing clause was annexed by verse 5.7."
+  },
+  {
+    "canonicalRef": "gita.5.9",
+    "chapter": 5,
+    "verse": 9,
+    "confidence": 0.92,
+    "notes": "Faithfully translates the actions and concluding philosophical conviction of verse 5.9."
+  },
+  {
+    "canonicalRef": "gita.5.10",
+    "chapter": 5,
+    "verse": 10,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.11",
+    "chapter": 5,
+    "verse": 11,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.12",
+    "chapter": 5,
+    "verse": 12,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.13",
+    "chapter": 5,
+    "verse": 13,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.14",
+    "chapter": 5,
+    "verse": 14,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.15",
+    "chapter": 5,
+    "verse": 15,
+    "confidence": 0.7,
+    "notes": "Truncated by the severance of its final consequence clause, which was displaced into verse 5.16."
+  },
+  {
+    "canonicalRef": "gita.5.16",
+    "chapter": 5,
+    "verse": 16,
+    "confidence": 0.65,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the conclusion of verse 5.15 and displacing its own final predicate into verse 5.17."
+  },
+  {
+    "canonicalRef": "gita.5.17",
+    "chapter": 5,
+    "verse": 17,
+    "confidence": 0.82,
+    "notes": "Faithfully translates verse 5.17 in full, though contaminated at the opening by the concluding predicate of verse 5.16."
+  },
+  {
+    "canonicalRef": "gita.5.18",
+    "chapter": 5,
+    "verse": 18,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.19",
+    "chapter": 5,
+    "verse": 19,
+    "confidence": 0.72,
+    "notes": "Faithfully translates verse 5.19 but suffers forward boundary bleeding by annexing the subject epithets of verse 5.20."
+  },
+  {
+    "canonicalRef": "gita.5.20",
+    "chapter": 5,
+    "verse": 20,
+    "confidence": 0.2,
+    "notes": "Severe truncation leaving only a five-word residual phrase, as its subjects were absorbed into verse 5.19 and its main predicates into verse 5.21."
+  },
+  {
+    "canonicalRef": "gita.5.21",
+    "chapter": 5,
+    "verse": 21,
+    "confidence": 0.62,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the predicates of verse 5.20 and displacing its own final result clause into verse 5.22."
+  },
+  {
+    "canonicalRef": "gita.5.22",
+    "chapter": 5,
+    "verse": 22,
+    "confidence": 0.82,
+    "notes": "Faithfully translates verse 5.22 in full, though contaminated at the opening by the concluding clause of verse 5.21."
+  },
+  {
+    "canonicalRef": "gita.5.23",
+    "chapter": 5,
+    "verse": 23,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.5.24",
+    "chapter": 5,
+    "verse": 24,
+    "confidence": 0.7,
+    "notes": "Truncated by the severance of its final predicate clause, which was displaced into verse 5.25."
+  },
+  {
+    "canonicalRef": "gita.5.25",
+    "chapter": 5,
+    "verse": 25,
+    "confidence": 0.65,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the displaced predicate of verse 5.24 and displacing its own identical predicate into verse 5.26."
+  },
+  {
+    "canonicalRef": "gita.5.26",
+    "chapter": 5,
+    "verse": 26,
+    "confidence": 0.62,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the predicate of verse 5.25 and losing its own main proposition to verse 5.27."
+  },
+  {
+    "canonicalRef": "gita.5.27",
+    "chapter": 5,
+    "verse": 27,
+    "confidence": 0.8,
+    "notes": "Faithfully renders the yogic practices of verse 5.27, though contaminated at the opening by the concluding clause of verse 5.26."
+  },
+  {
+    "canonicalRef": "gita.5.28",
+    "chapter": 5,
+    "verse": 28,
+    "confidence": 0.65,
+    "notes": "Truncated by the severance of its final compound element and liberation declaration, which bled into verse 5.29."
+  },
+  {
+    "canonicalRef": "gita.5.29",
+    "chapter": 5,
+    "verse": 29,
+    "confidence": 0.8,
+    "notes": "Faithfully translates verse 5.29 in full, though contaminated at the opening by the concluding clause of verse 5.28."
+  }
+]

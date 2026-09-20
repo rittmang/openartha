@@ -1,0 +1,912 @@
+[
+  {
+    "canonicalRef": "gita.16.1",
+    "chapter": 16,
+    "verse": 1,
+    "confidence": 0.7,
+    "notes": "Accurately renders the first six divine virtues, but is truncated by losing the verse's final three virtues ('study of the Vedas, penance, straightforwardness') into verse 16.2."
+  },
+  {
+    "canonicalRef": "gita.16.2",
+    "chapter": 16,
+    "verse": 2,
+    "confidence": 0.45,
+    "notes": "Severely distorted by backward boundary bleeding of three virtues from 16.1 while omitting more than half of its own virtues (from tyāga through acāpala), which bleed into verses 16.3 and 16.4."
+  },
+  {
+    "canonicalRef": "gita.16.3",
+    "chapter": 16,
+    "verse": 3,
+    "confidence": 0.05,
+    "notes": "Complete misalignment: contains exclusively the displaced middle virtues of verse 16.2 (from tyāga to mārdava), possessing zero content belonging to verse 16.3."
+  },
+  {
+    "canonicalRef": "gita.16.4",
+    "chapter": 16,
+    "verse": 4,
+    "confidence": 0.05,
+    "notes": "Complete misalignment: contains the final virtues of 16.2 and opening virtues of 16.3, while completely omitting the demoniac traits constituting verse 16.4."
+  },
+  {
+    "canonicalRef": "gita.16.5",
+    "chapter": 16,
+    "verse": 5,
+    "confidence": 0.45,
+    "notes": "Faithfully translates verse 16.5 in its second half, but heavily over-includes preceding material by absorbing the second half of 16.3 and the entirety of verse 16.4."
+  },
+  {
+    "canonicalRef": "gita.16.6",
+    "chapter": 16,
+    "verse": 6,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the entire verse with complete semantic correspondence and clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.16.7",
+    "chapter": 16,
+    "verse": 7,
+    "confidence": 0.98,
+    "notes": "Accurately and fully translates the Sanskrit verse with precise lexical fidelity and no boundary defects."
+  },
+  {
+    "canonicalRef": "gita.16.8",
+    "chapter": 16,
+    "verse": 8,
+    "confidence": 0.96,
+    "notes": "Faithfully translates the entire verse, capturing the materialist philosophical worldview with uncompromised boundaries."
+  },
+  {
+    "canonicalRef": "gita.16.9",
+    "chapter": 16,
+    "verse": 9,
+    "confidence": 0.98,
+    "notes": "Fully and accurately translates the verse with exact semantic alignment and uncompromised boundaries."
+  },
+  {
+    "canonicalRef": "gita.16.10",
+    "chapter": 16,
+    "verse": 10,
+    "confidence": 0.98,
+    "notes": "Faithfully translates the complete Sanskrit verse with precise rendering of all four quarters and no boundary defects."
+  },
+  {
+    "canonicalRef": "gita.16.11",
+    "chapter": 16,
+    "verse": 11,
+    "confidence": 0.78,
+    "notes": "Accurately renders verse 16.11 in full, but bleeds forward by annexing the opening clause of verse 16.12 ('bound down by nets of hopes in hundreds') at the end."
+  },
+  {
+    "canonicalRef": "gita.16.12",
+    "chapter": 16,
+    "verse": 12,
+    "confidence": 0.78,
+    "notes": "Faithfully renders the core clause of 16.12, but lacks its opening pāda ('bound down by nets of hopes') which bled into verse 16.11."
+  },
+  {
+    "canonicalRef": "gita.16.13",
+    "chapter": 16,
+    "verse": 13,
+    "confidence": 0.96,
+    "notes": "Faithfully translates the demoniac inner monologue of verse 16.13 with exact lexical correspondence and clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.16.14",
+    "chapter": 16,
+    "verse": 14,
+    "confidence": 0.75,
+    "notes": "Translates all of verse 16.14 accurately, but exhibits forward boundary bleeding by appending the opening clause of verse 16.15 ('I have wealth I am of noble birth')."
+  },
+  {
+    "canonicalRef": "gita.16.15",
+    "chapter": 16,
+    "verse": 15,
+    "confidence": 0.8,
+    "notes": "Accurately renders the rhetorical boasting and delusion of 16.15, but is truncated at the start by losing its opening clause to verse 16.14."
+  },
+  {
+    "canonicalRef": "gita.16.16",
+    "chapter": 16,
+    "verse": 16,
+    "confidence": 0.75,
+    "notes": "Faithfully translates the complete text of 16.16, but bleeds forward by annexing the opening descriptive epithets of verse 16.17 ('Honoured only by themselves, void of humility')."
+  },
+  {
+    "canonicalRef": "gita.16.17",
+    "chapter": 16,
+    "verse": 17,
+    "confidence": 0.6,
+    "notes": "Truncated at both boundaries, missing its opening epithets (bled into 16.16) and losing its adverbial ending 'with ostentatiousness and against prescribed rules' to verse 16.18."
+  },
+  {
+    "canonicalRef": "gita.16.18",
+    "chapter": 16,
+    "verse": 18,
+    "confidence": 0.82,
+    "notes": "Accurately renders verse 16.18 in full, though contaminated at the opening by the displaced concluding clause of verse 16.17."
+  },
+  {
+    "canonicalRef": "gita.16.19",
+    "chapter": 16,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Accurately and faithfully translates the entire verse with exact grammatical fidelity and clean verse boundaries."
+  },
+  {
+    "canonicalRef": "gita.16.20",
+    "chapter": 16,
+    "verse": 20,
+    "confidence": 0.98,
+    "notes": "Fully and faithfully translates the verse without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.16.21",
+    "chapter": 16,
+    "verse": 21,
+    "confidence": 0.98,
+    "notes": "Impeccably translates the verse with full fidelity to the Sanskrit philosophical terms and flawless boundaries."
+  },
+  {
+    "canonicalRef": "gita.16.22",
+    "chapter": 16,
+    "verse": 22,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely renders the Sanskrit verse with impeccable semantic and syntactic correspondence."
+  },
+  {
+    "canonicalRef": "gita.16.23",
+    "chapter": 16,
+    "verse": 23,
+    "confidence": 0.98,
+    "notes": "Fully and faithfully translates every word of the Sanskrit verse with perfect precision and clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.16.24",
+    "chapter": 16,
+    "verse": 24,
+    "confidence": 0.96,
+    "notes": "Faithfully translates the complete Sanskrit verse with high precision, notwithstanding minor transcription typographical artifacts ('w hat', 'must. be')."
+  },
+  {
+    "canonicalRef": "gita.17.1",
+    "chapter": 17,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely translates Arjuna's opening inquiry regarding the status of faith without scriptural ordinance, with clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.17.2",
+    "chapter": 17,
+    "verse": 2,
+    "confidence": 0.98,
+    "notes": "Fully and faithfully translates the Lord's declaration on the threefold natural faith of embodied beings with intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.17.3",
+    "chapter": 17,
+    "verse": 3,
+    "confidence": 0.96,
+    "notes": "Faithfully translates the philosophical dictum equating a person's nature with their faith, without boundary defects."
+  },
+  {
+    "canonicalRef": "gita.17.4",
+    "chapter": 17,
+    "verse": 4,
+    "confidence": 0.98,
+    "notes": "Accurately renders the taxonomy of worship across the three qualities with complete fidelity and clear boundaries."
+  },
+  {
+    "canonicalRef": "gita.17.5",
+    "chapter": 17,
+    "verse": 5,
+    "confidence": 0.7,
+    "notes": "Accurately renders the qualifiers of 17.5, but incorporates the principal governing clause ('Know those to be of demoniac convictions') belonging to verse 17.6."
+  },
+  {
+    "canonicalRef": "gita.17.6",
+    "chapter": 17,
+    "verse": 6,
+    "confidence": 0.72,
+    "notes": "Captures the participial clauses describing the torment of bodily elements, but lacks its governing imperative clause ('tānviddhyāsuraniścayān') which was absorbed into verse 17.5."
+  },
+  {
+    "canonicalRef": "gita.17.7",
+    "chapter": 17,
+    "verse": 7,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely translates the transitional verse introducing the tripartite classification of food, sacrifice, penance, and gifts."
+  },
+  {
+    "canonicalRef": "gita.17.8",
+    "chapter": 17,
+    "verse": 8,
+    "confidence": 0.72,
+    "notes": "Accurately translates all of verse 17.8, but severely bleeds forward by annexing the initial food descriptors of verse 17.9 ('bitter, acid, saltish, too hot, sharp')."
+  },
+  {
+    "canonicalRef": "gita.17.9",
+    "chapter": 17,
+    "verse": 9,
+    "confidence": 0.6,
+    "notes": "Severely affected by boundary bleeding at both ends, missing its initial descriptors to 17.8 while annexing the opening descriptor of verse 17.10 ('And the food which is cold')."
+  },
+  {
+    "canonicalRef": "gita.17.10",
+    "chapter": 17,
+    "verse": 10,
+    "confidence": 0.05,
+    "notes": "Catastrophic machine alignment failure reducing verse 17.10 to the isolated word 'tasteless', having lost its opening to 17.9 and its remaining text to 17.11."
+  },
+  {
+    "canonicalRef": "gita.17.11",
+    "chapter": 17,
+    "verse": 11,
+    "confidence": 0.45,
+    "notes": "Severely congested boundary distortion that absorbs the bulk of verse 17.10 at the start and annexes the opening half of verse 17.12 at the end alongside 17.11."
+  },
+  {
+    "canonicalRef": "gita.17.12",
+    "chapter": 17,
+    "verse": 12,
+    "confidence": 0.5,
+    "notes": "Severely truncated fragment containing only the second hemistich of 17.12, having lost its initial protasis and vocative address to verse 17.11."
+  },
+  {
+    "canonicalRef": "gita.17.13",
+    "chapter": 17,
+    "verse": 13,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely translates the definition of tamasic sacrifice with pristine lexical correspondence and intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.17.14",
+    "chapter": 17,
+    "verse": 14,
+    "confidence": 0.98,
+    "notes": "Accurately and fully renders bodily austerity (śārīra tapa) with complete fidelity and clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.17.15",
+    "chapter": 17,
+    "verse": 15,
+    "confidence": 0.98,
+    "notes": "Faithfully translates the definition of austerity of speech (vāṅmaya tapa) without any omissions or boundary defects."
+  },
+  {
+    "canonicalRef": "gita.17.16",
+    "chapter": 17,
+    "verse": 16,
+    "confidence": 0.98,
+    "notes": "Impeccably translates mental austerity (mānasa tapa) with precise lexical correspondence and uncompromised boundaries."
+  },
+  {
+    "canonicalRef": "gita.17.17",
+    "chapter": 17,
+    "verse": 17,
+    "confidence": 0.74,
+    "notes": "Accurately renders verse 17.17 in full, but bleeds forward by annexing the opening subject and motive of verse 17.18 ('The penance which is done for respect')."
+  },
+  {
+    "canonicalRef": "gita.17.18",
+    "chapter": 17,
+    "verse": 18,
+    "confidence": 0.05,
+    "notes": "Catastrophic machine alignment failure reducing verse 17.18 to the single isolated word 'honour', with its preceding and succeeding clauses dispersed into 17.17 and 17.19."
+  },
+  {
+    "canonicalRef": "gita.17.19",
+    "chapter": 17,
+    "verse": 19,
+    "confidence": 0.5,
+    "notes": "Severely distorted by backward boundary bleeding of 17.18's conclusion while losing its own final hemistich clause ('or for the destruction of another') to verse 17.20."
+  },
+  {
+    "canonicalRef": "gita.17.20",
+    "chapter": 17,
+    "verse": 20,
+    "confidence": 0.65,
+    "notes": "Translates verse 17.20 accurately in its core, but suffers boundary bleeding at both ends by prepending the tail of 17.19 and appending the opening clause of 17.21."
+  },
+  {
+    "canonicalRef": "gita.17.21",
+    "chapter": 17,
+    "verse": 21,
+    "confidence": 0.62,
+    "notes": "Missing its opening clause (lost to 17.20) and bleeds forward by incorporating the predicate descriptor of verse 17.22 ('And that gift is described as dark')."
+  },
+  {
+    "canonicalRef": "gita.17.22",
+    "chapter": 17,
+    "verse": 22,
+    "confidence": 0.6,
+    "notes": "Truncated at both boundaries, having lost its predicate to 17.21 and its final word 'avajñātam' ('and with contempt') to verse 17.23."
+  },
+  {
+    "canonicalRef": "gita.17.23",
+    "chapter": 17,
+    "verse": 23,
+    "confidence": 0.82,
+    "notes": "Fully and accurately translates verse 17.23, but is contaminated at the opening by the displaced final adjective ('and with contempt') of verse 17.22."
+  },
+  {
+    "canonicalRef": "gita.17.24",
+    "chapter": 17,
+    "verse": 24,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely renders the verse with exact semantic alignment and unblemished boundaries."
+  },
+  {
+    "canonicalRef": "gita.17.25",
+    "chapter": 17,
+    "verse": 25,
+    "confidence": 0.98,
+    "notes": "Accurately and fully translates the verse with precise philosophical nuance and clear boundaries."
+  },
+  {
+    "canonicalRef": "gita.17.26",
+    "chapter": 17,
+    "verse": 26,
+    "confidence": 0.98,
+    "notes": "Fully and faithfully translates the linguistic and philosophical exposition of the syllable 'Sat' with perfect boundaries."
+  },
+  {
+    "canonicalRef": "gita.17.27",
+    "chapter": 17,
+    "verse": 27,
+    "confidence": 0.78,
+    "notes": "Accurately translates verse 17.27 in its entirety, but exhibits forward boundary bleeding by appending the opening clause of verse 17.28 ('Whatever oblation is offered')."
+  },
+  {
+    "canonicalRef": "gita.17.28",
+    "chapter": 17,
+    "verse": 28,
+    "confidence": 0.82,
+    "notes": "Accurately translates the remainder of verse 17.28, but is truncated at the start by losing its opening sacrificial offering clause ('hutaṃ') to verse 17.27."
+  },
+  {
+    "canonicalRef": "gita.18.1",
+    "chapter": 18,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely translates Arjuna's inquiry distinguishing saṃnyāsa and tyāga with intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.2",
+    "chapter": 18,
+    "verse": 2,
+    "confidence": 0.98,
+    "notes": "Impeccably translates the Lord's definitions of saṃnyāsa and tyāga without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.18.3",
+    "chapter": 18,
+    "verse": 3,
+    "confidence": 0.72,
+    "notes": "Accurately translates the conflicting philosophical opinions on abandoning action, but is truncated at the end by losing 'and penance should not be abandoned' into verse 18.4."
+  },
+  {
+    "canonicalRef": "gita.18.4",
+    "chapter": 18,
+    "verse": 4,
+    "confidence": 0.8,
+    "notes": "Accurately renders verse 18.4 in full, though contaminated at the start by the displaced concluding clause of verse 18.3."
+  },
+  {
+    "canonicalRef": "gita.18.5",
+    "chapter": 18,
+    "verse": 5,
+    "confidence": 0.6,
+    "notes": "Truncated to the first hemistich regarding the necessity of sacrifice, gift, and penance, having lost its second hemistich on purification to verse 18.6."
+  },
+  {
+    "canonicalRef": "gita.18.6",
+    "chapter": 18,
+    "verse": 6,
+    "confidence": 0.78,
+    "notes": "Fully and accurately translates verse 18.6, but suffers backward boundary bleeding by incorporating the second half of verse 18.5 at the beginning."
+  },
+  {
+    "canonicalRef": "gita.18.7",
+    "chapter": 18,
+    "verse": 7,
+    "confidence": 0.76,
+    "notes": "Faithfully translates verse 18.7 on tamasic abandonment, but bleeds forward by annexing the opening conditional clause of verse 18.8."
+  },
+  {
+    "canonicalRef": "gita.18.8",
+    "chapter": 18,
+    "verse": 8,
+    "confidence": 0.15,
+    "notes": "Severe machine alignment fragmentation reducing verse 18.8 to an isolated prepositional phrase, with its opening clause lost to 18.7 and its conclusion pushed into 18.9."
+  },
+  {
+    "canonicalRef": "gita.18.9",
+    "chapter": 18,
+    "verse": 9,
+    "confidence": 0.55,
+    "notes": "Accurately renders verse 18.9 in its center, but suffers severe boundary bleeding at both ends by absorbing the conclusion of 18.8 and the first half of 18.10."
+  },
+  {
+    "canonicalRef": "gita.18.10",
+    "chapter": 18,
+    "verse": 10,
+    "confidence": 0.05,
+    "notes": "Severe alignment failure reducing verse 18.10 to the three-word fragment 'his doubts destroyed', with its remaining text dispersed into verses 18.9 and 18.11."
+  },
+  {
+    "canonicalRef": "gita.18.11",
+    "chapter": 18,
+    "verse": 11,
+    "confidence": 0.78,
+    "notes": "Accurately translates all of verse 18.11, though contaminated at the start by the displaced verbal clauses of verse 18.10."
+  },
+  {
+    "canonicalRef": "gita.18.12",
+    "chapter": 18,
+    "verse": 12,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely translates the threefold fruit of action with pristine lexical precision and clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.13",
+    "chapter": 18,
+    "verse": 13,
+    "confidence": 0.98,
+    "notes": "Accurately and fully renders the introduction to the five factors of action according to the Samkhya system."
+  },
+  {
+    "canonicalRef": "gita.18.14",
+    "chapter": 18,
+    "verse": 14,
+    "confidence": 0.76,
+    "notes": "Accurately translates all five causes of action in 18.14, but bleeds forward by annexing the opening conditional clause of verse 18.15."
+  },
+  {
+    "canonicalRef": "gita.18.15",
+    "chapter": 18,
+    "verse": 15,
+    "confidence": 0.65,
+    "notes": "Affected by boundary bleeding at both ends, missing its opening clause to 18.14 while annexing the subject and premise of verse 18.16."
+  },
+  {
+    "canonicalRef": "gita.18.16",
+    "chapter": 18,
+    "verse": 16,
+    "confidence": 0.55,
+    "notes": "Severely truncated relative clause missing its antecedent subject (lost to 18.15) and its principal predicate ('sees not rightly', lost to 18.17)."
+  },
+  {
+    "canonicalRef": "gita.18.17",
+    "chapter": 18,
+    "verse": 17,
+    "confidence": 0.82,
+    "notes": "Fully and accurately translates verse 18.17, though prepended with the concluding predicate ('sees not rightly') of verse 18.16."
+  },
+  {
+    "canonicalRef": "gita.18.18",
+    "chapter": 18,
+    "verse": 18,
+    "confidence": 0.98,
+    "notes": "Faithfully translates both hemistichs defining the threefold impulse and threefold constituents of action with clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.19",
+    "chapter": 18,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Fully and accurately translates the transitional verse introducing the gunic divisions of knowledge, action, and agent."
+  },
+  {
+    "canonicalRef": "gita.18.20",
+    "chapter": 18,
+    "verse": 20,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely translates the definition of sattvic knowledge with exact philosophical nuance and clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.21",
+    "chapter": 18,
+    "verse": 21,
+    "confidence": 0.76,
+    "notes": "Accurately renders verse 18.21 on rajasic knowledge, but bleeds forward by annexing the concluding predicate clause of verse 18.22."
+  },
+  {
+    "canonicalRef": "gita.18.22",
+    "chapter": 18,
+    "verse": 22,
+    "confidence": 0.58,
+    "notes": "Severely truncated at both boundaries, having lost its predicate to 18.21 and its final adjective 'and insignificant' to verse 18.23."
+  },
+  {
+    "canonicalRef": "gita.18.23",
+    "chapter": 18,
+    "verse": 23,
+    "confidence": 0.7,
+    "notes": "Accurately translates verse 18.23, but suffers boundary bleed at both ends by prepending the tail of 18.22 and appending the predicate of 18.24."
+  },
+  {
+    "canonicalRef": "gita.18.24",
+    "chapter": 18,
+    "verse": 24,
+    "confidence": 0.55,
+    "notes": "Missing its closing predicate to 18.23 and heavily corrupted at the end by absorbing the major clause of verse 18.25."
+  },
+  {
+    "canonicalRef": "gita.18.25",
+    "chapter": 18,
+    "verse": 25,
+    "confidence": 0.05,
+    "notes": "Severe machine alignment fragmentation reducing verse 18.25 to the two-word fragment 'loss injury', with surrounding text scattered into 18.24 and 18.26."
+  },
+  {
+    "canonicalRef": "gita.18.26",
+    "chapter": 18,
+    "verse": 26,
+    "confidence": 0.7,
+    "notes": "Accurately translates 18.26 in full, but prepends the final word of 18.25 and annexes the opening definition of verse 18.27."
+  },
+  {
+    "canonicalRef": "gita.18.27",
+    "chapter": 18,
+    "verse": 27,
+    "confidence": 0.62,
+    "notes": "Missing its opening descriptors to 18.26 and bleeds forward by annexing the predicate designation ('That agent is called dark') belonging to verse 18.28."
+  },
+  {
+    "canonicalRef": "gita.18.28",
+    "chapter": 18,
+    "verse": 28,
+    "confidence": 0.55,
+    "notes": "Truncated at both boundaries, having lost its predicate to 18.27 and its final two descriptors ('melancholy and slow') to verse 18.29."
+  },
+  {
+    "canonicalRef": "gita.18.29",
+    "chapter": 18,
+    "verse": 29,
+    "confidence": 0.72,
+    "notes": "Translates verse 18.29 accurately, but suffers boundary bleed at both ends by prepending the tail of 18.28 and annexing the opening subject of 18.30."
+  },
+  {
+    "canonicalRef": "gita.18.30",
+    "chapter": 18,
+    "verse": 30,
+    "confidence": 0.7,
+    "notes": "Accurately renders 18.30's core distinctions, but loses its opening subject to 18.29 and annexes the predicate clause of verse 18.31."
+  },
+  {
+    "canonicalRef": "gita.18.31",
+    "chapter": 18,
+    "verse": 31,
+    "confidence": 0.65,
+    "notes": "Missing its predicate to 18.30 while annexing the opening definition and qualification of verse 18.32."
+  },
+  {
+    "canonicalRef": "gita.18.32",
+    "chapter": 18,
+    "verse": 32,
+    "confidence": 0.45,
+    "notes": "Severely congested entry that contains the tail of 18.32 and annexes nearly the entirety of verse 18.33 at its end."
+  },
+  {
+    "canonicalRef": "gita.18.33",
+    "chapter": 18,
+    "verse": 33,
+    "confidence": 0.05,
+    "notes": "Severe alignment failure reducing verse 18.33 to the two-word fragment 'and senses', with nearly the whole verse absorbed into 18.32."
+  },
+  {
+    "canonicalRef": "gita.18.34",
+    "chapter": 18,
+    "verse": 34,
+    "confidence": 0.7,
+    "notes": "Accurately translates 18.34, but prepends the concluding instrumental phrase of 18.33 and annexes the opening predicate of 18.35."
+  },
+  {
+    "canonicalRef": "gita.18.35",
+    "chapter": 18,
+    "verse": 35,
+    "confidence": 0.82,
+    "notes": "Accurately renders the vices of tamasic determination, though truncated at the start by losing its predicate clause ('That courage is dark') to verse 18.34."
+  },
+  {
+    "canonicalRef": "gita.18.36",
+    "chapter": 18,
+    "verse": 36,
+    "confidence": 0.05,
+    "notes": "Severe alignment catastrophe reducing verse 18.36 to the single word 'Now', with all remaining text absorbed into verse 18.37."
+  },
+  {
+    "canonicalRef": "gita.18.37",
+    "chapter": 18,
+    "verse": 37,
+    "confidence": 0.5,
+    "notes": "Severely congested entry that absorbs almost all of verse 18.36 at the start and annexes the predicate clause of verse 18.38 at the end."
+  },
+  {
+    "canonicalRef": "gita.18.38",
+    "chapter": 18,
+    "verse": 38,
+    "confidence": 0.6,
+    "notes": "Missing its opening predicate to 18.37 and heavily corrupted at the end by absorbing the first half of verse 18.39."
+  },
+  {
+    "canonicalRef": "gita.18.39",
+    "chapter": 18,
+    "verse": 39,
+    "confidence": 0.25,
+    "notes": "Severe alignment fragmentation reducing verse 18.39 to a four-word residual clause, with surrounding text dispersed into verses 18.38 and 18.40."
+  },
+  {
+    "canonicalRef": "gita.18.40",
+    "chapter": 18,
+    "verse": 40,
+    "confidence": 0.8,
+    "notes": "Fully and accurately translates verse 18.40, but prepends the displaced concluding temporal phrase of verse 18.39."
+  },
+  {
+    "canonicalRef": "gita.18.41",
+    "chapter": 18,
+    "verse": 41,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely translates the verse classifying duties among the four varnas with pristine boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.42",
+    "chapter": 18,
+    "verse": 42,
+    "confidence": 0.98,
+    "notes": "Fully and accurately translates all nine natural virtues and duties of a Brahmana without boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.18.43",
+    "chapter": 18,
+    "verse": 43,
+    "confidence": 0.98,
+    "notes": "Impeccably renders the natural qualities and duties of the Kshatriya with complete fidelity and clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.44",
+    "chapter": 18,
+    "verse": 44,
+    "confidence": 0.78,
+    "notes": "Accurately translates all of verse 18.44, but bleeds forward by annexing the first hemistich of verse 18.45 at the end."
+  },
+  {
+    "canonicalRef": "gita.18.45",
+    "chapter": 18,
+    "verse": 45,
+    "confidence": 0.55,
+    "notes": "Truncated to the second hemistich, having lost its initial general principle ('Every man intent on his own respective duties obtains perfection') into verse 18.44."
+  },
+  {
+    "canonicalRef": "gita.18.46",
+    "chapter": 18,
+    "verse": 46,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely translates the verse on worshipping the omnipresent Lord through one's duty with intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.47",
+    "chapter": 18,
+    "verse": 47,
+    "confidence": 0.98,
+    "notes": "Impeccably translates the classic maxim on svadharma with perfect lexical precision and no boundary defects."
+  },
+  {
+    "canonicalRef": "gita.18.48",
+    "chapter": 18,
+    "verse": 48,
+    "confidence": 0.98,
+    "notes": "Accurately and fully renders the comparison of actions enveloped by faults like fire by smoke, with pristine boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.49",
+    "chapter": 18,
+    "verse": 49,
+    "confidence": 0.98,
+    "notes": "Faithfully translates the path to the supreme perfection of actionlessness (naiṣkarmyasiddhi) with uncompromised boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.50",
+    "chapter": 18,
+    "verse": 50,
+    "confidence": 0.98,
+    "notes": "Fully and accurately translates the transitional verse introducing the attainment of Brahman with clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.51",
+    "chapter": 18,
+    "verse": 51,
+    "confidence": 0.78,
+    "notes": "Accurately translates verse 18.51 in full, but bleeds forward by annexing the opening ascetic qualification of verse 18.52 ('who frequents clean places')."
+  },
+  {
+    "canonicalRef": "gita.18.52",
+    "chapter": 18,
+    "verse": 52,
+    "confidence": 0.82,
+    "notes": "Accurately renders the ascetic practices of 18.52, but is truncated at the start by losing its opening epithet ('who frequents clean places') to verse 18.51."
+  },
+  {
+    "canonicalRef": "gita.18.53",
+    "chapter": 18,
+    "verse": 53,
+    "confidence": 0.5,
+    "notes": "Truncated to the first hemistich listing abandoned faults, having lost its entire second hemistich and predicate on fitness for Brahman into verse 18.54."
+  },
+  {
+    "canonicalRef": "gita.18.54",
+    "chapter": 18,
+    "verse": 54,
+    "confidence": 0.55,
+    "notes": "Distorted by boundary shifts at both ends, absorbing the conclusion of 18.53 while losing its own final hemistich on universal equanimity and supreme devotion into verse 18.55."
+  },
+  {
+    "canonicalRef": "gita.18.55",
+    "chapter": 18,
+    "verse": 55,
+    "confidence": 0.78,
+    "notes": "Fully and accurately translates verse 18.55, but suffers backward boundary bleeding by prepending the displaced second hemistich of verse 18.54."
+  },
+  {
+    "canonicalRef": "gita.18.56",
+    "chapter": 18,
+    "verse": 56,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely renders the promise of the eternal imperishable seat through divine grace with clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.57",
+    "chapter": 18,
+    "verse": 57,
+    "confidence": 0.98,
+    "notes": "Accurately and fully translates the injunction to dedicate all actions mentally to the Lord with intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.58",
+    "chapter": 18,
+    "verse": 58,
+    "confidence": 0.98,
+    "notes": "Fully and faithfully translates both conditional clauses regarding overcoming obstacles versus ruin through egotism."
+  },
+  {
+    "canonicalRef": "gita.18.59",
+    "chapter": 18,
+    "verse": 59,
+    "confidence": 0.88,
+    "notes": "Accurately renders verse 18.59 in full, with a minor forward bleed of the single relative demonstrative pronoun 'That' belonging to verse 18.60."
+  },
+  {
+    "canonicalRef": "gita.18.60",
+    "chapter": 18,
+    "verse": 60,
+    "confidence": 0.92,
+    "notes": "Faithfully translates the inevitability of action driven by nature, with only its opening relative pronoun displaced into verse 18.59."
+  },
+  {
+    "canonicalRef": "gita.18.61",
+    "chapter": 18,
+    "verse": 61,
+    "confidence": 0.05,
+    "notes": "Severe alignment failure reducing verse 18.61 to the two-word subject 'The lord', with all remaining text absorbed into verse 18.62."
+  },
+  {
+    "canonicalRef": "gita.18.62",
+    "chapter": 18,
+    "verse": 62,
+    "confidence": 0.65,
+    "notes": "Fully renders verse 18.62, but is heavily overburdened by absorbing nearly the entirety of verse 18.61 at its opening."
+  },
+  {
+    "canonicalRef": "gita.18.63",
+    "chapter": 18,
+    "verse": 63,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely translates the conclusion of the discourse leaving Arjuna free to act, with clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.64",
+    "chapter": 18,
+    "verse": 64,
+    "confidence": 0.74,
+    "notes": "Accurately renders verse 18.64 in full, but bleeds forward by annexing the opening hemistich injunction of verse 18.65."
+  },
+  {
+    "canonicalRef": "gita.18.65",
+    "chapter": 18,
+    "verse": 65,
+    "confidence": 0.76,
+    "notes": "Accurately translates the second half of the core devotional pledge, but is truncated at the start by losing its opening two injunctions to verse 18.64."
+  },
+  {
+    "canonicalRef": "gita.18.66",
+    "chapter": 18,
+    "verse": 66,
+    "confidence": 0.98,
+    "notes": "Impeccably and fully translates the carama-śloka of the Gita with complete fidelity and immaculate boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.67",
+    "chapter": 18,
+    "verse": 67,
+    "confidence": 0.98,
+    "notes": "Fully and faithfully translates the restrictions on imparting the Gita to ineligible persons with clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.68",
+    "chapter": 18,
+    "verse": 68,
+    "confidence": 0.98,
+    "notes": "Accurately and completely renders the reward for teaching the Gita to devotees with uncompromised boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.69",
+    "chapter": 18,
+    "verse": 69,
+    "confidence": 0.74,
+    "notes": "Accurately translates verse 18.69 in full, but bleeds forward by annexing the opening subject and condition of verse 18.70."
+  },
+  {
+    "canonicalRef": "gita.18.70",
+    "chapter": 18,
+    "verse": 70,
+    "confidence": 0.65,
+    "notes": "Truncated at the start (lost its subject clause to 18.69) and bleeds forward at the end by annexing the subject noun of verse 18.71."
+  },
+  {
+    "canonicalRef": "gita.18.71",
+    "chapter": 18,
+    "verse": 71,
+    "confidence": 0.05,
+    "notes": "Severe alignment catastrophe reducing verse 18.71 to the isolated single word 'also', with its text divided across 18.70 and 18.72."
+  },
+  {
+    "canonicalRef": "gita.18.72",
+    "chapter": 18,
+    "verse": 72,
+    "confidence": 0.65,
+    "notes": "Faithfully translates Krishna's concluding questions in 18.72, but is heavily overburdened by absorbing the entirety of verse 18.71 at its beginning."
+  },
+  {
+    "canonicalRef": "gita.18.73",
+    "chapter": 18,
+    "verse": 73,
+    "confidence": 0.98,
+    "notes": "Impeccably and fully translates Arjuna's decisive resolution and regained memory with clean verse boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.74",
+    "chapter": 18,
+    "verse": 74,
+    "confidence": 0.98,
+    "notes": "Accurately and completely renders Sanjaya's retrospective narration of the hair-raising dialogue with intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.75",
+    "chapter": 18,
+    "verse": 75,
+    "confidence": 0.98,
+    "notes": "Faithfully translates Sanjaya's acknowledgement of Vyasa's grace in hearing the mystery from Krishna with clean boundaries."
+  },
+  {
+    "canonicalRef": "gita.18.76",
+    "chapter": 18,
+    "verse": 76,
+    "confidence": 0.7,
+    "notes": "Accurately translates the recollection of the dialogue, but is truncated at the end by losing its main verb clause ('I rejoice over and over again') into verse 18.77."
+  },
+  {
+    "canonicalRef": "gita.18.77",
+    "chapter": 18,
+    "verse": 77,
+    "confidence": 0.82,
+    "notes": "Fully and accurately translates verse 18.77, but suffers backward boundary bleeding by prepending the concluding verb clause of verse 18.76."
+  },
+  {
+    "canonicalRef": "gita.18.78",
+    "chapter": 18,
+    "verse": 78,
+    "confidence": 0.98,
+    "notes": "Faithfully and completely renders the concluding verse of the Bhagavad Gita with pristine semantic correspondence and intact boundaries."
+  }
+]
