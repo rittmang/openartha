@@ -50,17 +50,22 @@ a { color: inherit; text-decoration: none; }
 }
 
 .nav-wrap { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
-.brand { display: inline-flex; align-items: center; gap: 11px; font-weight: 650; letter-spacing: -0.02em; }
+.brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 650; letter-spacing: -0.02em; }
 .brand-mark {
-  display: grid;
-  place-items: center;
-  width: 31px;
-  height: 31px;
-  border: 1px solid var(--line);
-  border-radius: 9px;
-  background: var(--surface);
-  font-family: Georgia, "Noto Serif Devanagari", serif;
+  display: block;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
 }
+.brand-mark-surface { fill: #29473a; stroke: #49685a; stroke-width: 1.5; }
+.brand-mark-letters {
+  fill: #f5f7f3;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: -0.08em;
+}
+.brand-name { font-size: 17px; }
 
 .site-header nav { display: flex; align-items: center; gap: 24px; color: var(--muted); font-size: 14px; }
 .site-header nav a:hover, .site-header nav a:focus-visible { color: var(--ink); }
@@ -113,6 +118,8 @@ a { color: inherit; text-decoration: none; }
 .translation p { max-width: 720px; margin: 0; font-family: Iowan Old Style, Georgia, serif; font-size: clamp(21px, 3vw, 32px); line-height: 1.5; }
 .site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
 .footer-grid { display: flex; justify-content: space-between; gap: 20px; padding-block: 28px; }
+.footer-copy { display: grid; gap: 4px; text-align: right; }
+.footer-copy small { color: var(--muted); font-size: 11px; }
 
 .evidence-band { border-block: 1px solid var(--line); background: var(--surface); }
 .evidence-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(40px, 8vw, 120px); padding-block: clamp(72px, 10vw, 120px); }
@@ -152,9 +159,6 @@ a { color: inherit; text-decoration: none; }
 .search-form > div { display: flex; gap: 10px; }
 .search-form input { min-width: 0; flex: 1; height: 48px; border: 1px solid var(--line); border-radius: 10px; padding: 0 14px; background: var(--paper); color: var(--ink); font: inherit; }
 .search-form input:focus { outline: 3px solid color-mix(in srgb, #e0a85b 55%, transparent); border-color: #b77b2e; }
-.search-filters { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px !important; margin-top: 14px; }
-.search-filters label, .comparison-form label { color: var(--muted); font-size: 11px; font-weight: 650; letter-spacing: .06em; text-transform: uppercase; }
-.search-filters select, .comparison-form select { display: block; width: 100%; min-height: 42px; margin-top: 5px; border: 1px solid var(--line); border-radius: 8px; padding: 0 10px; background: var(--paper); color: var(--ink); font: inherit; font-size: 13px; letter-spacing: 0; text-transform: none; }
 .search-explainer { max-width: 720px; margin: 18px 0 38px; color: var(--muted); font-size: 14px; }
 .search-groups { display: grid; gap: clamp(54px, 8vw, 88px); }
 .search-group-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; margin-bottom: 14px; }
@@ -236,22 +240,16 @@ code { border-radius: 5px; background: color-mix(in srgb, var(--line) 45%, trans
 .commentary-heading { display: grid; grid-template-columns: .55fr 1fr; gap: 42px; align-items: end; }
 .commentary-heading h2 { margin: 8px 0 0; font-family: Iowan Old Style, Georgia, serif; font-size: clamp(36px, 5vw, 52px); font-weight: 450; letter-spacing: -.04em; line-height: 1.05; }
 .commentary-heading p { max-width: 620px; margin: 0; color: var(--muted); }
-.comparison-form { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) auto; gap: 12px; align-items: end; margin-top: 36px; padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
-.commentary-comparison { display: grid; gap: 0; margin-top: 28px; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.commentary-columns-1 { grid-template-columns: 1fr; }
-.commentary-columns-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.commentary-columns-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.commentary-card { min-width: 0; padding: clamp(22px, 3vw, 34px); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.commentary-card-heading { display: flex; justify-content: space-between; gap: 16px; align-items: start; }
-.commentary-card-heading span { color: var(--muted); font-size: 10px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
-.commentary-card-heading h3 { margin: 6px 0 0; font-family: Iowan Old Style, Georgia, serif; font-size: 23px; font-weight: 500; line-height: 1.2; }
-.commentary-card-heading a { color: var(--accent); font-size: 11px; white-space: nowrap; }
-.commentary-card > p { white-space: pre-line; margin: 26px 0; font-family: "Noto Serif Devanagari", "Kohinoor Devanagari", Georgia, serif; font-size: 17px; line-height: 1.9; }
-.commentary-card dl { margin: 0; padding-top: 14px; border-top: 1px solid var(--line); font-size: 11px; }
-.commentary-card dl div { display: grid; grid-template-columns: 70px 1fr; gap: 10px; padding-block: 3px; }
-.commentary-card dt { color: var(--muted); }
-.commentary-card dd { margin: 0; }
-.commentary-rights-note { max-width: 760px; margin: 22px 0 0; color: var(--muted); font-size: 12px; }
+.witness-list { margin-top: clamp(36px, 6vw, 62px); border-top: 1px solid var(--line); }
+.witness-reading { padding-block: clamp(42px, 7vw, 76px); border-bottom: 1px solid var(--line); }
+.witness-section-title h3 { margin: 0; color: var(--ink); font-size: 12px; font-weight: 650; letter-spacing: .1em; text-transform: uppercase; }
+.witness-text { white-space: pre-line; max-width: 880px; margin: 30px 0 0; font-family: "Noto Serif Devanagari", "Kohinoor Devanagari", Iowan Old Style, Georgia, serif; }
+.witness-reading-translation .witness-text { font-size: clamp(25px, 3.6vw, 38px); line-height: 1.55; }
+.witness-reading-commentary .witness-text { color: color-mix(in srgb, var(--ink) 92%, var(--muted)); font-size: clamp(18px, 2.2vw, 23px); line-height: 1.85; }
+.witness-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 28px; margin-top: 28px; color: var(--muted); font-size: 12px; }
+.witness-meta p { max-width: 690px; margin: 0; }
+.witness-meta a { color: var(--accent); font-weight: 650; white-space: nowrap; }
+.commentary-rights-note { max-width: 760px; margin: 28px 0 0; color: var(--muted); font-size: 12px; }
 
 .prose-page { max-width: 1040px; }
 .source-list { border-top: 1px solid var(--line); }
@@ -318,6 +316,9 @@ code { border-radius: 5px; background: color-mix(in srgb, var(--line) 45%, trans
 .commentary-reading-ref a { color: var(--accent); }
 .commentary-root { white-space: pre-line; max-width: 800px; margin: 26px 0; font-family: "Noto Serif Devanagari", "Kohinoor Devanagari", Georgia, serif; font-size: clamp(24px, 3vw, 34px); line-height: 1.7; }
 .commentary-reading-text { white-space: pre-line; margin: 0 0 26px; color: color-mix(in srgb, var(--ink) 88%, var(--muted)); font-family: "Noto Serif Devanagari", "Kohinoor Devanagari", Georgia, serif; font-size: 18px; line-height: 1.9; }
+.commentary-reading-witnesses { display: grid; gap: 28px; margin-bottom: 26px; }
+.commentary-reading-witnesses section + section { padding-top: 28px; border-top: 1px solid var(--line); }
+.commentary-reading-witnesses .commentary-reading-text { margin: 10px 0 0; }
 
 .not-found { min-height: 70vh; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
 .not-found h1 { margin: 12px 0; font-family: Iowan Old Style, Georgia, serif; font-size: clamp(54px, 8vw, 88px); font-weight: 450; letter-spacing: -.05em; }
@@ -341,7 +342,6 @@ code { border-radius: 5px; background: color-mix(in srgb, var(--line) 45%, trans
   .access-card p { grid-column: 2; }
   .split-header { flex-direction: column; }
   .search-input-row { flex-direction: column; }
-  .search-filters { grid-template-columns: 1fr; }
   .chapter-grid li a { grid-template-columns: 38px 1fr 16px; gap: 12px; padding-block: 14px; }
   .chapter-count { display: none; }
   .passage-list { grid-template-columns: 1fr; }
@@ -351,8 +351,9 @@ code { border-radius: 5px; background: color-mix(in srgb, var(--line) 45%, trans
   .provenance-panel dl div { grid-template-columns: 1fr; gap: 4px; }
   .api-links { grid-column: auto; flex-direction: column; }
   .commentary-heading { grid-template-columns: 1fr; gap: 18px; }
-  .comparison-form { grid-template-columns: 1fr; }
-  .commentary-columns-2, .commentary-columns-3 { grid-template-columns: 1fr; }
+  .witness-section-title, .witness-meta { align-items: flex-start; flex-direction: column; }
+  .witness-meta { gap: 14px; }
+  .witness-meta a { white-space: normal; }
   .author-grid { grid-template-columns: 1fr; }
   .metadata-author-list article, .source-author-table article { grid-template-columns: 1fr; gap: 8px; }
   .method-steps article { grid-template-columns: 32px 1fr; }
@@ -360,6 +361,7 @@ code { border-radius: 5px; background: color-mix(in srgb, var(--line) 45%, trans
   .release-heading { align-items: flex-start; flex-direction: column; }
   .download-list a { grid-template-columns: 58px 1fr 18px; padding-inline: 18px; }
   .footer-grid { flex-direction: column; }
+  .footer-copy { text-align: left; }
 }
 
 @media (prefers-reduced-motion: reduce) {

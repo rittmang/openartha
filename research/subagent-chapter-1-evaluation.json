@@ -1,0 +1,331 @@
+[
+  {
+    "canonicalRef": "gita.1.1",
+    "chapter": 1,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse without any omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.1.2",
+    "chapter": 1,
+    "verse": 2,
+    "confidence": 0.7,
+    "notes": "Accurately rendered in substance but truncated at the boundary, as the principal finite clause 'and spoke (these) words' was severed and placed into verse 1.3."
+  },
+  {
+    "canonicalRef": "gita.1.3",
+    "chapter": 1,
+    "verse": 3,
+    "confidence": 0.55,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the introductory speech formula belonging to verse 1.2 and appending the opening warrior clause of verse 1.4."
+  },
+  {
+    "canonicalRef": "gita.1.4",
+    "chapter": 1,
+    "verse": 4,
+    "confidence": 0.58,
+    "notes": "Lacks its opening hemistich clause describing the mighty archers (which bled into 1.3) while erroneously annexing Dhṛṣṭaketu from verse 1.5."
+  },
+  {
+    "canonicalRef": "gita.1.5",
+    "chapter": 1,
+    "verse": 5,
+    "confidence": 0.52,
+    "notes": "Severely truncated at both boundaries, omitting Dhṛṣṭaketu at the start (lost to 1.4) and Śaibya at the end (displaced into 1.6)."
+  },
+  {
+    "canonicalRef": "gita.1.6",
+    "chapter": 1,
+    "verse": 6,
+    "confidence": 0.6,
+    "notes": "Contains the correct core heroes of 1.6 but suffers boundary bleeding by prepending Śaibya from 1.5 and appending the vocative address of 1.7."
+  },
+  {
+    "canonicalRef": "gita.1.7",
+    "chapter": 1,
+    "verse": 7,
+    "confidence": 0.48,
+    "notes": "Lacks its opening vocative address (retained in 1.6) and heavily over-includes the majority of warrior names belonging to verse 1.8."
+  },
+  {
+    "canonicalRef": "gita.1.8",
+    "chapter": 1,
+    "verse": 8,
+    "confidence": 0.28,
+    "notes": "Severe alignment failure leaving a residual fragment of only two names, as the bulk of the verse's roster was absorbed into verse 1.7."
+  },
+  {
+    "canonicalRef": "gita.1.9",
+    "chapter": 1,
+    "verse": 9,
+    "confidence": 0.96,
+    "notes": "Completely and faithfully translates the Sanskrit verse with impeccable semantic correspondence and intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.1.10",
+    "chapter": 1,
+    "verse": 10,
+    "confidence": 0.5,
+    "notes": "Captures only the first hemistich regarding Bhīṣma's force, omitting the entire comparative second hemistich which bled into verse 1.11."
+  },
+  {
+    "canonicalRef": "gita.1.11",
+    "chapter": 1,
+    "verse": 11,
+    "confidence": 0.65,
+    "notes": "Accurately translates verse 1.11 but suffers backward bleeding by incorporating the contrasting clause of verse 1.10 at its beginning."
+  },
+  {
+    "canonicalRef": "gita.1.12",
+    "chapter": 1,
+    "verse": 12,
+    "confidence": 0.85,
+    "notes": "Faithfully renders verse 1.12 but exhibits forward bleeding by annexing the opening temporal phrase belonging to verse 1.13."
+  },
+  {
+    "canonicalRef": "gita.1.13",
+    "chapter": 1,
+    "verse": 13,
+    "confidence": 0.35,
+    "notes": "Severe truncation reducing the verse to an isolated list of three instruments, having lost its temporal onset to 1.12 and its verb and sound clauses to 1.14."
+  },
+  {
+    "canonicalRef": "gita.1.14",
+    "chapter": 1,
+    "verse": 14,
+    "confidence": 0.72,
+    "notes": "Provides a full and accurate translation of verse 1.14, though contaminated at the start by the concluding clause of verse 1.13."
+  },
+  {
+    "canonicalRef": "gita.1.15",
+    "chapter": 1,
+    "verse": 15,
+    "confidence": 0.84,
+    "notes": "Accurately renders verse 1.15 but exhibits slight forward boundary bleeding by incorporating the subject of verse 1.16 at the end."
+  },
+  {
+    "canonicalRef": "gita.1.16",
+    "chapter": 1,
+    "verse": 16,
+    "confidence": 0.5,
+    "notes": "Missing its initial subject due to prior bleeding into 1.15 and extensively corrupted at the end by absorbing three warriors from verse 1.17."
+  },
+  {
+    "canonicalRef": "gita.1.17",
+    "chapter": 1,
+    "verse": 17,
+    "confidence": 0.15,
+    "notes": "Catastrophic alignment failure reducing the verse to the single word 'Virāṭa', with all surrounding warrior clauses dispersed into adjacent verses."
+  },
+  {
+    "canonicalRef": "gita.1.18",
+    "chapter": 1,
+    "verse": 18,
+    "confidence": 0.6,
+    "notes": "Accurately translates 1.18's principal content but absorbs Sātyaki from 1.17 and loses its vocative address ('O king of the earth') to verse 1.19."
+  },
+  {
+    "canonicalRef": "gita.1.19",
+    "chapter": 1,
+    "verse": 19,
+    "confidence": 0.5,
+    "notes": "Truncated to the first hemistich while erroneously prepending the vocative from 1.18 and discarding the reverberation of heaven and earth into verse 1.20."
+  },
+  {
+    "canonicalRef": "gita.1.20",
+    "chapter": 1,
+    "verse": 20,
+    "confidence": 0.65,
+    "notes": "Prepends the final clause of 1.19 and faithfully translates Arjuna taking up his bow, but omits the speech introductory clause which bled into verse 1.21."
+  },
+  {
+    "canonicalRef": "gita.1.21",
+    "chapter": 1,
+    "verse": 21,
+    "confidence": 0.35,
+    "notes": "Severe boundary overgrowth that subsumes the speech intro from 1.20, all of verses 1.22 and 1.23, and the opening line of 1.24 along with verse 1.21."
+  },
+  {
+    "canonicalRef": "gita.1.22",
+    "chapter": 1,
+    "verse": 22,
+    "confidence": 0.05,
+    "notes": "Total misalignment: the text of verse 1.22 was absorbed into 1.21, while this record contains the text corresponding to verses 1.24b and 1.25a."
+  },
+  {
+    "canonicalRef": "gita.1.23",
+    "chapter": 1,
+    "verse": 23,
+    "confidence": 0.05,
+    "notes": "Total misalignment: the translation of 1.23 resides in 1.21, whereas this entry erroneously holds Krishna's address from the second half of verse 1.25."
+  },
+  {
+    "canonicalRef": "gita.1.24",
+    "chapter": 1,
+    "verse": 24,
+    "confidence": 0.05,
+    "notes": "Total misalignment: actual 1.24 content was dispersed into 1.21 and 1.22, while this slot wrongly displays the first half of verse 1.26."
+  },
+  {
+    "canonicalRef": "gita.1.25",
+    "chapter": 1,
+    "verse": 25,
+    "confidence": 0.02,
+    "notes": "Gross machine alignment failure reducing verse 1.25 to the single word 'sons' taken from verse 1.26, having completely lost its own text."
+  },
+  {
+    "canonicalRef": "gita.1.26",
+    "chapter": 1,
+    "verse": 26,
+    "confidence": 0.02,
+    "notes": "Gross alignment failure containing solely the isolated word 'grandsons' from 1.26, while its preceding and succeeding relatives are scattered into 1.24, 1.25, and 1.27."
+  },
+  {
+    "canonicalRef": "gita.1.27",
+    "chapter": 1,
+    "verse": 27,
+    "confidence": 0.55,
+    "notes": "Spans across verse boundaries by prepending 'companions' from 1.26 and appending the initial hemistich clause of verse 1.28."
+  },
+  {
+    "canonicalRef": "gita.1.28",
+    "chapter": 1,
+    "verse": 28,
+    "confidence": 0.45,
+    "notes": "Translates the remainder of 1.28 but severely bleeds forward by absorbing the majority of somatic distress symptoms belonging to verse 1.29."
+  },
+  {
+    "canonicalRef": "gita.1.29",
+    "chapter": 1,
+    "verse": 29,
+    "confidence": 0.3,
+    "notes": "Severe truncation reducing verse 1.29 to its final pāda ('and my hairs stand on end'), with all prior symptoms absorbed into verse 1.28."
+  },
+  {
+    "canonicalRef": "gita.1.30",
+    "chapter": 1,
+    "verse": 30,
+    "confidence": 0.94,
+    "notes": "Fully and accurately translates all four quarters of verse 1.30, marking the successful realign-point after the preceding cascade."
+  },
+  {
+    "canonicalRef": "gita.1.31",
+    "chapter": 1,
+    "verse": 31,
+    "confidence": 0.98,
+    "notes": "Fully and accurately translates the verse with exact semantic fidelity and no boundary defects."
+  },
+  {
+    "canonicalRef": "gita.1.32",
+    "chapter": 1,
+    "verse": 32,
+    "confidence": 0.88,
+    "notes": "Faithfully renders the complete sense of verse 1.32, with only a minor forward bleed of the opening pronoun ('Even those') of verse 1.33."
+  },
+  {
+    "canonicalRef": "gita.1.33",
+    "chapter": 1,
+    "verse": 33,
+    "confidence": 0.72,
+    "notes": "Captures the core assertion of 1.33 but misses its initial subject pronoun (in 1.32) and appends the first two categories of relatives from 1.34."
+  },
+  {
+    "canonicalRef": "gita.1.34",
+    "chapter": 1,
+    "verse": 34,
+    "confidence": 0.75,
+    "notes": "Accurately enumerates the catalogue of relatives but is truncated at the start, having lost 'preceptors fathers' to verse 1.33."
+  },
+  {
+    "canonicalRef": "gita.1.35",
+    "chapter": 1,
+    "verse": 35,
+    "confidence": 0.98,
+    "notes": "Flawlessly and accurately translates verse 1.35 with full lexical fidelity and clean boundary demarcation."
+  },
+  {
+    "canonicalRef": "gita.1.36",
+    "chapter": 1,
+    "verse": 36,
+    "confidence": 0.98,
+    "notes": "Thoroughly faithful and accurate rendering of verse 1.36 with exact semantic balance across both hemistichs."
+  },
+  {
+    "canonicalRef": "gita.1.37",
+    "chapter": 1,
+    "verse": 37,
+    "confidence": 0.98,
+    "notes": "Completely faithful and precise translation of the Sanskrit verse with impeccable boundary alignment."
+  },
+  {
+    "canonicalRef": "gita.1.38",
+    "chapter": 1,
+    "verse": 38,
+    "confidence": 0.88,
+    "notes": "Faithfully renders the protasis of verse 1.38, with only a minor forward bleed of the connective 'still' anticipating verse 1.39."
+  },
+  {
+    "canonicalRef": "gita.1.39",
+    "chapter": 1,
+    "verse": 39,
+    "confidence": 0.25,
+    "notes": "Severe truncation leaving an ungrammatical 5-word fragment, with the core interrogative predicate displaced into verse 1.40."
+  },
+  {
+    "canonicalRef": "gita.1.40",
+    "chapter": 1,
+    "verse": 40,
+    "confidence": 0.35,
+    "notes": "Misaligned hybrid consisting of the displaced conclusion of verse 1.39 and only the opening phrase of 1.40, while 1.40's main assertions bled into 1.41."
+  },
+  {
+    "canonicalRef": "gita.1.41",
+    "chapter": 1,
+    "verse": 41,
+    "confidence": 0.6,
+    "notes": "Translates verse 1.41 faithfully but suffers severe backward bleeding by prepending the major portion of verse 1.40."
+  },
+  {
+    "canonicalRef": "gita.1.42",
+    "chapter": 1,
+    "verse": 42,
+    "confidence": 0.65,
+    "notes": "Faithfully renders verse 1.42 but exhibits heavy forward bleeding by absorbing the entire first hemistich of verse 1.43."
+  },
+  {
+    "canonicalRef": "gita.1.43",
+    "chapter": 1,
+    "verse": 43,
+    "confidence": 0.3,
+    "notes": "Severe alignment fragment lacking both its instrumental cause clause (in 1.42) and its predicate verb (in 1.44)."
+  },
+  {
+    "canonicalRef": "gita.1.44",
+    "chapter": 1,
+    "verse": 44,
+    "confidence": 0.5,
+    "notes": "Truncated at the end by losing its main predicate to verse 1.45, while prepending the grammatical finish of verse 1.43."
+  },
+  {
+    "canonicalRef": "gita.1.45",
+    "chapter": 1,
+    "verse": 45,
+    "confidence": 0.75,
+    "notes": "Translates verse 1.45 with high semantic fidelity, though contaminated at its opening by the terminal predicate of verse 1.44."
+  },
+  {
+    "canonicalRef": "gita.1.46",
+    "chapter": 1,
+    "verse": 46,
+    "confidence": 0.98,
+    "notes": "Accurately and faithfully translates the Sanskrit verse with complete syntactic integrity and intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.1.47",
+    "chapter": 1,
+    "verse": 47,
+    "confidence": 0.98,
+    "notes": "Flawlessly and accurately translates the concluding narrative verse with complete lexical and grammatical fidelity."
+  }
+]

@@ -1,0 +1,737 @@
+[
+  {
+    "canonicalRef": "gita.6.1",
+    "chapter": 6,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse defining the true sannyāsin and yogin without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.6.2",
+    "chapter": 6,
+    "verse": 2,
+    "confidence": 0.72,
+    "notes": "Accurately renders verse 6.2, but exhibits forward boundary bleeding by annexing the opening hemistich clause of verse 6.3 ('To the sage who wishes to rise to devotion')."
+  },
+  {
+    "canonicalRef": "gita.6.3",
+    "chapter": 6,
+    "verse": 3,
+    "confidence": 0.6,
+    "notes": "Suffers bidirectional boundary bleeding: lacks its opening clause (displaced into 6.2) while annexing the opening clause of verse 6.4 ('When one does not attach oneself to objects of sense')."
+  },
+  {
+    "canonicalRef": "gita.6.4",
+    "chapter": 6,
+    "verse": 4,
+    "confidence": 0.58,
+    "notes": "Truncated at the boundary by the loss of its opening sensory detachment clause to verse 6.3, preserving only the concluding conditional and principal clause."
+  },
+  {
+    "canonicalRef": "gita.6.5",
+    "chapter": 6,
+    "verse": 5,
+    "confidence": 0.72,
+    "notes": "Accurately renders the famous teaching on self-elevation and self-befriending, but forward bleeds by annexing the opening clause of verse 6.6."
+  },
+  {
+    "canonicalRef": "gita.6.6",
+    "chapter": 6,
+    "verse": 6,
+    "confidence": 0.55,
+    "notes": "Suffers bidirectional bleeding: truncated at the start by losing its opening clause to 6.5, and annexes the entire first hemistich of verse 6.7."
+  },
+  {
+    "canonicalRef": "gita.6.7",
+    "chapter": 6,
+    "verse": 7,
+    "confidence": 0.42,
+    "notes": "Severely truncated: reduced to an isolated prepositional phrase of pairs of opposites, having lost its entire principal clause and subject to verse 6.6."
+  },
+  {
+    "canonicalRef": "gita.6.8",
+    "chapter": 6,
+    "verse": 8,
+    "confidence": 0.7,
+    "notes": "Accurately renders verse 6.8, but forward bleeds by annexing the principal predicate and opening list element of verse 6.9."
+  },
+  {
+    "canonicalRef": "gita.6.9",
+    "chapter": 6,
+    "verse": 9,
+    "confidence": 0.15,
+    "notes": "Severe fragmentation: reduced to a seven-word residual list fragment, having lost its predicate to 6.8 and the remainder of its ethical catalogue to 6.10."
+  },
+  {
+    "canonicalRef": "gita.6.10",
+    "chapter": 6,
+    "verse": 10,
+    "confidence": 0.68,
+    "notes": "Accurately renders verse 6.10 in full, but is contaminated at the beginning by the annexed remainder of verse 6.9."
+  },
+  {
+    "canonicalRef": "gita.6.11",
+    "chapter": 6,
+    "verse": 11,
+    "confidence": 0.75,
+    "notes": "Faithfully renders the instructions on establishing a meditation seat, but forward bleeds by appending the opening seating clause of verse 6.12."
+  },
+  {
+    "canonicalRef": "gita.6.12",
+    "chapter": 6,
+    "verse": 12,
+    "confidence": 0.78,
+    "notes": "Accurately translates the core meditative instruction for self-purification, lacking only its initial locative participial phrase displaced into 6.11."
+  },
+  {
+    "canonicalRef": "gita.6.13",
+    "chapter": 6,
+    "verse": 13,
+    "confidence": 0.08,
+    "notes": "Severe truncation: reduced to a four-word fragment ('Holding his body head'), with the entire remainder of the verse displaced into verse 6.14."
+  },
+  {
+    "canonicalRef": "gita.6.14",
+    "chapter": 6,
+    "verse": 14,
+    "confidence": 0.6,
+    "notes": "Backward bleeds heavily by absorbing nearly all of verse 6.13 before providing a complete and faithful translation of verse 6.14."
+  },
+  {
+    "canonicalRef": "gita.6.15",
+    "chapter": 6,
+    "verse": 15,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse on attaining liberation through disciplined meditation without boundary defects."
+  },
+  {
+    "canonicalRef": "gita.6.16",
+    "chapter": 6,
+    "verse": 16,
+    "confidence": 0.72,
+    "notes": "Faithfully translates verse 6.16 on moderating food and sleep, but forward bleeds by annexing the concluding clause of verse 6.17."
+  },
+  {
+    "canonicalRef": "gita.6.17",
+    "chapter": 6,
+    "verse": 17,
+    "confidence": 0.55,
+    "notes": "Suffers bidirectional bleeding: lost its principal clause to 6.16 and annexed the opening hemistich of verse 6.18."
+  },
+  {
+    "canonicalRef": "gita.6.18",
+    "chapter": 6,
+    "verse": 18,
+    "confidence": 0.2,
+    "notes": "Severe truncation: reduced to an incomplete clause fragment, having lost its first hemistich to 6.17 and its main predicate to 6.19."
+  },
+  {
+    "canonicalRef": "gita.6.19",
+    "chapter": 6,
+    "verse": 19,
+    "confidence": 0.7,
+    "notes": "Renders the windless lamp simile accurately, but suffers bidirectional bleeding from verse 6.18 at the start and verse 6.20 at the end."
+  },
+  {
+    "canonicalRef": "gita.6.20",
+    "chapter": 6,
+    "verse": 20,
+    "confidence": 0.85,
+    "notes": "Accurately translates the Sanskrit text of verse 6.20 describing the quietude and self-perception of yoga, with minor boundary clipping at the opening."
+  },
+  {
+    "canonicalRef": "gita.6.21",
+    "chapter": 6,
+    "verse": 21,
+    "confidence": 0.94,
+    "notes": "Accurately and fully translates verse 6.21 on infinite transcendental bliss grasped by the intellect, fitting cleanly within the periodic sentence."
+  },
+  {
+    "canonicalRef": "gita.6.22",
+    "chapter": 6,
+    "verse": 22,
+    "confidence": 0.96,
+    "notes": "Faithfully and accurately translates verse 6.22 regarding the supreme gain unshaken by heavy sorrow without boundary defects."
+  },
+  {
+    "canonicalRef": "gita.6.23",
+    "chapter": 6,
+    "verse": 23,
+    "confidence": 0.74,
+    "notes": "Accurately renders verse 6.23 in full, but exhibits forward boundary bleeding by annexing the opening hemistich of verse 6.24."
+  },
+  {
+    "canonicalRef": "gita.6.24",
+    "chapter": 6,
+    "verse": 24,
+    "confidence": 0.48,
+    "notes": "Truncated by the loss of its opening hemistich on abandoning desires to verse 6.23, preserving only the sensory restraint clause."
+  },
+  {
+    "canonicalRef": "gita.6.25",
+    "chapter": 6,
+    "verse": 25,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the classic meditation guideline of step-by-step quieting of the mind without omissions."
+  },
+  {
+    "canonicalRef": "gita.6.26",
+    "chapter": 6,
+    "verse": 26,
+    "confidence": 0.65,
+    "notes": "Accurately translates verse 6.26, but forward bleeds significantly by annexing the major portion of verse 6.27."
+  },
+  {
+    "canonicalRef": "gita.6.27",
+    "chapter": 6,
+    "verse": 27,
+    "confidence": 0.32,
+    "notes": "Severe truncation: reduced to a relative fragment describing purity and Brahman-absorption, having lost its principal clause to verse 6.26."
+  },
+  {
+    "canonicalRef": "gita.6.28",
+    "chapter": 6,
+    "verse": 28,
+    "confidence": 0.72,
+    "notes": "Accurately renders verse 6.28, but forward bleeds by annexing the subject and equanimous vision epithet of verse 6.29."
+  },
+  {
+    "canonicalRef": "gita.6.29",
+    "chapter": 6,
+    "verse": 29,
+    "confidence": 0.6,
+    "notes": "Suffers bidirectional bleeding: lacks its subject (lost to 6.28) and annexes the opening clause of verse 6.30."
+  },
+  {
+    "canonicalRef": "gita.6.30",
+    "chapter": 6,
+    "verse": 30,
+    "confidence": 0.72,
+    "notes": "Renders the reciprocal divine presence faithfully, though missing its initial relative clause displaced into verse 6.29."
+  },
+  {
+    "canonicalRef": "gita.6.31",
+    "chapter": 6,
+    "verse": 31,
+    "confidence": 0.85,
+    "notes": "Faithfully renders the unity of devotional life in God, with minor forward bleeding of the demonstrative subject of verse 6.32."
+  },
+  {
+    "canonicalRef": "gita.6.32",
+    "chapter": 6,
+    "verse": 32,
+    "confidence": 0.4,
+    "notes": "Severely truncated: lost its opening subject to 6.31 and its comparative phrase ('by comparison with oneself') to 6.33."
+  },
+  {
+    "canonicalRef": "gita.6.33",
+    "chapter": 6,
+    "verse": 33,
+    "confidence": 0.58,
+    "notes": "Heavily contaminated: prepends the omitted comparative clause of 6.32 and annexes the opening assertion of verse 6.34."
+  },
+  {
+    "canonicalRef": "gita.6.34",
+    "chapter": 6,
+    "verse": 34,
+    "confidence": 0.7,
+    "notes": "Accurately renders the famous wind simile for mind control, though truncated at the start by the displacement of its opening clause into 6.33."
+  },
+  {
+    "canonicalRef": "gita.6.35",
+    "chapter": 6,
+    "verse": 35,
+    "confidence": 0.82,
+    "notes": "Faithfully renders the dual remedy of abhyāsa and vairāgya, but exhibits minor forward bleeding by annexing the belief formula of verse 6.36."
+  },
+  {
+    "canonicalRef": "gita.6.36",
+    "chapter": 6,
+    "verse": 36,
+    "confidence": 0.86,
+    "notes": "Accurately translates the necessity of self-restraint for yoga, with its introductory formula slightly displaced into verse 6.35."
+  },
+  {
+    "canonicalRef": "gita.6.37",
+    "chapter": 6,
+    "verse": 37,
+    "confidence": 0.75,
+    "notes": "Accurately renders Arjuna's question concerning the unsuccessful yogin, but forward bleeds by annexing the opening query of verse 6.38."
+  },
+  {
+    "canonicalRef": "gita.6.38",
+    "chapter": 6,
+    "verse": 38,
+    "confidence": 0.18,
+    "notes": "Severe truncation: reduced to a seven-word fragment of the broken-cloud simile, having lost its opening to 6.37 and its second hemistich to 6.39."
+  },
+  {
+    "canonicalRef": "gita.6.39",
+    "chapter": 6,
+    "verse": 39,
+    "confidence": 0.65,
+    "notes": "Backward bleeds by absorbing the second hemistich of verse 6.38 before faithfully translating Arjuna's plea for doubt-dispelling in verse 6.39."
+  },
+  {
+    "canonicalRef": "gita.6.40",
+    "chapter": 6,
+    "verse": 40,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse assuring that the doer of good never comes to ruin."
+  },
+  {
+    "canonicalRef": "gita.6.41",
+    "chapter": 6,
+    "verse": 41,
+    "confidence": 0.5,
+    "notes": "Truncated by losing its second hemistich regarding rebirth in a pure and prosperous household to verse 6.42."
+  },
+  {
+    "canonicalRef": "gita.6.42",
+    "chapter": 6,
+    "verse": 42,
+    "confidence": 0.7,
+    "notes": "Backward bleeds by prepending the concluding clause of verse 6.41, followed by a faithful translation of verse 6.42."
+  },
+  {
+    "canonicalRef": "gita.6.43",
+    "chapter": 6,
+    "verse": 43,
+    "confidence": 0.5,
+    "notes": "Truncated by losing its second hemistich on renewed striving for perfection to verse 6.44."
+  },
+  {
+    "canonicalRef": "gita.6.44",
+    "chapter": 6,
+    "verse": 44,
+    "confidence": 0.55,
+    "notes": "Suffers bidirectional bleeding: prepends the closing hemistich of 6.43 and appends the opening subject clause of verse 6.45."
+  },
+  {
+    "canonicalRef": "gita.6.45",
+    "chapter": 6,
+    "verse": 45,
+    "confidence": 0.7,
+    "notes": "Accurately translates the culmination of yogic striving across lifetimes, though lacking its opening subject phrase displaced into 6.44."
+  },
+  {
+    "canonicalRef": "gita.6.46",
+    "chapter": 6,
+    "verse": 46,
+    "confidence": 0.76,
+    "notes": "Faithfully translates the superiority of the yogin over ascetics, scholars, and ritualists, but displaces its final injunction into verse 6.47."
+  },
+  {
+    "canonicalRef": "gita.6.47",
+    "chapter": 6,
+    "verse": 47,
+    "confidence": 0.8,
+    "notes": "Faithfully renders the chapter's culminating praise of the devout yogin, preceded by the annexed final imperative of verse 6.46."
+  },
+  {
+    "canonicalRef": "gita.7.1",
+    "chapter": 7,
+    "verse": 1,
+    "confidence": 0.72,
+    "notes": "Accurately renders verse 7.1, but exhibits forward boundary bleeding by annexing the first hemistich of verse 7.2."
+  },
+  {
+    "canonicalRef": "gita.7.2",
+    "chapter": 7,
+    "verse": 2,
+    "confidence": 0.5,
+    "notes": "Truncated by losing its opening promise of teaching knowledge with experiential wisdom to verse 7.1, preserving only the concluding relative clause."
+  },
+  {
+    "canonicalRef": "gita.7.3",
+    "chapter": 7,
+    "verse": 3,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the rare attainment of divine knowledge among thousands of strivers without omissions."
+  },
+  {
+    "canonicalRef": "gita.7.4",
+    "chapter": 7,
+    "verse": 4,
+    "confidence": 0.76,
+    "notes": "Accurately translates the eightfold material nature, but exhibits forward boundary bleeding by annexing the opening clause of verse 7.5."
+  },
+  {
+    "canonicalRef": "gita.7.5",
+    "chapter": 7,
+    "verse": 5,
+    "confidence": 0.88,
+    "notes": "Faithfully translates the higher spiritual nature (parā prakṛti) sustaining the world, with only its introductory pronoun slightly displaced into 7.4."
+  },
+  {
+    "canonicalRef": "gita.7.6",
+    "chapter": 7,
+    "verse": 6,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the two prakṛtis as the womb of all beings and Krishna as the origin and dissolution of the cosmos."
+  },
+  {
+    "canonicalRef": "gita.7.7",
+    "chapter": 7,
+    "verse": 7,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the supremacy of the Lord and the celebrated metaphor of pearls strung on a thread."
+  },
+  {
+    "canonicalRef": "gita.7.8",
+    "chapter": 7,
+    "verse": 8,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the divine immanence as taste in water, radiance in sun and moon, Pranava, sound, and virility."
+  },
+  {
+    "canonicalRef": "gita.7.9",
+    "chapter": 7,
+    "verse": 9,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately renders the sacred scent in earth, brilliance in fire, life in all beings, and penance in ascetics."
+  },
+  {
+    "canonicalRef": "gita.7.10",
+    "chapter": 7,
+    "verse": 10,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the eternal seed of beings, intellect of the wise, and splendor of the radiant."
+  },
+  {
+    "canonicalRef": "gita.7.11",
+    "chapter": 7,
+    "verse": 11,
+    "confidence": 0.65,
+    "notes": "Accurately renders verse 7.11, but forward bleeds heavily by annexing the entire first hemistich of verse 7.12."
+  },
+  {
+    "canonicalRef": "gita.7.12",
+    "chapter": 7,
+    "verse": 12,
+    "confidence": 0.05,
+    "notes": "Severe truncation: reduced to a five-word connective fragment ('know that they are indeed'), having lost its first hemistich to 7.11 and its second to 7.13."
+  },
+  {
+    "canonicalRef": "gita.7.13",
+    "chapter": 7,
+    "verse": 13,
+    "confidence": 0.05,
+    "notes": "Complete misalignment: contains exclusively the displaced concluding clause of verse 7.12, possessing zero content belonging to verse 7.13."
+  },
+  {
+    "canonicalRef": "gita.7.14",
+    "chapter": 7,
+    "verse": 14,
+    "confidence": 0.5,
+    "notes": "Absorbs the entirety of verse 7.13 before providing a complete and faithful translation of verse 7.14 on crossing over the divine Māyā."
+  },
+  {
+    "canonicalRef": "gita.7.15",
+    "chapter": 7,
+    "verse": 15,
+    "confidence": 0.5,
+    "notes": "Truncated by losing its demonic classification and main verbal predicate to verse 7.16."
+  },
+  {
+    "canonicalRef": "gita.7.16",
+    "chapter": 7,
+    "verse": 16,
+    "confidence": 0.62,
+    "notes": "Suffers bidirectional bleeding: contaminated by the conclusion of 7.15 at the start and annexes the opening subject of verse 7.17 at the end."
+  },
+  {
+    "canonicalRef": "gita.7.17",
+    "chapter": 7,
+    "verse": 17,
+    "confidence": 0.85,
+    "notes": "Accurately translates the preeminence and mutual devotion of the jñānin, with only its opening subject phrase displaced into 7.16."
+  },
+  {
+    "canonicalRef": "gita.7.18",
+    "chapter": 7,
+    "verse": 18,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the nobility of all devotees and the jñānin as Krishna's very Self without omissions."
+  },
+  {
+    "canonicalRef": "gita.7.19",
+    "chapter": 7,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the culmination of wisdom after many births ('Vāsudeva is everything') without boundary defects."
+  },
+  {
+    "canonicalRef": "gita.7.20",
+    "chapter": 7,
+    "verse": 20,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the resort to other divinities driven by desires and governed by innate nature."
+  },
+  {
+    "canonicalRef": "gita.7.21",
+    "chapter": 7,
+    "verse": 21,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the divine confirmation of unshakeable faith in whatever form of deity a devotee worships."
+  },
+  {
+    "canonicalRef": "gita.7.22",
+    "chapter": 7,
+    "verse": 22,
+    "confidence": 0.48,
+    "notes": "Truncated by losing its second hemistich on obtaining desired fruits ordained by the Lord to verse 7.23."
+  },
+  {
+    "canonicalRef": "gita.7.23",
+    "chapter": 7,
+    "verse": 23,
+    "confidence": 0.72,
+    "notes": "Accurately renders verse 7.23, but backward bleeds by prepending the displaced second hemistich of verse 7.22."
+  },
+  {
+    "canonicalRef": "gita.7.24",
+    "chapter": 7,
+    "verse": 24,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the critique of the ignorant who deem the unmanifest Supreme to be merely manifest."
+  },
+  {
+    "canonicalRef": "gita.7.25",
+    "chapter": 7,
+    "verse": 25,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates concealment by yogamāyā and the deluded world's failure to recognize the unborn Lord."
+  },
+  {
+    "canonicalRef": "gita.7.26",
+    "chapter": 7,
+    "verse": 26,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the Lord's omniscience across past, present, and future, while remaining unknown to beings."
+  },
+  {
+    "canonicalRef": "gita.7.27",
+    "chapter": 7,
+    "verse": 27,
+    "confidence": 0.05,
+    "notes": "Severe truncation: reduced to a two-word fragment ('All beings'), with the entire remainder of the verse displaced into verse 7.28."
+  },
+  {
+    "canonicalRef": "gita.7.28",
+    "chapter": 7,
+    "verse": 28,
+    "confidence": 0.52,
+    "notes": "Severely contaminated by absorbing almost all of verse 7.27 at the start and annexing the opening clause of verse 7.29 at the end."
+  },
+  {
+    "canonicalRef": "gita.7.29",
+    "chapter": 7,
+    "verse": 29,
+    "confidence": 0.55,
+    "notes": "Suffers bidirectional truncation: lost its opening clause to 7.28 and displaced its closing object phrase ('and all action') into 7.30."
+  },
+  {
+    "canonicalRef": "gita.7.30",
+    "chapter": 7,
+    "verse": 30,
+    "confidence": 0.8,
+    "notes": "Faithfully translates verse 7.30 on knowing Krishna with Adhibhūta, Adhidaiva, and Adhiyajña at death, preceded by the annexed concluding phrase of verse 7.29."
+  },
+  {
+    "canonicalRef": "gita.8.1",
+    "chapter": 8,
+    "verse": 1,
+    "confidence": 0.72,
+    "notes": "Accurately renders Arjuna's opening metaphysical questions, but exhibits forward boundary bleeding by annexing the initial question of verse 8.2."
+  },
+  {
+    "canonicalRef": "gita.8.2",
+    "chapter": 8,
+    "verse": 2,
+    "confidence": 0.8,
+    "notes": "Accurately translates Arjuna's inquiry regarding the Adhiyajña and knowing the Lord at death, though truncated at the opening by the displacement of its first query into 8.1."
+  },
+  {
+    "canonicalRef": "gita.8.3",
+    "chapter": 8,
+    "verse": 3,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the definitions of Brahman, Adhyātma, and karma without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.8.4",
+    "chapter": 8,
+    "verse": 4,
+    "confidence": 0.55,
+    "notes": "Accurately renders verse 8.4, but severely over-includes subsequent material by annexing nearly the entirety of verse 8.5."
+  },
+  {
+    "canonicalRef": "gita.8.5",
+    "chapter": 8,
+    "verse": 5,
+    "confidence": 0.15,
+    "notes": "Severe truncation: reduced to a six-word residual affirmation ('There is no doubt of that'), having lost its entire teaching on remembering the Lord at death to verse 8.4."
+  },
+  {
+    "canonicalRef": "gita.8.6",
+    "chapter": 8,
+    "verse": 6,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the cardinal principle that one's final thought determines the subsequent state of being."
+  },
+  {
+    "canonicalRef": "gita.8.7",
+    "chapter": 8,
+    "verse": 7,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the command to remember God at all times while fighting, without boundary defects."
+  },
+  {
+    "canonicalRef": "gita.8.8",
+    "chapter": 8,
+    "verse": 8,
+    "confidence": 0.68,
+    "notes": "Accurately renders verse 8.8, but exhibits forward boundary bleeding by annexing the opening devotion clause of verse 8.10."
+  },
+  {
+    "canonicalRef": "gita.8.9",
+    "chapter": 8,
+    "verse": 9,
+    "confidence": 0.7,
+    "notes": "Accurately translates the exalted attributes of the supreme Puruṣa in 8.9, but backward bleeds by prepending the prāṇa-concentration clause of verse 8.10."
+  },
+  {
+    "canonicalRef": "gita.8.10",
+    "chapter": 8,
+    "verse": 10,
+    "confidence": 0.22,
+    "notes": "Severe truncation: reduced to an eight-word concluding clause fragment, having lost its opening clauses to 8.8 and its yogic focusing clause to 8.9."
+  },
+  {
+    "canonicalRef": "gita.8.11",
+    "chapter": 8,
+    "verse": 11,
+    "confidence": 0.72,
+    "notes": "Accurately renders verse 8.11 on the indestructible goal sought by celibate ascetics, but forward bleeds by annexing the opening clause of verse 8.12."
+  },
+  {
+    "canonicalRef": "gita.8.12",
+    "chapter": 8,
+    "verse": 12,
+    "confidence": 0.35,
+    "notes": "Severely truncated: reduced to an internal phrase fragment, having lost its opening gate-closing clause to 8.11 and its yogic absorption clause to 8.13."
+  },
+  {
+    "canonicalRef": "gita.8.13",
+    "chapter": 8,
+    "verse": 13,
+    "confidence": 0.4,
+    "notes": "Truncated and fragmented: prepends the tail of 8.12 and translates the Om recital, but loses its entire departure and liberation clause to verse 8.14."
+  },
+  {
+    "canonicalRef": "gita.8.14",
+    "chapter": 8,
+    "verse": 14,
+    "confidence": 0.75,
+    "notes": "Faithfully translates verse 8.14 on the accessibility of the Lord to the single-minded yogin, but is contaminated by the displaced conclusion of verse 8.13."
+  },
+  {
+    "canonicalRef": "gita.8.15",
+    "chapter": 8,
+    "verse": 15,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the release from rebirth in this transient abode of misery upon attaining the Supreme."
+  },
+  {
+    "canonicalRef": "gita.8.16",
+    "chapter": 8,
+    "verse": 16,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the return from all worlds up to Brahmaloka and the non-return upon reaching the Lord."
+  },
+  {
+    "canonicalRef": "gita.8.17",
+    "chapter": 8,
+    "verse": 17,
+    "confidence": 0.8,
+    "notes": "Accurately translates the cosmic day and night of Brahmā, but exhibits minor forward bleeding by annexing the opening temporal phrase of verse 8.18."
+  },
+  {
+    "canonicalRef": "gita.8.18",
+    "chapter": 8,
+    "verse": 18,
+    "confidence": 0.88,
+    "notes": "Accurately renders cosmic manifestation and dissolution into the unmanifest, with only its opening phrase slightly displaced into 8.17."
+  },
+  {
+    "canonicalRef": "gita.8.19",
+    "chapter": 8,
+    "verse": 19,
+    "confidence": 0.82,
+    "notes": "Accurately translates the cyclic emergence and dissolution of beings, but displaces its adverbial modifier ('without a will of its own') into 8.20."
+  },
+  {
+    "canonicalRef": "gita.8.20",
+    "chapter": 8,
+    "verse": 20,
+    "confidence": 0.68,
+    "notes": "Suffers bidirectional bleeding: prepends the trailing modifier of 8.19 and annexes the opening epithets of verse 8.21."
+  },
+  {
+    "canonicalRef": "gita.8.21",
+    "chapter": 8,
+    "verse": 21,
+    "confidence": 0.72,
+    "notes": "Suffers bidirectional boundary bleeding: lost its opening epithets to 8.20 and annexed the opening subject phrase of verse 8.22."
+  },
+  {
+    "canonicalRef": "gita.8.22",
+    "chapter": 8,
+    "verse": 22,
+    "confidence": 0.45,
+    "notes": "Severely truncated: retains only the relative clauses describing the all-pervading Puruṣa, having lost its subject to 8.21 and its main predicate to 8.23."
+  },
+  {
+    "canonicalRef": "gita.8.23",
+    "chapter": 8,
+    "verse": 23,
+    "confidence": 0.75,
+    "notes": "Faithfully renders verse 8.23 on the times of departure of returning and non-returning yogins, preceded by the displaced predicate of 8.22."
+  },
+  {
+    "canonicalRef": "gita.8.24",
+    "chapter": 8,
+    "verse": 24,
+    "confidence": 0.5,
+    "notes": "Truncated by losing its entire principal clause concerning the Brahman-knowers attaining Brahman to verse 8.25."
+  },
+  {
+    "canonicalRef": "gita.8.25",
+    "chapter": 8,
+    "verse": 25,
+    "confidence": 0.72,
+    "notes": "Accurately translates the lunar path of return in verse 8.25, preceded by the displaced conclusion of verse 8.24."
+  },
+  {
+    "canonicalRef": "gita.8.26",
+    "chapter": 8,
+    "verse": 26,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the contrast between the eternal bright and dark paths of the world without omissions."
+  },
+  {
+    "canonicalRef": "gita.8.27",
+    "chapter": 8,
+    "verse": 27,
+    "confidence": 0.65,
+    "notes": "Accurately translates verse 8.27, but exhibits significant forward boundary bleeding by annexing the major opening portion of verse 8.28."
+  },
+  {
+    "canonicalRef": "gita.8.28",
+    "chapter": 8,
+    "verse": 28,
+    "confidence": 0.52,
+    "notes": "Truncated by losing its opening clauses on scriptural study and knowledge transcending merit to verse 8.27."
+  }
+]

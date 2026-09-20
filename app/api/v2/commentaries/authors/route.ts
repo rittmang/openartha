@@ -6,7 +6,7 @@ export async function GET(request: Request) {
     return markdownResponse([
       '# Commentary authors', '',
       `Source snapshot: [${commentarySource.source.title}](${commentarySource.source.repository}) at \`${commentarySource.source.commit}\`.`, '',
-      ...commentaryAuthors.map((author) => `- **${author.displayName}** — ${author.publicFields.length ? `published fields: ${author.publicFields.join(', ')}` : 'metadata only'} — ${author.rightsNote}`), '',
+      ...commentaryAuthors.map((author) => `- **${author.displayName}** — published fields: ${author.publicFields.join(', ')} — ${author.rightsNote}`), '',
     ].join('\n'));
   }
   return jsonResponse({ data: commentaryAuthors, meta: { corpusVersion: commentarySource.corpusVersion, sourceCommit: commentarySource.source.commit } });

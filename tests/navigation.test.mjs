@@ -17,10 +17,14 @@ test('reader navigation uses native links that survive client-router failures', 
   const sources = await Promise.all(
     navigationFiles.map((file) => readFile(new URL(file, root), 'utf8')),
   );
+  const favicon = await readFile(new URL('public/favicon.svg', root), 'utf8');
 
   for (const source of sources) {
     assert.doesNotMatch(source, /next\/link|<Link\b/);
   }
 
-  assert.match(sources[0], /href="\/gita">Read the Gita<\/a>/);
+  assert.match(sources[0], /href="\/gita">Start reading the Gita<\/a>/);
+  assert.match(sources[1], />OA<\/text>/);
+  assert.match(sources[1], /shortcut: '\/favicon\.svg'/);
+  assert.match(favicon, />OA<\/text>/);
 });

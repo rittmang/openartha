@@ -1,0 +1,1094 @@
+[
+  {
+    "canonicalRef": "gita.11.1",
+    "chapter": 11,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates Arjuna's acknowledgment of the secret doctrine concerning the supreme Self without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.11.2",
+    "chapter": 11,
+    "verse": 2,
+    "confidence": 0.75,
+    "notes": "Accurately renders verse 11.2, but forward bleeds by annexing the opening hemistich of verse 11.3 (\"O highest lord! what you have said about yourself is so.\")."
+  },
+  {
+    "canonicalRef": "gita.11.3",
+    "chapter": 11,
+    "verse": 3,
+    "confidence": 0.45,
+    "notes": "Severely compromised: lacks its first hemistich (lost to 11.2), retains only the second hemistich (\"I wish, O best of beings! to see your divine form.\"), and annexes the conjunction \"If\" from verse 11.4."
+  },
+  {
+    "canonicalRef": "gita.11.4",
+    "chapter": 11,
+    "verse": 4,
+    "confidence": 0.88,
+    "notes": "Accurately translates the plea to behold the imperishable form, lacking only the initial conditional particle \"If\" severed into verse 11.3."
+  },
+  {
+    "canonicalRef": "gita.11.5",
+    "chapter": 11,
+    "verse": 5,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates Krishna's revelation of His hundreds and thousands of divine forms without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.11.6",
+    "chapter": 11,
+    "verse": 6,
+    "confidence": 0.8,
+    "notes": "Accurately translates the celestial deities and unseen wonders of 11.6, but forward bleeds by annexing the opening phrase \"Within my body\" belonging to verse 11.7."
+  },
+  {
+    "canonicalRef": "gita.11.7",
+    "chapter": 11,
+    "verse": 7,
+    "confidence": 0.4,
+    "notes": "Severely truncated: reduced to \"O Guḍākesa! see to-day the whole universe\", having lost its opening locator to 11.6 and its entire second hemistich to verse 11.8."
+  },
+  {
+    "canonicalRef": "gita.11.8",
+    "chapter": 11,
+    "verse": 8,
+    "confidence": 0.68,
+    "notes": "Backward bleeds by prepending the second hemistich of verse 11.7 (\"including (everything) movable and immovable...\"), followed by the full, faithful translation of verse 11.8."
+  },
+  {
+    "canonicalRef": "gita.11.9",
+    "chapter": 11,
+    "verse": 9,
+    "confidence": 0.3,
+    "notes": "Severe truncation: reduced to the introductory narrative clause (\"Having spoken thus O king! Hari\"), losing the entire main verb and divine form revelation to verse 11.10."
+  },
+  {
+    "canonicalRef": "gita.11.10",
+    "chapter": 11,
+    "verse": 10,
+    "confidence": 0.65,
+    "notes": "Backward bleeds by prepending the main revelation clause of verse 11.9, followed by the complete translation of verse 11.10's celestial mouths, eyes, and weapons."
+  },
+  {
+    "canonicalRef": "gita.11.11",
+    "chapter": 11,
+    "verse": 11,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the celestial garlands, unguents, and all-wonderful infinite form with faces in all directions without omissions."
+  },
+  {
+    "canonicalRef": "gita.11.12",
+    "chapter": 11,
+    "verse": 12,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately renders the cosmic radiance through the simile of a thousand simultaneous suns with intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.11.13",
+    "chapter": 11,
+    "verse": 13,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates Arjuna's vision of the manifold universe united in the body of the God of gods without omissions."
+  },
+  {
+    "canonicalRef": "gita.11.14",
+    "chapter": 11,
+    "verse": 14,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately renders Arjuna's astonished physical reaction, prostration, and prayer with joined hands."
+  },
+  {
+    "canonicalRef": "gita.11.15",
+    "chapter": 11,
+    "verse": 15,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates Arjuna's vision of the gods, hosts of beings, Brahmā on his lotus seat, sages, and divine serpents."
+  },
+  {
+    "canonicalRef": "gita.11.16",
+    "chapter": 11,
+    "verse": 16,
+    "confidence": 0.78,
+    "notes": "Accurately translates the boundless form with innumerable arms, stomachs, mouths, and eyes, but loses its concluding clause (\"I do not see your end or middle or beginning\") to verse 11.17."
+  },
+  {
+    "canonicalRef": "gita.11.17",
+    "chapter": 11,
+    "verse": 17,
+    "confidence": 0.72,
+    "notes": "Backward bleeds by prepending the concluding clause of verse 11.16, followed by the complete and faithful translation of verse 11.17."
+  },
+  {
+    "canonicalRef": "gita.11.18",
+    "chapter": 11,
+    "verse": 18,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the eulogy of the imperishable supreme knowable, the refuge of the universe, and the eternal protector of dharma."
+  },
+  {
+    "canonicalRef": "gita.11.19",
+    "chapter": 11,
+    "verse": 19,
+    "confidence": 0.8,
+    "notes": "Accurately translates the infinite power, solar and lunar eyes, and blazing fiery mouth of 11.19, but loses its final clause (\"and heating the universe with your radiance\") to verse 11.20."
+  },
+  {
+    "canonicalRef": "gita.11.20",
+    "chapter": 11,
+    "verse": 20,
+    "confidence": 0.55,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the final clause of verse 11.19 and annexing the opening host-of-gods clause from verse 11.21."
+  },
+  {
+    "canonicalRef": "gita.11.21",
+    "chapter": 11,
+    "verse": 21,
+    "confidence": 0.72,
+    "notes": "Missing its opening clause describing the hosts of gods entering the form (lost to 11.20), but accurately translates the prayers of fear and praise by sages and Siddhas."
+  },
+  {
+    "canonicalRef": "gita.11.22",
+    "chapter": 11,
+    "verse": 22,
+    "confidence": 0.8,
+    "notes": "Accurately enumerates the Rudras, Ādityas, Vasus, and celestial witnesses looking on amazed, but forward bleeds by annexing the opening clause of verse 11.23 (\"Seeing your mighty form\")."
+  },
+  {
+    "canonicalRef": "gita.11.23",
+    "chapter": 11,
+    "verse": 23,
+    "confidence": 0.8,
+    "notes": "Lacks its opening clause (\"Seeing your mighty form\", lost to 11.22), but accurately translates the alarm caused by the terrible mouths, teeth, arms, and stomachs."
+  },
+  {
+    "canonicalRef": "gita.11.24",
+    "chapter": 11,
+    "verse": 24,
+    "confidence": 0.82,
+    "notes": "Accurately translates the terrifying sky-touching radiant form with fiery eyes, but loses its concluding words (\"no tranquillity\") to verse 11.25."
+  },
+  {
+    "canonicalRef": "gita.11.25",
+    "chapter": 11,
+    "verse": 25,
+    "confidence": 0.58,
+    "notes": "Suffers bidirectional boundary bleeding by prepending \"no tranquillity.\" from verse 11.24 and annexing the opening clause of verse 11.26 regarding Dhṛtarāṣṭra's sons."
+  },
+  {
+    "canonicalRef": "gita.11.26",
+    "chapter": 11,
+    "verse": 26,
+    "confidence": 0.7,
+    "notes": "Missing its opening line regarding the sons of Dhṛtarāṣṭra (lost to 11.25), retaining only the enumeration of Bhīṣma, Droṇa, Karṇa, and key warriors."
+  },
+  {
+    "canonicalRef": "gita.11.27",
+    "chapter": 11,
+    "verse": 27,
+    "confidence": 0.72,
+    "notes": "Accurately translates the crushing of warriors in the cosmic jaws, but forward bleeds by annexing the opening river simile of verse 11.28."
+  },
+  {
+    "canonicalRef": "gita.11.28",
+    "chapter": 11,
+    "verse": 28,
+    "confidence": 0.5,
+    "notes": "Severely impaired: missing its opening river simile (lost to 11.27) and annexing the opening moth simile of verse 11.29 (\"As butterflies with increased velocity\")."
+  },
+  {
+    "canonicalRef": "gita.11.29",
+    "chapter": 11,
+    "verse": 29,
+    "confidence": 0.35,
+    "notes": "Severe truncation: reduced to the middle fragment \"enter a blazing fire to their destruction\", having lost its subject to 11.28 and its entire second hemistich to verse 11.30."
+  },
+  {
+    "canonicalRef": "gita.11.30",
+    "chapter": 11,
+    "verse": 30,
+    "confidence": 0.68,
+    "notes": "Backward bleeds by prepending the second hemistich of verse 11.29, followed by the complete, faithful translation of the cosmic devouring and burning rays of verse 11.30."
+  },
+  {
+    "canonicalRef": "gita.11.31",
+    "chapter": 11,
+    "verse": 31,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates Arjuna's inquiry into the identity and intent of the fierce form with salutations and prayers for grace."
+  },
+  {
+    "canonicalRef": "gita.11.32",
+    "chapter": 11,
+    "verse": 32,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately renders the Lord's proclamation as world-destroying Time and the inevitable doom of the opposing warriors."
+  },
+  {
+    "canonicalRef": "gita.11.33",
+    "chapter": 11,
+    "verse": 33,
+    "confidence": 0.78,
+    "notes": "Accurately renders the call to battle, glory, and sovereignty, but loses its final exhortation (\"Be only the instrument, O Savyasācin!\") to verse 11.34."
+  },
+  {
+    "canonicalRef": "gita.11.34",
+    "chapter": 11,
+    "verse": 34,
+    "confidence": 0.75,
+    "notes": "Backward bleeds by prepending the concluding exhortation of verse 11.33 (\"Be only the instrument, O Savyasācin!\"), followed by the complete translation of verse 11.34."
+  },
+  {
+    "canonicalRef": "gita.11.35",
+    "chapter": 11,
+    "verse": 35,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates Sañjaya's account of the trembling Arjuna bowing with joined hands and addressing Kṛṣṇa with choked voice."
+  },
+  {
+    "canonicalRef": "gita.11.36",
+    "chapter": 11,
+    "verse": 36,
+    "confidence": 0.78,
+    "notes": "Accurately translates the universe rejoicing in the Lord's glory and demons fleeing in fear, but loses its concluding clause regarding the Siddhas to verse 11.37."
+  },
+  {
+    "canonicalRef": "gita.11.37",
+    "chapter": 11,
+    "verse": 37,
+    "confidence": 0.75,
+    "notes": "Backward bleeds by prepending the homage of the Siddhas from verse 11.36, followed by the full, faithful praise of the primal creator greater than Brahmā."
+  },
+  {
+    "canonicalRef": "gita.11.38",
+    "chapter": 11,
+    "verse": 38,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the eulogy of the primal deity, the ancient person, knower, knowable, and supreme omnipresent abode."
+  },
+  {
+    "canonicalRef": "gita.11.39",
+    "chapter": 11,
+    "verse": 39,
+    "confidence": 0.75,
+    "notes": "Accurately identifies the cosmic deities and thousandfold prostrations, but forward bleeds by annexing the opening salutation of verse 11.40 (\"In front and from behind obeisance to thee!\")."
+  },
+  {
+    "canonicalRef": "gita.11.40",
+    "chapter": 11,
+    "verse": 40,
+    "confidence": 0.75,
+    "notes": "Lacks its opening salutation (lost to 11.39), but accurately translates the adoration of the omnipresent Lord possessing infinite strength and prowess."
+  },
+  {
+    "canonicalRef": "gita.11.41",
+    "chapter": 11,
+    "verse": 41,
+    "confidence": 0.92,
+    "notes": "Accurately translates the protasis of Arjuna's confession and excuse of affection or negligence across the integrated syntactical period of 11.41-11.42."
+  },
+  {
+    "canonicalRef": "gita.11.42",
+    "chapter": 11,
+    "verse": 42,
+    "confidence": 0.92,
+    "notes": "Accurately translates the apodosis of Arjuna's prayer for forgiveness regarding jest and disrespect across the integrated syntactical period shared with 11.41."
+  },
+  {
+    "canonicalRef": "gita.11.43",
+    "chapter": 11,
+    "verse": 43,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the praise of the father and venerable teacher of all moving and unmoving beings of unequalled power."
+  },
+  {
+    "canonicalRef": "gita.11.44",
+    "chapter": 11,
+    "verse": 44,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately renders Arjuna's prostration and prayer for forbearance like a father toward a son, a friend toward a friend, or a lover toward a beloved."
+  },
+  {
+    "canonicalRef": "gita.11.45",
+    "chapter": 11,
+    "verse": 45,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately conveys Arjuna's combined joy at the unseen marvel and dread of heart, begging for the familiar divine form to be shown."
+  },
+  {
+    "canonicalRef": "gita.11.46",
+    "chapter": 11,
+    "verse": 46,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates Arjuna's request to see the thousand-armed cosmic form resume its familiar four-armed manifestation with mace and discus."
+  },
+  {
+    "canonicalRef": "gita.11.47",
+    "chapter": 11,
+    "verse": 47,
+    "confidence": 0.78,
+    "notes": "Accurately translates the Lord's gracious revelation of the supreme cosmic form, but loses its final relative clause (\"and which has not been seen before by any one else but you\") to verse 11.48."
+  },
+  {
+    "canonicalRef": "gita.11.48",
+    "chapter": 11,
+    "verse": 48,
+    "confidence": 0.75,
+    "notes": "Backward bleeds by prepending the final relative clause of verse 11.47, followed by the complete, faithful translation of verse 11.48."
+  },
+  {
+    "canonicalRef": "gita.11.49",
+    "chapter": 11,
+    "verse": 49,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates Krishna's exhortation dispelling fear and delusion, bidding Arjuna behold His gentle form again."
+  },
+  {
+    "canonicalRef": "gita.11.50",
+    "chapter": 11,
+    "verse": 50,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately renders Sañjaya's account of Vāsudeva resuming His graceful human form and consoling the terrified Arjuna."
+  },
+  {
+    "canonicalRef": "gita.11.51",
+    "chapter": 11,
+    "verse": 51,
+    "confidence": 0.42,
+    "notes": "Accurately translates Arjuna's relief at beholding the human form, but suffers massive forward bleeding by annexing the whole of verse 11.52 and the start of verse 11.53."
+  },
+  {
+    "canonicalRef": "gita.11.52",
+    "chapter": 11,
+    "verse": 52,
+    "confidence": 0.15,
+    "notes": "Catastrophic alignment error: verse 11.52 was absorbed into 11.51, leaving here only an isolated clause belonging to verse 11.53 (\"as you have seen me by (means of) the Vedas not by penance\")."
+  },
+  {
+    "canonicalRef": "gita.11.53",
+    "chapter": 11,
+    "verse": 53,
+    "confidence": 0.1,
+    "notes": "Catastrophic alignment error: reduced to the tiny three-word fragment \"not by gift\", with the rest of the verse scattered across 11.51, 11.52, and 11.54."
+  },
+  {
+    "canonicalRef": "gita.11.54",
+    "chapter": 11,
+    "verse": 54,
+    "confidence": 0.5,
+    "notes": "Backward bleeds with the sacrifice clause of 11.53, translates 11.54 partially, and loses its final clause (\"and assimilated with O terror of your foes!\") to verse 11.55."
+  },
+  {
+    "canonicalRef": "gita.11.55",
+    "chapter": 11,
+    "verse": 55,
+    "confidence": 0.72,
+    "notes": "Backward bleeds by prepending the final clause of verse 11.54, followed by the complete and faithful translation of the path of single-minded devotion."
+  },
+  {
+    "canonicalRef": "gita.12.1",
+    "chapter": 12,
+    "verse": 1,
+    "confidence": 0.72,
+    "notes": "Accurately renders Arjuna's question comparing devotion to the manifest with contemplation of the unperceived, but forward bleeds by annexing the opening subject clause of verse 12.2."
+  },
+  {
+    "canonicalRef": "gita.12.2",
+    "chapter": 12,
+    "verse": 2,
+    "confidence": 0.35,
+    "notes": "Severely truncated to a bare fragment (\"worship me with a mind fixed on me\"), having lost its opening subject to 12.1 and its concluding evaluation (\"are deemed by me to be the most devoted\") to verse 12.3."
+  },
+  {
+    "canonicalRef": "gita.12.3",
+    "chapter": 12,
+    "verse": 3,
+    "confidence": 0.3,
+    "notes": "Severely distorted: prepends the concluding predicate of verse 12.2, appends the sense-restraint clause of verse 12.4, and loses its own descriptors of the unmanifest to 12.4 and 12.5."
+  },
+  {
+    "canonicalRef": "gita.12.4",
+    "chapter": 12,
+    "verse": 4,
+    "confidence": 0.32,
+    "notes": "Severe alignment shift: displaced from its own content to host the unmanifest descriptors belonging to 12.3, while losing its second hemistich to verse 12.5."
+  },
+  {
+    "canonicalRef": "gita.12.5",
+    "chapter": 12,
+    "verse": 5,
+    "confidence": 0.5,
+    "notes": "Backward bleeds the conclusion of 12.3-12.4, contains the full text of 12.5, and forward bleeds by annexing the protasis of verse 12.6."
+  },
+  {
+    "canonicalRef": "gita.12.6",
+    "chapter": 12,
+    "verse": 6,
+    "confidence": 0.15,
+    "notes": "Catastrophic truncation: reduced to the two-word fragment \"worship me\", having lost its protasis to verse 12.5 and its meditation clause to verse 12.7."
+  },
+  {
+    "canonicalRef": "gita.12.7",
+    "chapter": 12,
+    "verse": 7,
+    "confidence": 0.7,
+    "notes": "Backward bleeds by prepending the meditation clause of verse 12.6, followed by the complete and faithful translation of verse 12.7's promise of deliverance from the ocean of death."
+  },
+  {
+    "canonicalRef": "gita.12.8",
+    "chapter": 12,
+    "verse": 8,
+    "confidence": 0.45,
+    "notes": "Truncated to the first hemistich (\"Place your mind on me only\"), losing the clauses on fixing understanding and dwelling in the Lord to verse 12.9."
+  },
+  {
+    "canonicalRef": "gita.12.9",
+    "chapter": 12,
+    "verse": 9,
+    "confidence": 0.45,
+    "notes": "Backward bleeds the second half of verse 12.8, translates the first half of 12.9, and loses the practice exhortation to verse 12.10."
+  },
+  {
+    "canonicalRef": "gita.12.10",
+    "chapter": 12,
+    "verse": 10,
+    "confidence": 0.68,
+    "notes": "Backward bleeds the practice exhortation of verse 12.9, followed by the complete, faithful translation of performing actions for the Lord to attain perfection."
+  },
+  {
+    "canonicalRef": "gita.12.11",
+    "chapter": 12,
+    "verse": 11,
+    "confidence": 0.32,
+    "notes": "Severe truncation: reduced to the opening conditional clause (\"If you are unable to do even this\"), losing the main injunction of renouncing the fruits of action to verse 12.12."
+  },
+  {
+    "canonicalRef": "gita.12.12",
+    "chapter": 12,
+    "verse": 12,
+    "confidence": 0.6,
+    "notes": "Backward bleeds the main injunction of verse 12.11, translates the complete comparative gradation of 12.12, and annexes the subject phrase of verse 12.13 (\"That devotee of mine\")."
+  },
+  {
+    "canonicalRef": "gita.12.13",
+    "chapter": 12,
+    "verse": 13,
+    "confidence": 0.85,
+    "notes": "Accurately translates the catalogue of virtues from non-hatred to forgiveness, lacking only the introductory subject phrase annexed into verse 12.12."
+  },
+  {
+    "canonicalRef": "gita.12.14",
+    "chapter": 12,
+    "verse": 14,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the qualities of the content, resolute, and mind-dedicated devotee with intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.12.15",
+    "chapter": 12,
+    "verse": 15,
+    "confidence": 0.82,
+    "notes": "Accurately translates 12.15's freedom from mutual agitation, joy, fear, and grief, but forward bleeds by annexing the introductory phrase of verse 12.16 (\"That devotee of mine\")."
+  },
+  {
+    "canonicalRef": "gita.12.16",
+    "chapter": 12,
+    "verse": 16,
+    "confidence": 0.85,
+    "notes": "Accurately translates the virtues of the detached, pure, expert, and pain-free devotee, lacking only the introductory phrase annexed into verse 12.15."
+  },
+  {
+    "canonicalRef": "gita.12.17",
+    "chapter": 12,
+    "verse": 17,
+    "confidence": 0.3,
+    "notes": "Severe truncation: reduced to a single relative clause fragment (\"He who is full of devotion to me\"), while the rest of the verse's negative virtues was displaced into verse 12.18."
+  },
+  {
+    "canonicalRef": "gita.12.18",
+    "chapter": 12,
+    "verse": 18,
+    "confidence": 0.45,
+    "notes": "Displaced and divided: contains the negative virtues of 12.17, followed by the first half of 12.18, while losing its second half to verse 12.19."
+  },
+  {
+    "canonicalRef": "gita.12.19",
+    "chapter": 12,
+    "verse": 19,
+    "confidence": 0.62,
+    "notes": "Backward bleeds the second half of verse 12.18, contains the equanimity descriptions of 12.19, and forward bleeds by annexing the subject of verse 12.20 (\"But those devotees who\")."
+  },
+  {
+    "canonicalRef": "gita.12.20",
+    "chapter": 12,
+    "verse": 20,
+    "confidence": 0.85,
+    "notes": "Accurately translates the devotion to the immortal dharma, lacking only the opening subject relative clause annexed into verse 12.19."
+  },
+  {
+    "canonicalRef": "gita.13.1",
+    "chapter": 13,
+    "verse": 1,
+    "confidence": 0.25,
+    "notes": "Severe truncation: reduced to \"O son of Kuntī ! is called Kṣetra\", missing the opening subject (\"This body,\") and losing the entire definition of the knower of the field to verse 13.2."
+  },
+  {
+    "canonicalRef": "gita.13.2",
+    "chapter": 13,
+    "verse": 2,
+    "confidence": 0.55,
+    "notes": "Backward bleeds the definition of Kṣetrajña from verse 13.1, translates 13.2, and forward bleeds by annexing the introductory announcement of verse 13.3."
+  },
+  {
+    "canonicalRef": "gita.13.3",
+    "chapter": 13,
+    "verse": 3,
+    "confidence": 0.4,
+    "notes": "Severely truncated at both boundaries: loses its introductory announcement to 13.2, translates the middle descriptors, and loses its concluding clause (\"and what his powers\") to verse 13.4."
+  },
+  {
+    "canonicalRef": "gita.13.4",
+    "chapter": 13,
+    "verse": 4,
+    "confidence": 0.65,
+    "notes": "Backward bleeds from verse 13.3 (\"and what his powers,\"), translates 13.4, and forward bleeds by annexing the opening item of verse 13.5 (\"The great elements\")."
+  },
+  {
+    "canonicalRef": "gita.13.5",
+    "chapter": 13,
+    "verse": 5,
+    "confidence": 0.82,
+    "notes": "Accurately translates the ten senses, the mind, and the sense objects, lacking only its initial subject (\"The great elements\") annexed into verse 13.4."
+  },
+  {
+    "canonicalRef": "gita.13.6",
+    "chapter": 13,
+    "verse": 6,
+    "confidence": 0.3,
+    "notes": "Truncated to a five-word fragment (\"desire aversion pleasure pain body\"), losing the remainder of the verse regarding consciousness, fortitude, and modification summary to verse 13.7."
+  },
+  {
+    "canonicalRef": "gita.13.7",
+    "chapter": 13,
+    "verse": 7,
+    "confidence": 0.15,
+    "notes": "Severe misalignment: contains the concluding clause of 13.6, while losing the entirety of its own verse text (the virtues of wisdom beginning with humility) to verse 13.8."
+  },
+  {
+    "canonicalRef": "gita.13.8",
+    "chapter": 13,
+    "verse": 8,
+    "confidence": 0.55,
+    "notes": "Severely overburdened: contains the entire text of verse 13.7 prepended to the full text of verse 13.8."
+  },
+  {
+    "canonicalRef": "gita.13.9",
+    "chapter": 13,
+    "verse": 9,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the virtues of non-attachment to family and equanimity amidst agreeable and disagreeable events."
+  },
+  {
+    "canonicalRef": "gita.13.10",
+    "chapter": 13,
+    "verse": 10,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates unswerving devotion to the Lord, resort to solitary places, and distaste for worldly company."
+  },
+  {
+    "canonicalRef": "gita.13.11",
+    "chapter": 13,
+    "verse": 11,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates constancy in Self-knowledge and the philosophical definition of true knowledge versus ignorance."
+  },
+  {
+    "canonicalRef": "gita.13.12",
+    "chapter": 13,
+    "verse": 12,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the description of the knowable supreme Brahman beyond existence and non-existence."
+  },
+  {
+    "canonicalRef": "gita.13.13",
+    "chapter": 13,
+    "verse": 13,
+    "confidence": 0.65,
+    "notes": "Truncated at the end: accurately renders the hands and feet of the omnipresent Being, but loses its concluding hemistich clause to verse 13.14."
+  },
+  {
+    "canonicalRef": "gita.13.14",
+    "chapter": 13,
+    "verse": 14,
+    "confidence": 0.72,
+    "notes": "Backward bleeds by prepending the concluding clause of verse 13.13, followed by the complete and faithful translation of verse 13.14."
+  },
+  {
+    "canonicalRef": "gita.13.15",
+    "chapter": 13,
+    "verse": 15,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the paradoxical nature of the Absolute as inside and outside, moving and unmoving, near and far."
+  },
+  {
+    "canonicalRef": "gita.13.16",
+    "chapter": 13,
+    "verse": 16,
+    "confidence": 0.78,
+    "notes": "Accurately translates 13.16, but forward bleeds by annexing the opening clause of verse 13.17 (\"It is the radiance even of the radiant (bodies)\")."
+  },
+  {
+    "canonicalRef": "gita.13.17",
+    "chapter": 13,
+    "verse": 17,
+    "confidence": 0.8,
+    "notes": "Lacks its opening clause (lost to 13.16), but faithfully renders the remainder of 13.17 concerning the Light of lights seated in all hearts."
+  },
+  {
+    "canonicalRef": "gita.13.18",
+    "chapter": 13,
+    "verse": 18,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the summary of the field, knowledge, and the knowable leading the devotee to divine union."
+  },
+  {
+    "canonicalRef": "gita.13.19",
+    "chapter": 13,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the beginningless nature of Prakṛti and Puruṣa and the origin of modifications and qualities from Prakṛti."
+  },
+  {
+    "canonicalRef": "gita.13.20",
+    "chapter": 13,
+    "verse": 20,
+    "confidence": 0.78,
+    "notes": "Accurately translates 13.20, but forward bleeds by annexing the opening phrase of verse 13.21 (\"For spirit with nature joined\")."
+  },
+  {
+    "canonicalRef": "gita.13.21",
+    "chapter": 13,
+    "verse": 21,
+    "confidence": 0.82,
+    "notes": "Lacks its opening phrase (lost to 13.20), but faithfully renders the remainder of 13.21 regarding experience of the qualities and rebirth."
+  },
+  {
+    "canonicalRef": "gita.13.22",
+    "chapter": 13,
+    "verse": 22,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the sixfold titles of the supreme soul in the body as spectator, permitter, supporter, enjoyer, great lord, and highest Self."
+  },
+  {
+    "canonicalRef": "gita.13.23",
+    "chapter": 13,
+    "verse": 23,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the liberation from rebirth for one who truly knows Puruṣa and Prakṛti with the qualities."
+  },
+  {
+    "canonicalRef": "gita.13.24",
+    "chapter": 13,
+    "verse": 24,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the diverse spiritual paths of meditation, Sāṅkhya-yoga, and Karma-yoga."
+  },
+  {
+    "canonicalRef": "gita.13.25",
+    "chapter": 13,
+    "verse": 25,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the path of those who cross beyond death through devotion to hearing instruction from spiritual authorities."
+  },
+  {
+    "canonicalRef": "gita.13.26",
+    "chapter": 13,
+    "verse": 26,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately renders the generation of all moving and unmoving beings from the union of field and knower."
+  },
+  {
+    "canonicalRef": "gita.13.27",
+    "chapter": 13,
+    "verse": 27,
+    "confidence": 0.78,
+    "notes": "Accurately translates 13.27, but loses its concluding clause (\"and not destroyed though they are destroyed\") to verse 13.28."
+  },
+  {
+    "canonicalRef": "gita.13.28",
+    "chapter": 13,
+    "verse": 28,
+    "confidence": 0.75,
+    "notes": "Backward bleeds by prepending the concluding clause of verse 13.27, followed by the full, faithful translation of verse 13.28."
+  },
+  {
+    "canonicalRef": "gita.13.29",
+    "chapter": 13,
+    "verse": 29,
+    "confidence": 0.65,
+    "notes": "Accurately translates 13.29, but forward bleeds by annexing the entire protasis of verse 13.30 (\"When a man sees all the variety of entities as existing in one...\")."
+  },
+  {
+    "canonicalRef": "gita.13.30",
+    "chapter": 13,
+    "verse": 30,
+    "confidence": 0.35,
+    "notes": "Severe truncation: reduced to the apodosis fragment (\"then he becomes (one with) the Brahman.\"), having lost its entire protasis to verse 13.29."
+  },
+  {
+    "canonicalRef": "gita.13.31",
+    "chapter": 13,
+    "verse": 31,
+    "confidence": 0.5,
+    "notes": "Truncated: contains the first hemistich, but loses its vocative, location, and non-tainting clause to verses 13.32 and 13.33."
+  },
+  {
+    "canonicalRef": "gita.13.32",
+    "chapter": 13,
+    "verse": 32,
+    "confidence": 0.1,
+    "notes": "Catastrophic alignment error: reduced to the four-word fragment \"and is not tainted\" (from 13.31), while the entire text of verse 13.32 is displaced into 13.33."
+  },
+  {
+    "canonicalRef": "gita.13.33",
+    "chapter": 13,
+    "verse": 33,
+    "confidence": 0.38,
+    "notes": "Severely overburdened and displaced: prepends the residue of 13.31, contains all of 13.32, and gives the first hemistich of 13.33 while losing the second to verse 13.34."
+  },
+  {
+    "canonicalRef": "gita.13.34",
+    "chapter": 13,
+    "verse": 34,
+    "confidence": 0.72,
+    "notes": "Backward bleeds by prepending the second hemistich of verse 13.33, followed by the complete and faithful translation of verse 13.34."
+  },
+  {
+    "canonicalRef": "gita.14.1",
+    "chapter": 14,
+    "verse": 1,
+    "confidence": 0.55,
+    "notes": "Accurately translates the first hemistich of 14.1, but loses the entire second hemistich (\"having learnt which all sages have reached perfection...\") to verse 14.2."
+  },
+  {
+    "canonicalRef": "gita.14.2",
+    "chapter": 14,
+    "verse": 2,
+    "confidence": 0.72,
+    "notes": "Backward bleeds by prepending the second hemistich of verse 14.1, followed by the full, faithful translation of verse 14.2."
+  },
+  {
+    "canonicalRef": "gita.14.3",
+    "chapter": 14,
+    "verse": 3,
+    "confidence": 0.6,
+    "notes": "Accurately translates 14.3, but forward bleeds by annexing the opening three quarters of verse 14.4 regarding the great Brahman as womb."
+  },
+  {
+    "canonicalRef": "gita.14.4",
+    "chapter": 14,
+    "verse": 4,
+    "confidence": 0.2,
+    "notes": "Severe truncation: reduced to the bare fragment \"and I (am) the father\", having lost its first three quarters to 14.3 and its epithet \"the giver of the seed\" to 14.5."
+  },
+  {
+    "canonicalRef": "gita.14.5",
+    "chapter": 14,
+    "verse": 5,
+    "confidence": 0.72,
+    "notes": "Backward bleeds by prepending \"the giver of the seed.\" from verse 14.4, contains 14.5, and annexes the opening locator \"Of these\" from verse 14.6."
+  },
+  {
+    "canonicalRef": "gita.14.6",
+    "chapter": 14,
+    "verse": 6,
+    "confidence": 0.88,
+    "notes": "Accurately translates 14.6, lacking only the opening word \"Of these\" annexed into verse 14.5."
+  },
+  {
+    "canonicalRef": "gita.14.7",
+    "chapter": 14,
+    "verse": 7,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the description of Rajas as passion arising from thirst and attachment binding the embodied soul to action."
+  },
+  {
+    "canonicalRef": "gita.14.8",
+    "chapter": 14,
+    "verse": 8,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the description of Tamas as born of ignorance binding the embodied soul through negligence, indolence, and sleep."
+  },
+  {
+    "canonicalRef": "gita.14.9",
+    "chapter": 14,
+    "verse": 9,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately renders the binding functions of the three Gunas to happiness, action, and heedlessness."
+  },
+  {
+    "canonicalRef": "gita.14.10",
+    "chapter": 14,
+    "verse": 10,
+    "confidence": 0.45,
+    "notes": "Severely overburdened: faithfully translates 14.10, but erroneously annexes the entire translations of both verse 14.11 and verse 14.12."
+  },
+  {
+    "canonicalRef": "gita.14.11",
+    "chapter": 14,
+    "verse": 11,
+    "confidence": 0.1,
+    "notes": "Catastrophic alignment error: verse 14.11 was absorbed into 14.10, leaving here only the severed three-word fragment \"Want of light\" belonging to verse 14.13."
+  },
+  {
+    "canonicalRef": "gita.14.12",
+    "chapter": 14,
+    "verse": 12,
+    "confidence": 0.1,
+    "notes": "Catastrophic alignment error: verse 14.12 was absorbed into 14.10, leaving here only the three-word fragment \"want of activity\" belonging to verse 14.13."
+  },
+  {
+    "canonicalRef": "gita.14.13",
+    "chapter": 14,
+    "verse": 13,
+    "confidence": 0.25,
+    "notes": "Severe fragmentation: reduced to \"heedlessness and delusion\", having lost its first two characteristics to 14.11 and 14.12, and its predicate clause to verse 14.14."
+  },
+  {
+    "canonicalRef": "gita.14.14",
+    "chapter": 14,
+    "verse": 14,
+    "confidence": 0.72,
+    "notes": "Backward bleeds by prepending the predicate clause of verse 14.13, followed by the complete and faithful translation of verse 14.14."
+  },
+  {
+    "canonicalRef": "gita.14.15",
+    "chapter": 14,
+    "verse": 15,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the rebirth destinations when dying in Rajas (among those attached to action) and Tamas (in the womb of the senseless)."
+  },
+  {
+    "canonicalRef": "gita.14.16",
+    "chapter": 14,
+    "verse": 16,
+    "confidence": 0.52,
+    "notes": "Truncated to the first hemistich regarding the pure fruit of meritorious Sattva, losing the contrasting second hemistich on Rajas and Tamas to verse 14.17."
+  },
+  {
+    "canonicalRef": "gita.14.17",
+    "chapter": 14,
+    "verse": 17,
+    "confidence": 0.7,
+    "notes": "Backward bleeds by prepending the second hemistich of verse 14.16, followed by the full, faithful translation of verse 14.17."
+  },
+  {
+    "canonicalRef": "gita.14.18",
+    "chapter": 14,
+    "verse": 18,
+    "confidence": 0.82,
+    "notes": "Accurately translates 14.18 except for severing the final finite verb \"go down\" into verse 14.19."
+  },
+  {
+    "canonicalRef": "gita.14.19",
+    "chapter": 14,
+    "verse": 19,
+    "confidence": 0.7,
+    "notes": "Backward bleeds with \"go down.\" from verse 14.18, contains 14.19, and loses its final clause (\"he enters into my essence\") to verse 14.20."
+  },
+  {
+    "canonicalRef": "gita.14.20",
+    "chapter": 14,
+    "verse": 20,
+    "confidence": 0.75,
+    "notes": "Backward bleeds by prepending the concluding clause of verse 14.19, followed by the complete and faithful translation of verse 14.20."
+  },
+  {
+    "canonicalRef": "gita.14.21",
+    "chapter": 14,
+    "verse": 21,
+    "confidence": 0.78,
+    "notes": "Accurately translates Arjuna's inquiry regarding the characteristics and conduct of one who transcends the Gunas, but annexes the opening phrase of verse 14.22."
+  },
+  {
+    "canonicalRef": "gita.14.22",
+    "chapter": 14,
+    "verse": 22,
+    "confidence": 0.82,
+    "notes": "Accurately translates 14.22, lacking only the introductory predicate clause annexed into verse 14.21."
+  },
+  {
+    "canonicalRef": "gita.14.23",
+    "chapter": 14,
+    "verse": 23,
+    "confidence": 0.78,
+    "notes": "Accurately translates 14.23, but forward bleeds by annexing the opening descriptor of verse 14.24 (\"who is self-contained\")."
+  },
+  {
+    "canonicalRef": "gita.14.24",
+    "chapter": 14,
+    "verse": 24,
+    "confidence": 0.82,
+    "notes": "Accurately translates 14.24, lacking only the opening epithet (\"who is self-contained\") annexed into verse 14.23."
+  },
+  {
+    "canonicalRef": "gita.14.25",
+    "chapter": 14,
+    "verse": 25,
+    "confidence": 0.6,
+    "notes": "Translates 14.25, but forward bleeds by annexing the entire first hemistich of verse 14.26 regarding unswerving devotional service."
+  },
+  {
+    "canonicalRef": "gita.14.26",
+    "chapter": 14,
+    "verse": 26,
+    "confidence": 0.45,
+    "notes": "Severe truncation: reduced to the second hemistich (\"and becomes fit for (entrance into) the essence of the Brahman.\"), having lost its first hemistich to 14.25 and annexing the opening clause of verse 14.27."
+  },
+  {
+    "canonicalRef": "gita.14.27",
+    "chapter": 14,
+    "verse": 27,
+    "confidence": 0.78,
+    "notes": "Accurately translates 14.27, lacking only the opening clause (\"For I am the embodiment of the Brahman\") annexed into verse 14.26."
+  },
+  {
+    "canonicalRef": "gita.15.1",
+    "chapter": 15,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the metaphor of the cosmic Aśvattha tree with roots above, branches below, and Vedic hymns as leaves."
+  },
+  {
+    "canonicalRef": "gita.15.2",
+    "chapter": 15,
+    "verse": 2,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the extension of branches nourished by Gunas and roots extending downward into the human world bound to action."
+  },
+  {
+    "canonicalRef": "gita.15.3",
+    "chapter": 15,
+    "verse": 3,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the unperceived form of the cosmic tree and the injunction to fell it with the strong weapon of detachment."
+  },
+  {
+    "canonicalRef": "gita.15.4",
+    "chapter": 15,
+    "verse": 4,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates seeking the primal goal whence there is no return and seeking refuge in the primeval Puruṣa."
+  },
+  {
+    "canonicalRef": "gita.15.5",
+    "chapter": 15,
+    "verse": 5,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the spiritual qualifications of those free from pride, delusion, and dualities who reach the imperishable state."
+  },
+  {
+    "canonicalRef": "gita.15.6",
+    "chapter": 15,
+    "verse": 6,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the self-luminous nature of the supreme abode unilluminated by sun, moon, or fire."
+  },
+  {
+    "canonicalRef": "gita.15.7",
+    "chapter": 15,
+    "verse": 7,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the eternal fragment of the Divine attracting the senses and the mind as the sixth in the world of living beings."
+  },
+  {
+    "canonicalRef": "gita.15.8",
+    "chapter": 15,
+    "verse": 8,
+    "confidence": 0.75,
+    "notes": "Accurately translates the departing soul drawing the senses like the wind carrying perfumes, but forward bleeds by annexing the opening sense organs of verse 15.9."
+  },
+  {
+    "canonicalRef": "gita.15.9",
+    "chapter": 15,
+    "verse": 9,
+    "confidence": 0.78,
+    "notes": "Lacks the first three senses (hearing, sight, touch, lost to 15.8), but accurately renders taste, smell, mind, and the enjoyment of sense objects."
+  },
+  {
+    "canonicalRef": "gita.15.10",
+    "chapter": 15,
+    "verse": 10,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the contrast between the deluded who fail to perceive the departing or embodied soul and the wise who see with the eye of knowledge."
+  },
+  {
+    "canonicalRef": "gita.15.11",
+    "chapter": 15,
+    "verse": 11,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the striving yogins who perceive the Self within versus the undisciplined and unintelligent who cannot see It."
+  },
+  {
+    "canonicalRef": "gita.15.12",
+    "chapter": 15,
+    "verse": 12,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the divine light present in the sun, moon, and fire illuminating the entire cosmos."
+  },
+  {
+    "canonicalRef": "gita.15.13",
+    "chapter": 15,
+    "verse": 13,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the Lord entering the earth to sustain creatures and becoming the sapful moon to nourish all vegetation."
+  },
+  {
+    "canonicalRef": "gita.15.14",
+    "chapter": 15,
+    "verse": 14,
+    "confidence": 0.25,
+    "notes": "Severe truncation: reduced to the opening four-word fragment \"I becoming the fire\", with the entire rest of the verse regarding bodily digestion displaced into verse 15.15."
+  },
+  {
+    "canonicalRef": "gita.15.15",
+    "chapter": 15,
+    "verse": 15,
+    "confidence": 0.6,
+    "notes": "Severely overburdened: prepends the bulk of verse 15.14, contains 15.15, but loses its final clause (\"and I alone know the Vedas\") to verse 15.16."
+  },
+  {
+    "canonicalRef": "gita.15.16",
+    "chapter": 15,
+    "verse": 16,
+    "confidence": 0.65,
+    "notes": "Backward bleeds by prepending the final clause of verse 15.15, contains 15.16 (the perishable and imperishable beings), and forward bleeds by annexing the opening clause of verse 15.17."
+  },
+  {
+    "canonicalRef": "gita.15.17",
+    "chapter": 15,
+    "verse": 17,
+    "confidence": 0.55,
+    "notes": "Truncated at both boundaries: loses its opening subject (\"But the being supreme is yet another\", lost to 15.16) and loses its final verb (\"supports (them)\", lost to 15.18)."
+  },
+  {
+    "canonicalRef": "gita.15.18",
+    "chapter": 15,
+    "verse": 18,
+    "confidence": 0.78,
+    "notes": "Backward bleeds by prepending the final verb of verse 15.17 (\"supports (them).\"), followed by the full, faithful translation of verse 15.18."
+  },
+  {
+    "canonicalRef": "gita.15.19",
+    "chapter": 15,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the supreme knowledge of Puruṣottama and wholehearted worship with intact boundaries."
+  },
+  {
+    "canonicalRef": "gita.15.20",
+    "chapter": 15,
+    "verse": 20,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the concluding benediction on the most secret doctrine making a person truly wise and fulfilled."
+  }
+]

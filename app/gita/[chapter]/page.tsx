@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!title) return {};
   return {
     title: `Chapter ${chapter}: ${title[0]}`,
-    description: `${title[1]}. Read all ${corpus.chapterCounts[chapter - 1]} passages in Sanskrit, IAST, and the Telang English witness.`,
+    description: `${title[1]}. Read all ${corpus.chapterCounts[chapter - 1]} verses in Sanskrit, transliteration, and the Telang English translation.`,
     alternates: { canonical: `/gita/${chapter}` },
     openGraph: { title: `Bhagavad Gita ${chapter} — ${title[0]}`, description: title[1], images: [] },
     twitter: { title: `Bhagavad Gita ${chapter} — ${title[0]}`, description: title[1], images: [] },

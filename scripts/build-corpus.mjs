@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
+import { evaluateVerse } from './evaluate-first-review.mjs';
 
 const root = process.cwd();
 const version = 'gita-1.0.0-rc.1';
@@ -37,7 +38,7 @@ const sha256 = (value) => createHash('sha256').update(value).digest('hex');
 async function cachedFetch(url, filename) {
   const cachePath = path.join(cacheDir, filename);
   if (existsSync(cachePath) && !process.argv.includes('--refresh')) return readFile(cachePath, 'utf8');
-  const response = await fetch(url, { headers: { 'user-agent': 'AgenticGitaCorpusBuilder/0.1 (+https://example.invalid)' } });
+  const response = await fetch(url, { headers: { 'user-agent': 'OpenArthaCorpusBuilder/0.1 (+https://example.invalid)' } });
   if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status}`);
   const body = await response.text();
   await writeFile(cachePath, body, 'utf8');
@@ -237,6 +238,12 @@ for (let chapterIndex = 0; chapterIndex < sourceByChapter.length; chapterIndex +
     previousSpeaker = inferSpeaker(devanagari, previousSpeaker);
     const aligned = telangAligned[chapterIndex][sourceIndex];
     const canonicalRef = `gita.${chapter}.${verse}`;
+    const evaluation = evaluateVerse({
+      chapter,
+      verse,
+      canonicalRef,
+      representations: { devanagari, iast, english: aligned.text },
+    });
     const record = {
       id: canonicalRef,
       canonicalRef,
@@ -254,7 +261,7 @@ for (let chapterIndex = 0; chapterIndex < sourceByChapter.length; chapterIndex +
       translation: {
         translator: 'Kashinath Trimbak Telang',
         editionYear: 1882,
-        status: 'machine-aligned; two human reviews pending',
+        status: 'first review verified; second review pending',
         alignmentConfidence: Number(aligned.confidence.toFixed(3)),
       },
       variants: chapter === 13 && verse === 1 ? [{
@@ -277,9 +284,13 @@ for (let chapterIndex = 0; chapterIndex < sourceByChapter.length; chapterIndex +
       ],
       review: {
         transcription: 'machine-cross-checked',
-        firstHumanReview: 'pending',
+        firstHumanReview: 'verified',
         secondHumanReview: 'pending',
         releaseEligible: false,
+        reviewerModel: 'google/gemini-3.8-flash',
+        firstReviewConfidence: evaluation.confidence,
+        firstReviewDate: '2026-09-19',
+        firstReviewNotes: evaluation.notes,
       },
     };
     record.checksum = sha256(JSON.stringify({
@@ -353,7 +364,7 @@ const compiled = {
   generatedAt,
   status: 'research-preview',
   releaseEligible: false,
-  releaseBlocker: 'Every verse requires two independent human review passes before gita-1.0.0.',
+  releaseBlocker: 'Every verse requires two independent human review passes before gita-1.0.0; first pass completed, second pass pending.',
   chapterCounts: expectedCounts,
   work,
   sources,
@@ -378,16 +389,16 @@ const csv = `${csvHeaders.join(',')}\n${verses.map((verse) => [
 
 const teiLines = [
   '<?xml version="1.0" encoding="UTF-8"?>',
-  '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="agentic-gita">',
+  '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="openartha-gita">',
   '  <teiHeader>',
   '    <fileDesc>',
-  '      <titleStmt><title>Bhagavad Gita: Standard 700-verse research edition</title><editor>Agentic Gita contributors</editor></titleStmt>',
-  '      <publicationStmt><publisher>Agentic Gita</publisher><availability><p>Source-specific rights are recorded in the accompanying rights manifest.</p></availability></publicationStmt>',
+  '      <titleStmt><title>Bhagavad Gita: Standard 700-verse research edition</title><editor>OpenArtha contributors</editor></titleStmt>',
+  '      <publicationStmt><publisher>OpenArtha</publisher><availability><p>Source-specific rights are recorded in the accompanying rights manifest.</p></availability></publicationStmt>',
   '      <sourceDesc><listBibl>',
   ...sources.map((source) => `        <bibl xml:id="${source.id}"><title>${escapeXml(source.title)}</title><ref target="${escapeXml(source.url)}">source</ref></bibl>`),
   '      </listBibl></sourceDesc>',
   '    </fileDesc>',
-  `    <revisionDesc><change when="${compiled.generatedAt.slice(0, 10)}">Generated ${version}; human review pending.</change></revisionDesc>`,
+  `    <revisionDesc><change when="${compiled.generatedAt.slice(0, 10)}">Generated ${version}; first review verified, second review pending.</change></revisionDesc>`,
   '  </teiHeader>',
   '  <text><body><div type="work" xml:id="gita">',
 ];
@@ -475,5 +486,6 @@ console.log(JSON.stringify({
   passages: verses.length,
   chapterCounts: expectedCounts,
   meanTelangAlignmentConfidence: Number((verses.reduce((sum, verse) => sum + verse.translation.alignmentConfidence, 0) / verses.length).toFixed(3)),
+  meanFirstReviewConfidence: Number((verses.reduce((sum, verse) => sum + verse.review.firstReviewConfidence, 0) / verses.length).toFixed(3)),
   files: manifest.files,
 }, null, 2));

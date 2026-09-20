@@ -1,0 +1,240 @@
+[
+  {
+    "canonicalRef": "gita.9.1",
+    "chapter": 9,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse introducing the royal secret knowledge without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.2",
+    "chapter": 9,
+    "verse": 2,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates all seven epithets of the sovereign science and sovereign secret without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.3",
+    "chapter": 9,
+    "verse": 3,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the warning to those lacking faith in this dharma without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.4",
+    "chapter": 9,
+    "verse": 4,
+    "confidence": 0.72,
+    "notes": "Accurately renders verse 9.4 in full, but exhibits forward boundary bleeding by annexing the opening hemistich clause of verse 9.5 ('Nor yet do all entities live in me')."
+  },
+  {
+    "canonicalRef": "gita.9.5",
+    "chapter": 9,
+    "verse": 5,
+    "confidence": 0.52,
+    "notes": "Suffers bidirectional boundary bleeding: lost its opening clause to verse 9.4 and its concluding clause to verse 9.6, leaving an incomplete sentence fragment."
+  },
+  {
+    "canonicalRef": "gita.9.6",
+    "chapter": 9,
+    "verse": 6,
+    "confidence": 0.74,
+    "notes": "Accurately translates the cosmic simile of verse 9.6 in full, but suffers backward boundary bleeding from the annexed concluding clause of verse 9.5."
+  },
+  {
+    "canonicalRef": "gita.9.7",
+    "chapter": 9,
+    "verse": 7,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the cyclic dissolution and cosmic recreation at the end and beginning of a kalpa without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.8",
+    "chapter": 9,
+    "verse": 8,
+    "confidence": 0.85,
+    "notes": "Accurately translates verse 9.8 in full, but exhibits slight forward boundary bleeding by annexing the opening conjunction 'But' of verse 9.9."
+  },
+  {
+    "canonicalRef": "gita.9.9",
+    "chapter": 9,
+    "verse": 9,
+    "confidence": 0.88,
+    "notes": "Faithfully translates verse 9.9 on divine detachment from action, lacking only the initial conjunction severed and annexed to verse 9.8."
+  },
+  {
+    "canonicalRef": "gita.9.10",
+    "chapter": 9,
+    "verse": 10,
+    "confidence": 0.7,
+    "notes": "Accurately translates verse 9.10, but exhibits forward boundary bleeding by annexing the subject of verse 9.11 and the initial epithet of verse 9.12 ('Deluded people of vain hopes')."
+  },
+  {
+    "canonicalRef": "gita.9.11",
+    "chapter": 9,
+    "verse": 11,
+    "confidence": 0.05,
+    "notes": "Catastrophic alignment failure: reduced to an isolated two-word fragment ('vain acts' from verse 9.12), while the entire text of 9.11 is scattered into verses 9.10 and 9.13."
+  },
+  {
+    "canonicalRef": "gita.9.12",
+    "chapter": 9,
+    "verse": 12,
+    "confidence": 0.05,
+    "notes": "Catastrophic alignment failure: reduced to an isolated two-word fragment ('vain knowledge'), with the remainder of the verse scattered across verses 9.10, 9.11, and 9.13."
+  },
+  {
+    "canonicalRef": "gita.9.13",
+    "chapter": 9,
+    "verse": 13,
+    "confidence": 0.35,
+    "notes": "Severe alignment distortion: heavily contaminated by displaced clauses from verses 9.12 and 9.11, while losing its own concluding predicate clause to verse 9.14."
+  },
+  {
+    "canonicalRef": "gita.9.14",
+    "chapter": 9,
+    "verse": 14,
+    "confidence": 0.55,
+    "notes": "Suffers bidirectional boundary bleeding: prepended with the predicate clause of verse 9.13 and truncated at the end by the loss of its concluding clause to verse 9.15."
+  },
+  {
+    "canonicalRef": "gita.9.15",
+    "chapter": 9,
+    "verse": 15,
+    "confidence": 0.74,
+    "notes": "Accurately translates verse 9.15 in full, but suffers backward boundary bleeding from the annexed concluding clause of verse 9.14."
+  },
+  {
+    "canonicalRef": "gita.9.16",
+    "chapter": 9,
+    "verse": 16,
+    "confidence": 0.74,
+    "notes": "Accurately translates verse 9.16 in full, but exhibits forward boundary bleeding by annexing the opening clause of verse 9.17 ('I am the father of this universe')."
+  },
+  {
+    "canonicalRef": "gita.9.17",
+    "chapter": 9,
+    "verse": 17,
+    "confidence": 0.7,
+    "notes": "Truncated at the boundary by losing its opening clause ('I am the father of this universe') to verse 9.16, though accurately rendering the remaining attributes."
+  },
+  {
+    "canonicalRef": "gita.9.18",
+    "chapter": 9,
+    "verse": 18,
+    "confidence": 0.95,
+    "notes": "Accurately and completely translates all twelve divine epithets and cosmic attributes of verse 9.18 without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.19",
+    "chapter": 9,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete Sanskrit verse on cosmic sovereignty over heat, rain, immortality, and being without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.20",
+    "chapter": 9,
+    "verse": 20,
+    "confidence": 0.72,
+    "notes": "Accurately translates verse 9.20 in full, but exhibits forward boundary bleeding by annexing the opening hemistich clause of verse 9.21 ('And having enjoyed that great heavenly world')."
+  },
+  {
+    "canonicalRef": "gita.9.21",
+    "chapter": 9,
+    "verse": 21,
+    "confidence": 0.5,
+    "notes": "Suffers bidirectional boundary bleeding: lacks its opening heavenly enjoyment clause (lost to 9.20) and its concluding transit predicate (lost to 9.22)."
+  },
+  {
+    "canonicalRef": "gita.9.22",
+    "chapter": 9,
+    "verse": 22,
+    "confidence": 0.75,
+    "notes": "Accurately renders verse 9.22 and its promise of yoga-kṣema in full, but suffers backward boundary bleeding from the annexed concluding phrase of verse 9.21."
+  },
+  {
+    "canonicalRef": "gita.9.23",
+    "chapter": 9,
+    "verse": 23,
+    "confidence": 0.5,
+    "notes": "Truncated at the boundary: preserves only the conditional protasis, while its principal finite clause ('worship me only, (but) irregularly') bled into verse 9.24."
+  },
+  {
+    "canonicalRef": "gita.9.24",
+    "chapter": 9,
+    "verse": 24,
+    "confidence": 0.74,
+    "notes": "Accurately translates verse 9.24 in full, but suffers backward boundary bleeding from the prepended concluding clause of verse 9.23."
+  },
+  {
+    "canonicalRef": "gita.9.25",
+    "chapter": 9,
+    "verse": 25,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the fourfold destinations of divine, ancestral, elemental, and Vishnu worshippers without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.26",
+    "chapter": 9,
+    "verse": 26,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the celebrated verse on the humble offering of a leaf, flower, fruit, or water without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.27",
+    "chapter": 9,
+    "verse": 27,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the universal dedication of all actions, eating, oblations, charity, and austerities without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.28",
+    "chapter": 9,
+    "verse": 28,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the liberation from pleasant and unpleasant karmic fruits through saṃnyāsa-yoga without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.29",
+    "chapter": 9,
+    "verse": 29,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the verse on divine impartiality and mutual communion with devoted souls without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.30",
+    "chapter": 9,
+    "verse": 30,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the redemption of even an evil-doer who worships with undivided devotion without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.31",
+    "chapter": 9,
+    "verse": 31,
+    "confidence": 0.68,
+    "notes": "Accurately translates verse 9.31, but exhibits forward boundary bleeding by annexing the opening clause and subject list of verse 9.32 ('For, O son of Pṛthā! even those who are of sinful birth, women, Vaiśyas')."
+  },
+  {
+    "canonicalRef": "gita.9.32",
+    "chapter": 9,
+    "verse": 32,
+    "confidence": 0.55,
+    "notes": "Truncated at the boundary: lost its opening hemistich and initial subjects to verse 9.31, preserving only the concluding clause for Śūdras."
+  },
+  {
+    "canonicalRef": "gita.9.33",
+    "chapter": 9,
+    "verse": 33,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the comparison with holy Brahmins and royal sages and the call to worship in this transient world without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.9.34",
+    "chapter": 9,
+    "verse": 34,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the culminating verse on wholehearted devotion and supreme attainment without omissions or boundary bleeding."
+  }
+]

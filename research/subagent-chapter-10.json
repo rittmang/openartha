@@ -1,0 +1,296 @@
+[
+  {
+    "canonicalRef": "gita.10.1",
+    "chapter": 10,
+    "verse": 1,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete opening address of the Blessed Lord without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.2",
+    "chapter": 10,
+    "verse": 2,
+    "confidence": 0.72,
+    "notes": "Accurately renders verse 10.2, but exhibits forward boundary bleeding by annexing the opening clause of verse 10.3 ('Of (all) mortals he who knows me to be unborn without beginning')."
+  },
+  {
+    "canonicalRef": "gita.10.3",
+    "chapter": 10,
+    "verse": 3,
+    "confidence": 0.52,
+    "notes": "Suffers bidirectional boundary bleeding: lacks its opening hemistich clause (displaced into 10.2) while annexing the initial triad of mental faculties from verse 10.4 ('Intelligence knowledge freedom from delusion')."
+  },
+  {
+    "canonicalRef": "gita.10.4",
+    "chapter": 10,
+    "verse": 4,
+    "confidence": 0.45,
+    "notes": "Severely truncated by bidirectional bleeding: missing its initial triad of faculties to verse 10.3 and losing its second hemistich ('birth death fear and also security') to verse 10.5."
+  },
+  {
+    "canonicalRef": "gita.10.5",
+    "chapter": 10,
+    "verse": 5,
+    "confidence": 0.18,
+    "notes": "Critically compromised: consists mostly of the displaced conclusion of verse 10.4, retains only two terms ('harmlessness equability') from 10.5, and loses the rest of the verse to 10.6."
+  },
+  {
+    "canonicalRef": "gita.10.6",
+    "chapter": 10,
+    "verse": 6,
+    "confidence": 0.7,
+    "notes": "Accurately translates the entirety of verse 10.6, but suffers heavy backward boundary bleeding by prepending the displaced second hemistich of verse 10.5."
+  },
+  {
+    "canonicalRef": "gita.10.7",
+    "chapter": 10,
+    "verse": 7,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the complete verse regarding knowledge of divine manifestations and steadfast yoga without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.8",
+    "chapter": 10,
+    "verse": 8,
+    "confidence": 0.72,
+    "notes": "Accurately translates verse 10.8, but forward bleeds by annexing the opening hemistich of verse 10.9 ('(Placing their) minds on me offering (their) lives to me')."
+  },
+  {
+    "canonicalRef": "gita.10.9",
+    "chapter": 10,
+    "verse": 9,
+    "confidence": 0.42,
+    "notes": "Severely truncated by bidirectional bleeding: missing its opening devotion clauses to verse 10.8 and losing its concluding verbs of contentment and delight to verse 10.10."
+  },
+  {
+    "canonicalRef": "gita.10.10",
+    "chapter": 10,
+    "verse": 10,
+    "confidence": 0.65,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the conclusion of verse 10.9 and annexing the opening locator clause of verse 10.11 ('And remaining in their hearts')."
+  },
+  {
+    "canonicalRef": "gita.10.11",
+    "chapter": 10,
+    "verse": 11,
+    "confidence": 0.85,
+    "notes": "Accurately translates the verse on the luminous lamp of knowledge, lacking only the participial modifier 'remaining in their hearts' severed into verse 10.10."
+  },
+  {
+    "canonicalRef": "gita.10.12",
+    "chapter": 10,
+    "verse": 12,
+    "confidence": 0.52,
+    "notes": "Truncated at the boundary: accurately renders the first hemistich but loses the entire second hemistich of divine epithets to verse 10.13."
+  },
+  {
+    "canonicalRef": "gita.10.13",
+    "chapter": 10,
+    "verse": 13,
+    "confidence": 0.6,
+    "notes": "Suffers bidirectional bleeding: prepends the displaced epithets of verse 10.12 and truncates its own concluding clause ('you tell me yourself') into verse 10.14."
+  },
+  {
+    "canonicalRef": "gita.10.14",
+    "chapter": 10,
+    "verse": 14,
+    "confidence": 0.78,
+    "notes": "Accurately translates verse 10.14 in full, but suffers backward boundary bleeding by prepending the concluding clause of verse 10.13 ('you tell me yourself')."
+  },
+  {
+    "canonicalRef": "gita.10.15",
+    "chapter": 10,
+    "verse": 15,
+    "confidence": 0.72,
+    "notes": "Accurately renders verse 10.15, but forward bleeds by annexing the request formula of verse 10.16 ('be pleased to declare without')."
+  },
+  {
+    "canonicalRef": "gita.10.16",
+    "chapter": 10,
+    "verse": 16,
+    "confidence": 0.7,
+    "notes": "Truncated at the boundary by losing its governing verb phrase ('be pleased to declare without') to verse 10.15, opening with the severed noun 'exception'."
+  },
+  {
+    "canonicalRef": "gita.10.17",
+    "chapter": 10,
+    "verse": 17,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates Arjuna's inquiry on continuous meditation and divine entities without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.18",
+    "chapter": 10,
+    "verse": 18,
+    "confidence": 0.96,
+    "notes": "Accurately translates Arjuna's request for detailed exposition of the Lord's yoga and glory without boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.19",
+    "chapter": 10,
+    "verse": 19,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the Blessed Lord's promise to state His prominent divine manifestations without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.20",
+    "chapter": 10,
+    "verse": 20,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the cardinal verse identifying the Self in the hearts of all beings without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.21",
+    "chapter": 10,
+    "verse": 21,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the catalogue of celestial manifestations without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.22",
+    "chapter": 10,
+    "verse": 22,
+    "confidence": 0.72,
+    "notes": "Accurately renders the first three quarters of the verse, but suffers forward truncation by losing 'I am consciousness in (living) beings' to verse 10.23."
+  },
+  {
+    "canonicalRef": "gita.10.23",
+    "chapter": 10,
+    "verse": 23,
+    "confidence": 0.68,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the displaced conclusion of verse 10.22 and annexing the opening imperative clause of verse 10.24 ('And know me')."
+  },
+  {
+    "canonicalRef": "gita.10.24",
+    "chapter": 10,
+    "verse": 24,
+    "confidence": 0.82,
+    "notes": "Accurately translates the manifestations among priests, generals, and waters, lacking only the initial verb phrase ('And know me') severed into verse 10.23."
+  },
+  {
+    "canonicalRef": "gita.10.25",
+    "chapter": 10,
+    "verse": 25,
+    "confidence": 0.96,
+    "notes": "Faithfully and accurately translates the four comparisons (Bhṛgu, Om, Japa, Himālaya) without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.26",
+    "chapter": 10,
+    "verse": 26,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the manifestations among trees, divine seers, Gandharvas, and Siddhas without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.27",
+    "chapter": 10,
+    "verse": 27,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the manifestations among horses (Uccaiḥśravas), elephants (Airāvata), and monarchs without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.28",
+    "chapter": 10,
+    "verse": 28,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the manifestations among weapons, cows, progenitors, and serpents without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.29",
+    "chapter": 10,
+    "verse": 29,
+    "confidence": 0.75,
+    "notes": "Accurately translates verse 10.29, but forward bleeds by annexing the opening clause of verse 10.30 ('Among demons, too, I am Pralhāda')."
+  },
+  {
+    "canonicalRef": "gita.10.30",
+    "chapter": 10,
+    "verse": 30,
+    "confidence": 0.72,
+    "notes": "Accurately renders the manifestations among reckoners, beasts, and birds, but suffers boundary truncation by losing its opening Prahlāda clause to verse 10.29."
+  },
+  {
+    "canonicalRef": "gita.10.31",
+    "chapter": 10,
+    "verse": 31,
+    "confidence": 0.72,
+    "notes": "Accurately translates verse 10.31, but forward bleeds by annexing the opening hemistich of verse 10.32 ('Of created things I am the beginning and the end and the middle also')."
+  },
+  {
+    "canonicalRef": "gita.10.32",
+    "chapter": 10,
+    "verse": 32,
+    "confidence": 0.55,
+    "notes": "Truncated at the boundary: lacks its opening hemistich concerning the beginning, middle, and end of creations (displaced into 10.31), preserving only the vocative and second hemistich."
+  },
+  {
+    "canonicalRef": "gita.10.33",
+    "chapter": 10,
+    "verse": 33,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the linguistic, grammatical, and cosmic manifestations without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.34",
+    "chapter": 10,
+    "verse": 34,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates all destructive, generative, and feminine qualities without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.35",
+    "chapter": 10,
+    "verse": 35,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the manifestations among hymns, metres, months, and seasons without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.36",
+    "chapter": 10,
+    "verse": 36,
+    "confidence": 0.96,
+    "notes": "Accurately and fully translates all five manifestations (gambling, splendor, victory, determination, goodness) with no omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.37",
+    "chapter": 10,
+    "verse": 37,
+    "confidence": 0.98,
+    "notes": "Faithfully and accurately translates the manifestations among clans, warriors, sages, and seers without omissions or boundary bleeding."
+  },
+  {
+    "canonicalRef": "gita.10.38",
+    "chapter": 10,
+    "verse": 38,
+    "confidence": 0.72,
+    "notes": "Accurately translates the sceptre, policy, and silence, but suffers forward truncation by losing its final clause ('I am the knowledge of those that have knowledge') to verse 10.39."
+  },
+  {
+    "canonicalRef": "gita.10.39",
+    "chapter": 10,
+    "verse": 39,
+    "confidence": 0.75,
+    "notes": "Accurately translates verse 10.39 in full, but suffers backward boundary bleeding by prepending the displaced concluding pada of verse 10.38."
+  },
+  {
+    "canonicalRef": "gita.10.40",
+    "chapter": 10,
+    "verse": 40,
+    "confidence": 0.5,
+    "notes": "Truncated at the boundary: faithfully translates the opening hemistich but loses its entire second hemistich summarizing the brief exposition to verse 10.41."
+  },
+  {
+    "canonicalRef": "gita.10.41",
+    "chapter": 10,
+    "verse": 41,
+    "confidence": 0.65,
+    "notes": "Suffers bidirectional boundary bleeding by prepending the second hemistich of verse 10.40 and annexing the opening transitional conjunction ('Or rather') of verse 10.42."
+  },
+  {
+    "canonicalRef": "gita.10.42",
+    "chapter": 10,
+    "verse": 42,
+    "confidence": 0.88,
+    "notes": "Accurately translates the concluding cosmic majesty of the Lord, lacking only the initial transitional particle ('Or rather') severed into verse 10.41."
+  }
+]

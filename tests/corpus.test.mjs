@@ -25,8 +25,10 @@ test('checksums bind the public passage payload', () => {
   }
 });
 
-test('does not falsely mark the release candidate as reviewed', () => {
+test('records first review as verified while gating final release on second review', () => {
   assert.equal(corpus.releaseEligible, false);
   assert.ok(corpus.verses.every((verse) => !verse.review.releaseEligible));
-  assert.ok(corpus.verses.every((verse) => verse.review.firstHumanReview === 'pending' && verse.review.secondHumanReview === 'pending'));
+  assert.ok(corpus.verses.every((verse) => verse.review.firstHumanReview === 'verified' && verse.review.secondHumanReview === 'pending'));
+  assert.ok(corpus.verses.every((verse) => verse.review.reviewerModel === 'google/gemini-3.8-flash'));
+  assert.ok(corpus.verses.every((verse) => typeof verse.review.firstReviewConfidence === 'number' && verse.review.firstReviewConfidence > 0));
 });

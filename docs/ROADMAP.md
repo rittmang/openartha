@@ -1,12 +1,12 @@
-# Agentic Gita roadmap
+# OpenArtha roadmap
 
 ## V1 — raw corpus and reader
 
-The active release contains only the versioned corpus, provenance, downloads, search, read-only APIs, and the minimal public reader. No commentary corpus, curator, MCP server, model invocation, or generated analysis is implemented.
+The stable release candidate contains the versioned corpus, provenance, downloads, unified search, read-only APIs, and the minimal public reader. The Bhagavad Gita is available at `/gita` within the OpenArtha multi-text shell.
 
 ## V2 — historical commentaries
 
-Add verse-aligned, rights-cleared English witnesses for Śaṅkara, Rāmānuja, Madhva, Abhinavagupta, Vallabha, Baladeva Vidyābhūṣaṇa, Śrīdhara Svāmin, and Madhusūdana Sarasvatī. Full text is stored only when redistribution is permitted; otherwise the record contains bibliographic metadata and an outbound source link.
+The deployed `gita-commentaries-0.2.0` research preview contains all 29 supplied fields from 22 authors in Sanskrit, English, and Hindi, aligned to the 700-verse canon with explicit paratext and source checksums. It is available under `/gita/commentaries` and is licensed according to the pinned source snapshot. Stable editorial release remains gated on human review of attribution and alignment.
 
 The maintained implementation plan expands this milestone to the full multilingual, 22-author source dataset and unified search: [`docs/plans/v2-commentaries.md`](plans/v2-commentaries.md).
 
