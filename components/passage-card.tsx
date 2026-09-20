@@ -24,7 +24,7 @@ export function PassageCard({ passage, compact = false, match }: { passage: Pass
       {!compact && <p className="passage-iast" lang="sa-Latn">{passage.representations.iast}</p>}
       <p className="passage-english">{passage.representations.english}</p>
       <a className="text-link" href={`/gita/${passage.chapter}/${passage.verse}`} aria-label={`Open Bhagavad Gita ${passage.chapter}.${passage.verse}`}>
-        Open passage <span aria-hidden="true">→</span>
+        Read verse <span aria-hidden="true">→</span>
       </a>
     </article>
   );

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://gita.rittmang.xyz';
+  const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://openartha.rittmang.xyz';
   return { rules: { userAgent: '*', allow: '/' }, sitemap: `${base}/sitemap.xml` };
 }

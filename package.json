@@ -1,7 +1,8 @@
 {
-  "name": "agentic-gita",
+  "name": "openartha",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.34.5",
   "engines": {
     "node": ">=22.13.0"
   },

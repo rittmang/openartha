@@ -1,14 +1,14 @@
-# Agentic Gita
+# OpenArtha
 
-A source-aware, versioned Bhagavad Gita corpus and minimal public reader. The current release candidate contains 700 canonical passages in Devanagari, IAST, and a provisional verse-aligned English witness, together with provenance, review state, variants, and checksums.
+OpenArtha is an open, source-aware library for finding meaning in primary texts by reading the text, comparing interpretations, and following every reading to its source. Artha (AR-tha) means meaning, purpose, or sense in Sanskrit. The Bhagavad Gita is the first work, with 700 canonical passages in Devanagari, IAST, and a provisional verse-aligned English translation, together with interpretations, provenance, review state, variants, and checksums.
 
-Production: https://gita.rittmang.xyz
+Production: https://openartha.rittmang.xyz
 
 The stable `gita-1.0.0` corpus is intentionally blocked until every passage receives two independent human review passes.
 
 ## Local development
 
-Requires Node.js 22.13 or newer and pnpm.
+Requires pnpm. The workspace pins pnpm 10.34.5 and Node.js 24.19.0, so `pnpm` downloads and uses the correct project runtime even when the shell's global Node.js version is older.
 
 ```sh
 pnpm install
@@ -20,10 +20,12 @@ pnpm dev
 ```sh
 pnpm corpus:build
 pnpm corpus:validate
+pnpm commentaries:build
+pnpm commentaries:validate
 pnpm test
 ```
 
-The canonical TEI source is `corpus/gita/tei/gita.xml`. Generated JSONL, CSV, simplified TEI, manifests, and checksums are published beneath `public/data/gita-1.0.0-rc.1/`. D1 schema and FTS5 setup live in `drizzle/`; compiled seed statements live in `db/seed.sql`.
+The canonical TEI source is `corpus/gita/tei/gita.xml`. Generated JSONL, CSV, simplified TEI, manifests, and checksums are published beneath `public/data/gita-1.0.0-rc.1/`. The complete-source commentary preview is generated beneath `public/data/gita-commentaries-0.2.0/`. D1 schema and FTS5 setup live in `drizzle/`; compiled seed statements live in `db/seed.sql`.
 
 ## Cloudflare deployment
 
@@ -34,8 +36,8 @@ pnpm db:migrate:remote
 pnpm deploy
 ```
 
-Worker, asset, and D1 settings live in `wrangler.jsonc`.
+Worker, asset, and D1 settings live in `wrangler.jsonc`. The public Worker is OpenArtha at `https://openartha.rittmang.xyz`; the existing D1 database keeps its historical binding name `agentic-gita` for migration continuity.
 
 ## Rights
 
-Project code is MIT licensed. Original project metadata and research annotations are CC BY 4.0. Source texts and digital witnesses retain their source-specific public-domain or licensed status; see `corpus/gita/rights.json`.
+Project code is MIT licensed. Original project metadata and research annotations are CC BY 4.0. The root Gita source retains its source-specific public-domain status; all 29 imported commentary fields in the pinned VedicScriptures snapshot are redistributed under that repository-wide GPL-3.0 license. See `corpus/gita/rights.json` and `corpus/gita-commentaries/rights.json` for the exact source commit, locators, and checksums.

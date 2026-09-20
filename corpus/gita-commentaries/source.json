@@ -1,5 +1,5 @@
 {
-  "corpusVersion": "gita-commentaries-0.1.0",
+  "corpusVersion": "gita-commentaries-0.2.0",
   "status": "research-preview",
   "generatedAt": "2026-08-26T00:00:00.000Z",
   "canonicalCorpusVersion": "gita-1.0.0-rc.1",
@@ -23,6 +23,6 @@
     "canonicalPassages": 700,
     "chapterColophons": 18,
     "chapter13AlternateOpening": 1,
-    "policy": "Chapter colophons and the alternate Chapter 13 opening are preserved as paratext. Chapter 13 source units 2–35 align to canonical verses 1–34."
+    "policy": "For the 27 default-layout fields, chapter colophons and the alternate Chapter 13 opening are preserved as paratext, and Chapter 13 source units 2–35 align to canonical verses 1–34. The two Prabhupada fields omit colophons: Chapter 13 uses the same source-minus-one mapping, while Chapter 1 source 1.36 covers canonical 1.36–1.37 and later source units shift forward by one canonical verse."
   }
 }

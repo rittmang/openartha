@@ -20,9 +20,9 @@ export async function GET(request: Request, { params }: { params: Promise<{ chap
     `# Bhagavad Gita ${chapter}.${verse}`, '',
     '## Sanskrit', '', passage.representations.devanagari, '',
     '## IAST', '', passage.representations.iast, '',
-    `## English — ${passage.translation.translator}`, '', passage.representations.english, '',
-    '## Classical Sanskrit commentaries', '',
-    ...commentaries.flatMap((commentary) => [`### ${commentary.author}`, '', commentary.content, '', `Source: ${commentary.sourceLocator} · checksum \`${commentary.checksum}\``, '']),
+    `## English translation — ${passage.translation.translator}`, '', passage.representations.english, '',
+    '## Supplied translations and commentaries', '',
+    ...commentaries.flatMap((commentary) => [`### ${commentary.author} · ${commentary.contentType} · ${commentary.language}`, '', commentary.content, '', `Source: ${commentary.sourceLocator} · checksum \`${commentary.checksum}\``, '']),
   ].join('\n'));
   return jsonResponse({ data: { ...publicPassage(passage), commentaries }, meta: { commentaryCount: commentaries.length } });
 }

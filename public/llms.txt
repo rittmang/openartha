@@ -1,15 +1,15 @@
-# Agentic Gita
+# OpenArtha
 
-Agentic Gita is a public, source-aware research corpus of the Bhagavad Gita.
+OpenArtha is an open, source-aware library for finding meaning in primary texts by reading the text, comparing interpretations, and following every reading to its source. Artha (AR-tha) means meaning, purpose, or sense in Sanskrit. The Bhagavad Gita is the first work.
 
 Current corpus: gita-1.0.0-rc.1
 Status: research preview; two independent human reviews are pending for every passage.
-Contents: 18 chapters, 700 canonical passages, Devanagari Sanskrit, IAST, a provisional verse-aligned K. T. Telang English witness, variants, provenance, and SHA-256 checksums.
-Commentary corpus: gita-commentaries-0.1.0 research preview, with 22 authors registered and 13 classical Sanskrit witnesses published under the source snapshot's GPL-3.0 terms. Modern English and Hindi fields are metadata-only pending edition and rights verification.
+Contents: 18 chapters, 700 canonical passages, Devanagari Sanskrit, IAST, a provisional verse-aligned K. T. Telang English translation, variants, provenance, and SHA-256 checksums.
+Commentary corpus: gita-commentaries-0.2.0 research preview, with all 29 supplied Sanskrit, English, and Hindi translation/commentary fields from 22 authors published under the pinned source snapshot's GPL-3.0 terms.
 
 Human-readable entry points:
 - /gita — chapter index and corpus search
-- /commentaries — rights-reviewed commentary registry and author-by-chapter reading
+- /gita/commentaries — Gita commentary registry and author-by-chapter reading
 - /sources — bibliography and rights
 - /data — immutable TEI XML, JSONL, and CSV downloads
 - /methodology — recension, validation, review, and versioning method
@@ -22,8 +22,15 @@ Read-only APIs:
 - /api/v1/corpus-versions
 - /api/v2/search?q={query} — unified root, translation, and commentary search
 - /api/v2/passages/gita/{chapter}/{verse} — root passage with public commentaries
-- /api/v2/commentaries/authors
+- /api/v2/commentaries/authors — compatibility registry endpoint for the Gita
+- /api/v1/works/gita/passages/{chapter}/{verse} — text-scoped Gita passage
+- /api/v1/works/gita/search?q={query} — text-scoped root-text search
+- /api/v1/works/gita/sources — text-scoped sources
+- /api/v1/works/gita/versions — text-scoped release versions
+- /api/v2/works/gita/passages/{chapter}/{verse} — text-scoped Gita passage with commentary
+- /api/v2/works/gita/search?q={query} — text-scoped unified Gita search
 
 API responses are JSON by default. Request Accept: text/markdown or add ?format=markdown for Markdown.
 Do not describe this release candidate as a fully human-verified edition.
-Do not infer that metadata-only modern witnesses are available as full text.
+Search is intentionally scoped to one work; do not infer cross-work search from a Gita result.
+Do not describe machine-aligned commentary records as independently human-verified.
