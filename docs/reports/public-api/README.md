@@ -1,6 +1,8 @@
 # Independent public API audit
 
-Audit date: 2026-10-18 America/Los_Angeles; HTTP evidence timestamps are UTC on 2026-10-19. Application commit: `06f0fb6`. Result: **FAIL — the public APIs do not all satisfy their documented behavior and data contracts.**
+Latest result: **PASS — all seven identified issues are fixed and verified in production.** Application commit `234fece` is deployed as Cloudflare version `5502f8a7-ab36-40d3-a103-030b1f8ade28` at `https://openartha.rittmang.xyz`.
+
+The original audit began on 2026-10-18 America/Los_Angeles (UTC evidence on 2026-10-19) against application commit `06f0fb6` and failed. That baseline and its findings are retained below; current results follow.
 
 ## Complete remediation
 
@@ -8,7 +10,9 @@ The user subsequently authorized fixing every finding, push/deployment, and prod
 
 The imported commentary release now truthfully states `machine-validated; human review pending`, replacing unsupported blanket model-review claims in the current release and UI. Old releases remain byte-for-byte intact. Arnold's independent review artifacts and approvals remain intact. Metadata-only migration `0045_commentary_review_metadata_v021.sql` changes only the pinned imported source.
 
-All 41 tests, types, lint, build, commentary checks, and corpus/TEI validation pass. The [final local audit](./local-remediation.json) passes **4,016 requests / 54,044 assertions / zero failures**, including 72 serial repeated searches. Publication and production verification are in progress; their completion is tracked in the [maintained remediation plan](../../plans/public-api-verification.md#remediation-milestone). Earlier findings/results below are preserved as historical evidence.
+All 41 tests, types, lint, build, commentary checks, and corpus/TEI validation pass. Both the [final local audit](./local-remediation.json) and [final production audit](./production-remediation.json) pass **4,016 requests / 54,044 assertions / zero failures**, each including 72 serial repeated searches without hidden retries. Production checks verify all 700 references through all four passage routes, all 414 author chapters (including Arnold), all 21,000 readings and their current review states, content negotiation/cache headers, scoped metadata, errors, and all 18 current release downloads. Earlier findings/results below are preserved as historical evidence.
+
+Migration `0045_commentary_review_metadata_v021.sql` was applied locally and remotely. The code was pushed and deployed with the existing local Cloudflare authentication. [CI](https://github.com/rittmang/openartha/actions/runs/39212785400) passed its validation/tests/build but its deployment token remains invalid; that separate CI maintenance issue did not prevent this release or its successful production verification. No Worker resource limits or paid infrastructure settings were raised. The user's explicit request authorized production HTTP verification for this remediation; no browser was used. The [maintained plan](../../plans/public-api-verification.md#remediation-milestone) records publication details and authorization.
 
 ## Local shared-author follow-up
 
@@ -24,9 +28,9 @@ The approved follow-up was subsequently pushed as application commit `630d3de` a
 
 The audit sent ordinary HTTP requests to `https://openartha.rittmang.xyz` and the existing local server at `http://localhost:3100`. No browser, browser automation, deployment, remote database mutation, or application behavior change was used. The runner imports no application code. Expected text and metadata come from pinned public JSONL exports and release manifests, and returned content is independently hashed with SHA-256.
 
-The complete run sends **3,943 requests per origin**, using at most four concurrent requests. Both origins were audited twice; the retained `production.json` and `local.json` are the final runs. The first production run's HTTP failures are retained separately, along with serial targeted rechecks and compact reproductions.
+The baseline run sent **3,943 requests per origin**, using at most four concurrent requests. Both origins were audited twice; `production.json` and `local.json` retain those original results. The first production run's HTTP failures are retained separately, along with serial targeted rechecks and compact reproductions. The current runner adds one origin preflight and 72 repeated serial searches, for 4,016 requests per complete run; current release expectations follow the pinned source registry.
 
-Final assertion totals: **53,458 passed / 441 failed locally** and **12,835 passed / 41,064 failed in production**. These are repeated assertions, not distinct defects: 40,600 production failures alone represent the 20,300 mismatched review statuses checked through two aliases. The final production run also observed nine unsuccessful HTTP responses, with consequent failures in negotiation/header or search checks. Findings below distinguish those secondary failures from separate bugs.
+Baseline assertion totals were **53,458 passed / 441 failed locally** and **12,835 passed / 41,064 failed in production**. These were repeated assertions, not distinct defects: 40,600 production failures alone represented the 20,300 mismatched review statuses checked through two aliases. That production run also observed nine unsuccessful HTTP responses, with consequent failures in negotiation/header or search checks. Findings below distinguish those secondary failures from separate bugs.
 
 Coverage includes:
 
@@ -124,7 +128,7 @@ Evidence: `work-scoped-search-metadata` in both complete reports and [`app/api/v
 
 All 2,800 JSON passage responses per origin match the canonical root data. The two V2 passage forms each return the correct 30 readings at every reference, including explicit Arnold omission records; their text and checksums match the pinned exports. All 414 author/chapter endpoints return the expected record sets. Tested invalid requests return the expected JSON/Markdown statuses and error bodies. All three manifests and all 18 files match their expected byte counts and hashes on both origins. Basic JSON/Markdown negotiation, CORS/version headers, and HEAD pass locally and on successful production responses; intermittent production search delivery failures also affect those checks. Passage aliases pass on both origins.
 
-The existing repository suite passes **27/27 tests**. The new runner passes syntax checking and ESLint. It deliberately exits nonzero when a contract assertion fails; this is the expected audit result.
+At baseline the existing repository suite passed **27/27 tests** while the HTTP audit failed. The current suite passes **41/41** and the corrected HTTP contracts pass locally and in production. The runner exits nonzero on any failed assertion and does not retry delivery failures invisibly.
 
 This audit tests every route family and every current passage/author chapter, but cannot enumerate every possible query or header. Markdown content is sampled at all chapter boundaries rather than tested for all 700 references. It uses the existing migrated local D1 database; no fresh/unmigrated database, simulated D1 outage, alternate production hostname, sustained load test, or browser behavior was tested. Production search failures can cause secondary integrity/alias/limit assertions to fail; those counts do not establish additional independent defects.
 
@@ -135,11 +139,11 @@ From the project root, with the local server running:
 ```sh
 pnpm exec node scripts/audit-public-api.mjs \
   --base-url http://localhost:3100 \
-  --output docs/reports/public-api/local.json
+  --output docs/reports/public-api/local-remediation.json
 
 pnpm exec node scripts/audit-public-api.mjs \
   --base-url https://openartha.rittmang.xyz \
-  --output docs/reports/public-api/production.json
+  --output docs/reports/public-api/production-remediation.json
 ```
 
 `--concurrency` accepts 1–8 and defaults to 4. The runner sends read-only GET/HEAD requests and does not retry failures invisibly. Reports aggregate assertions and retain up to eight failure examples per group; assertion totals count repeated checks and should not be interpreted as distinct bug counts.
