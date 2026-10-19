@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import manifest from '@/public/data/gita-1.0.0-rc.1/manifest.json';
-import commentaryManifest from '@/public/data/gita-commentaries-0.2.0/manifest.json';
+import commentaryManifest from '@/public/data/gita-commentaries-0.2.1/manifest.json';
 import translationManifest from '@/public/data/gita-edwin-arnold-1.0.0/manifest.json';
 import { corpus } from '@/app/lib/corpus';
 import { StatusPill } from '@/components/status-pill';

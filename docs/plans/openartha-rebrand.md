@@ -29,7 +29,7 @@ Canonical text-scoped endpoints:
 - `GET /api/v2/works/gita/passages/:chapter/:verse` — Gita passage plus published commentary witnesses.
 - `GET /api/v2/works/gita/search?q=...` — unified Gita root + translation + commentary search; only the optional result `limit` changes the response.
 
-Compatibility endpoints remain available for existing clients (`/api/v1/passages/gita/...`, `/api/v1/search`, `/api/v2/passages/gita/...`, `/api/v2/search`). New clients should use the work-scoped forms. Every response includes `workId`, `canonicalRef`, `corpusVersion`, and content negotiation remains JSON or Markdown.
+Compatibility endpoints remain available for existing clients (`/api/v1/passages/gita/...`, `/api/v1/search`, `/api/v2/passages/gita/...`, `/api/v2/search`). New clients should use the work-scoped forms. Passage objects include `workId`, `canonicalRef`, and `corpusVersion`. V2 search includes the work and root/commentary release identifiers in `meta`, even for empty results, and each hit includes `workId`, `canonicalRef`, and its own `corpusVersion`. Registry and error responses use their documented identifiers/error codes rather than inventing a canonical passage reference. Content negotiation remains JSON or Markdown.
 
 Future texts add a work registry entry and the same scoped route family; they do not change Gita search semantics or identifiers. A future cross-work discovery endpoint, if needed, will be explicitly separate from text search.
 

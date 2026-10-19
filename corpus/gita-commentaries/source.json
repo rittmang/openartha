@@ -1,7 +1,7 @@
 {
-  "corpusVersion": "gita-commentaries-0.2.0",
+  "corpusVersion": "gita-commentaries-0.2.1",
   "status": "research-preview",
-  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "generatedAt": "2026-10-19T00:00:00.000Z",
   "canonicalCorpusVersion": "gita-1.0.0-rc.1",
   "source": {
     "id": "vedicscriptures-bhagavad-gita",
@@ -12,7 +12,26 @@
     "licenseUrl": "https://github.com/vedicscriptures/bhagavad-gita/blob/43dfc8db815d01e15a347ea294b089334cf2aa17/LICENSE",
     "expectedSourceUnits": 719,
     "expectedCanonicalAlignmentsPerPublicEdition": 700,
-    "expectedChapterCounts": [48, 73, 44, 43, 30, 48, 31, 29, 35, 43, 56, 21, 36, 28, 21, 25, 29, 79]
+    "expectedChapterCounts": [
+      48,
+      73,
+      44,
+      43,
+      30,
+      48,
+      31,
+      29,
+      35,
+      43,
+      56,
+      21,
+      36,
+      28,
+      21,
+      25,
+      29,
+      79
+    ]
   },
   "mirror": {
     "name": "Kaggle Bhagavad Gita dataset",
@@ -24,5 +43,9 @@
     "chapterColophons": 18,
     "chapter13AlternateOpening": 1,
     "policy": "For the 27 default-layout fields, chapter colophons and the alternate Chapter 13 opening are preserved as paratext, and Chapter 13 source units 2–35 align to canonical verses 1–34. The two Prabhupada fields omit colophons: Chapter 13 uses the same source-minus-one mapping, while Chapter 1 source 1.36 covers canonical 1.36–1.37 and later source units shift forward by one canonical verse."
+  },
+  "review": {
+    "status": "machine-validated; human review pending",
+    "note": "Deterministic alignment validation does not establish an independent model or human review of every imported record."
   }
 }

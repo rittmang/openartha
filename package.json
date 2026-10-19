@@ -17,7 +17,7 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate:local": "wrangler d1 migrations apply agentic-gita --local",
     "db:migrate:remote": "wrangler d1 migrations apply agentic-gita --remote",
-    "corpus:build": "node scripts/build-corpus.mjs",
+    "corpus:build": "node scripts/build-corpus.mjs && node scripts/build-search-index.mjs",
     "corpus:validate": "node scripts/validate-corpus.mjs && node scripts/validate-tei.mjs",
     "commentaries:build": "node scripts/build-commentaries.mjs",
     "commentaries:validate": "node scripts/validate-commentaries.mjs",

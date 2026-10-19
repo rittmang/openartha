@@ -6,7 +6,7 @@ The stable release candidate contains the versioned corpus, provenance, download
 
 ## V2 — historical commentaries
 
-The deployed `gita-commentaries-0.2.0` research preview contains all 29 supplied fields from 22 authors in Sanskrit, English, and Hindi, aligned to the 700-verse canon with explicit paratext and source checksums. It is available under `/gita/commentaries` and is licensed according to the pinned source snapshot. Stable editorial release remains gated on human review of attribution and alignment.
+The deployed `gita-commentaries-0.2.1` research preview contains all 29 supplied fields from 22 authors in Sanskrit, English, and Hindi, aligned to the 700-verse canon with explicit paratext and source checksums. It is available under `/gita/commentaries` and is licensed according to the pinned source snapshot. Stable editorial release remains gated on human review of attribution and alignment.
 
 The maintained implementation plan expands this milestone to the full multilingual, 22-author source dataset and unified search: [`docs/plans/v2-commentaries.md`](plans/v2-commentaries.md).
 

@@ -1,8 +1,9 @@
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { existsSync, readdirSync } from 'node:fs';
-import { mkdir, readFile, unlink, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { commentaryReviewReleaseSql } from './lib/commentary-review-release.mjs';
 
 const root = process.cwd();
 const registryDir = path.join(root, 'corpus', 'gita-commentaries');
@@ -13,8 +14,6 @@ const sourceArgument = process.argv.find((argument) => argument.startsWith('--so
 const cacheSourceDir = path.join(root, '.cache', 'commentaries', 'vedicscriptures-bhagavad-gita');
 const sourceDir = sourceArgument ? path.resolve(sourceArgument.slice('--source-dir='.length)) : cacheSourceDir;
 const slokDir = path.join(sourceDir, 'slok');
-const migrationStart = 16;
-const migrationSeries = 'seed_commentaries_v020';
 
 function sha256(value) {
   return createHash('sha256').update(value).digest('hex');
@@ -26,49 +25,6 @@ function normalizeDisplay(value) {
 
 function escapeXml(value) {
   return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-}
-
-function sql(value) {
-  if (value === null || value === undefined) return 'NULL';
-  if (typeof value === 'number') return String(value);
-  return `'${String(value).replaceAll("'", "''")}'`;
-}
-
-function chunksByBytes(value, maximumBytes = 24_000) {
-  const chunks = [];
-  let current = '';
-  let bytes = 0;
-  for (const character of value) {
-    const size = Buffer.byteLength(character);
-    if (current && bytes + size > maximumBytes) {
-      chunks.push(current);
-      current = '';
-      bytes = 0;
-    }
-    current += character;
-    bytes += size;
-  }
-  if (current || !chunks.length) chunks.push(current);
-  return chunks;
-}
-
-function batchedInsert(table, columns, rows, maximumBytes = 80_000) {
-  const statements = [];
-  let values = [];
-  let bytes = 0;
-  const prefix = `INSERT INTO ${table} (${columns.join(',')}) VALUES\n`;
-  for (const row of rows) {
-    const encoded = `(${row.map(sql).join(',')})`;
-    if (values.length && bytes + Buffer.byteLength(encoded) > maximumBytes) {
-      statements.push(`${prefix}${values.join(',\n')};`);
-      values = [];
-      bytes = 0;
-    }
-    values.push(encoded);
-    bytes += Buffer.byteLength(encoded) + 2;
-  }
-  if (values.length) statements.push(`${prefix}${values.join(',\n')};`);
-  return statements;
 }
 
 if (!existsSync(slokDir)) {
@@ -161,7 +117,7 @@ function addUnit({ author, edition, sourceRow, passageId, unitType, alignmentRel
     canonicalRef: passageId,
     unitType,
     alignmentRelation: passageId ? alignmentRelation : null,
-    alignmentStatus: passageId ? 'first review verified (google/gemini-3.8-flash); second review pending' : 'paratext-preserved',
+    alignmentStatus: passageId ? 'machine-validated; human review pending' : 'paratext-preserved',
     sourceLocator: `${sourceRow.file}#/${author.sourceKey}/${edition.fieldCode}`,
     rawChecksum: sha256(content.raw),
     displayChecksum: sha256(content.display),
@@ -251,7 +207,7 @@ const alignmentReport = {
   canonicalPassages: new Set(alignedUnits.map((unit) => unit.canonicalRef)).size,
   chapterColophons: paratextUnits.filter((unit) => unit.unitType === 'chapter-colophon').length,
   chapter13AlternateOpenings: paratextUnits.filter((unit) => unit.unitType === 'recensional-prelude').length,
-  status: 'first review verified (google/gemini-3.8-flash); second review pending',
+  status: 'machine-validated; human review pending',
   exceptions: [{ authorId: 'prabhupada', status: 'explicitly-aligned', note: 'Chapter 1 source unit 1.36 spans canonical 1.36–1.37 and later source units shift forward one; Chapter 13 source 13.1 is preserved as a recensional prelude and 13.2–13.35 align to canonical 13.1–13.34.' }],
 };
 
@@ -318,81 +274,14 @@ const releaseManifest = {
 await writeFile(path.join(publicDir, 'manifest.json'), `${JSON.stringify(releaseManifest, null, 2)}\n`, 'utf8');
 await writeFile(path.join(publicDir, 'checksums.sha256'), `${manifestFiles.map((file) => `${file.sha256}  ${file.name}`).join('\n')}\n`, 'utf8');
 
-const sourceRecord = [sourceManifest.source.id, sourceManifest.source.title, sourceManifest.source.repository, sourceManifest.source.commit, sourceManifest.source.license, sourceManifest.source.licenseUrl, sourceManifest.corpusVersion];
-const authorRows = authors.map((author) => [author.id, author.sourceKey, author.displayName, JSON.stringify(author.availableFields), JSON.stringify(author.publicFields), author.rightsStatus, author.rightsNote]);
-const editionRows = editions.map((edition) => [edition.id, edition.authorId, sourceManifest.source.id, edition.fieldCode, edition.language, edition.script, edition.contentType, edition.publicText ? 1 : 0, edition.rightsStatus, sourceManifest.corpusVersion]);
-const unitRows = units.map((unit) => [unit.id, unit.editionId, unit.canonicalRef, unit.sourceChapter, unit.sourceVerse, unit.unitType, unit.alignmentRelation, unit.alignmentStatus, unit.sourceLocator, unit.rawChecksum, unit.displayChecksum]);
-const chunkRows = units.flatMap((unit) => chunksByBytes(unit.content).map((content, index) => [unit.id, index, content]));
-const ftsRows = alignedUnits.flatMap((unit) => chunksByBytes(unit.content).map((content) => [unit.id, unit.authorName, unit.canonicalRef, unit.language, unit.contentType, content]));
-
-const migrationStatements = [
-  'PRAGMA foreign_keys=ON;',
-  'DELETE FROM commentary_fts;',
-  'DELETE FROM commentary_unit_chunks;',
-  'DELETE FROM commentary_units;',
-  'DELETE FROM commentary_editions;',
-  'DELETE FROM commentary_authors;',
-  'DELETE FROM commentary_sources;',
-  ...batchedInsert('commentary_sources', ['id','title','repository_url','commit_sha','license','license_url','corpus_version'], [sourceRecord]),
-  ...batchedInsert('commentary_authors', ['id','source_key','display_name','available_fields','public_fields','rights_status','rights_note'], authorRows),
-  ...batchedInsert('commentary_editions', ['id','author_id','source_id','field_code','language','script','content_type','public_text','rights_status','corpus_version'], editionRows),
-  ...batchedInsert('commentary_units', ['id','edition_id','passage_id','source_chapter','source_verse','unit_type','alignment_relation','alignment_status','source_locator','raw_checksum','display_checksum'], unitRows),
-  ...batchedInsert('commentary_unit_chunks', ['unit_id','chunk_index','content'], chunkRows),
-  ...batchedInsert('commentary_fts', ['unit_id','author','canonical_ref','language','content_type','content'], ftsRows),
-];
-const migrationParts = [];
-let currentPart = [];
-let currentPartBytes = 0;
-for (const statement of migrationStatements) {
-  const statementBytes = Buffer.byteLength(statement) + 30;
-  if (currentPart.length && currentPartBytes + statementBytes > 3_000_000) {
-    migrationParts.push(currentPart);
-    currentPart = [];
-    currentPartBytes = 0;
-  }
-  currentPart.push(statement);
-  currentPartBytes += statementBytes;
-}
-if (currentPart.length) migrationParts.push(currentPart);
-
+// Published seed migrations are immutable. This patch release changes metadata only.
+const migrationTag = '0045_commentary_review_metadata_v021';
 const drizzleDir = path.join(root, 'drizzle');
-for (const file of readdirSync(drizzleDir)) {
-  if (/^\d{4}_seed_commentaries_v020_\d+\.sql$/.test(file)) await unlink(path.join(drizzleDir, file));
-}
-const migrationFiles = [];
-for (const [index, statements] of migrationParts.entries()) {
-  const migrationNumber = String(index + migrationStart).padStart(4, '0');
-  const partNumber = String(index + 1).padStart(2, '0');
-  const name = `${migrationNumber}_${migrationSeries}_${partNumber}.sql`;
-  const body = `${statements.join('\n--> statement-breakpoint\n')}\n`;
-  await writeFile(path.join(drizzleDir, name), body, 'utf8');
-  migrationFiles.push({ name, bytes: Buffer.byteLength(body) });
-}
-
+await writeFile(path.join(drizzleDir, `${migrationTag}.sql`), commentaryReviewReleaseSql(sourceManifest));
 const journalPath = path.join(drizzleDir, 'meta', '_journal.json');
 const journal = JSON.parse(await readFile(journalPath, 'utf8'));
-journal.entries = journal.entries.filter((entry) => !entry.tag.includes(migrationSeries));
-const lastWhen = Math.max(...journal.entries.map((entry) => entry.when));
-for (const [index, migration] of migrationFiles.entries()) {
-  journal.entries.push({
-    idx: journal.entries.length,
-    version: '6',
-    when: lastWhen + index + 1,
-    tag: migration.name.replace(/\.sql$/, ''),
-    breakpoints: true,
-  });
+if (!journal.entries.some((entry) => entry.tag === migrationTag)) {
+  journal.entries.push({ idx: journal.entries.length, version: '6', when: Math.max(...journal.entries.map((entry) => entry.when)) + 1, tag: migrationTag, breakpoints: true });
+  await writeFile(journalPath, JSON.stringify(journal, null, 2) + '\n');
 }
-await writeFile(journalPath, `${JSON.stringify(journal, null, 2)}\n`, 'utf8');
-
-console.log(JSON.stringify({
-  corpusVersion: sourceManifest.corpusVersion,
-  sourceCommit: pinnedCommit,
-  authors: authors.length,
-  editions: editions.length,
-  publicEditions: expectedPublicEditions,
-  alignedUnits: alignedUnits.length,
-  paratextUnits: paratextUnits.length,
-  chunks: chunkRows.length,
-  migrationFiles,
-  exports: manifestFiles,
-}, null, 2));
+console.log(JSON.stringify({ corpusVersion: sourceManifest.corpusVersion, sourceCommit: pinnedCommit, authors: authors.length, publicEditions: expectedPublicEditions, alignedUnits: alignedUnits.length, paratextUnits: paratextUnits.length, migrationTag, exports: manifestFiles }, null, 2));

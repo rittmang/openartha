@@ -4,6 +4,8 @@ import { readFile } from 'node:fs/promises';
 import { DatabaseSync } from 'node:sqlite';
 import test from 'node:test';
 import { getPassageReadingRows, getAuthorChapterReadingRows, searchReadingRows, toCommentary } from '../app/lib/commentary-repository.ts';
+import { commentaryReviewReleaseSql } from '../scripts/lib/commentary-review-release.mjs';
+import { commentaryReviewSummary } from '../app/lib/commentary-review.ts';
 
 const root = new URL('../', import.meta.url);
 const canonical = JSON.parse(await readFile(new URL('corpus/gita/gita.json', root), 'utf8'));
@@ -139,4 +141,30 @@ test('publication visibility applies to Arnold and other authors across all retr
   assert.deepEqual(await getPassageReadingRows(db, 1, 1), []);
   for (const author of ['control', 'edwin-arnold']) assert.deepEqual(await getAuthorChapterReadingRows(db, author, 1), []);
   assert.deepEqual(await searchReadingRows(db, '"battle"*', 100), []);
+});
+
+test('the review patch is scoped, repeatable, and preserves all text and Arnold review evidence', async (t) => {
+  const { sqlite, db, addControl } = fixture(t);
+  const source = JSON.parse(await readFile(new URL('corpus/gita-commentaries/source.json', root), 'utf8'));
+  sqlite.prepare('INSERT INTO commentary_sources VALUES (?, ?, ?, ?, ?, ?, ?)').run(source.source.id, 'Pinned import', source.source.repository, source.source.commit, 'GPL-3.0', source.source.licenseUrl, 'gita-commentaries-0.2.0');
+  sqlite.prepare("UPDATE commentary_editions SET source_id = ?, corpus_version = 'gita-commentaries-0.2.0' WHERE id = 'control-et'").run(source.source.id);
+  const expected = addControl(1, ['Text remains unchanged.']);
+  const sql = commentaryReviewReleaseSql(source);
+  sqlite.exec(sql);
+  sqlite.exec(sql);
+  const rows = await getPassageReadingRows(db, 1, 1);
+  const imported = toCommentary(rows.find((row) => row.id === expected.id));
+  assert.equal(imported.corpusVersion, 'gita-commentaries-0.2.1');
+  assert.equal(imported.alignmentStatus, 'machine-validated; human review pending');
+  assert.equal(imported.content, expected.content);
+  assert.equal(imported.checksum, sha256(expected.content));
+  assert.equal(commentaryReviewSummary(imported), 'Machine-validated alignment; human review pending.');
+  const row = rows.find((row) => row.author_id === 'edwin-arnold');
+  const reviewed = toCommentary(row, translation.verses[0]);
+  assert.deepEqual(reviewed.firstReview, translation.verses[0].firstReview);
+  assert.match(commentaryReviewSummary(reviewed), /First model review verified/);
+  sqlite.prepare('UPDATE commentary_sources SET commit_sha = ? WHERE id = ?').run('another-source', source.source.id);
+  sqlite.exec("UPDATE commentary_units SET alignment_status = 'control-state' WHERE edition_id = 'control-et'");
+  sqlite.exec(sql);
+  assert.equal(sqlite.prepare('SELECT alignment_status FROM commentary_units WHERE id = ?').get(expected.id).alignment_status, 'control-state');
 });

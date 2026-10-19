@@ -1,0 +1,600 @@
+{
+  "startedAt": "2026-10-19T06:53:17.064Z",
+  "finishedAt": "2026-10-19T06:53:42.306Z",
+  "origin": "http://localhost:3100",
+  "scope": {
+    "routeFamilies": 15,
+    "passageReferences": 700,
+    "passageRouteVariants": 4,
+    "authors": 23,
+    "authorChapters": 414,
+    "distinctReadingRecords": 21000,
+    "fixtureBasis": "Pinned public JSONL exports and manifests; no application imports",
+    "concurrency": 4
+  },
+  "requests": 4016,
+  "responseBytes": 289628964,
+  "passed": 54044,
+  "failed": 0,
+  "groups": {
+    "http": {
+      "passed": 3758,
+      "failed": 0,
+      "failures": []
+    },
+    "content-negotiation": {
+      "passed": 45,
+      "failed": 0,
+      "failures": []
+    },
+    "public-headers": {
+      "passed": 45,
+      "failed": 0,
+      "failures": []
+    },
+    "http-vary-accept": {
+      "passed": 30,
+      "failed": 0,
+      "failures": []
+    },
+    "markdown-equivalence": {
+      "passed": 15,
+      "failed": 0,
+      "failures": []
+    },
+    "head": {
+      "passed": 15,
+      "failed": 0,
+      "failures": []
+    },
+    "registries": {
+      "passed": 4,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-data": {
+      "passed": 2800,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-etag": {
+      "passed": 1400,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-readings": {
+      "passed": 1400,
+      "failed": 0,
+      "failures": []
+    },
+    "review-status-export-parity": {
+      "passed": 42000,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-aliases": {
+      "passed": 700,
+      "failed": 0,
+      "failures": []
+    },
+    "author-chapter-data": {
+      "passed": 414,
+      "failed": 0,
+      "failures": []
+    },
+    "author-chapter-order": {
+      "passed": 414,
+      "failed": 0,
+      "failures": []
+    },
+    "author-chapter-markdown": {
+      "passed": 92,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-markdown": {
+      "passed": 296,
+      "failed": 0,
+      "failures": []
+    },
+    "error-status": {
+      "passed": 186,
+      "failed": 0,
+      "failures": []
+    },
+    "error-body": {
+      "passed": 186,
+      "failed": 0,
+      "failures": []
+    },
+    "search-limits": {
+      "passed": 24,
+      "failed": 0,
+      "failures": []
+    },
+    "search-integrity": {
+      "passed": 36,
+      "failed": 0,
+      "failures": []
+    },
+    "search-diacritics": {
+      "passed": 4,
+      "failed": 0,
+      "failures": []
+    },
+    "work-scoped-search-metadata": {
+      "passed": 9,
+      "failed": 0,
+      "failures": []
+    },
+    "search-aliases": {
+      "passed": 2,
+      "failed": 0,
+      "failures": []
+    },
+    "search-witness-coverage": {
+      "passed": 2,
+      "failed": 0,
+      "failures": []
+    },
+    "http-accept-quality": {
+      "passed": 2,
+      "failed": 0,
+      "failures": []
+    },
+    "download-manifests": {
+      "passed": 3,
+      "failed": 0,
+      "failures": []
+    },
+    "download-checksums": {
+      "passed": 18,
+      "failed": 0,
+      "failures": []
+    },
+    "repeated-search-status": {
+      "passed": 72,
+      "failed": 0,
+      "failures": []
+    },
+    "repeated-search-contract": {
+      "passed": 72,
+      "failed": 0,
+      "failures": []
+    }
+  },
+  "repeatedSearches": [
+    {
+      "round": 1,
+      "path": "/api/v1/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 13
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 14
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 10
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 9
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/works/gita/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 10
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/works/gita/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/works/gita/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/works/gita/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 24
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 17
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 69
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 69
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 10
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 30
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 21
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 17
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 52
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 64
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 12
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 27
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 11
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 9
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 9
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/works/gita/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 9
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/works/gita/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 9
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/works/gita/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 7
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/works/gita/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 7
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 20
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 17
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 49
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 67
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 11
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 27
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 21
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 17
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 49
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 63
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 10
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 27
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 10
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 7
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 6
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 9
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/works/gita/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 9
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/works/gita/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 7
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/works/gita/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 8
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/works/gita/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 12
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 22
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 17
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 50
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 99
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 10
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 31
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=yoga&limit=100",
+      "status": 200,
+      "milliseconds": 21
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=sankhya&limit=100",
+      "status": 200,
+      "milliseconds": 23
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "status": 200,
+      "milliseconds": 53
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "status": 200,
+      "milliseconds": 62
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "milliseconds": 12
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "milliseconds": 27
+    }
+  ]
+}

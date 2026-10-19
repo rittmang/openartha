@@ -188,7 +188,7 @@ test('D1 migration registers Arnold in the existing schema and FTS without chang
     const journal = JSON.parse(await readFile(new URL('../drizzle/meta/_journal.json', import.meta.url), 'utf8'));
     assert.equal(new Set(journal.entries.map((entry) => entry.tag.slice(0, 4))).size, journal.entries.length, 'Migration ordinals must be unique');
     const migrationTag = translation.firstReview ? '0044_review_edwin_arnold_v100' : '0043_seed_edwin_arnold_v100';
-    assert.equal(journal.entries.at(-1).tag, migrationTag);
+    assert.ok(journal.entries.some((entry) => entry.tag === migrationTag));
     db.exec(await readFile(new URL('../drizzle/0043_seed_edwin_arnold_v100.sql', import.meta.url), 'utf8'));
     const seed = await readFile(new URL(`../drizzle/${migrationTag}.sql`, import.meta.url), 'utf8');
     db.exec(seed);

@@ -1,0 +1,58 @@
+{
+  "corpusVersion": "gita-commentaries-0.2.1",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "status": "research-preview",
+  "sourceCommit": "43dfc8db815d01e15a347ea294b089334cf2aa17",
+  "authors": 22,
+  "editions": 29,
+  "publicEditions": 29,
+  "canonicalPassages": 700,
+  "commentaryRecords": 20300,
+  "files": [
+    {
+      "name": "commentaries-en.jsonl",
+      "bytes": 8077584,
+      "sha256": "cdc187f8a1042ab567b00c7b38efe8912d2872650c835e550fc141f6760b6246"
+    },
+    {
+      "name": "commentaries-en.xml",
+      "bytes": 5687209,
+      "sha256": "6f46698f5c64368b9746371ef7f9a1e7c2ee0c9d21ad4f82bc3e66da3dbcb47f"
+    },
+    {
+      "name": "commentaries-hi.jsonl",
+      "bytes": 15272843,
+      "sha256": "cee54255ffb06a5336df2e980bf58c16a87e8796a6017be5a9b105f6feae43ba"
+    },
+    {
+      "name": "commentaries-hi.xml",
+      "bytes": 14164635,
+      "sha256": "1782c6157b35ba2280aa10696cc01a6ca7f239edaad3c9ccaf4821cad2f7c7bf"
+    },
+    {
+      "name": "commentaries-sa.jsonl",
+      "bytes": 20642536,
+      "sha256": "c4fb44e315ce5a0be73d7f05021b292339bb3b0d069f7f4878d7228f133292ab"
+    },
+    {
+      "name": "commentaries-sa.xml",
+      "bytes": 17843118,
+      "sha256": "b990f3ab2c6fd55491a0a459c826e750a4b0baaec26768a301b4feb93f51b644"
+    },
+    {
+      "name": "rights.json",
+      "bytes": 8694,
+      "sha256": "209598b4406e577d3618da29a0b37c040bc1ef7e059f4ec9f7fa2f30e26af5f0"
+    },
+    {
+      "name": "alignment-report.json",
+      "bytes": 782,
+      "sha256": "87f13a0eb2abaa90a047a45488c187d4aaa7925f95160d01d08f590322f9fc59"
+    },
+    {
+      "name": "LICENSE-GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    }
+  ]
+}

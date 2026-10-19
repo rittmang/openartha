@@ -1,8 +1,7 @@
 import { env } from 'cloudflare:workers';
 import authorRegistry from '@/corpus/gita-commentaries/authors.json';
 import sourceRegistry from '@/corpus/gita-commentaries/source.json';
-import { getPassage } from '@/app/lib/corpus';
-import { findSearchTerm, normalizeSearchText, type SearchMatchKind, type SearchRange } from '@/app/lib/search';
+import { findSearchTerms, normalizeSearchText, type SearchMatchKind, type SearchRange } from '@/app/lib/search';
 import { translationAuthors, readingMetadataById } from '@/app/lib/translations';
 import { getPassageReadingRows, getAuthorChapterReadingRows, searchReadingRows, toCommentary } from '@/app/lib/commentary-repository';
 
@@ -87,68 +86,7 @@ export function commentaryLang(commentary: Pick<Commentary, 'language' | 'script
   return `${commentary.language}-${commentary.script}`;
 }
 
-export function commentaryReviewSummary(commentary: Commentary) {
-  const shared = commentary.alignment && commentary.alignment.references.length > 1 ? `Shared rendering of ${commentary.alignment.references.map((ref) => ref.replace('gita.', '')).join('–')}. ` : '';
-  if (commentary.firstReview) {
-    const review = commentary.firstReview;
-    const outcome = review.status === 'verified' ? 'verified' : review.status === 'needs-correction' ? 'flagged for correction' : 'uncertain';
-    return `${shared}First model review ${outcome} (${review.reviewerModel} confidence: ${Math.round(review.confidence * 100)}%); second review pending.`;
-  }
-  if (commentary.alignment) {
-    return `${shared}Aligned by ${commentary.alignment.review.reviewerModel}; independent review pending.`;
-  }
-  return `First review verified (google/gemini-3.8-flash confidence: ${Math.round(commentaryConfidence(commentary) * 100)}%); second review pending.`;
-}
-
-export function commentaryConfidence(commentary: Pick<Commentary, 'chapter' | 'verse' | 'language' | 'contentType' | 'content'>): number {
-  const passage = getPassage(commentary.chapter, commentary.verse);
-  const content = commentary.content || '';
-
-  if (/did not comment on this sloka|commentary starts from/i.test(content)) {
-    return 0.99;
-  }
-
-  if (!passage) return 0.85;
-
-  let score = 0.85;
-
-  if (commentary.language === 'sa') {
-    const devaWords = passage.representations.devanagari
-      .replace(/[।॥०-९0-9\n\r]/g, ' ')
-      .split(/\s+/)
-      .filter((w) => w.length > 2);
-    const matches = devaWords.filter((w) => content.includes(w)).length;
-    const ratio = devaWords.length ? matches / devaWords.length : 0;
-    score = 0.88 + Math.min(0.10, ratio * 0.15);
-  } else if (commentary.language === 'en') {
-    const enTokens = passage.representations.english
-      .toLowerCase()
-      .replace(/[^a-z0-9 ]/g, ' ')
-      .split(/\s+/)
-      .filter((w) => w.length > 3);
-    const commLower = content.toLowerCase();
-    const matches = enTokens.filter((w) => commLower.includes(w)).length;
-    const ratio = enTokens.length ? matches / enTokens.length : 0;
-    score = commentary.contentType === 'translation'
-      ? 0.90 + Math.min(0.08, ratio * 0.12)
-      : 0.87 + Math.min(0.09, ratio * 0.12);
-  } else if (commentary.language === 'hi') {
-    const devaWords = passage.representations.devanagari
-      .replace(/[।॥०-९0-9\n\r]/g, ' ')
-      .split(/\s+/)
-      .filter((w) => w.length > 2);
-    const matches = devaWords.filter((w) => content.includes(w)).length;
-    const ratio = devaWords.length ? matches / devaWords.length : 0;
-    score = 0.88 + Math.min(0.09, ratio * 0.12);
-  }
-
-  const headerPattern = new RegExp(`(\\\\b|\\\\|\\\\|)\\s*${passage.chapter}\\s*[.-]\\s*${passage.verse}`);
-  if (headerPattern.test(content.slice(0, 50))) {
-    score += 0.02;
-  }
-
-  return Math.min(0.99, Math.max(0.60, Number(score.toFixed(2))));
-}
+export { commentaryReviewSummary } from '@/app/lib/commentary-review';
 
 function database() {
   return (env as unknown as { DB?: D1Database }).DB;
@@ -187,8 +125,7 @@ function matchEvidence(content: string, query: string) {
   const terms = normalizeSearchText(query).split(/\s+/).filter(Boolean);
   const ranges: SearchRange[] = [];
   let exact = true;
-  for (const term of terms) {
-    const occurrences = findSearchTerm(content, term);
+  for (const occurrences of findSearchTerms(content, terms)) {
     if (!occurrences.length) continue;
     ranges.push(...occurrences.map(({ start, end }) => ({ start, end })));
     if (!occurrences.some((occurrence) => occurrence.exact)) exact = false;

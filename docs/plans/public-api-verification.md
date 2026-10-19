@@ -1,6 +1,29 @@
 # Public API verification
 
-Status: complete. Independent HTTP contract audit requested on 2026-10-18 (America/Los_Angeles). Result: public API audit fails; findings and reproducible evidence are retained in `docs/reports/public-api/`.
+Status: remediation in progress. The independent audit identified seven findings. The user now requests fixing all findings, pushing/deploying, and testing the fixes in production.
+
+## Remediation milestone
+
+- The user's current request explicitly authorizes push/deployment and post-deployment production HTTP verification, superseding the repository's default local confirmation/post-deployment-check restrictions for this work. Browser verification remains prohibited.
+- Preserve the original audit evidence. Add separate final local and production reports, including repeated searches that previously exceeded Cloudflare resource limits.
+- Findings 2/3 already have shared database fixes deployed in `630d3de`; verify full-text/checksum integrity and numeric order across every author, including Arnold, rather than reintroducing separate author behavior.
+- Review consistency must not fabricate verification. Investigate imported review provenance and publish a new release if existing immutable exports contain unsupported approval labels; preserve authentic Arnold review evidence.
+- [x] Fix search CPU cost/resource failures without increasing paid infrastructure limits (implementation/local validation complete; production confirmation pending).
+- [x] Confirm and strengthen complete-text/checksum and numeric-order regressions for all authors.
+- [x] Reconcile database/API/download review state with preserved evidence and append-only migrations/releases (remote migration pending below).
+- [x] Fix cache negotiation (`Vary: Accept`), Accept quality weights, and work-scoped metadata; clarify the documented envelope.
+- [x] Pass regression tests, types, lint, build, corpus checks, and the full local HTTP audit.
+- [ ] Push and deploy all fixes, applying any required metadata-only migration.
+- [ ] Run the complete production HTTP audit plus serial repeated searches, resolve failures, and record the release/results.
+
+### Implementation and local verification
+
+- Root search uses a generated, content-bound normalized index. Unicode offsets use sparse corrections for length-changing characters and commentary evidence normalizes each text once per query. Local sampled root execution dropped from about 40–83 ms to about 1–7 ms, without changing the tested results/highlights. Tests reject stale prepared data and cover Unicode expansions, deletions, and decomposed marks.
+- Retained the shared D1 full-record reads and numeric canonical ordering for all 23 authors. Both JSON and Markdown ordering/content contracts pass, including Arnold's 700 reviewed records and omissions.
+- Imported commentary has no matching per-record model-review artifacts in this repository; the older blanket verification strings and heuristic UI confidence were unsupported. New immutable release `gita-commentaries-0.2.1` uses `machine-validated; human review pending`, preserves every text/alignment/content checksum, and retains old release bytes. Metadata-only migration `0045_commentary_review_metadata_v021.sql` is source/commit/version scoped and repeatable; it preserves Arnold and other sources. The UI no longer turns token overlap into a claimed review/confidence.
+- Response helpers merge `Vary: Accept` and caller headers across all `HeadersInit` forms; negotiation handles quality weights, exclusions, wildcards, and explicit format overrides. V2 search includes work/root/commentary release metadata even for empty results and source-specific metadata on hits. Registry/error documentation now describes applicable identifiers instead of promising a passage reference everywhere.
+- All 41 regression tests, TypeScript, ESLint, production build, commentary validation, and corpus/TEI validation pass. Historical 0.2.0 download bytes and already-applied migrations are unchanged.
+- `docs/reports/public-api/local-remediation.json`: 4,016 requests, 54,044 passed assertions, zero failures, including 72 serial repeated searches without hidden retries. An initial HTTP attempt found the existing dev server stopped; it was restarted before this complete successful run. The audit now fails early if the API origin is unavailable.
 
 ## Scope and decisions
 

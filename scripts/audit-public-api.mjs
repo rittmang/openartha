@@ -23,9 +23,10 @@ const root = new URL('../', import.meta.url);
 const load = async (path) => JSON.parse(await readFile(new URL(path, root), 'utf8'));
 const jsonl = async (path) => (await readFile(new URL(path, root), 'utf8')).trim().split('\n').map((line) => JSON.parse(line));
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex');
+const commentaryRelease = await load('corpus/gita-commentaries/source.json');
 const [passages, imported, arnold, authors, manifest] = await Promise.all([
   jsonl('public/data/gita-1.0.0-rc.1/gita.jsonl'),
-  Promise.all(['en', 'hi', 'sa'].map((lang) => jsonl(`public/data/gita-commentaries-0.2.0/commentaries-${lang}.jsonl`))).then((lists) => lists.flat()),
+  Promise.all(['en', 'hi', 'sa'].map((lang) => jsonl(`public/data/${commentaryRelease.corpusVersion}/commentaries-${lang}.jsonl`))).then((lists) => lists.flat().map((record) => ({ ...record, corpusVersion: commentaryRelease.corpusVersion }))),
   jsonl('public/data/gita-edwin-arnold-1.0.0/verses.jsonl'),
   load('corpus/gita-commentaries/authors.json'),
   load('public/data/gita-1.0.0-rc.1/manifest.json'),
@@ -92,7 +93,7 @@ function compareRoot(actual, expected) {
 
 function compareReading(actual, expected) {
   assert.ok(actual, `missing ${expected.id}`);
-  for (const key of ['id', 'canonicalRef', 'authorId', 'author', 'editionId', 'language', 'script', 'contentType', 'content', 'sourceLocator', 'checksum']) {
+  for (const key of ['id', 'canonicalRef', 'authorId', 'author', 'editionId', 'language', 'script', 'contentType', 'content', 'sourceLocator', 'checksum', 'alignmentStatus', 'corpusVersion']) {
     assert.deepEqual(actual[key], expected[key], `${key} differs for ${expected.id}`);
   }
   assert.equal(actual.checksum, sha256(actual.content), `content checksum at ${actual.id}`);
@@ -111,6 +112,8 @@ const routeSamples = [
   '/api/v2/commentaries/authors', '/api/v2/commentaries/authors/edwin-arnold/chapters/1',
 ];
 console.log(`Auditing ${origin.origin}: ${routeSamples.length} route families; concurrency ${concurrency}`);
+const ready = await request('/api/v1/works');
+assert.ok(Array.isArray(ready.body?.data), `API preflight failed at ${origin.origin}; start the server or resolve the transport error before running the full audit.`);
 
 await pool(routeSamples, async (path) => {
   const responses = [];
@@ -125,7 +128,7 @@ await pool(routeSamples, async (path) => {
     check('public-headers', result.label, () => {
       assert.equal(result.response?.headers.get('access-control-allow-origin'), '*');
       assert.equal(result.response?.headers.get('x-corpus-version'), manifest.corpusVersion);
-      assert.equal(result.response?.headers.get('x-commentary-corpus-version'), 'gita-commentaries-0.2.0');
+      assert.equal(result.response?.headers.get('x-commentary-corpus-version'), commentaryRelease.corpusVersion);
       assert.match(result.response?.headers.get('cache-control') ?? '', /public/);
     });
     if (mode !== 'query-markdown') check('http-vary-accept', result.label, () => assert.ok((result.response?.headers.get('vary') ?? '').toLowerCase().split(/,\s*/).includes('accept'), 'cacheable negotiated response omits Vary: Accept'));
@@ -221,6 +224,8 @@ await pool(authorIds.flatMap((author) => Array.from({ length: 18 }, (_, i) => ({
     const markdown = await request(path, { mode });
     check('author-chapter-markdown', markdown.label, () => {
       for (const record of expected) assert.ok(markdown.text.includes(record.content || 'This verse is omitted in this translation.'), `missing ${record.id}`);
+      const verses = [...markdown.text.matchAll(/^## \d+\.(\d+)$/gm)].map((match) => Number(match[1]));
+      assert.deepEqual(verses, verses.toSorted((a, b) => a - b));
     });
   }
 });
@@ -294,7 +299,15 @@ for (const prefix of searchRoutes) {
       if (q === 'zzzznohitopenartha123456789') assert.equal(data.length, 0);
       if (q === 'yoga' && prefix.includes('/v1/')) { assert.equal(result.body.meta.total, 58); assert.equal(result.body.meta.exactCount, 5); assert.equal(result.body.meta.compoundCount, 53); }
     });
-    if (prefix.includes('/v2/works/')) check('work-scoped-search-metadata', result.label, () => assert.equal(result.body?.meta.workId, 'gita', 'text-scoped response lacks workId'));
+    if (prefix.includes('/v2/works/')) check('work-scoped-search-metadata', result.label, () => {
+      assert.equal(result.body?.meta.workId, 'gita', 'text-scoped response lacks workId');
+      assert.equal(result.body.meta.corpusVersion, manifest.corpusVersion);
+      assert.equal(result.body.meta.commentaryCorpusVersion, commentaryRelease.corpusVersion);
+      for (const hit of result.body.data) {
+        assert.equal(hit.workId, 'gita');
+        assert.equal(hit.corpusVersion, hit.passage?.corpusVersion ?? hit.commentary.corpusVersion);
+      }
+    });
   }
   check('search-diacritics', prefix, () => assert.deepEqual(queries.get('sankhya').data, queries.get('sāṅkhya').data));
 }
@@ -315,7 +328,7 @@ for (const accept of ['application/json, text/markdown;q=0', 'application/json;q
 }
 
 console.log('Verifying the actual published download bytes against pinned release manifests');
-for (const version of ['gita-1.0.0-rc.1', 'gita-commentaries-0.2.0', 'gita-edwin-arnold-1.0.0']) {
+for (const version of ['gita-1.0.0-rc.1', commentaryRelease.corpusVersion, 'gita-edwin-arnold-1.0.0']) {
   const expected = await load(`public/data/${version}/manifest.json`);
   const published = await request(`/data/${version}/manifest.json`);
   check('download-manifests', version, () => assert.deepEqual(published.body, expected));
@@ -325,11 +338,25 @@ for (const version of ['gita-1.0.0-rc.1', 'gita-commentaries-0.2.0', 'gita-edwin
   });
 }
 
+console.log('Repeating production-failure search cases serially without retries');
+const repeatedSearches = [];
+for (let round = 1; round <= 3; round++) for (const prefix of searchRoutes) for (const q of ['yoga', 'sankhya', 'धर्म', 'कर्तव्य', 'sacred plain', '" OR * --']) {
+  const start = performance.now();
+  const result = await request(`${prefix}?${new URLSearchParams({ q, limit: '100' })}`, { group: 'repeated-search-status' });
+  repeatedSearches.push({ round, path: result.path, status: result.response?.status, milliseconds: Math.round(performance.now() - start) });
+  check('repeated-search-contract', result.label, () => {
+    assert.ok(Array.isArray(result.body?.data), 'complete JSON search body is required');
+    assert.equal(result.body.meta.query, q);
+    assert.equal(result.body.meta.returned, result.body.data.length);
+    assert.ok(result.response.headers.get('vary').toLowerCase().includes('accept'));
+  });
+}
+
 const totals = Object.values(groups).reduce((sum, group) => ({ passed: sum.passed + group.passed, failed: sum.failed + group.failed }), { passed: 0, failed: 0 });
 const report = {
   startedAt, finishedAt: new Date().toISOString(), origin: origin.origin,
   scope: { routeFamilies: routeSamples.length, passageReferences: passages.length, passageRouteVariants: passageRoutes.length, authors: authorIds.length, authorChapters: authorIds.length * 18, distinctReadingRecords: records.length, fixtureBasis: 'Pinned public JSONL exports and manifests; no application imports', concurrency },
-  requests, responseBytes, ...totals, groups,
+  requests, responseBytes, ...totals, groups, repeatedSearches,
 };
 if (values.output) {
   const path = resolve(values.output);

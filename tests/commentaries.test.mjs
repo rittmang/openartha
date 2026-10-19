@@ -19,6 +19,25 @@ test('aligns all 29 public fields without changing the 700-verse canon', () => {
   assert.equal(alignment.paratextUnits, 515);
 });
 
+test('the corrected release changes review labels while retaining every historic reading and checksum', async () => {
+  const source = JSON.parse(await readFile(new URL('corpus/gita-commentaries/source.json', root), 'utf8'));
+  assert.equal(source.corpusVersion, 'gita-commentaries-0.2.1');
+  assert.equal(alignment.status, 'machine-validated; human review pending');
+  for (const lang of ['en', 'hi', 'sa']) {
+    const parse = (text) => text.trim().split('\n').map((line) => JSON.parse(line));
+    const before = parse(await readFile(new URL(`public/data/gita-commentaries-0.2.0/commentaries-${lang}.jsonl`, root), 'utf8'));
+    const after = parse(await readFile(new URL(`public/data/${source.corpusVersion}/commentaries-${lang}.jsonl`, root), 'utf8'));
+    assert.equal(after.length, before.length);
+    for (let index = 0; index < before.length; index++) {
+      const { alignmentStatus: originalStatus, ...oldReading } = before[index];
+      const { alignmentStatus, ...newReading } = after[index];
+      assert.ok(originalStatus);
+      assert.equal(alignmentStatus, 'machine-validated; human review pending');
+      assert.deepEqual(newReading, oldReading);
+    }
+  }
+});
+
 test('verse pages render every supplied witness sequentially without comparison controls', async () => {
   const page = await readFile(new URL('app/gita/[chapter]/[verse]/page.tsx', root), 'utf8');
   const witnesses = await readFile(new URL('components/commentary-witnesses.tsx', root), 'utf8');

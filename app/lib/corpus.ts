@@ -1,5 +1,6 @@
 import corpusJson from '@/corpus/gita/gita.json';
-import { searchPassages } from '@/app/lib/search';
+import searchIndex from '@/corpus/gita/search-index.json';
+import { searchPassages, type PassageSearchIndex } from '@/app/lib/search';
 export type { CorpusSearchResults, PassageSearchResult, SearchHit, SearchMatchKind } from '@/app/lib/search';
 
 export type Source = {
@@ -115,7 +116,7 @@ export function getAdjacentPassages(passage: Passage) {
 }
 
 export function searchCorpusDetailed(query: string) {
-  return searchPassages(corpus.verses, query);
+  return searchPassages(corpus.verses, query, searchIndex.passages as PassageSearchIndex);
 }
 
 export function searchCorpus(query: string, limit = 30) {

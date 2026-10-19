@@ -1,5 +1,5 @@
 {
-  "corpusVersion": "gita-commentaries-0.2.0",
+  "corpusVersion": "gita-commentaries-0.2.1",
   "sourceCommit": "43dfc8db815d01e15a347ea294b089334cf2aa17",
   "status": "source fields inventoried; public-text policy applied separately",
   "sourceUnits": 719,

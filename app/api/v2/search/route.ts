@@ -1,5 +1,5 @@
-import { publicPassage, searchCorpusDetailed } from '@/app/lib/corpus';
-import { searchCommentaries } from '@/app/lib/commentaries';
+import { corpus, publicPassage, searchCorpusDetailed } from '@/app/lib/corpus';
+import { commentarySource, searchCommentaries } from '@/app/lib/commentaries';
 import { jsonResponse, markdownResponse, wantsMarkdown } from '@/app/lib/http';
 
 export async function GET(request: Request) {
@@ -15,8 +15,8 @@ export async function GET(request: Request) {
   const root = searchCorpusDetailed(query).results;
   const commentary = await searchCommentaries(query, limit);
   const combined = [
-    ...root.map((result) => ({ corpus: 'root' as const, kind: result.kind, canonicalRef: result.passage.canonicalRef, passage: publicPassage(result.passage), match: { hits: result.hits } })),
-    ...commentary.map((result) => ({ corpus: 'commentary' as const, kind: result.kind, canonicalRef: result.canonicalRef, commentary: result })),
+    ...root.map((result) => ({ corpus: 'root' as const, workId: 'gita', corpusVersion: result.passage.corpusVersion, kind: result.kind, canonicalRef: result.passage.canonicalRef, passage: publicPassage(result.passage), match: { hits: result.hits } })),
+    ...commentary.map((result) => ({ corpus: 'commentary' as const, workId: 'gita', corpusVersion: result.corpusVersion, kind: result.kind, canonicalRef: result.canonicalRef, commentary: result })),
   ].sort((left, right) => (left.kind === right.kind ? 0 : left.kind === 'exact' ? -1 : 1)).slice(0, limit);
 
   if (wantsMarkdown(request)) return markdownResponse([
@@ -25,5 +25,5 @@ export async function GET(request: Request) {
       ? `- [${result.passage.chapter}.${result.passage.verse}](/gita/${result.passage.chapter}/${result.passage.verse}) — root corpus · ${result.kind}`
       : `- [${result.commentary.chapter}.${result.commentary.verse}](/gita/${result.commentary.chapter}/${result.commentary.verse}#commentaries) — ${result.commentary.author} · ${result.commentary.contentType} · ${result.kind}`), '',
   ].join('\n'));
-  return jsonResponse({ data: combined, meta: { query, returned: combined.length, limit, engine: 'unified-d1-fts5-v2' } });
+  return jsonResponse({ data: combined, meta: { workId: 'gita', corpusVersion: corpus.corpusVersion, commentaryCorpusVersion: commentarySource.corpusVersion, query, returned: combined.length, limit, engine: 'unified-d1-fts5-v2' } });
 }

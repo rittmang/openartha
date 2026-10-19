@@ -2,6 +2,14 @@
 
 Audit date: 2026-10-18 America/Los_Angeles; HTTP evidence timestamps are UTC on 2026-10-19. Application commit: `06f0fb6`. Result: **FAIL — the public APIs do not all satisfy their documented behavior and data contracts.**
 
+## Complete remediation
+
+The user subsequently authorized fixing every finding, push/deployment, and production HTTP verification. All seven findings now have implementation coverage: precomputed/sparse Unicode search normalization; shared complete-record retrieval and numeric canonical ordering; source-scoped review metadata correction with a new immutable `gita-commentaries-0.2.1` release; `Vary: Accept`; weighted content negotiation; and complete work/release metadata in V2 search.
+
+The imported commentary release now truthfully states `machine-validated; human review pending`, replacing unsupported blanket model-review claims in the current release and UI. Old releases remain byte-for-byte intact. Arnold's independent review artifacts and approvals remain intact. Metadata-only migration `0045_commentary_review_metadata_v021.sql` changes only the pinned imported source.
+
+All 41 tests, types, lint, build, commentary checks, and corpus/TEI validation pass. The [final local audit](./local-remediation.json) passes **4,016 requests / 54,044 assertions / zero failures**, including 72 serial repeated searches. Publication and production verification are in progress; their completion is tracked in the [maintained remediation plan](../../plans/public-api-verification.md#remediation-milestone). Earlier findings/results below are preserved as historical evidence.
+
 ## Local shared-author follow-up
 
 Following the audit, the user requested that Arnold use the same runtime data path as the other authors. The local implementation now reads every author's passage, chapter, and search content through the shared D1 repository. Arnold-specific text fallback/replacement and in-memory search have been removed. Its independent source files, rights, and authentic alignment/review metadata remain preserved; supplemental metadata is applied only when the stored record identity, version, checksum, source, and review status match.

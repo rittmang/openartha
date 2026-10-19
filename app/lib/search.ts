@@ -50,61 +50,73 @@ const fields: Array<{ field: SearchField; label: string; priority: number }> = [
   { field: 'speaker', label: 'Speaker', priority: 4 },
 ];
 
-function normalizeCharacter(character: string) {
-  return character
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase();
-}
+type NormalizedView = {
+  normalized: string;
+  changes: Array<{ start: number; end: number; originalStart: number; originalEnd: number }>;
+};
+
+export type PassageSearchIndex = Record<string, Record<SearchField, NormalizedView>>;
+const lengthChangingCharacters = new RegExp(normalization.pattern, 'gu');
 
 export function normalizeSearchText(value: string) {
-  return Array.from(value, normalizeCharacter).join('');
+  // Normalize natively; preserve the previous per-character handling of capital sigma.
+  return value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/Σ/g, 'σ').toLowerCase();
 }
 
-function normalizedView(value: string) {
-  let normalized = '';
-  let originalOffset = 0;
-  const offsets: SearchRange[] = [];
-
-  for (const character of value) {
-    const normalizedCharacter = normalizeCharacter(character);
-    normalized += normalizedCharacter;
-    for (let index = 0; index < normalizedCharacter.length; index += 1) {
-      offsets.push({ start: originalOffset, end: originalOffset + character.length });
-    }
-    originalOffset += character.length;
+function normalizedView(value: string): NormalizedView {
+  let delta = 0;
+  const changes: NormalizedView['changes'] = [];
+  for (const match of value.matchAll(lengthChangingCharacters)) {
+    const length = normalizeSearchText(match[0]).length;
+    changes.push({ start: match.index + delta, end: match.index + delta + length, originalStart: match.index, originalEnd: match.index + match[0].length });
+    delta += length - match[0].length;
   }
+  return { normalized: normalizeSearchText(value), changes };
+}
 
-  return { normalized, offsets };
+function originalRange(view: NormalizedView, index: number) {
+  let low = 0;
+  let high = view.changes.length;
+  while (low < high) {
+    const middle = (low + high) >>> 1;
+    if (view.changes[middle].start <= index) low = middle + 1;
+    else high = middle;
+  }
+  const change = view.changes[low - 1];
+  if (!change) return { start: index, end: index + 1 };
+  if (index < change.end) return { start: change.originalStart, end: change.originalEnd };
+  const offset = change.originalEnd - change.end;
+  return { start: index + offset, end: index + offset + 1 };
 }
 
 function isTokenCharacter(character: string | undefined) {
   return Boolean(character && /[\p{L}\p{M}\p{N}]/u.test(character));
 }
 
-export function findSearchTerm(value: string, rawTerm: string) {
-  const term = normalizeSearchText(rawTerm);
-  const view = normalizedView(value);
+function findInView(view: NormalizedView, term: string) {
   const occurrences: Array<SearchRange & { exact: boolean }> = [];
+  if (!term) return occurrences;
   let fromIndex = 0;
-
   while (fromIndex <= view.normalized.length - term.length) {
-    const normalizedIndex = view.normalized.indexOf(term, fromIndex);
-    if (normalizedIndex < 0) break;
-
-    const firstOffset = view.offsets[normalizedIndex];
-    const lastOffset = view.offsets[normalizedIndex + term.length - 1];
-    const before = view.normalized[normalizedIndex - 1];
-    const after = view.normalized[normalizedIndex + term.length];
+    const index = view.normalized.indexOf(term, fromIndex);
+    if (index < 0) break;
     occurrences.push({
-      start: firstOffset.start,
-      end: lastOffset.end,
-      exact: !isTokenCharacter(before) && !isTokenCharacter(after),
+      start: originalRange(view, index).start,
+      end: originalRange(view, index + term.length - 1).end,
+      exact: !isTokenCharacter(view.normalized[index - 1]) && !isTokenCharacter(view.normalized[index + term.length]),
     });
-    fromIndex = normalizedIndex + Math.max(term.length, 1);
+    fromIndex = index + term.length;
   }
-
   return occurrences;
+}
+
+export function findSearchTerms(value: string, terms: string[]) {
+  const view = normalizedView(value);
+  return terms.map((term) => findInView(view, normalizeSearchText(term)));
+}
+
+export function findSearchTerm(value: string, rawTerm: string) {
+  return findSearchTerms(value, [rawTerm])[0];
 }
 
 function mergeRanges(ranges: SearchRange[]) {
@@ -128,7 +140,11 @@ function getFieldValue(passage: SearchablePassage, field: SearchField) {
   }
 }
 
-export function searchPassages<T extends SearchablePassage>(passages: T[], rawQuery: string): CorpusSearchResults<T> {
+export function buildPassageSearchIndex<T extends SearchablePassage>(passages: T[]): PassageSearchIndex {
+  return Object.fromEntries(passages.map((passage) => [passage.canonicalRef, Object.fromEntries(fields.map(({ field }) => [field, normalizedView(getFieldValue(passage, field))]))])) as PassageSearchIndex;
+}
+
+export function searchPassages<T extends SearchablePassage>(passages: T[], rawQuery: string, index?: PassageSearchIndex): CorpusSearchResults<T> {
   const query = rawQuery.trim();
   const terms = normalizeSearchText(query).split(/\s+/).filter(Boolean);
   if (!terms.length) return { query, terms, total: 0, exactCount: 0, compoundCount: 0, results: [] };
@@ -142,8 +158,9 @@ export function searchPassages<T extends SearchablePassage>(passages: T[], rawQu
       const ranges: SearchRange[] = [];
       let everyFieldTermIsExact = true;
 
+      const view = index?.[passage.canonicalRef]?.[field] ?? normalizedView(text);
       for (const term of terms) {
-        const occurrences = findSearchTerm(text, term);
+        const occurrences = findInView(view, term);
         if (!occurrences.length) continue;
         foundTerms.add(term);
         matchedTerms.push(term);
@@ -199,3 +216,4 @@ export function searchPassages<T extends SearchablePassage>(passages: T[], rawQu
     results,
   };
 }
+import normalization from './search-normalization.json' with { type: 'json' };

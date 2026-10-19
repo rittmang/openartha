@@ -1,0 +1,20 @@
+{
+  "corpusVersion": "gita-commentaries-0.2.1",
+  "sourceCommit": "43dfc8db815d01e15a347ea294b089334cf2aa17",
+  "sourceFiles": 719,
+  "sourceFilesDigest": "5e6beaafde250e47dafa3548c7cee916d4e6739f17566e96a6c8722d4afc871d",
+  "publicEditions": 29,
+  "alignedCommentaryUnits": 20300,
+  "paratextUnits": 515,
+  "canonicalPassages": 700,
+  "chapterColophons": 486,
+  "chapter13AlternateOpenings": 29,
+  "status": "machine-validated; human review pending",
+  "exceptions": [
+    {
+      "authorId": "prabhupada",
+      "status": "explicitly-aligned",
+      "note": "Chapter 1 source unit 1.36 spans canonical 1.36–1.37 and later source units shift forward one; Chapter 13 source 13.1 is preserved as a recensional prelude and 13.2–13.35 align to canonical 13.1–13.34."
+    }
+  ]
+}

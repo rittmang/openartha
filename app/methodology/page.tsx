@@ -34,7 +34,7 @@ export default function MethodologyPage() {
       </section>
       <section className="method-note">
         <div><span className="eyebrow">Commentary limitation</span><h2>Alignment is visible, not assumed.</h2></div>
-        <div><p>Public translation and commentary records are deterministically mapped from a pinned 719-unit source snapshot to the 700-verse research edition. Each record carries its original file locator, raw and display checksums, and an explicit machine-aligned review status.</p><p>Prabhupada’s supplied Chapter 1 and 13 numbering differs from the default source layout. That exception is mapped explicitly and documented instead of being silently forced onto the same coordinates.</p><a className="text-link" href="/data/gita-commentaries-0.2.0/alignment-report.json">Open the alignment report →</a></div>
+        <div><p>Public translation and commentary records are deterministically mapped from a pinned 719-unit source snapshot to the 700-verse research edition. Each record carries its original file locator, raw and display checksums, and an explicit machine-aligned review status.</p><p>Prabhupada’s supplied Chapter 1 and 13 numbering differs from the default source layout. That exception is mapped explicitly and documented instead of being silently forced onto the same coordinates.</p><a className="text-link" href="/data/gita-commentaries-0.2.1/alignment-report.json">Open the alignment report →</a></div>
       </section>
       <section className="correction-policy">
         <h2>What a useful correction includes</h2>

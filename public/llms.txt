@@ -5,7 +5,7 @@ OpenArtha is an open, source-aware library for finding meaning in primary texts 
 Current corpus: gita-1.0.0-rc.1
 Status: research preview; two independent human reviews are pending for every passage.
 Contents: 18 chapters, 700 canonical passages, Devanagari Sanskrit, IAST, a provisional verse-aligned K. T. Telang English translation, variants, provenance, and SHA-256 checksums.
-Commentary corpus: gita-commentaries-0.2.0 research preview, with all 29 supplied Sanskrit, English, and Hindi translation/commentary fields from 22 authors published under the pinned source snapshot's GPL-3.0 terms.
+Commentary corpus: gita-commentaries-0.2.1 research preview, with all 29 supplied Sanskrit, English, and Hindi translation/commentary fields from 22 authors published under the pinned source snapshot's GPL-3.0 terms.
 
 Human-readable entry points:
 - /gita — chapter index and corpus search
@@ -31,6 +31,9 @@ Read-only APIs:
 - /api/v2/works/gita/search?q={query} — text-scoped unified Gita search
 
 API responses are JSON by default. Request Accept: text/markdown or add ?format=markdown for Markdown.
+Accept quality weights and exclusions are honored; ?format=json or ?format=markdown explicitly selects a representation. Cacheable negotiated responses include Vary: Accept.
+Passage objects include workId, canonicalRef, and corpusVersion. V2 search meta includes workId, corpusVersion, and commentaryCorpusVersion even for empty results; each hit includes its workId, canonicalRef, and source-specific corpusVersion. Registry and error responses do not carry a fabricated passage reference.
+Imported commentary alignment is machine-validated; independent human review remains pending. A verification claim requires source-specific review evidence, such as the separately retained Arnold model-review records.
 Do not describe this release candidate as a fully human-verified edition.
 Search is intentionally scoped to one work; do not infer cross-work search from a Gita result.
 Do not describe machine-aligned commentary records as independently human-verified.
