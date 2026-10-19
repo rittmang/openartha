@@ -1,0 +1,287 @@
+{
+  "checkedAt": "2026-10-19T06:11:17.743Z",
+  "findings": [
+    {
+      "origin": "http://localhost:3100",
+      "issue": "author-chapter-order",
+      "path": "/api/v2/commentaries/authors/swami-sivananda/chapters/1",
+      "firstTwentyVerses": [
+        1,
+        1,
+        10,
+        10,
+        11,
+        11,
+        12,
+        12,
+        13,
+        13,
+        14,
+        14,
+        15,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        18
+      ]
+    },
+    {
+      "origin": "http://localhost:3100",
+      "issue": "partial-search-content-checksum",
+      "path": "/api/v2/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "returned": 100,
+      "mismatchedHindiRecords": 1,
+      "examples": [
+        {
+          "id": "swami-ramsukhdas-hc:source:3.35",
+          "canonicalRef": "gita.3.35",
+          "returnedCharacters": 9226,
+          "expectedCharacters": 17074,
+          "declaredChecksum": "78be2ce52d6e81013ad4f25e949e51d2a4487d4d72899464470810b1169bcf4f",
+          "actualContentSha256": "1d676a0c34bbffe66cb0e2c16de5151c146a2e98677f4038d8022148248d6775",
+          "exportChecksum": "78be2ce52d6e81013ad4f25e949e51d2a4487d4d72899464470810b1169bcf4f",
+          "startsAtFullTextOffset": 0
+        }
+      ]
+    },
+    {
+      "origin": "http://localhost:3100",
+      "issue": "partial-search-content-checksum",
+      "path": "/api/v2/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "returned": 100,
+      "mismatchedHindiRecords": 5,
+      "examples": [
+        {
+          "id": "swami-ramsukhdas-hc:source:3.10",
+          "canonicalRef": "gita.3.10",
+          "returnedCharacters": 9148,
+          "expectedCharacters": 10827,
+          "declaredChecksum": "e8bb8963f4454e6328db1c2845c59567ec739130566ad387bb3371f50a523eed",
+          "actualContentSha256": "52c0354cc7ca8a0d0fd01e88f7af6f47333b9ab97ed9f05c9f4eb5b744d7a9a2",
+          "exportChecksum": "e8bb8963f4454e6328db1c2845c59567ec739130566ad387bb3371f50a523eed",
+          "startsAtFullTextOffset": 0
+        },
+        {
+          "id": "swami-ramsukhdas-hc:source:3.11",
+          "canonicalRef": "gita.3.11",
+          "returnedCharacters": 9142,
+          "expectedCharacters": 10810,
+          "declaredChecksum": "0f006afbbd1a53f7f6954b173bd7c430ac06c83dcf2df89fb48760a611fc9f2d",
+          "actualContentSha256": "2a1d6d3278b80f1530d57a843eaa3aa69c4f88bd09e5f61dde96fc64c41aee08",
+          "exportChecksum": "0f006afbbd1a53f7f6954b173bd7c430ac06c83dcf2df89fb48760a611fc9f2d",
+          "startsAtFullTextOffset": 0
+        },
+        {
+          "id": "swami-ramsukhdas-hc:source:3.30",
+          "canonicalRef": "gita.3.30",
+          "returnedCharacters": 4054,
+          "expectedCharacters": 13250,
+          "declaredChecksum": "2a33df282132bf8a1965a4703bc3a5f359f7400ef47f3c542bfa1f7a347ff032",
+          "actualContentSha256": "3f322c2577e2001338ab4ada95c05f8f685a30644b624b750f330d3dfc165dc9",
+          "exportChecksum": "2a33df282132bf8a1965a4703bc3a5f359f7400ef47f3c542bfa1f7a347ff032",
+          "startsAtFullTextOffset": 9196
+        },
+        {
+          "id": "swami-ramsukhdas-hc:source:3.35",
+          "canonicalRef": "gita.3.35",
+          "returnedCharacters": 9226,
+          "expectedCharacters": 17074,
+          "declaredChecksum": "78be2ce52d6e81013ad4f25e949e51d2a4487d4d72899464470810b1169bcf4f",
+          "actualContentSha256": "1d676a0c34bbffe66cb0e2c16de5151c146a2e98677f4038d8022148248d6775",
+          "exportChecksum": "78be2ce52d6e81013ad4f25e949e51d2a4487d4d72899464470810b1169bcf4f",
+          "startsAtFullTextOffset": 0
+        }
+      ]
+    },
+    {
+      "origin": "http://localhost:3100",
+      "issue": "review-status-export-parity",
+      "id": "swami-sivananda-ec:source:1.1",
+      "apiStatus": "first review verified (google/gemini-3.8-flash); second review pending",
+      "exportStatus": "first review verified (google/gemini-3.8-flash); second review pending"
+    },
+    {
+      "origin": "http://localhost:3100",
+      "issue": "content-negotiation-and-cache",
+      "path": "/api/v1/works",
+      "accept": "application/json",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json",
+        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+        "cache-control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400"
+      },
+      "firstCharacters": "{\"data\":[{\"id\":\"gita\",\"title\":\"Bhagavad Gita\",\"originalTitle"
+    },
+    {
+      "origin": "http://localhost:3100",
+      "issue": "content-negotiation-and-cache",
+      "path": "/api/v1/works",
+      "accept": "text/markdown",
+      "status": 200,
+      "headers": {
+        "content-type": "text/markdown; charset=utf-8",
+        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+        "cache-control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400"
+      },
+      "firstCharacters": "# Works\n\n## Bhagavad Gita\n\n- ID: `gita`\n- Original title: भग"
+    },
+    {
+      "origin": "http://localhost:3100",
+      "issue": "content-negotiation-and-cache",
+      "path": "/api/v1/works",
+      "accept": "application/json, text/markdown;q=0",
+      "status": 200,
+      "headers": {
+        "content-type": "text/markdown; charset=utf-8",
+        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+        "cache-control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400"
+      },
+      "firstCharacters": "# Works\n\n## Bhagavad Gita\n\n- ID: `gita`\n- Original title: भग"
+    },
+    {
+      "origin": "https://openartha.rittmang.xyz",
+      "issue": "author-chapter-order",
+      "path": "/api/v2/commentaries/authors/swami-sivananda/chapters/1",
+      "firstTwentyVerses": [
+        1,
+        1,
+        10,
+        10,
+        11,
+        11,
+        12,
+        12,
+        13,
+        13,
+        14,
+        14,
+        15,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        18
+      ]
+    },
+    {
+      "origin": "https://openartha.rittmang.xyz",
+      "issue": "partial-search-content-checksum",
+      "path": "/api/v2/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100",
+      "returned": 100,
+      "mismatchedHindiRecords": 1,
+      "examples": [
+        {
+          "id": "swami-ramsukhdas-hc:source:3.35",
+          "canonicalRef": "gita.3.35",
+          "returnedCharacters": 9226,
+          "expectedCharacters": 17074,
+          "declaredChecksum": "78be2ce52d6e81013ad4f25e949e51d2a4487d4d72899464470810b1169bcf4f",
+          "actualContentSha256": "1d676a0c34bbffe66cb0e2c16de5151c146a2e98677f4038d8022148248d6775",
+          "exportChecksum": "78be2ce52d6e81013ad4f25e949e51d2a4487d4d72899464470810b1169bcf4f",
+          "startsAtFullTextOffset": 0
+        }
+      ]
+    },
+    {
+      "origin": "https://openartha.rittmang.xyz",
+      "issue": "partial-search-content-checksum",
+      "path": "/api/v2/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100",
+      "returned": 100,
+      "mismatchedHindiRecords": 5,
+      "examples": [
+        {
+          "id": "swami-ramsukhdas-hc:source:3.10",
+          "canonicalRef": "gita.3.10",
+          "returnedCharacters": 9148,
+          "expectedCharacters": 10827,
+          "declaredChecksum": "e8bb8963f4454e6328db1c2845c59567ec739130566ad387bb3371f50a523eed",
+          "actualContentSha256": "52c0354cc7ca8a0d0fd01e88f7af6f47333b9ab97ed9f05c9f4eb5b744d7a9a2",
+          "exportChecksum": "e8bb8963f4454e6328db1c2845c59567ec739130566ad387bb3371f50a523eed",
+          "startsAtFullTextOffset": 0
+        },
+        {
+          "id": "swami-ramsukhdas-hc:source:3.11",
+          "canonicalRef": "gita.3.11",
+          "returnedCharacters": 9142,
+          "expectedCharacters": 10810,
+          "declaredChecksum": "0f006afbbd1a53f7f6954b173bd7c430ac06c83dcf2df89fb48760a611fc9f2d",
+          "actualContentSha256": "2a1d6d3278b80f1530d57a843eaa3aa69c4f88bd09e5f61dde96fc64c41aee08",
+          "exportChecksum": "0f006afbbd1a53f7f6954b173bd7c430ac06c83dcf2df89fb48760a611fc9f2d",
+          "startsAtFullTextOffset": 0
+        },
+        {
+          "id": "swami-ramsukhdas-hc:source:3.30",
+          "canonicalRef": "gita.3.30",
+          "returnedCharacters": 4054,
+          "expectedCharacters": 13250,
+          "declaredChecksum": "2a33df282132bf8a1965a4703bc3a5f359f7400ef47f3c542bfa1f7a347ff032",
+          "actualContentSha256": "3f322c2577e2001338ab4ada95c05f8f685a30644b624b750f330d3dfc165dc9",
+          "exportChecksum": "2a33df282132bf8a1965a4703bc3a5f359f7400ef47f3c542bfa1f7a347ff032",
+          "startsAtFullTextOffset": 9196
+        },
+        {
+          "id": "swami-ramsukhdas-hc:source:3.35",
+          "canonicalRef": "gita.3.35",
+          "returnedCharacters": 9226,
+          "expectedCharacters": 17074,
+          "declaredChecksum": "78be2ce52d6e81013ad4f25e949e51d2a4487d4d72899464470810b1169bcf4f",
+          "actualContentSha256": "1d676a0c34bbffe66cb0e2c16de5151c146a2e98677f4038d8022148248d6775",
+          "exportChecksum": "78be2ce52d6e81013ad4f25e949e51d2a4487d4d72899464470810b1169bcf4f",
+          "startsAtFullTextOffset": 0
+        }
+      ]
+    },
+    {
+      "origin": "https://openartha.rittmang.xyz",
+      "issue": "review-status-export-parity",
+      "id": "swami-sivananda-ec:source:1.1",
+      "apiStatus": "machine-validated; human review pending",
+      "exportStatus": "first review verified (google/gemini-3.8-flash); second review pending"
+    },
+    {
+      "origin": "https://openartha.rittmang.xyz",
+      "issue": "content-negotiation-and-cache",
+      "path": "/api/v1/works",
+      "accept": "application/json",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json",
+        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+        "cache-control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400"
+      },
+      "firstCharacters": "{\"data\":[{\"id\":\"gita\",\"title\":\"Bhagavad Gita\",\"originalTitle"
+    },
+    {
+      "origin": "https://openartha.rittmang.xyz",
+      "issue": "content-negotiation-and-cache",
+      "path": "/api/v1/works",
+      "accept": "text/markdown",
+      "status": 200,
+      "headers": {
+        "content-type": "text/markdown; charset=utf-8",
+        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+        "cache-control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400"
+      },
+      "firstCharacters": "# Works\n\n## Bhagavad Gita\n\n- ID: `gita`\n- Original title: भग"
+    },
+    {
+      "origin": "https://openartha.rittmang.xyz",
+      "issue": "content-negotiation-and-cache",
+      "path": "/api/v1/works",
+      "accept": "application/json, text/markdown;q=0",
+      "status": 200,
+      "headers": {
+        "content-type": "text/markdown; charset=utf-8",
+        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+        "cache-control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400"
+      },
+      "firstCharacters": "# Works\n\n## Bhagavad Gita\n\n- ID: `gita`\n- Original title: भग"
+    }
+  ]
+}

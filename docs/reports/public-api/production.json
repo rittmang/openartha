@@ -1,0 +1,449 @@
+{
+  "startedAt": "2026-10-19T06:12:21.592Z",
+  "finishedAt": "2026-10-19T06:13:41.203Z",
+  "origin": "https://openartha.rittmang.xyz",
+  "scope": {
+    "routeFamilies": 15,
+    "passageReferences": 700,
+    "passageRouteVariants": 4,
+    "authors": 23,
+    "authorChapters": 414,
+    "distinctReadingRecords": 21000,
+    "fixtureBasis": "Pinned public JSONL exports and manifests; no application imports",
+    "concurrency": 4
+  },
+  "requests": 3943,
+  "responseBytes": 271087615,
+  "passed": 12835,
+  "failed": 41064,
+  "groups": {
+    "http": {
+      "passed": 3748,
+      "failed": 9,
+      "failures": [
+        {
+          "label": "GET /api/v1/works/gita/search?q=yoga&format=markdown [query-markdown]",
+          "status": 503,
+          "expectedStatus": 200,
+          "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+          "cfRay": "a4cda179aa917543-SJC",
+          "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+        },
+        {
+          "label": "GET /api/v1/works/gita/search?q=yoga [accept-markdown]",
+          "status": 503,
+          "expectedStatus": 200,
+          "bodyStart": "---\nerror_code: 1102\nerror_name: worker_exceeded_resources\nerror_category: worker\nstatus: 503\nray_id: a4cda17abd09138a\ntimestamp: 2026-10-19T06:12:22Z\nzone: openartha.rittmang.xyz\ncloudflare_error: true\nretryable: false\nowner_action_required: true\n---\n\n# Error 1102: Worker exceeded resource limits\n\n## What Happened\n\nA Worker script configured by the website owner exceeded its resource limits (CPU time or memory) and was terminated.\n\n## What You Should Do\n\n**Do not retry.** The same request will ",
+          "cfRay": "a4cda17abd09138a-SJC",
+          "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+        },
+        {
+          "label": "HEAD /api/v1/works/gita/search?q=yoga [json]",
+          "status": 503,
+          "expectedStatus": 200,
+          "bodyStart": "",
+          "cfRay": "a4cda17b9898b7dd-SJC",
+          "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+        },
+        {
+          "label": "GET /api/v1/search?q=yoga [accept-markdown]",
+          "status": 503,
+          "expectedStatus": 200,
+          "bodyStart": "---\nerror_code: 1102\nerror_name: worker_exceeded_resources\nerror_category: worker\nstatus: 503\nray_id: a4cda17b9e93dc04\ntimestamp: 2026-10-19T06:12:23Z\nzone: openartha.rittmang.xyz\ncloudflare_error: true\nretryable: false\nowner_action_required: true\n---\n\n# Error 1102: Worker exceeded resource limits\n\n## What Happened\n\nA Worker script configured by the website owner exceeded its resource limits (CPU time or memory) and was terminated.\n\n## What You Should Do\n\n**Do not retry.** The same request will ",
+          "cfRay": "a4cda17b9e93dc04-SJC",
+          "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+        },
+        {
+          "label": "HEAD /api/v1/search?q=yoga [json]",
+          "status": 503,
+          "expectedStatus": 200,
+          "bodyStart": "",
+          "cfRay": "a4cda17c9d49b586-SJC",
+          "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=yoga [json]",
+          "status": 503,
+          "expectedStatus": 200,
+          "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+          "cfRay": "a4cda17dce9ee9e7-SJC",
+          "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+        },
+        {
+          "label": "HEAD /api/v2/works/gita/search?q=yoga [json]",
+          "status": 503,
+          "expectedStatus": 200,
+          "bodyStart": "",
+          "cfRay": "a4cda181afc14c71-SJC",
+          "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+        },
+        {
+          "label": "GET /api/v2/search?q=yoga&limit=100 [json]",
+          "status": 503,
+          "expectedStatus": 200,
+          "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+          "cfRay": "a4cda347eccf25c3-SJC",
+          "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+        }
+      ]
+    },
+    "content-negotiation": {
+      "passed": 41,
+      "failed": 4,
+      "failures": [
+        {
+          "label": "GET /api/v1/works/gita/search?q=yoga&format=markdown [query-markdown]",
+          "message": "The input did not match the regular expression /^text\\/markdown/. Input:\n\n'text/html; charset=UTF-8'\n"
+        },
+        {
+          "label": "GET /api/v1/works/gita/search?q=yoga [accept-markdown]",
+          "message": "The input did not match the regular expression /^# /. Input:\n\n'---\\n' +\n  'error_code: 1102\\n' +\n  'error_name: worker_exceeded_resources\\n' +\n  'error_category: worker\\n' +\n  'status: 503\\n' +\n  'ray_id: a4cda17abd09138a\\n' +\n  'timestamp: 2026-10-19T06:12:22Z\\n' +\n  'zone: openartha.rittmang.xyz\\n' +\n  'cloudflare_error: true\\n' +\n  'retryable: false\\n' +\n  'owner_action_required: true\\n' +\n  '---\\n' +\n  '\\n' +\n  '# Error 1102: Worker exceeded resource limits\\n' +\n  '\\n' +\n  '## What Happened\\n' +\n  '\\n' +\n  'A Worker script configured by the website owner exceeded its resource limits (CPU time or memory) and was terminated.\\n' +\n  '\\n' +\n  '## What You Should Do\\n' +\n  '\\n' +\n  '**Do not retry.** The same request will hit the same resource limits. The site owner must optimize the Worker script.\\n' +\n  '\\n' +\n  '---\\n' +\n  '\\n' +\n  'This error was generated by Cloudflare on behalf of the website owner.\\n'\n"
+        },
+        {
+          "label": "GET /api/v1/search?q=yoga [accept-markdown]",
+          "message": "The input did not match the regular expression /^# /. Input:\n\n'---\\n' +\n  'error_code: 1102\\n' +\n  'error_name: worker_exceeded_resources\\n' +\n  'error_category: worker\\n' +\n  'status: 503\\n' +\n  'ray_id: a4cda17b9e93dc04\\n' +\n  'timestamp: 2026-10-19T06:12:23Z\\n' +\n  'zone: openartha.rittmang.xyz\\n' +\n  'cloudflare_error: true\\n' +\n  'retryable: false\\n' +\n  'owner_action_required: true\\n' +\n  '---\\n' +\n  '\\n' +\n  '# Error 1102: Worker exceeded resource limits\\n' +\n  '\\n' +\n  '## What Happened\\n' +\n  '\\n' +\n  'A Worker script configured by the website owner exceeded its resource limits (CPU time or memory) and was terminated.\\n' +\n  '\\n' +\n  '## What You Should Do\\n' +\n  '\\n' +\n  '**Do not retry.** The same request will hit the same resource limits. The site owner must optimize the Worker script.\\n' +\n  '\\n' +\n  '---\\n' +\n  '\\n' +\n  'This error was generated by Cloudflare on behalf of the website owner.\\n'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=yoga [json]",
+          "message": "The input did not match the regular expression /^application\\/json/. Input:\n\n'text/html; charset=UTF-8'\n"
+        }
+      ]
+    },
+    "public-headers": {
+      "passed": 41,
+      "failed": 4,
+      "failures": [
+        {
+          "label": "GET /api/v1/works/gita/search?q=yoga&format=markdown [query-markdown]",
+          "message": "Expected values to be strictly equal:\n\nnull !== '*'\n"
+        },
+        {
+          "label": "GET /api/v1/works/gita/search?q=yoga [accept-markdown]",
+          "message": "Expected values to be strictly equal:\n\nnull !== '*'\n"
+        },
+        {
+          "label": "GET /api/v1/search?q=yoga [accept-markdown]",
+          "message": "Expected values to be strictly equal:\n\nnull !== '*'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=yoga [json]",
+          "message": "Expected values to be strictly equal:\n\nnull !== '*'\n"
+        }
+      ]
+    },
+    "http-vary-accept": {
+      "passed": 0,
+      "failed": 30,
+      "failures": [
+        {
+          "label": "GET /api/v1/works [json]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/corpus-versions [json]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/passages/gita/2/47 [json]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/sources [json]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/passages/gita/2/47 [accept-markdown]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/works [accept-markdown]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/corpus-versions [accept-markdown]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/sources [accept-markdown]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        }
+      ]
+    },
+    "markdown-equivalence": {
+      "passed": 13,
+      "failed": 2,
+      "failures": [
+        {
+          "label": "/api/v1/works/gita/search?q=yoga",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '<!DOCTYPE html>\\n' +\n+   '<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\\n' +\n+   '<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\\n' +\n+   '<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\\n' +\n+   '<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\\n' +\n+   '<head>\\n' +\n+   '<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\\n' +\n+   '<meta charset=\"UTF-8\" />\\n' +\n+   '<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\n' +\n+   '<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\\n' +\n+   '<meta name=\"robots\" content=\"noindex, nofollow\" />\\n' +\n+   '<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\\n' +\n+   '<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/cf.errors.css\" />\\n' +\n+   `<!--[if lt IE 9]><link rel=\"stylesheet\" id='cf_"
+        },
+        {
+          "label": "/api/v1/search?q=yoga",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '# Search: yoga\\n' +\n- '---\\n' +\n-   'error_code: 1102\\n' +\n-   'error_name: worker_exceeded_resources\\n' +\n-   'error_category: worker\\n' +\n-   'status: 503\\n' +\n-   'ray_id: a4cda17b9e93dc04\\n' +\n-   'timestamp: 2026-10-19T06:12:23Z\\n' +\n-   'zone: openartha.rittmang.xyz\\n' +\n-   'cloudflare_error: true\\n' +\n-   'retryable: false\\n' +\n-   'owner_action_required: true\\n' +\n-   '---\\n' +\n    '\\n' +\n+   '58 result(s): 5 exact word, 53 compound form. Returning 30.\\n' +\n-   '# Error 1102: Worker exceeded resource limits\\n' +\n    '\\n' +\n+   '- [2.39](/gita/2/39) — Exact word in English — The knowledge here declared to you is that relating to the Sāṅkhya,. Now hear that relating to the Yoga . Possessed of this knowledge, O son of Pṛthā! you will cast off the bonds of action. In this (path to final emancipation) nothing that is commenced becomes abortive\\n' +\n+   '- [2.48](/gita/2/48) — Exact word in IAST — Having recourse to devot"
+        }
+      ]
+    },
+    "head": {
+      "passed": 13,
+      "failed": 2,
+      "failures": [
+        {
+          "label": "/api/v1/works/gita/search?q=yoga",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'text/html; charset=UTF-8'\n- 'application/json'\n"
+        },
+        {
+          "label": "/api/v1/search?q=yoga",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'text/html; charset=UTF-8'\n- 'application/json'\n"
+        }
+      ]
+    },
+    "registries": {
+      "passed": 4,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-data": {
+      "passed": 2800,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-etag": {
+      "passed": 1400,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-readings": {
+      "passed": 1400,
+      "failed": 0,
+      "failures": []
+    },
+    "review-status-export-parity": {
+      "passed": 1400,
+      "failed": 40600,
+      "failures": [
+        {
+          "label": "prabhupada-ec:source:1.1",
+          "path": "/api/v2/passages/gita/1/1",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'machine-validated; human review pending'\n- 'first review verified (google/gemini-3.8-flash); second review pending'\n"
+        },
+        {
+          "label": "prabhupada-et:source:1.1",
+          "path": "/api/v2/passages/gita/1/1",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'machine-validated; human review pending'\n- 'first review verified (google/gemini-3.8-flash); second review pending'\n"
+        },
+        {
+          "label": "abhinavagupta-sc:source:1.1",
+          "path": "/api/v2/passages/gita/1/1",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'machine-validated; human review pending'\n- 'first review verified (google/gemini-3.8-flash); second review pending'\n"
+        },
+        {
+          "label": "abhinavagupta-et:source:1.1",
+          "path": "/api/v2/passages/gita/1/1",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'machine-validated; human review pending'\n- 'first review verified (google/gemini-3.8-flash); second review pending'\n"
+        },
+        {
+          "label": "dhanapati-sc:source:1.1",
+          "path": "/api/v2/passages/gita/1/1",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'machine-validated; human review pending'\n- 'first review verified (google/gemini-3.8-flash); second review pending'\n"
+        },
+        {
+          "label": "s-sankaranarayan-et:source:1.1",
+          "path": "/api/v2/passages/gita/1/1",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'machine-validated; human review pending'\n- 'first review verified (google/gemini-3.8-flash); second review pending'\n"
+        },
+        {
+          "label": "jayatirtha-sc:source:1.1",
+          "path": "/api/v2/passages/gita/1/1",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'machine-validated; human review pending'\n- 'first review verified (google/gemini-3.8-flash); second review pending'\n"
+        },
+        {
+          "label": "madhusudana-sarasvati-sc:source:1.1",
+          "path": "/api/v2/passages/gita/1/1",
+          "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'machine-validated; human review pending'\n- 'first review verified (google/gemini-3.8-flash); second review pending'\n"
+        }
+      ]
+    },
+    "passage-aliases": {
+      "passed": 700,
+      "failed": 0,
+      "failures": []
+    },
+    "author-chapter-data": {
+      "passed": 414,
+      "failed": 0,
+      "failures": []
+    },
+    "author-chapter-order": {
+      "passed": 18,
+      "failed": 396,
+      "failures": [
+        {
+          "label": "GET /api/v2/commentaries/authors/swami-tejomayananda/chapters/1 [json]",
+          "message": "chapter reader returns verses out of canonical order\n+ actual - expected\n... Skipped lines\n\n  [\n    1,\n-   2,\n-   3,\n-   4,\n-   5,\n-   6,\n-   7,\n-   8,\n-   9,\n    10,\n    11,\n    12,\n    13,\n    14,\n...\n    19,\n+   2,\n    20,\n    21,\n    22,\n    23,\n    24,\n...\n    29,\n+   3,\n    30,\n    31,\n    32,\n    33,\n    34,\n...\n    39,\n+   4,\n    40,\n    41,\n    42,\n    43,\n    44,\n...\n    47,\n+   5,\n+   6,\n+   7,\n+   8,\n+   9\n  ]\n"
+        },
+        {
+          "label": "GET /api/v2/commentaries/authors/swami-tejomayananda/chapters/4 [json]",
+          "message": "chapter reader returns verses out of canonical order\n+ actual - expected\n... Skipped lines\n\n  [\n    1,\n-   2,\n-   3,\n-   4,\n-   5,\n-   6,\n-   7,\n-   8,\n-   9,\n    10,\n    11,\n    12,\n    13,\n    14,\n...\n    19,\n+   2,\n    20,\n    21,\n    22,\n    23,\n    24,\n...\n    29,\n+   3,\n    30,\n    31,\n    32,\n    33,\n    34,\n...\n    39,\n+   4,\n    40,\n    41,\n    42,\n+   5,\n+   6,\n+   7,\n+   8,\n+   9\n  ]\n"
+        },
+        {
+          "label": "GET /api/v2/commentaries/authors/swami-tejomayananda/chapters/3 [json]",
+          "message": "chapter reader returns verses out of canonical order\n+ actual - expected\n... Skipped lines\n\n  [\n    1,\n-   2,\n-   3,\n-   4,\n-   5,\n-   6,\n-   7,\n-   8,\n-   9,\n    10,\n    11,\n    12,\n    13,\n    14,\n...\n    19,\n+   2,\n    20,\n    21,\n    22,\n    23,\n    24,\n...\n    29,\n+   3,\n    30,\n    31,\n    32,\n    33,\n    34,\n...\n    39,\n+   4,\n    40,\n    41,\n    42,\n    43,\n+   5,\n+   6,\n+   7,\n+   8,\n+   9\n  ]\n"
+        },
+        {
+          "label": "GET /api/v2/commentaries/authors/swami-tejomayananda/chapters/2 [json]",
+          "message": "chapter reader returns verses out of canonical order\n+ actual - expected\n... Skipped lines\n\n  [\n    1,\n-   2,\n-   3,\n-   4,\n-   5,\n-   6,\n-   7,\n-   8,\n-   9,\n    10,\n    11,\n    12,\n    13,\n    14,\n...\n    19,\n+   2,\n    20,\n    21,\n    22,\n    23,\n    24,\n...\n    29,\n+   3,\n    30,\n    31,\n    32,\n    33,\n    34,\n...\n    39,\n+   4,\n    40,\n    41,\n    42,\n    43,\n    44,\n...\n    49,\n+   5,\n    50,\n    51,\n    52,\n    53,\n    54,\n...\n    59,\n+   6,\n    60,\n    61,\n    62,\n    63,\n    64,\n...\n    69,\n+   7,\n    70,\n    71,\n    72,\n+   8,\n+   9\n  ]\n"
+        },
+        {
+          "label": "GET /api/v2/commentaries/authors/swami-tejomayananda/chapters/7 [json]",
+          "message": "chapter reader returns verses out of canonical order\n+ actual - expected\n... Skipped lines\n\n  [\n    1,\n-   2,\n-   3,\n-   4,\n-   5,\n-   6,\n-   7,\n-   8,\n-   9,\n    10,\n    11,\n    12,\n    13,\n    14,\n...\n    19,\n+   2,\n    20,\n    21,\n    22,\n    23,\n    24,\n...\n    29,\n+   3,\n    30,\n+   4,\n+   5,\n+   6,\n+   7,\n+   8,\n+   9\n  ]\n"
+        },
+        {
+          "label": "GET /api/v2/commentaries/authors/swami-tejomayananda/chapters/6 [json]",
+          "message": "chapter reader returns verses out of canonical order\n+ actual - expected\n... Skipped lines\n\n  [\n    1,\n-   2,\n-   3,\n-   4,\n-   5,\n-   6,\n-   7,\n-   8,\n-   9,\n    10,\n    11,\n    12,\n    13,\n    14,\n...\n    19,\n+   2,\n    20,\n    21,\n    22,\n    23,\n    24,\n...\n    29,\n+   3,\n    30,\n    31,\n    32,\n    33,\n    34,\n...\n    39,\n+   4,\n    40,\n    41,\n    42,\n    43,\n    44,\n...\n    47,\n+   5,\n+   6,\n+   7,\n+   8,\n+   9\n  ]\n"
+        },
+        {
+          "label": "GET /api/v2/commentaries/authors/swami-tejomayananda/chapters/5 [json]",
+          "message": "chapter reader returns verses out of canonical order\n+ actual - expected\n... Skipped lines\n\n  [\n    1,\n-   2,\n-   3,\n-   4,\n-   5,\n-   6,\n-   7,\n-   8,\n-   9,\n    10,\n    11,\n    12,\n    13,\n    14,\n...\n    19,\n+   2,\n    20,\n    21,\n    22,\n    23,\n    24,\n...\n    29,\n+   3,\n+   4,\n+   5,\n+   6,\n+   7,\n+   8,\n+   9\n  ]\n"
+        },
+        {
+          "label": "GET /api/v2/commentaries/authors/swami-tejomayananda/chapters/8 [json]",
+          "message": "chapter reader returns verses out of canonical order\n+ actual - expected\n... Skipped lines\n\n  [\n    1,\n-   2,\n-   3,\n-   4,\n-   5,\n-   6,\n-   7,\n-   8,\n-   9,\n    10,\n    11,\n    12,\n    13,\n    14,\n...\n    19,\n+   2,\n    20,\n    21,\n    22,\n    23,\n    24,\n...\n    28,\n+   3,\n+   4,\n+   5,\n+   6,\n+   7,\n+   8,\n+   9\n  ]\n"
+        }
+      ]
+    },
+    "author-chapter-markdown": {
+      "passed": 92,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-markdown": {
+      "passed": 296,
+      "failed": 0,
+      "failures": []
+    },
+    "error-status": {
+      "passed": 186,
+      "failed": 0,
+      "failures": []
+    },
+    "error-body": {
+      "passed": 186,
+      "failed": 0,
+      "failures": []
+    },
+    "search-limits": {
+      "passed": 24,
+      "failed": 0,
+      "failures": []
+    },
+    "search-integrity": {
+      "passed": 32,
+      "failed": 4,
+      "failures": [
+        {
+          "label": "GET /api/v2/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100 [json]",
+          "message": "content differs for swami-ramsukhdas-hc:source:3.35\n+ actual - expected\n... Skipped lines\n\n  \"3.35।। व्याख्या--'श्रेयान् (टिप्पणी प0 182) स्वधर्मो विगुणः परधर्मात् स्वनुष्ठितात्'--अन्य वर्ण, आश्रम आदिका धर्म (कर्तव्य) बाहरसे देखनेमें गुणसम्पन्न हो, उसके पालनमें भी सुगमता हो, पालन करनेमें मन भी लगता हो, धन-वैभव, सुख-सुविधा, मान-बड़ाई आदि भी मिलती हो और जीवनभर सुख-आरामसे भी रह सकते हों, तो भी उस परधर्मका पालन अपने लिये विहित न होनेसे परिणाममें भय-(दुःख-) को देनेवाला है।इसके विपरीत अपने वर्ण, आश्रम आदिका धर्म बाहरसे देखनेमें गुणोंकी कमीवाला हो उसके पालनमें भी कठिनाई हो, पालन करनेमें मन भी न लगता हो, धन-वैभव, सुख-सुविधा, मान-बड़ाई आदि भी न मिलती हो और उसका पालन करनेमें जीवन-भर कष्ट भी सहना पड़ता हो, तो भी उस स्वधर्मका निष्कामभावसे पालन करना परिणाममें कल्याण करनेवाला है। इसलिये मनुष्यको किसी भी स्थितिमें अपने धर्मका त्याग नहीं करना चाहिये, प्रत्युत निष्काम, निर्मम और अनासक्त होकर स्वधर्मका ही पालन करना चाहिये।मनुष्यके लिये स्वधर्मका पालन स्वाभाविक है, सहज है। मनुष्यका 'जन्म' कर्मोंके अनुसार"
+        },
+        {
+          "label": "GET /api/v2/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100 [json]",
+          "message": "content differs for swami-ramsukhdas-hc:source:3.10\n+ actual - expected\n\n  \"।।3.10।। व्याख्या--'सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः'--ब्रह्माजी प्रजा (सृष्टि) के रचयिता एवं उसके स्वामी हैं; अतः अपने कर्तव्यका पालन करनेके साथ वे प्रजाकी रक्षा तथा उसके कल्याणका विचार करते रहते हैं। कारण कि जो जिसे उत्पन्न करता है, उसकी रक्षा करना उसका कर्तव्य हो जाता है। ब्रह्माजी प्रजाकी रचना करते, उसकी रक्षामें तत्पर रहते तथा सदा उसके हितकी बात सोचते हैं। इसलिये वे 'प्रजापति' कहलाते हैं।\\n\" +\n    \"सृष्टि अर्थात् सर्गके आरम्भमें ब्रह्माजीने कर्तव्य-कर्मोंकी योग्यता और विवेक-सहित मनुष्योंकी रचना की है (टिप्पणी प0 128)। अनुकूल और प्रतिकूल परिस्थितिका सदुपयोग कल्याण करनेवाला है। इसलिये ब्रह्माजीने अनुकूल-प्रतिकूल परिस्थितिका सदुपयोग करनेका विवेक साथ देकर ही मनुष्योंकी रचना की है।सत्- असत् का विचार करनेमें पशु, पक्षी, वृक्ष आदिके द्वारा स्वाभाविक परोपकार (कर्तव्यपालन) होता है; किन्तु मनुष्यको तो भगवत्कृपासे विशेष विवेक-शक्ति मिली हुई है। अतः यदि वह अपने विवेकको महत्त्व देकर अकर्तव्य न करे तो उसके द्व"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100 [json]",
+          "message": "content differs for swami-ramsukhdas-hc:source:3.35\n+ actual - expected\n... Skipped lines\n\n  \"3.35।। व्याख्या--'श्रेयान् (टिप्पणी प0 182) स्वधर्मो विगुणः परधर्मात् स्वनुष्ठितात्'--अन्य वर्ण, आश्रम आदिका धर्म (कर्तव्य) बाहरसे देखनेमें गुणसम्पन्न हो, उसके पालनमें भी सुगमता हो, पालन करनेमें मन भी लगता हो, धन-वैभव, सुख-सुविधा, मान-बड़ाई आदि भी मिलती हो और जीवनभर सुख-आरामसे भी रह सकते हों, तो भी उस परधर्मका पालन अपने लिये विहित न होनेसे परिणाममें भय-(दुःख-) को देनेवाला है।इसके विपरीत अपने वर्ण, आश्रम आदिका धर्म बाहरसे देखनेमें गुणोंकी कमीवाला हो उसके पालनमें भी कठिनाई हो, पालन करनेमें मन भी न लगता हो, धन-वैभव, सुख-सुविधा, मान-बड़ाई आदि भी न मिलती हो और उसका पालन करनेमें जीवन-भर कष्ट भी सहना पड़ता हो, तो भी उस स्वधर्मका निष्कामभावसे पालन करना परिणाममें कल्याण करनेवाला है। इसलिये मनुष्यको किसी भी स्थितिमें अपने धर्मका त्याग नहीं करना चाहिये, प्रत्युत निष्काम, निर्मम और अनासक्त होकर स्वधर्मका ही पालन करना चाहिये।मनुष्यके लिये स्वधर्मका पालन स्वाभाविक है, सहज है। मनुष्यका 'जन्म' कर्मोंके अनुसार"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100 [json]",
+          "message": "content differs for swami-ramsukhdas-hc:source:3.10\n+ actual - expected\n\n  \"।।3.10।। व्याख्या--'सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः'--ब्रह्माजी प्रजा (सृष्टि) के रचयिता एवं उसके स्वामी हैं; अतः अपने कर्तव्यका पालन करनेके साथ वे प्रजाकी रक्षा तथा उसके कल्याणका विचार करते रहते हैं। कारण कि जो जिसे उत्पन्न करता है, उसकी रक्षा करना उसका कर्तव्य हो जाता है। ब्रह्माजी प्रजाकी रचना करते, उसकी रक्षामें तत्पर रहते तथा सदा उसके हितकी बात सोचते हैं। इसलिये वे 'प्रजापति' कहलाते हैं।\\n\" +\n    \"सृष्टि अर्थात् सर्गके आरम्भमें ब्रह्माजीने कर्तव्य-कर्मोंकी योग्यता और विवेक-सहित मनुष्योंकी रचना की है (टिप्पणी प0 128)। अनुकूल और प्रतिकूल परिस्थितिका सदुपयोग कल्याण करनेवाला है। इसलिये ब्रह्माजीने अनुकूल-प्रतिकूल परिस्थितिका सदुपयोग करनेका विवेक साथ देकर ही मनुष्योंकी रचना की है।सत्- असत् का विचार करनेमें पशु, पक्षी, वृक्ष आदिके द्वारा स्वाभाविक परोपकार (कर्तव्यपालन) होता है; किन्तु मनुष्यको तो भगवत्कृपासे विशेष विवेक-शक्ति मिली हुई है। अतः यदि वह अपने विवेकको महत्त्व देकर अकर्तव्य न करे तो उसके द्व"
+        }
+      ]
+    },
+    "search-diacritics": {
+      "passed": 4,
+      "failed": 0,
+      "failures": []
+    },
+    "work-scoped-search-metadata": {
+      "passed": 0,
+      "failed": 9,
+      "failures": [
+        {
+          "label": "GET /api/v2/works/gita/search?q=yoga&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=sankhya&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=s%C4%81%E1%B9%85khya&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=sacred+plain&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=zzzznohitopenartha123456789&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=%22+OR+*+--&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        }
+      ]
+    },
+    "search-aliases": {
+      "passed": 1,
+      "failed": 1,
+      "failures": [
+        {
+          "label": "v2",
+          "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ undefined\n- [\n-   {\n-     canonicalRef: 'gita.2.39',\n-     corpus: 'root',\n-     kind: 'exact',\n-     match: {\n-       hits: [\n-         {\n-           field: 'english',\n-           kind: 'exact',\n-           label: 'English',\n-           matchedTerms: [\n-             'yoga'\n-           ],\n-           ranges: [\n-             {\n-               end: 103,\n-               start: 99\n-             }\n-           ],\n-           text: 'The knowledge here declared to you is that relating to the Sāṅkhya,. Now hear that relating to the Yoga . Possessed of this knowledge, O son of Pṛthā! you will cast off the bonds of action. In this (path to final emancipation) nothing that is commenced becomes abortive'\n-         }\n-       ]\n-     },\n-     passage: {\n-       canonicalRef: 'gita.2.39',\n-       chapter: 2,\n-       checksum: '2e78882ba21f93dcec11aae3b92153ac83c466e8303c7277d2af4900c7aad41c',\n-       corpusVersion: 'gita-1.0.0-rc.1',\n- "
+        }
+      ]
+    },
+    "search-witness-coverage": {
+      "passed": 1,
+      "failed": 1,
+      "failures": [
+        {
+          "label": "GET /api/v2/works/gita/search?q=Ranged+thus+for+battle&limit=100 [json]",
+          "message": "missing expected edwin-arnold witness"
+        }
+      ]
+    },
+    "http-accept-quality": {
+      "passed": 0,
+      "failed": 2,
+      "failures": [
+        {
+          "label": "application/json, text/markdown;q=0",
+          "message": "The input did not match the regular expression /^application\\/json/. Input:\n\n'text/markdown; charset=utf-8'\n"
+        },
+        {
+          "label": "application/json;q=1, text/markdown;q=0.1",
+          "message": "The input did not match the regular expression /^application\\/json/. Input:\n\n'text/markdown; charset=utf-8'\n"
+        }
+      ]
+    },
+    "download-manifests": {
+      "passed": 3,
+      "failed": 0,
+      "failures": []
+    },
+    "download-checksums": {
+      "passed": 18,
+      "failed": 0,
+      "failures": []
+    }
+  }
+}

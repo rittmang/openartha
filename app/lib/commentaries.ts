@@ -3,7 +3,8 @@ import authorRegistry from '@/corpus/gita-commentaries/authors.json';
 import sourceRegistry from '@/corpus/gita-commentaries/source.json';
 import { getPassage } from '@/app/lib/corpus';
 import { findSearchTerm, normalizeSearchText, type SearchMatchKind, type SearchRange } from '@/app/lib/search';
-import { arnoldAuthor, getArnoldPassage, getArnoldChapter, searchArnoldTranslations } from '@/app/lib/translations';
+import { translationAuthors, readingMetadataById } from '@/app/lib/translations';
+import { getPassageReadingRows, getAuthorChapterReadingRows, searchReadingRows, toCommentary } from '@/app/lib/commentary-repository';
 
 export type CommentaryAuthor = {
   id: string;
@@ -36,6 +37,7 @@ export type Commentary = {
   sourceCommit: string;
   alignmentStatus: string;
   checksum: string;
+  rawChecksum?: string;
   corpusVersion: string;
   sourceChecksum?: string;
   rights?: string;
@@ -62,27 +64,8 @@ export type CommentarySearchResult = Omit<Commentary, 'content'> & {
   ranges: SearchRange[];
 };
 
-type CommentaryRow = {
-  id: string;
-  canonical_ref: string;
-  author_id: string;
-  display_name: string;
-  edition_id: string;
-  field_code: string;
-  language: string;
-  script: string;
-  content_type: string;
-  content: string;
-  source_locator: string;
-  repository_url: string;
-  commit_sha: string;
-  alignment_status: string;
-  display_checksum: string;
-  corpus_version: string;
-};
-
 export const datasetCommentaryAuthors = authorRegistry as CommentaryAuthor[];
-export const commentaryAuthors: CommentaryAuthor[] = [...datasetCommentaryAuthors, arnoldAuthor];
+export const commentaryAuthors: CommentaryAuthor[] = [...datasetCommentaryAuthors, ...translationAuthors];
 export const commentarySource = sourceRegistry;
 export const publicCommentaryAuthors = commentaryAuthors.filter((author) => author.publicFields.length > 0);
 export const publicCommentaryWitnessCount = publicCommentaryAuthors.reduce((count, author) => count + author.publicFields.length, 0);
@@ -171,73 +154,24 @@ function database() {
   return (env as unknown as { DB?: D1Database }).DB;
 }
 
-function toCommentary(row: CommentaryRow): Commentary {
-  const [, chapter, verse] = row.canonical_ref.split('.').map(Number);
-  if (row.author_id === arnoldAuthor.id) {
-    const bundled = getArnoldPassage(chapter, verse);
-    if (bundled) return bundled;
-  }
-  return {
-    id: row.id,
-    canonicalRef: row.canonical_ref,
-    chapter,
-    verse,
-    authorId: row.author_id,
-    author: row.display_name,
-    editionId: row.edition_id,
-    fieldCode: row.field_code,
-    language: row.language,
-    script: row.script,
-    contentType: row.content_type,
-    content: row.content,
-    sourceLocator: row.source_locator,
-    sourceUrl: row.repository_url,
-    sourceCommit: row.commit_sha,
-    alignmentStatus: row.alignment_status,
-    checksum: row.display_checksum,
-    corpusVersion: row.corpus_version,
-  };
-}
-
-const selectCommentary = `
-  SELECT u.id, u.passage_id AS canonical_ref, e.author_id, a.display_name,
-    e.id AS edition_id, e.field_code, e.language, e.script, e.content_type,
-    (SELECT group_concat(content, '') FROM (
-      SELECT content FROM commentary_unit_chunks WHERE unit_id = u.id ORDER BY chunk_index
-    )) AS content,
-    u.source_locator, s.repository_url, s.commit_sha, u.alignment_status,
-    u.display_checksum, e.corpus_version
-  FROM commentary_units u
-  JOIN commentary_editions e ON e.id = u.edition_id
-  JOIN commentary_authors a ON a.id = e.author_id
-  JOIN commentary_sources s ON s.id = e.source_id
-`;
-
 export async function getPassageCommentaries(chapter: number, verse: number) {
-  const arnold = getArnoldPassage(chapter, verse);
-  const bundled: Commentary[] = arnold ? [arnold] : [];
   const db = database();
-  if (!db) return bundled;
+  if (!db) return [];
   try {
-    const result = await db.prepare(`${selectCommentary}
-      WHERE u.passage_id = ? AND e.public_text = 1
-      ORDER BY a.display_name, e.content_type, e.language`).bind(`gita.${chapter}.${verse}`).all<CommentaryRow>();
-    return [...result.results.filter((row) => row.author_id !== arnoldAuthor.id).map(toCommentary), ...bundled];
+    const rows = await getPassageReadingRows(db, chapter, verse);
+    return rows.map((row) => toCommentary(row, readingMetadataById.get(row.id)));
   } catch (error) {
     console.error('Could not load passage commentaries', error);
-    return bundled;
+    return [];
   }
 }
 
 export async function getAuthorChapterCommentaries(authorId: string, chapter: number) {
-  if (authorId === arnoldAuthor.id) return getArnoldChapter(chapter);
   const db = database();
   if (!db) return [];
   try {
-    const result = await db.prepare(`${selectCommentary}
-      WHERE e.author_id = ? AND u.source_chapter = ? AND u.passage_id IS NOT NULL AND e.public_text = 1
-      ORDER BY u.passage_id, e.content_type, e.language`).bind(authorId, chapter).all<CommentaryRow>();
-    return result.results.map(toCommentary);
+    const rows = await getAuthorChapterReadingRows(db, authorId, chapter);
+    return rows.map((row) => toCommentary(row, readingMetadataById.get(row.id)));
   } catch (error) {
     console.error('Could not load author chapter', error);
     return [];
@@ -264,42 +198,17 @@ function matchEvidence(content: string, query: string) {
 }
 
 export async function searchCommentaries(query: string, limit = 60): Promise<CommentarySearchResult[]> {
-  const bundled = searchArnoldTranslations(query, limit);
   const db = database();
   const match = ftsQuery(query);
-  if (!db || !match) return bundled;
-  const bindings: Array<string | number> = [match];
-  bindings.push(Math.min(Math.max(limit * 4, limit), 240));
+  if (!db || !match) return [];
   try {
-    const result = await db.prepare(`
-      SELECT u.id, u.passage_id AS canonical_ref, e.author_id, a.display_name,
-        e.id AS edition_id, e.field_code, e.language, e.script, e.content_type,
-        f.content, u.source_locator, s.repository_url, s.commit_sha,
-        u.alignment_status, u.display_checksum, e.corpus_version,
-        bm25(commentary_fts) AS rank
-      FROM commentary_fts f
-      JOIN commentary_units u ON u.id = f.unit_id
-      JOIN commentary_editions e ON e.id = u.edition_id
-      JOIN commentary_authors a ON a.id = e.author_id
-      JOIN commentary_sources s ON s.id = e.source_id
-      WHERE commentary_fts MATCH ? AND e.public_text = 1
-      ORDER BY rank, u.source_chapter, u.source_verse, a.display_name
-      LIMIT ?
-    `).bind(...bindings).all<CommentaryRow & { rank: number }>();
-    const seen = new Set<string>();
-    const matches: CommentarySearchResult[] = [];
-    for (const row of result.results) {
-      if (seen.has(row.id)) continue;
-      seen.add(row.id);
-      const evidence = matchEvidence(row.content, query);
-      matches.push({ ...toCommentary(row), ...evidence });
-      if (matches.length >= limit) break;
-    }
-    const unique = new Map<string, CommentarySearchResult>();
-    for (const result of [...matches, ...bundled]) if (!unique.has(result.id)) unique.set(result.id, result);
-    return [...unique.values()].sort((left, right) => left.kind === right.kind ? 0 : left.kind === 'exact' ? -1 : 1).slice(0, limit);
+    const rows = await searchReadingRows(db, match, limit);
+    return rows.map((row) => ({
+      ...toCommentary(row, readingMetadataById.get(row.id)),
+      ...matchEvidence(row.content, query),
+    })).sort((left, right) => left.kind === right.kind ? 0 : left.kind === 'exact' ? -1 : 1);
   } catch (error) {
     console.error('Could not search commentaries', error);
-    return bundled;
+    return [];
   }
 }

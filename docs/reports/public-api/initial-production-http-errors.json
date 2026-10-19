@@ -1,0 +1,44 @@
+{
+  "startedAt": "2026-10-19T06:09:56.287Z",
+  "finishedAt": "2026-10-19T06:11:28.967Z",
+  "origin": "https://openartha.rittmang.xyz",
+  "notes": "Initial HTTP failures before a complete rerun. Retained separately to distinguish intermittent delivery failures from reproducible contract defects. Secondary assertion failures caused by these responses are not independent defects.",
+  "http": {
+    "passed": 3748,
+    "failed": 10,
+    "failures": [
+      {
+        "label": "GET /api/v2/search?q=%22+OR+*+--&limit=100 [json]: valid JSON",
+        "message": "{\"data\":[{\"corpus\":\"commentary\",\"kind\":\"exact\",\"canonicalRef\":\"gita.6.9\",\"commentary\":{\"id\":\"purohit-swami-et:source:6.9\",\"canonicalRef\":\"gita.6.9\",\"chapter\":6,\"verse\":9,\"authorId\":\"purohit-swami\",\"au"
+      },
+      {
+        "label": "GET /api/v2/works/gita/search?q=yoga&limit=0 [json]",
+        "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+      },
+      {
+        "label": "GET /api/v2/works/gita/search?q=yoga&limit=2.9 [json]",
+        "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+      },
+      {
+        "label": "GET /api/v2/works/gita/search?q=sankhya&limit=100 [json]",
+        "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+      },
+      {
+        "label": "GET /api/v2/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100 [json]",
+        "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+      },
+      {
+        "label": "GET /api/v2/works/gita/search?q=sacred+plain&limit=100 [json]",
+        "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+      },
+      {
+        "label": "GET /api/v2/works/gita/search?q=%22+OR+*+--&limit=100 [json]",
+        "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+      },
+      {
+        "label": "GET /api/v1/search?q=yoga&limit=100 [json]",
+        "message": "Expected values to be strictly equal:\n\n503 !== 200\n"
+      }
+    ]
+  }
+}

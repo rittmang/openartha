@@ -1,6 +1,23 @@
 # Edwin Arnold translation
 
-Status: first independent model review completed using Gemini 3.8 Flash through OpenCode; all 700 mappings verified. The reviewed corpus passes all local checks. The user confirmed local review and authorized push/deployment. Remote migrations 0043–0044 are applied, `main` is pushed, and application commit `17f6916` is deployed to production as Cloudflare version `b3007209-0e66-47db-81ae-d4d9f45c7958`.
+Status: original translation/review deployment completed as recorded below. Shared-author runtime follow-up is implemented and verified locally; the user authorized publication with “Deploy the changes.” Push/deployment is in progress. Remote migrations 0043–0044 are already applied and no new migration is needed.
+
+## Shared author data path follow-up
+
+- The 2026-10-18 independent API audit found that imported author chapters sort textual canonical IDs, while Arnold bypasses the database and returns preordered bundled records. The UI/routes are already shared, but runtime data loading was not fully integrated.
+- The user's current instruction supersedes the original pre-migration bundled fallback decision: all authors must read passage, chapter, and search content from the existing D1 tables. Missing or unavailable D1 content follows the same behavior for all authors.
+- Preserve source-specific import files, rights, exact spans, omissions, and authentic model-review provenance. Supplemental provenance may be attached by stable record identity/checksum; it must not replace database text or grant stale review approval.
+- Use one shared repository and numeric canonical verse ordering. Search must return complete stored records, so chunking cannot change the content/checksum contract.
+- [x] Remove Arnold-specific runtime passage/chapter/search branches and use shared database queries.
+- [x] Preserve source metadata through a generic record enrichment step with stale-data guards.
+- [x] Add regression tests for common retrieval, numeric ordering, FTS chunk reconstruction, omissions, and metadata provenance.
+- [x] Run tests, types, lint, build, and the local HTTP audit; retain results without overwriting the original audit evidence.
+- [x] Record the outcome and local review entry points. Do not push or deploy this follow-up before local user confirmation under `AGENTS.md`.
+- `app/lib/commentary-repository.ts` now queries every author through the same D1 joins and reads canonical chapter/verse numbers from `passages`. Search deduplicates FTS unit IDs and loads complete chunks through that same repository. `app/lib/translations.ts` retains source-specific catalog/provenance registration without providing runtime passage, chapter, or search content.
+- All 34 tests pass, including real SQLite/FTS regression tests proving changed D1 text is not replaced with pinned JSON, stale metadata cannot inherit approval, and publication visibility applies to all authors. TypeScript, ESLint, and the production build pass.
+- `docs/reports/public-api/local-shared-authors.json` records 3,943 local HTTP requests: 53,858 passed assertions, 41 remaining failures. All 414 author-chapter order checks and all 36 search-integrity checks pass; all 700 passages and 21,000 reading records still match their exports. The remaining 41 assertions cover unrelated cache/negotiation/scoped-envelope issues from the original audit.
+- Local review entry points: `http://localhost:3100/gita/commentaries/edwin-arnold/1`, `http://localhost:3100/gita/commentaries/swami-sivananda/1`, and `http://localhost:3100/gita/1/1`. No browser, push, deployment, remote migration, or production follow-up check was performed.
+- The user subsequently instructed “Deploy the changes,” authorizing publication of the locally verified follow-up. Use the existing Cloudflare deployment workflow; do not perform browser-based or other post-deployment checks.
 
 ## Scope and decisions
 
@@ -16,7 +33,7 @@ Status: first independent model review completed using Gemini 3.8 Flash through 
 - Completed direct semantic alignment for all 700 canonical references: 684 rendered records, 16 explicit source omissions, and four shared two-verse spans. All source characters are accounted for exactly once at the alignment-group/paratext level.
 - Omitted canonical references: 1.43; 8.23–8.27; 13.4; 15.15; 16.23–16.24; 17.23–17.28. The Chapter 8 footnote is misnumbered in the source; Chapter 16's note claims “ten concluding shlokas” although only two verses remain in the project's 24-verse chapter. These discrepancies are documented, not silently corrected.
 - Preserve the alternate Chapter 13 opening as paratext and map Krishna's opening to canonical 13.1, retaining the project's standard 34-verse chapter.
-- Register Arnold in the existing author list and D1 source/author/edition/unit/chunk/FTS tables, with a scoped seed in `0043_seed_edwin_arnold_v100.sql`. Keep a bundled fallback and deduplicate it against D1 results. Preserve Gutenberg's public-domain rights separately from the older GPL dataset.
+- Register Arnold in the existing author list and D1 source/author/edition/unit/chunk/FTS tables, with a scoped seed in `0043_seed_edwin_arnold_v100.sql`. The original pre-migration bundled content fallback is superseded by the shared-author follow-up above. Preserve Gutenberg's public-domain rights separately from the older GPL dataset.
 - Follow `AGENTS.md`: no browser-based checks; prepare and verify the implementation locally before requesting local review and confirmation to push or deploy.
 - Keep the implementation on `main`, in accordance with the user's branch instruction.
 - The user explicitly requested the first review by Gemini 3.8 Flash through OpenCode. The live T3 catalog exposes OpenCode provider `opencode` and model `openrouter/google/gemini-3.8-flash`. Review every canonical reference against Sanskrit, independent verse-numbered witnesses, the source chapter, notes, and the proposed source spans; do not transfer another translation's approval.

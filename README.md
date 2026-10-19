@@ -12,6 +12,7 @@ Requires pnpm. The workspace pins pnpm 10.34.5 and Node.js 24.19.0, so `pnpm` do
 
 ```sh
 pnpm install
+pnpm db:migrate:local
 pnpm dev
 ```
 
@@ -32,11 +33,11 @@ Sir Edwin Arnold's *The Song Celestial* is integrated into the existing verse in
 
 The saved source, authored alignment map, and generated records live in `corpus/gita-translations/edwin-arnold/`. `pnpm translations:build` regenerates the corpus, checksummed `public/data/gita-edwin-arnold-1.0.0/` exports, and D1 review migration `0044_review_edwin_arnold_v100.sql` offline, preserving the original `0043` seed. The exports include per-verse first-review outcomes and the complete `first-review.json`; `pnpm exec node scripts/validate-arnold-review.mjs` verifies coverage, source hashes, model identity, task provenance, and unchanged alignment fingerprints. Every source character belongs to an alignment group or preserved paratext; the build rejects gaps, overlaps, missing verse IDs, and invalid source anchors. Inspect a chapter and its canonical witness with `pnpm exec node scripts/inspect-arnold-alignment.mjs 1`. The digitized title page identifies the 1900 edition. All 37 notes, credits, and the full original Gutenberg file and license remain available in the data download.
 
-Arnold uses the existing `GET /api/v2/passages/gita/1/1`, `/api/v2/commentaries/authors/edwin-arnold/chapters/1`, and unified `/api/v2/works/gita/search?q=...` endpoints (JSON or `?format=markdown`). The D1 seed registers his source, author, edition, all verse records, paratext, and FTS5 entries. Bundled records keep the same reader and API available before the database migration is applied. Passage and search results deduplicate the database and bundled copies and retain Arnold's own review provenance and public-domain rights.
+Arnold uses the existing `GET /api/v2/passages/gita/1/1`, `/api/v2/commentaries/authors/edwin-arnold/chapters/1`, and unified `/api/v2/works/gita/search?q=...` endpoints (JSON or `?format=markdown`). The D1 seed registers his source, author, edition, all verse records, paratext, and FTS5 entries. All authors use the same database queries for passage, chapter, and search content, with chapters ordered by numeric canonical verse and matching FTS chunks resolved to complete records. Source-specific alignment and model-review metadata is attached only to matching record identities, versions, checksums, sources, and stored review states. Arnold's public-domain rights remain separate from the GPL commentary source's rights.
 
 ## Cloudflare deployment
 
-The application deploys directly to Cloudflare Workers with a D1 binding named `DB`; no ChatGPT Sites runtime or build plugin is used. The bundled corpus remains a read-only fallback if a local database has not yet been migrated.
+The application deploys directly to Cloudflare Workers with a D1 binding named `DB`; no ChatGPT Sites runtime or build plugin is used. The canonical root corpus is bundled for read-only access. Commentary and additional translation content requires the migrated D1 database for every author; an unavailable database does not activate a separate translation-only content path.
 
 ```sh
 pnpm db:migrate:remote

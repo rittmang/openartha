@@ -1,0 +1,206 @@
+{
+  "checkedAt": "2026-10-19T06:12:18.350Z",
+  "results": [
+    {
+      "round": 1,
+      "path": "/api/v2/search?q=%22+OR+*+--&limit=100",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda142de6e2832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=yoga&limit=0",
+      "status": 200,
+      "bytes": 2309,
+      "contentType": "application/json",
+      "cfRay": "a4cda148cd40ce6c-SJC"
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=yoga&limit=2.9",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda14a6c002832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=sankhya&limit=100",
+      "status": 200,
+      "bytes": 213308,
+      "contentType": "application/json",
+      "cfRay": "a4cda14afea7ce6c-SJC"
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=sacred+plain&limit=100",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda14d18532832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 1,
+      "path": "/api/v2/works/gita/search?q=Dharmakshetra&limit=100",
+      "status": 200,
+      "bytes": 1468,
+      "contentType": "application/json",
+      "cfRay": "a4cda14d98bece6c-SJC"
+    },
+    {
+      "round": 1,
+      "path": "/api/v1/search?q=yoga&limit=100",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda14e8abd2832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/search?q=%22+OR+*+--&limit=100",
+      "status": 200,
+      "bytes": 243798,
+      "contentType": "application/json",
+      "cfRay": "a4cda14f59fcce6c-SJC"
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=yoga&limit=0",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda15219372832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=yoga&limit=2.9",
+      "status": 200,
+      "bytes": 4252,
+      "contentType": "application/json",
+      "cfRay": "a4cda152bc65ce6c-SJC"
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=sankhya&limit=100",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda1559fd12832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=sacred+plain&limit=100",
+      "status": 200,
+      "bytes": 2711,
+      "contentType": "application/json",
+      "cfRay": "a4cda1565e97ce6c-SJC"
+    },
+    {
+      "round": 2,
+      "path": "/api/v2/works/gita/search?q=Dharmakshetra&limit=100",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda157cbcc2832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 2,
+      "path": "/api/v1/search?q=yoga&limit=100",
+      "status": 200,
+      "bytes": 109859,
+      "contentType": "application/json",
+      "cfRay": "a4cda1581817ce6c-SJC"
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/search?q=%22+OR+*+--&limit=100",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda158ddbb2832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=yoga&limit=0",
+      "status": 200,
+      "bytes": 2309,
+      "contentType": "application/json",
+      "cfRay": "a4cda15918d6ce6c-SJC"
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=yoga&limit=2.9",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda15aa9462832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=sankhya&limit=100",
+      "status": 200,
+      "bytes": 213308,
+      "contentType": "application/json",
+      "cfRay": "a4cda15b09ebce6c-SJC"
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=sacred+plain&limit=100",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda15cacf22832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    },
+    {
+      "round": 3,
+      "path": "/api/v2/works/gita/search?q=Dharmakshetra&limit=100",
+      "status": 200,
+      "bytes": 1468,
+      "contentType": "application/json",
+      "cfRay": "a4cda15d2b4bce6c-SJC"
+    },
+    {
+      "round": 3,
+      "path": "/api/v1/search?q=yoga&limit=100",
+      "status": 503,
+      "bytes": 4684,
+      "contentType": "text/html; charset=UTF-8",
+      "cfRay": "a4cda15e88402832-SJC",
+      "parseError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "bodyStart": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Worker exceeded resource limits | openartha.rittmang.xyz | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /",
+      "bodyEnd": "&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n\n        </div><!-- /#cf-error-details -->\n    </div><!-- /#cf-wrapper -->\n\n     <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n</body>\n</html>"
+    }
+  ]
+}

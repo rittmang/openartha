@@ -1,0 +1,231 @@
+{
+  "startedAt": "2026-10-19T06:29:31.498Z",
+  "finishedAt": "2026-10-19T06:30:04.377Z",
+  "origin": "http://localhost:3100",
+  "scope": {
+    "routeFamilies": 15,
+    "passageReferences": 700,
+    "passageRouteVariants": 4,
+    "authors": 23,
+    "authorChapters": 414,
+    "distinctReadingRecords": 21000,
+    "fixtureBasis": "Pinned public JSONL exports and manifests; no application imports",
+    "concurrency": 4
+  },
+  "requests": 3943,
+  "responseBytes": 281965528,
+  "passed": 53858,
+  "failed": 41,
+  "groups": {
+    "http": {
+      "passed": 3757,
+      "failed": 0,
+      "failures": []
+    },
+    "content-negotiation": {
+      "passed": 45,
+      "failed": 0,
+      "failures": []
+    },
+    "public-headers": {
+      "passed": 45,
+      "failed": 0,
+      "failures": []
+    },
+    "http-vary-accept": {
+      "passed": 0,
+      "failed": 30,
+      "failures": [
+        {
+          "label": "GET /api/v1/passages/gita/2/47 [json]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/corpus-versions [json]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/sources [json]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/works [json]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/works [accept-markdown]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/passages/gita/2/47 [accept-markdown]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/sources [accept-markdown]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        },
+        {
+          "label": "GET /api/v1/corpus-versions [accept-markdown]",
+          "message": "cacheable negotiated response omits Vary: Accept"
+        }
+      ]
+    },
+    "markdown-equivalence": {
+      "passed": 15,
+      "failed": 0,
+      "failures": []
+    },
+    "head": {
+      "passed": 15,
+      "failed": 0,
+      "failures": []
+    },
+    "registries": {
+      "passed": 4,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-data": {
+      "passed": 2800,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-etag": {
+      "passed": 1400,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-readings": {
+      "passed": 1400,
+      "failed": 0,
+      "failures": []
+    },
+    "review-status-export-parity": {
+      "passed": 42000,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-aliases": {
+      "passed": 700,
+      "failed": 0,
+      "failures": []
+    },
+    "author-chapter-data": {
+      "passed": 414,
+      "failed": 0,
+      "failures": []
+    },
+    "author-chapter-order": {
+      "passed": 414,
+      "failed": 0,
+      "failures": []
+    },
+    "author-chapter-markdown": {
+      "passed": 92,
+      "failed": 0,
+      "failures": []
+    },
+    "passage-markdown": {
+      "passed": 296,
+      "failed": 0,
+      "failures": []
+    },
+    "error-status": {
+      "passed": 186,
+      "failed": 0,
+      "failures": []
+    },
+    "error-body": {
+      "passed": 186,
+      "failed": 0,
+      "failures": []
+    },
+    "search-limits": {
+      "passed": 24,
+      "failed": 0,
+      "failures": []
+    },
+    "search-integrity": {
+      "passed": 36,
+      "failed": 0,
+      "failures": []
+    },
+    "search-diacritics": {
+      "passed": 4,
+      "failed": 0,
+      "failures": []
+    },
+    "work-scoped-search-metadata": {
+      "passed": 0,
+      "failed": 9,
+      "failures": [
+        {
+          "label": "GET /api/v2/works/gita/search?q=yoga&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=sankhya&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=s%C4%81%E1%B9%85khya&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A5%8D%E0%A4%AF&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=sacred+plain&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=zzzznohitopenartha123456789&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        },
+        {
+          "label": "GET /api/v2/works/gita/search?q=%22+OR+*+--&limit=100 [json]",
+          "message": "text-scoped response lacks workId\n+ actual - expected\n\n+ undefined\n- 'gita'\n"
+        }
+      ]
+    },
+    "search-aliases": {
+      "passed": 2,
+      "failed": 0,
+      "failures": []
+    },
+    "search-witness-coverage": {
+      "passed": 2,
+      "failed": 0,
+      "failures": []
+    },
+    "http-accept-quality": {
+      "passed": 0,
+      "failed": 2,
+      "failures": [
+        {
+          "label": "application/json, text/markdown;q=0",
+          "message": "The input did not match the regular expression /^application\\/json/. Input:\n\n'text/markdown; charset=utf-8'\n"
+        },
+        {
+          "label": "application/json;q=1, text/markdown;q=0.1",
+          "message": "The input did not match the regular expression /^application\\/json/. Input:\n\n'text/markdown; charset=utf-8'\n"
+        }
+      ]
+    },
+    "download-manifests": {
+      "passed": 3,
+      "failed": 0,
+      "failures": []
+    },
+    "download-checksums": {
+      "passed": 18,
+      "failed": 0,
+      "failures": []
+    }
+  }
+}
