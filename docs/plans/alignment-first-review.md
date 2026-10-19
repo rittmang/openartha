@@ -87,11 +87,11 @@ Each of the 700 verses and 20,300 commentary records was evaluated using the pro
     - Chapter 14: verses 14.10–14.14 (absorption of 14.11 and 14.12 into 14.10, leaving severed fragments in 14.11–14.13)
     - Chapter 15: verses 15.14–15.18 (Vaiśvānara and Puruṣottama transition bleeding)
 
-## Verification
+## Verification & deployment
 
-- `pnpm corpus:build`: Succeeded.
-- `pnpm corpus:validate`: Succeeded (700 passages validated, TEI P5 Relax NG validation passed).
-- `pnpm commentaries:build`: Succeeded.
-- `pnpm commentaries:validate`: Succeeded (20,300 units validated across 22 authors and 29 editions).
+- `pnpm corpus:validate`: Passed.
+- `pnpm commentaries:validate`: Passed (20,300 units validated across 22 authors and 29 editions).
 - `pnpm test`: 12/12 tests passing.
 - `pnpm build`: Next.js / Vinext build succeeded without errors.
+- `pnpm run deploy`: Deployed directly to Cloudflare Workers (`openartha.rittmang.xyz` and `gita.rittmang.xyz`, version `981b1855-6edd-4b35-803d-a57a67eece76`).
+- Live site verification: Confirmed updated first-review notice and model confidence scores on both root verses and commentaries.
