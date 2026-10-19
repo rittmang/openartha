@@ -1,33 +1,54 @@
 import arnoldTranslation from '@/corpus/gita-translations/edwin-arnold/translation.json';
-import { searchTranslationChapters } from '@/app/lib/search';
+import { searchPassages } from '@/app/lib/search';
 
-export type ChapterTranslation = typeof arnoldTranslation;
-export const chapterTranslations: ChapterTranslation[] = [arnoldTranslation];
+export type TranslationCorpus = typeof arnoldTranslation;
+export const translations: TranslationCorpus[] = [arnoldTranslation];
+export const arnoldAuthor = {
+  id: arnoldTranslation.id,
+  sourceKey: arnoldTranslation.source.id,
+  displayName: arnoldTranslation.translator,
+  availableFields: ['et'],
+  publicFields: ['et'],
+  rightsStatus: 'full-text-allowed',
+  rightsNote: `${arnoldTranslation.source.rights}. The Song Celestial, ${arnoldTranslation.editionYear} edition; Project Gutenberg ebook #2388. Verse alignment by gpt-6.1-sol; independent review pending.`,
+  sourceId: arnoldTranslation.source.id,
+  sourceUrl: arnoldTranslation.source.catalogUrl,
+  corpusVersion: arnoldTranslation.corpusVersion,
+};
 
-export function getTranslation(id: string) {
-  return chapterTranslations.find((translation) => translation.id === id);
-}
-
-export function getTranslationChapter(id: string, chapter: number) {
-  if (!Number.isInteger(chapter)) return undefined;
-  return getTranslation(id)?.chapters.find((item) => item.chapter === chapter);
-}
-
-export function translationSummary(translation: ChapterTranslation) {
-  const { chapters, notes, ...metadata } = translation;
+export function translationSummary(translation: TranslationCorpus) {
+  const { chapters, notes, verses, paratext, ...metadata } = translation;
   return {
     ...metadata,
     chapterCount: chapters.length,
     translatorNoteCount: notes.length,
-    route: `/gita/translations/${translation.id}`,
-    apiRoot: `/api/v1/works/${translation.workId}/translations/${translation.id}`,
+    canonicalPassages: verses.length,
+    paratextCount: paratext.length,
+    route: `/gita/commentaries/${translation.id}`,
+    apiRoot: `/api/v2/commentaries/authors/${translation.id}`,
     downloadUrl: `/data/${translation.corpusVersion}/translation.json`,
   };
 }
 
-export function searchChapterTranslations(query: string) {
-  return chapterTranslations.flatMap((translation) => searchTranslationChapters(translation.chapters, query)
-    .map((match) => ({ ...match, translationId: translation.id, translator: translation.translator, corpusVersion: translation.corpusVersion })));
+export function getArnoldPassage(chapter: number, verse: number) {
+  return arnoldTranslation.verses.find((record) => record.chapter === chapter && record.verse === verse);
 }
 
-export type ChapterTranslationSearchResult = ReturnType<typeof searchChapterTranslations>[number];
+export function getArnoldChapter(chapter: number) {
+  return arnoldTranslation.verses.filter((record) => record.chapter === chapter);
+}
+
+const searchableVerses = arnoldTranslation.verses.filter((verse) => verse.content).map((verse) => ({
+  ...verse,
+  speaker: null,
+  representations: { devanagari: '', iast: '', english: verse.content },
+}));
+const recordsByReference = new Map(arnoldTranslation.verses.map((verse) => [verse.canonicalRef, verse]));
+
+export function searchArnoldTranslations(query: string, limit = 60) {
+  return searchPassages(searchableVerses, query).results.slice(0, limit).map((result) => ({
+    ...recordsByReference.get(result.passage.canonicalRef)!,
+    kind: result.kind,
+    ranges: result.hits.find((hit) => hit.field === 'english')?.ranges ?? [],
+  }));
+}

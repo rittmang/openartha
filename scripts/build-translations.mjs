@@ -4,6 +4,8 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { parseGutenbergTranslation } from './lib/parse-gutenberg-translation.mjs';
+import { alignArnoldTranslation } from './lib/align-arnold-translation.mjs';
+import { arnoldSeedSql } from './lib/arnold-sql.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const corpusDir = path.join(root, 'corpus/gita-translations/edwin-arnold');
@@ -12,6 +14,9 @@ const raw = await readFile(path.join(corpusDir, 'source/pg2388.txt'));
 const sha256 = (value) => createHash('sha256').update(value).digest('hex');
 assert.equal(sha256(raw), metadata.source.sha256, 'Downloaded source must match its pinned checksum');
 const parsed = parseGutenbergTranslation(raw.toString('utf8'));
+const canonical = JSON.parse(await readFile(path.join(root, 'corpus/gita/gita.json'), 'utf8'));
+const alignment = JSON.parse(await readFile(path.join(corpusDir, 'alignment.json'), 'utf8'));
+const aligned = alignArnoldTranslation(parsed, alignment, canonical, metadata);
 const translation = {
   schemaVersion: 1,
   ...metadata,
@@ -21,6 +26,20 @@ const translation = {
     checksum: sha256(chapter.text),
   })),
   notes: parsed.notes,
+  verses: aligned.verses,
+  paratext: aligned.paratext,
+};
+const alignmentReport = {
+  corpusVersion: metadata.corpusVersion,
+  sourceSha256: metadata.source.sha256,
+  canonicalCorpusVersion: canonical.corpusVersion,
+  review: alignment.review,
+  canonicalPassages: aligned.verses.length,
+  translatedPassages: aligned.verses.filter((verse) => verse.content).length,
+  omittedPassages: aligned.verses.filter((verse) => !verse.content).map((verse) => verse.canonicalRef),
+  sharedSpans: aligned.groups.filter((group) => group.relation === 'shared-source-span'),
+  chapters: parsed.chapters.map((chapter) => ({ chapter: chapter.chapter, canonicalPassages: aligned.verses.filter((verse) => verse.chapter === chapter.chapter).length, sourceCoverage: 'complete; each source character belongs to one alignment group or preserved paratext' })),
+  groups: aligned.groups,
 };
 const rights = {
   translationId: metadata.id,
@@ -37,6 +56,8 @@ const files = [
   { name: 'translation.json', data: JSON.stringify(translation, null, 2) + '\n' },
   { name: 'pg2388.txt', data: raw },
   { name: 'rights.json', data: JSON.stringify(rights, null, 2) + '\n' },
+  { name: 'verses.jsonl', data: aligned.verses.map((verse) => JSON.stringify(verse)).join('\n') + '\n' },
+  { name: 'alignment-report.json', data: JSON.stringify(alignmentReport, null, 2) + '\n' },
 ];
 const manifest = {
   schemaVersion: 1,
@@ -46,6 +67,9 @@ const manifest = {
   granularity: metadata.granularity,
   chapters: translation.chapters.length,
   translatorNotes: translation.notes.length,
+  canonicalPassages: aligned.verses.length,
+  translatedPassages: alignmentReport.translatedPassages,
+  omittedPassages: alignmentReport.omittedPassages.length,
   sourceSha256: metadata.source.sha256,
   files: files.map(({ name, data }) => ({ name, bytes: Buffer.byteLength(data), sha256: sha256(data) })),
 };
@@ -60,4 +84,12 @@ await writeFile(path.join(publicDir, 'checksums.sha256'), [
   `${sha256(manifestJson)}  manifest.json`,
   '',
 ].join('\n'));
-console.log(`Built ${metadata.corpusVersion}: ${translation.chapters.length} chapters, ${translation.notes.length} translator notes.`);
+const migrationTag = '0043_seed_edwin_arnold_v100';
+await writeFile(path.join(root, 'drizzle', `${migrationTag}.sql`), arnoldSeedSql(translation));
+const journalPath = path.join(root, 'drizzle/meta/_journal.json');
+const journal = JSON.parse(await readFile(journalPath, 'utf8'));
+if (!journal.entries.some((entry) => entry.tag === migrationTag)) {
+  journal.entries.push({ idx: journal.entries.length, version: '6', when: Math.max(...journal.entries.map((entry) => entry.when)) + 1, tag: migrationTag, breakpoints: true });
+  await writeFile(journalPath, JSON.stringify(journal, null, 2) + '\n');
+}
+console.log(`Built ${metadata.corpusVersion}: ${translation.chapters.length} chapters, ${translation.verses.length} verse records (${alignmentReport.translatedPassages} renderings, ${alignmentReport.omittedPassages.length} omissions), ${translation.notes.length} notes, and D1 seed migration.`);

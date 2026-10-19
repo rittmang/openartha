@@ -3,6 +3,7 @@ import authorRegistry from '@/corpus/gita-commentaries/authors.json';
 import sourceRegistry from '@/corpus/gita-commentaries/source.json';
 import { getPassage } from '@/app/lib/corpus';
 import { findSearchTerm, normalizeSearchText, type SearchMatchKind, type SearchRange } from '@/app/lib/search';
+import { arnoldAuthor, getArnoldPassage, getArnoldChapter, searchArnoldTranslations } from '@/app/lib/translations';
 
 export type CommentaryAuthor = {
   id: string;
@@ -12,6 +13,9 @@ export type CommentaryAuthor = {
   publicFields: string[];
   rightsStatus: string;
   rightsNote: string;
+  sourceId?: string;
+  sourceUrl?: string;
+  corpusVersion?: string;
 };
 
 export type Commentary = {
@@ -33,6 +37,16 @@ export type Commentary = {
   alignmentStatus: string;
   checksum: string;
   corpusVersion: string;
+  sourceChecksum?: string;
+  rights?: string;
+  alignmentRelation?: string;
+  alignment?: {
+    id: string;
+    references: string[];
+    relation: string;
+    note: string | null;
+    review: { reviewerModel: string; status: string; method: string; date: string };
+  };
 };
 
 export type CommentarySearchResult = Omit<Commentary, 'content'> & {
@@ -60,9 +74,11 @@ type CommentaryRow = {
   corpus_version: string;
 };
 
-export const commentaryAuthors = authorRegistry as CommentaryAuthor[];
+export const datasetCommentaryAuthors = authorRegistry as CommentaryAuthor[];
+export const commentaryAuthors: CommentaryAuthor[] = [...datasetCommentaryAuthors, arnoldAuthor];
 export const commentarySource = sourceRegistry;
 export const publicCommentaryAuthors = commentaryAuthors.filter((author) => author.publicFields.length > 0);
+export const publicCommentaryWitnessCount = publicCommentaryAuthors.reduce((count, author) => count + author.publicFields.length, 0);
 export const commentaryFieldLabels: Record<string, string> = {
   et: 'English translation',
   ec: 'English commentary',
@@ -79,6 +95,14 @@ export function commentaryDescriptor(commentary: Pick<Commentary, 'contentType' 
 
 export function commentaryLang(commentary: Pick<Commentary, 'language' | 'script'>) {
   return `${commentary.language}-${commentary.script}`;
+}
+
+export function commentaryReviewSummary(commentary: Commentary) {
+  if (commentary.alignment) {
+    const shared = commentary.alignment.references.length > 1 ? `Shared rendering of ${commentary.alignment.references.map((ref) => ref.replace('gita.', '')).join('–')}. ` : '';
+    return `${shared}Aligned by ${commentary.alignment.review.reviewerModel}; independent review pending.`;
+  }
+  return `First review verified (google/gemini-3.8-flash confidence: ${Math.round(commentaryConfidence(commentary) * 100)}%); second review pending.`;
 }
 
 export function commentaryConfidence(commentary: Pick<Commentary, 'chapter' | 'verse' | 'language' | 'contentType' | 'content'>): number {
@@ -137,6 +161,10 @@ function database() {
 
 function toCommentary(row: CommentaryRow): Commentary {
   const [, chapter, verse] = row.canonical_ref.split('.').map(Number);
+  if (row.author_id === arnoldAuthor.id) {
+    const bundled = getArnoldPassage(chapter, verse);
+    if (bundled) return bundled;
+  }
   return {
     id: row.id,
     canonicalRef: row.canonical_ref,
@@ -174,20 +202,23 @@ const selectCommentary = `
 `;
 
 export async function getPassageCommentaries(chapter: number, verse: number) {
+  const arnold = getArnoldPassage(chapter, verse);
+  const bundled: Commentary[] = arnold ? [arnold] : [];
   const db = database();
-  if (!db) return [];
+  if (!db) return bundled;
   try {
     const result = await db.prepare(`${selectCommentary}
       WHERE u.passage_id = ? AND e.public_text = 1
       ORDER BY a.display_name, e.content_type, e.language`).bind(`gita.${chapter}.${verse}`).all<CommentaryRow>();
-    return result.results.map(toCommentary);
+    return [...result.results.filter((row) => row.author_id !== arnoldAuthor.id).map(toCommentary), ...bundled];
   } catch (error) {
     console.error('Could not load passage commentaries', error);
-    return [];
+    return bundled;
   }
 }
 
 export async function getAuthorChapterCommentaries(authorId: string, chapter: number) {
+  if (authorId === arnoldAuthor.id) return getArnoldChapter(chapter);
   const db = database();
   if (!db) return [];
   try {
@@ -221,9 +252,10 @@ function matchEvidence(content: string, query: string) {
 }
 
 export async function searchCommentaries(query: string, limit = 60): Promise<CommentarySearchResult[]> {
+  const bundled = searchArnoldTranslations(query, limit);
   const db = database();
   const match = ftsQuery(query);
-  if (!db || !match) return [];
+  if (!db || !match) return bundled;
   const bindings: Array<string | number> = [match];
   bindings.push(Math.min(Math.max(limit * 4, limit), 240));
   try {
@@ -251,9 +283,11 @@ export async function searchCommentaries(query: string, limit = 60): Promise<Com
       matches.push({ ...toCommentary(row), ...evidence });
       if (matches.length >= limit) break;
     }
-    return matches;
+    const unique = new Map<string, CommentarySearchResult>();
+    for (const result of [...matches, ...bundled]) if (!unique.has(result.id)) unique.set(result.id, result);
+    return [...unique.values()].sort((left, right) => left.kind === right.kind ? 0 : left.kind === 'exact' ? -1 : 1).slice(0, limit);
   } catch (error) {
     console.error('Could not search commentaries', error);
-    return [];
+    return bundled;
   }
 }

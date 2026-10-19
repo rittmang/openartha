@@ -22,7 +22,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ chap
     '## IAST', '', passage.representations.iast, '',
     `## English translation — ${passage.translation.translator}`, '', passage.representations.english, '',
     '## Supplied translations and commentaries', '',
-    ...commentaries.flatMap((commentary) => [`### ${commentary.author} · ${commentary.contentType} · ${commentary.language}`, '', commentary.content, '', `Source: ${commentary.sourceLocator} · checksum \`${commentary.checksum}\``, '']),
+    ...commentaries.flatMap((commentary) => [`### ${commentary.author} · ${commentary.contentType} · ${commentary.language}`, '', commentary.content || 'This verse is omitted in this translation.', '', `Source: ${commentary.sourceLocator} · checksum \`${commentary.checksum}\``, '']),
   ].join('\n'));
   return jsonResponse({ data: { ...publicPassage(passage), commentaries }, meta: { commentaryCount: commentaries.length } });
 }

@@ -7,9 +7,9 @@
   "language": "en",
   "editionYear": 1900,
   "publisher": "Truslove, Hanson & Comba, Ltd., New York",
-  "granularity": "chapter",
-  "reviewStatus": "Source chapter boundaries checked automatically; independent textual review pending",
-  "alignmentStatus": "Chapter-level translation; verse alignment not verified",
+  "granularity": "verse",
+  "reviewStatus": "Semantic alignment completed by gpt-6.1-sol; independent review pending",
+  "alignmentStatus": "Verse-aligned, with shared source spans and explicit source omissions",
   "source": {
     "id": "gutenberg-2388",
     "ebookNumber": 2388,
@@ -25,7 +25,7 @@
   },
   "sourceNotes": [
     "The title page identifies the digitized print edition as 1900.",
-    "Arnold explicitly notes omissions and disputed readings. Chapter text is preserved without assigning it to individual canonical verses.",
+    "Arnold explicitly notes omissions and disputed readings. All 700 canonical verse references have alignment records, with source omissions recorded without invented text and combined renderings linked to shared source spans.",
     "Chapter VIII repeats the [FN#14] marker, while note 15 has no matching marker. Chapter X prints [FN#l6] with a lowercase l. These source anomalies are preserved; all 37 notes remain available."
   ]
 }

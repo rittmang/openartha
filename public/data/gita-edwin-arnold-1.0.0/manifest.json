@@ -3,15 +3,18 @@
   "corpusVersion": "gita-edwin-arnold-1.0.0",
   "workId": "gita",
   "translationId": "edwin-arnold",
-  "granularity": "chapter",
+  "granularity": "verse",
   "chapters": 18,
   "translatorNotes": 37,
+  "canonicalPassages": 700,
+  "translatedPassages": 684,
+  "omittedPassages": 16,
   "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
   "files": [
     {
       "name": "translation.json",
-      "bytes": 132510,
-      "sha256": "c16b48c2379eff997804a8464848c3efd4d2cc18806c82d9493296137271b1ae"
+      "bytes": 1540727,
+      "sha256": "2cc66ef4ca42241c904c218397334f5bc757452185c9411e19b7d54409e8c60f"
     },
     {
       "name": "pg2388.txt",
@@ -22,6 +25,16 @@
       "name": "rights.json",
       "bytes": 1182,
       "sha256": "bee44c294e73791d408fc3edc17b6064f535d14e168c35cdc1ccd9b1abeec535"
+    },
+    {
+      "name": "verses.jsonl",
+      "bytes": 1083468,
+      "sha256": "41516896c30ad4c714a5a8eebb67edd0917c6b66563c52aeec868642f7ca1e94"
+    },
+    {
+      "name": "alignment-report.json",
+      "bytes": 295289,
+      "sha256": "f94eb5539ed7ed434eff9712aae94bdee5507b7436db96a79c6571e9d5dce14e"
     }
   ]
 }

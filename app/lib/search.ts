@@ -118,27 +118,6 @@ function mergeRanges(ranges: SearchRange[]) {
   return merged;
 }
 
-export type SearchableTranslationChapter = { chapter: number; text: string };
-export type TranslationChapterMatch<T extends SearchableTranslationChapter> = {
-  chapter: T;
-  kind: SearchMatchKind;
-  ranges: SearchRange[];
-};
-
-export function searchTranslationChapters<T extends SearchableTranslationChapter>(chapters: T[], rawQuery: string): TranslationChapterMatch<T>[] {
-  const terms = [...new Set(normalizeSearchText(rawQuery.trim()).split(/\s+/).filter(Boolean))];
-  if (!terms.length) return [];
-  return chapters.flatMap((chapter): TranslationChapterMatch<T>[] => {
-    const occurrences = terms.map((term) => findSearchTerm(chapter.text, term));
-    if (occurrences.some((matches) => !matches.length)) return [];
-    return [{
-      chapter,
-      kind: occurrences.every((matches) => matches.some((match) => match.exact)) ? 'exact' : 'compound',
-      ranges: mergeRanges(occurrences.flat().map(({ start, end }) => ({ start, end }))),
-    }];
-  }).sort((left, right) => left.kind === right.kind ? left.chapter.chapter - right.chapter.chapter : left.kind === 'exact' ? -1 : 1);
-}
-
 function getFieldValue(passage: SearchablePassage, field: SearchField) {
   switch (field) {
     case 'reference': return `${passage.canonicalRef} ${passage.chapter}.${passage.verse}`;

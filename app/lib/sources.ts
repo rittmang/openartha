@@ -1,9 +1,9 @@
 import { corpus, type Source } from '@/app/lib/corpus';
-import { chapterTranslations } from '@/app/lib/translations';
+import { translations } from '@/app/lib/translations';
 
 export const gitaSources: Source[] = [
   ...corpus.sources,
-  ...chapterTranslations.map((translation) => ({
+  ...translations.map((translation) => ({
     id: translation.source.id,
     title: translation.title,
     contributor: `${translation.translator} (translator)`,
@@ -11,6 +11,6 @@ export const gitaSources: Source[] = [
     url: translation.source.catalogUrl,
     transcriptionUrl: translation.source.textUrl,
     rights: `${translation.source.rights}; Project Gutenberg credits and full license retained with the downloaded source`,
-    role: 'English poetic translation, available in 18 source chapters; verse alignment not verified',
+    role: 'English poetic translation aligned to the 700-verse canon, with shared renderings and source omissions recorded',
   })),
 ];

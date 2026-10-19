@@ -5,7 +5,6 @@ import { getPassageCommentaries } from '@/app/lib/commentaries';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { CommentaryWitnesses } from '@/components/commentary-witnesses';
 import { StatusPill } from '@/components/status-pill';
-import { ChapterTranslationLinks } from '@/components/chapter-translation-links';
 
 type Props = { params: Promise<{ chapter: string; verse: string }> };
 
@@ -81,8 +80,6 @@ export default async function VersePage({ params }: Props) {
           )}
         </section>
       </article>
-
-      <ChapterTranslationLinks chapter={chapter} />
 
       {commentaries.length ? <CommentaryWitnesses commentaries={commentaries} /> : null}
 
