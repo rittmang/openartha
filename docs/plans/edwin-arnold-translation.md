@@ -1,6 +1,6 @@
 # Edwin Arnold translation
 
-Status: first independent model review completed using Gemini 3.8 Flash through OpenCode; all 700 mappings verified. The reviewed corpus passes all local checks; publication awaits local confirmation.
+Status: first independent model review completed using Gemini 3.8 Flash through OpenCode; all 700 mappings verified. The reviewed corpus passes all local checks. The user confirmed local review and authorized push/deployment. Remote migrations 0043–0044 are applied, `main` is pushed, and application commit `17f6916` is deployed to production as Cloudflare version `b3007209-0e66-47db-81ae-d4d9f45c7958`.
 
 ## Scope and decisions
 
@@ -30,7 +30,7 @@ Status: first independent model review completed using Gemini 3.8 Flash through 
 - [x] Align and review all 18 chapters and 700 canonical verse references (alignment by gpt-6.1-sol; first independent review by Gemini 3.8 Flash completed).
 - [x] Integrate Arnold into the established author, verse, chapter, search, and API flows.
 - [x] Verify exact source spans, full coverage, omissions, review provenance, tests, types, lint, and build using non-browser checks.
-- [ ] Obtain local review confirmation before publishing.
+- [x] Obtain local review confirmation before publishing (user: “Ok confirmed, push deploy”).
 
 ## Gemini first review
 
@@ -40,7 +40,7 @@ Status: first independent model review completed using Gemini 3.8 Flash through 
 - [x] Validate complete 700-reference coverage, statuses, confidence values, and source-specific findings (all 18 chapters pass schema, fingerprint, and coverage validation; 700 records verified).
 - [x] Resolve alignment findings: none reported. Gemini verified all 700 mappings; no corrected records or additional review round were required.
 - [x] Attach authentic per-verse first-review outcomes and confidence to the existing review notices and exports; preserve the clean reader and distinguish model review from human review.
-- [x] Regenerate and verify the data, local database, APIs, tests, types, lint, and build. Publication remains pending local confirmation.
+- [x] Regenerate and verify the data, local database, APIs, tests, types, lint, and build. The user has confirmed local review and authorized publication.
 - Parent-side preparation is complete: validation rejects missing references, stale alignment fingerprints, wrong models, missing real task provenance, and invalid confidence. Corpus hooks attach actual Gemini outcomes only after full validation. All 27 tests pass with the actual 700 reviews attached, including exact raw artifact hashes and unchanged alignment fingerprints. TypeScript, lint, corpus/TEI validation, and the production build pass. Reader layout is unchanged. A separate `0044_review_edwin_arnold_v100.sql` migration carries reviewed statuses and updates Arnold’s author metadata while preserving the already-applied original seed. It has been applied locally.
 
 ## Validation and local review
@@ -49,13 +49,13 @@ Status: first independent model review completed using Gemini 3.8 Flash through 
 - D1 seed tests execute against the actual commentary schema and FTS5 with foreign keys enabled, check all 700 stored texts and 684 indexed renderings, preserve another edition, and pass on repeat application.
 - Existing corpus and TEI validation, TypeScript, ESLint, and the production build pass.
 - 731 local HTTP checks pass before local database migration, including every one of the 700 verse APIs, all 18 author-chapter APIs, author registry, source download, clean reader pages, search, invalid references, and Markdown omission notices.
-- Applied pending migrations through `0044_review_edwin_arnold_v100.sql` to the local D1 database; no remote database or deployment was touched. All 731 HTTP checks pass again with the actual Gemini first-review records after migration, verifying all 700 verse payloads, all 18 author chapters, review notices, unchanged clean reader structure, and native D1/bundled deduplication; 1.1 returns 30 total readings and exactly one Arnold record.
+- Applied pending migrations through `0044_review_edwin_arnold_v100.sql` to the local D1 database; no remote database or deployment was touched during local validation. All 731 HTTP checks pass again with the actual Gemini first-review records after migration, verifying all 700 verse payloads, all 18 author chapters, review notices, unchanged clean reader structure, and native D1/bundled deduplication; 1.1 returns 30 total readings and exactly one Arnold record.
 - The chapter and verse page templates and shared CSS exactly match the clean pre-import versions (`dddc235`). The Gita index and author catalog retain their existing structures, with updated counts.
 - No browser was used. Review: `http://localhost:3100/gita/1`, `http://localhost:3100/gita/1/1`, and `http://localhost:3100/gita/commentaries/edwin-arnold/1`.
-- No push or deployment has been performed for this change; confirmation remains pending.
+- The user confirmed local review and authorized push/deployment. Remote migrations `0043_seed_edwin_arnold_v100.sql` and `0044_review_edwin_arnold_v100.sql` applied successfully. `main` was pushed through `17f6916`. [GitHub Actions run 39205422596](https://github.com/rittmang/openartha/actions/runs/39205422596) passed corpus validation, tests, and build, but deployment failed because its stored Cloudflare API token was invalid (codes 10000/9109). The confirmed version was successfully deployed with `pnpm run deploy` using the existing local Cloudflare authentication. Wrangler reported version `b3007209-0e66-47db-81ae-d4d9f45c7958` on `openartha.rittmang.xyz`, `gita.rittmang.xyz`, and `openartha.godmod.workers.dev`. No browser-based or other post-deployment checks were performed, following `AGENTS.md`.
 
 ## Blockers and limitations
 
 - Arnold's poetic compression and explicit omissions are represented by shared ranges and omission records. Gemini's first model review is complete; the second review and required human release reviews remain pending. The 97.79% mean confidence is the reviewer's self-assessment, not a calibrated probability.
-- On approved publication, apply the D1 migration remotely before pushing/deploying the new application version.
-- Publication requires local review confirmation under `AGENTS.md`.
+- Remote migrations 0043–0044 were applied before pushing the new application version. Deployment is complete; the GitHub Actions Cloudflare token remains invalid and must be replaced separately for future automated deployments.
+- The local confirmation required by `AGENTS.md` has been received. Do not run browser-based or other post-deployment checks.
