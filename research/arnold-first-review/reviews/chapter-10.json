@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 10,
+  "inputSha256": "d1201f3a5b1dd282598a8b78fb66e35a8623b85c7d5f79daa2f4eab5db12b233",
+  "reviews": [
+    {
+      "canonicalRef": "gita.10.1",
+      "alignmentFingerprint": "48a8abb06b50770bc8dc522984f4b21dbbb42e38a2f88a26b87a4aaf06d2a9b7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents Krishna's opening address to Arjuna promising supreme words of welfare; footnote marker anomaly [FN#l6] accurately anchored.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.2",
+      "alignmentFingerprint": "18a28f5c4659fa6c20925bdd18421ee45c2d330fd0ae67b12754bce3bf7a550b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches that neither gods nor great rishis know the Lord's primal origin, for He is the source of all.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.3",
+      "alignmentFingerprint": "18a12e64a784fc004b48bf4681f85821aff58a48bff5aa313eef9b2b610196ca",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders knowing Krishna as unborn, unbegun (anādi), and sovereign Lord of the worlds, freeing mortals from all sin.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.4",
+      "alignmentFingerprint": "5a7b7eced2cac2a6733508715d32075861212d2373de4caadd42efd1354ad954",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Shared two-verse span with 10.5 verified; Arnold combines and interweaves the psychic dispositions and qualities of 10.4-10.5 into a single rhyming catalog.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.5",
+      "alignmentFingerprint": "7e831a1370ad0b0f8f1b8254abc49822f5f9b284a05bd6a31d67cd9d1c3a5d60",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Shared two-verse span with 10.4 verified; correctly links the integrated poetic passage enumerating the diverse natures proceeding from the Lord alone.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.6",
+      "alignmentFingerprint": "ea1d04948224ddabce689ad3f33db2f81b7771c8ebc2f22646a9558925f879d1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully represents the Seven Great Sages, Ancient Four, and Manus born of Krishna's mind, progenitors of mankind.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.7",
+      "alignmentFingerprint": "7c02db01bcd9549c785016a013eff7b2b22edca3e8f8fe1e8e385c7ce96fe6a6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches knowing in truth this divine vibhūti and yoga, attaining unwavering steadfast communion.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.8",
+      "alignmentFingerprint": "fb468223eca7ce7991df67e6cd5f7beeb618d94c12253957cc9f134fd15af429",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately renders the opening of the Caturślokī Gītā: Krishna as source of all from whom all evolves, worshipped by the wise with devotion.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.9",
+      "alignmentFingerprint": "96ceb1592abddc5faaf64b94b85a2b46c62fa3f64b46dcd70a4dcc354f2610ea",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly corresponds to maccittā madgataprāṇā bodhayantaḥ parasparam, devotees rejoicing and finding peace in mutual contemplation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.10",
+      "alignmentFingerprint": "88f7ef803943fb0207f980392714b3c48d848da39d49bb215532803b7509d48b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully conveys the granting of buddhiyoga (understanding) to constant devotees that they may come to Him.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.11",
+      "alignmentFingerprint": "7497cf809432e4b18f134f6a43e2a1eaadd9ad36a9bb2be78b6435c63a8dd684",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents the Lord dwelling within out of compassion to dispel darkness of ignorance with the lamp of wisdom.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.12",
+      "alignmentFingerprint": "96776a7f6989d5f00b6c3ff2aba61394a7a00eb6283083cc88f094329aec017c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches Arjuna's eulogy addressing Krishna as Parabrahm, supreme abode, supreme purifier, eternal divine Person, and unborn Lord.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.13",
+      "alignmentFingerprint": "46d78c0fd446b4586843e3a8598da9fc51667e07f042d54b38cdf69b6815b7e9",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately cites the testimony of all sages (Narada, Asita, Devala, Vyasa) and Krishna's own direct self-revelation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.14",
+      "alignmentFingerprint": "0c4f5c40994d06497e1808ff06c5a6ef1e73e26fcba6d147ec8f5db11009edc7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Renders Arjuna holding all Krishna's words as truth, and that neither devas nor danavas (demons) grasp His divine manifestation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.15",
+      "alignmentFingerprint": "24c03fc0c402b4a359e685af4f2ebc53826d6b7fa3af231e49cbffda33700724",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully captures that only the Lord Himself knows Himself, calling Him Creator of beings, God of gods, and King of the Universe.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.16",
+      "alignmentFingerprint": "7043e5c865ab254624410459bf18e9d8b538c61340ff7b26fb858e155d6ca124",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches Arjuna's plea to hear without reserve the divine perfections (vibhūtis) whereby the Lord pervades all worlds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.17",
+      "alignmentFingerprint": "e30ecceb17b23f39040a0b2013bc59efe6270c90defcf18a0835bfc3b06ca3fc",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents asking how the yogi may continually meditate on and know the Lord across His multiple aspects.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.18",
+      "alignmentFingerprint": "c3894bb3a16105834e30574aea6fbb105da3116d4df59596248fec7fb433a42d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders the request for elaborate description of yoga and vibhūti, declaring no satiety in drinking such nectar (Amrit [FN#18]).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.19",
+      "alignmentFingerprint": "350a191ae1818c23e2a857d4202db6f50763e3cb360e10a741057cae751ae700",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches Krishna consenting ('Hanta! So be it!') to declare prominent aspects of His boundless manifestations.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.20",
+      "alignmentFingerprint": "2e038ad801bdfb185c50b047931c5d8703aefc35703acf01dbae1a5fff8a4316",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures the foundational declaration: Krishna is the Self seated in every heart, the beginning, middle, and end of all beings.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.21",
+      "alignmentFingerprint": "427b315f5a5d3a74b8bc8c820ee50437c42853fc963a4b79d789004dd0e3673f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately pairs Vishnu of Adityas, radiant Sun of luminaries, Marici of Maruts, and Moon amid stars.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.22",
+      "alignmentFingerprint": "2038badd547c81e85d8dcc175dada9188889ecc2e1127327bb312d0edab71f8d",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Directly corresponds to Sama-Veda of Vedas, Vasava (Indra) of devas, and mind among the faculties/senses.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.23",
+      "alignmentFingerprint": "870da9cfe712f509861b27b4fbf81110bb99a1049ae97d1e2001d882c3757c6c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately matches Sankara of Rudras, Vittesha (Kubera) of Yakshas/Rakshasas, Pavaka of Vasus, and Meru of mountain peaks.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.24",
+      "alignmentFingerprint": "b6914ee6fb7010a07c515bedbb22a4c625cb5d6df67550d397708a15a0fa8e17",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately renders Brihaspati among priests, Skanda among heavenly generals, and the Ocean among reservoirs of water.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.25",
+      "alignmentFingerprint": "95e1260bded436378e07d872a8968c36ba9496f77cac83e405dcd77b30df8a41",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches Bhrigu among great rishis, monosyllable OM among words, Japa-yajna [FN#19] among sacrifices, and Himalayas among immovables.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.26",
+      "alignmentFingerprint": "cac098852c92dd23fd94aa7c2fdc81269fa5a32da9a5075de8e6b708e3c4dab3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately enumerates Aswattha among trees, Narada among divine sages, Chitraratha among Gandharvas, and Kapila among Siddhas.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.27",
+      "alignmentFingerprint": "d9756b30bc039d7aacd7a6d68711fb94294c863475394af57b7ec616783f4385",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches Ucchaisravas among steeds born of nectar, Airavata among lordly elephants, and the monarch among men.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.28",
+      "alignmentFingerprint": "039af0aae976315d5e740f8cc60daf3c81815cacecc2baf0fef8eb4d72c79899",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders the thunderbolt among weapons, Kamadhuk (Kamadhenu) among cows, and Vasuki among serpent tribes.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.29",
+      "alignmentFingerprint": "6a30e94d7275910b236a64c8f0272a3103936c8c02c6c3db5568dd8d0700c74d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly maps Ananta among Nagas, Varuna among aquatic deities, Aryam among Pitris, and Yama among dispensers of justice.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.30",
+      "alignmentFingerprint": "fff73e54b00fdae2f292f9a3244a60dec347c410d7bcee648978f5e90873f2d5",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Matches Prahlada among Daityas, Time among measures/reckoners, the lordly beast (lion/tiger) among quadrupeds, and Garuda among birds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.31",
+      "alignmentFingerprint": "9e59697c3eb82dbe822d1b881c6a5c708ed1e1eb9e4df9ec2fa22430c27b96fa",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately corresponds to wind among purifiers, Rama among armed warriors, Makara among aquatic creatures, and Ganga among rivers.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.32",
+      "alignmentFingerprint": "142cf988ec7c6a5a9551739ea1ef375f057679d8168bc5d5bb082df6fbc0d2bb",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Renders the beginning, middle, and end of creations, spiritual knowledge among sciences, and constructive speech (vāda) among disputants.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.33",
+      "alignmentFingerprint": "d09d1e79ba58f69160078634e57d8a466b29b69f1c16c107444a58a3368d9eec",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches the letter 'A' among characters, the Dvandva compound [FN#20], imperishable Time, and the all-facing Preserver.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.34",
+      "alignmentFingerprint": "05b125acd9c44905e397f39f0e46332b958760e1e90c4eb1789d1a642c8567d3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders all-devouring Death, origin of future beings, and the seven feminine virtues: fame, fortune, speech, memory, intellect, constancy, and forgiveness.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.35",
+      "alignmentFingerprint": "2bd6cc94f8df20bc7d5be7b8f8ef7db2aac6d883466df1308d4676479e374126",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately identifies Brihatsaman among hymns, Gayatri among metres, Margasirsha among months, and flowering Spring among seasons.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.36",
+      "alignmentFingerprint": "ff68ee9548b10f72dfa68c23866cc2e0870e0dac704e05b3adff835308c13575",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches the dice game of the deceitful, brilliance of the splendid, victory, resolve/action, and virtue of the good.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.37",
+      "alignmentFingerprint": "6ad7bee6f79f9c1ce8d7374f86449de5d5481bb004f002102170e58619c24c2b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents Vasudeva among Vrishnis, Arjuna among Pandavas, Vyasa among Munis, and Usanas among poets.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.38",
+      "alignmentFingerprint": "b87e4c9bac470f86ff17636c28c3a08757a9435e59a6aa943d8854f748ae44f4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders the rod/sceptre of rulers, statesmanship of victors, silence of secrets, and wisdom of knowers.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.39",
+      "alignmentFingerprint": "18ae13c10fe88ea6ecc72b03c4e2fbf2f0d95b383202dae4a9b9f3b71231b80e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures the Lord as the generative seed of all beings, without which no moving or unmoving creature can exist.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.40",
+      "alignmentFingerprint": "d752ccba03cf2a9145e2c40ddd20f6570f5923fcbaf584c917d29ee69434791f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches that there is no end to divine vibhūtis, this extensive list being merely an illustrative summary.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.41",
+      "alignmentFingerprint": "85b7609e56566a397a0eacf37c589f8b746adec89bcef9dbce550c89f011bce7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully reflects that whatever is glorious, prosperous, or mighty proceeds from a fragment of the Lord's divine splendour.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.10.42",
+      "alignmentFingerprint": "b7f6cd9b9225377d2c56dd8c63f805f2b9594f4e4f8aca74653dbc1e39dc8bb3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately renders the climactic conclusion: supporting and pervading the entire cosmos with a single fraction of His being.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Chapter 10 contains 42 canonical references; verses 10.4 and 10.5 form a verified shared two-verse span where Arnold combines their list of mental dispositions and attributes into an 8-line rhymed catalogue.",
+    "The source footnote marker anomaly [FN#l6] (using lowercase 'l' for digit 1) is faithfully preserved at verse 10.1 without affecting the text integrity.",
+    "The heptameter rhyming couplets adopted by Arnold from verse 10.1 onwards adhere closely to the semantic progression of the Sanskrit vibhūti enumerations."
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 8,
+  "inputSha256": "8f1eac63760e41fa6418b47bac3e860a6953a52ba9d5d3f716819dd3bb633e25",
+  "reviews": [
+    {
+      "canonicalRef": "gita.8.1",
+      "alignmentFingerprint": "d97297ef7e1a5a6f07a0cbb4645b995949b6fc5d76e223be93a0c85259c57120",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents Arjuna's questions defining Brahma, Adhyātma, Karma, Adhibhūta, and Adhidaiva.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.2",
+      "alignmentFingerprint": "61f113cb172f231f5b0d60fdce6df05e490bc6fe16285e99bb91d369f19ff33c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches Arjuna's second set of inquiries regarding Adhiyajña in the body and knowledge of the Lord at death.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.3",
+      "alignmentFingerprint": "c4b5590413c594030e99b660acc6c8266528115e55bceecf8d1bdfa6d7239eb2",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately captures Krishna's definitions of Akshara Brahman, Adhyatman as inner nature, and Karma as creative emanation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.4",
+      "alignmentFingerprint": "b0728c8c797916563982bff7434d226e549131408f1085d85ffb443ebbeaa963",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Faithfully renders Adhibhuta (perishable nature), Adhidaiva (Purusha), and Krishna Himself as Adhiyajna in the physical body.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.5",
+      "alignmentFingerprint": "30d959cf7798b1b80fe8a0c60ddd8405d2307f50ab3893f5408bb1c1f037d072",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches antakāle ca māmeva smaran and attaining Krishna's divine being upon leaving the mortal frame.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.6",
+      "alignmentFingerprint": "19dcdcea389d6ff1a7e291645f96b279f2c9a7bce708fd5dec140ba0d3144c71",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately captures attaining whatever state or object one meditates upon at the final moment of departure.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.7",
+      "alignmentFingerprint": "717809ef5442f23e22e6fa42ede56b292a2a303bee24590e61aef4bf006a7c5f",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Directly renders the injunction to remember the Lord at all times and engage in battle (māmanusmara yudhya ca).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.8",
+      "alignmentFingerprint": "ffcc083f12896215dd5ee988c7f34493ce32ce44f8209ff29a32b95f78e9ae56",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately conveys attaining the Supreme Divine Purusha through unbroken yoga of practice and single-minded devotion.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.9",
+      "alignmentFingerprint": "a1ccd3ed3a2c78bfce4ae7aec86ea9b5fc726a2ed95e97ed4c04c05c5c151715",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Faithfully renders the attributes of the Ancient Sage, Ordainer of all, subtler than an atom, effulgent as the sun beyond all dark.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.10",
+      "alignmentFingerprint": "4a6c2c82dcac259576bb7815d1981b9a5c530328cadf8c08ebb4b4ece45d8e5f",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Accurately depicts the dying yogi focusing vital breath between the eyebrows with calm faith to reach the Supreme Person.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.11",
+      "alignmentFingerprint": "62b9b409f1b06162667de8590c3952c920d5d6e0aeeced5aaaf25a872550ba95",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Corresponds to the imperishable goal (Aksharam) proclaimed by Vedic scholars, entered by dispassionate ascetics.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.12",
+      "alignmentFingerprint": "5d75284a52a30d1d9680efbcc4ddbd9c0bc395e5be1dbbdeab5d5387077695fc",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Directly matches controlling all sense gates, confining mind to the heart, and focusing prāṇa in meditative concentration.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.13",
+      "alignmentFingerprint": "ca9d2e930a5bee978cdc923336a605c84d74a2e7c02369df3d6d7f20b37216ec",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully represents uttering the sacred monosyllable OM while departing in remembrance of Krishna.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.14",
+      "alignmentFingerprint": "86b2dfdbcacd58e3b78b400ffadc996f642591059a5f2cfad5a09745e2e73cb4",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately represents the Lord being easily attained by the ever-steadfast yogi who remembers Him uninterruptedly.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.15",
+      "alignmentFingerprint": "cb997d266976e21812120c93e62533f2db4cc239a15206ec9e0f1bccb213a249",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Matches Mahatmas attaining the Lord and escaping rebirth in this fleeting abode of misery (duḥkhālayamaśāśvatam).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.16",
+      "alignmentFingerprint": "9c4c14df302376a590ab237b6502315685bb62ee1c785916ce8715b0da31b88c",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately captures that all worlds up to Brahmaloka are subject to return, but reaching the Lord brings freedom from rebirth.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.17",
+      "alignmentFingerprint": "377504a7df81532df24bbf6e52970ef2afd37c20e9c894b7718532007a545153",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly renders the cosmic Day and Night of Brahma each spanning a thousand Yugas (sahasrayugaparyantam).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.18",
+      "alignmentFingerprint": "67fb26b9f44899bf297a7b9068a0acd4c64db6cf66ea4a30758aa1038506f1f5",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Faithfully presents the emergence of all manifested things at dawn and their dissolution back into the unmanifest at nightfall.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.19",
+      "alignmentFingerprint": "65bb757b93e8fd6e2b3bd71a42d819f4fda541c8445c04a2f43f2e0df0d07598",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately renders the multitude of beings helplessly dissolving at cosmic night and re-emerging at daybreak (bhūtvā bhūtvā pralīyate).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.20",
+      "alignmentFingerprint": "359003900570bd99b90d6dc213a01447d127fcb244e49a97f222e1fdb4e97854",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Corresponds to the higher unmanifest eternal Reality that never perishes even when all created beings perish.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.21",
+      "alignmentFingerprint": "17281bd4ed68b4416486b8867c0a20259bdb2795605db0155b137b876b5d137f",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately represents the supreme unmanifest and imperishable state from which there is no return, as the Lord's supreme abode.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.22",
+      "alignmentFingerprint": "a0273791095a57fbe99594a23f827e39fa1c190ea858562069b684b2c3eab3de",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Faithfully renders the Supreme Purusha who pervades all and in whom all beings reside, attained by unswerving devotion.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.23",
+      "alignmentFingerprint": "d94e079b1594a3fda122f2f3d458be0201c6c7458f66c81c0e49a1566cdff5f5",
+      "status": "verified",
+      "confidence": 0.99,
+      "notes": "Verified genuine source omission. Arnold deliberately discarded the 10 Sanskrit lines covering verses 8.23-8.27 (marked by ellipsis and misnumbered FN#14 in the 1900 text, explained in translator note 15).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.24",
+      "alignmentFingerprint": "8b2805cab304b9204e04d269bc1db032a01f85efc5273693be02e90c1b1b9c63",
+      "status": "verified",
+      "confidence": 0.99,
+      "notes": "Verified genuine source omission; part of the five-shloka span (8.23-8.27) omitted by Arnold on philosophical grounds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.25",
+      "alignmentFingerprint": "8308b84bdf26085ffb03ccb347b5f3156f50a39827de2752f0d131e40ae09541",
+      "status": "verified",
+      "confidence": 0.99,
+      "notes": "Verified genuine source omission; part of the five-shloka span (8.23-8.27) omitted by Arnold on philosophical grounds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.26",
+      "alignmentFingerprint": "7e40e38714e04689b299e1f6c068754d96347dd248b5eb855fa6527df2864020",
+      "status": "verified",
+      "confidence": 0.99,
+      "notes": "Verified genuine source omission; part of the five-shloka span (8.23-8.27) omitted by Arnold on philosophical grounds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.27",
+      "alignmentFingerprint": "f804181f87c1ed9131489b2d8a059916fbba6f92197735cb8e3598d0a78f80c1",
+      "status": "verified",
+      "confidence": 0.99,
+      "notes": "Verified genuine source omission; part of the five-shloka span (8.23-8.27) omitted by Arnold on philosophical grounds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.8.28",
+      "alignmentFingerprint": "0e6fa166d458628c059d2b1bd207451a690e7e5c0f7ec900555f54d543cb08e8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately renders the closing verse praising spiritual wisdom above Vedic study, charity, and austerity, leading to supreme peace.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Verses 8.23 through 8.27 constitute a genuine five-verse source omission spanning ten Sanskrit hemistichs, correctly marked in the alignment with empty content and an explanatory note.",
+    "The source text anomaly wherein Gutenberg edition prints [FN#14] at the omission ellipsis instead of [FN#15] is faithfully noted without modifying the source text or corrupting the alignment.",
+    "Verses 8.9 and 8.10 are rendered in distinct four-line poetic stanzas with alternating rhyme, accurately corresponding to the respective canonical shlokas."
+  ]
+}

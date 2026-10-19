@@ -1,0 +1,1348 @@
+{
+  "schemaVersion": 1,
+  "workId": "gita",
+  "translationId": "edwin-arnold",
+  "chapter": 5,
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "numbering": "Standard 700-verse canon; Chapter 13 has 34 verses and excludes Arjuna's alternate opening question.",
+  "sourceChapterWithLineNumbers": "1:   Arjuna.\n2:   Yet, Krishna! at the one time thou dost laud\n3:   Surcease of works, and, at another time,\n4:   Service through work. Of these twain plainly tell\n5:   Which is the better way?\n6: \n7:   Krishna.\n8:   To cease from works\n9:   Is well, and to do works in holiness\n10:   Is well; and both conduct to bliss supreme;\n11:   But of these twain the better way is his\n12:   Who working piously refraineth not.\n13: \n14:   That is the true Renouncer, firm and fixed,\n15:   Who--seeking nought, rejecting nought--dwells proof\n16:   Against the \"opposites.\"[FN#8] O valiant Prince!\n17:   In doing, such breaks lightly from all deed:\n18:   'Tis the new scholar talks as they were two,\n19:   This Sankhya and this Yoga: wise men know\n20:   Who husbands one plucks golden fruit of both!\n21:   The region of high rest which Sankhyans reach\n22:   Yogins attain. Who sees these twain as one\n23:   Sees with clear eyes! Yet such abstraction, Chief!\n24:   Is hard to win without much holiness.\n25:   Whoso is fixed in holiness, self-ruled,\n26:   Pure-hearted, lord of senses and of self,\n27:   Lost in the common life of all which lives--\n28:   A \"Yogayukt\"--he is a Saint who wends\n29:   Straightway to Brahm. Such an one is not touched\n30:   By taint of deeds. \"Nought of myself I do!\"\n31:   Thus will he think-who holds the truth of truths--\n32:   In seeing, hearing, touching, smelling; when\n33:   He eats, or goes, or breathes; slumbers or talks,\n34:   Holds fast or loosens, opes his eyes or shuts;\n35:   Always assured \"This is the sense-world plays\n36:   With senses.\"He that acts in thought of Brahm,\n37:   Detaching end from act, with act content,\n38:   The world of sense can no more stain his soul\n39:   Than waters mar th' enamelled lotus-leaf.\n40:   With life, with heart, with mind,-nay, with the help\n41:   Of all five senses--letting selfhood go--\n42:   Yogins toil ever towards their souls' release.\n43:   Such votaries, renouncing fruit of deeds,\n44:   Gain endless peace: the unvowed, the passion-bound,\n45:   Seeking a fruit from works, are fastened down.\n46:   The embodied sage, withdrawn within his soul,\n47:   At every act sits godlike in \"the town\n48:   Which hath nine gateways,\"[FN#9] neither doing aught\n49:   Nor causing any deed. This world's Lord makes\n50:   Neither the work, nor passion for the work,\n51:   Nor lust for fruit of work; the man's own self\n52:   Pushes to these! The Master of this World\n53:   Takes on himself the good or evil deeds\n54:   Of no man--dwelling beyond! Mankind errs here\n55:   By folly, darkening knowledge. But, for whom\n56:   That darkness of the soul is chased by light,\n57:   Splendid and clear shines manifest the Truth\n58:   As if a Sun of Wisdom sprang to shed\n59:   Its beams of dawn. Him meditating still,\n60:   Him seeking, with Him blended, stayed on Him,\n61:   The souls illuminated take that road\n62:   Which hath no turning back--their sins flung off\n63:   By strength of faith. [Who will may have this Light;\n64:   Who hath it sees.] To him who wisely sees,\n65:   The Brahman with his scrolls and sanctities,\n66:   The cow, the elephant, the unclean dog,\n67:   The Outcast gorging dog's meat, are all one.\n68: \n69:   The world is overcome--aye! even here!\n70:   By such as fix their faith on Unity.\n71:   The sinless Brahma dwells in Unity,\n72:   And they in Brahma. Be not over-glad\n73:   Attaining joy, and be not over-sad\n74:   Encountering grief, but, stayed on Brahma, still\n75:   Constant let each abide! The sage whose soul\n76:   Holds off from outer contacts, in himself\n77:   Finds bliss; to Brahma joined by piety,\n78:   His spirit tastes eternal peace. The joys\n79:   Springing from sense-life are but quickening wombs\n80:   Which breed sure griefs: those joys begin and end!\n81:   The wise mind takes no pleasure, Kunti's Son!\n82:   In such as those! But if a man shall learn,\n83:   Even while he lives and bears his body's chain,\n84:   To master lust and anger, he is blest!\n85:   He is the Yukta; he hath happiness,\n86:   Contentment, light, within: his life is merged\n87:   In Brahma's life; he doth Nirvana touch!\n88:   Thus go the Rishis unto rest, who dwell\n89:   With sins effaced, with doubts at end, with hearts\n90:   Governed and calm. Glad in all good they live,\n91:   Nigh to the peace of God; and all those live\n92:   Who pass their days exempt from greed and wrath,\n93:   Subduing self and senses, knowing the Soul!\n94: \n95:   The Saint who shuts outside his placid soul\n96:   All touch of sense, letting no contact through;\n97:   Whose quiet eyes gaze straight from fixed brows,\n98:   Whose outward breath and inward breath are drawn\n99:   Equal and slow through nostrils still and close;\n100:   That one-with organs, heart, and mind constrained,\n101:   Bent on deliverance, having put away\n102:   Passion, and fear, and rage;--hath, even now,\n103:   Obtained deliverance, ever and ever freed.\n104:   Yea! for he knows Me Who am He that heeds\n105:   The sacrifice and worship, God revealed;\n106:   And He who heeds not, being Lord of Worlds,\n107:   Lover of all that lives, God unrevealed,\n108:   Wherein who will shall find surety and shield!\n109: \n110:   HERE ENDS CHAPTER V. OF THE BHAGAVAD-GITA,\n111:   Entitled \"Karmasanyasayog,\"\n112:   Or \"The Book of Religion by Renouncing Fruit of Works.\"",
+  "translatorNotes": [
+    {
+      "number": 1,
+      "marker": "[FN#1]",
+      "text": "Some repetitionary lines are here omitted."
+    },
+    {
+      "number": 2,
+      "marker": "[FN#2]",
+      "text": "Technical phrases of Vedic religion."
+    },
+    {
+      "number": 3,
+      "marker": "[FN#3]",
+      "text": "The whole of this passage is highly involved and difficult to\nrender."
+    },
+    {
+      "number": 4,
+      "marker": "[FN#4]",
+      "text": "I feel convinced sankhyanan and yoginan must be transposed\nhere in sense."
+    },
+    {
+      "number": 5,
+      "marker": "[FN#5]",
+      "text": "I am doubtful of accuracy here."
+    },
+    {
+      "number": 6,
+      "marker": "[FN#6]",
+      "text": "A name of the sun."
+    },
+    {
+      "number": 7,
+      "marker": "[FN#7]",
+      "text": "Without desire of fruit."
+    },
+    {
+      "number": 8,
+      "marker": "[FN#8]",
+      "text": "That is,\"joy and sorrow, success and failure, heat and cold,\"&c."
+    },
+    {
+      "number": 9,
+      "marker": "[FN#9]",
+      "text": "i.e., the body."
+    },
+    {
+      "number": 10,
+      "marker": "[FN#10]",
+      "text": "The Sanskrit has this play on the double meaning of Atman."
+    },
+    {
+      "number": 11,
+      "marker": "[FN#11]",
+      "text": "So in original."
+    },
+    {
+      "number": 12,
+      "marker": "[FN#12]",
+      "text": "Beings of low and devilish nature."
+    },
+    {
+      "number": 13,
+      "marker": "[FN#13]",
+      "text": "Krishna."
+    },
+    {
+      "number": 14,
+      "marker": "[FN#14]",
+      "text": "I read here janma, \"birth;\" not jara,\"age\""
+    },
+    {
+      "number": 15,
+      "marker": "[FN#15]",
+      "text": "I have discarded ten lines of Sanskrit text here as an\nundoubted interpolation by some Vedantist"
+    },
+    {
+      "number": 16,
+      "marker": "[FN#16]",
+      "text": "The Sanskrit poem here rises to an elevation of style and\nmanner which I have endeavoured to mark by change of metre."
+    },
+    {
+      "number": 17,
+      "marker": "[FN#17]",
+      "text": "Ahinsa."
+    },
+    {
+      "number": 18,
+      "marker": "[FN#18]",
+      "text": "The nectar of immortality."
+    },
+    {
+      "number": 19,
+      "marker": "[FN#19]",
+      "text": "Called \"The Jap.\""
+    },
+    {
+      "number": 20,
+      "marker": "[FN#20]",
+      "text": "The compound form of Sanskrit words."
+    },
+    {
+      "number": 21,
+      "marker": "[FN#21]",
+      "text": "\"Kamalapatraksha\""
+    },
+    {
+      "number": 22,
+      "marker": "[FN#22]",
+      "text": "These are all divine or deified orders of the Hindoo Pantheon."
+    },
+    {
+      "number": 23,
+      "marker": "[FN#23]",
+      "text": "\"Hail to Thee, God of Gods! Be favourable!\""
+    },
+    {
+      "number": 24,
+      "marker": "[FN#24]",
+      "text": "The wind."
+    },
+    {
+      "number": 25,
+      "marker": "[FN#25]",
+      "text": "\"Not peering about,\"anapeksha."
+    },
+    {
+      "number": 26,
+      "marker": "[FN#26]",
+      "text": "The Calcutta edition of the Mahabharata has these three\nopening lines."
+    },
+    {
+      "number": 27,
+      "marker": "[FN#27]",
+      "text": "This is the nearest possible version of\nKshetrakshetrajnayojnanan yat tajnan matan mama."
+    },
+    {
+      "number": 28,
+      "marker": "[FN#28]",
+      "text": "I omit two lines of the Sanskrit here, evidently interpolated by\nsome Vedantist."
+    },
+    {
+      "number": 29,
+      "marker": "[FN#29]",
+      "text": "Wombs."
+    },
+    {
+      "number": 30,
+      "marker": "[FN#30]",
+      "text": "I do not consider the Sanskrit verses here-which are somewhat\nfreely rendered--\"an attack on the authority of the Vedas,\" with Mr\nDavies, but a beautiful lyrical episode, a new \"Parable of the fig-tree.\""
+    },
+    {
+      "number": 31,
+      "marker": "[FN#31]",
+      "text": "I omit a verse here, evidently interpolated."
+    },
+    {
+      "number": 32,
+      "marker": "[FN#32]",
+      "text": "\"Of the Asuras,\" lit."
+    },
+    {
+      "number": 33,
+      "marker": "[FN#33]",
+      "text": "I omit the ten concluding shlokas, with Mr Davis."
+    },
+    {
+      "number": 34,
+      "marker": "[FN#34]",
+      "text": "Rakshasas and Yakshas are unembodied but capricious beings\nof great power, gifts, and beauty, same times also of benignity."
+    },
+    {
+      "number": 35,
+      "marker": "[FN#35]",
+      "text": "These are spirits of evil wandering ghosts."
+    },
+    {
+      "number": 36,
+      "marker": "[FN#36]",
+      "text": "Yatayaman, food which has remained after the watches of the\nnight. In India this would probably \"go bad.\""
+    },
+    {
+      "number": 37,
+      "marker": "[FN#37]",
+      "text": "I omit the concluding shlokas, as of very doubtful authenticity."
+    }
+  ],
+  "paratext": [
+    {
+      "chapter": 5,
+      "type": "chapter-colophon",
+      "text": "HERE ENDS CHAPTER V. OF THE BHAGAVAD-GITA,\n  Entitled \"Karmasanyasayog,\"\n  Or \"The Book of Religion by Renouncing Fruit of Works.\"",
+      "checksum": "a191cda6db2927c6770000944f10273da4d48b32f9752709de1e4ffecbf585cc",
+      "sourceSpan": {
+        "start": 4714,
+        "end": 4846,
+        "lineStart": 1076,
+        "lineEnd": 1078,
+        "checksum": "8687b5acdd8d70e386ec07e8402e616d55108fd96aa2c7e2657ede7e220dbee1"
+      }
+    }
+  ],
+  "records": [
+    {
+      "canonicalRef": "gita.5.1",
+      "alignmentFingerprint": "ea08a050bffcf91dacda401dbe075b571bed4bbf9213946337abfa4da4a303b7",
+      "sanskrit": "अर्जुन उवाच।\nसंन्यासं कर्मणां कृष्ण पुनर्योगं च शंससि।\nयच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम् ॥",
+      "iast": "arjuna uvāca\nsaṃnyāsaṃ karmaṇāṃ kṛṣṇa punaryogaṃ ca śaṃsasi\nyacchreya etayorekaṃ tanme brūhi suniścitam",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.5.1",
+        "content": "Arjuna.\n  Yet, Krishna! at the one time thou dost laud\n  Surcease of works, and, at another time,\n  Service through work. Of these twain plainly tell\n  Which is the better way?",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.1"
+        ],
+        "sourceSpans": [
+          {
+            "start": 0,
+            "end": 180,
+            "lineStart": 967,
+            "lineEnd": 972,
+            "checksum": "aeb991139cd119747fe436196d4c38863385d00f46aaff7c7090b1a05e0de927"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.1 Arjuna said Renunciation of actions, O Krishna, Thou praisest, and again Yoga. Tell me conclusively that which is the better of the two."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.1 \"Arjuna said: My Lord! At one moment Thou praisest renunciation of action; at another, right action. Tell me truly, I pray, which of these is the more conducive to my highest welfare?"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.1 Arjuna said O Krsna, You praise renunciation of actions, and again, (Karma-) yoga. Tell me for certain that one which is better between these two."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.2",
+      "alignmentFingerprint": "03ee2816abedb9ad056368a72b64401f9162b1b80cce8cdbed06bf587703fe9d",
+      "sanskrit": "श्रीभगवानुवाच।\nसंन्यासः कर्मयोगश्च निःश्रेयसकरावुभौ।\nतयोस्तु कर्मसंन्यासात्कर्मयोगो विशिष्यते ॥",
+      "iast": "śrībhagavānuvāca\nsaṃnyāsaḥ karmayogaśca niḥśreyasakarāvubhau\ntayostu karmasaṃnyāsātkarmayogo viśiṣyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.2",
+        "content": "Krishna.\n  To cease from works\n  Is well, and to do works in holiness\n  Is well; and both conduct to bliss supreme;\n  But of these twain the better way is his\n  Who working piously refraineth not.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.2"
+        ],
+        "sourceSpans": [
+          {
+            "start": 180,
+            "end": 380,
+            "lineStart": 973,
+            "lineEnd": 979,
+            "checksum": "4d14ad352a1393d3649a4b8f40328ae80e0776c4af1f637a6f9061bcf06f58b9"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.2 The Blessed Lord said Renunciation and the Yoga of action both lead to the highest bliss; but of the two, the Yoga of action is superior to the renunciation of action."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.2 Lord Shri Krishna replied: Renunciation of action and the path of right action both lead to the highest; of the two, right action is the better."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.2 The Blessed Lord said Both renunciation of actions and Karma-yoga lead to Liberation. Between the two, Karma-yoga, however, excels over renunciation of actions."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.3",
+      "alignmentFingerprint": "7efd73f4e767be20adbf043042040c17d8cb1cb4d235cd380dd6cb87ff8012b2",
+      "sanskrit": "ज्ञेयः स नित्यसंन्यासी यो न द्वेष्टि न काङ्क्षति।\nनिर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते ॥",
+      "iast": "jñeyaḥ sa nityasaṃnyāsī yo na dveṣṭi na kāṅkṣati\nnirdvandvo hi mahābāho sukhaṃ bandhātpramucyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.3",
+        "content": "That is the true Renouncer, firm and fixed,\n  Who--seeking nought, rejecting nought--dwells proof\n  Against the \"opposites.\"[FN#8] O valiant Prince!\n  In doing, such breaks lightly from all deed:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.3"
+        ],
+        "sourceSpans": [
+          {
+            "start": 380,
+            "end": 578,
+            "lineStart": 980,
+            "lineEnd": 983,
+            "checksum": "412d4490704925a58e12d89468cf8dd964acf48c82e8922b6aa46d24f43971f1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.3 He should be known as a perpertual Sannyasi who neither hates nor desires; for, free from the pairs of opposites, O mighty-armed Arjuna, he is easily set free from bondage."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.3 He is a true ascetic who never desires or dislikes, who is uninfluenced by the opposites and is easily freed from bondage."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.3 He who does not hate and does not crave should be known as a man of constant renunciation."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.4",
+      "alignmentFingerprint": "c0041676fe5d38cfabf9115906a8498248357549111ce1f39ae9633ceb00b396",
+      "sanskrit": "साङ्ख्ययोगौ पृथग्बालाः प्रवदन्ति न पण्डिताः।\nएकमप्यास्थितः सम्यगुभयोर्विन्दते फलम् ॥",
+      "iast": "sāṅkhyayogau pṛthagbālāḥ pravadanti na paṇḍitāḥ\nekamapyāsthitaḥ samyagubhayorvindate phalam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.4",
+        "content": "'Tis the new scholar talks as they were two,\n  This Sankhya and this Yoga: wise men know\n  Who husbands one plucks golden fruit of both!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.4"
+        ],
+        "sourceSpans": [
+          {
+            "start": 578,
+            "end": 717,
+            "lineStart": 984,
+            "lineEnd": 986,
+            "checksum": "d5091745689a09753551fe86871b49b761584808dcbd1cc57369490dc4582d11"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.4 Children, not the wise, speak of knowledge and the Yoga of action or the performance of action as though they are distinct and different; he who is truly established in one obtains the fruits of both."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.4 Only the unenlightened speak of wisdom and right action as separate, not the wise. If any man knows one, he enjoys the fruit of both."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.4 The fools, not the learned ones, speak of Sankhya (the path of Knowledge) and (Karma-) yoga as different. Any one who properly resorts to even one (of them) gets the result of both."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.5",
+      "alignmentFingerprint": "a7b5050125f9a505f6cbe9ce37be7695fe9251815b0653aa6e5c7566645f8f38",
+      "sanskrit": "यत्साङ्ख्यैः प्राप्यते स्थानं तद्योगैरपि गम्यते।\nएकं साङ्ख्यं च योगं च यः पश्यति स पश्यति ॥",
+      "iast": "yatsāṅkhyaiḥ prāpyate sthānaṃ tadyogairapi gamyate\nekaṃ sāṅkhyaṃ ca yogaṃ ca yaḥ paśyati sa paśyati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.5",
+        "content": "The region of high rest which Sankhyans reach\n  Yogins attain. Who sees these twain as one\n  Sees with clear eyes!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.5"
+        ],
+        "sourceSpans": [
+          {
+            "start": 717,
+            "end": 834,
+            "lineStart": 987,
+            "lineEnd": 989,
+            "checksum": "9874aa8b6af26956b9598bba66a9e0e372b0a8719f210d224b9995a069be6c61"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.5 That place which is reached by the Sankhyas or the Jnanis is reached by the Yogis (Karma Yogis). He sees, who sees knowledge and the performance of action (Karma Yoga) as one."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.5 The level which is reached by wisdom is attained through right action as well. He who perceives that the two are one, knows the truth."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.5 The State [Sthana (State) is used in the derivative sense of 'the place in which one remains established, and from which one does not become relegated'.] that is reached by the Sankhyas, that is reached by the yogis as well. He sees who sees Sankhya and yoga as one."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.6",
+      "alignmentFingerprint": "e4c779b4cd226a813715fffe5a2d80db00de6b90a34a692440b9be75c39e59fe",
+      "sanskrit": "संन्यासस्तु महाबाहो दुःखमाप्तुमयोगतः।\nयोगयुक्तो मुनिर्ब्रह्म नचिरेणाधिगच्छति ॥",
+      "iast": "saṃnyāsastu mahābāho duḥkhamāptumayogataḥ\nyogayukto munirbrahma nacireṇādhigacchati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.6",
+        "content": "Yet such abstraction, Chief!\n  Is hard to win without much holiness.\n  Whoso is fixed in holiness, self-ruled,\n  Pure-hearted, lord of senses and of self,\n  Lost in the common life of all which lives--\n  A \"Yogayukt\"--he is a Saint who wends\n  Straightway to Brahm. Such an one is not touched\n  By taint of deeds.",
+        "relation": "shared-source-span",
+        "references": [
+          "gita.5.6",
+          "gita.5.7"
+        ],
+        "sourceSpans": [
+          {
+            "start": 834,
+            "end": 1148,
+            "lineStart": 989,
+            "lineEnd": 996,
+            "checksum": "348f218d6f8431fd4d6111dfa47da16901ae222bbb7d36eb582258cf6b76dad3"
+          }
+        ],
+        "note": "Arnold interweaves the difficulty of renunciation and attaining Brahman (5.6) with the pure-hearted yogin's description (5.7)."
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.6 But renunciation, O mighty-armed Arjuna, is hard to attain without Yoga; the Yoga-harmonised sage ickly goes to Brahman."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.6 Without concentration, O Mighty Man, renunciation is difficult. But the sage who is always meditating on the Divine, before long shall attain the Absolute."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.6 But, O mighty-armed one, renunciation is hard to attain without (Karma-) yoga. The meditative man eipped with yoga attains Brahman without delay."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.7",
+      "alignmentFingerprint": "b62eac4a5c79e1f832840b227c3b5bd22cc49e276b245dc4b36b5a3e7720420c",
+      "sanskrit": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः।\nसर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते ॥",
+      "iast": "yogayukto viśuddhātmā vijitātmā jitendriyaḥ\nsarvabhūtātmabhūtātmā kurvannapi na lipyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.7",
+        "content": "Yet such abstraction, Chief!\n  Is hard to win without much holiness.\n  Whoso is fixed in holiness, self-ruled,\n  Pure-hearted, lord of senses and of self,\n  Lost in the common life of all which lives--\n  A \"Yogayukt\"--he is a Saint who wends\n  Straightway to Brahm. Such an one is not touched\n  By taint of deeds.",
+        "relation": "shared-source-span",
+        "references": [
+          "gita.5.6",
+          "gita.5.7"
+        ],
+        "sourceSpans": [
+          {
+            "start": 834,
+            "end": 1148,
+            "lineStart": 989,
+            "lineEnd": 996,
+            "checksum": "348f218d6f8431fd4d6111dfa47da16901ae222bbb7d36eb582258cf6b76dad3"
+          }
+        ],
+        "note": "Arnold interweaves the difficulty of renunciation and attaining Brahman (5.6) with the pure-hearted yogin's description (5.7)."
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.7 He who is devoted to the path of action, whose mind is ite pure, who has conered the self, who has subdued his senses and who realises his Self as the Self in all beings, though acting, is not tainted."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.7 He who is spiritual, who is pure, who has overcome his senses and his personal self, who has realised his highest Self as the Self of all, such a one, even though he acts, is not bound by his acts."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.7 Endowed with yoga, [i.e. devoted to the performance of the nitya and naimittika duties.] pure in mind, controlled in body, a coneror of the organs, the Self of the selves of all beings-he does not become tainted even while performing actions. [The construction of the sentence is this: When this person resorts to nitya and naimittika rites and duties as a means to the achievement of fully Illumination, and thus becomes fully enlightened, then, even when he acts through the apparent functions of the mind, organs, etc., he does not become afflected.]"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.8",
+      "alignmentFingerprint": "2b26660a238ac0e94842f97a87df86a5905c3929c79c2821403cba26b7912623",
+      "sanskrit": "नैव किञ्चित्करोमीति युक्तो मन्येत तत्त्ववित्।\nपश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन् ॥",
+      "iast": "naiva kiñcitkaromīti yukto manyeta tattvavit\npaśyañśruṇvanspṛśañjighrannaśnangacchansvapañśvasan",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.8",
+        "content": "\"Nought of myself I do!\"\n  Thus will he think-who holds the truth of truths--\n  In seeing, hearing, touching, smelling; when\n  He eats, or goes, or breathes; slumbers",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.8"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1148,
+            "end": 1315,
+            "lineStart": 996,
+            "lineEnd": 999,
+            "checksum": "8c3fa4b60ca31325aa48ff26404af5f6e2c7ec7894e092856a65929c6568674e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.8 \"I do nothing at all,\" thus would the harmonised knower of Truth think seeing, hearing, touching, smelling, eating, going, sleeping, breathing."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.8 Though the saint sees, hears, touches, smells, eats, moves, sleeps and breathes, yet he knows the Truth, and he knows that it is not he who acts."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.8-5.9 Remaining absorbed in the Self, the knower of Reality should think, 'I certainly do not do anything', even while seeing, hearing, touching, smelling, eating, moving, sleeping, breathing, speaking, releasing, holding, opening and closing the eyes-remembering that the organs function in relation to the objects of the organs."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.9",
+      "alignmentFingerprint": "0f75ec2ee5296a0fa1812e7b882c91ef2946d0fc46e74b7f00a68f7de73e47b2",
+      "sanskrit": "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि।\nइन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन् ॥",
+      "iast": "pralapanvisṛjangṛhṇannunmiṣannimiṣannapi\nindriyāṇīndriyārtheṣu vartanta iti dhārayan",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.9",
+        "content": "or talks,\n  Holds fast or loosens, opes his eyes or shuts;\n  Always assured \"This is the sense-world plays\n  With senses.\"",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.9"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1315,
+            "end": 1437,
+            "lineStart": 999,
+            "lineEnd": 1002,
+            "checksum": "66d7c9627060a67ef751ed2189b2a32d257b81346792586cd80d119145d023fc"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.9 Speaking, letting go, seizing, opening and closing the eyes convinced that the senses move among the sense-objects."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.9 Though he talks, though he gives and receives, though he opens his eyes and shuts them, he still knows that his senses are merely disporting themselves among the objects of perception."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.8-5.9 Remaining absorbed in the Self, the knower of Reality should think, 'I certainly do not do anything', even while seeing, hearing, touching, smelling, eating, moving, sleeping, breathing, speaking, releasing, holding, opening and closing the eyes-remembering that the organs function in relation to the objects of the organs."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.10",
+      "alignmentFingerprint": "f17ad676ffbfddc2c4f62a0ae69d15eaea430c2a657a8002339709610a180bcd",
+      "sanskrit": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः।\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा ॥",
+      "iast": "brahmaṇyādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ\nlipyate na sa pāpena padmapatramivāmbhasā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.10",
+        "content": "He that acts in thought of Brahm,\n  Detaching end from act, with act content,\n  The world of sense can no more stain his soul\n  Than waters mar th' enamelled lotus-leaf.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.10"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1437,
+            "end": 1607,
+            "lineStart": 1002,
+            "lineEnd": 1005,
+            "checksum": "f26c87e75d389495f6a9ca76b16dc91ded5eb25e51295a19cb44b0d8ca42cb31"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.10 He who does actions, offering them to Brahman, and abandoning attachment, is not tainted by sin, just as a lotus-leaf is not tainted by water."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.10 He who dedicates his actions to the Spirit, without any personal attachment to them, he is no more tainted by sin than the water lily is wetted by water."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.10 One who acts by dedicating actions to Brahman and by renouncing attachment, he does not become polluted by sin, just as a lotus leaf is not by water."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.11",
+      "alignmentFingerprint": "ac8956936b8f2a2405bc5f22ccdbbc9adcd930276ba1ba6ddcc61473d3d6898a",
+      "sanskrit": "कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि।\nयोगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये ॥",
+      "iast": "kāyena manasā buddhyā kevalairindriyairapi\nyoginaḥ karma kurvanti saṅgaṃ tyaktvātmaśuddhaye",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.11",
+        "content": "With life, with heart, with mind,-nay, with the help\n  Of all five senses--letting selfhood go--\n  Yogins toil ever towards their souls' release.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.11"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1607,
+            "end": 1755,
+            "lineStart": 1006,
+            "lineEnd": 1008,
+            "checksum": "a36068d0cd9bfdf290e26687c68f51a1ba7deeb33e37bfd6b77d31aad55b683f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.11 Yogis, having abandoned attachment, perform actions only by the body, mind, intellect, and even by the senses, for the purification of the self."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.11 The sage performs his action dispassionately, using his body, mind and intellect, and even his senses, always as a means of purification."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.11 By giving up attachment, the yogis undertake work merely through the body, mind, intellect and even the organs, for the purification of themselves."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.12",
+      "alignmentFingerprint": "1bbc38b1907fea848fa0c78a9ef5b8888328d197b0c30c4cc7f7fc04a86502e0",
+      "sanskrit": "युक्तः कर्मफलं त्यक्त्वा शान्तिमाप्नोति नैष्ठिकीम्।\nअयुक्तः कामकारेण फले सक्तो निबध्यते ॥",
+      "iast": "yuktaḥ karmaphalaṃ tyaktvā śāntimāpnoti naiṣṭhikīm\nayuktaḥ kāmakāreṇa phale sakto nibadhyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.12",
+        "content": "Such votaries, renouncing fruit of deeds,\n  Gain endless peace: the unvowed, the passion-bound,\n  Seeking a fruit from works, are fastened down.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.12"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1755,
+            "end": 1902,
+            "lineStart": 1009,
+            "lineEnd": 1011,
+            "checksum": "4c46b31700a719654b733d6b7a3cc0b7a31035d0b3a3eb544636164e3b2b62e9"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.12 The united one (the well poised or the harmonised) having abandoned the fruit of action attains to the eternal peace: the non-united only (the unsteady or the unbalanced) impelled by desire, attached to the fruit, is bound."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.12 Having abandoned the fruit of action, he wins eternal peace. Others unacquainted with spirituality, led by desire and clinging to the benefit which they think will follow their actions, become entangled in them."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.12 Giving up the result of work by becoming resolute in faith, one attains Peace arising from steadfastness. One who is lacking in resolute faith, being attached to the result under the impulsion of desire, becomes bound."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.13",
+      "alignmentFingerprint": "28a1357625b1e7b40e7db71404809e852ebd370f6812d81cceda0a703e477296",
+      "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं वशी।\nनवद्वारे पुरे देही नैव कुर्वन्न कारयन् ॥",
+      "iast": "sarvakarmāṇi manasā saṃnyasyāste sukhaṃ vaśī\nnavadvāre pure dehī naiva kurvanna kārayan",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.13",
+        "content": "The embodied sage, withdrawn within his soul,\n  At every act sits godlike in \"the town\n  Which hath nine gateways,\"[FN#9] neither doing aught\n  Nor causing any deed.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.13"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1902,
+            "end": 2070,
+            "lineStart": 1012,
+            "lineEnd": 1015,
+            "checksum": "4347e346d7ba868e36a0c668ea79d3b12eda5640de27877cf9be39e9bebaa83b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.13 Mentally renouncing all actions and self-controlled, the embodied one rests happily in the nine-gated city, neither acting nor causing others (body and senses) to act."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.13 Mentally renouncing all actions, the self-controlled soul enjoys bliss in this body, the city of the nine gates, neither doing anything himself nor causing anything to be done."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.13 The embodied man of self-control, having given up all actions mentally, continues happily in the town of nine gates, without doing or causing (others) to do anything at all."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.14",
+      "alignmentFingerprint": "ab63a507d6c70b3b21ebb887cc06df7a88aa60d7ec081bd98d1a223bf8ab5afa",
+      "sanskrit": "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः।\nन कर्मफलसंयोगं स्वभावस्तु प्रवर्तते ॥",
+      "iast": "na kartṛtvaṃ na karmāṇi lokasya sṛjati prabhuḥ\nna karmaphalasaṃyogaṃ svabhāvastu pravartate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.14",
+        "content": "This world's Lord makes\n  Neither the work, nor passion for the work,\n  Nor lust for fruit of work; the man's own self\n  Pushes to these!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.14"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2070,
+            "end": 2208,
+            "lineStart": 1015,
+            "lineEnd": 1018,
+            "checksum": "9a1c2e1fd1494056e4324f494f43479e1645d20acc378ae27b9b68a455ed2625"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.14 Neither agency nor actions does the Lord create for the world, nor union with the fruits of actions. But it is Nature that acts."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.14 The Lord of this universe has not ordained activity, or any incentive thereto, or any relation between an act and its consequences. All this is the work of Nature."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.14 The Self does not create agentship or any objects (of desire) for anyone; nor association with the results of actions. But it is Nature that acts."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.15",
+      "alignmentFingerprint": "26442391f69cfd245a3664b86c8cd908ebea03720834edae89047f241b3ae2ec",
+      "sanskrit": "नादत्ते कस्यचित्पापं न चैव सुकृतं विभुः।\nअज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः ॥",
+      "iast": "nādatte kasyacitpāpaṃ na caiva sukṛtaṃ vibhuḥ\najñānenāvṛtaṃ jñānaṃ tena muhyanti jantavaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.15",
+        "content": "The Master of this World\n  Takes on himself the good or evil deeds\n  Of no man--dwelling beyond! Mankind errs here\n  By folly, darkening knowledge.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.15"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2208,
+            "end": 2356,
+            "lineStart": 1018,
+            "lineEnd": 1021,
+            "checksum": "6487b6523c6f4a8d586d6aedbfa04f5fb0bf923fcb3a3cfa3d1b29c7bbf09db8"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.15 The Lord takes neither the demerit nor even the merit of any; knowledge is enveloped by ignorance, thery beings are deluded."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.15 The Lord does not accept responsibility for any man's sin or merit. Men are deluded because in them wisdom is submerged in ignorance."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.15 The Omnipresent neither accepts anybody's sin nor even virtue. Knowledge remains covered by ignorance. Thery the creatures become deluded."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.16",
+      "alignmentFingerprint": "31db7e438e4b14874e0d65b5e21eabc15cc565f4636bae44d513e8da5ab9be19",
+      "sanskrit": "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मनः।\nतेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम् ॥",
+      "iast": "jñānena tu tadajñānaṃ yeṣāṃ nāśitamātmanaḥ\nteṣāmādityavajjñānaṃ prakāśayati tatparam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.16",
+        "content": "But, for whom\n  That darkness of the soul is chased by light,\n  Splendid and clear shines manifest the Truth\n  As if a Sun of Wisdom sprang to shed\n  Its beams of dawn.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.16"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2356,
+            "end": 2525,
+            "lineStart": 1021,
+            "lineEnd": 1025,
+            "checksum": "521c1f653c4062044759e0b87b1ec6ce9eb4ebc11e8855bcd98b55d1637e4fbc"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.16 But to those whose ignorance is destroyed by the knowledge of the Self, like the sun, knowledge reveals the Supreme (Brahman)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.16 Surely wisdom is like the sun, revealing the supreme truth to those whose ignorance is dispelled by the wisdom of the Self."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.16 But in the case of those of whom that ignorance of theirs becomes destroyed by the knowledge (of the Self), their Knowledge, like the sun, reveals that supreme Reality."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.17",
+      "alignmentFingerprint": "ea7726fb7d387a7d2503bdf7427f98d051c4ccc91f476f921f9733c693a15447",
+      "sanskrit": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः।\nगच्छन्त्यपुनरावृत्तिं ज्ञाननिर्धूतकल्मषाः ॥",
+      "iast": "tadbuddhayastadātmānastanniṣṭhāstatparāyaṇāḥ\ngacchantyapunarāvṛttiṃ jñānanirdhūtakalmaṣāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.17",
+        "content": "Him meditating still,\n  Him seeking, with Him blended, stayed on Him,\n  The souls illuminated take that road\n  Which hath no turning back--their sins flung off\n  By strength of faith. [Who will may have this Light;\n  Who hath it sees.]",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.17"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2525,
+            "end": 2761,
+            "lineStart": 1025,
+            "lineEnd": 1030,
+            "checksum": "af8259882d75a0f7cbb30d2ee2fdb21f0c271351ee29449b5f38bdae3b9a58de"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.17 Their intellect absorbed in That, their self being That, established in That, with That for their supreme goal, they go whence there is no return, their sins dispelled by knowledge."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.17 Meditating on the Divine, having faith in the Divine, concentrating on the Divine and losing themselves in the Divine, their sins dissolved in wisdom, they go whence there is no return."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.17 Those who have their intellect absorbed in That, whose Self is That, who are steadfast in That, who have That as their supreme Goal-they attain the state of non-returning, their dirt having been removed by Knowledge."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.18",
+      "alignmentFingerprint": "dc3edde17959bfb6f8cab9a58044201aaf781c1f7ecceeb3ffa3abd6a6a00818",
+      "sanskrit": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि।\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ॥",
+      "iast": "vidyāvinayasampanne brāhmaṇe gavi hastini\nśuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.18",
+        "content": "To him who wisely sees,\n  The Brahman with his scrolls and sanctities,\n  The cow, the elephant, the unclean dog,\n  The Outcast gorging dog's meat, are all one.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.18"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2761,
+            "end": 2922,
+            "lineStart": 1030,
+            "lineEnd": 1034,
+            "checksum": "3fcb53a0fd464dd8735d680d01ad6cfcaae1cc02ebedc0fa4f25e8d08e1d22ff"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.18 Sages look with an eal eye on a Brahmana endowed with learning and humility, on a cow, on an elephant, and even on a dog and an outcaste."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.18 Sages look equally upon all, whether he be a minister of learning and humility, or an infidel, or whether it be a cow, an elephant or a dog."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.18 The learned ones look with eanimity on a Brahmana endowed with learning and humality, a cow, an elephant and even a dog as well as an eater of dog's meat."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.19",
+      "alignmentFingerprint": "f8715dba173ada42fe60985f996ef794a6096377fe4065a59afde6e9cd5d63b2",
+      "sanskrit": "इहैव तैर्जितः सर्गो येषां साम्ये स्थितं मनः।\nनिर्दोषं हि समं ब्रह्म तस्माद् ब्रह्मणि ते स्थिताः ॥",
+      "iast": "ihaiva tairjitaḥ sargo yeṣāṃ sāmye sthitaṃ manaḥ\nnirdoṣaṃ hi samaṃ brahma tasmād brahmaṇi te sthitāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.19",
+        "content": "The world is overcome--aye! even here!\n  By such as fix their faith on Unity.\n  The sinless Brahma dwells in Unity,\n  And they in Brahma.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.19"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2922,
+            "end": 3062,
+            "lineStart": 1035,
+            "lineEnd": 1038,
+            "checksum": "0127e1bdb07677931877c1ce0616d3b6723d7010def0ab074d07eff1d2d5b774"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.19 Even here (in this world) birth (everything) is overcome by those whose minds rest in eality; Brahman is spotless indeed and eal; therefore they are established in Brahman."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.19 Even in this world they conquer their earth-life whose minds, fixed on the Supreme, remain always balanced; for the Supreme has neither blemish nor bias."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.19 Here [i.e. even while living in the body.] itself is rirth conered by them whose minds are established on sameness. Since Brahman is the same (in all) and free from defects, therefore they are established in Brahman."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.20",
+      "alignmentFingerprint": "66e9cfaf2014d6092f105a7c89f3c1c879cc45d0b85e4731b9e45b5392cb7612",
+      "sanskrit": "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम्।\nस्थिरबुद्धिरसम्मूढो ब्रह्मविद् ब्रह्मणि स्थितः ॥",
+      "iast": "na prahṛṣyetpriyaṃ prāpya nodvijetprāpya cāpriyam\nsthirabuddhirasammūḍho brahmavid brahmaṇi sthitaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.20",
+        "content": "Be not over-glad\n  Attaining joy, and be not over-sad\n  Encountering grief, but, stayed on Brahma, still\n  Constant let each abide!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.20"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3062,
+            "end": 3194,
+            "lineStart": 1038,
+            "lineEnd": 1041,
+            "checksum": "3d5a43cda845eac96d88b9acbb417709b15016f2e2e63927366b3d233372c2aa"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.20 Resting in Brahman, with steady intellect and undeluded, the knower of Brahman neither rejoiceth on obtaining what is pleasant nor grieveth on obtaining what is unpleasant."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.20 He who knows and lives in the Absolute remains unmoved and unperturbed; he is not elated by pleasure or depressed by pain."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.20 A knower of Brahman, who is established in Brahman, should have his intellect steady and should not be deluded. He should not get delighted by getting what is desirable, nor become dejected by getting what is undesirable."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.21",
+      "alignmentFingerprint": "968d5f7eca7bfa69679df0562e35bc5a0af05768bc9f2565dbac4b3d9c910f7b",
+      "sanskrit": "बाह्यस्पर्शेष्वसक्तात्मा विन्दत्यात्मनि यत्सुखम्।\nस ब्रह्मयोगयुक्तात्मा सुखमक्षयमश्नुते ॥",
+      "iast": "bāhyasparśeṣvasaktātmā vindatyātmani yatsukham\nsa brahmayogayuktātmā sukhamakṣayamaśnute",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.21",
+        "content": "The sage whose soul\n  Holds off from outer contacts, in himself\n  Finds bliss; to Brahma joined by piety,\n  His spirit tastes eternal peace.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.21"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3194,
+            "end": 3335,
+            "lineStart": 1041,
+            "lineEnd": 1044,
+            "checksum": "5d13c6bf8a0cc3ff411e17935f37695cc5a03fe54a450c9eef25a498821b1c82"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.21 With the self unattached to external contacts he finds happiness in the Self; with the self engaged in the meditation of Brahman he attains to the endless happiness."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.21 He finds happiness in his own Self, and enjoys eternal bliss, whose heart does not yearn for the contacts of earth and whose Self is one with the Everlasting."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.21 With his heart unattached to external objects, he gets the bliss that is in the Self. With his heart absorbed in meditation on Brahman, he acires undecaying Bliss."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.22",
+      "alignmentFingerprint": "abc1b36e02afc222230b597d6feaf63b4c0d618f18b7ea812c577c0f634991c5",
+      "sanskrit": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते।\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः ॥",
+      "iast": "ye hi saṃsparśajā bhogā duḥkhayonaya eva te\nādyantavantaḥ kaunteya na teṣu ramate budhaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.22",
+        "content": "The joys\n  Springing from sense-life are but quickening wombs\n  Which breed sure griefs: those joys begin and end!\n  The wise mind takes no pleasure, Kunti's Son!\n  In such as those!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.22"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3335,
+            "end": 3518,
+            "lineStart": 1044,
+            "lineEnd": 1048,
+            "checksum": "eedeb56f4926340f5ab8e64904f38639de186c7c713b84a972bf50b5e93014b1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.22 The enjoyments that are born of contacts are only generators of pain, for they have a beginning and an end, O Arjuna; the wise man does not rejoice in them."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.22 The joys that spring from external associations bring pain; they have their beginning and their endings. The wise man does not rejoice in them."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.22 Since enjoyments that result from contact (with objects) are verily the sources of sorrow and have a beginning and an end, (therefore) O son of Kunti, the wise one does not delight in them."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.23",
+      "alignmentFingerprint": "3fcb1ce6368bfefa0fc0908ae43c1072a87d472635a13d77ead093a7d0132f83",
+      "sanskrit": "शक्नोतीहैव यः सोढुं प्राक्शरीरविमोक्षणात्।\nकामक्रोधोद्भवं वेगं स युक्तः स सुखी नरः ॥",
+      "iast": "śaknotīhaiva yaḥ soḍhuṃ prākśarīravimokṣaṇāt\nkāmakrodhodbhavaṃ vegaṃ sa yuktaḥ sa sukhī naraḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.23",
+        "content": "But if a man shall learn,\n  Even while he lives and bears his body's chain,\n  To master lust and anger, he is blest!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.23"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3518,
+            "end": 3635,
+            "lineStart": 1048,
+            "lineEnd": 1050,
+            "checksum": "b94ad1313888fec6b782b27a8ea0e092dff64f3f7d6c90b271f02fa5660ab500"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.23 He who is able, while still here (in this world) to withstand, before the liberation from the body, the impulse born out of desire and anger he is a Yogi, he is a happy man."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.23 He who, before he leaves his body, learns to surmount the promptings of desire and anger is a saint and is happy."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.23 One who can withstand here itself-before departing from the body-the impulse arising from desire and anger, that man is a yogi; he is happy."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.24",
+      "alignmentFingerprint": "c929a6bcf7506ec4e2197d87c8dac9af817ead2f1509a18adccdc33f3620563c",
+      "sanskrit": "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव यः।\nस योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति ॥",
+      "iast": "yo.antaḥsukho.antarārāmastathāntarjyotireva yaḥ\nsa yogī brahmanirvāṇaṃ brahmabhūto.adhigacchati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.24",
+        "content": "He is the Yukta; he hath happiness,\n  Contentment, light, within: his life is merged\n  In Brahma's life; he doth Nirvana touch!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.24"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3635,
+            "end": 3765,
+            "lineStart": 1051,
+            "lineEnd": 1053,
+            "checksum": "14b58b8c70a9c69b69d6f89ff0ef47ec7ec630dc8c200ee0099b08420569844e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.24 He who is happy within, who rejoices within, and who is illuminated within, that Yogi attains absolute freedom or Moksha, himself becoming Brahman."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.24 He who is happy within his Self and has found Its peace, and in whom the inner light shines, that sage attains Eternal Bliss and becomes the Spirit Itself."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.24 One who is happy within, whose pleasure is within, and who has his light only within, that yogi, having become Brahman, attains absorption in Brahman."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.25",
+      "alignmentFingerprint": "a40d7fb2010d916dc0dbb242c72962da4bf96fd3cbece1f541159b84da14ba1f",
+      "sanskrit": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः।\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ॥",
+      "iast": "labhante brahmanirvāṇamṛṣayaḥ kṣīṇakalmaṣāḥ\nchinnadvaidhā yatātmānaḥ sarvabhūtahite ratāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.25",
+        "content": "Thus go the Rishis unto rest, who dwell\n  With sins effaced, with doubts at end, with hearts\n  Governed and calm. Glad in all good they live,\n  Nigh to the peace of God;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.25"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3765,
+            "end": 3937,
+            "lineStart": 1054,
+            "lineEnd": 1057,
+            "checksum": "4f9ba44162e60bae685e742f9b365750b82389ea01f8d8c598e6a42429a4d1ab"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.25 The sages (Rishis) obtain absolute freedom or Moksha they whose sins have been destroyed, whose dualities (perception of dualities or experience of the pairs of opposites) are torn asunder, who are self-controlled, and intent on the welfare of all beings."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.25 Sages whose sins have been washed away, whose sense of separateness has vanished, who have subdued themselves, and seek only the welfare of all, come to the Eternal Spirit."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.25 The seers whose sins have been attenuated, who are freed from doubt, whose organs are under control, who are engaged in doing good to all beings, attain absorption in Brahman."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.26",
+      "alignmentFingerprint": "1d57a2508d68ebb1a269eec37723ac373c9989fcf0432d741faa2026cb32304c",
+      "sanskrit": "कामक्रोधवियुक्तानां यतीनां यतचेतसाम्।\nअभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम् ॥",
+      "iast": "kāmakrodhaviyuktānāṃ yatīnāṃ yatacetasām\nabhito brahmanirvāṇaṃ vartate viditātmanām",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.26",
+        "content": "and all those live\n  Who pass their days exempt from greed and wrath,\n  Subduing self and senses, knowing the Soul!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.26"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3937,
+            "end": 4054,
+            "lineStart": 1057,
+            "lineEnd": 1060,
+            "checksum": "8ca2799d142955f257fbc8da21adb660ff6b21b3c8c330011869e3fe759ed5b8"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.26 Absolute freedom (or Brahmic bliss) exists on all sides for those self-controlled ascetics who are free from desire and anger, who have controlled their thoughts and who have realised the Self."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.26 Saints who know their Selves, who control their minds, and feel neither desire nor anger, find Eternal Bliss everywhere."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.26 To the monks who have control over their internal organ, who are free from desire and anger, who have known the Self, there is absorption in Brahman either way."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.27",
+      "alignmentFingerprint": "fec5c69ab710d35223210b9416c4031b449364398a345307842cce8b96e12645",
+      "sanskrit": "स्पर्शान्कृत्वा बहिर्बाह्यांश्चक्षुश्चैवान्तरे भ्रुवोः।\nप्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ ॥",
+      "iast": "sparśānkṛtvā bahirbāhyāṃścakṣuścaivāntare bhruvoḥ\nprāṇāpānau samau kṛtvā nāsābhyantaracāriṇau",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.27",
+        "content": "The Saint who shuts outside his placid soul\n  All touch of sense, letting no contact through;\n  Whose quiet eyes gaze straight from fixed brows,\n  Whose outward breath and inward breath are drawn\n  Equal and slow through nostrils still and close;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.27"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4054,
+            "end": 4303,
+            "lineStart": 1061,
+            "lineEnd": 1065,
+            "checksum": "f3ab2c4f7ea0e872f5e82ae91dab57e1654a164b12ad82f2cb1bb49e113c94a5"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.27 Shutting out (all) external contacts and fixing the gaze between the eyrow, ealising the outgoing and incoming breaths moving within the nostrils."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.27 Excluding external objects, his gaze fixed between the eyebrows, the inward and outward breathings passing equally through his nostrils;"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.27-5.28 Keeping the external objects outside, the eyes at the juncture of the eye-brows, and making eal the outgoing and incoming breaths that move through the nostrils, the contemplative who has control over his organs, mind and intellect should be fully intent on Liberation and free from desire, fear and anger. He who is ever is verily free."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.28",
+      "alignmentFingerprint": "e941ca37d1b40166f22b0c3882df654bf911348bb9a6609f5d4e201e85c284fc",
+      "sanskrit": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः।\nविगतेच्छाभयक्रोधो यः सदा मुक्त एव सः ॥",
+      "iast": "yatendriyamanobuddhirmunirmokṣaparāyaṇaḥ\nvigatecchābhayakrodho yaḥ sadā mukta eva saḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.28",
+        "content": "That one-with organs, heart, and mind constrained,\n  Bent on deliverance, having put away\n  Passion, and fear, and rage;--hath, even now,\n  Obtained deliverance, ever and ever freed.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.28"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4303,
+            "end": 4488,
+            "lineStart": 1066,
+            "lineEnd": 1069,
+            "checksum": "b7ecbf5337a1bf4894aeb5cb48a64c76870c7abec8eb31e02a434f7c439f7908"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.28 With the senses, the mind and the intellect (ever) controlled, having liberation as his supreme goal, free from desire, fear and anger the sage is verily liberated for ever."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.28 Governing sense, mind and intellect, intent on liberation, free from desire, fear and anger, the sage is forever free."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.27-5.28 Keeping the external objects outside, the eyes at the juncture of the eye-brows, and making eal the outgoing and incoming breaths that move through the nostrils, the contemplative who has control over his organs, mind and intellect should be fully intent on Liberation and free from desire, fear and anger. He who is ever is verily free."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.5.29",
+      "alignmentFingerprint": "bed3eaedcacb8bf9c93c6fbd12e895170c1659e8172bf8da51613db3deb97789",
+      "sanskrit": "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम्।\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति ॥",
+      "iast": "bhoktāraṃ yajñatapasāṃ sarvalokamaheśvaram\nsuhṛdaṃ sarvabhūtānāṃ jñātvā māṃ śāntimṛcchati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.5.29",
+        "content": "Yea! for he knows Me Who am He that heeds\n  The sacrifice and worship, God revealed;\n  And He who heeds not, being Lord of Worlds,\n  Lover of all that lives, God unrevealed,\n  Wherein who will shall find surety and shield!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.5.29"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4488,
+            "end": 4714,
+            "lineStart": 1070,
+            "lineEnd": 1075,
+            "checksum": "8b370ac0db7bb66ab3f176f434859e24f93bf755d2b55e8a060cedceff349f3b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.29 He who knows Me as the enjoyer of sacrifices and austerities, the great Lord of all the worlds and the friend of all beings, attains to peace."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.29 Knowing me as Him who gladly receives all offerings of austerity and sacrifice, as the Might Ruler of all the Worlds and the Friend of all beings, he passes to Eternal Peace.\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.29 One attains Peace by knowing Me who, as the great Lord of all the worlds, am the enjoyer of sacrifices and austerities, (and) who am the friend of all creatures."
+        }
+      ]
+    }
+  ]
+}

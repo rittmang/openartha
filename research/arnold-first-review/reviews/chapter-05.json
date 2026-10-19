@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 5,
+  "inputSha256": "39c218664790ce83232958652e05b7645315ecbf9affe515431a04cfcc6ea044",
+  "reviews": [
+    {
+      "canonicalRef": "gita.5.1",
+      "alignmentFingerprint": "ea08a050bffcf91dacda401dbe075b571bed4bbf9213946337abfa4da4a303b7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna opening query: contrast between renunciation of actions (sanny\u0101sa) and practice of selfless action (yoga).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.2",
+      "alignmentFingerprint": "03ee2816abedb9ad056368a72b64401f9162b1b80cce8cdbed06bf587703fe9d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna reply: both paths lead to liberation, but karma-yoga is superior to mere renunciation of work.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.3",
+      "alignmentFingerprint": "7efd73f4e767be20adbf043042040c17d8cb1cb4d235cd380dd6cb87ff8012b2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Definition of true sanny\u0101sin: one who neither hates nor desires, untouched by dualities; note [FN#8].",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.4",
+      "alignmentFingerprint": "c0041676fe5d38cfabf9115906a8498248357549111ce1f39ae9633ceb00b396",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Reconciliation of Sankhya and Yoga: the immature regard them as separate, but mastering one yields the fruit of both.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.5",
+      "alignmentFingerprint": "a7b5050125f9a505f6cbe9ce37be7695fe9251815b0653aa6e5c7566645f8f38",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Identity of ultimate goal: the realm attained by Sankhyans is reached by Yogins; who sees them as one sees truly.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.6",
+      "alignmentFingerprint": "e4c779b4cd226a813715fffe5a2d80db00de6b90a34a692440b9be75c39e59fe",
+      "status": "verified",
+      "confidence": 0.92,
+      "notes": "Difficulty of renunciation without karma-yoga; seamlessly combined with 5.7 in shared source span.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.7",
+      "alignmentFingerprint": "b62eac4a5c79e1f832840b227c3b5bd22cc49e276b245dc4b36b5a3e7720420c",
+      "status": "verified",
+      "confidence": 0.92,
+      "notes": "Attributes of the pure-hearted yogayukta whose self is one with all life; shared source span with 5.6.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.8",
+      "alignmentFingerprint": "2b26660a238ac0e94842f97a87df86a5905c3929c79c2821403cba26b7912623",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Consciousness of the seer of truth: \"I do nothing at all\" while seeing, hearing, touching, smelling, breathing, sleeping.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.9",
+      "alignmentFingerprint": "0f75ec2ee5296a0fa1812e7b882c91ef2946d0fc46e74b7f00a68f7de73e47b2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Speaking, releasing, grasping, opening and shutting eyes, knowing senses operate among sense-objects.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.10",
+      "alignmentFingerprint": "f17ad676ffbfddc2c4f62a0ae69d15eaea430c2a657a8002339709610a180bcd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Offering deeds to Brahman without attachment: sin taints him no more than water adheres to an enamelled lotus-leaf.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.11",
+      "alignmentFingerprint": "ac8956936b8f2a2405bc5f22ccdbbc9adcd930276ba1ba6ddcc61473d3d6898a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Yogins perform action solely with body, mind, intellect, and senses, shedding egoism for inner purification.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.12",
+      "alignmentFingerprint": "1bbc38b1907fea848fa0c78a9ef5b8888328d197b0c30c4cc7f7fc04a86502e0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The disciplined seeker renouncing fruits gains steadfast peace; the selfish worker driven by desire is fettered.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.13",
+      "alignmentFingerprint": "28a1357625b1e7b40e7db71404809e852ebd370f6812d81cceda0a703e477296",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The embodied soul mentally renouncing works rests serenely in the \"city of nine gates\" [FN#9], neither acting nor causing action.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.14",
+      "alignmentFingerprint": "ab63a507d6c70b3b21ebb887cc06df7a88aa60d7ec081bd98d1a223bf8ab5afa",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The Sovereign of the world creates neither agency, nor action, nor karmic reward; Nature alone operates.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.15",
+      "alignmentFingerprint": "26442391f69cfd245a3664b86c8cd908ebea03720834edae89047f241b3ae2ec",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The Lord takes neither the good nor evil deeds of humans; spiritual darkness clouds knowledge, breeding delusion.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.16",
+      "alignmentFingerprint": "31db7e438e4b14874e0d65b5e21eabc15cc565f4636bae44d513e8da5ab9be19",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "When ignorance is dispelled by Self-knowledge, that supreme wisdom shines like the rising sun.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.17",
+      "alignmentFingerprint": "ea7726fb7d387a7d2503bdf7427f98d051c4ccc91f476f921f9733c693a15447",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Souls centered on That, merged in That, going to the state of no-return; includes bracketed poetic gloss.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.18",
+      "alignmentFingerprint": "dc3edde17959bfb6f8cab9a58044201aaf781c1f7ecceeb3ffa3abd6a6a00818",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Universal vision of the wise (samadar\u015bina\u1e25): seeing Brahman equally in scholar, cow, elephant, dog, and outcast.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.19",
+      "alignmentFingerprint": "f8715dba173ada42fe60985f996ef794a6096377fe4065a59afde6e9cd5d63b2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Mortal world is conquered here on earth by minds established in equal vision, resting in sinless Brahman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.20",
+      "alignmentFingerprint": "66e9cfaf2014d6092f105a7c89f3c1c879cc45d0b85e4731b9e45b5392cb7612",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Neither overjoyed by pleasant fortune nor shaken by sorrow, steady of intellect, abiding untroubled in Brahman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.21",
+      "alignmentFingerprint": "968d5f7eca7bfa69679df0562e35bc5a0af05768bc9f2565dbac4b3d9c910f7b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Detached from outward sensory impressions, one discovers bliss within; united with Brahman, he tastes eternal peace.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.22",
+      "alignmentFingerprint": "abc1b36e02afc222230b597d6feaf63b4c0d618f18b7ea812c577c0f634991c5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sensual pleasures are but fertile wombs of grief with beginnings and endings; the wise mind finds no delight in them.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.23",
+      "alignmentFingerprint": "3fcb1ce6368bfefa0fc0908ae43c1072a87d472635a13d77ead093a7d0132f83",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Blessed and happy is the person who masters the violent surge of lust and wrath here on earth before shedding the body.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.24",
+      "alignmentFingerprint": "c929a6bcf7506ec4e2197d87c8dac9af817ead2f1509a18adccdc33f3620563c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The yogin who possesses inner joy, inner peace, and inner light becomes Brahman and enters Brahma-nirvana.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.25",
+      "alignmentFingerprint": "a40d7fb2010d916dc0dbb242c72962da4bf96fd3cbece1f541159b84da14ba1f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Liberation attained by seers whose sins are cleansed, doubts ended, minds governed, rejoicing in welfare of all.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.26",
+      "alignmentFingerprint": "1d57a2508d68ebb1a269eec37723ac373c9989fcf0432d741faa2026cb32304c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Brahma-nirvana is ever present for ascetics freed from passion and anger, self-subdued, and knowing the Soul.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.27",
+      "alignmentFingerprint": "fec5c69ab710d35223210b9416c4031b449364398a345307842cce8b96e12645",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Meditation technique: excluding external contacts, focusing gaze between brows, equalizing inward and outward breath.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.28",
+      "alignmentFingerprint": "e941ca37d1b40166f22b0c3882df654bf911348bb9a6609f5d4e201e85c284fc",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "With senses, heart, and mind disciplined, intent on liberation, casting off desire, fear, and wrath, one is ever free.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.5.29",
+      "alignmentFingerprint": "bed3eaedcacb8bf9c93c6fbd12e895170c1659e8172bf8da51613db3deb97789",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Knowing Krishna as enjoyer of sacrifice, supreme Lord of all worlds, and lover of all living beings brings final peace.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Arnold tightly intertwines the difficulty of renunciation (5.6) and the qualities of the yogayukta (5.7) into a single period (\"Yet such abstraction, Chief! Is hard to win without much holiness... A Yogayukt--he is a Saint who wends Straightway to Brahm. Such an one is not touched By taint of deeds\"), accurately mapped as a shared source span.",
+    "Verses 5.8 and 5.9 divide the sensory activities catalogue cleanly between 5.8 (\"seeing, hearing... slumbers\") and 5.9 (\"or talks, Holds fast...\") across line 999.",
+    "Verse 5.17 preserves Arnold bracketed poetic gloss \"[Who will may have this Light; Who hath it sees.]\" alongside the translation.",
+    "All 29 canonical references are fully accounted for with complete source span coverage."
+  ]
+}

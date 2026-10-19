@@ -13,8 +13,8 @@
   "files": [
     {
       "name": "translation.json",
-      "bytes": 1540727,
-      "sha256": "2cc66ef4ca42241c904c218397334f5bc757452185c9411e19b7d54409e8c60f"
+      "bytes": 2340439,
+      "sha256": "74a2b632e4df2ade9c490b2e2498cb6522d3bafdccc44a4f90c92eb076cc7b5c"
     },
     {
       "name": "pg2388.txt",
@@ -28,13 +28,18 @@
     },
     {
       "name": "verses.jsonl",
-      "bytes": 1083468,
-      "sha256": "41516896c30ad4c714a5a8eebb67edd0917c6b66563c52aeec868642f7ca1e94"
+      "bytes": 1748144,
+      "sha256": "4f628cb524054b532f6aa98ebfe18b7a290e4b030badbd614035ecd1d9f3ee2c"
     },
     {
       "name": "alignment-report.json",
-      "bytes": 295289,
-      "sha256": "f94eb5539ed7ed434eff9712aae94bdee5507b7436db96a79c6571e9d5dce14e"
+      "bytes": 295838,
+      "sha256": "420b8cefe5c8c8172d22ff4257cf1dbeb57d38ed21323d722bf69e607cabf0af"
+    },
+    {
+      "name": "first-review.json",
+      "bytes": 568738,
+      "sha256": "1828cad96767be1c8cbe8dc554cd234495c7fb927805079a53330569efab5e18"
     }
   ]
 }

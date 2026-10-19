@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 18,
+  "inputSha256": "d3dbc247a80e22a987247c07227d0bdba3687e4abebf14f97264799265214cf4",
+  "reviews": [
+    {
+      "canonicalRef": "gita.18.1",
+      "alignmentFingerprint": "8c895faa1eec0a2b6a7fccaaf4d733d025cd034af6c2b46d4b697158864e3f69",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna asks to understand distinctly the truth of Sannyasa and Tyaga, addressing Krishna as Mahabahu, Hrishikesha, and Keshinisudana.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.2",
+      "alignmentFingerprint": "7f1f0369c3e3f8f550b8e7cf2aec44709d8c9d2421fa6f7dc2824300ac27cc53",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna defines Sannyasa as renunciation of desire-prompted actions and Tyaga as relinquishment of the fruits of all actions.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.3",
+      "alignmentFingerprint": "b95a7fd01e2bc0d90a6a4890d0da2e9c63e5224def45df44eef8cdff2045935b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Some thinkers assert all action should be abandoned as defective, while others maintain sacrifice, gift, and austerity must not be abandoned.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.4",
+      "alignmentFingerprint": "2e87de962701f0bbcad14086fc2af67ff320fb422937258f528d7067322daa64",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna gives His definitive verdict: Tyaga is declared to be of three kinds, O tiger among men.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.5",
+      "alignmentFingerprint": "f5cf930135b1faf48a5ff1bd839f761d4a3ce5d730c0d0f9453b8905bf455939",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Acts of sacrifice, gift, and austerity must not be abandoned but performed, for they are purifiers of the wise.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.6",
+      "alignmentFingerprint": "7e8e4a8c623c700ef2c865379c719075b411c03211b0ae52fbf2df8ec9808f61",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Even these acts should be performed abandoning attachment and fruits; this is My firm and highest conviction.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.7",
+      "alignmentFingerprint": "f55cc55d40b88e7f2edf899d7e0ee2cc938080dda8abb646f70723ac21615d2e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Renunciation of obligatory duty is not proper; abandonment thereof through delusion is declared Tamasic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.8",
+      "alignmentFingerprint": "4cbaac64b6ff4a0cf1682f1640d90e4a2f46e5029060cb56ec89e771a9fc3c4d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Abandoning action merely because it is troublesome or from fear of bodily affliction is Rajasic tyaga, yielding no fruit of renunciation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.9",
+      "alignmentFingerprint": "0ffe450db5305af8e2f1d10da25e6215bea92135fa1608af0a779e17c4f9d22e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "When prescribed duty is performed simply because it ought to be done, relinquishing attachment and fruit, that is Sattvic tyaga.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.10",
+      "alignmentFingerprint": "84253c289055bfe9574839557f4479982059ad475bc02a9951f414d65f29dfb4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The renouncer imbued with Sattva, intelligent, with doubts dispelled, neither hates disagreeable work nor clings to agreeable work.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.11",
+      "alignmentFingerprint": "b1e5535f5b24efcadd7c2e02685668572e88a7eea0fe2942d5165193da578558",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "No embodied being can wholly abandon action, but he who renounces the fruit of action is truly called a renouncer.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.12",
+      "alignmentFingerprint": "3031f026558d4e0aebe81551edbecf520f6c55341eb59270f151ea1816052ea3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Threefold is the fruit of action (unwelcome, welcome, and mixed) accruing after death to non-renouncers, but never to Sannyasins.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.13",
+      "alignmentFingerprint": "f499830d23dad2912759f2da258289031eb85c6d0f06898f14fb0d036a86fb62",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna announces the five causal factors declared in Sankhya doctrine for the accomplishment of all actions.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.14",
+      "alignmentFingerprint": "c5e4d09d317ae5ead382a34240a94a1f3a10f48b171564ce2a2e8ffa8a66d5b7",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "The five factors: the locus/body (adhisthana), the agent (karta), the various instruments (karana), the diverse efforts (ceshta), and the presiding divine/destiny (daivam).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.15",
+      "alignmentFingerprint": "e782d5b5298ea4cf6028cf2dee4b815a65b5a6f3ee6a7c90202077e39e807941",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Whatever action man undertakes by body, speech, or mind, right or reverse, these five are its causes.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.16",
+      "alignmentFingerprint": "9e6dcb784a1f2990978a31e3dbe56b64fd98bdb6876425028075df0d1141ef7d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Such being the case, whoever sees the pure Self as the sole actor owing to uncultivated intellect does not truly see.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.17",
+      "alignmentFingerprint": "48d026a0fe5db762d9d25dd9636c76de29f77d90349095c39052a071603c5290",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "He whose state of mind is free from egoism and whose intellect is untainted, even though he slay these people, does not slay and is not bound.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.18",
+      "alignmentFingerprint": "da3719e15eae07c7582940b21046fb220fd7886b7dab3a9206f770e9d6949d10",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Knowledge, object of knowledge, and knower form the threefold impulse to action; instrument, action, and agent form the threefold composite of action.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.19",
+      "alignmentFingerprint": "433c00fc184a65bffbba32e45cabced9f4e12077aec22d711a6b0175a6420e2f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Knowledge, action, and agent are declared to be threefold according to the distinction of Gunas; hear of them as they are.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.20",
+      "alignmentFingerprint": "12eb3b9aad273aa3ee161095d1386faa7246cb009e131c0c803f1129023ea24e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattvic knowledge: that by which one sees one imperishable existence in all beings, undivided in the divided.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.21",
+      "alignmentFingerprint": "b1ccd6063957c7e076f56c7fbe76aefca9ae580806945c9d0c50833dc5253ebe",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Rajasic knowledge: that which sees distinct manifold entities of various kinds in all beings as separate.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.22",
+      "alignmentFingerprint": "da001ce8c94f2e300a8d3f2f9a0e4f20a5339ba8a93820795688311ea688024e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Tamasic knowledge: that which clings to a single isolated effect as if it were the whole, irrational, without real objective, and narrow.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.23",
+      "alignmentFingerprint": "c2fa5b844babc852ca8621a3754cc7c30f349922c752e4dcb682a847a944ddc0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattvic action: ordained action performed without attachment, without love or hate, by one desiring no fruit.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.24",
+      "alignmentFingerprint": "1e0d70304aa46e2088b8123f7a8563ff5cb46d58ab967e9e4857a4f768e4832f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Rajasic action: action performed with immense strain by one seeking desire or driven by egoism.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.25",
+      "alignmentFingerprint": "24fb1d9ce4052ad899dab5a94da6884226ac85a5bdef4d4e3d1d991eeec5c318",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Tamasic action: action undertaken from delusion, heedless of consequences, loss, harm to others, and personal capacity.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.26",
+      "alignmentFingerprint": "9c0560080c39397e4d5cdaeb7705376cbd14091b0bb3c872ac0d80ce718c744e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattvic agent: free from attachment, free from egotism, endowed with firmness and enthusiasm, unchanged in success or failure.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.27",
+      "alignmentFingerprint": "57ee8f97c8f42f1f8a68ce26dde0382ad570f8d6d2c4ebfd852fa025b36744d4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Rajasic agent: passionate, coveting fruit of work, greedy, hurtful, impure, subject to elation and depression.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.28",
+      "alignmentFingerprint": "60ab3023e05bb72c4b6195f98cacc273e03b567cc9ad5d9465ab3301e1d01bed",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Tamasic agent: discordant, undisciplined, obstinate, deceitful, malicious, indolent, despondent, and procrastinating.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.29",
+      "alignmentFingerprint": "013178fe58e511bda471d553c80d679408ee0581d3e0578104dd0c1d82e83396",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna introduces the threefold division of intellect (buddhi) and steadfastness (dhriti) according to the Gunas.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.30",
+      "alignmentFingerprint": "ae51222cd73a9e4213484e32f57410af6e50a47b6f1a3cb4de9240ebbf22630f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattvic intellect: knows action and renunciation, what ought and ought not to be done, fear and fearlessness, bondage and release.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.31",
+      "alignmentFingerprint": "a9b7455407ae7fc9ed29134e985e13d4985c80c0005232116b24059ccff9946f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Rajasic intellect: erroneously perceives dharma and adharma, what ought to be done and what ought not to be done.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.32",
+      "alignmentFingerprint": "f2bf27dd66e0469a0e048e7586d7f5c11fb03f385dff77a0f96ad19e308cdde6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Tamasic intellect: shrouded in darkness, regards adharma as dharma and perceives all things upside down.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.33",
+      "alignmentFingerprint": "769eca3939739d2ce35d98badca1a97e01b1c98cc351dc12377354bf7a0e7143",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattvic steadfastness: unswerving fortitude whereby through yoga one controls the functions of mind, prana, and senses.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.34",
+      "alignmentFingerprint": "10ed13ca5dcbd0c493de9b0ca42b524cefad7bb3f04e50044da6fcf80610d9f9",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Rajasic steadfastness: that by which one clings obstinately to duty, desire, and wealth from attachment and desire for rewards.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.35",
+      "alignmentFingerprint": "f41d5a158c14cd230d41a32f2a51e1497ee6d8e91e813bc495bd674db53f3d96",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Tamasic steadfastness: that by which a foolish person does not abandon sleep, fear, grief, despondency, and arrogance.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.36",
+      "alignmentFingerprint": "2d87ca87e89efb96584b6e032bc712126568b1bbfb31acf7913449d8f109d6b3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna announces the threefold nature of pleasure; Sattvic pleasure in which one rejoices through long practice and terminates grief.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.37",
+      "alignmentFingerprint": "2cf406f083095b6fdc079dec9f65286799f0d7eb85e47920e02b7c850fd3f014",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattvic pleasure: like poison at first, like nectar at last, born of the clarity of self-realization; cleanly begins at 'bitter at first'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.38",
+      "alignmentFingerprint": "53fff15b4905f58795df65892b79ba6dd882481a1ad62aad341b6b04e9dd4c8b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Rajasic pleasure: born of contact of senses with sense-objects, nectar-like at first, poison-like at last.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.39",
+      "alignmentFingerprint": "77f492053a6dd0a0b1cae19ae3ec038b51c4ec9aa2ed0d7bbf23f7a460f1a1f0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Tamasic pleasure: that which deludes the self at the beginning and in the sequel, arising from sleep, indolence, and error.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.40",
+      "alignmentFingerprint": "64c2f73b55a9ec6a2f0eec59342f8d46d09ea7b9acf0cab5998b382ed38f5e54",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "There is no entity on earth or among the gods in heaven that is free from these three Gunas born of Prakriti.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.41",
+      "alignmentFingerprint": "765884a7702bf87264d0ad6e6f23dea5627e6af59df5721a2e131e6b932cba67",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Duties of Brahmans, Kshatriyas, Vaishyas, and Shudras are distributed according to the Gunas born of their own natures.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.42",
+      "alignmentFingerprint": "9b4bbfd7cb436a967d7252818d5d43f717017d287a78bd9c3c23549049ae66d7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Inborn Brahman duties: tranquility, self-restraint, austerity, purity, forbearance, uprightness, knowledge, realization, and religious faith.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.43",
+      "alignmentFingerprint": "3209295353da50cf7097639590e82694eb8abb8a1453407ac326dcc371056434",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Inborn Kshatriya duties: heroism, majesty, fortitude, dexterity, not fleeing from battle, generosity, and lordly demeanor.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.44",
+      "alignmentFingerprint": "05db2d08e34c20428823b4592d38449e630194e14a189fe9c3c1845f411f8cde",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Inborn Vaishya duties: agriculture, cattle-rearing, and commerce; inborn Shudra duty: service.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.45",
+      "alignmentFingerprint": "07095c37e9106806292981b530a09878d73719f6f61c8d9f2eb823d207e58218",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Devoted to his own natural duty, each man attains perfection; hear how one devoted to svadharma wins perfection (note: witness database carries corrupted 5.10 text, but Arnold translation is perfectly faithful to 18.45).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.46",
+      "alignmentFingerprint": "2a9a3caeaa323d184ba2e6d0242a7c1db4db312e882ef978c12928e77091e8e0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "By worshipping Him from Whom all beings arise and by Whom all this is pervaded through performance of own duty, man attains perfection.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.47",
+      "alignmentFingerprint": "4c9408a4f61c021221c03a2bc074b55421bff796b914279e5d0a3ee2252cf6b5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Better is one's own duty though imperfect than the duty of another well performed; doing duty ordained by nature incurs no guilt.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.48",
+      "alignmentFingerprint": "f2ed1046129edb2a23e0c111bb8128f563832b0407b13f0a6e0a00689304de93",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "One should not abandon inborn duty even though faulty; all enterprises are obscured by defect as fire is enveloped in smoke.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.49",
+      "alignmentFingerprint": "9f0c66fdfb426136a94435e5f81d1e843160086e7be3c5f332de4cc2e10283c7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "With unattached intellect everywhere, self-subdued, desires departed, one attains supreme perfection of actionlessness through renunciation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.50",
+      "alignmentFingerprint": "5506b85c4fb416ce77b2f34f29a07992c72549d33a4f4ad5217ee605b7b5b1aa",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Hear briefly how one who has attained perfection attains Brahman, the supreme culmination of wisdom.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.51",
+      "alignmentFingerprint": "ffe4a9d4262d8ea170a40d68614b49a3320e20aca3bfb2b31d51f83fc8a88303",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Endowed with pure intellect, controlling the self with fortitude, turning away from sound and other sense objects, casting off love and hatred.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.52",
+      "alignmentFingerprint": "e2b21bc44fe60910ffdabeab53cdbdbed0d6177c4bf5eb717248e5d9f7d3572d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Dwelling in solitude, eating sparingly, subduing body, speech, and mind, constantly devoted to meditation, cultivating dispassion.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.53",
+      "alignmentFingerprint": "8a316be841f0b8cf767ca2f887d7b6e26034cee9fd70e82b38eced364a053482",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Freed from egotism, power, arrogance, desire, wrath, and possessiveness, selfless and peaceful, he is qualified to become Brahman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.54",
+      "alignmentFingerprint": "6cddac930231aa275fb1865aedc8536655f4979a3f73f1312bda7e6be016a790",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Becoming Brahman, serene in soul, he neither grieves nor desires; regarding all beings equally, he attains supreme devotion to Me.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.55",
+      "alignmentFingerprint": "3fab0ecae89588357747af3b2e513d87a59e187391d7c3bd24d41f36c7b86854",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Through devotion he comes to know Me in truth, what and who I am, and having known Me in truth, he enters Me forthwith.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.56",
+      "alignmentFingerprint": "72f545a42d2808f73ddc3dca9f5c20cc0c3b2a879b22703c644015bb4046a77d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Continuously performing all actions taking shelter in Me, by My grace he attains the eternal, imperishable state.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.57",
+      "alignmentFingerprint": "e1dc1473a1786c57108c5e93a019d14e14b0917f2df2a5de24d82eabeab6c68e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Mentally dedicating all actions to Me, making Me thy supreme goal, taking refuge in Buddhi-yoga, constantly fix thy mind on Me.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.58",
+      "alignmentFingerprint": "71989ca7d7620c4af195a8fb1dea8da4b13726a42eb0470035e7e77313e33c10",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Fixing thy mind on Me, thou shalt overcome all obstacles by My grace; but if through egotism thou wilt not listen, thou shalt perish.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.59",
+      "alignmentFingerprint": "994a1e2621f3e3e630f89db4dfed6e29b9b09491f526d6998c6ec0d80a0d8a88",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "If, taking refuge in egoism, thou thinkest 'I will not fight', vain is this thy resolve; thy nature will compel thee.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.60",
+      "alignmentFingerprint": "d808baddb662ea7c86c1a7d54c604df6fa7903328bf821a231e67c84e74802f1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Bound by thy own duty born of nature, what through delusion thou wishest not to do, that thou shalt helplessly perform.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.61",
+      "alignmentFingerprint": "d3a8701934a34c254cb360dcf2d659fe5bfc1ee2131f7ec98324e631a5d6b722",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The Lord dwells in the heart of all beings, causing them to revolve by His divine Maya as if mounted on a machine.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.62",
+      "alignmentFingerprint": "9a531817f6ae86fa63cf552b1b256fbc82a7d14ba72807e72ab79acbc83b0565",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Fly unto Him for refuge with all thy being; by His grace shalt thou obtain supreme peace and the eternal realm.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.63",
+      "alignmentFingerprint": "0ef9125161e32db5072aa1049b67f46ec2fbdff9e3be85bb62b4555af4209822",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Thus has wisdom more secret than secret been disclosed to thee by Me; reflect on it fully, and then act as thou choosest.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.64",
+      "alignmentFingerprint": "1350a7ce9fa1a949aa29cec22b948f82e5f97d3ddb98a47bf2cb8a38231ba8eb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Hear again My supreme word, the most secret of all; thou art intensely dear to Me, therefore I will declare what is for thy welfare.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.65",
+      "alignmentFingerprint": "07981096f8411933032e8d143a509a9cb107a9d75bb0c0c8ecfafa02ef4e43f8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Fix thy mind on Me, be devoted to Me, sacrifice to Me, prostrate before Me; to Me alone shalt thou come; truly do I promise thee, for thou art dear to Me.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.66",
+      "alignmentFingerprint": "a0f422287e9affe48ef4878277e1c2627f082675b8b4bb3c0f7781457a95a737",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Renouncing all religious rites and duties, take refuge in Me alone; I will release thee from all sins, do not grieve.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.67",
+      "alignmentFingerprint": "581ec262af44422e680ec043cb8bfb38e674c121bf440e2c401d47aedc5d3fdd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "This must never be spoken by thee to one devoid of austerity, to one without devotion, to one who does not wish to listen, nor to one who carps at Me.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.68",
+      "alignmentFingerprint": "ba38a48f932d6fe5c543fa88dab53252922199f7d90c188888e2ba5ae25afa42",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "He who imparts this supreme secret to My devotees, offering supreme devotion to Me, shall without doubt come to Me.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.69",
+      "alignmentFingerprint": "6167f86fb627a7a03e69a03046c32a8b8d8f121ed4f5294eec6c77bee30fe1d4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "There is none among men who does more pleasing service to Me than he, nor shall there be another on earth dearer to Me.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.70",
+      "alignmentFingerprint": "34f5a78f0de9cef37940f6a81a16c9f212c186f8fc1604a6ba06281e8010a937",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "And he who studies this sacred dialogue of ours shall have worshipped Me with the sacrifice of knowledge; such is My conviction.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.71",
+      "alignmentFingerprint": "5b9cf98e32e40382060ba3681111404653f759342bebd0263c05442545bf8133",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The man who listens with faith and free from malice shall also be liberated and attain the radiant worlds of the righteous.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.72",
+      "alignmentFingerprint": "ea893896701425199cc6077daa4d9e0b1547907da4a7b378a79e10d3d345719d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Has this been heard by thee, O Partha, with concentrated mind? Has the delusion of thy ignorance been dispelled, O Dhananjaya?",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.73",
+      "alignmentFingerprint": "5d4fe5846cecc2d739dbce1aae09b42f16327a10170efa57c38f04292e476e58",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna answers: My delusion is destroyed, memory is regained by Thy grace, O Achyuta; I stand firm with doubts dispelled; I will do Thy bidding.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.74",
+      "alignmentFingerprint": "4784b5f88b71e1f8a3f4c9d08c01ef24bb4657ffb98664f92224cf34172062d8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sanjaya concludes: Thus have I heard this wondrous, hair-stirring dialogue between Vasudeva and the great-souled Partha.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.75",
+      "alignmentFingerprint": "41ae12c1f64b451e46df88b40d6830039e38b721bd2fe1e071eff6f58a363327",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "By the grace of Vyasa have I heard this supreme and secret Yoga directly from Krishna, the Lord of Yoga Himself, as He spoke it.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.76",
+      "alignmentFingerprint": "670fe216a8fc2e71eebbee7630c6eb9f0551c806dda6c12437331ab2e354cd54",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "O King, repeatedly remembering this wondrous and holy dialogue of Keshava and Arjuna, I rejoice again and again; ends at 'gladness:'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.77",
+      "alignmentFingerprint": "4c1390bfc50d34534039b9068d09a696b9acd6f60c9431b8095127b34a017659",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Remembering repeatedly that exceedingly wondrous form of Hari, great is my amazement, O King, and I rejoice again and again; ends at 'love and bliss.'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.18.78",
+      "alignmentFingerprint": "9044d58c373e1b03a8dcd3c6a9e910d914caa123a33058db289a09d9b5eb1d17",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Wherever is Krishna the Lord of Yoga, wherever is the archer Partha, there are assured fortune, victory, prosperity, and righteous policy; this is my conviction.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Witness data anomaly identified: in verse 18.45, the input witness record mistakenly embeds the text of 5.10 ('He who does actions, offering them to Brahman...'), but Arnold's translation ('Whoso performeth--diligent, content-- / The work allotted him...') is verified as a direct and accurate rendering of canonical 18.45.",
+    "Complex poetic metre transitions in 18.67–18.71 (rhymed heptameter couplets for the phala-shruti) and 18.74–18.78 (long-line hymnic verse for Sanjaya's closing vision) are partitioned with high precision across verse boundaries.",
+    "Intra-line verse cuts in 18.36/18.37, 18.69/18.70, and 18.76/18.77/18.78 are verified to exact character boundaries, ensuring zero missing or duplicated lines across all 78 verses."
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 17,
+  "inputSha256": "094155a6372d17ac77f9818c93cd64b0af04d533c6fa6cfc5eb6813352da5ba9",
+  "reviews": [
+    {
+      "canonicalRef": "gita.17.1",
+      "alignmentFingerprint": "3ebd70195144b115f4b7eeeebd1241289e88801cf3ed3b294bdd9b04ef0418f2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna asks concerning those who worship with faith while disregarding scriptural ordinance: is their condition Sattva, Rajas, or Tamas?",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.2",
+      "alignmentFingerprint": "2caa233e938030f36bf4625da7a3e726e53237e2f0416dac435064bf3974e602",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna replies that the faith of embodied beings is threefold according to their nature: Sattvic, Rajasic, and Tamasic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.3",
+      "alignmentFingerprint": "803279bb975abb8a81ff55c70e9b61325b83a2dbdd6a9487f660a7aff3405d55",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The faith of each man conforms to his natural disposition; man is of the nature of his faith, whatever his faith is, that he is.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.4",
+      "alignmentFingerprint": "1c9d29b5206045d70479f5cae33772272873b14087fa694e7b91b64647f89b39",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattvic men worship the gods; Rajasic men worship Yakshas and Rakshasas (note 34); Tamasic men worship ghosts (Pretas) and elemental spirits (Bhutas, note 35).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.5",
+      "alignmentFingerprint": "81dab9b57c65f2ea6425f47cbba82dee798894d969b30f4375635808eba5f4f8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Men who practice severe austerities not enjoined by scripture, driven by hypocrisy and egoism, impelled by lust, attachment, and force; ends at 'violent, wild,'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.6",
+      "alignmentFingerprint": "0d320ab723719bed00889c8f8e26015987fabde3606e48c4c34bc248aaec90a5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Senselessly torturing the elements within their body and Me residing within the body—know them to be of demonic resolve; starts at 'Torturing--the witless ones'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.7",
+      "alignmentFingerprint": "4c333e1d4c5c538f5d7ec7dc8c0f7277af1e0eef797279e21a259f2161fce6bd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Food also dear to each is threefold, as are sacrifices, austerities, and gifts; hear their distinctions.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.8",
+      "alignmentFingerprint": "a254d39c913d87b6e9253aa34956c946439f877bdf00c311c0e668d775c283ad",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Foods promoting longevity, vitality, strength, health, happiness, and joy, which are savory, succulent, substantial, and agreeable, are dear to the Sattvic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.9",
+      "alignmentFingerprint": "6eaad35a6c213ef3b44d81be1f4128bef4180bf5f23dcf51531200acfb202a27",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Foods that are bitter, sour, salty, excessively hot, pungent, dry, and burning, producing pain, grief, and disease, are dear to the Rajasic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.10",
+      "alignmentFingerprint": "3eee44943d54de067c8b70845fab0096547fc6aef93d9eae06b1fdb7db9b7213",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Food cooked more than three hours prior (yatayama, note 36), tasteless, putrid, stale, leftover, and impure, is dear to the Tamasic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.11",
+      "alignmentFingerprint": "ce76839692797080a3a48908d2c03aee8d1ca02519d943221a5e221dbb4e70c4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sacrifice offered according to scriptural rule by men without desire for reward, with mind fixed that it ought to be done, is Sattvic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.12",
+      "alignmentFingerprint": "fb4e8c7eaffe2c28f12746fdf7c83eb9f50d9325e460b3c412e6a28ff59663a9",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sacrifice performed seeking fruit or for the sake of ostentation—know that to be Rajasic, O best of Bharatas.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.13",
+      "alignmentFingerprint": "0d4a61baaba759772175f78a4661c4dba731097b1a720a039b5051fca84e0d9b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sacrifice devoid of scriptural ordinance, distributing no food, without sacred mantras, without gifts to priests, and empty of faith, is Tamasic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.14",
+      "alignmentFingerprint": "153b7569b08483e4ee36dc20a90051ba944781cc4ab7045f6a289ab58d8cefb4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Austerity of the body: worship of gods, twice-born, teachers, and the wise; purity, uprightness, celibacy, and non-injury.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.15",
+      "alignmentFingerprint": "da8862499cef753041bfce3f2c33fd931044f4fec7dd4623e04bb47c9bec50f9",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Austerity of speech: words causing no agitation, truthful, pleasant, beneficial, and the regular recitation of Vedic scriptures.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.16",
+      "alignmentFingerprint": "3c6860d212be567753f3c93d34846a2d98af2723831514bb61f1f3ca25460013",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Austerity of mind: serenity of mind, gentleness, silence, self-control, and purity of feelings.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.17",
+      "alignmentFingerprint": "d556e5749a35a876c96e558f197ec84590eb989bf6b6b0b04670072d0be4ccb4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "This threefold austerity practiced with supreme faith by steadfast men seeking no fruit is declared Sattvic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.18",
+      "alignmentFingerprint": "6f51a96803467745807a6feb186daf79d865967a4e382d6f32707aa3579e6f2c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Austerity practiced with hypocrisy for the sake of gaining welcome, honor, and reverence is declared Rajasic, unstable and fleeting.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.19",
+      "alignmentFingerprint": "a717fb61b5e69faca96df692cc32d4ce1ace775e1f5a063f06bb7929920668a6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Austerity performed through deluded obstinacy with self-torture or to cause harm to another is declared Tamasic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.20",
+      "alignmentFingerprint": "20711d1350429c5892fe58daec16ca244a5dc4f97916b5f60be0e73e751ecab6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Gift given as duty to one who cannot return it, in appropriate place, at proper time, and to a worthy recipient, is Sattvic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.21",
+      "alignmentFingerprint": "f695e2c2228e4b0ed5383f54d0cb92f5a773d67eee954db910a1ba8fb0a9cbf2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Gift given with an expectation of return, or looking for fruit, or given grudgingly/with pain, is declared Rajasic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.22",
+      "alignmentFingerprint": "bbb3ee5a32a73725a65078dca409ad5758aa95dd2459973c2296037eb0512611",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Gift given at an inappropriate time or place, to unworthy persons, without respect or with contempt, is Tamasic; ends with footnote 37 marker.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.23",
+      "alignmentFingerprint": "616d84de4bb30a79b4efe67122f7f08eba87843f3149d896415cdfb2498551e1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Verified source omission. Arnold explicitly omits canonical 17.23 ('oṃ tatsaditi nirdeśo...'), confirmed by footnote 37 ('I omit the concluding shlokas, as of very doubtful authenticity.').",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.24",
+      "alignmentFingerprint": "60d262770e51d6b416d02a5a85901c997105da1d5e24c8d0af6b2ec5f801dde9",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Verified source omission. Part of the block of concluding shlokas (17.23–17.28) omitted by Arnold per footnote 37.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.25",
+      "alignmentFingerprint": "7c183d6da76362a96c471f36ea49efa5d21625b7c213039c3a1959b00b4c9fe1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Verified source omission. Part of the block of concluding shlokas (17.23–17.28) omitted by Arnold per footnote 37.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.26",
+      "alignmentFingerprint": "50a27dc880425a5ba75f96f37e1f11b53cd4168c657a88bb3d08bee4005c55a0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Verified source omission. Part of the block of concluding shlokas (17.23–17.28) omitted by Arnold per footnote 37.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.27",
+      "alignmentFingerprint": "69dccc7cec1cda3169406577736999ed2122482a9c5e6a74fb5d95c7ee790128",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Verified source omission. Part of the block of concluding shlokas (17.23–17.28) omitted by Arnold per footnote 37.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.17.28",
+      "alignmentFingerprint": "eaf44e16386044b25645e6fe615cc2dd18f4df6b8493258d2bbf313059e29312",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Verified source omission. Part of the block of concluding shlokas (17.23–17.28) omitted by Arnold per footnote 37.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Arnold deliberately terminates his translation after verse 17.22 (the three kinds of gifts), omitting canonical 17.23–17.28 with explicit translator note 37 ('I omit the concluding shlokas, as of very doubtful authenticity').",
+    "All 6 concluding verses (17.23 through 17.28) are verified as legitimate source omissions, faithfully aligned without artificial filler text.",
+    "Verses 17.5 and 17.6 split the description of unscriptural austerities and bodily self-torture cleanly across verse boundaries."
+  ]
+}

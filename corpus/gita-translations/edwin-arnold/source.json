@@ -8,7 +8,7 @@
   "editionYear": 1900,
   "publisher": "Truslove, Hanson & Comba, Ltd., New York",
   "granularity": "verse",
-  "reviewStatus": "Semantic alignment completed by gpt-6.1-sol; independent review pending",
+  "reviewStatus": "First independent model review verified for all 700 canonical references by Gemini 3.8 Flash (google/gemini-3.8-flash) through OpenCode; second review pending",
   "alignmentStatus": "Verse-aligned, with shared source spans and explicit source omissions",
   "source": {
     "id": "gutenberg-2388",

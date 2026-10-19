@@ -1,0 +1,1541 @@
+{
+  "schemaVersion": 1,
+  "workId": "gita",
+  "translationId": "edwin-arnold",
+  "chapter": 9,
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "numbering": "Standard 700-verse canon; Chapter 13 has 34 verses and excludes Arjuna's alternate opening question.",
+  "sourceChapterWithLineNumbers": "1:   Krishna.\n2:   Now will I open unto thee--whose heart\n3:   Rejects not--that last lore, deepest-concealed,\n4:   That farthest secret of My Heavens and Earths,\n5:   Which but to know shall set thee free from ills,--\n6:   A royal lore! a Kingly mystery!\n7:   Yea! for the soul such light as purgeth it\n8:   From every sin; a light of holiness\n9:   With inmost splendour shining; plain to see;\n10:   Easy to walk by, inexhaustible!\n11: \n12:   They that receive not this, failing in faith\n13:   To grasp the greater wisdom, reach not Me,\n14:   Destroyer of thy foes! They sink anew\n15:   Into the realm of Flesh, where all things change!\n16: \n17:   By Me the whole vast Universe of things\n18:   Is spread abroad;--by Me, the Unmanifest!\n19:   In Me are all existences contained;\n20:   Not I in them!\n21: \n22:   Yet they are not contained,\n23:   Those visible things! Receive and strive to embrace\n24:   The mystery majestical! My Being--\n25:   Creating all, sustaining all--still dwells\n26:   Outside of all!\n27: \n28:   See! as the shoreless airs\n29:   Move in the measureless space, but are not space,\n30:   [And space were space without the moving airs];\n31:   So all things are in Me, but are not I.\n32: \n33:   At closing of each Kalpa, Indian Prince!\n34:   All things which be back to My Being come:\n35:   At the beginning of each Kalpa, all\n36:   Issue new-born from Me.\n37: \n38:   By Energy\n39:   And help of Prakriti my outer Self,\n40:   Again, and yet again, I make go forth\n41:   The realms of visible things--without their will--\n42:   All of them--by the power of Prakriti.\n43: \n44:   Yet these great makings, Prince! involve Me not\n45:   Enchain Me not! I sit apart from them,\n46:   Other, and Higher, and Free; nowise attached!\n47: \n48:   Thus doth the stuff of worlds, moulded by Me,\n49:   Bring forth all that which is, moving or still,\n50:   Living or lifeless! Thus the worlds go on!\n51: \n52:   The minds untaught mistake Me, veiled in form;--\n53:   Naught see they of My secret Presence, nought\n54:   Of My hid Nature, ruling all which lives.\n55:   Vain hopes pursuing, vain deeds doing; fed\n56:   On vainest knowledge, senselessly they seek\n57:   An evil way, the way of brutes and fiends.\n58:   But My Mahatmas, those of noble soul\n59:   Who tread the path celestial, worship Me\n60:   With hearts unwandering,--knowing Me the Source,\n61:   Th' Eternal Source, of Life. Unendingly\n62:   They glorify Me; seek Me; keep their vows\n63:   Of reverence and love, with changeless faith\n64:   Adoring Me. Yea, and those too adore,\n65:   Who, offering sacrifice of wakened hearts,\n66:   Have sense of one pervading Spirit's stress,\n67:   One Force in every place, though manifold!\n68:   I am the Sacrifice! I am the Prayer!\n69:   I am the Funeral-Cake set for the dead!\n70:   I am the healing herb! I am the ghee,\n71:   The Mantra, and the flame, and that which burns!\n72:   I am-of all this boundless Universe-\n73:   The Father, Mother, Ancestor, and Guard!\n74:   The end of Learning! That which purifies\n75:   In lustral water! I am OM! I am\n76:   Rig-Veda, Sama-Veda, Yajur-Ved;\n77:   The Way, the Fosterer, the Lord, the Judge,\n78:   The Witness; the Abode, the Refuge-House,\n79:   The Friend, the Fountain and the Sea of Life\n80:   Which sends, and swallows up; Treasure of Worlds\n81:   And Treasure-Chamber! Seed and Seed-Sower,\n82:   Whence endless harvests spring! Sun's heat is mine;\n83:   Heaven's rain is mine to grant or to withhold;\n84:   Death am I, and Immortal Life I am,\n85:   Arjuna! SAT and ASAT, Visible Life,\n86:   And Life Invisible!\n87: \n88:   Yea! those who learn\n89:     The threefold Veds, who drink the Soma-wine,\n90:   Purge sins, pay sacrifice--from Me they earn\n91:     Passage to Swarga; where the meats divine\n92: \n93:   Of great gods feed them in high Indra's heaven.\n94:     Yet they, when that prodigious joy is o'er,\n95:   Paradise spent, and wage for merits given,\n96:     Come to the world of death and change once more.\n97: \n98:   They had their recompense! they stored their treasure,\n99:     Following the threefold Scripture and its writ;\n100:   Who seeketh such gaineth the fleeting pleasure\n101:     Of joy which comes and goes! I grant them it!\n102: \n103:   But to those blessed ones who worship Me,\n104:   Turning not otherwhere, with minds set fast,\n105:   I bring assurance of full bliss beyond.\n106: \n107:   Nay, and of hearts which follow other gods\n108:   In simple faith, their prayers arise to me,\n109:   O Kunti's Son! though they pray wrongfully;\n110:   For I am the Receiver and the Lord\n111:   Of every sacrifice, which these know not\n112:   Rightfully; so they fall to earth again!\n113:   Who follow gods go to their gods; who vow\n114:   Their souls to Pitris go to Pitris; minds\n115:   To evil Bhuts given o'er sink to the Bhuts;\n116:   And whoso loveth Me cometh to Me.\n117:   Whoso shall offer Me in faith and love\n118:   A leaf, a flower, a fruit, water poured forth,\n119:   That offering I accept, lovingly made\n120:   With pious will. Whate'er thou doest, Prince!\n121:   Eating or sacrificing, giving gifts,\n122:   Praying or fasting, let it all be done\n123:   For Me, as Mine. So shalt thou free thyself\n124:   From Karmabandh, the chain which holdeth men\n125:   To good and evil issue, so shalt come\n126:   Safe unto Me-when thou art quit of flesh--\n127:   By faith and abdication joined to Me!\n128: \n129:   I am alike for all! I know not hate,\n130:   I know not favour! What is made is Mine!\n131:   But them that worship Me with love, I love;\n132:   They are in Me, and I in them!\n133: \n134:   Nay, Prince!\n135:   If one of evil life turn in his thought\n136:   Straightly to Me, count him amidst the good;\n137:   He hath the high way chosen; he shall grow\n138:   Righteous ere long; he shall attain that peace\n139:   Which changes not. Thou Prince of India!\n140:   Be certain none can perish, trusting Me!\n141:   O Pritha's Son! whoso will turn to Me,\n142:   Though they be born from the very womb of Sin,\n143:   Woman or man; sprung of the Vaisya caste\n144:   Or lowly disregarded Sudra,--all\n145:   Plant foot upon the highest path; how then\n146:   The holy Brahmans and My Royal Saints?\n147:   Ah! ye who into this ill world are come--\n148:   Fleeting and false--set your faith fast on Me!\n149:   Fix heart and thought on Me! Adore Me! Bring\n150:   Offerings to Me! Make Me prostrations! Make\n151:   Me your supremest joy! and, undivided,\n152:   Unto My rest your spirits shall be guided.\n153: \n154:   HERE ENDS CHAPTER IX. OF THE BHAGAVAD-GITA,\n155:   Entitled \"Rajavidyarajaguhyayog,\"\n156:   Or \"The Book of Religion by the Kingly Knowledge and the Kingly\n157:   Mystery.\"",
+  "translatorNotes": [
+    {
+      "number": 1,
+      "marker": "[FN#1]",
+      "text": "Some repetitionary lines are here omitted."
+    },
+    {
+      "number": 2,
+      "marker": "[FN#2]",
+      "text": "Technical phrases of Vedic religion."
+    },
+    {
+      "number": 3,
+      "marker": "[FN#3]",
+      "text": "The whole of this passage is highly involved and difficult to\nrender."
+    },
+    {
+      "number": 4,
+      "marker": "[FN#4]",
+      "text": "I feel convinced sankhyanan and yoginan must be transposed\nhere in sense."
+    },
+    {
+      "number": 5,
+      "marker": "[FN#5]",
+      "text": "I am doubtful of accuracy here."
+    },
+    {
+      "number": 6,
+      "marker": "[FN#6]",
+      "text": "A name of the sun."
+    },
+    {
+      "number": 7,
+      "marker": "[FN#7]",
+      "text": "Without desire of fruit."
+    },
+    {
+      "number": 8,
+      "marker": "[FN#8]",
+      "text": "That is,\"joy and sorrow, success and failure, heat and cold,\"&c."
+    },
+    {
+      "number": 9,
+      "marker": "[FN#9]",
+      "text": "i.e., the body."
+    },
+    {
+      "number": 10,
+      "marker": "[FN#10]",
+      "text": "The Sanskrit has this play on the double meaning of Atman."
+    },
+    {
+      "number": 11,
+      "marker": "[FN#11]",
+      "text": "So in original."
+    },
+    {
+      "number": 12,
+      "marker": "[FN#12]",
+      "text": "Beings of low and devilish nature."
+    },
+    {
+      "number": 13,
+      "marker": "[FN#13]",
+      "text": "Krishna."
+    },
+    {
+      "number": 14,
+      "marker": "[FN#14]",
+      "text": "I read here janma, \"birth;\" not jara,\"age\""
+    },
+    {
+      "number": 15,
+      "marker": "[FN#15]",
+      "text": "I have discarded ten lines of Sanskrit text here as an\nundoubted interpolation by some Vedantist"
+    },
+    {
+      "number": 16,
+      "marker": "[FN#16]",
+      "text": "The Sanskrit poem here rises to an elevation of style and\nmanner which I have endeavoured to mark by change of metre."
+    },
+    {
+      "number": 17,
+      "marker": "[FN#17]",
+      "text": "Ahinsa."
+    },
+    {
+      "number": 18,
+      "marker": "[FN#18]",
+      "text": "The nectar of immortality."
+    },
+    {
+      "number": 19,
+      "marker": "[FN#19]",
+      "text": "Called \"The Jap.\""
+    },
+    {
+      "number": 20,
+      "marker": "[FN#20]",
+      "text": "The compound form of Sanskrit words."
+    },
+    {
+      "number": 21,
+      "marker": "[FN#21]",
+      "text": "\"Kamalapatraksha\""
+    },
+    {
+      "number": 22,
+      "marker": "[FN#22]",
+      "text": "These are all divine or deified orders of the Hindoo Pantheon."
+    },
+    {
+      "number": 23,
+      "marker": "[FN#23]",
+      "text": "\"Hail to Thee, God of Gods! Be favourable!\""
+    },
+    {
+      "number": 24,
+      "marker": "[FN#24]",
+      "text": "The wind."
+    },
+    {
+      "number": 25,
+      "marker": "[FN#25]",
+      "text": "\"Not peering about,\"anapeksha."
+    },
+    {
+      "number": 26,
+      "marker": "[FN#26]",
+      "text": "The Calcutta edition of the Mahabharata has these three\nopening lines."
+    },
+    {
+      "number": 27,
+      "marker": "[FN#27]",
+      "text": "This is the nearest possible version of\nKshetrakshetrajnayojnanan yat tajnan matan mama."
+    },
+    {
+      "number": 28,
+      "marker": "[FN#28]",
+      "text": "I omit two lines of the Sanskrit here, evidently interpolated by\nsome Vedantist."
+    },
+    {
+      "number": 29,
+      "marker": "[FN#29]",
+      "text": "Wombs."
+    },
+    {
+      "number": 30,
+      "marker": "[FN#30]",
+      "text": "I do not consider the Sanskrit verses here-which are somewhat\nfreely rendered--\"an attack on the authority of the Vedas,\" with Mr\nDavies, but a beautiful lyrical episode, a new \"Parable of the fig-tree.\""
+    },
+    {
+      "number": 31,
+      "marker": "[FN#31]",
+      "text": "I omit a verse here, evidently interpolated."
+    },
+    {
+      "number": 32,
+      "marker": "[FN#32]",
+      "text": "\"Of the Asuras,\" lit."
+    },
+    {
+      "number": 33,
+      "marker": "[FN#33]",
+      "text": "I omit the ten concluding shlokas, with Mr Davis."
+    },
+    {
+      "number": 34,
+      "marker": "[FN#34]",
+      "text": "Rakshasas and Yakshas are unembodied but capricious beings\nof great power, gifts, and beauty, same times also of benignity."
+    },
+    {
+      "number": 35,
+      "marker": "[FN#35]",
+      "text": "These are spirits of evil wandering ghosts."
+    },
+    {
+      "number": 36,
+      "marker": "[FN#36]",
+      "text": "Yatayaman, food which has remained after the watches of the\nnight. In India this would probably \"go bad.\""
+    },
+    {
+      "number": 37,
+      "marker": "[FN#37]",
+      "text": "I omit the concluding shlokas, as of very doubtful authenticity."
+    }
+  ],
+  "paratext": [
+    {
+      "chapter": 9,
+      "type": "chapter-colophon",
+      "text": "HERE ENDS CHAPTER IX. OF THE BHAGAVAD-GITA,\n  Entitled \"Rajavidyarajaguhyayog,\"\n  Or \"The Book of Religion by the Kingly Knowledge and the Kingly\n  Mystery.\"",
+      "checksum": "3f77acec897897568a09a2b44e1a87ea4f7fc38c30087702c9c6ca700754b4f4",
+      "sourceSpan": {
+        "start": 5819,
+        "end": 5978,
+        "lineStart": 1669,
+        "lineEnd": 1672,
+        "checksum": "f4d23773134750d5afada18339831fa7799f5bb65030f3470a9fba4abda9dd7d"
+      }
+    }
+  ],
+  "records": [
+    {
+      "canonicalRef": "gita.9.1",
+      "alignmentFingerprint": "8c1693e04e6a382ca66042e92f33bb128abfc50ad38d1b7eceacc0e15e2e74e9",
+      "sanskrit": "श्रीभगवानुवाच।\nइदं तु ते गुह्यतमं प्रवक्ष्याम्यनसूयवे।\nज्ञानं विज्ञानसहितं यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ॥",
+      "iast": "śrībhagavānuvāca\nidaṃ tu te guhyatamaṃ pravakṣyāmyanasūyave\njñānaṃ vijñānasahitaṃ yajjñātvā mokṣyase.aśubhāt",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.1",
+        "content": "Krishna.\n  Now will I open unto thee--whose heart\n  Rejects not--that last lore, deepest-concealed,\n  That farthest secret of My Heavens and Earths,\n  Which but to know shall set thee free from ills,--",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.1"
+        ],
+        "sourceSpans": [
+          {
+            "start": 0,
+            "end": 204,
+            "lineStart": 1516,
+            "lineEnd": 1520,
+            "checksum": "ccfac8f51dd9cc00bf0c2eef9a53b98931667e7a765aa509c0a10e2426e4e256"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.1 The Blessed Lord said I shall now declare to thee who does not cavil, the greatest secret, the knowledge combined with experience (Self-realisation). Having known this thou shalt be free evil."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.1 \"Lord Shri Krishna said: I will now reveal to thee, since thou doubtest not, that profound mysticism, which when followed by experience, shall liberate thee from sin."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.1 The Blessed Lord said However, to you who are not given to cavilling I shall speak of this highest secret itself, which is Knowledge [Jnana may mean Brahman that is Consciousness, or Its knowledge gathered from the Vedas (paroksa-jnana). Vijnana is direct experience (aparoksa-jnana).] combined with experience, by realizing which you shall be free from evil."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.2",
+      "alignmentFingerprint": "8a85f966cc1798489142ab06e517114aceae276fc13f0ebe520a019a1be835a8",
+      "sanskrit": "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम्।\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम् ॥",
+      "iast": "rājavidyā rājaguhyaṃ pavitramidamuttamam\npratyakṣāvagamaṃ dharmyaṃ susukhaṃ kartumavyayam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.2",
+        "content": "A royal lore! a Kingly mystery!\n  Yea! for the soul such light as purgeth it\n  From every sin; a light of holiness\n  With inmost splendour shining; plain to see;\n  Easy to walk by, inexhaustible!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.2"
+        ],
+        "sourceSpans": [
+          {
+            "start": 204,
+            "end": 403,
+            "lineStart": 1521,
+            "lineEnd": 1526,
+            "checksum": "d88dc33280ee40c1b93125fa4f387803f9c58e07479750a2cdf57ee08d0c4236"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.2 This is the kingl science, the kingly secret, the supreme purifier, realisable by direct intuitional knowledge, according to righteousness, very easy to perform and imperishable."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.2 This is the Premier Science, the Sovereign Secret, the Purest and Best; intuitional, righteous; and to him who practiseth it pleasant beyond measure."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.2 This is the Sovereign Knowledge, the Sovereign Profundity, the best sanctifire; directly realizable, righteous, very easy to practise and imperishable."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.3",
+      "alignmentFingerprint": "369f19f00bd5c2425de7a67ae6105327e0fb6ab95f9db4939be2df32ee62151f",
+      "sanskrit": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप।\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि ॥",
+      "iast": "aśraddadhānāḥ puruṣā dharmasyāsya parantapa\naprāpya māṃ nivartante mṛtyusaṃsāravartmani",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.3",
+        "content": "They that receive not this, failing in faith\n  To grasp the greater wisdom, reach not Me,\n  Destroyer of thy foes! They sink anew\n  Into the realm of Flesh, where all things change!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.3"
+        ],
+        "sourceSpans": [
+          {
+            "start": 403,
+            "end": 588,
+            "lineStart": 1527,
+            "lineEnd": 1531,
+            "checksum": "4e0798c76580bb8aff5a5d7a2f459eb39bef696eff5926f2cdebfa63edee4c82"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.3 Those who have no faith in this Dharma (knowledge of the Self), O Parantapa (Arjuna), return to the path of this world of death without attaining Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.3 They who have no faith in this teaching cannot find Me, but remain lost in the purlieus of this perishable world."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.3 O destroyer of foes, persons who are regardless of this Dharma (knowledge of the Self) certainly go round and round, without reaching Me, along the path of transmigration which is fraught with death."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.4",
+      "alignmentFingerprint": "a8ea70783a86d2ed3dd1019d760c085417fcd11a3312ab0987bad238595f6161",
+      "sanskrit": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना।\nमत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः ॥",
+      "iast": "mayā tatamidaṃ sarvaṃ jagadavyaktamūrtinā\nmatsthāni sarvabhūtāni na cāhaṃ teṣvavasthitaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.4",
+        "content": "By Me the whole vast Universe of things\n  Is spread abroad;--by Me, the Unmanifest!\n  In Me are all existences contained;\n  Not I in them!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.4"
+        ],
+        "sourceSpans": [
+          {
+            "start": 588,
+            "end": 730,
+            "lineStart": 1532,
+            "lineEnd": 1536,
+            "checksum": "8a2798bd3e8d5dfaec57c36f5872b105697365619a3a3dd10a7cea817e72eb61"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.4 All this world is pervaded by Me in My unmanifest aspect; all beings exist in Me, but I do not dwell in them."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.4 The whole world is pervaded by Me, yet My form is not seen. All living things have their being in Me, yet I am not limited by them."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.4 This whole world is prevaded by Me in My unmanifest form. All beings exist in Me, but I am not contained in them!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.5",
+      "alignmentFingerprint": "0307d33960d805de7986d7d9412ea9e99aa2077257940a008083b8e3609ad5da",
+      "sanskrit": "न च मत्स्थानि भूतानि पश्य मे योगमैश्वरम्।\nभूतभृन्न च भूतस्थो ममात्मा भूतभावनः ॥",
+      "iast": "na ca matsthāni bhūtāni paśya me yogamaiśvaram\nbhūtabhṛnna ca bhūtastho mamātmā bhūtabhāvanaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.5",
+        "content": "Yet they are not contained,\n  Those visible things! Receive and strive to embrace\n  The mystery majestical! My Being--\n  Creating all, sustaining all--still dwells\n  Outside of all!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.5"
+        ],
+        "sourceSpans": [
+          {
+            "start": 730,
+            "end": 915,
+            "lineStart": 1537,
+            "lineEnd": 1542,
+            "checksum": "aafa8619c1d5a32ecc240dcee517854a2cad0d1cf97dba4f5ac124535548d1b5"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.5 Nor do beings exist in Me (in reality); behold My divine Yoga, supporting all beings, but not dwelling in them, is My Self, the efficient cause of beings."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.5 Nevertheless, they do not consciously abide in Me. Such is My Divine Sovereignty that though I, the Supreme Self, am the cause and upholder of all, yet I remain outside."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.5 Nor do the beings dwell in Me. Behod My divine Yoga! I am the sustainer and originator of beings, but My Self is not contained in the beings."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.6",
+      "alignmentFingerprint": "1a7721c1dedce33d14daad747ea5c811ed5e0a41d260664c4d39c770f768cb9d",
+      "sanskrit": "यथाकाशस्थितो नित्यं वायुः सर्वत्रगो महान्।\nतथा सर्वाणि भूतानि मत्स्थानीत्युपधारय ॥",
+      "iast": "yathākāśasthito nityaṃ vāyuḥ sarvatrago mahān\ntathā sarvāṇi bhūtāni matsthānītyupadhāraya",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.6",
+        "content": "See! as the shoreless airs\n  Move in the measureless space, but are not space,\n  [And space were space without the moving airs];\n  So all things are in Me, but are not I.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.6"
+        ],
+        "sourceSpans": [
+          {
+            "start": 915,
+            "end": 1089,
+            "lineStart": 1543,
+            "lineEnd": 1547,
+            "checksum": "dd4ff7970c0991eaa0028af36936038094da0ae542da2c69c85fa695cb4d0e5f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.6 As the mighty wind, moving everywhere, rests always in the ether, even so, know thou that all beings rest in Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.6 As the mighty wind, though moving everywhere, has no resting place but space, so have all these beings no home but Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.6 Understand thus that just as the voluminous wind moving everywhere is ever present in space, similarly all beings abide in Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.7",
+      "alignmentFingerprint": "4f2a9dd0f270a306100db29256283981fe5435465af33bfa97809bf7d5c8f757",
+      "sanskrit": "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम्।\nकल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम् ॥",
+      "iast": "sarvabhūtāni kaunteya prakṛtiṃ yānti māmikām\nkalpakṣaye punastāni kalpādau visṛjāmyaham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.7",
+        "content": "At closing of each Kalpa, Indian Prince!\n  All things which be back to My Being come:\n  At the beginning of each Kalpa, all\n  Issue new-born from Me.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.7"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1089,
+            "end": 1242,
+            "lineStart": 1548,
+            "lineEnd": 1552,
+            "checksum": "efd56e5a48149db89b7381c0e880161c6ca8fe49014c4dd3784235033f1f5fc2"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.7 All beings, O Arjuna, go into My Nature at the end of a Kalpa; I send them forth again at the beginning of (the next) Kalpa."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.7 All beings, O Arjuna, return at the close of every cosmic cycle into the realm of Nature, which is a part of Me, and at the beginning of the next I send them forth again."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.7 O son Kunti, all the beings go back at the end of a cycle to My Prakrti. I project them forth again at the beginning of a cycle."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.8",
+      "alignmentFingerprint": "a4ff170dd492a586749c971b33dc85d929b8f89e55e4321c8324dd9b144d3b38",
+      "sanskrit": "प्रकृतिं स्वामवष्टभ्य विसृजामि पुनः पुनः।\nभूतग्राममिमं कृत्स्नमवशं प्रकृतेर्वशात् ॥",
+      "iast": "prakṛtiṃ svāmavaṣṭabhya visṛjāmi punaḥ punaḥ\nbhūtagrāmamimaṃ kṛtsnamavaśaṃ prakṛtervaśāt",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.8",
+        "content": "By Energy\n  And help of Prakriti my outer Self,\n  Again, and yet again, I make go forth\n  The realms of visible things--without their will--\n  All of them--by the power of Prakriti.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.8"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1242,
+            "end": 1427,
+            "lineStart": 1553,
+            "lineEnd": 1558,
+            "checksum": "29753d0574af621f28b3e7a55cab979a95c588aadbf97f52c4e67f1d47e3832e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.8 Animating My Nature, I again and again send forth all this multitude of beings, helpless by the force of the Nature."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.8 With the help of Nature, again and again I pour forth the whole multitude of beings, whether they will or no, for they are ruled by My Will."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.8 Keeping My own prakrti under control, I project forth again and again the whole of this multitude of beings which are powerless owing to the influence of (their own) nature."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.9",
+      "alignmentFingerprint": "2bc1a838dd02b955ca5855c702fe4da52bd3ca0d3c94253da2427a91cd76c58a",
+      "sanskrit": "न च मां तानि कर्माणि निबध्नन्ति धनञ्जय।\nउदासीनवदासीनमसक्तं तेषु कर्मसु ॥",
+      "iast": "na ca māṃ tāni karmāṇi nibadhnanti dhanañjaya\nudāsīnavadāsīnamasaktaṃ teṣu karmasu",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.9",
+        "content": "Yet these great makings, Prince! involve Me not\n  Enchain Me not! I sit apart from them,\n  Other, and Higher, and Free; nowise attached!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.9"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1427,
+            "end": 1567,
+            "lineStart": 1559,
+            "lineEnd": 1562,
+            "checksum": "064c15e651bbef3e624e24343d190eb390f6f1cad7bd073bdea383ff4a74dbdf"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.9 These acts do not bind Me, O Arjuna, sitting like one indifferent, unattached to those acts."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.9 But these acts of mine do not bind Me. I remain outside and unattached."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.9 O Dhananjaya (Arjuna), nor do those actions bind Me, remaining (as I do) like one unconcerned with, and unattached to, those actions."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.10",
+      "alignmentFingerprint": "723cdc1da28fb82c6982fc068f69f753ed0f6b9589162bce8186fdd19d878d56",
+      "sanskrit": "मयाध्यक्षेण प्रकृतिः सूयते सचराचरम्।\nहेतुनानेन कौन्तेय जगद्विपरिवर्तते ॥",
+      "iast": "mayādhyakṣeṇa prakṛtiḥ sūyate sacarācaram\nhetunānena kaunteya jagadviparivartate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.10",
+        "content": "Thus doth the stuff of worlds, moulded by Me,\n  Bring forth all that which is, moving or still,\n  Living or lifeless! Thus the worlds go on!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.10"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1567,
+            "end": 1711,
+            "lineStart": 1563,
+            "lineEnd": 1566,
+            "checksum": "7449bbae2cd879401deed4a730be71d19c62d1a01f96ef45d5c0a18a4f6ac274"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.10 Under Me as supervisor, Nature produces the moving and the unmoving; because of this, O Arjuna, the world revolves."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.10 Under my guidance, Nature produces all things movable and immovable. Thus it is, O Arjuna, that this universe revolves."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.10 Under Me as the supervisor, the Prakrti produces (the world) of the moving and the non-moving things. Owing to this reason, O son of Kunti, the world revolves."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.11",
+      "alignmentFingerprint": "79803110ea624142294b56bde2f788b5e2dce5c29b80668e4ff887f006ad75a1",
+      "sanskrit": "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम्।\nपरं भावमजानन्तो मम भूतमहेश्वरम् ॥",
+      "iast": "avajānanti māṃ mūḍhā mānuṣīṃ tanumāśritam\nparaṃ bhāvamajānanto mama bhūtamaheśvaram",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.11",
+        "content": "The minds untaught mistake Me, veiled in form;--\n  Naught see they of My secret Presence, nought\n  Of My hid Nature, ruling all which lives.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.11"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1711,
+            "end": 1854,
+            "lineStart": 1567,
+            "lineEnd": 1569,
+            "checksum": "ebf46fab217ebf2da31220bffb821b116eee8fe4cef5430c87bae3f8d54f302e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.11 Fools disregard Me, clad in human form, not knowing My higher Being as the great Lord of (all) beings."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.11 Fools disregard Me, seeing Me clad in human form. They know not that in My higher nature I am the Lord-God of all."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.11 Not knowing My supreme nature as the Lord of all beings, foolish people disregard Me who have taken a human body."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.12",
+      "alignmentFingerprint": "5754ac9c41a93e9c70576e2b973fa39eafeb49a073ef735d59332ea7d0123527",
+      "sanskrit": "मोघाशा मोघकर्माणो मोघज्ञाना विचेतसः।\nराक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः ॥",
+      "iast": "moghāśā moghakarmāṇo moghajñānā vicetasaḥ\nrākṣasīmāsurīṃ caiva prakṛtiṃ mohinīṃ śritāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.12",
+        "content": "Vain hopes pursuing, vain deeds doing; fed\n  On vainest knowledge, senselessly they seek\n  An evil way, the way of brutes and fiends.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.12"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1854,
+            "end": 1990,
+            "lineStart": 1570,
+            "lineEnd": 1572,
+            "checksum": "896f42c41ca4c59fdfe35eb57dea4f8c6f3467a89d245dbde3d3deb559bf8cc3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.12 Of vain hopes, of vain actions, of vain knowledge and senseless, they verily are possessed of the deceitful nature of demons and undivine beings."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.12 Their hopes are vain, their actions worthless, their knowledge futile; they are without sense, deceitful, barbarous and godless."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.12 Of vain hopes, of vain actions, of vain knowledge, and senseless, they become verily possessed of the deceptive disposition of fiends and demons."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.13",
+      "alignmentFingerprint": "69d7fd907901369789be527e4da54f224162ca59d21e3d703141c7d4581bdc16",
+      "sanskrit": "महात्मानस्तु मां पार्थ दैवीं प्रकृतिमाश्रिताः।\nभजन्त्यनन्यमनसो ज्ञात्वा भूतादिमव्ययम् ॥",
+      "iast": "mahātmānastu māṃ pārtha daivīṃ prakṛtimāśritāḥ\nbhajantyananyamanaso jñātvā bhūtādimavyayam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.13",
+        "content": "But My Mahatmas, those of noble soul\n  Who tread the path celestial, worship Me\n  With hearts unwandering,--knowing Me the Source,\n  Th' Eternal Source, of Life.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.13"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1990,
+            "end": 2154,
+            "lineStart": 1573,
+            "lineEnd": 1576,
+            "checksum": "c75c3b342ec2ca69f50c4d5617c8a8c738ef26d1f2b6a23a660390ee8809a81b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.13 But the great souls, O Arjuna, partaking of My divine nature, worship Me with a single mind (with the mind devoted to nothing else), knowing Me as the imperishable source of beings."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.13 But the Great Souls, O Arjuna! Filled with My Divine Spirit, they worship Me, they fix their minds on Me and on Me alone, for they know that I am the imperishable Source of being."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.13 O son of Prtha, the noble ones, being possessed of divine nature, surely adore Me with single-mindedness, knowing Me as the immutable source of all objects."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.14",
+      "alignmentFingerprint": "440f3bcc36dc1809c8adb93d514d93bcf66579182d50cb7e68773a7a39f945fe",
+      "sanskrit": "सततं कीर्तयन्तो मां यतन्तश्च दृढव्रताः।\nनमस्यन्तश्च मां भक्त्या नित्ययुक्ता उपासते ॥",
+      "iast": "satataṃ kīrtayanto māṃ yatantaśca dṛḍhavratāḥ\nnamasyantaśca māṃ bhaktyā nityayuktā upāsate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.14",
+        "content": "Unendingly\n  They glorify Me; seek Me; keep their vows\n  Of reverence and love, with changeless faith\n  Adoring Me.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.14"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2154,
+            "end": 2270,
+            "lineStart": 1576,
+            "lineEnd": 1579,
+            "checksum": "4d2d28dfabe3b41390d0b5284ff8f3af9d730b2bacea4d0bed62a8e99b505bb8"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.14 Always glorifying Me, striving,firm in vows, prostrating themselves before Me, they worship Me with devotion always steadfast."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.14 Always extolling Me, strenuous, firm in their vows, prostrating themselves before Me, they worship Me continually with concentrated devotion."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.14 Always glorifying Me and striving, the men of firm vows worship Me by paying obeisance to Me and being ever endowed with devotion."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.15",
+      "alignmentFingerprint": "5f3b62a3d858ae3f10057473c4fb473852ee67021570130a5877aed5881ff43c",
+      "sanskrit": "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते।\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम् ॥",
+      "iast": "jñānayajñena cāpyanye yajanto māmupāsate\nekatvena pṛthaktvena bahudhā viśvatomukham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.15",
+        "content": "Yea, and those too adore,\n  Who, offering sacrifice of wakened hearts,\n  Have sense of one pervading Spirit's stress,\n  One Force in every place, though manifold!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.15"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2270,
+            "end": 2433,
+            "lineStart": 1579,
+            "lineEnd": 1582,
+            "checksum": "0dc8116f9f47260d391206b9fa9e0204cc4dfee7cd945bf17b9482aefb03fe5e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.15 Others also sacrificing with the wisdom-sacrifice worship Me, the All-faced, as one, as distinct, and as manifold."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.15 Others worship Me with full consciousness as the One, the Manifold, the Omnipresent, the Universal."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.15 Others verily worship Me by adoring exclusively through the sacrifice of the knowledge of oneness; (others worship Me) multifariously, and (others) as the multiformed existing variously."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.16",
+      "alignmentFingerprint": "750adb0232b8613a80f0f901af058c9e15d2e113b6b7d04c5cf9d1bb91d3f6e6",
+      "sanskrit": "अहं क्रतुरहं यज्ञः स्वधाहमहमौषधम्।\nमन्त्रोऽहमहमेवाज्यमहमग्निरहं हुतम् ॥",
+      "iast": "ahaṃ kraturahaṃ yajñaḥ svadhāhamahamauṣadham\nmantro.ahamahamevājyamahamagnirahaṃ hutam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.16",
+        "content": "I am the Sacrifice! I am the Prayer!\n  I am the Funeral-Cake set for the dead!\n  I am the healing herb! I am the ghee,\n  The Mantra, and the flame, and that which burns!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.16"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2433,
+            "end": 2605,
+            "lineStart": 1583,
+            "lineEnd": 1586,
+            "checksum": "03c94f925d7d974a8543d105cdf09914cfadac7d17f33b2705782f283432bfd3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.16 I am the Kratu; I am the Yajna; I am the offering (food) to the manes; I am the medicinal herbs and all the plants; I am the Mantra; I am also the Ghee or the melted butter; I am the fire; I am the oblation."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.16 I am the Oblation, the Sacrifice and the Worship; I am the Fuel and the Chant, I am the Butter offered to the fire, I am the Fire itself, and I am the Act of offering."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.16 I am the kratu, I am the yajna, I am the svadha, I am the ausadha, I am the mantra, I Myself am the ajya, I am the fire, and I am the act of offering."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.17",
+      "alignmentFingerprint": "6974b9a8b8f860bb4b9582bf472603d00e330694a4edbf3dc773b39aafb2ae41",
+      "sanskrit": "पिताहमस्य जगतो माता धाता पितामहः।\nवेद्यं पवित्रमोंकार ऋक्साम यजुरेव च ॥",
+      "iast": "pitāhamasya jagato mātā dhātā pitāmahaḥ\nvedyaṃ pavitramoṃkāra ṛksāma yajureva ca",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.17",
+        "content": "I am-of all this boundless Universe-\n  The Father, Mother, Ancestor, and Guard!\n  The end of Learning! That which purifies\n  In lustral water! I am OM! I am\n  Rig-Veda, Sama-Veda, Yajur-Ved;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.17"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2605,
+            "end": 2798,
+            "lineStart": 1587,
+            "lineEnd": 1591,
+            "checksum": "ca3c1982413839e088142a4e8f0d4ac0f1fd5a855132606bb401334d32b00249"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.17 I am the father of this world, the mother, the dispenser of the fruits of actions and the\ngrandfather; the (one) thing to be known, the purifier, the sacred monosyllable (Om), and also the Rik-, the Sama-and the Yajur-Vedas."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.17 I am the Father of the universe and its Mother; I am its Nourisher and its Grandfather; I am the Knowable and the Pure; I am Om; and I am the Sacred Scriptures."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.17 Of this world I am the father, mother, ordainer, (and the), grand-father; I am the knowable, the sancitifier, the syllable Om as also Rk, Sama and Yajus."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.18",
+      "alignmentFingerprint": "5acb77e42e24b53448bf6d46187a824da7c10230cd1c6388047ec129b8d015c4",
+      "sanskrit": "गतिर्भर्ता प्रभुः साक्षी निवासः शरणं सुहृत्।\nप्रभवः प्रलयः स्थानं निधानं बीजमव्ययम् ॥",
+      "iast": "gatirbhartā prabhuḥ sākṣī nivāsaḥ śaraṇaṃ suhṛt\nprabhavaḥ pralayaḥ sthānaṃ nidhānaṃ bījamavyayam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.18",
+        "content": "The Way, the Fosterer, the Lord, the Judge,\n  The Witness; the Abode, the Refuge-House,\n  The Friend, the Fountain and the Sea of Life\n  Which sends, and swallows up; Treasure of Worlds\n  And Treasure-Chamber! Seed and Seed-Sower,\n  Whence endless harvests spring!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.18"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2798,
+            "end": 3065,
+            "lineStart": 1592,
+            "lineEnd": 1597,
+            "checksum": "8344185c1140add773c667ce6b4a37feb6532ab5248e7372a6cb3f52defc6f2f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.18 I am the goal, the supporter, the Lord, the witness, the abode, the shelter, the friend, the origin, the dissolution, the foundation, the treasure-house and the seed which is imperishable."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.18 I am the Goal, the Sustainer, the Lord, the Witness, the Home, the Shelter, the Lover and the Origin; I am Life and Death; I am the Fountain and the Seed Imperishable."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.18 (I am) the fruit of actions, the nourisher, the Lord, witness, abode, refuge, friend, origin, end, foundation, store and the imperishable seed."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.19",
+      "alignmentFingerprint": "c179cd36fb55a9e2b7764eae2f4cac14d56e77ee2843eef51f17b0a32d279e01",
+      "sanskrit": "तपाम्यहमहं वर्षं निगृह्णाम्युत्सृजामि च।\nअमृतं चैव मृत्युश्च सदसच्चाहमर्जुन ॥",
+      "iast": "tapāmyahamahaṃ varṣaṃ nigṛhṇāmyutsṛjāmi ca\namṛtaṃ caiva mṛtyuśca sadasaccāhamarjuna",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.19",
+        "content": "Sun's heat is mine;\n  Heaven's rain is mine to grant or to withhold;\n  Death am I, and Immortal Life I am,\n  Arjuna! SAT and ASAT, Visible Life,\n  And Life Invisible!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.19"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3065,
+            "end": 3233,
+            "lineStart": 1597,
+            "lineEnd": 1602,
+            "checksum": "9cb350e12ffd529ab999dfb89620b7992c09468c0be5cecac0ab81185a946041"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.19 (As the sun) I give heat; I withhold and send forth the rain; I am immortality and also death, existence and non-existence, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.19 I am the Heat of the Sun, I release and hold back the Rains. I am Death and Immortality; I am Being and Not-Being."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.19 O Arjuna, I give heat, I withhold and pour down rain. I am verily the nectar, and also death existence and nonexistence."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.20",
+      "alignmentFingerprint": "39550f47c5cb86941c1dc2de0b838ecbffbc5ee1788ec0e22df4f11b7b8ea36b",
+      "sanskrit": "त्रैविद्या मां सोमपाः पूतपापा\nयज्ञैरिष्ट्वा स्वर्गतिं प्रार्थयन्ते।\nते पुण्यमासाद्य सुरेन्द्रलोक-\nमश्नन्ति दिव्यान्दिवि देवभोगान् ॥",
+      "iast": "traividyā māṃ somapāḥ pūtapāpā yajñairiṣṭvā svargatiṃ prārthayante\nte puṇyamāsādya surendralokaṃ aśnanti divyāndivi devabhogān",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.20",
+        "content": "Yea! those who learn\n    The threefold Veds, who drink the Soma-wine,\n  Purge sins, pay sacrifice--from Me they earn\n    Passage to Swarga; where the meats divine\n\n  Of great gods feed them in high Indra's heaven.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.20"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3233,
+            "end": 3453,
+            "lineStart": 1603,
+            "lineEnd": 1609,
+            "checksum": "2f94d0d7b0fe20a76a0ed8f868904b1d89b4c4e10cf576452be4dc8f91035b36"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.20 The knowers of the three Vedas, the drinkers of Soma, purified of all sins, worshipping Me by sacrifices, pray for the way to heaven; they reach the holy world of the Lord of the gods and enjoy in heavn the divine pleasures of the gods."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.20 Those who are versed in the scriptures, who drink the mystic Soma-juice and are purified from sin, but who while worshipping Me with sacrifices pray that I will lead them to heaven; they reach the holy world where lives the Controller of the Powers of Nature, and they enjoy the feasts of Paradise."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.20 Those who are versed in the Vedas, who are drinkers of Soma and are purified of sin, pray for the heavenly goal by worshipping Me through sacrifices. Having reached the place (world) of the king of gods, which is the result of righteousness, they enjoy in heaven th divine pleasure of gods."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.21",
+      "alignmentFingerprint": "b0abcd66f70a989ba4fc9e9b36fdf72e953f5f197f98a905bd35658f5426cc72",
+      "sanskrit": "ते तं भुक्त्वा स्वर्गलोकं विशालं\nक्षीणे पुण्ये मर्त्यलोकं विशन्ति।\nएवं त्रयीधर्ममनुप्रपन्ना\nगतागतं कामकामा लभन्ते ॥",
+      "iast": "te taṃ bhuktvā svargalokaṃ viśālaṃ kṣīṇe puṇye martyalokaṃ viśanti\nevaṃ trayīdharmamanuprapannā gatāgataṃ kāmakāmā labhante",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.21",
+        "content": "Yet they, when that prodigious joy is o'er,\n  Paradise spent, and wage for merits given,\n    Come to the world of death and change once more.\n\n  They had their recompense! they stored their treasure,\n    Following the threefold Scripture and its writ;\n  Who seeketh such gaineth the fleeting pleasure\n    Of joy which comes and goes! I grant them it!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.21"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3453,
+            "end": 3805,
+            "lineStart": 1609,
+            "lineEnd": 1617,
+            "checksum": "56a7dc05146e9245e8d60c4891d58686b678f6ee835451cf7a25eed8a48ca603"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.21 They, having enjoyed the vast heaven, enter the world of mortals when their merit is exhausted; thus abiding by the injunctions of the ï1threeï1 (Vedas) and desiring (objects of) desires, they attain to the state of going and returning."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.21 Yet although they enjoy the spacious glories of Paradise, nevertheless, when their merit is exhausted, they are born again into this world of mortals. They have followed the letter of the scriptures, yet because they have sought but to fulfill their own desires, they must depart and return again and again."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.21 After having enjoyed that vast heavenly world, they enter into the human world on the exhaustion of their merit. Thus, those who follow the rites and duties prescribed in the three Vedas, and are desirous of pleasures, attain the state of going and returning."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.22",
+      "alignmentFingerprint": "01b7c395480ccf746c64deba58e828a1d22814de17c2706dae46aefe41a98f07",
+      "sanskrit": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ॥",
+      "iast": "ananyāścintayanto māṃ ye janāḥ paryupāsate\nteṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.22",
+        "content": "But to those blessed ones who worship Me,\n  Turning not otherwhere, with minds set fast,\n  I bring assurance of full bliss beyond.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.22"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3805,
+            "end": 3939,
+            "lineStart": 1618,
+            "lineEnd": 1621,
+            "checksum": "95b2d77822aec80815b7b50435b71d890c9e10e3906064df094dea318a02d29e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.22 For those men who worship Me alone, thinking of no other, for those ever-united, I secure what is not already possessed and preserve what they already possess."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.22 But if a man will meditate on Me and Me alone, and will worship Me always and everywhere, I will take upon Myself the fulfillment of his aspiration, and I will safeguard whatsoever he shall attain."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.22 Those persons who, becoming non-different from Me and meditative, worship Me everywhere, for them, who are ever attached (to Me), I arrange for securing what they lack and preserving what they have."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.23",
+      "alignmentFingerprint": "0f7f9bbfc1ac4510fe2bd5277737d96e8a20a5e1663cff149e19cf0408d7ba7b",
+      "sanskrit": "येऽप्यन्यदेवता भक्ता यजन्ते श्रद्धयान्विताः।\nतेऽपि मामेव कौन्तेय यजन्त्यविधिपूर्वकम् ॥",
+      "iast": "ye.apyanyadevatābhaktā yajante śraddhayānvitāḥ\nte.api māmeva kaunteya yajantyavidhipūrvakam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.23",
+        "content": "Nay, and of hearts which follow other gods\n  In simple faith, their prayers arise to me,\n  O Kunti's Son! though they pray wrongfully;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.23"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3939,
+            "end": 4076,
+            "lineStart": 1622,
+            "lineEnd": 1624,
+            "checksum": "27cdb5c5c6f58b36a9de33d9c5be858ceee14fcd9af6cf1156fd3d55ce77c3be"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.23 Even those devotees who, endowed with faith, worship other gods, worship Me alone, O Arjuna, b the wrong method."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.23 Even those who worship the lesser Powers, if they do so with faith, they thereby worship Me, though not in the right way."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.23 Even those who, being devoted to other deities and endowed with faith, worship (them), they also, O son of Kunti, worship Me alone (though) following the wrong method."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.24",
+      "alignmentFingerprint": "2052d2897bc76b4e87246f2568cc01ef66bb17f48749dc7b465fa1cb4a0a8fb8",
+      "sanskrit": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च।\nन तु मामभिजानन्ति तत्त्वेनातश्च्यवन्ति ते ॥",
+      "iast": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhureva ca\nna tu māmabhijānanti tattvenātaścyavanti te",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.24",
+        "content": "For I am the Receiver and the Lord\n  Of every sacrifice, which these know not\n  Rightfully; so they fall to earth again!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.24"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4076,
+            "end": 4199,
+            "lineStart": 1625,
+            "lineEnd": 1627,
+            "checksum": "f65ad735730e8a5a61af3f61bbcd82f3340cbd1bad8a976e1c9030173b4ce31c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.24 (For) I alone am the enjoyer and also the Lord of all sacrifices; but they do not know Me in essence (in reality), and hence they fall (return to this mortal world)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.24 I am the willing recipient of sacrifice, and I am its true Lord. But these do not know me in truth, and so they sink back."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.24 I indeed am the enjoyer as also the Lord of all sacrifices; but they do not know Me in reality. Therefore they fall."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.25",
+      "alignmentFingerprint": "8dbb4ee61ca57e55b8e146df26971c1392fd69be6cd3a1b5856be50c9ae7eac1",
+      "sanskrit": "यान्ति देवव्रता देवान्पितॄन्यान्ति पितृव्रताः।\nभूतानि यान्ति भूतेज्या यान्ति मद्याजिनोऽपि माम् ॥",
+      "iast": "yānti devavratā devānpitṝnyānti pitṛvratāḥ\nbhūtāni yānti bhūtejyā yānti madyājino.api mām",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.25",
+        "content": "Who follow gods go to their gods; who vow\n  Their souls to Pitris go to Pitris; minds\n  To evil Bhuts given o'er sink to the Bhuts;\n  And whoso loveth Me cometh to Me.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.25"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4199,
+            "end": 4369,
+            "lineStart": 1628,
+            "lineEnd": 1631,
+            "checksum": "f9fd819afb0d332547d40664470db54ebc56672651447118815a5f629e03699f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.25 The worshippers of the gods go to them; to the manes go the ancestor-worshippers; to the deities who preside over the elements go their worshippers; but My devotees come to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.25 The votaries of the lesser Powers go to them; the devotees of spirits go to them; they who worship the Powers of Darkness, to such Powers shall they go; and so, too, those who worship Me shall come to Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.25 Votaries of the gods reach the gods; the votarites of the manes go to the manes; the worshippers of the Beings reach the Beings; and those who worship Me reach Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.26",
+      "alignmentFingerprint": "840a688f5649e9c230296b0d2b11c7690f111cae7b77d228a29f3a9113a3f4e8",
+      "sanskrit": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति।\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः ॥",
+      "iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati\ntadahaṃ bhaktyupahṛtamaśnāmi prayatātmanaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.26",
+        "content": "Whoso shall offer Me in faith and love\n  A leaf, a flower, a fruit, water poured forth,\n  That offering I accept, lovingly made\n  With pious will.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.26"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4369,
+            "end": 4518,
+            "lineStart": 1632,
+            "lineEnd": 1635,
+            "checksum": "77e445bd2b95128f1b04b1d3e4d4d089176415c42e07cbfcc043a9a9b9568b7b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.26 Whoever offers Me with devotion a leaf, a flower, a fruit or a little water that, so offered devotedly by the pure-minded, I accept."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.26 Whatever a man offers to Me, whether it be a leaf, or a flower, or fruit, or water, I accept it, for it is offered with devotion and purity of mind."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.26 Whoever offers Me with devotion-a leaf, a flower, a fruit, or water, I accept that (gift) of the pure-hearted man which has been devotionally presented."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.27",
+      "alignmentFingerprint": "7d4c45a4716e9fc4ff8feb140f91a25c81a97de7ee41ae1a3c238c0a7ea3f0d8",
+      "sanskrit": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत्।\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ॥",
+      "iast": "yatkaroṣi yadaśnāsi yajjuhoṣi dadāsi yat\nyattapasyasi kaunteya tatkuruṣva madarpaṇam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.27",
+        "content": "Whate'er thou doest, Prince!\n  Eating or sacrificing, giving gifts,\n  Praying or fasting, let it all be done\n  For Me, as Mine.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.27"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4518,
+            "end": 4646,
+            "lineStart": 1635,
+            "lineEnd": 1638,
+            "checksum": "cc833fe5b4bcd20d63271051afe00ed1fa0af78ac0795d55146fa3e685a63f2a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.27 Whatever thou doest, whatever thou eatest, whatever thou offerest in sacrifice, whatever thou givest, whatever thou practisest as austerity, O Arjuna, do it as an offering unto Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.27 Whatever thou doest, whatever thou dost eat, whatever thou dost sacrifice and give, whatever austerities thou practisest, do all as an offering to Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.27 O son of Kunti, whatever you do, whatever you eat, whatever you offer as a sacrifice, whatever you give and whatever austerities you undertake, (all) that you offer to Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.28",
+      "alignmentFingerprint": "3f4c99727f2c742ff7a53504966cb601563b1910f714e5e398dabbf52634d53d",
+      "sanskrit": "शुभाशुभफलैरेवं मोक्ष्यसे कर्मबन्धनैः।\nसंन्यासयोगयुक्तात्मा विमुक्तो मामुपैष्यसि ॥",
+      "iast": "śubhāśubhaphalairevaṃ mokṣyase karmabandhanaiḥ\nsaṃnyāsayogayuktātmā vimukto māmupaiṣyasi",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.28",
+        "content": "So shalt thou free thyself\n  From Karmabandh, the chain which holdeth men\n  To good and evil issue, so shalt come\n  Safe unto Me-when thou art quit of flesh--\n  By faith and abdication joined to Me!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.28"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4646,
+            "end": 4846,
+            "lineStart": 1638,
+            "lineEnd": 1643,
+            "checksum": "87b35a929e5cd44aa3b80d606fa960e40bf8ea031ea0945595c9dbeffbcf92bc"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.28 Thus shalt thou be freed from the bonds of actions yielding good and evil fruits; with the mind steadfast in the Yoga of renunciation, and liberated, thou shalt come unto Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.28 So shall thy action be attended by no result, either good or bad; but through the spirit of renunciation thou shalt come to Me and be free."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.28 Thus, you will become free from bondage in the form of actions which are productive of good and bad results. Havng your mind inbued with the yoga of renunciation and becoming free, you will attain Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.29",
+      "alignmentFingerprint": "3591159ef3639ee0ace30839bd88f317485560fa3c50c1d5bf4c28e948fc3e6a",
+      "sanskrit": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः।\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ॥",
+      "iast": "samo.ahaṃ sarvabhūteṣu na me dveṣyo.asti na priyaḥ\nye bhajanti tu māṃ bhaktyā mayi te teṣu cāpyaham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.29",
+        "content": "I am alike for all! I know not hate,\n  I know not favour! What is made is Mine!\n  But them that worship Me with love, I love;\n  They are in Me, and I in them!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.29"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4846,
+            "end": 5008,
+            "lineStart": 1644,
+            "lineEnd": 1648,
+            "checksum": "7513dfa9dc463e2bdc2051b5e59ec8eaa9d225d3835d8d3241e6a3510abdc042"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.29 The same am I to all beings; to Me there is none hateful or dear; but those who worship Me with devotion are in Me and I am also in them."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.29 I am the same to all beings. I favour none, and I hate none. But those who worship Me devotedly, they live in Me, and I in them."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.29 I am impartial towards all beings; to Me there is none detastable or none dear. But those who worship Me with devotion, they exist in Me, and I too exist in them."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.30",
+      "alignmentFingerprint": "575e28567bd3f5574861a4389a4295cefb561d2960c856961098ba1ae8061275",
+      "sanskrit": "अपि चेत्सुदुराचारो भजते मामनन्यभाक्।\nसाधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः ॥",
+      "iast": "api cetsudurācāro bhajate māmananyabhāk\nsādhureva sa mantavyaḥ samyagvyavasito hi saḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.30",
+        "content": "Nay, Prince!\n  If one of evil life turn in his thought\n  Straightly to Me, count him amidst the good;\n  He hath the high way chosen;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.30"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5008,
+            "end": 5143,
+            "lineStart": 1649,
+            "lineEnd": 1652,
+            "checksum": "e9b2e88afa812b0cd6d9e79a06112d1c8605ae55d67a15c25830c84febe8adf0"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.30 Even if the most sinful worships Me, with devotion to none else, he too should indeed by regarded as righteous for he has rightly resolved."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.30 Even the most sinful, if he worship Me with his whole heart, shalt be considered righteous, for he is treading the right path."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.30 Even if a man of very bad conduct worships Me with one-pointed devotion, he is to be considered verily good; for he has resolved rightly."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.31",
+      "alignmentFingerprint": "903fd1e874162445157c94f27629bf0dc9ade7e4fffd1a7f0856e4d4ca2f918e",
+      "sanskrit": "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति।\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति ॥",
+      "iast": "kṣipraṃ bhavati dharmātmā śaśvacchāntiṃ nigacchati\nkaunteya pratijānīhi na me bhaktaḥ praṇaśyati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.31",
+        "content": "he shall grow\n  Righteous ere long; he shall attain that peace\n  Which changes not. Thou Prince of India!\n  Be certain none can perish, trusting Me!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.31"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5143,
+            "end": 5292,
+            "lineStart": 1652,
+            "lineEnd": 1655,
+            "checksum": "286cc8f062f4f7d98bd911d142ea16141a9c833ab8015b45c6c23d2569d95711"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.31 Soon he becomes righteous and attains to eternal peace; O Arjuna, proclaim thou for certain that My devotee never perishes."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.31 He shall attain spirituality ere long, and Eternal Peace shall be his. O Arjuna! Believe me, My devotee is never lost."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.31 He soon becomes possessed of a virtuous mind; he attains everlasting peace. Do you proclain boldly, O son of Kunti, that My devotee does not get ruined."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.32",
+      "alignmentFingerprint": "47070750362583067c9cca7e03fc78ac446a9f5a1eb89ca2792f10f4f0ccd0ca",
+      "sanskrit": "मां हि पार्थ व्यपाश्रित्य येऽपि स्युः पापयोनयः।\nस्त्रियो वैश्यास्तथा शूद्रास्तेऽपि यान्ति परां गतिम् ॥",
+      "iast": "māṃ hi pārtha vyapāśritya ye.api syuḥ pāpayonayaḥ\nstriyo vaiśyāstathā śūdrāste.api yānti parāṃ gatim",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.32",
+        "content": "O Pritha's Son! whoso will turn to Me,\n  Though they be born from the very womb of Sin,\n  Woman or man; sprung of the Vaisya caste\n  Or lowly disregarded Sudra,--all\n  Plant foot upon the highest path;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.32"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5292,
+            "end": 5496,
+            "lineStart": 1656,
+            "lineEnd": 1660,
+            "checksum": "7500fd0ab9a4bd80724f38f1ed013558c949d94f73a4da505269ded77426ef6d"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.32 For, taking refuge in Me, they also who, O Arjuna, may be of a sinful birth women, Vaisyas as well as Sudras attain the Supreme Goal."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.32 For even the children of sinful parents, and those miscalled the weaker sex, and merchants, and labourers, if only they will make Me their refuge, they shall attain the Highest."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.32 For, O son of Prtha, even those who are born of sin-women, Vaisyas, as also Sudras [S.'s construction of this portion is: women, Vaisyas as also Sudras, and even others who are born of sin (i.e., those who are born low and are of vile deeds, viz Mlecchas, Pukkasas and others). M.S. also takes papa-yonayah (born of sin) as a separate phrase, and classifies women and others only as those darred from Vedic study, etc.-Tr.]-, even they reach the highest Goal by taking shelter under Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.33",
+      "alignmentFingerprint": "74875ec536ac03f8ff217437d92d0856d2bbbfded3f5484df676a6c6b2b31b69",
+      "sanskrit": "किं पुनर्ब्राह्मणाः पुण्या भक्ता राजर्षयस्तथा।\nअनित्यमसुखं लोकमिमं प्राप्य भजस्व माम् ॥",
+      "iast": "kiṃ punarbrāhmaṇāḥ puṇyā bhaktā rājarṣayastathā\nanityamasukhaṃ lokamimaṃ prāpya bhajasva mām",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.33",
+        "content": "how then\n  The holy Brahmans and My Royal Saints?\n  Ah! ye who into this ill world are come--\n  Fleeting and false--set your faith fast on Me!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.33"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5496,
+            "end": 5639,
+            "lineStart": 1660,
+            "lineEnd": 1663,
+            "checksum": "0b15e16232c36d54beec2305b931d45ecef02d425921a9bce819b21a73c06860"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.33 How much more (easily) then the hold Brahmins and devoted royal saints (attain the goal); having come to this impermanent and unhappy world, do thou worship Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.33 What need then to mention the holy Ministers of God, the devotees and the saintly rulers? Do thou, therefore, born in this changing and miserable world, do thou too worship Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.33 What to speak of the holy Brahmanas as also of devout kind-sages! Having come to this ephemeral and miserable world, do you worship Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.9.34",
+      "alignmentFingerprint": "e33b61632d32f97eba7f7b96ab3e6c3d149a847328a32452ea44bd48375db2f6",
+      "sanskrit": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु।\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः ॥",
+      "iast": "manmanā bhava madbhakto madyājī māṃ namaskuru\nmāmevaiṣyasi yuktvaivamātmānaṃ matparāyaṇaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.9.34",
+        "content": "Fix heart and thought on Me! Adore Me! Bring\n  Offerings to Me! Make Me prostrations! Make\n  Me your supremest joy! and, undivided,\n  Unto My rest your spirits shall be guided.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.9.34"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5639,
+            "end": 5819,
+            "lineStart": 1664,
+            "lineEnd": 1668,
+            "checksum": "718f06fc593e80110aa01444d895c5a98d9a084a6df66b659fbfe289760fa354"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "9.34 Fix thy mind on Me; by devoted to Me; sacrifice unto Me; bow down to Me; having thus united thy whole self to Me, taking Me as the supreme goal, thou shalt come unto Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "9.34 Fix thy mind on Me, devote thyself to Me, sacrifice for Me, surrender to Me, make Me the object of thy aspirations, and thou shalt assuredly become one with Me, Who am thine own Self.\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "9.34 Having your mind fixed on Me, be devoted to Me, sacrifice to Me, and bow down to Me. By concentrating your mind and accepting Me as the supreme Goal, you shall surely attain Me who am thus the Self."
+        }
+      ]
+    }
+  ]
+}

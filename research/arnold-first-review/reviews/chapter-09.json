@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 9,
+  "inputSha256": "cd7b7dfefe3211d59bfb18710e13a734b778d4086150ef94b6be43596f14eef7",
+  "reviews": [
+    {
+      "canonicalRef": "gita.9.1",
+      "alignmentFingerprint": "8c1693e04e6a382ca66042e92f33bb128abfc50ad38d1b7eceacc0e15e2e74e9",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately renders Krishna declaring the deepest secret wisdom combined with realization to the uncavilling Arjuna.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.2",
+      "alignmentFingerprint": "8a85f966cc1798489142ab06e517114aceae276fc13f0ebe520a019a1be835a8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders Rājavidyā and Rājaguhyam ('A royal lore! a Kingly mystery!'), supreme sanctifier, plain to see, and inexhaustible.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.3",
+      "alignmentFingerprint": "369f19f00bd5c2425de7a67ae6105327e0fb6ab95f9db4939be2df32ee62151f",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Directly matches those lacking faith in this dharma returning to the cycle of mortal death without reaching the Lord.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.4",
+      "alignmentFingerprint": "a8ea70783a86d2ed3dd1019d760c085417fcd11a3312ab0987bad238595f6161",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately conveys the cosmic panentheism: all beings contained in the unmanifest Lord, yet He is not contained in them.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.5",
+      "alignmentFingerprint": "0307d33960d805de7986d7d9412ea9e99aa2077257940a008083b8e3609ad5da",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Captures the divine paradox of yoga aiśvara: beings do not abide in Him as separate entities, while His Self sustains all.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.6",
+      "alignmentFingerprint": "1a7721c1dedce33d14daad747ea5c811ed5e0a41d260664c4d39c770f768cb9d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Preserves the classic simile of the all-moving air abiding in boundless space, illustrating how all beings rest in Krishna.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.7",
+      "alignmentFingerprint": "4f2a9dd0f270a306100db29256283981fe5435465af33bfa97809bf7d5c8f757",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents beings entering Prakriti at kalpa's end and being projected forth anew at kalpa's beginning.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.8",
+      "alignmentFingerprint": "a4ff170dd492a586749c971b33dc85d929b8f89e55e4321c8324dd9b144d3b38",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Matches projecting forth the multitude of beings again and again, helpless under the sway of material nature.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.9",
+      "alignmentFingerprint": "2bc1a838dd02b955ca5855c702fe4da52bd3ca0d3c94253da2427a91cd76c58a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders Krishna sitting unattached and unenslaved by cosmic acts of creation (udāsīnavadāsīnam).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.10",
+      "alignmentFingerprint": "723cdc1da28fb82c6982fc068f69f753ed0f6b9589162bce8186fdd19d878d56",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly renders Prakriti bringing forth moving and unmoving under the divine overseer (mayādhyakṣeṇa prakṛtiḥ).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.11",
+      "alignmentFingerprint": "79803110ea624142294b56bde2f788b5e2dce5c29b80668e4ff887f006ad75a1",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately captures foolish minds disregarding the Lord clad in human guise, unaware of His supreme sovereignty.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.12",
+      "alignmentFingerprint": "5754ac9c41a93e9c70576e2b973fa39eafeb49a073ef735d59332ea7d0123527",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Directly corresponds to futile hopes, futile deeds, futile knowledge, and adopting demoniacal and deceitful natures.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.13",
+      "alignmentFingerprint": "69d7fd907901369789be527e4da54f224162ca59d21e3d703141c7d4581bdc16",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately matches Mahātmas grounded in the divine nature adoring with undivided minds, knowing Him as the eternal Source.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.14",
+      "alignmentFingerprint": "440f3bcc36dc1809c8adb93d514d93bcf66579182d50cb7e68773a7a39f945fe",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders satataṃ kīrtayanto mām, striving with steadfast vows and bowing down in constant devotion.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.15",
+      "alignmentFingerprint": "5f3b62a3d858ae3f10057473c4fb473852ee67021570130a5877aed5881ff43c",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Renders the sacrifice of wisdom (jñānayajña), conceiving the Divine as Unity, diversity, and omnipresent power.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.16",
+      "alignmentFingerprint": "750adb0232b8613a80f0f901af058c9e15d2e113b6b7d04c5cf9d1bb91d3f6e6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately identifies Kratu, Yajna, Svadha (funeral cake), Aushadha, Mantra, Ajya (ghee), Agni, and Hutam.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.17",
+      "alignmentFingerprint": "6974b9a8b8f860bb4b9582bf472603d00e330694a4edbf3dc773b39aafb2ae41",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches Father, Mother, Ancestor, the purifier, sacred OM, and the threefold Vedas (Rig, Sama, Yajur).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.18",
+      "alignmentFingerprint": "5acb77e42e24b53448bf6d46187a824da7c10230cd1c6388047ec129b8d015c4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders the divine titles: Way (gati), Fosterer (bhartā), Lord, Witness, Abode, Refuge, Friend, and imperishable Seed.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.19",
+      "alignmentFingerprint": "c179cd36fb55a9e2b7764eae2f4cac14d56e77ee2843eef51f17b0a32d279e01",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches giving heat, sending and withholding rain, immortality and death, and being (sat) and non-being (asat).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.20",
+      "alignmentFingerprint": "39550f47c5cb86941c1dc2de0b838ecbffbc5ee1788ec0e22df4f11b7b8ea36b",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately presents knowers of the three Vedas drinking Soma, seeking Swarga, and enjoying divine celestial feasts in Indra's realm.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.21",
+      "alignmentFingerprint": "b0abcd66f70a989ba4fc9e9b36fdf72e953f5f197f98a905bd35658f5426cc72",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately renders returning to the mortal sphere when merit is exhausted, experiencing the transitory round of coming and going.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.22",
+      "alignmentFingerprint": "01b7c395480ccf746c64deba58e828a1d22814de17c2706dae46aefe41a98f07",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully reflects the celebrated promise to those meditating solely on the Lord (yogakṣemaṃ vahāmyaham).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.23",
+      "alignmentFingerprint": "0f7f9bbfc1ac4510fe2bd5277737d96e8a20a5e1663cff149e19cf0408d7ba7b",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Directly matches that worship of other deities in faith is truly worship of Krishna, albeit informal/improper (avidhipūrvakam).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.24",
+      "alignmentFingerprint": "2052d2897bc76b4e87246f2568cc01ef66bb17f48749dc7b465fa1cb4a0a8fb8",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Captures the Lord as the enjoyer and master of all sacrifice, and how ignorance of His true nature causes men to fall back.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.25",
+      "alignmentFingerprint": "8dbb4ee61ca57e55b8e146df26971c1392fd69be6cd3a1b5856be50c9ae7eac1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents the destinations of votaries: to devas, pitris, bhūtas, and to Krishna Himself.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.26",
+      "alignmentFingerprint": "840a688f5649e9c230296b0d2b11c7690f111cae7b77d228a29f3a9113a3f4e8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders the acceptance of humble offerings (leaf, flower, fruit, or water) made with devotion and pure intent.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.27",
+      "alignmentFingerprint": "7d4c45a4716e9fc4ff8feb140f91a25c81a97de7ee41ae1a3c238c0a7ea3f0d8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly translates the instruction to dedicate all actions, eating, sacrifices, gifts, and austerities to the Lord.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.28",
+      "alignmentFingerprint": "3f4c99727f2c742ff7a53504966cb601563b1910f714e5e398dabbf52634d53d",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately renders liberation from karmic bondage through the yoga of renunciation and attaining union with the Lord.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.29",
+      "alignmentFingerprint": "3591159ef3639ee0ace30839bd88f317485560fa3c50c1d5bf4c28e948fc3e6a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully conveys the divine impartiality (samo'haṃ sarvabhūteṣu) alongside the reciprocal dwelling of devotees in God and God in them.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.30",
+      "alignmentFingerprint": "575e28567bd3f5574861a4389a4295cefb561d2960c856961098ba1ae8061275",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches regarding even a confirmed sinner as righteous when he turns to undivided devotion (sādhureva sa mantavyaḥ).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.31",
+      "alignmentFingerprint": "903fd1e874162445157c94f27629bf0dc9ade7e4fffd1a7f0856e4d4ca2f918e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully presents the swift transformation into righteousness and the enduring declaration: 'none can perish, trusting Me' (na me bhaktaḥ praṇaśyati).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.32",
+      "alignmentFingerprint": "47070750362583067c9cca7e03fc78ac446a9f5a1eb89ca2792f10f4f0ccd0ca",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately renders that taking refuge in Krishna allows women, Vaisyas, and Sudras alike to reach the supreme destination.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.33",
+      "alignmentFingerprint": "74875ec536ac03f8ff217437d92d0856d2bbbfded3f5484df676a6c6b2b31b69",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Captures the exhortation to holy Brahmins and royal sages to worship the Lord in this fleeting, unhappy world.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.9.34",
+      "alignmentFingerprint": "e33b61632d32f97eba7f7b96ab3e6c3d149a847328a32452ea44bd48375db2f6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately renders the climactic verse to fix mind and devotion on Krishna, surrender and prostrate, arriving at His peace.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Chapter 9 contains a complete 1-to-1 verse translation for all 34 canonical verses without omissions or multi-verse consolidations.",
+    "The poetic transitions across metrical shifts (such as the rhymed stanzas in verses 9.20 and 9.21) maintain strict semantic alignment with the underlying Sanskrit text.",
+    "Mid-line divisions (including 9.4/9.5, 9.7/9.8, 9.13/9.14, 9.14/9.15, 9.19/9.20, 9.21/9.22, 9.26/9.27, 9.27/9.28, 9.29/9.30, 9.30/9.31, 9.32/9.33) adhere to exact clause boundaries."
+  ]
+}

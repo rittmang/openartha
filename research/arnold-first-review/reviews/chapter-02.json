@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 2,
+  "inputSha256": "b819045a709fb9cb5318a9a2d448a7278db3f459858aacf41dc066d22d74aa8a",
+  "reviews": [
+    {
+      "canonicalRef": "gita.2.1",
+      "alignmentFingerprint": "13506f97dec6bd95bf636d27e32b9d60e8ad6639d68611728e6d21ee023c86dc",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sanjaya opening narrative describing Arjuna overcome by compassion and tearful dejection.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.2",
+      "alignmentFingerprint": "cfe52369b41457f822006217d89c847c9384a8db0bdcc61d4f163b66af699642",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna rebuke of Arjuna sudden faint-heartedness and ignoble dejection on the verge of battle.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.3",
+      "alignmentFingerprint": "aba42a313aee015b5343c84abfa652ee3f92e35c0086d709d5d1ab3b56139dcf",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna summons Arjuna to discard unmanly weakness (klaibyam) and arise as scourge of foes.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.4",
+      "alignmentFingerprint": "453373de651dc552cf8deedc737b8597a3a5147215ce5f4e5324a6320b33f5d4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna protests against shooting arrows at revered elders Bhishma and Drona worthy of honor.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.5",
+      "alignmentFingerprint": "37555dabb2cff958ca73575618de1a9023d3eb4cad843914cd0bff5f24ed8ea7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna reflects that living on beggar bread is preferable to tasting blood-tainted feasts of victory (lyrical meter).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.6",
+      "alignmentFingerprint": "d604c7553d4cd5818a28434ee33f8a5a8e0c25980a1f4b662df1f66ab4bf4289",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Uncertainty as to whether victory or defeat is preferable when killing kinsmen drains life of purpose.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.7",
+      "alignmentFingerprint": "d597e78e646f09cf007ac55cd72ac5e02068708d46cf9069bae1ef955687d899",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna confession of spiritual distress (k\u0101rpa\u1e47ya-do\u1e63a) and formal surrender to Krishna as his disciple.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.8",
+      "alignmentFingerprint": "ae574735a6c9ff466d8bd27495e492378a3b558ef148f6ea0f96e7210b3884f5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna despairing admission that unchallenged earthly dominion or divine sovereignty cannot heal his grief.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.9",
+      "alignmentFingerprint": "2ad8012e1d69cb080ed33679dc1e18f8d1ff61c39d935be89321abf360129742",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sanjaya relates Arjuna declaring \"I will not fight\" to Govinda before falling silent.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.10",
+      "alignmentFingerprint": "07dc21bd32c851bf0aff361d9007847a7a31d9b32a1b8767e1cf20db02d82c7c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna, gently smiling between the opposing armies, begins his divine instruction to grieving Arjuna.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.11",
+      "alignmentFingerprint": "f30aa9f424a49afd3bf190b6e06182491f61d27902e452b41627e8ca1a996e26",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Opening instruction: the wise mourn neither for the living nor the dead (a\u015bocy\u0101n anva\u015bocas tvam).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.12",
+      "alignmentFingerprint": "a4587646f57ca54cf68e95be0c3e6c95499088f1578345007d4af86f699d30d8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Affirmation of eternal existence: Krishna, Arjuna, and all kings have never not existed nor will ever cease to be.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.13",
+      "alignmentFingerprint": "4ede867e00aca953a97a744e67662470ecf368a6f9df86d7f49a2d01cb025999",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Analogy of the embodied soul traversing childhood, youth, and old age before passing into another frame.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.14",
+      "alignmentFingerprint": "f6b4b05e28a3cb25aa3373c7a03ef7c0efde22a8191968abe2bf46937482a6e8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sense-contacts generating fleeting experiences of heat, cold, pleasure, and pain to be endured patiently.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.15",
+      "alignmentFingerprint": "66d8d101cc0344c6c7d0ff3953bd05f057ef8ef7fd96fd1fb3bc50fe929f4733",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The steadfast soul undisturbed by sensory dualities (sama-du\u1e25kha-sukha) is fit for immortality.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.16",
+      "alignmentFingerprint": "5ef017357fcb4936394a65ecc317c11b15b6976e93a3347b667dff9387c55207",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The ontological doctrine of sat and asat: the unreal has no being, the real never ceases to be.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.17",
+      "alignmentFingerprint": "f269d2cff2d95eaaf02bb5e7ec5f25720023d7e7b77aad5e222b0d2cfb7dda53",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The imperishable nature of the all-pervading Spirit which none can destroy.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.18",
+      "alignmentFingerprint": "8b4c92b1bad713e7ba5529b78e3720c7cb4667e96bf88cd97a9d5c7df5360b75",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Finite bodies perish while the embodied indweller remains eternal, indestructible, and immeasurable.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.19",
+      "alignmentFingerprint": "d400251c68e7f91a33ca47694ceed0c65420e30491117c18b87d280dc4d52da7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Ignorance of those who believe the soul slays or is slain; Spirit neither slays nor can be slain.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.20",
+      "alignmentFingerprint": "56147cd6f1d0cfb720aeabbdb00fb99c181d5ab96cb9fe2e1fc009f5bdf9fc86",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Celebrated declaration of the soul birthless, deathless, changeless nature rendered in dactylic hexameters.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.21",
+      "alignmentFingerprint": "488ebe3395fbf3f6d28bda8f8195e380e0df575a361111a2d59be48952739f2d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "He who realizes the Soul as unborn and undecaying understands that nobody slays or causes to be slain.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.22",
+      "alignmentFingerprint": "056a33c5a6b6ec5d16471cf39a1e49287505a4489d9cb3d147bfd2623675ac7d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The classic metaphor of casting off outworn garments to put on new robes as the soul adopts new frames.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.23",
+      "alignmentFingerprint": "0dfb5412c46cf34d894e79be110273a95338fd7b7f5e1bd72fc81a3f029bad54",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Weapons cleave it not, fire burns it not, water wets it not, and wind withers it not.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.24",
+      "alignmentFingerprint": "9621497564b4d8714d0648f8cf8126986f3baf26c914d7fda358d01f47fb9699",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Soul characterized as impenetrable, incombustible, unassailable, all-pervading, stable, and eternal.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.25",
+      "alignmentFingerprint": "c93bc4a1e296675affb288561d31d340158ce1587f5973137e26367cc1868097",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Unmanifest, unthinkable, immutable soul: knowing this truth leaves no ground for lamentation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.26",
+      "alignmentFingerprint": "40fed7a213d30d90495114210c09ea554cca941abc679f1a9a34fcd9e56c6c7a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Argument a fortiori: even if the soul were held to experience constant birth and death, grief is misplaced.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.27",
+      "alignmentFingerprint": "6786d321b0d282a3a858698fba42c55ead8e2a91dbbeb936f3c6be0d5fe0387c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Ineluctability of cosmic cycle: death is certain for the born, and birth certain for the dead.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.28",
+      "alignmentFingerprint": "0459e1ad693a1eaea354a09042d70ba1bf8a8a90342ce1f4b0278ac69c55c84c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Beings are unmanifest in origin, manifest in the middle state, and unmanifest again in dissolution.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.29",
+      "alignmentFingerprint": "7df87b302e3a8fcb3d592dac0122ca1589ce7160997ff5b045072a960270b641",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Contemplation of the wonder (\u0101\u015bcaryavat) of the Soul, which remains uncomprehended even after hearing.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.30",
+      "alignmentFingerprint": "58051790c518c401ae1ff6d6478958bc354a7e6473ea8c2e40b7be5c7e66bdae",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The indwelling Self in all bodies is perpetually invulnerable; therefore mourn no living creature.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.31",
+      "alignmentFingerprint": "067b4317a88b0066240a2a5dcadad5b6c3e12034b027a53d0548aa391f55d9bd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Appeal to Kshatriya svadharma: no higher duty exists for a warrior than a lawful, righteous fight.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.32",
+      "alignmentFingerprint": "3b37dfe7a6036c2fb8bb192c5551728c129140453cae13a55c7be67562df8404",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Unsolicited righteous war described as an open portal to heaven for fortunate warriors.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.33",
+      "alignmentFingerprint": "e673771f000fe6cc69b6be8bcdcffb62aef66b159b8fb0fcc9c9b90bb597963d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Warning that refusing this righteous battle means abandoning svadharma and fame, thereby incurring sin.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.34",
+      "alignmentFingerprint": "59f93ea25bf3ec14326104d078ac675486c034e37b5e625c87ac31a59a38d486",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Infamy and loss of honor will be proclaimed perpetually, which is far worse than physical death.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.35",
+      "alignmentFingerprint": "e9fa4284d4d46452664a0f3da6481d13f295940a6c5503c1a0e4505d6ff61023",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Great car-warriors (mah\u0101rath\u0101\u1e25) will ascribe withdrawal to fear, turning former esteem into contempt.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.36",
+      "alignmentFingerprint": "294b678e0b573bcfaeb55b08e53332f250796d4a45487deead9e42c02420c532",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Enemies will voice abusive and slanderous words mocking warrior prowess, causing supreme distress.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.37",
+      "alignmentFingerprint": "667602d50bd3bbabb5a0f25b4d69cd1362755333efa6c006cde9cdf884486ad0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Binary warrior outcome: slain one wins heaven, victorious one rules earth; arise resolute for battle.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.38",
+      "alignmentFingerprint": "6f69cd80b7c8180c33da577868eb866d7efc441c63882dcede90cbb8e2a408fc",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Equanimity in pleasure and pain, gain and loss, victory and defeat: fighting thus incurs no sin.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.39",
+      "alignmentFingerprint": "6b5c64ffad6b1e1405168144395cdac67cb800c39d2c1f2d8e6cc7ee27043a0e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Transition from Sankhya theory to Yoga practice (Buddhi-yoga), through which action-bonds are severed.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.40",
+      "alignmentFingerprint": "04b0b079d3bb4a359492770452af5b0c29a2706a7ad23c23673f1700607fb316",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "No effort is wasted in Buddhi-yoga, no contrary outcome occurs, and a little of this virtue saves from great fear.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.41",
+      "alignmentFingerprint": "2c3e8d3f21285d9cca8efb3d1153050a0dca32904874e3142ecb137e7cbfbe22",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Single-pointed resolute intellect (vyavas\u0101y\u0101tmik\u0101 buddhi\u1e25) contrasted with multi-branched irresolution.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.42",
+      "alignmentFingerprint": "a60ec27e6f0a2ccdc124f88c7094a8db95d37c53efe367667f5eb29db2a7739c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Critique of flowery Vedic rhetoric extolled by those lacking discernment who say nothing else matters.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.43",
+      "alignmentFingerprint": "17dcf77344b4a8d7bdf879373d8720c72d772c12a77ab925023572825fc93597",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sensory-bound ritualists craving heaven, prescribing diverse ceremonies yielding wealth and rebirth.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.44",
+      "alignmentFingerprint": "4d3d097f6b87a3e3eabb8075342eeeae967a5da6db9a1561f1a331a52821cb50",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Those attached to power and pleasure whose minds are carried away lack steady meditative resolution.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.45",
+      "alignmentFingerprint": "ef7cff7e621a94ff879a725026e46e7d9db68f6dd7e6104fa4444823e552e7d6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Exhortation to transcend the three gunas of the Vedas, beyond dualities, established in pure being; notes [FN#2, FN#3].",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.46",
+      "alignmentFingerprint": "a5b4d5809bb3e6699087e36460366ae000d01f5f779b1644ad6df9f15e238d9e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Analogy of all the Vedas being to the enlightened seer what a small water tank is amidst an all-pervading flood.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.47",
+      "alignmentFingerprint": "f78cb8c830c4c14729248a5de59d9a17a50a511319a6222e85e61b9b6a1d3b85",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Cardinal dictum of karma yoga: right to the action alone, never to its fruit; shun inaction.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.48",
+      "alignmentFingerprint": "5bbfffec82e3bc07f42655e2ab9bbdcbdfdcb7a1fcb0b2fe6c0d01d2477d2fe3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Equanimity in success and failure defined as Yoga: perform duties established in holy detachment.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.49",
+      "alignmentFingerprint": "d780e130d6c07548103dfe05c550e98e1d1fb3fc68f1b8f9eb4cdfaf1cbd70bf",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Mere ritual action is far inferior to Buddhi-yoga; pity upon those motivated by fruit of deeds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.50",
+      "alignmentFingerprint": "380bb5d0eb4f8d74d5b83589bf302b8f3099fa226bcd730748d082de16bd4b5c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The wise yoked in equanimity cast off good and evil deeds alike; yoga is excellence in action.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.51",
+      "alignmentFingerprint": "148bcee768bd6aa57e65128631cff152d58ad483b125fcb49dcb21b329f6c362",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sages relinquishing fruits of action are freed from the bond of rebirth, mounting to the painless seat.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.52",
+      "alignmentFingerprint": "98adaab59ad526d640c9d9eaf22a787007f7fe55f9f00ee684a17f8c999a533c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "When intellect clears the forest of delusion, high indifference is attained toward heard and unread doctrine.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.53",
+      "alignmentFingerprint": "75c3a690895b6892543e2e7276da651ace301d94a00858eaf763236466c5937c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "When intellect, perplexed by diverse theological texts, rests unswerving in samadhi, Yoga is won.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.54",
+      "alignmentFingerprint": "feec8c9bc76e1011fd1db94a9de298081dc0fba6d085d93dd0d1ebcb39dd8f00",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna inquires concerning the characteristics of the person of steady wisdom (sthita-praj\u00f1a).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.55",
+      "alignmentFingerprint": "22156de7bd44a0635b684f77cc926aa807e7186adeff5c51612968eec234a6d2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna defines sthita-praj\u00f1a as one who sheds all mental desires, satisfied in the Self alone by the Self.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.56",
+      "alignmentFingerprint": "f9fcf707cd91964a4f781c0d64627f3c5b641e9a7f00a1eeba2c3f123090efc5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Unhappiness does not deject him, joy does not elate him; he is free from passion, fear, and wrath (muni).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.57",
+      "alignmentFingerprint": "e8ee4481998d6026770e2d080620ac945448b911d9d2fe079053c686ac1af1eb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Unattached in all things, welcoming neither good nor evil with joy or hatred, his wisdom is steadfast.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.58",
+      "alignmentFingerprint": "0862baf54b2dc1163c6b9602555a92dbab39c1fe1ad446fee9bb932099d309a1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sensory withdrawal likened to the tortoise drawing its limbs securely into its protective shell.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.59",
+      "alignmentFingerprint": "8085c7079be942ad4b4b67f18794b620fb6419e42052bcd319f05dc6f7712988",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Abstinence drops sense-objects but leaves subtle longing; even longing vanishes upon beholding the Supreme.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.60",
+      "alignmentFingerprint": "0b3fefc1b88e0f63e87285d283c6a6f6978366aafd6736b9507b597bcec18ebe",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The turbulent senses can violently sweep away even the mind of a wise person earnestly striving.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.61",
+      "alignmentFingerprint": "671118b1ac81e80d4d04f18e938516435ed4cdccbf9a3f9c2a989fdbabb183e2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Subduing all senses, intent upon Me; wisdom is firmly seated in him whose senses are thoroughly mastered.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.62",
+      "alignmentFingerprint": "27c1fbae64e8edd42a2542ab0ec77d8ada13313fe0d2c9d1c4c3ad62c129c397",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Causal cascade of downfall: brooding on sense-objects leads to attachment, desire, and flare of wrath.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.63",
+      "alignmentFingerprint": "46ae45874dd726ae4e712e4e353f2bebefd95dd58edcf9d22cd419d4a2ce2ca4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Anger breeds delusion, delusion causes loss of memory, memory-loss ruins intellect, ending in total ruin.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.64",
+      "alignmentFingerprint": "b2c1aaafa26bd8b84049bfc1da9834bf4e8de787d63f9cb56862c700e37ba835",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Moving among sense-objects with senses self-controlled and free from attraction and revulsion yields serenity.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.65",
+      "alignmentFingerprint": "2ed900d58c27554731f5c20acf63c658ca208fceb695851e37243431add0cfb8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Serenity brings cessation of all earthly sorrows; the intellect of the tranquil soon becomes firmly anchored.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.66",
+      "alignmentFingerprint": "39d42769856cd7ee8653ef176177eec7dd0fc85f10735fd8dd1acd25aa870ea4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The undisciplined has neither wisdom nor meditation; without meditation there is no peace, without peace no joy.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.67",
+      "alignmentFingerprint": "56816c60866a41eda3beee1137b853b126f1cb00497ae9ef3b5fb28547c23a5e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "A mind wandering after roving senses sweeps away wisdom, just as a gale sweeps a vessel across the waters.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.68",
+      "alignmentFingerprint": "d8033b52b9d96086968a43a02fb3f39c58910b07161550f13393a01cf21c4185",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Wisdom is firmly established in him whose senses are wholly curbed from their corresponding objects.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.69",
+      "alignmentFingerprint": "d6b799dd5859cb0fa81ba2e99b40a9429f7787ffdd232bee610171f53be8369b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "What is night to all creatures is the wakeful state of the disciplined sage; the world day is his night.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.70",
+      "alignmentFingerprint": "cd5c9c72e3a74cf690bc8d5b9b3f91af26c4346f8dbfa8975dfd0e97a3166ed9",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Ocean metaphor: as rivers enter the full ocean without swelling it, desires enter the sage without disturbing his peace.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.71",
+      "alignmentFingerprint": "ca15c6cfa4c3a71464f97820bd1a55afdce4d0979c9395e020ee832888df5f06",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Renouncing all cravings, devoid of longing, egotism, and possessiveness, one attains utter peace.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.2.72",
+      "alignmentFingerprint": "6a95cdd22e684f1cecf720c7a681031323d9101592f1ebd01cdb27f71094eb9e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The state of Brahman (br\u0101hm\u012b sthiti\u1e25): attaining it, one is not deluded; abiding therein at death, one enters Brahma-nirvana.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Arnold varies meter across Chapter 2: rhyming quatrains for Arjuna despondency (2.5-2.8), dactylic hexameters for the immortal Spirit (2.20), rhyming lyric stanzas for 2.22, 2.29, and 2.70, and blank verse for the philosophical dialogues.",
+    "Frequent intra-line verse transitions (e.g. 2.2/2.3, 2.12/2.13, 2.13/2.14, 2.14/2.15, 2.15/2.16, 2.16/2.17, 2.23/2.24, 2.27/2.28, 2.30-2.33, 2.35-2.38, 2.41-2.45, 2.47/2.48, 2.50-2.52, 2.57-2.63, 2.67-2.69, 2.71/2.72) are cleanly and accurately split at clause boundaries.",
+    "All 72 canonical verses are represented one-to-one with excellent semantic fidelity and complete source coverage."
+  ]
+}

@@ -1,0 +1,1855 @@
+{
+  "schemaVersion": 1,
+  "workId": "gita",
+  "translationId": "edwin-arnold",
+  "chapter": 10,
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "numbering": "Standard 700-verse canon; Chapter 13 has 34 verses and excludes Arjuna's alternate opening question.",
+  "sourceChapterWithLineNumbers": "1:   Krishna.[FN#l6]\n2:   Hear farther yet, thou Long-Armed Lord! these latest words I say--\n3:   Uttered to bring thee bliss and peace, who lovest Me alway--\n4:   Not the great company of gods nor kingly Rishis know\n5:   My Nature, Who have made the gods and Rishis long ago;\n6:   He only knoweth-only he is free of sin, and wise,\n7:   Who seeth Me, Lord of the Worlds, with faith-enlightened eyes,\n8:   Unborn, undying, unbegun. Whatever Natures be\n9:   To mortal men distributed, those natures spring from Me!\n10:   Intellect, skill, enlightenment, endurance, self-control,\n11:   Truthfulness, equability, and grief or joy of soul,\n12:   And birth and death, and fearfulness, and fearlessness, and shame,\n13:   And honour, and sweet harmlessness,[FN#17] and peace which is the\n14:   same\n15:   Whate'er befalls, and mirth, and tears, and piety, and thrift,\n16:   And wish to give, and will to help,--all cometh of My gift!\n17:   The Seven Chief Saints, the Elders Four, the Lordly Manus set--\n18:   Sharing My work--to rule the worlds, these too did I beget;\n19:   And Rishis, Pitris, Manus, all, by one thought of My mind;\n20:   Thence did arise, to fill this world, the races of mankind;\n21:   Wherefrom who comprehends My Reign of mystic Majesty--\n22:   That truth of truths--is thenceforth linked in faultless faith to Me:\n23:   Yea! knowing Me the source of all, by Me all creatures wrought,\n24:   The wise in spirit cleave to Me, into My Being brought;\n25:   Hearts fixed on Me; breaths breathed to Me; praising Me, each to each,\n26:   So have they happiness and peace, with pious thought and speech;\n27:   And unto these--thus serving well, thus loving ceaselessly--\n28:   I give a mind of perfect mood, whereby they draw to Me;\n29:   And, all for love of them, within their darkened souls I dwell,\n30:   And, with bright rays of wisdom's lamp, their ignorance dispel.\n31: \n32:   Arjuna.\n33:   Yes! Thou art Parabrahm! The High Abode!\n34:   The Great Purification! Thou art God\n35:   Eternal, All-creating, Holy, First,\n36:   Without beginning! Lord of Lords and Gods!\n37:   Declared by all the Saints--by Narada,\n38:   Vyasa Asita, and Devalas;\n39:   And here Thyself declaring unto me!\n40:   What Thou hast said now know I to be truth,\n41:   O Kesava! that neither gods nor men\n42:   Nor demons comprehend Thy mystery\n43:   Made manifest, Divinest! Thou Thyself\n44:   Thyself alone dost know, Maker Supreme!\n45:   Master of all the living! Lord of Gods!\n46:   King of the Universe! To Thee alone\n47:   Belongs to tell the heavenly excellence\n48:   Of those perfections wherewith Thou dost fill\n49:   These worlds of Thine; Pervading, Immanent!\n50:   How shall I learn, Supremest Mystery!\n51:   To know Thee, though I muse continually?\n52:   Under what form of Thine unnumbered forms\n53:   Mayst Thou be grasped? Ah! yet again recount,\n54:   Clear and complete, Thy great appearances,\n55:   The secrets of Thy Majesty and Might,\n56:   Thou High Delight of Men! Never enough\n57:   Can mine ears drink the Amrit[FN#18] of such words!\n58: \n59:   Krishna.\n60:   Hanta! So be it! Kuru Prince! I will to thee unfold\n61:   Some portions of My Majesty, whose powers are manifold!\n62:   I am the Spirit seated deep in every creature's heart;\n63:   From Me they come; by Me they live; at My word they depart!\n64:   Vishnu of the Adityas I am, those Lords of Light;\n65:   Maritchi of the Maruts, the Kings of Storm and Blight;\n66:   By day I gleam, the golden Sun of burning cloudless Noon;\n67:   By Night, amid the asterisms I glide, the dappled Moon!\n68:   Of Vedas I am Sama-Ved, of gods in Indra's Heaven\n69:   Vasava; of the faculties to living beings given\n70:   The mind which apprehends and thinks; of Rudras Sankara;\n71:   Of Yakshas and of Rakshasas, Vittesh; and Pavaka\n72:   Of Vasus, and of mountain-peaks Meru; Vrihaspati\n73:   Know Me 'mid planetary Powers; 'mid Warriors heavenly\n74:   Skanda; of all the water-floods the Sea which drinketh each,\n75:   And Bhrigu of the holy Saints, and OM of sacred speech;\n76:   Of prayers the prayer ye whisper;[FN#19] of hills Himala's snow,\n77:   And Aswattha, the fig-tree, of all the trees that grow;\n78:   Of the Devarshis, Narada; and Chitrarath of them\n79:   That sing in Heaven, and Kapila of Munis, and the gem\n80:   Of flying steeds, Uchchaisravas, from Amrit-wave which burst;\n81:   Of elephants Airavata; of males the Best and First;\n82:   Of weapons Heav'n's hot thunderbolt; of cows white Kamadhuk,\n83:   From whose great milky udder-teats all hearts' desires are strook;\n84:   Vasuki of the serpent-tribes, round Mandara entwined;\n85:   And thousand-fanged Ananta, on whose broad coils reclined\n86:   Leans Vishnu; and of water-things Varuna; Aryam\n87:   Of Pitris, and, of those that judge, Yama the Judge I am;\n88:   Of Daityas dread Prahlada; of what metes days and years,\n89:   Time's self I am; of woodland-beasts-buffaloes, deers, and bears-\n90:   The lordly-painted tiger; of birds the vast Garud,\n91:   The whirlwind 'mid the winds; 'mid chiefs Rama with blood imbrued,\n92:   Makar 'mid fishes of the sea, and Ganges 'mid the streams;\n93:   Yea! First, and Last, and Centre of all which is or seems\n94:   I am, Arjuna! Wisdom Supreme of what is wise,\n95:   Words on the uttering lips I am, and eyesight of the eyes,\n96:   And \"A\" of written characters, Dwandwa[FN#20] of knitted speech,\n97:   And Endless Life, and boundless Love, whose power sustaineth each;\n98:   And bitter Death which seizes all, and joyous sudden Birth,\n99:   Which brings to light all beings that are to be on earth;\n100:   And of the viewless virtues, Fame, Fortune, Song am I,\n101:   And Memory, and Patience; and Craft, and Constancy:\n102:   Of Vedic hymns the Vrihatsam, of metres Gayatri,\n103:   Of months the Margasirsha, of all the seasons three\n104:   The flower-wreathed Spring; in dicer's-play the conquering\n105:   Double-Eight;\n106:   The splendour of the splendid, and the greatness of the great,\n107:   Victory I am, and Action! and the goodness of the good,\n108:   And Vasudev of Vrishni's race, and of this Pandu brood\n109:   Thyself!--Yea, my Arjuna! thyself; for thou art Mine!\n110:   Of poets Usana, of saints Vyasa, sage divine;\n111:   The policy of conquerors, the potency of kings,\n112:   The great unbroken silence in learning's secret things;\n113:   The lore of all the learned, the seed of all which springs.\n114:   Living or lifeless, still or stirred, whatever beings be,\n115:   None of them is in all the worlds, but it exists by Me!\n116:   Nor tongue can tell, Arjuna! nor end of telling come\n117:   Of these My boundless glories, whereof I teach thee some;\n118:   For wheresoe'er is wondrous work, and majesty, and might,\n119:   From Me hath all proceeded. Receive thou this aright!\n120:   Yet how shouldst thou receive, O Prince! the vastness of this word?\n121:   I, who am all, and made it all, abide its separate Lord!\n122: \n123:   HERE ENDETH CHAPTER X. OF THE BHAGAVAD-GITA,\n124:   Entitled \"Vibhuti Yog,\"\n125:   Or \"The Book of Religion by the Heavenly Perfections.\"",
+  "translatorNotes": [
+    {
+      "number": 1,
+      "marker": "[FN#1]",
+      "text": "Some repetitionary lines are here omitted."
+    },
+    {
+      "number": 2,
+      "marker": "[FN#2]",
+      "text": "Technical phrases of Vedic religion."
+    },
+    {
+      "number": 3,
+      "marker": "[FN#3]",
+      "text": "The whole of this passage is highly involved and difficult to\nrender."
+    },
+    {
+      "number": 4,
+      "marker": "[FN#4]",
+      "text": "I feel convinced sankhyanan and yoginan must be transposed\nhere in sense."
+    },
+    {
+      "number": 5,
+      "marker": "[FN#5]",
+      "text": "I am doubtful of accuracy here."
+    },
+    {
+      "number": 6,
+      "marker": "[FN#6]",
+      "text": "A name of the sun."
+    },
+    {
+      "number": 7,
+      "marker": "[FN#7]",
+      "text": "Without desire of fruit."
+    },
+    {
+      "number": 8,
+      "marker": "[FN#8]",
+      "text": "That is,\"joy and sorrow, success and failure, heat and cold,\"&c."
+    },
+    {
+      "number": 9,
+      "marker": "[FN#9]",
+      "text": "i.e., the body."
+    },
+    {
+      "number": 10,
+      "marker": "[FN#10]",
+      "text": "The Sanskrit has this play on the double meaning of Atman."
+    },
+    {
+      "number": 11,
+      "marker": "[FN#11]",
+      "text": "So in original."
+    },
+    {
+      "number": 12,
+      "marker": "[FN#12]",
+      "text": "Beings of low and devilish nature."
+    },
+    {
+      "number": 13,
+      "marker": "[FN#13]",
+      "text": "Krishna."
+    },
+    {
+      "number": 14,
+      "marker": "[FN#14]",
+      "text": "I read here janma, \"birth;\" not jara,\"age\""
+    },
+    {
+      "number": 15,
+      "marker": "[FN#15]",
+      "text": "I have discarded ten lines of Sanskrit text here as an\nundoubted interpolation by some Vedantist"
+    },
+    {
+      "number": 16,
+      "marker": "[FN#16]",
+      "text": "The Sanskrit poem here rises to an elevation of style and\nmanner which I have endeavoured to mark by change of metre."
+    },
+    {
+      "number": 17,
+      "marker": "[FN#17]",
+      "text": "Ahinsa."
+    },
+    {
+      "number": 18,
+      "marker": "[FN#18]",
+      "text": "The nectar of immortality."
+    },
+    {
+      "number": 19,
+      "marker": "[FN#19]",
+      "text": "Called \"The Jap.\""
+    },
+    {
+      "number": 20,
+      "marker": "[FN#20]",
+      "text": "The compound form of Sanskrit words."
+    },
+    {
+      "number": 21,
+      "marker": "[FN#21]",
+      "text": "\"Kamalapatraksha\""
+    },
+    {
+      "number": 22,
+      "marker": "[FN#22]",
+      "text": "These are all divine or deified orders of the Hindoo Pantheon."
+    },
+    {
+      "number": 23,
+      "marker": "[FN#23]",
+      "text": "\"Hail to Thee, God of Gods! Be favourable!\""
+    },
+    {
+      "number": 24,
+      "marker": "[FN#24]",
+      "text": "The wind."
+    },
+    {
+      "number": 25,
+      "marker": "[FN#25]",
+      "text": "\"Not peering about,\"anapeksha."
+    },
+    {
+      "number": 26,
+      "marker": "[FN#26]",
+      "text": "The Calcutta edition of the Mahabharata has these three\nopening lines."
+    },
+    {
+      "number": 27,
+      "marker": "[FN#27]",
+      "text": "This is the nearest possible version of\nKshetrakshetrajnayojnanan yat tajnan matan mama."
+    },
+    {
+      "number": 28,
+      "marker": "[FN#28]",
+      "text": "I omit two lines of the Sanskrit here, evidently interpolated by\nsome Vedantist."
+    },
+    {
+      "number": 29,
+      "marker": "[FN#29]",
+      "text": "Wombs."
+    },
+    {
+      "number": 30,
+      "marker": "[FN#30]",
+      "text": "I do not consider the Sanskrit verses here-which are somewhat\nfreely rendered--\"an attack on the authority of the Vedas,\" with Mr\nDavies, but a beautiful lyrical episode, a new \"Parable of the fig-tree.\""
+    },
+    {
+      "number": 31,
+      "marker": "[FN#31]",
+      "text": "I omit a verse here, evidently interpolated."
+    },
+    {
+      "number": 32,
+      "marker": "[FN#32]",
+      "text": "\"Of the Asuras,\" lit."
+    },
+    {
+      "number": 33,
+      "marker": "[FN#33]",
+      "text": "I omit the ten concluding shlokas, with Mr Davis."
+    },
+    {
+      "number": 34,
+      "marker": "[FN#34]",
+      "text": "Rakshasas and Yakshas are unembodied but capricious beings\nof great power, gifts, and beauty, same times also of benignity."
+    },
+    {
+      "number": 35,
+      "marker": "[FN#35]",
+      "text": "These are spirits of evil wandering ghosts."
+    },
+    {
+      "number": 36,
+      "marker": "[FN#36]",
+      "text": "Yatayaman, food which has remained after the watches of the\nnight. In India this would probably \"go bad.\""
+    },
+    {
+      "number": 37,
+      "marker": "[FN#37]",
+      "text": "I omit the concluding shlokas, as of very doubtful authenticity."
+    }
+  ],
+  "paratext": [
+    {
+      "chapter": 10,
+      "type": "chapter-colophon",
+      "text": "HERE ENDETH CHAPTER X. OF THE BHAGAVAD-GITA,\n  Entitled \"Vibhuti Yog,\"\n  Or \"The Book of Religion by the Heavenly Perfections.\"",
+      "checksum": "c0aebacbaf1aa73927f7a5ec35070c41face524ef35d485f004aa0e067c0a8c8",
+      "sourceSpan": {
+        "start": 6405,
+        "end": 6534,
+        "lineStart": 1802,
+        "lineEnd": 1804,
+        "checksum": "f238831263e0f5ccf90efd32327885b0c21e2a6ec6028b35aadce3377c959279"
+      }
+    }
+  ],
+  "records": [
+    {
+      "canonicalRef": "gita.10.1",
+      "alignmentFingerprint": "48a8abb06b50770bc8dc522984f4b21dbbb42e38a2f88a26b87a4aaf06d2a9b7",
+      "sanskrit": "श्रीभगवानुवाच।\nभूय एव महाबाहो शृणु मे परमं वचः।\nयत्तेऽहं प्रीयमाणाय वक्ष्यामि हितकाम्यया ॥",
+      "iast": "śrībhagavānuvāca\nbhūya eva mahābāho śṛṇu me paramaṃ vacaḥ\nyatte.ahaṃ prīyamāṇāya vakṣyāmi hitakāmyayā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.1",
+        "content": "Krishna.[FN#l6]\n  Hear farther yet, thou Long-Armed Lord! these latest words I say--\n  Uttered to bring thee bliss and peace, who lovest Me alway--",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.1"
+        ],
+        "sourceSpans": [
+          {
+            "start": 0,
+            "end": 150,
+            "lineStart": 1680,
+            "lineEnd": 1682,
+            "checksum": "0360f46af054d07af176c8acbbbb58c2fc78d9e1d05bcadf982d61ba6612ff60"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.1 The Blessed Lord said Again, O mighty-armed Arjuna, listen to my supreme word which I will declare to thee who who art beloved, for thy welfare."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.1 \"Lord Shri Krishna said: Now, O Prince! Listen to My supreme advice, which I give thee for the sake of thy welfare, for thou art My beloved."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.1 The Blessed Lord said O mighty-armed one, listen over again ot My supreme utterance, which I, wishing your welfare, shall speak to you who take delight (in it)."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.2",
+      "alignmentFingerprint": "18a28f5c4659fa6c20925bdd18421ee45c2d330fd0ae67b12754bce3bf7a550b",
+      "sanskrit": "न मे विदुः सुरगणाः प्रभवं न महर्षयः।\nअहमादिर्हि देवानां महर्षीणां च सर्वशः ॥",
+      "iast": "na me viduḥ suragaṇāḥ prabhavaṃ na maharṣayaḥ\nahamādirhi devānāṃ maharṣīṇāṃ ca sarvaśaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.2",
+        "content": "Not the great company of gods nor kingly Rishis know\n  My Nature, Who have made the gods and Rishis long ago;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.2"
+        ],
+        "sourceSpans": [
+          {
+            "start": 150,
+            "end": 262,
+            "lineStart": 1683,
+            "lineEnd": 1684,
+            "checksum": "eb7d047a3802da73b8c7f0e44871986872f40ea5ba362c36f30e952b07432a10"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.2 Neither the hosts of the gods nor the great sages know My origin; for in every way I am the source of all the gods and the great sages."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.2 Neither the professors of divinity nor the great ascetics know My origin, for I am the source of them all."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.2 Neither the gods nor the great sages know My majesty. For, in all respects, I am the source of the gods and the great sages."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.3",
+      "alignmentFingerprint": "18a12e64a784fc004b48bf4681f85821aff58a48bff5aa313eef9b2b610196ca",
+      "sanskrit": "यो मामजमनादिं च वेत्ति लोकमहेश्वरम्।\nअसम्मूढः स मर्त्येषु सर्वपापैः प्रमुच्यते ॥",
+      "iast": "yo māmajamanādiṃ ca vetti lokamaheśvaram\nasammūḍhaḥ sa martyeṣu sarvapāpaiḥ pramucyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.3",
+        "content": "He only knoweth-only he is free of sin, and wise,\n  Who seeth Me, Lord of the Worlds, with faith-enlightened eyes,\n  Unborn, undying, unbegun.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.3"
+        ],
+        "sourceSpans": [
+          {
+            "start": 262,
+            "end": 407,
+            "lineStart": 1685,
+            "lineEnd": 1687,
+            "checksum": "1efbcfd94b856c10ca8a8dd533ead3aaa2abbf1bd8cd7f6a968eb893700bb6bd"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.3 He who knows Me as unborn and beginningless, as the great Lord of the worlds, he, among mortals, is undeluded and he is liberated from all sins."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.3 He who knows Me as the unborn, without beginning, the Lord of the universe, he, stripped of his delusion, becomes free from all conceivable sin."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.3 He who knows Me-the birthless, the beginningless, and the great Lord of the worlds, he, the undeluded one among mortals, becomes freed from all sins."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.4",
+      "alignmentFingerprint": "5a7b7eced2cac2a6733508715d32075861212d2373de4caadd42efd1354ad954",
+      "sanskrit": "बुद्धिर्ज्ञानमसम्मोहः क्षमा सत्यं दमः शमः।\nसुखं दुःखं भवोऽभावो भयं चाभयमेव च ॥",
+      "iast": "buddhirjñānamasammohaḥ kṣamā satyaṃ damaḥ śamaḥ\nsukhaṃ duḥkhaṃ bhavo.abhāvo bhayaṃ cābhayameva ca",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.4",
+        "content": "Whatever Natures be\n  To mortal men distributed, those natures spring from Me!\n  Intellect, skill, enlightenment, endurance, self-control,\n  Truthfulness, equability, and grief or joy of soul,\n  And birth and death, and fearfulness, and fearlessness, and shame,\n  And honour, and sweet harmlessness,[FN#17] and peace which is the\n  same\n  Whate'er befalls, and mirth, and tears, and piety, and thrift,\n  And wish to give, and will to help,--all cometh of My gift!",
+        "relation": "shared-source-span",
+        "references": [
+          "gita.10.4",
+          "gita.10.5"
+        ],
+        "sourceSpans": [
+          {
+            "start": 407,
+            "end": 871,
+            "lineStart": 1687,
+            "lineEnd": 1695,
+            "checksum": "575dcc6d3623f4ce363108038a02c3e36b5f2d516126c8539758e8849f25beb5"
+          }
+        ],
+        "note": "Arnold combines and reorders the two verses' lists of qualities; retain their common source span."
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.4 Intellect, wisdom, non-delusion, forgiveness, truth, self-restraint, calmness, happiness, pain, existence or birth, non-existence or death, fear and also fearlessness."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.4 Intelligence, wisdom, non-illusion, forgiveness, truth, self-control, calmness, pleasure, pain, birth, death, fear and fearlessness;"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.4 Intelligence, wisdom, non-delusion, forgiveness, truth, control of the external organs, control of the internal organs, happiness, sorrow, birth, death and fear as also fearlessness;"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.5",
+      "alignmentFingerprint": "7e831a1370ad0b0f8f1b8254abc49822f5f9b284a05bd6a31d67cd9d1c3a5d60",
+      "sanskrit": "अहिंसा समता तुष्टिस्तपो दानं यशोऽयशः।\nभवन्ति भावा भूतानां मत्त एव पृथग्विधाः ॥",
+      "iast": "ahiṃsā samatā tuṣṭistapo dānaṃ yaśo.ayaśaḥ\nbhavanti bhāvā bhūtānāṃ matta eva pṛthagvidhāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.5",
+        "content": "Whatever Natures be\n  To mortal men distributed, those natures spring from Me!\n  Intellect, skill, enlightenment, endurance, self-control,\n  Truthfulness, equability, and grief or joy of soul,\n  And birth and death, and fearfulness, and fearlessness, and shame,\n  And honour, and sweet harmlessness,[FN#17] and peace which is the\n  same\n  Whate'er befalls, and mirth, and tears, and piety, and thrift,\n  And wish to give, and will to help,--all cometh of My gift!",
+        "relation": "shared-source-span",
+        "references": [
+          "gita.10.4",
+          "gita.10.5"
+        ],
+        "sourceSpans": [
+          {
+            "start": 407,
+            "end": 871,
+            "lineStart": 1687,
+            "lineEnd": 1695,
+            "checksum": "575dcc6d3623f4ce363108038a02c3e36b5f2d516126c8539758e8849f25beb5"
+          }
+        ],
+        "note": "Arnold combines and reorders the two verses' lists of qualities; retain their common source span."
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.5 Non-injury, eanimity, contentment, austerity, beneficence, fame, ill-fame (these) different kinds of alities of beings arise from Me alone."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.5 Harmlessness, equanimity, contentment, austerity, beneficence, fame and failure, all these, the characteristics of beings, spring from Me only."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.5 Non-injury, eanimity, satisfaction, austerity, charity, fame, infamy-(these) different dispositions of beings spring from Me alone."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.6",
+      "alignmentFingerprint": "ea1d04948224ddabce689ad3f33db2f81b7771c8ebc2f22646a9558925f879d1",
+      "sanskrit": "महर्षयः सप्त पूर्वे चत्वारो मनवस्तथा।\nमद्भावा मानसा जाता येषां लोक इमाः प्रजाः ॥",
+      "iast": "maharṣayaḥ sapta pūrve catvāro manavastathā\nmadbhāvā mānasā jātā yeṣāṃ loka imāḥ prajāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.6",
+        "content": "The Seven Chief Saints, the Elders Four, the Lordly Manus set--\n  Sharing My work--to rule the worlds, these too did I beget;\n  And Rishis, Pitris, Manus, all, by one thought of My mind;\n  Thence did arise, to fill this world, the races of mankind;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.6"
+        ],
+        "sourceSpans": [
+          {
+            "start": 871,
+            "end": 1122,
+            "lineStart": 1696,
+            "lineEnd": 1699,
+            "checksum": "12e5b822706c35a4f233ddc0dfc1097af8abc24ea624b1d6975b37bce506a0b0"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.6 The seven great sages, the ancient four and also the Manus, possessed of powers like Me (on account of their minds being fixed on Me), were born of (My) mind; from them are these creatures born in this world."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.6 The seven Great Seers,* the Progenitors of mankind, the Ancient Four,** and the Lawgivers were born of My Will and come forth direct from Me. The race of mankind has sprung from them. [* Mareechi, Atri, Angira, Pulah, Kratu, Pulastya, Vahishta. ** The Masters: Sanak, Sanandan, Sanatan, Sanatkumar.]"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.6 The seven great sages as also the four Manus of anceint days, of whom are these creatures in the world, had their thoughts fixed on Me, and they were born from My mind."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.7",
+      "alignmentFingerprint": "7c02db01bcd9549c785016a013eff7b2b22edca3e8f8fe1e8e385c7ce96fe6a6",
+      "sanskrit": "एतां विभूतिं योगं च मम यो वेत्ति तत्त्वतः।\nसोऽविकम्पेन योगेन युज्यते नात्र संशयः ॥",
+      "iast": "etāṃ vibhūtiṃ yogaṃ ca mama yo vetti tattvataḥ\nso.avikampena yogena yujyate nātra saṃśayaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.7",
+        "content": "Wherefrom who comprehends My Reign of mystic Majesty--\n  That truth of truths--is thenceforth linked in faultless faith to Me:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.7"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1122,
+            "end": 1251,
+            "lineStart": 1700,
+            "lineEnd": 1701,
+            "checksum": "7e9f6a065d362196715c677869db1c038230092905ee192d5fb5247562fd9c4f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.7 He who in truth knows these manifold manifestations of My Being and (this) Yoga-power of Mine becomes established in the unshakable Yoga; there is no doubt about it."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.7 He who rightly understands My manifested glory and My Creative Power, beyond doubt attains perfect peace."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.7 One who knows truly this majesty and yoga of Mine, he becomes imbued with unwavering Yoga. There is no doubt about this."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.8",
+      "alignmentFingerprint": "fb468223eca7ce7991df67e6cd5f7beeb618d94c12253957cc9f134fd15af429",
+      "sanskrit": "अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते।\nइति मत्वा भजन्ते मां बुधा भावसमन्विताः ॥",
+      "iast": "ahaṃ sarvasya prabhavo mattaḥ sarvaṃ pravartate\niti matvā bhajante māṃ budhā bhāvasamanvitāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.8",
+        "content": "Yea! knowing Me the source of all, by Me all creatures wrought,\n  The wise in spirit cleave to Me, into My Being brought;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.8"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1251,
+            "end": 1375,
+            "lineStart": 1702,
+            "lineEnd": 1703,
+            "checksum": "455956fb212033dc4254f9484cda0de2429e47a034eb8a37632764da45a31268"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.8 I am the source of all; from Me everything evolves; understanding thus, the wise, endowed with meditation, worship Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.8 I am the source of all; from Me everything flows. Therefore the wise worship Me with unchanging devotion."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.8 I am the origin of all; everything moves on owing to Me. Realizing thus, the wise ones, filled with fervour, adore Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.9",
+      "alignmentFingerprint": "96ceb1592abddc5faaf64b94b85a2b46c62fa3f64b46dcd70a4dcc354f2610ea",
+      "sanskrit": "मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम्।\nकथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च ॥",
+      "iast": "maccittā madgataprāṇā bodhayantaḥ parasparam\nkathayantaśca māṃ nityaṃ tuṣyanti ca ramanti ca",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.9",
+        "content": "Hearts fixed on Me; breaths breathed to Me; praising Me, each to each,\n  So have they happiness and peace, with pious thought and speech;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.9"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1375,
+            "end": 1515,
+            "lineStart": 1704,
+            "lineEnd": 1705,
+            "checksum": "cda59b85f1f193a972bdc9bea977066047df634e918c938b90ff537bc46da809"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.9 With their mind and their life wholly absorbed in Me, enlightening each other and ever speaking of Me, they are satisfied and delighted."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.9 With minds concentrated on Me, with lives absorbed in Me, and enlightening each other, they ever feel content and happy."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.9 With minds fixed on Me, with lives dedicated to Me, enlightening each other, and always speaking of Me, they derive satisfaction and rejoice."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.10",
+      "alignmentFingerprint": "88f7ef803943fb0207f980392714b3c48d848da39d49bb215532803b7509d48b",
+      "sanskrit": "तेषां सततयुक्तानां भजतां प्रीतिपूर्वकम्।\nददामि बुद्धियोगं तं येन मामुपयान्ति ते ॥",
+      "iast": "teṣāṃ satatayuktānāṃ bhajatāṃ prītipūrvakam\ndadāmi buddhiyogaṃ taṃ yena māmupayānti te",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.10",
+        "content": "And unto these--thus serving well, thus loving ceaselessly--\n  I give a mind of perfect mood, whereby they draw to Me;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.10"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1515,
+            "end": 1636,
+            "lineStart": 1706,
+            "lineEnd": 1707,
+            "checksum": "b42d2e18979ba457437b6cc11d324381845c7fa240727d1aa5f7da9aefbcb0cf"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.10 To them who are ever steadfast, worshipping Me with love, I give the Yoga of discrimination by which they come to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.10 To those who are always devout and who worship Me with love, I give the power of discrimination, which leads them to Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.10 To them who are ever devoted and worship Me with love, I grant that possession of wisdom by which they reach Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.11",
+      "alignmentFingerprint": "7497cf809432e4b18f134f6a43e2a1eaadd9ad36a9bb2be78b6435c63a8dd684",
+      "sanskrit": "तेषामेवानुकम्पार्थमहमज्ञानजं तमः।\nनाशयाम्यात्मभावस्थो ज्ञानदीपेन भास्वता ॥",
+      "iast": "teṣāmevānukampārthamahamajñānajaṃ tamaḥ\nnāśayāmyātmabhāvastho jñānadīpena bhāsvatā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.11",
+        "content": "And, all for love of them, within their darkened souls I dwell,\n  And, with bright rays of wisdom's lamp, their ignorance dispel.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.11"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1636,
+            "end": 1769,
+            "lineStart": 1708,
+            "lineEnd": 1710,
+            "checksum": "69013533481a88b354a78c8f809c746034063e0ac2d106dbadfd51dcc84e5ccf"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.11 Out of mere compassion for them, I, dwelling within their Self, destroy the darkness born of ignorance by the luminous lamp of knowledge."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.11 By My grace, I live in their hearts; and I dispel the darkness of ignorance by the shining light of wisdom."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.11 Out of compassion for them alone, I, residing in their hearts, destroy the darkness born of ignorance with the luminous lamp of Knowledge."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.12",
+      "alignmentFingerprint": "96776a7f6989d5f00b6c3ff2aba61394a7a00eb6283083cc88f094329aec017c",
+      "sanskrit": "अर्जुन उवाच।\nपरं ब्रह्म परं धाम पवित्रं परमं भवान्।\nपुरुषं शाश्वतं दिव्यमादिदेवमजं विभुम् ॥",
+      "iast": "arjuna uvāca\nparaṃ brahma paraṃ dhāma pavitraṃ paramaṃ bhavān\npuruṣaṃ śāśvataṃ divyamādidevamajaṃ vibhum",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.10.12",
+        "content": "Arjuna.\n  Yes! Thou art Parabrahm! The High Abode!\n  The Great Purification! Thou art God\n  Eternal, All-creating, Holy, First,\n  Without beginning! Lord of Lords and Gods!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.12"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1769,
+            "end": 1944,
+            "lineStart": 1711,
+            "lineEnd": 1715,
+            "checksum": "24bcf4c627a5ab156b9b35b024ee38ce5acdfe1ce54997affea8eb20b3d2fa64"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.12 Arjuna said Thou art the Supreme Brahman, the supreme abode (or the supreme light), the supreme purifier, eternal, divine Person, the primeval God, unborn andn omnipresent."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.12 Arjuna asked: Thou art the Supreme Spirit, the Eternal Home, the Holiest of the Holy, the Eternal Divine Self, the Primal God, the Unborn and the Omnipresent."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.12-10.13 Arjuna said You are the supreme Brahman, the supreme Light, the supreme Sanctifier. All the sages as also the divine sage Narada, Asita, Devala and Vyasa [Although Narada and the other sages are already mentioned by the words 'all the sages', still they are named separately because of their eminence. Asita is the father of Devala.] call You the eternal divine Person, the Primal God, the Birthless, the Omnipresent; and You Yourself verily tell me (so)."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.13",
+      "alignmentFingerprint": "46d78c0fd446b4586843e3a8598da9fc51667e07f042d54b38cdf69b6815b7e9",
+      "sanskrit": "आहुस्त्वामृषयः सर्वे देवर्षिर्नारदस्तथा।\nअसितो देवलो व्यासः स्वयं चैव ब्रवीषि मे ॥",
+      "iast": "āhustvāmṛṣayaḥ sarve devarṣirnāradastathā\nasito devalo vyāsaḥ svayaṃ caiva bravīṣi me",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.10.13",
+        "content": "Declared by all the Saints--by Narada,\n  Vyasa Asita, and Devalas;\n  And here Thyself declaring unto me!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.13"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1944,
+            "end": 2051,
+            "lineStart": 1716,
+            "lineEnd": 1718,
+            "checksum": "bc3900963f784d201c710d40026a15e5ea4eceaa532a6b405d1e0dd10ffaabb3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.13 All the sages have thus declared Thee, as also the divine sage Narada; so also Asita, Devala and Vyasa; and now Thou Thyself sayest so to me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.13 So have said the seers and the divine sage Narada; as well as Asita, Devala and Vyasa; and Thou Thyself also sayest it."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.12-10.13 Arjuna said You are the supreme Brahman, the supreme Light, the supreme Sanctifier. All the sages as also the divine sage Narada, Asita, Devala and Vyasa [Although Narada and the other sages are already mentioned by the words 'all the sages', still they are named separately because of their eminence. Asita is the father of Devala.] call You the eternal divine Person, the Primal God, the Birthless, the Omnipresent; and You Yourself verily tell me (so)."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.14",
+      "alignmentFingerprint": "0c4f5c40994d06497e1808ff06c5a6ef1e73e26fcba6d147ec8f5db11009edc7",
+      "sanskrit": "सर्वमेतदृतं मन्ये यन्मां वदसि केशव।\nन हि ते भगवन्व्यक्तिं विदुर्देवा न दानवाः ॥",
+      "iast": "sarvametadṛtaṃ manye yanmāṃ vadasi keśava\nna hi te bhagavanvyaktiṃ vidurdevā na dānavāḥ",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.10.14",
+        "content": "What Thou hast said now know I to be truth,\n  O Kesava! that neither gods nor men\n  Nor demons comprehend Thy mystery\n  Made manifest, Divinest!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.14"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2051,
+            "end": 2198,
+            "lineStart": 1719,
+            "lineEnd": 1722,
+            "checksum": "be992c74b4c110dc468f6cd942a9d962117d06d46e9224430eac72d3bc8b742e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.14 I believe all this that Thou sayest to me to be true, O Krishna; verily, O blessed Lord! neither the gods nor the demons know Thy manifestation (origin)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.14 I believe in what Thou hast said, my Lord! For neither the godly not the godless comprehend Thy manifestation."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.14 O Kesava, I accept to be true all this which You tell me. Certainly, O Lord, neither the gods nor the demons comprehend Your glory."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.15",
+      "alignmentFingerprint": "24c03fc0c402b4a359e685af4f2ebc53826d6b7fa3af231e49cbffda33700724",
+      "sanskrit": "स्वयमेवात्मनात्मानं वेत्थ त्वं पुरुषोत्तम।\nभूतभावन भूतेश देवदेव जगत्पते ॥",
+      "iast": "svayamevātmanātmānaṃ vettha tvaṃ puruṣottama\nbhūtabhāvana bhūteśa devadeva jagatpate",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.10.15",
+        "content": "Thou Thyself\n  Thyself alone dost know, Maker Supreme!\n  Master of all the living! Lord of Gods!\n  King of the Universe!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.15"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2198,
+            "end": 2319,
+            "lineStart": 1722,
+            "lineEnd": 1725,
+            "checksum": "39d492dc9ecca13c80e4ca91a938467c63d622005f6ee24259bdbb4838d36860"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "Swami Sivananda did not comment on this sloka"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "Shri Purohit Swami did not comment on this sloka"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "Swami Gambirananda did not comment on this sloka"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.16",
+      "alignmentFingerprint": "7043e5c865ab254624410459bf18e9d8b538c61340ff7b26fb858e155d6ca124",
+      "sanskrit": "वक्तुमर्हस्यशेषेण दिव्या ह्यात्मविभूतयः।\nयाभिर्विभूतिभिर्लोकानिमांस्त्वं व्याप्य तिष्ठसि ॥",
+      "iast": "vaktumarhasyaśeṣeṇa divyā hyātmavibhūtayaḥ\nyābhirvibhūtibhirlokānimāṃstvaṃ vyāpya tiṣṭhasi",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.10.16",
+        "content": "To Thee alone\n  Belongs to tell the heavenly excellence\n  Of those perfections wherewith Thou dost fill\n  These worlds of Thine; Pervading, Immanent!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.16"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2319,
+            "end": 2469,
+            "lineStart": 1725,
+            "lineEnd": 1728,
+            "checksum": "6abc469e968bf573565c4c30cf3082107984740b7f89e6a2a4460ba1f63f2459"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.16 Thou shouldst indeed tell, without reserve, of Thy divine glories by which Thou existest, pervading all these worlds. (None else can do so.)"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.16 Please tell me all about Thy glorious manifestations, by means of which Thou pervadest the world."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.16 Be pleased to speak in full of Your own manifestations which are indeed divine, through which manifestations You exist pervading these worlds."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.17",
+      "alignmentFingerprint": "e30ecceb17b23f39040a0b2013bc59efe6270c90defcf18a0835bfc3b06ca3fc",
+      "sanskrit": "कथं विद्यामहं योगिंस्त्वां सदा परिचिन्तयन्।\nकेषु केषु च भावेषु चिन्त्योऽसि भगवन्मया ॥",
+      "iast": "kathaṃ vidyāmahaṃ yogiṃstvāṃ sadā paricintayan\nkeṣu keṣu ca bhāveṣu cintyo.asi bhagavanmayā",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.10.17",
+        "content": "How shall I learn, Supremest Mystery!\n  To know Thee, though I muse continually?\n  Under what form of Thine unnumbered forms\n  Mayst Thou be grasped?",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.17"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2469,
+            "end": 2621,
+            "lineStart": 1729,
+            "lineEnd": 1732,
+            "checksum": "717561bcd1963e5cd54b24a0f5fb9b5da53d09fc4accbb7d7c43230fcc73a856"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.17 How shall I, ever meditating, know Thee, O Yogin? In what aspects or things, O blessed\nLord, art Thou to be thought of by me?"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.17 O Master! How shall I, by constant meditation, know Thee? My Lord! What are Thy various manifestations through which I am to mediate on Thee?"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.17 O Yogi, [Here yoga stands for the results of yoga, viz omniscience, omnipotence, etc.; one possessed of these is a yogi. (See Comm. on 10.7)] how shall I know You by remaining ever-engaged in meditation? And through what objects, O Lord, are You to be meditated on by me?"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.18",
+      "alignmentFingerprint": "c3894bb3a16105834e30574aea6fbb105da3116d4df59596248fec7fb433a42d",
+      "sanskrit": "विस्तरेणात्मनो योगं विभूतिं च जनार्दन।\nभूयः कथय तृप्तिर्हि शृण्वतो नास्ति मेऽमृतम् ॥",
+      "iast": "vistareṇātmano yogaṃ vibhūtiṃ ca janārdana\nbhūyaḥ kathaya tṛptirhi śṛṇvato nāsti me.amṛtam",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.10.18",
+        "content": "Ah! yet again recount,\n  Clear and complete, Thy great appearances,\n  The secrets of Thy Majesty and Might,\n  Thou High Delight of Men! Never enough\n  Can mine ears drink the Amrit[FN#18] of such words!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.18"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2621,
+            "end": 2825,
+            "lineStart": 1732,
+            "lineEnd": 1737,
+            "checksum": "211da08b3ba025485574e81773ab0bf008dab3613f3ea63eb1846ac884890f8d"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.18 Tell me again in detail, O Krishna, of Thy Yogic power and glory; for I am not satiated with what I have heard of Thy life-giving and nectar-like speech."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.18 Tell me again, I pray, about the fullness of Thy power and Thy glory; for I feel that I am never satisfied when I listen to Thy immortal words."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.18 O Janardana, narrate to me again [In addition to what has been said in the seventh and ninth chapters.] Your onw yoga and (divine) manifestations elaborately. For, while hearing (Your) nectar-like (words), there is no satiety in me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.19",
+      "alignmentFingerprint": "350a191ae1818c23e2a857d4202db6f50763e3cb360e10a741057cae751ae700",
+      "sanskrit": "श्रीभगवानुवाच।\nहन्त ते कथयिष्यामि दिव्या ह्यात्मविभूतयः।\nप्राधान्यतः कुरुश्रेष्ठ नास्त्यन्तो विस्तरस्य मे ॥",
+      "iast": "śrībhagavānuvāca\nhanta te kathayiṣyāmi divyā hyātmavibhūtayaḥ\nprādhānyataḥ kuruśreṣṭha nāstyanto vistarasya me",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.19",
+        "content": "Krishna.\n  Hanta! So be it! Kuru Prince! I will to thee unfold\n  Some portions of My Majesty, whose powers are manifold!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.19"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2825,
+            "end": 2948,
+            "lineStart": 1738,
+            "lineEnd": 1740,
+            "checksum": "c7715341b562fe59a2e82bdb2af90c16f721f7c058e07b8b9d8848cdbda85e2a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.19 The Blessed Lord said Very well! Now I will declare to thee My divine glories in their prominence, O Arjuna; there is no end to their detailed description."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.19 Lord Shri Krishna replied: So be it, My beloved fried! I will unfold to thee some of the chief aspects of My glory. Of its full extent there is no end."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.19 The Blessed Lord said O best of the Kurus, now, according to their importance, I shall described to you My onw glories, which are indeed divine. There is no end to my manifestations."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.20",
+      "alignmentFingerprint": "2e038ad801bdfb185c50b047931c5d8703aefc35703acf01dbae1a5fff8a4316",
+      "sanskrit": "अहमात्मा गुडाकेश सर्वभूताशयस्थितः।\nअहमादिश्च मध्यं च भूतानामन्त एव च ॥",
+      "iast": "ahamātmā guḍākeśa sarvabhūtāśayasthitaḥ\nahamādiśca madhyaṃ ca bhūtānāmanta eva ca",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.20",
+        "content": "I am the Spirit seated deep in every creature's heart;\n  From Me they come; by Me they live; at My word they depart!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.20"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2948,
+            "end": 3067,
+            "lineStart": 1741,
+            "lineEnd": 1742,
+            "checksum": "ee143eb4171605f40599bb9d1b1ab554773a4d16687910f73ac78aa5fe7bbc30"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.20 I am the Self, O Gudakesa, seated in the hearts of all beings; I am the beginning, the middle and also the end of all beings."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.20 O Arjuna! I am the Self, seated in the hearts of all beings; I am the beginning and the life, and I am the end of them all."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.20 O Gudakesa, I am the Self residing in the hearts of all beings, and I am the beginning and the middle as also the end of (all) beings."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.21",
+      "alignmentFingerprint": "427b315f5a5d3a74b8bc8c820ee50437c42853fc963a4b79d789004dd0e3673f",
+      "sanskrit": "आदित्यानामहं विष्णुर्ज्योतिषां रविरंशुमान्।\nमरीचिर्मरुतामस्मि नक्षत्राणामहं शशी ॥",
+      "iast": "ādityānāmahaṃ viṣṇurjyotiṣāṃ raviraṃśumān\nmarīcirmarutāmasmi nakṣatrāṇāmahaṃ śaśī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.21",
+        "content": "Vishnu of the Adityas I am, those Lords of Light;\n  Maritchi of the Maruts, the Kings of Storm and Blight;\n  By day I gleam, the golden Sun of burning cloudless Noon;\n  By Night, amid the asterisms I glide, the dappled Moon!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.21"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3067,
+            "end": 3294,
+            "lineStart": 1743,
+            "lineEnd": 1746,
+            "checksum": "6dfe11d5657856389ad62b0e0383a83ecff4c356da9ba23bbc2811caaf7ee4df"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.21 Among the (twelve) Adityas, I am Vishnu; among luminaries, the radiant sun; I am Marichi among the (seven or forty-nine) Maruts; among stars the moon am I."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.21 Of all the creative Powers I am the Creator, of luminaries the Sun; the Whirlwind among the winds, and the Moon among planets."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.21 Among the Adityas [viz Dhata, Mitra, aryama, Rudra, Varuna, Surya, Bhaga, Vivasvan, Pusa, Savita, Tvasta and Visnu.-Tr.] I am Visnu; among the luminaries, the radiant sun; among the (forty-nine) Maruts [The seven groups of Maruts are Avaha, Pravaha, Vivaha, Paravaha, Udvaha, Samvaha and parivaha.-Tr.] I am Marici; among the stars I am the moon."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.22",
+      "alignmentFingerprint": "2038badd547c81e85d8dcc175dada9188889ecc2e1127327bb312d0edab71f8d",
+      "sanskrit": "वेदानां सामवेदोऽस्मि देवानामस्मि वासवः।\nइन्द्रियाणां मनश्चास्मि भूतानामस्मि चेतना ॥",
+      "iast": "vedānāṃ sāmavedo.asmi devānāmasmi vāsavaḥ\nindriyāṇāṃ manaścāsmi bhūtānāmasmi cetanā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.22",
+        "content": "Of Vedas I am Sama-Ved, of gods in Indra's Heaven\n  Vasava; of the faculties to living beings given\n  The mind which apprehends and thinks;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.22"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3294,
+            "end": 3436,
+            "lineStart": 1747,
+            "lineEnd": 1749,
+            "checksum": "1f083832d2eb57e949d050fb5f67142f54d9f83dced5a3a7bfff62a2d4e4accc"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.22 Among the Vedas I am the Sama-Veda; I am Vasava among the gods; among the senses I am the mind; and I am intelligence among living beings."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.22 Of the Vedas I am the Hymns, I am the Electric Force in the Powers of Nature; of the senses I am the Mind; and I am the Intelligence in all that lives."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.22 Among the Vedas I am Sama-veda; among the gods I am Indra. Among the organs I am the mind, and I am the intelligence in creatures."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.23",
+      "alignmentFingerprint": "870da9cfe712f509861b27b4fbf81110bb99a1049ae97d1e2001d882c3757c6c",
+      "sanskrit": "रुद्राणां शङ्करश्चास्मि वित्तेशो यक्षरक्षसाम्।\nवसूनां पावकश्चास्मि मेरुः शिखरिणामहम् ॥",
+      "iast": "rudrāṇāṃ śaṅkaraścāsmi vitteśo yakṣarakṣasām\nvasūnāṃ pāvakaścāsmi meruḥ śikhariṇāmaham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.23",
+        "content": "of Rudras Sankara;\n  Of Yakshas and of Rakshasas, Vittesh; and Pavaka\n  Of Vasus, and of mountain-peaks Meru;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.23"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3436,
+            "end": 3546,
+            "lineStart": 1749,
+            "lineEnd": 1751,
+            "checksum": "ab5b85594845d7f7d08c358ba8dee02d38ebfe90e73fa9844e9c47115d2b27eb"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.23 And, among the Rudras I am Sankara; among the Yakshas and Rakshasas, the Lord of wealth (Kubera); among the Vasus I am Pavaka (fire); and among the (seven) mountains I am the Meru."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.23 Among Forces of Vitality I am the life, I am Mammon to the heathen and the godless; I am the Energy in fire, earth, wind, sky, heaven, sun, moon and planets; and among mountains am the Mount Meru."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.23 Among the Rudras [Aja, Ekapada, Ahirbudhnya, Pinaki, Aparajita, Tryam-baka, Mahesvara, Vrsakapi, Sambhu, Harana and Isvara. Different Puranas give different lists of eleven names.-Tr,] I am Sankara, and among the Yaksas and goblins I am Kubera [God of wealth. Yaksas are a class of demigods who attend on him and guard his wealth.]. Among the Vasus [According to the V.P. they are: Apa, dhruva, Soma, Dharma, Anila, Anala (Fire), Pratyusa and Prabhasa. The Mbh. and the Bh. given a different list.-Tr.] I am Fire, and among the mountains I am Meru."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.24",
+      "alignmentFingerprint": "b6914ee6fb7010a07c515bedbb22a4c625cb5d6df67550d397708a15a0fa8e17",
+      "sanskrit": "पुरोधसां च मुख्यं मां विद्धि पार्थ बृहस्पतिम्।\nसेनानीनामहं स्कन्दः सरसामस्मि सागरः ॥",
+      "iast": "purodhasāṃ ca mukhyaṃ māṃ viddhi pārtha bṛhaspatim\nsenānīnāmahaṃ skandaḥ sarasāmasmi sāgaraḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.24",
+        "content": "Vrihaspati\n  Know Me 'mid planetary Powers; 'mid Warriors heavenly\n  Skanda; of all the water-floods the Sea which drinketh each,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.24"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3546,
+            "end": 3678,
+            "lineStart": 1751,
+            "lineEnd": 1754,
+            "checksum": "f9cf42cd47dfeb2ba83100938165c692292c7220a129916e9abb9468f52ed9f6"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.24 And, among the household priests (of kings), O Arjuna, know Me to be the chief, Brihaspati; among the army generals I am Skana; among lakes I am the ocean.\n'"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.24 Among the priests, know, O Arjuna, that I am the Apostle Brihaspati; of generals I am Skanda, the Commander-in-Chief, and of waters I am the Ocean."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.24 O son of Prtha, know me to be Brhaspati, the foremost among the priests of kings. Among comanders of armies I am Skanda; among large expanses of water I am the sea."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.25",
+      "alignmentFingerprint": "95e1260bded436378e07d872a8968c36ba9496f77cac83e405dcd77b30df8a41",
+      "sanskrit": "महर्षीणां भृगुरहं गिरामस्म्येकमक्षरम्।\nयज्ञानां जपयज्ञोऽस्मि स्थावराणां हिमालयः ॥",
+      "iast": "maharṣīṇāṃ bhṛgurahaṃ girāmasmyekamakṣaram\nyajñānāṃ japayajño.asmi sthāvarāṇāṃ himālayaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.25",
+        "content": "And Bhrigu of the holy Saints, and OM of sacred speech;\n  Of prayers the prayer ye whisper;[FN#19] of hills Himala's snow,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.25"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3678,
+            "end": 3801,
+            "lineStart": 1754,
+            "lineEnd": 1755,
+            "checksum": "d455f106292b34c933db0c6e758e0ca7dbeb789af7cd4c1d3e4e0bf07fa35892"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.25 Among the great sages I am Bhrigu; among words I am the one syllable (Om); among sacrifices I am the sacrifice of silent repetition; among the immovable things I am the Himalayas."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.25 Of the great seers I am Bhrigu, of words I am Om, of offerings I am the silent prayer, among things immovable I am the Himalayas."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.25 Among the great sages I am Bhrgu; of words I am the single syllable (Om) [Om is the best because it is the name as well as the symbol of Brahman.]. Among rituals I am the ritual of Japa [Japa, muttering prayers-repeating passages from the Vedas, silently repeating names of deities, etc. Rituals often involve killing of animals. But Japa is free from such injury, and hence the best.] of the immovables, the Himalaya."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.26",
+      "alignmentFingerprint": "cac098852c92dd23fd94aa7c2fdc81269fa5a32da9a5075de8e6b708e3c4dab3",
+      "sanskrit": "अश्वत्थः सर्ववृक्षाणां देवर्षीणां च नारदः।\nगन्धर्वाणां चित्ररथः सिद्धानां कपिलो मुनिः ॥",
+      "iast": "aśvatthaḥ sarvavṛkṣāṇāṃ devarṣīṇāṃ ca nāradaḥ\ngandharvāṇāṃ citrarathaḥ siddhānāṃ kapilo muniḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.26",
+        "content": "And Aswattha, the fig-tree, of all the trees that grow;\n  Of the Devarshis, Narada; and Chitrarath of them\n  That sing in Heaven, and Kapila of Munis,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.26"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3801,
+            "end": 3954,
+            "lineStart": 1756,
+            "lineEnd": 1758,
+            "checksum": "a69b0046c5e0c02388ea0e7d734502602d871df1ab1a1aaa5d18f7a4b7b08ee6"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.26 Among all the trees ( I am) the Peepul; among the divine sages, I am Narada; among Gandharvas, Chitraratha; among the perfected, the sage Kapila."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.26 Of trees I am the sacred Fig-tree, of the Divine Seers Narada, of the heavenly singers I am Chitraratha, their Leader, and of sages I am Kapila."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.26 Among all trees (I am) the Asvatha (peepul), and Narada among the divine sages. Among the dandharvas [A class of demigods regarded as the musicians of gods.] (I am) Citraratha; among the perfected ones, the sage Kapila."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.27",
+      "alignmentFingerprint": "d9756b30bc039d7aacd7a6d68711fb94294c863475394af57b7ec616783f4385",
+      "sanskrit": "उच्चैःश्रवसमश्वानां विद्धि माममृतोद्भवम्।\nऐरावतं गजेन्द्राणां नराणां च नराधिपम् ॥",
+      "iast": "uccaiḥśravasamaśvānāṃ viddhi māmamṛtodbhavam\nairāvataṃ gajendrāṇāṃ narāṇāṃ ca narādhipam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.27",
+        "content": "and the gem\n  Of flying steeds, Uchchaisravas, from Amrit-wave which burst;\n  Of elephants Airavata; of males the Best and First;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.27"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3954,
+            "end": 4084,
+            "lineStart": 1758,
+            "lineEnd": 1760,
+            "checksum": "c95598578b56e6a34e7f05a932fe177d3d992f481eed2f4d54f4cfdae0c3b707"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.27 Know Me as Ucchaisravas born of nectar, among horses; among lordly elephants (I am) the Airavata; and, among men, the king."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.27 Know that among horses I am Pegasus, the heaven-born; among the lordly elephants I am the White one, and I am the Ruler among men."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.27 Among horses, know Me to be Uccaihsravas, born of nectar; Airavata among the lordly elephants; and among men, the Kind of men. [Uccaihsravas and Airavata are respectively the divine horse and elephant of Indra.]"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.28",
+      "alignmentFingerprint": "039af0aae976315d5e740f8cc60daf3c81815cacecc2baf0fef8eb4d72c79899",
+      "sanskrit": "आयुधानामहं वज्रं धेनूनामस्मि कामधुक्।\nप्रजनश्चास्मि कन्दर्पः सर्पाणामस्मि वासुकिः ॥",
+      "iast": "āyudhānāmahaṃ vajraṃ dhenūnāmasmi kāmadhuk\nprajanaścāsmi kandarpaḥ sarpāṇāmasmi vāsukiḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.28",
+        "content": "Of weapons Heav'n's hot thunderbolt; of cows white Kamadhuk,\n  From whose great milky udder-teats all hearts' desires are strook;\n  Vasuki of the serpent-tribes, round Mandara entwined;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.28"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4084,
+            "end": 4272,
+            "lineStart": 1761,
+            "lineEnd": 1763,
+            "checksum": "669a9867844056600d8af6feeefa46a2b5819606890fb7889fd25ceb3ceb96d6"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.28 Among weapons I am the thunderbolt; among cows I am the wish-fulfilling cow called Kamadhenu; I am the progenitor, the god of love; among serpents I am Vasuki."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.28 I am the Thunderbolt among weapons; of cows I am the Cow of Plenty, I am Passion in those who procreate, and I am the Cobra among serpents."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.28 Among weapons I am the thunderbolt; among cows I am kamadhenu. I am Kandarpa, the Progenitor, and among serpents I am Vasuki."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.29",
+      "alignmentFingerprint": "6a30e94d7275910b236a64c8f0272a3103936c8c02c6c3db5568dd8d0700c74d",
+      "sanskrit": "अनन्तश्चास्मि नागानां वरुणो यादसामहम्।\nपितॄणामर्यमा चास्मि यमः संयमतामहम् ॥",
+      "iast": "anantaścāsmi nāgānāṃ varuṇo yādasāmaham\npitṝṇāmaryamā cāsmi yamaḥ saṃyamatāmaham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.29",
+        "content": "And thousand-fanged Ananta, on whose broad coils reclined\n  Leans Vishnu; and of water-things Varuna; Aryam\n  Of Pitris, and, of those that judge, Yama the Judge I am;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.29"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4272,
+            "end": 4442,
+            "lineStart": 1764,
+            "lineEnd": 1766,
+            "checksum": "c76fb62233c585cc84ff829a9b57b873799f05d88325354041b5c6f7e4ebc31e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.29 I am Ananta among the Nagas; I am Varuna among water-deities; Aryaman among the Manes I am; I am Yama among the governors."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.29 I am the King-python among snakes, I am the Aqueous Principle among those that live in water, I am the Father of fathers, and among rulers I am Death."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.29 Among snakes I am Ananta, and Varuna among gods of the waters. Among the manes I am Aryama, and among the maintainers of law and order I am Yama (King of death)."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.30",
+      "alignmentFingerprint": "fff73e54b00fdae2f292f9a3244a60dec347c410d7bcee648978f5e90873f2d5",
+      "sanskrit": "प्रह्लादश्चास्मि दैत्यानां कालः कलयतामहम्।\nमृगाणां च मृगेन्द्रोऽहं वैनतेयश्च पक्षिणाम् ॥",
+      "iast": "prahlādaścāsmi daityānāṃ kālaḥ kalayatāmaham\nmṛgāṇāṃ ca mṛgendro.ahaṃ vainateyaśca pakṣiṇām",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.30",
+        "content": "Of Daityas dread Prahlada; of what metes days and years,\n  Time's self I am; of woodland-beasts-buffaloes, deers, and bears-\n  The lordly-painted tiger; of birds the vast Garud,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.30"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4442,
+            "end": 4622,
+            "lineStart": 1767,
+            "lineEnd": 1769,
+            "checksum": "8bf3cb41b8927dc91af5196eb019980c48551c2a616ede36e03c8abf831a1097"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.30 And, I am Prahlada among the demons, among the reckoners I am time; among beasts I am the lion, and Vainateya (Garuda) among birds."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.30 And I am the devotee Prahlad among the heathen; of Time I am the Eternal Present; I am the Lion among beasts and the Eagle among birds."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.30 Among demons I am Prahlada, and I am Time among reckoners of time. And among animals I am the loin, and among birds I am Garuda."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.31",
+      "alignmentFingerprint": "9e59697c3eb82dbe822d1b881c6a5c708ed1e1eb9e4df9ec2fa22430c27b96fa",
+      "sanskrit": "पवनः पवतामस्मि रामः शस्त्रभृतामहम्।\nझषाणां मकरश्चास्मि स्रोतसामस्मि जाह्नवी ॥",
+      "iast": "pavanaḥ pavatāmasmi rāmaḥ śastrabhṛtāmaham\njhaṣāṇāṃ makaraścāsmi srotasāmasmi jāhnavī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.31",
+        "content": "The whirlwind 'mid the winds; 'mid chiefs Rama with blood imbrued,\n  Makar 'mid fishes of the sea, and Ganges 'mid the streams;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.31"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4622,
+            "end": 4752,
+            "lineStart": 1770,
+            "lineEnd": 1771,
+            "checksum": "9bdc0a1f15c85e68fd81caf799bc972d4cfdadaf49942c424c4f43096c6d5110"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.31 Among the purifiers (or the speeders) I am the wind; Rama among the warriors am I; among the fishes I am the shark; among the streams I am the Ganga."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.31 I am the Wind among purifiers, the King Rama among warriors; I am the Crocodile among the fishes, and I am the Ganges among rivers."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.31 Of the purifiers I am air; among the wielders of weapons I am Rama. Among fishes, too, I am the shark; I am Ganga among rivers."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.32",
+      "alignmentFingerprint": "142cf988ec7c6a5a9551739ea1ef375f057679d8168bc5d5bb082df6fbc0d2bb",
+      "sanskrit": "सर्गाणामादिरन्तश्च मध्यं चैवाहमर्जुन।\nअध्यात्मविद्या विद्यानां वादः प्रवदतामहम् ॥",
+      "iast": "sargāṇāmādirantaśca madhyaṃ caivāhamarjuna\nadhyātmavidyā vidyānāṃ vādaḥ pravadatāmaham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.32",
+        "content": "Yea! First, and Last, and Centre of all which is or seems\n  I am, Arjuna! Wisdom Supreme of what is wise,\n  Words on the uttering lips I am, and eyesight of the eyes,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.32"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4752,
+            "end": 4921,
+            "lineStart": 1772,
+            "lineEnd": 1774,
+            "checksum": "e541e76dc327ba5acd566bf7d109356bb078467752c3a438c57ecdabb2ee593e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.32 Among creations I am the beginning, the middle and also the end, O Arjuna; among the sciences I am the science of the Self; and I am the logic among controversialists."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.32 I am the Beginning, the Middle and the End in creation; among sciences, I am the science of Spirituality; I am the Discussion among disputants."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.32 O Arjuna, of creations I am the beginning and the end as also the middle, I am the knowledge of the Self among knowledge; of those who date I am vada."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.33",
+      "alignmentFingerprint": "d09d1e79ba58f69160078634e57d8a466b29b69f1c16c107444a58a3368d9eec",
+      "sanskrit": "अक्षराणामकारोऽस्मि द्वन्द्वः सामासिकस्य च।\nअहमेवाक्षयः कालो धाताहं विश्वतोमुखः ॥",
+      "iast": "akṣarāṇāmakāro.asmi dvandvaḥ sāmāsikasya ca\nahamevākṣayaḥ kālo dhātāhaṃ viśvatomukhaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.33",
+        "content": "And \"A\" of written characters, Dwandwa[FN#20] of knitted speech,\n  And Endless Life, and boundless Love, whose power sustaineth each;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.33"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4921,
+            "end": 5057,
+            "lineStart": 1775,
+            "lineEnd": 1776,
+            "checksum": "fa2d6c143e7833a811c0f01fcba482f535026665eac652ac5ee4e6e583395a9f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.33 Among the letters of the alphabets, the letter 'A' I am and the dual among the compounds. I am verily the inexhaustible or everlasting time; I am the dispenser (of the fruits of actions) having\nfaces in all directions."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.33 Of letters I am A; I am the copulative in compound words; I am Time inexhaustible; and I am the all-pervading Preserver."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.33 Of the letters I am the letter a, and of the group of compund words I am (the compound called) Dvandva. [Dvandva: A compound of two or more words which, if not compounded, would stand in the same case and be connected by the conjunction 'and'.-Tr.] I Mayself am the infinite time; I am the Dispenser with faces everywhere."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.34",
+      "alignmentFingerprint": "05b125acd9c44905e397f39f0e46332b958760e1e90c4eb1789d1a642c8567d3",
+      "sanskrit": "मृत्युः सर्वहरश्चाहमुद्भवश्च भविष्यताम्।\nकीर्तिः श्रीर्वाक्च नारीणां स्मृतिर्मेधा धृतिः क्षमा ॥",
+      "iast": "mṛtyuḥ sarvaharaścāhamudbhavaśca bhaviṣyatām\nkīrtiḥ śrīrvākca nārīṇāṃ smṛtirmedhā dhṛtiḥ kṣamā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.34",
+        "content": "And bitter Death which seizes all, and joyous sudden Birth,\n  Which brings to light all beings that are to be on earth;\n  And of the viewless virtues, Fame, Fortune, Song am I,\n  And Memory, and Patience; and Craft, and Constancy:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.34"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5057,
+            "end": 5290,
+            "lineStart": 1777,
+            "lineEnd": 1780,
+            "checksum": "14140e410caa0703dea794cf5f6f69d42fd60447b556459ca99c7e74f322f4f3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.34 And I am the all-devouring Death, and the prosperity of those who are to be prosperous; among the feminine alities (I am) fame, prosperity, speech, memory, intelligence, firmness and forgiveness."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.34 I am all-devouring Death; I am the Origin of all that shall happen; I am Fame, Fortune, Speech, Memory, Intellect, Constancy and Forgiveness."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.34 And I am Death, the destroyer of all; and the prosperity of those destined to be prosperous. Of the feminine [Narinam may mean 'of the feminine alities'. According to Sridhara Swami and S., the words fame etc. signify the goddesses of the respective alities. According to M.S. these seven goddesses are the wives of the god Dharma.-Tr.] (I am) fame, beauty, speech, memory, intelligence, fortitude and forbearance."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.35",
+      "alignmentFingerprint": "2bd6cc94f8df20bc7d5be7b8f8ef7db2aac6d883466df1308d4676479e374126",
+      "sanskrit": "बृहत्साम तथा साम्नां गायत्री छन्दसामहम्।\nमासानां मार्गशीर्षोऽहमृतूनां कुसुमाकरः ॥",
+      "iast": "bṛhatsāma tathā sāmnāṃ gāyatrī chandasāmaham\nmāsānāṃ mārgaśīrṣo.ahamṛtūnāṃ kusumākaraḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.35",
+        "content": "Of Vedic hymns the Vrihatsam, of metres Gayatri,\n  Of months the Margasirsha, of all the seasons three\n  The flower-wreathed Spring;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.35"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5290,
+            "end": 5425,
+            "lineStart": 1781,
+            "lineEnd": 1783,
+            "checksum": "b1486ad95bd445ba2c05d9dd434f4b13d66a4a1cb86727a52b2b6569ba6a5499"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.35 Among the hymns also I am the Brihatsaman; among metres Gayatri am I; among the montsh I am the Margasirsha; among the seasons (I am) the flowery season."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.35 Of hymns I am Brihatsama, of metres I am Garatri, among the months I am Margasheersha (December), and I am the Spring among seasons."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.35 I am also the Brhat-sama of the Sama (-mantras); of the metres, Gayatri. Of the months I am Marga-sirsa, and of the seasons, spring."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.36",
+      "alignmentFingerprint": "ff68ee9548b10f72dfa68c23866cc2e0870e0dac704e05b3adff835308c13575",
+      "sanskrit": "द्यूतं छलयतामस्मि तेजस्तेजस्विनामहम्।\nजयोऽस्मि व्यवसायोऽस्मि सत्त्वं सत्त्ववतामहम् ॥",
+      "iast": "dyūtaṃ chalayatāmasmi tejastejasvināmaham\njayo.asmi vyavasāyo.asmi sattvaṃ sattvavatāmaham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.36",
+        "content": "in dicer's-play the conquering\n  Double-Eight;\n  The splendour of the splendid, and the greatness of the great,\n  Victory I am, and Action! and the goodness of the good,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.36"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5425,
+            "end": 5595,
+            "lineStart": 1783,
+            "lineEnd": 1786,
+            "checksum": "0f541f97dac1d11c83150b5d4e0b568c0fc94dbce373ae0da8b33124f6b59126"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.36 I am the gambling of the fraudulent; I am the splendour of the splendid; I am victory; I am determination (of those who are determined); I am the goodness of the good."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.36 I am the Gambling of the cheat and the Splendour of the splendid; I am Victory; I am Effort; and I am the Purity of the pure."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.36 Of the fraudulent I am the gambling; I am the irresistible ?nd of the mighty. I am excellene, I am effort, I am the sattva ality of those possessed of sattva."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.37",
+      "alignmentFingerprint": "6ad7bee6f79f9c1ce8d7374f86449de5d5481bb004f002102170e58619c24c2b",
+      "sanskrit": "वृष्णीनां वासुदेवोऽस्मि पाण्डवानां धनञ्जयः।\nमुनीनामप्यहं व्यासः कवीनामुशना कविः ॥",
+      "iast": "vṛṣṇīnāṃ vāsudevo.asmi pāṇḍavānāṃ dhanañjayaḥ\nmunīnāmapyahaṃ vyāsaḥ kavīnāmuśanā kaviḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.37",
+        "content": "And Vasudev of Vrishni's race, and of this Pandu brood\n  Thyself!--Yea, my Arjuna! thyself; for thou art Mine!\n  Of poets Usana, of saints Vyasa, sage divine;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.37"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5595,
+            "end": 5756,
+            "lineStart": 1787,
+            "lineEnd": 1789,
+            "checksum": "6a8463ab54f562283334dd921fd7c5afea186335cfe12ae6906146fcf9ab0670"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.37 Among the Vrishnis I am Vaasudeva; among the Pandavas I am Arjuna; among the sages I am Vyasa; among the Poets I am Usanas, the poet."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.37 I am Shri Krishna among the Vishnu-clan and Arjuna among the Pandavas; of the saints I am Vyasa, and I am Shukracharya among the sages."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.37 Of the vrsnis [The clan to which Sri krsna belonged, known otherwise as the Yadavas.] I am Vasudeva; of the Pandavas, Dhananjaya (Arjuna). And of the wise, I am Vyasa; of the omniscient, the omniscient Usanas."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.38",
+      "alignmentFingerprint": "b87e4c9bac470f86ff17636c28c3a08757a9435e59a6aa943d8854f748ae44f4",
+      "sanskrit": "दण्डो दमयतामस्मि नीतिरस्मि जिगीषताम्।\nमौनं चैवास्मि गुह्यानां ज्ञानं ज्ञानवतामहम् ॥",
+      "iast": "daṇḍo damayatāmasmi nītirasmi jigīṣatām\nmaunaṃ caivāsmi guhyānāṃ jñānaṃ jñānavatāmaham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.38",
+        "content": "The policy of conquerors, the potency of kings,\n  The great unbroken silence in learning's secret things;\n  The lore of all the learned,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.38"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5756,
+            "end": 5895,
+            "lineStart": 1790,
+            "lineEnd": 1792,
+            "checksum": "4f3702a08531ad9af7b9202d60e382f862696cd4af03709be3e45ee03f1ef2d6"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.38 Of those who punish, I am the sceptre; among those who seek victory, I am statesmanship; and also among secrets, I am silence; knowledge among knowers I am."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.38 I am the Sceptre of rulers, the Strategy of the conquerors, the Silence of mystery, the Wisdom of the wise."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.38 Of the punishers I am the rod; I am the righteous policy of those who desire to coner. And of things secret, I am verily silence; I am knowledge of the men of knowledge৷৷"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.39",
+      "alignmentFingerprint": "18ae13c10fe88ea6ecc72b03c4e2fbf2f0d95b383202dae4a9b9f3b71231b80e",
+      "sanskrit": "यच्चापि सर्वभूतानां बीजं तदहमर्जुन।\nन तदस्ति विना यत्स्यान्मया भूतं चराचरम् ॥",
+      "iast": "yaccāpi sarvabhūtānāṃ bījaṃ tadahamarjuna\nna tadasti vinā yatsyānmayā bhūtaṃ carācaram",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.39",
+        "content": "the seed of all which springs.\n  Living or lifeless, still or stirred, whatever beings be,\n  None of them is in all the worlds, but it exists by Me!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.39"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5895,
+            "end": 6044,
+            "lineStart": 1792,
+            "lineEnd": 1794,
+            "checksum": "0c7c656371edd7bbe52fa785fe2715ff1a25d328e1014d8173fece206e9b99e0"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.39 And whatever is the seed of all beings, that also am I, O Arjuna; there is no being, whether moving or unmoving, that can exist without Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.39 I am the Seed of all being, O Arjuna! No creature moving or unmoving can live without Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.39 Moreover, O Arjuna, whatsoever is the seed of all beings, that I am. There is no thing moving or non-moving which can exist without Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.40",
+      "alignmentFingerprint": "d752ccba03cf2a9145e2c40ddd20f6570f5923fcbaf584c917d29ee69434791f",
+      "sanskrit": "नान्तोऽस्ति मम दिव्यानां विभूतीनां परन्तप।\nएष तूद्देशतः प्रोक्तो विभूतेर्विस्तरो मया ॥",
+      "iast": "nānto.asti mama divyānāṃ vibhūtīnāṃ parantapa\neṣa tūddeśataḥ prokto vibhūtervistaro mayā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.40",
+        "content": "Nor tongue can tell, Arjuna! nor end of telling come\n  Of these My boundless glories, whereof I teach thee some;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.40"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6044,
+            "end": 6159,
+            "lineStart": 1795,
+            "lineEnd": 1796,
+            "checksum": "62db2e5aa4da4f87b04c9e7c2f6fe3bf77ec1421fa4cb0a131480b3943d29ca5"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.40 There is no end to My divine gloreis, O Arjuna, but this is a brief statement by Me of the particulars of My divine glories."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.40 O Arjuna! The aspects of My divine life are endless. I have mentioned but a few by way of illustration."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.40 O destroyer of enemies, there is no limit to My divine manifestations. This description of (My) manifestations, however, has been stated by Me by way illustration."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.41",
+      "alignmentFingerprint": "85b7609e56566a397a0eacf37c589f8b746adec89bcef9dbce550c89f011bce7",
+      "sanskrit": "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा।\nतत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम् ॥",
+      "iast": "yadyadvibhūtimatsattvaṃ śrīmadūrjitameva vā\ntattadevāvagaccha tvaṃ mama tejoṃśasambhavam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.41",
+        "content": "For wheresoe'er is wondrous work, and majesty, and might,\n  From Me hath all proceeded. Receive thou this aright!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.41"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6159,
+            "end": 6275,
+            "lineStart": 1797,
+            "lineEnd": 1798,
+            "checksum": "f48645be67b476eb61704004751358643d4c6a885145cd0e39c91df76f63042f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.41 Whatever being there is glorious, prosperous or powerful, that know thou to be a manifestation of a part of My splendour."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.41 Whatever is glorious, excellent, beautiful and mighty, be assured that it comes from a fragment of My splendour."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.41 Whatever object [All living beings] is verily endowed with majesty, possessed of prosperity, or is energetic, you know for certain each of them as having a part of My power as its source."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.10.42",
+      "alignmentFingerprint": "b7f6cd9b9225377d2c56dd8c63f805f2b9594f4e4f8aca74653dbc1e39dc8bb3",
+      "sanskrit": "अथवा बहुनैतेन किं ज्ञातेन तवार्जुन।\nविष्टभ्याहमिदं कृत्स्नमेकांशेन स्थितो जगत् ॥",
+      "iast": "athavā bahunaitena kiṃ jñātena tavārjuna\nviṣṭabhyāhamidaṃ kṛtsnamekāṃśena sthito jagat",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.10.42",
+        "content": "Yet how shouldst thou receive, O Prince! the vastness of this word?\n  I, who am all, and made it all, abide its separate Lord!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.10.42"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6275,
+            "end": 6405,
+            "lineStart": 1799,
+            "lineEnd": 1801,
+            "checksum": "5f12f35b8093849c10be67796194065defe46084ffc6c777aa16844f30485df2"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "10.42 But, of what avail to thee is the knowledge of all these details, O Arjuna? I exist, supporting this whole world by one part of Myself."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "10.42 But what is the use of all these details to thee? O Arjuna! I sustain this universe with only small part of Myself.\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "10.42 Or, on the other hand, what is the need of your knowing this extensively, O Arjuna? I remain sustaning this whole creation in a special way with a part (of Myself)."
+        }
+      ]
+    }
+  ]
+}

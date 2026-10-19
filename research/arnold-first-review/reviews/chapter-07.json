@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 7,
+  "inputSha256": "c55e69244e146eaa9937d42c1a89c8dd77ece0a47d253316d77f8692f9618582",
+  "reviews": [
+    {
+      "canonicalRef": "gita.7.1",
+      "alignmentFingerprint": "02da0899ee02f07f0821da5c532fd3cfa56090b2b3f96f38eb6f0e3c260f3755",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately renders Krishna's opening shloka on devotion, practice of yog, and taking refuge in Him.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.2",
+      "alignmentFingerprint": "a89dd8bddbd7a5e8cc5f9073a11e2d61f601c47d16ee9d02fda0a6f87d3b71b4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately captures jñāna combined with vijñāna ('Whole and particular') after which nothing remains to be known.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.3",
+      "alignmentFingerprint": "a96a98cc8efd8672cbd8cff1039250445284d9a8c9edebcba15abc821148cb77",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Faithfully renders the rarity of mortals striving for perfection and truly knowing the Divine.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.4",
+      "alignmentFingerprint": "7386f2016bfbc83e489a7631c783d26500e9ae0ec98696fad85fa5e792a035b9",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Accurately enumerates the eightfold lower nature (earth, water, flame, air, ether, life/buddhi, mind, individuality/ahaṅkāra).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.5",
+      "alignmentFingerprint": "25ccedb10183f9b876edaee5ea6e3149b70664cb2dbcc08b2c6ec4d390765355",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Matches the declaration of the higher nature (parā prakṛti) as the life principle sustaining the universe.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.6",
+      "alignmentFingerprint": "8e98935fe981bba31bd021c42d7bd2a2e5e9ecce71da8772ca3a08f078f000fb",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Directly renders etadyonīni bhūtāni and Krishna as origin and dissolution of all created things.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.7",
+      "alignmentFingerprint": "edbf8dd4358fe51de16d826a6390b4bdd3527acbc352bbfffffdc594941c7e03",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures the supreme transcendence and the famous simile of pearls strung upon a thread (sūtre maṇigaṇā iva).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.8",
+      "alignmentFingerprint": "293a52cbd9baeb5341cd357f3eef26490194b9678e3739f5063b811d4ddef439",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Matches the divine immanence in water, sun/moon, Pranava in the Vedas, sound/ether, and virility in man; mid-line boundary correctly positioned before line 1304's next sentence.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.9",
+      "alignmentFingerprint": "c59ddbdf9d4e02b18101c318ee2f2066f1502c362bf4ce624bed080048cbf349",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Correctly maps sweet fragrance of earth, brilliance in fire, life in all beings, and austerity/holiness in ascetics.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.10",
+      "alignmentFingerprint": "84ba4a38c481c821b43274430efcd4476e124f9a22307d904ea180426147d852",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Accurately represents the undying seed of beings (bījaṃ), wisdom of the wise, and splendour of the splendid.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.11",
+      "alignmentFingerprint": "c78d7a2028992df29c4362bd57645d88ee0ebd6a2334f0150d623c547c4e22aa",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Corresponds to strength devoid of passion and desire, and desire unopposed to dharma.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.12",
+      "alignmentFingerprint": "d09991e71b1be923d2b1434a67390da838f11384b8b91e20bd32aead725ff3a3",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Properly renders the three gunas (sāttvika, rājasa, tāmasa) proceeding from Krishna, while He is not contained in them.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.13",
+      "alignmentFingerprint": "53f817c76ec34949b196d47b4159ae3c3d819e19341f585577606e86cda82f6a",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately renders the delusion of the world by the three modes and unawareness of the immutable Lord.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.14",
+      "alignmentFingerprint": "cb6bf3f876a3fb1d7e5b339ea1244bda252b7ae65557ceff13e7aec3aef2f3df",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures the divine illusion (māyā duratyayā) and crossing beyond it through refuge in the Divine.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.15",
+      "alignmentFingerprint": "30c4b6d37d609a844e83eef09dcb0c61f203c874a1d98c392cecac66d2f9ebc3",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately reflects evildoers, foolish, base men deprived of wisdom by delusion, adopting demoniacal nature; footnote 12 correctly preserved.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.16",
+      "alignmentFingerprint": "2abd03b64246bee4bfb1dcb82e4745df321c8b71a4686f257144bd60c3acb91b",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately categorizes the four classes of virtuous worshippers: the afflicted, seeker of knowledge, seeker of wealth, and the wise.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.17",
+      "alignmentFingerprint": "9ab4906c893b831b9c6a8c22ca2613c8e1dad7cad514f85d526d42ebd87ce79a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders the supreme standing of the jñānī of one-pointed devotion and the mutual love between Krishna and the wise.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.18",
+      "alignmentFingerprint": "522661f7f7415903ccc9d575b5de191e3cd2586705d938969ec31d16ad7109d1",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Reflects that all are noble, but the jñānī is the Lord's very self (jñānī tvātmaiva me matam).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.19",
+      "alignmentFingerprint": "9fe9c5bf17207177c573b52b3ad59672d6eaf4f28a692a3702492866c8567073",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders bahūnāṃ janmanāmante and the rare mahātma who knows that Vasudeva is all; footnote 13 preserved.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.20",
+      "alignmentFingerprint": "a65fa65a62e2438d5b533192ef0cfdd7fcbbced4b09c766dc6d85433794b8f49",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Corresponds to those whose wisdom is led astray by various desires worshiping other deities under diverse rites.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.21",
+      "alignmentFingerprint": "14d46c82acb778964386672f634487558b9278f80224ee308d20599ee03a2583",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Renders Krishna establishing and making firm the faith of whatever devotee worships whatever form.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.22",
+      "alignmentFingerprint": "80cb0935d8c19512b94db4822b87ab5f492ea2d76abc1e1e4484813d54e66b7d",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately represents how devotees obtain their desires from their chosen deity as ordained by Krishna Himself.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.23",
+      "alignmentFingerprint": "169a48f8ee1d386cbf2c06b62dec9740d1bfda37742f35062f197320216856dd",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately presents the finite fruit of smaller deities versus worshippers of Krishna who attain Him.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.24",
+      "alignmentFingerprint": "25eec8c97660224160bf4f9538154fe74b68039ebda884fa66f3b22cf769f957",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Renders the foolish thinking the unmanifest has become merely manifest, unaware of the supreme immutable state.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.25",
+      "alignmentFingerprint": "6948584b5ce5e236f502787e57c9c21aa1bd27e7ad7ab98cf565d5c4568c60a0",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately captures being veiled by yoga-māyā and unrecognized as unborn and imperishable.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.26",
+      "alignmentFingerprint": "5d28aff5d3057509af8567611b776227bd2b7b0441c4ae9ed3e2ce51eabd4c0c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately corresponds to Krishna knowing all past, present, and future beings while none knows Him.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.27",
+      "alignmentFingerprint": "e9d1fa08bcbc19de15f9fe37590c80ad454f88f3db67d1abe13e5c804ada4922",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Corresponds to delusion born of the pairs of opposites (desire and aversion) bewildering all beings at birth.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.28",
+      "alignmentFingerprint": "091faf9d03c67b60fc192ad54cd8df9d7cd8b6649ddd8e21c5ccf2b3ab3241e2",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately matches righteous men freed from sins and dualities worshiping with steadfast vows.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.29",
+      "alignmentFingerprint": "fc665fe9572a17332a2b3ac71d5d364e828814f178a3b1ad400c1016b95da9ff",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Matches striving for liberation from decay/death, knowing Brahman, Adhyātma, and Karma; footnote 14 on reading 'janma' is preserved.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.7.30",
+      "alignmentFingerprint": "de1b2145862e4ddb3643d3b4b08845d80d732a84df2d65922192a374da789db7",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately renders knowledge of Adhibhūta, Adhidaiva, and Adhiyajña, and knowing the Lord at the hour of death.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Chapter 7 translation exhibits complete 1-to-1 canonical coverage with no omissions or merged shlokas.",
+    "Mid-line poetic divisions (notably verses 7.8/7.9, 7.9/7.10, 7.10/7.11, 7.11/7.12, 7.12/7.13, 7.13/7.14, 7.20/7.21, 7.23/7.24, 7.26/7.27, 7.27/7.28) have been cleanly partitioned at syntactic and semantic boundaries.",
+    "Translator notes FN#12, FN#13, and FN#14 are accurately positioned on their respective canonical references."
+  ]
+}

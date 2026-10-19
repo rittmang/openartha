@@ -1,11 +1,13 @@
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
+import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { parseGutenbergTranslation } from './lib/parse-gutenberg-translation.mjs';
 import { alignArnoldTranslation } from './lib/align-arnold-translation.mjs';
 import { arnoldSeedSql } from './lib/arnold-sql.mjs';
+import { attachArnoldFirstReview } from './lib/arnold-review.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const corpusDir = path.join(root, 'corpus/gita-translations/edwin-arnold');
@@ -17,6 +19,12 @@ const parsed = parseGutenbergTranslation(raw.toString('utf8'));
 const canonical = JSON.parse(await readFile(path.join(root, 'corpus/gita/gita.json'), 'utf8'));
 const alignment = JSON.parse(await readFile(path.join(corpusDir, 'alignment.json'), 'utf8'));
 const aligned = alignArnoldTranslation(parsed, alignment, canonical, metadata);
+const reviewPath = path.join(root, 'research/arnold-first-review/first-review.json');
+const firstReview = existsSync(reviewPath) ? JSON.parse(await readFile(reviewPath, 'utf8')) : null;
+if (firstReview) {
+  assert.equal(firstReview.sourceSha256, metadata.source.sha256, 'Review must identify the exact source');
+  aligned.verses = attachArnoldFirstReview(aligned.verses, firstReview);
+}
 const translation = {
   schemaVersion: 1,
   ...metadata,
@@ -28,6 +36,7 @@ const translation = {
   notes: parsed.notes,
   verses: aligned.verses,
   paratext: aligned.paratext,
+  ...(firstReview ? { firstReview: { reviewerModel: firstReview.reviewerModel, providerModel: firstReview.providerModel, transport: firstReview.transport, status: firstReview.status, reviewedAt: firstReview.reviewedAt, counts: firstReview.counts, confidence: firstReview.confidence } } : {}),
 };
 const alignmentReport = {
   corpusVersion: metadata.corpusVersion,
@@ -40,6 +49,7 @@ const alignmentReport = {
   sharedSpans: aligned.groups.filter((group) => group.relation === 'shared-source-span'),
   chapters: parsed.chapters.map((chapter) => ({ chapter: chapter.chapter, canonicalPassages: aligned.verses.filter((verse) => verse.chapter === chapter.chapter).length, sourceCoverage: 'complete; each source character belongs to one alignment group or preserved paratext' })),
   groups: aligned.groups,
+  ...(firstReview ? { firstReview: translation.firstReview } : {}),
 };
 const rights = {
   translationId: metadata.id,
@@ -58,6 +68,7 @@ const files = [
   { name: 'rights.json', data: JSON.stringify(rights, null, 2) + '\n' },
   { name: 'verses.jsonl', data: aligned.verses.map((verse) => JSON.stringify(verse)).join('\n') + '\n' },
   { name: 'alignment-report.json', data: JSON.stringify(alignmentReport, null, 2) + '\n' },
+  ...(firstReview ? [{ name: 'first-review.json', data: JSON.stringify(firstReview, null, 2) + '\n' }] : []),
 ];
 const manifest = {
   schemaVersion: 1,
@@ -84,7 +95,8 @@ await writeFile(path.join(publicDir, 'checksums.sha256'), [
   `${sha256(manifestJson)}  manifest.json`,
   '',
 ].join('\n'));
-const migrationTag = '0043_seed_edwin_arnold_v100';
+// Keep the original seed immutable: local databases may already have applied it.
+const migrationTag = firstReview ? '0044_review_edwin_arnold_v100' : '0043_seed_edwin_arnold_v100';
 await writeFile(path.join(root, 'drizzle', `${migrationTag}.sql`), arnoldSeedSql(translation));
 const journalPath = path.join(root, 'drizzle/meta/_journal.json');
 const journal = JSON.parse(await readFile(journalPath, 'utf8'));

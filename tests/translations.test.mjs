@@ -5,6 +5,7 @@ import test from 'node:test';
 import { DatabaseSync } from 'node:sqlite';
 import { parseGutenbergTranslation } from '../scripts/lib/parse-gutenberg-translation.mjs';
 import { alignArnoldTranslation } from '../scripts/lib/align-arnold-translation.mjs';
+import { attachArnoldFirstReview } from '../scripts/lib/arnold-review.mjs';
 
 const corpusDir = new URL('../corpus/gita-translations/edwin-arnold/', import.meta.url);
 const translation = JSON.parse(await readFile(new URL('translation.json', corpusDir), 'utf8'));
@@ -32,13 +33,14 @@ test('Arnold source retains its identity, original bytes, credits, and full lice
   delete metadata.notes;
   delete metadata.verses;
   delete metadata.paratext;
+  delete metadata.firstReview;
   assert.deepEqual(metadata, sourceMetadata);
 });
 
 test('all 18 Arnold chapters match their exact source lines and preserve colophons', () => {
   assert.equal(translation.granularity, 'verse');
   assert.match(translation.alignmentStatus, /Verse-aligned/);
-  assert.match(translation.reviewStatus, /independent review pending/);
+  assert.match(translation.reviewStatus, translation.firstReview ? /second review pending/ : /independent review pending/);
   assert.deepEqual(translation.chapters.map((chapter) => chapter.chapter), Array.from({ length: 18 }, (_, index) => index + 1));
   assert.equal(new Set(translation.chapters.map((chapter) => chapter.id)).size, 18);
   const lines = text.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n').split('\n');
@@ -117,7 +119,10 @@ test('all 700 canonical verse records bind their exact source spans and actual r
   assert.deepEqual(jsonl, translation.verses);
   const parsed = parseGutenbergTranslation(text);
   const aligned = alignArnoldTranslation(parsed, alignment, canonical, sourceMetadata);
-  assert.deepEqual(aligned.verses, translation.verses);
+  if (translation.firstReview) {
+    const firstReview = JSON.parse(await readFile(new URL('../research/arnold-first-review/first-review.json', import.meta.url), 'utf8'));
+    assert.deepEqual(attachArnoldFirstReview(aligned.verses, firstReview), translation.verses);
+  } else assert.deepEqual(aligned.verses, translation.verses);
   assert.deepEqual(aligned.paratext, translation.paratext);
 });
 
@@ -182,8 +187,10 @@ test('D1 migration registers Arnold in the existing schema and FTS without chang
     db.exec("INSERT INTO commentary_sources VALUES ('control','Control source','https://example.org','pinned','Control rights','https://example.org/license','control-v1'); INSERT INTO commentary_authors VALUES ('control','control','Control author','[\"et\"]','[\"et\"]','full-text-allowed','Control rights'); INSERT INTO commentary_editions VALUES ('control-et','control','control','et','en','Latn','translation',1,'full-text-allowed','control-v1'); INSERT INTO commentary_units VALUES ('control-1','control-et','gita.1.1',1,1,'passage-commentary','same-number','pending','control','raw','display'); INSERT INTO commentary_unit_chunks VALUES ('control-1',0,'Unchanged control reading'); INSERT INTO commentary_fts VALUES ('control-1','Control author','gita.1.1','en','translation','Unchanged control reading');");
     const journal = JSON.parse(await readFile(new URL('../drizzle/meta/_journal.json', import.meta.url), 'utf8'));
     assert.equal(new Set(journal.entries.map((entry) => entry.tag.slice(0, 4))).size, journal.entries.length, 'Migration ordinals must be unique');
-    assert.equal(journal.entries.at(-1).tag, '0043_seed_edwin_arnold_v100');
-    const seed = await readFile(new URL('../drizzle/0043_seed_edwin_arnold_v100.sql', import.meta.url), 'utf8');
+    const migrationTag = translation.firstReview ? '0044_review_edwin_arnold_v100' : '0043_seed_edwin_arnold_v100';
+    assert.equal(journal.entries.at(-1).tag, migrationTag);
+    db.exec(await readFile(new URL('../drizzle/0043_seed_edwin_arnold_v100.sql', import.meta.url), 'utf8'));
+    const seed = await readFile(new URL(`../drizzle/${migrationTag}.sql`, import.meta.url), 'utf8');
     db.exec(seed);
     db.exec(seed);
     assert.equal(db.prepare("SELECT count(*) AS total FROM commentary_units WHERE edition_id = 'edwin-arnold-et' AND passage_id IS NOT NULL").get().total, 700);
@@ -191,8 +198,13 @@ test('D1 migration registers Arnold in the existing schema and FTS without chang
     assert.equal(db.prepare("SELECT content FROM commentary_unit_chunks WHERE unit_id = 'control-1'").get().content, 'Unchanged control reading');
     assert.equal(db.prepare("SELECT count(*) AS total FROM commentary_fts WHERE author = 'Control author'").get().total, 1);
     assert.equal(db.prepare("SELECT license FROM commentary_sources WHERE id = 'gutenberg-2388'").get().license, 'Public domain in the USA');
+    if (translation.firstReview) assert.match(db.prepare("SELECT rights_note FROM commentary_authors WHERE id = 'edwin-arnold'").get().rights_note, /Gemini 3\.8 Flash/);
     const lookup = db.prepare("SELECT content FROM commentary_unit_chunks WHERE unit_id = ?");
-    for (const verse of translation.verses) assert.equal(lookup.get(verse.id).content, verse.content);
+    const status = db.prepare('SELECT alignment_status FROM commentary_units WHERE id = ?');
+    for (const verse of translation.verses) {
+      assert.equal(lookup.get(verse.id).content, verse.content);
+      assert.equal(status.get(verse.id).alignment_status, verse.alignmentStatus);
+    }
     const hits = db.prepare("SELECT canonical_ref FROM commentary_fts WHERE commentary_fts MATCH ?").all('"right deeds"');
     assert.ok(hits.some((hit) => hit.canonical_ref === 'gita.2.47'));
     assert.deepEqual(db.prepare('PRAGMA foreign_key_check').all(), []);

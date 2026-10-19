@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 11,
+  "inputSha256": "64093ec5abcf2c9968526c05921dfc73301c1213ae5f1b159f67ebe9fbdc7ccf",
+  "reviews": [
+    {
+      "canonicalRef": "gita.11.1",
+      "alignmentFingerprint": "36322393023af3c72365fae6fde89bcfcae3c357fc0d47bc8a28cad7ee798a42",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents Arjuna's confession that his delusion is dispelled by hearing the supreme secret of Adhyatman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.2",
+      "alignmentFingerprint": "e533221b65bd3a4e4c3d9fff80faaace770c3d51c7a63ad0e1f2e56605e4aeb9",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches knowing the origin and dissolution of beings and Krishna's inexhaustible greatness; footnote 21 preserved.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.3",
+      "alignmentFingerprint": "3dca7004b118f789f704d30eb6c4783205f5e2b9e3ee820ead26a0f36f9eae52",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders Arjuna longing to see the Sovereign Lord's divine Form as described.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.4",
+      "alignmentFingerprint": "8e82ec16a213ad390148fdfa189b8eac69a094ef769559e219695d4d3e0628e1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures the petition that if it be possible for mortal sight to bear, the Lord of Yoga reveal His imperishable Self.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.5",
+      "alignmentFingerprint": "04f28f6cb913a22e40b469e67cedd61b78882f1065773f8c45653f2a7f0fdb42",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately renders Krishna bidding Arjuna behold hundreds and thousands of divine, multiform shapes and hues.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.6",
+      "alignmentFingerprint": "2cbd0d0555f865a54430f73c9884c4b18540305bb7f06f13d50e3bb3f8439797",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly enumerates Adityas, Vasus, Rudras, the twin Asvins, Maruts, and unnumbered wonders never seen before.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.7",
+      "alignmentFingerprint": "3584b7b8eb0958229c8b35cbe267e5a1419c60b210a13d58d75ec811c4f38c42",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders beholding the entire universe of moving and unmoving things concentrated in one within Krishna's body.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.8",
+      "alignmentFingerprint": "a574de3ebe7e61f108035b3bd7d0a17ba46a6b5eb64a81590558c3eb2583851b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches giving the divine eye (divyaṃ cakṣuḥ) since mortal eyes cannot behold the lordly Yoga.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.9",
+      "alignmentFingerprint": "10c83904ef67307387b0b67311f3387b11107df8be2e1d4a5fcdee06f202e39b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents Sanjaya narrating how Hari, the Great Lord of Yoga, revealed His supreme divine form.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.10",
+      "alignmentFingerprint": "825ff83aa99f6ac86684659cb235037eec3b694b0058598a6d0e716e499208e5",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Faithfully renders the myriad eyes, mouths, wonderful visions, celestial ornaments, and upraised heavenly weapons.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.11",
+      "alignmentFingerprint": "2f630b91f9bb1a5d2f980793e40bcb63120acad62b1a5bf097d49d48c2e6ae42",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Matches divine garlands, lustrous robes, celestial perfumes, and all-facing infinite magnificence.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.12",
+      "alignmentFingerprint": "202422268c43588cbd60d21023b6f642417d6b86fe5fd6b0cd5ef9676292b8da",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately captures the famous simile comparing the cosmic effulgence to a thousand suns blazing forth simultaneously in the sky.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.13",
+      "alignmentFingerprint": "7e60abdc1ff2ee3da8e068674d363dcdb69ba4cc46c1d1931a89dc89de9a2d5d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches Pandava seeing the manifold diversity of the universe united in the one body of the God of gods.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.14",
+      "alignmentFingerprint": "1f5cab9d61db7386b6a8b29f92e2e191f1b88e7ffc88205e4e6a6cd407a7e6c4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures Arjuna filled with wonder, hairs standing on end, bowing with joined palms in adoration.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.15",
+      "alignmentFingerprint": "4412b8bb5051f1af61dde4150edc9fffc562840b913616c573fd6a34f3023113",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately renders Arjuna seeing all the devas, diverse living beings, Brahma on His lotus-seat, rishis, and divine serpents.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.16",
+      "alignmentFingerprint": "b7b018d7bd1db3422d0effdcdc8e452c11321eb2a77e5a0ea6d0e8ddd16a9da1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders the countless arms, bellies, faces, and eyes on every side, seeing no beginning, middle, or end.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.17",
+      "alignmentFingerprint": "44a542811351ce947cc58c34e2a89e70d06330868b72f27998f8f83605724100",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches the crown (anadem/diadem), mace/club, discus, and blinding radiance blazing like fire and sun.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.18",
+      "alignmentFingerprint": "999b0b8a177b2a559bc46f433744f550b52877b782ea18b1c29bbaa984149edd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Corresponds to the supreme Imperishable, treasure-house of the cosmos, guardian of eternal dharma, and everlasting Purusha.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.19",
+      "alignmentFingerprint": "8c3379a6e60f734125541e2208ace7e11fc48bfad8c7ab40fb3a903fa2480cbf",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately renders without beginning/middle/end, sun and moon as eyes, blazing fire as mouth, and warming the universe with splendour.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.20",
+      "alignmentFingerprint": "f59537c99efb0d81f8aa995dacc0b3c0988a85141cd156094602de31e32f44ae",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches pervading space between heaven and earth and all directions, causing the three worlds to tremble before this terrible form.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.21",
+      "alignmentFingerprint": "0323211688eebbbfef43cde0cec7c0e95f5db78c6da96f8461cdbc303bb5bee3",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Faithfully renders hosts of gods entering in awe with joined palms, and rishis and siddhas chanting 'Hail' in glorious hymns.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.22",
+      "alignmentFingerprint": "5fe528f17e2c3ab0743276a93cca91c3e358ecd85e829aaf29fabf3ea7a7ce6e",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Accurately lists Rudras, Adityas, Vasus, Sadhyas, Viswas, Ushmapas, Maruts, Asvins, Gandharvas, and Asuras gazing in fear; footnote 22 preserved.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.23",
+      "alignmentFingerprint": "ad758217315346c31ec96e78b7791652c2f58372e0812275c84c95a9187aac8e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches the stupendous form with myriad mouths, eyes, arms, thighs, bellies, and frightful tusks shaking the worlds and Arjuna.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.24",
+      "alignmentFingerprint": "c2f0d4030c8e4bacea2f8ba1c9f76791a69e0cb284595c337b7edaba80f62028",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures the form touching heaven, blazing with many hues, open mouths, and huge fiery eyes shattering Arjuna's strength and peace.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.25",
+      "alignmentFingerprint": "1ffe51aa1e14734fa39f88dc51bf99fcda40a9eacd7753f0994f429bf7f4a9fb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents mouths terrible with teeth resembling dissolution fires (kālānala), losing sense of direction, begging mercy.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.26",
+      "alignmentFingerprint": "2118f54a441f7abfd606ce0115a7b2b69a7beeb67821af630193ba0702738995",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Shared two-verse span with 11.27 verified; Arnold interweaves the enumerated warriors (Dhritarashtra's sons, Bhishma, Drona, Karna) with their destruction in the jaws.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.27",
+      "alignmentFingerprint": "33dcdb55755ac072681fdd160b9b48b76aabe2d5f1676a1e84503644bbfab600",
+      "status": "verified",
+      "confidence": 0.96,
+      "notes": "Shared two-verse span with 11.26 verified; correctly captures warriors caught between the teeth and ground into dust in the wide gorge.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.28",
+      "alignmentFingerprint": "9fc097d8f0cd95bb4855a912ce4fbbf30f9d38097ba84584d148efb01e928172",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately preserves the simile of rivers rushing headlong into the sea, matching the heroes rushing into the flaming mouths.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.29",
+      "alignmentFingerprint": "4a3a76c6fcb4815083bcb551453e34cf2daa6e929bdba22b1d8988fe51774707",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Preserves the simile of moths fluttering toward flame to their doom, matching multitudes rushing blindly to their destruction.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.30",
+      "alignmentFingerprint": "e2d2d725290cda2b5445011564f81253e593453c241a87606dc18c19b74f2fef",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly renders licking and devouring all worlds on every side with flaming jaws and filling the earth with burning dread.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.31",
+      "alignmentFingerprint": "1448a9e1ef2c5d38f69378290567efbc364c1c1df7635e2401b9794995e41fab",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures Arjuna imploring who this fierce deity is, offering salutations with Namostu Te, Devavara! Prasid! [FN#23].",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.32",
+      "alignmentFingerprint": "713627d84ab562b63b028f111c023b352cfd6a7fb2e2993d6f7e008bb5ee9b23",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders Krishna declaring Himself as all-destroying Time (kālo'smi), doomed warriors doomed to fall even without Arjuna.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.33",
+      "alignmentFingerprint": "b7615b3c84c67c7af9996500372e0fd8f19fff0f364b61dae2365d5870407372",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents the call to arise, win fame, and conquer, being merely an instrument (nimittamātraṃ bhava) for what is already ordained.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.34",
+      "alignmentFingerprint": "5a89a0304f5d6ac880ddac36501aa7ae5d64e988b29e40ee1d86135efedfdeb2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly names Drona, Bhishma, Jayadratha, and Karna as already slain by the Lord, commanding Arjuna to fight without distress.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.35",
+      "alignmentFingerprint": "d86e8771b9950351933df984700eb72f3396440776605d48eb82282b16f16030",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches Sanjaya describing Arjuna trembling, clasping lifted palms, prostrating, and speaking in choked, fearful accents.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.36",
+      "alignmentFingerprint": "373bc64d1fe38544e30e5e6532ae2f8bb5aca501ccfd5a075c08a1d1ea3330c5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately reflects the world delighting in Krishna's glory, rakshasas fleeing in fear to all quarters, and siddhas bowing.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.37",
+      "alignmentFingerprint": "b43572999de1d9cd5186d54190ff5e86da0337c281b088ac6c912b3124cfc4d6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches acknowledging the Lord as greater than Brahma, first Creator, infinite God of gods, being and non-being.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.38",
+      "alignmentFingerprint": "20491b4ca751f10d6d7cbe32dbd3170a829d6d5ee15de7e2067da599d8b4e14d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders the Primal God, ancient Purusha, supreme treasure-refuge, Knower, Knowable, and pervasive Infinite Form.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.39",
+      "alignmentFingerprint": "a219184060ec1931586a4076c4bb2db1ab717bd2ac23c0115574502e195330c2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately maps Vayu [FN#24], Yama, Agni, Varuna, Moon, Prajapati, Great-grandfather, offering thousandfold salutations.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.40",
+      "alignmentFingerprint": "a659452fa9f7db3188f25eb0b71f65854efcbac781f76dfa8d7ff798ce2f922f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly renders salutations before, behind, and on all sides, acknowledging infinite prowess pervadeth all.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.41",
+      "alignmentFingerprint": "ca0909e654933ae3245aacfabaec0bdfeb8cf834f7b1ab5d536d1f9917344deb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures Arjuna's apology for addressing Krishna familiarly as friend, Yadava, or comrade through carelessness or affection.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.42",
+      "alignmentFingerprint": "a31050be23adf6f41b2bd851d7c677c978a56e29d4bad27d3feb216453850444",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches seeking forgiveness for any discourtesy shown in jest, while resting, sitting, eating, alone, or in company.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.43",
+      "alignmentFingerprint": "e9235d7dab9fc1f93c1a56fc5276f5a69caa9eead1aae5ea62ac22eae9986c5c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly corresponds to Father of all worlds moving and unmoving, greatest Guru, unequalled and peerless in power.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.44",
+      "alignmentFingerprint": "042ee6a9dfb65ec92d07d30f80b7566a6a0b9831922bc5da779ed9dab944dc85",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders prostrating and begging grace as father to son, friend to friend, and lover to beloved.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.45",
+      "alignmentFingerprint": "132b03f145960c67a27e758f69c4231cfdd695a38c2045c9c09dea1710f8ca61",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures rejoicing at seeing the unseen yet shaken by dread, pleading for the previous familiar divine form to be shown.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.46",
+      "alignmentFingerprint": "f7b10b682118f844649249d148f4d7216165041703026d137a91ed4d8cc6246b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches desiring to behold the crown, mace, and discus in hand, assuming once more the four-armed charioteer guise.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.47",
+      "alignmentFingerprint": "b824beacbd6d7cb35a1e2296e3f8e757c86017a9785ac193f4e6b0f64131db86",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents Krishna stating this supreme, luminous, cosmic form was graciously revealed through His own Yoga to Arjuna alone.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.48",
+      "alignmentFingerprint": "767d0407216e986445cc77fa066e684a6170eb75b49519a6681ead3a280cb539",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches that neither Vedic study, sacrifices, alms, rituals, nor severe penances enable any mortal to see this form.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.49",
+      "alignmentFingerprint": "0219fe0fa158e7878d4c6ff1247da1ea50de039b593d81e392b4010fbd1380bd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders Krishna bidding Arjuna put aside fear and bewilderment, looking once more upon His accustomed form.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.50",
+      "alignmentFingerprint": "eea34e81041da36a58bf5bccff7738b5bd39e9ece3b1e40e3c23733e25e91c81",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches Sanjaya recounting Vasudeva reassuming His gentle human form to comfort the terrified prince.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.51",
+      "alignmentFingerprint": "7a1a8c19236cc82eda25f1ecedc82322018752d3819b9c60da00ae188c806409",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents Arjuna regaining calm and returning to his natural composure upon seeing Krishna's friendly human guise.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.52",
+      "alignmentFingerprint": "56741aed6478350056808ce6de84addef5a9b64079c8cdff5a945b7fab30896e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Captures the declaration that this form is very hard to see, continually desired and sought even by the gods.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.53",
+      "alignmentFingerprint": "f526cdeac86cba6863cb85f8a1f4c85e0f320158bde601bbad77a432f36a5fa4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Reiterates that neither Vedas, penance, gifts, nor sacrifices can grant vision of this form as witnessed by Arjuna.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.54",
+      "alignmentFingerprint": "7baddc8a46d6c7579e8e71c949a6581f157427589219ec6f17e36852245aa5e5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches that only by single-minded devotion (bhaktyā tvananyayā) can the Lord be truly known, seen, and entered into.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.11.55",
+      "alignmentFingerprint": "db4f82be0b6f2a4e47305da997f6b4c35f01cdc0a9a91eb853b43a01d6ae2d8e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately renders the essential closing verse: he who works for Krishna, devoted, free from attachment and malice toward all, reaches Him.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Chapter 11 contains 55 canonical verses; verses 11.26 and 11.27 form a verified shared two-verse span where Arnold combines the naming of the warriors with their horrifying destruction in the cosmic jaws.",
+    "The chapter transitions across multiple lyric metrical forms (including rhymed stanzas for Sanjaya's description and Arjuna's awe-filled hymn) without losing semantic fidelity or verse boundaries.",
+    "Footnotes [FN#21], [FN#22], [FN#23], and [FN#24] are properly preserved and positioned."
+  ]
+}

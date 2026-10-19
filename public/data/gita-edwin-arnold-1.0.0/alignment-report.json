@@ -12513,5 +12513,23 @@
       ],
       "note": null
     }
-  ]
+  ],
+  "firstReview": {
+    "reviewerModel": "google/gemini-3.8-flash",
+    "providerModel": "openrouter/google/gemini-3.8-flash",
+    "transport": "opencode",
+    "status": "verified",
+    "reviewedAt": "2026-10-19T04:01:41.555Z",
+    "counts": {
+      "verified": 700,
+      "needs-correction": 0,
+      "uncertain": 0
+    },
+    "confidence": {
+      "mean": 0.9778714285714379,
+      "minimum": 0.9,
+      "maximum": 1,
+      "interpretation": "Reviewer self-assessment of alignment confidence; not a statistically calibrated probability"
+    }
+  }
 }

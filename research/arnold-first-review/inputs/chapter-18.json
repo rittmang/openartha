@@ -1,0 +1,3257 @@
+{
+  "schemaVersion": 1,
+  "workId": "gita",
+  "translationId": "edwin-arnold",
+  "chapter": 18,
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "numbering": "Standard 700-verse canon; Chapter 13 has 34 verses and excludes Arjuna's alternate opening question.",
+  "sourceChapterWithLineNumbers": "1:   Arjuna.\n2:   Fain would I better know, Thou Glorious One!\n3:   The very truth--Heart's Lord!--of Sannyas,\n4:   Abstention; and  enunciation, Lord!\n5:   Tyaga; and what separates these twain!\n6: \n7:   Krishna.\n8:   The poets rightly teach that Sannyas\n9:   Is the foregoing of all acts which spring\n10:   Out of desire; and their wisest say\n11:   Tyaga is renouncing fruit of acts.\n12: \n13:   There be among the saints some who have held\n14:   All action sinful, and to be renounced;\n15:   And some who answer, \"Nay! the goodly acts--\n16:   As worship, penance, alms--must be performed!\"\n17:   Hear now My sentence, Best of Bharatas!\n18: \n19:   'Tis well set forth, O Chaser of thy Foes!\n20:   Renunciation is of threefold form,\n21:   And Worship, Penance, Alms, not to be stayed;\n22:   Nay, to be gladly done; for all those three\n23:   Are purifying waters for true souls!\n24: \n25:   Yet must be practised even those high works\n26:   In yielding up attachment, and all fruit\n27:   Produced by works. This is My judgment, Prince!\n28:   This My insuperable and fixed decree!\n29: \n30:   Abstaining from a work by right prescribed\n31:   Never is meet! So to abstain doth spring\n32:   From \"Darkness,\" and Delusion teacheth it.\n33:   Abstaining from a work grievous to flesh,\n34:   When one saith \"'Tis unpleasing!\" this is null!\n35:   Such an one acts from \"passion;\" nought of gain\n36:   Wins his Renunciation! But, Arjun!\n37:   Abstaining from attachment to the work,\n38:   Abstaining from rewardment in the work,\n39:   While yet one doeth it full faithfully,\n40:   Saying, \"Tis right to do!\" that is \"true \" act\n41:   And abstinence! Who doeth duties so,\n42:   Unvexed if his work fail, if it succeed\n43:   Unflattered, in his own heart justified,\n44:   Quit of debates and doubts, his is \"true\" act:\n45:   For, being in the body, none may stand\n46:   Wholly aloof from act; yet, who abstains\n47:   From profit of his acts is abstinent.\n48: \n49:   The fruit of labours, in the lives to come,\n50:   Is threefold for all men,--Desirable,\n51:   And Undesirable, and mixed of both;\n52:   But no fruit is at all where no work was.\n53: \n54:   Hear from me, Long-armed Lord! the makings five\n55:   Which go to every act, in Sankhya taught\n56:   As necessary. First the force; and then\n57:   The agent; next, the various instruments;\n58:   Fourth, the especial effort; fifth, the God.\n59:   What work soever any mortal doth\n60:   Of body, mind, or speech, evil or good,\n61:   By these five doth he that. Which being thus,\n62:   Whoso, for lack of knowledge, seeth himself\n63:   As the sole actor, knoweth nought at all\n64:   And seeth nought. Therefore, I say, if one--\n65:   Holding aloof from self--with unstained mind\n66:   Should slay all yonder host, being bid to slay,\n67:   He doth not slay; he is not bound thereby!\n68: \n69:   Knowledge, the thing known, and the mind which knows,\n70:   These make the threefold starting-ground of act.\n71:   The act, the actor, and the instrument,\n72:   These make the threefold total of the deed.\n73:   But knowledge, agent, act, are differenced\n74:   By three dividing qualities. Hear now\n75:   Which be the qualities dividing them.\n76: \n77:   There is \"true\" Knowledge. Learn thou it is this:\n78:   To see one changeless Life in all the Lives,\n79:   And in the Separate, One Inseparable.\n80:   There is imperfect Knowledge: that which sees\n81:   The separate existences apart,\n82:   And, being separated, holds them real.\n83:   There is false Knowledge: that which blindly clings\n84:   To one as if 'twere all, seeking no Cause,\n85:   Deprived of light, narrow, and dull, and \"dark.\"\n86: \n87:   There is \"right\" Action: that which being enjoined--\n88:   Is wrought without attachment, passionlessly,\n89:   For duty, not for love, nor hate, nor gain.\n90:   There is \"vain\" Action: that which men pursue\n91:   Aching to satisfy desires, impelled\n92:   By sense of self, with all-absorbing stress:\n93:   This is of Rajas--passionate and vain.\n94:   There is \"dark\" Action: when one doth a thing\n95:   Heedless of issues, heedless of the hurt\n96:   Or wrong for others, heedless if he harm\n97:   His own soul--'tis of Tamas, black and bad!\n98: \n99:   There is the \"rightful\"doer. He who acts\n100:   Free from self-seeking, humble, resolute,\n101:   Steadfast, in good or evil hap the same,\n102:   Content to do aright-he \"truly\" acts.\n103:   There is th' \"impassioned\" doer. He that works\n104:   From impulse, seeking profit, rude and bold\n105:   To overcome, unchastened; slave by turns\n106:   Of sorrow and of joy: of Rajas he!\n107:   And there be evil doers; loose of heart,\n108:   Low-minded, stubborn, fraudulent, remiss,\n109:   Dull, slow, despondent--children of the \"dark.\"\n110: \n111:   Hear, too, of Intellect and Steadfastness\n112:   The threefold separation, Conqueror-Prince!\n113:   How these are set apart by Qualities.\n114: \n115:   Good is the Intellect which comprehends\n116:   The coming forth and going back of life,\n117:   What must be done, and what must not be done,\n118:   What should be feared, and what should not be feared,\n119:   What binds and what emancipates the soul:\n120:   That is of Sattwan, Prince! of \"soothfastness.\"\n121:   Marred is the Intellect which, knowing right\n122:   And knowing wrong, and what is well to do\n123:   And what must not be done, yet understands\n124:   Nought with firm mind, nor as the calm truth is:\n125:   This is of Rajas, Prince! and \"passionate!\"\n126:   Evil is Intellect which, wrapped in gloom,\n127:   Looks upon wrong as right, and sees all things\n128:   Contrariwise of Truth. O Pritha's Son!\n129:   That is of Tamas, \"dark\" and desperate!\n130: \n131:   Good is the steadfastness whereby a man\n132:   Masters his beats of heart, his very breath\n133:   Of life, the action of his senses; fixed\n134:   In never-shaken faith and piety:\n135:   That is of Sattwan, Prince! \"soothfast\" and fair!\n136:   Stained is the steadfastness whereby a man\n137:   Holds to his duty, purpose, effort, end,\n138:   For life's sake, and the love of goods to gain,\n139:   Arjuna! 'tis of Rajas, passion-stamped!\n140:   Sad is the steadfastness wherewith the fool\n141:   Cleaves to his sloth, his sorrow, and his fears,\n142:   His folly and despair. This--Pritha's Son!--\n143:   Is born of Tamas, \"dark\" and miserable!\n144: \n145: \n146:   Hear further, Chief of Bharatas! from Me\n147:   The threefold kinds of Pleasure which there be.\n148: \n149:   Good Pleasure is the pleasure that endures,\n150:   Banishing pain for aye; bitter at first\n151:   As poison to the soul, but afterward\n152:   Sweet as the taste of Amrit. Drink of that!\n153:   It springeth in the Spirit's deep content.\n154:   And painful Pleasure springeth from the bond\n155:   Between the senses and the sense-world. Sweet\n156:   As Amrit is its first taste, but its last\n157:   Bitter as poison. 'Tis of Rajas, Prince!\n158:   And foul and \"dark\" the Pleasure is which springs\n159:   From sloth and sin and foolishness; at first\n160:   And at the last, and all the way of life\n161:   The soul bewildering. 'Tis of Tamas, Prince!\n162: \n163:   For nothing lives on earth, nor 'midst the gods\n164:   In utmost heaven, but hath its being bound\n165:   With these three Qualities, by Nature framed.\n166: \n167:   The work of Brahmans, Kshatriyas, Vaisyas,\n168:   And Sudras, O thou Slayer of thy Foes!\n169:   Is fixed by reason of the Qualities\n170:   Planted in each:\n171: \n172:   A Brahman's virtues, Prince!\n173:   Born of his nature, are serenity,\n174:   Self-mastery, religion, purity,\n175:   Patience, uprightness, learning, and to know\n176:   The truth of things which be. A Kshatriya's pride,\n177:   Born of his nature, lives in valour, fire,\n178:   Constancy, skilfulness, spirit in fight,\n179:   And open-handedness and noble mien,\n180:   As of a lord of men. A Vaisya's task,\n181:   Born with his nature, is to till the ground,\n182:   Tend cattle, venture trade. A Sudra's state,\n183:   Suiting his nature, is to minister.\n184: \n185:   Whoso performeth--diligent, content--\n186:   The work allotted him, whate'er it be,\n187:   Lays hold of perfectness! Hear how a man\n188:   Findeth perfection, being so content:\n189:   He findeth it through worship--wrought by work--\n190:   Of Him that is the Source of all which lives,\n191:   Of HIM by Whom the universe was stretched.\n192: \n193:   Better thine own work is, though done with fault,\n194:   Than doing others' work, ev'n excellently.\n195:   He shall not fall in sin who fronts the task\n196:   Set him by Nature's hand! Let no man leave\n197:   His natural duty, Prince! though it bear blame!\n198:   For every work hath blame, as every flame\n199:   Is wrapped in smoke! Only that man attains\n200:   Perfect surcease of work whose work was wrought\n201:   With mind unfettered, soul wholly subdued,\n202:   Desires for ever dead, results renounced.\n203: \n204:   Learn from me, Son of Kunti! also this,\n205:   How one, attaining perfect peace, attains\n206:   BRAHM, the supreme, the highest height of all!\n207: \n208:   Devoted--with a heart grown pure, restrained\n209:   In lordly self-control, forgoing wiles\n210:   Of song and senses, freed from love and hate,\n211:   Dwelling 'mid solitudes, in diet spare,\n212:   With body, speech, and will tamed to obey,\n213:   Ever to holy meditation vowed,\n214:   From passions liberate, quit of the Self,\n215:   Of arrogance, impatience, anger, pride;\n216:   Freed from surroundings, quiet, lacking nought--\n217:   Such an one grows to oneness with the BRAHM;\n218:   Such an one, growing one with BRAHM, serene,\n219:   Sorrows no more, desires no more; his soul,\n220:   Equally loving all that lives, loves well\n221:   Me, Who have made them, and attains to Me.\n222:   By this same love and worship doth he know\n223:   Me as I am, how high and wonderful,\n224:   And knowing, straightway enters into Me.\n225:   And whatsoever deeds he doeth--fixed\n226:   In Me, as in his refuge--he hath won\n227:   For ever and for ever by My grace\n228:   Th' Eternal Rest! So win thou! In thy thoughts\n229:   Do all thou dost for Me! Renounce for Me!\n230:   Sacrifice heart and mind and will to Me!\n231:   Live in the faith of Me! In faith of Me\n232:   All dangers thou shalt vanquish, by My grace;\n233:   But, trusting to thyself and heeding not,\n234:   Thou can'st but perish! If this day thou say'st,\n235:   Relying on thyself, \"I will not fight!\"\n236:   Vain will the purpose prove! thy qualities\n237:   Would spur thee to the war. What thou dost shun,\n238:   Misled by fair illusions, thou wouldst seek\n239:   Against thy will, when the task comes to thee\n240:   Waking the promptings in thy nature set.\n241:   There lives a Master in the hearts of men\n242:   Maketh their deeds, by subtle  pulling--strings,\n243:   Dance to what tune HE will. With all thy soul\n244:   Trust Him, and take Him for thy succour, Prince!\n245:   So--only so, Arjuna!--shalt thou gain--\n246:   By grace of Him--the uttermost repose,\n247:   The Eternal Place!\n248: \n249:   Thus hath been opened thee\n250:   This Truth of Truths, the Mystery more hid\n251:   Than any secret mystery. Meditate!\n252:   And--as thou wilt--then act!\n253: \n254:   Nay! but once more\n255:   Take My last word, My utmost meaning have!\n256:   Precious thou art to Me; right well-beloved!\n257:   Listen! I tell thee for thy comfort this.\n258:   Give Me thy heart! adore Me! serve Me! cling\n259:   In faith and love and reverence to Me!\n260:   So shalt thou come to Me! I promise true,\n261:   For thou art sweet to Me!\n262: \n263:   And let go those--\n264:   Rites and writ duties! Fly to Me alone!\n265:   Make Me thy single refuge! I will free\n266:   Thy soul from all its  sins! Be of good cheer!\n267: \n268:   [Hide, the holy Krishna saith,\n269:   This from him that hath no faith,\n270:   Him that worships not, nor seeks\n271:   Wisdom's teaching when she speaks:\n272:   Hide it from all men who mock;\n273:   But, wherever, 'mid the flock\n274:   Of My lovers, one shall teach\n275:   This  divinest, wisest, speech--\n276:   Teaching in the faith to bring\n277:   Truth to them, and offering\n278:   Of all honour unto Me--\n279:   Unto Brahma cometh he!\n280:   Nay, and nowhere shall ye find\n281:   Any man of all mankind\n282:   Doing dearer deed for Me;\n283:   Nor shall any dearer be\n284:   In My earth. Yea, furthermore,\n285:   Whoso reads this converse o'er,\n286:   Held by Us upon the plain,\n287:   Pondering piously and fain,\n288:   He hath paid Me sacrifice!\n289:   (Krishna speaketh in this wise!)\n290:   Yea, and whoso, full of faith,\n291:   Heareth wisely what it saith,\n292:   Heareth meekly,--when he dies,\n293:   Surely shall his spirit rise\n294:   To those regions where the Blest,\n295:   Free of flesh, in joyance rest.]\n296: \n297:   Hath this been heard by thee, O Indian Prince!\n298:   With mind intent? hath all the ignorance--\n299:   Which bred thy trouble--vanished, My Arjun?\n300: \n301:   Arjuna.\n302:   Trouble and ignorance are gone! the Light\n303:   Hath come unto me, by Thy favour, Lord!\n304:   Now am I fixed! my doubt is fled away!\n305:   According to Thy word, so will I do!\n306: \n307:   Sanjaya.\n308:   Thus gathered I the gracious speech of Krishna, O my King!\n309:   Thus have I told, with heart a-thrill, this wise and wondrous thing\n310:   By great Vyasa's learning writ, how Krishna's self made known\n311:   The Yoga, being Yoga's Lord. So is the high truth shown!\n312:   And aye, when I remember, O Lord my King, again\n313:   Arjuna and the God in talk, and all this holy strain,\n314:   Great is my gladness: when I muse that splendour, passing speech,\n315:   Of Hari, visible and plain, there is no tongue to reach\n316:   My marvel and my love and bliss. O Archer-Prince! all hail!\n317:   O Krishna, Lord of Yoga! surely there shall not fail\n318:   Blessing, and victory, and power, for Thy most mighty sake,\n319:   Where this song comes of Arjun, and how with God he spake.\n320: \n321:   HERE ENDS, WITH CHAPTER XVIII.,\n322:   Entitled \"Mokshasanyasayog,\"\n323:   Or \"The Book of Religion by Deliverance and Renunciation,\"\n324:   THE BHAGAVAD-GITA.",
+  "translatorNotes": [
+    {
+      "number": 1,
+      "marker": "[FN#1]",
+      "text": "Some repetitionary lines are here omitted."
+    },
+    {
+      "number": 2,
+      "marker": "[FN#2]",
+      "text": "Technical phrases of Vedic religion."
+    },
+    {
+      "number": 3,
+      "marker": "[FN#3]",
+      "text": "The whole of this passage is highly involved and difficult to\nrender."
+    },
+    {
+      "number": 4,
+      "marker": "[FN#4]",
+      "text": "I feel convinced sankhyanan and yoginan must be transposed\nhere in sense."
+    },
+    {
+      "number": 5,
+      "marker": "[FN#5]",
+      "text": "I am doubtful of accuracy here."
+    },
+    {
+      "number": 6,
+      "marker": "[FN#6]",
+      "text": "A name of the sun."
+    },
+    {
+      "number": 7,
+      "marker": "[FN#7]",
+      "text": "Without desire of fruit."
+    },
+    {
+      "number": 8,
+      "marker": "[FN#8]",
+      "text": "That is,\"joy and sorrow, success and failure, heat and cold,\"&c."
+    },
+    {
+      "number": 9,
+      "marker": "[FN#9]",
+      "text": "i.e., the body."
+    },
+    {
+      "number": 10,
+      "marker": "[FN#10]",
+      "text": "The Sanskrit has this play on the double meaning of Atman."
+    },
+    {
+      "number": 11,
+      "marker": "[FN#11]",
+      "text": "So in original."
+    },
+    {
+      "number": 12,
+      "marker": "[FN#12]",
+      "text": "Beings of low and devilish nature."
+    },
+    {
+      "number": 13,
+      "marker": "[FN#13]",
+      "text": "Krishna."
+    },
+    {
+      "number": 14,
+      "marker": "[FN#14]",
+      "text": "I read here janma, \"birth;\" not jara,\"age\""
+    },
+    {
+      "number": 15,
+      "marker": "[FN#15]",
+      "text": "I have discarded ten lines of Sanskrit text here as an\nundoubted interpolation by some Vedantist"
+    },
+    {
+      "number": 16,
+      "marker": "[FN#16]",
+      "text": "The Sanskrit poem here rises to an elevation of style and\nmanner which I have endeavoured to mark by change of metre."
+    },
+    {
+      "number": 17,
+      "marker": "[FN#17]",
+      "text": "Ahinsa."
+    },
+    {
+      "number": 18,
+      "marker": "[FN#18]",
+      "text": "The nectar of immortality."
+    },
+    {
+      "number": 19,
+      "marker": "[FN#19]",
+      "text": "Called \"The Jap.\""
+    },
+    {
+      "number": 20,
+      "marker": "[FN#20]",
+      "text": "The compound form of Sanskrit words."
+    },
+    {
+      "number": 21,
+      "marker": "[FN#21]",
+      "text": "\"Kamalapatraksha\""
+    },
+    {
+      "number": 22,
+      "marker": "[FN#22]",
+      "text": "These are all divine or deified orders of the Hindoo Pantheon."
+    },
+    {
+      "number": 23,
+      "marker": "[FN#23]",
+      "text": "\"Hail to Thee, God of Gods! Be favourable!\""
+    },
+    {
+      "number": 24,
+      "marker": "[FN#24]",
+      "text": "The wind."
+    },
+    {
+      "number": 25,
+      "marker": "[FN#25]",
+      "text": "\"Not peering about,\"anapeksha."
+    },
+    {
+      "number": 26,
+      "marker": "[FN#26]",
+      "text": "The Calcutta edition of the Mahabharata has these three\nopening lines."
+    },
+    {
+      "number": 27,
+      "marker": "[FN#27]",
+      "text": "This is the nearest possible version of\nKshetrakshetrajnayojnanan yat tajnan matan mama."
+    },
+    {
+      "number": 28,
+      "marker": "[FN#28]",
+      "text": "I omit two lines of the Sanskrit here, evidently interpolated by\nsome Vedantist."
+    },
+    {
+      "number": 29,
+      "marker": "[FN#29]",
+      "text": "Wombs."
+    },
+    {
+      "number": 30,
+      "marker": "[FN#30]",
+      "text": "I do not consider the Sanskrit verses here-which are somewhat\nfreely rendered--\"an attack on the authority of the Vedas,\" with Mr\nDavies, but a beautiful lyrical episode, a new \"Parable of the fig-tree.\""
+    },
+    {
+      "number": 31,
+      "marker": "[FN#31]",
+      "text": "I omit a verse here, evidently interpolated."
+    },
+    {
+      "number": 32,
+      "marker": "[FN#32]",
+      "text": "\"Of the Asuras,\" lit."
+    },
+    {
+      "number": 33,
+      "marker": "[FN#33]",
+      "text": "I omit the ten concluding shlokas, with Mr Davis."
+    },
+    {
+      "number": 34,
+      "marker": "[FN#34]",
+      "text": "Rakshasas and Yakshas are unembodied but capricious beings\nof great power, gifts, and beauty, same times also of benignity."
+    },
+    {
+      "number": 35,
+      "marker": "[FN#35]",
+      "text": "These are spirits of evil wandering ghosts."
+    },
+    {
+      "number": 36,
+      "marker": "[FN#36]",
+      "text": "Yatayaman, food which has remained after the watches of the\nnight. In India this would probably \"go bad.\""
+    },
+    {
+      "number": 37,
+      "marker": "[FN#37]",
+      "text": "I omit the concluding shlokas, as of very doubtful authenticity."
+    }
+  ],
+  "paratext": [
+    {
+      "chapter": 18,
+      "type": "chapter-colophon",
+      "text": "HERE ENDS, WITH CHAPTER XVIII.,\n  Entitled \"Mokshasanyasayog,\"\n  Or \"The Book of Religion by Deliverance and Renunciation,\"\n  THE BHAGAVAD-GITA.",
+      "checksum": "87d4bd9c2a57f5eefd4d4368e1c8133d27fc97d8d87d4cd1ebf4396ca5c1606f",
+      "sourceSpan": {
+        "start": 12396,
+        "end": 12542,
+        "lineStart": 3236,
+        "lineEnd": 3239,
+        "checksum": "1569a77aa75d5a4a9653479cb343fe71119b365ac502b3ad1725aa8db8ebdc78"
+      }
+    }
+  ],
+  "records": [
+    {
+      "canonicalRef": "gita.18.1",
+      "alignmentFingerprint": "8c895faa1eec0a2b6a7fccaaf4d733d025cd034af6c2b46d4b697158864e3f69",
+      "sanskrit": "अर्जुन उवाच।\nसंन्यासस्य महाबाहो तत्त्वमिच्छामि वेदितुम्।\nत्यागस्य च हृषीकेश पृथक्केशिनिषूदन ॥",
+      "iast": "arjuna uvāca\nsaṃnyāsasya mahābāho tattvamicchāmi veditum\ntyāgasya ca hṛṣīkeśa pṛthakkeśiniṣūdana",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.18.1",
+        "content": "Arjuna.\n  Fain would I better know, Thou Glorious One!\n  The very truth--Heart's Lord!--of Sannyas,\n  Abstention; and  enunciation, Lord!\n  Tyaga; and what separates these twain!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.1"
+        ],
+        "sourceSpans": [
+          {
+            "start": 0,
+            "end": 182,
+            "lineStart": 2916,
+            "lineEnd": 2921,
+            "checksum": "f1032251708ce0c58d5eac2d2ef144517d8b9abae8c938223951278d2887a8b5"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.1 Arjuna said I desire to know severally, O mighty-armed, the essence or truth of renunciation, O Hrishikesa, as also of abandonment, O slayer of Kesi."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.1 \"Arjuna asked: O mighty One! I desire to know how relinquishment is distinguished from renunciation."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.1 Arjuna said O mighty-armed Hrsikesa, O slayer of (the demon) Kesi, I want to know serverally the truth about sannyasa as also about tyaga."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.2",
+      "alignmentFingerprint": "7f1f0369c3e3f8f550b8e7cf2aec44709d8c9d2421fa6f7dc2824300ac27cc53",
+      "sanskrit": "श्रीभगवानुवाच।\nकाम्यानां कर्मणां न्यासं संन्यासं कवयो विदुः।\nसर्वकर्मफलत्यागं प्राहुस्त्यागं विचक्षणाः ॥",
+      "iast": "śrībhagavānuvāca\nkāmyānāṃ karmaṇāṃ nyāsaṃ saṃnyāsaṃ kavayo viduḥ\nsarvakarmaphalatyāgaṃ prāhustyāgaṃ vicakṣaṇāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.2",
+        "content": "Krishna.\n  The poets rightly teach that Sannyas\n  Is the foregoing of all acts which spring\n  Out of desire; and their wisest say\n  Tyaga is renouncing fruit of acts.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.2"
+        ],
+        "sourceSpans": [
+          {
+            "start": 182,
+            "end": 352,
+            "lineStart": 2922,
+            "lineEnd": 2927,
+            "checksum": "f28204e620708409f220a3c0455e5a110550e17b7edd31e3789b839995553ab5"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.2 The Blessed Lord said The sages understand Sannyasa to be the renunciation of action with desire; the wise declare the abandonment of the fruits of all actions as Tyaga."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.2 Lord Shri Krishna replied: The sages say that renunciation means forgoing an action which springs from desire; and relinquishing means the surrender of its fruit."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.2 The Blessed Lord said The learned ones know sannyasa to be the giving up of actions done with a desire for reward. The adepts call the abandonment of the results of all works as tyaga."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.3",
+      "alignmentFingerprint": "b95a7fd01e2bc0d90a6a4890d0da2e9c63e5224def45df44eef8cdff2045935b",
+      "sanskrit": "त्याज्यं दोषवदित्येके कर्म प्राहुर्मनीषिणः।\nयज्ञदानतपःकर्म न त्याज्यमिति चापरे ॥",
+      "iast": "tyājyaṃ doṣavadityeke karma prāhurmanīṣiṇaḥ\nyajñadānatapaḥkarma na tyājyamiti cāpare",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.3",
+        "content": "There be among the saints some who have held\n  All action sinful, and to be renounced;\n  And some who answer, \"Nay! the goodly acts--\n  As worship, penance, alms--must be performed!\"",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.3"
+        ],
+        "sourceSpans": [
+          {
+            "start": 352,
+            "end": 537,
+            "lineStart": 2928,
+            "lineEnd": 2931,
+            "checksum": "a695bfdbb074a06782e734ed6dfa8c3def51b0ea573c139236af2c0f5a70175b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.3 Some philosophers declare that actions should be abandoned as an evil; while others (declare) that acts of sacrifice, gift and austerity should not be relinished."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.3 Some philosophers say that all action is evil and should be abandoned. Others that acts of sacrifice, benevolence and austerity should not be given up."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.3 Some learned persons say that action, beset with evil (as it is), should be given up, and others (say) that the practice of sacrifice, charity and austertiy should not be given up."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.4",
+      "alignmentFingerprint": "2e87de962701f0bbcad14086fc2af67ff320fb422937258f528d7067322daa64",
+      "sanskrit": "निश्चयं शृणु मे तत्र त्यागे भरतसत्तम।\nत्यागो हि पुरुषव्याघ्र त्रिविधः सम्प्रकीर्तितः ॥",
+      "iast": "niścayaṃ śṛṇu me tatra tyāge bharatasattama\ntyāgo hi puruṣavyāghra trividhaḥ samprakīrtitaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.4",
+        "content": "Hear now My sentence, Best of Bharatas!\n\n  'Tis well set forth, O Chaser of thy Foes!\n  Renunciation is of threefold form,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.4"
+        ],
+        "sourceSpans": [
+          {
+            "start": 537,
+            "end": 662,
+            "lineStart": 2932,
+            "lineEnd": 2935,
+            "checksum": "589c8e8182471c2916cbed2a05c1c04a96698a5a22e21133b0207e7339d0e245"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.4 Hear from Me the conclusion or the final truth about this abandonment, O best of the Bharatas; abandonment, verily, O best of men, has been declared to be of three kinds."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.4 O best of Indians! Listen to my judgment as regards this problem. It has a threefold aspect."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.4 O the most excellent among the descendants of Bharata, hear from Me the firm conclusion regarding that tyaga. For, O greatest among men, tyaga has been clearly declared to be of three kinds."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.5",
+      "alignmentFingerprint": "f5cf930135b1faf48a5ff1bd839f761d4a3ce5d730c0d0f9453b8905bf455939",
+      "sanskrit": "यज्ञदानतपःकर्म न त्याज्यं कार्यमेव तत्।\nयज्ञो दानं तपश्चैव पावनानि मनीषिणाम् ॥",
+      "iast": "yajñadānatapaḥkarma na tyājyaṃ kāryameva tat\nyajño dānaṃ tapaścaiva pāvanāni manīṣiṇām",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.5",
+        "content": "And Worship, Penance, Alms, not to be stayed;\n  Nay, to be gladly done; for all those three\n  Are purifying waters for true souls!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.5"
+        ],
+        "sourceSpans": [
+          {
+            "start": 662,
+            "end": 796,
+            "lineStart": 2936,
+            "lineEnd": 2939,
+            "checksum": "a9f6a6a038e2980a4d640df69d17146103696e099291c9c138066f95f6a1ca3f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.5 Acts of sacrifice, gift and austerity should not be abandoned, but should be performed; sacrifice, gift and also austerity are the purifiers of the wise."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.5 Acts of sacrifice, benevolence and austerity should not be given up but should be performed, for they purify the aspiring soul."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.5 The practice of sacrifice, charity and austerity is not to be abandoned; it is surely to be undertaken. Sacrifice, charity and austerity are verily the purifiers of the wise."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.6",
+      "alignmentFingerprint": "7e8e4a8c623c700ef2c865379c719075b411c03211b0ae52fbf2df8ec9808f61",
+      "sanskrit": "एतान्यपि तु कर्माणि सङ्गं त्यक्त्वा फलानि च।\nकर्तव्यानीति मे पार्थ निश्चितं मतमुत्तमम् ॥",
+      "iast": "etānyapi tu karmāṇi saṅgaṃ tyaktvā phalāni ca\nkartavyānīti me pārtha niścitaṃ matamuttamam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.6",
+        "content": "Yet must be practised even those high works\n  In yielding up attachment, and all fruit\n  Produced by works. This is My judgment, Prince!\n  This My insuperable and fixed decree!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.6"
+        ],
+        "sourceSpans": [
+          {
+            "start": 796,
+            "end": 976,
+            "lineStart": 2940,
+            "lineEnd": 2944,
+            "checksum": "3d19d7e0ce79b408fbd04f42a41a3251f57b6e110945e269d84cd97f4b9b966e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.6 But even these actions should be performed leaving aside attachment and the desire for rewards, O Arjuna; this is My certain and best conviction."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.6 But they should be done with detachment and without thought of recompense. This is my final judgment."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.6 But even these actions have to be undertaken by renouncing attachment and (hankering for) results. This is My firm and best conclusion, O Parhta."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.7",
+      "alignmentFingerprint": "f55cc55d40b88e7f2edf899d7e0ee2cc938080dda8abb646f70723ac21615d2e",
+      "sanskrit": "नियतस्य तु संन्यासः कर्मणो नोपपद्यते।\nमोहात्तस्य परित्यागस्तामसः परिकीर्तितः ॥",
+      "iast": "niyatasya tu saṃnyāsaḥ karmaṇo nopapadyate\nmohāttasya parityāgastāmasaḥ parikīrtitaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.7",
+        "content": "Abstaining from a work by right prescribed\n  Never is meet! So to abstain doth spring\n  From \"Darkness,\" and Delusion teacheth it.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.7"
+        ],
+        "sourceSpans": [
+          {
+            "start": 976,
+            "end": 1109,
+            "lineStart": 2945,
+            "lineEnd": 2947,
+            "checksum": "67d9f29b6284dc191a1a46f704aa26c16cc82cc4ac6c692ff978124cb23e0ff4"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.7 Verily the renunciation of obligatory action is not proper; the abandonment of the same from delusion is declared to be Tamasic."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.7 It is not right to give up actions which are obligatory; and if they are misunderstood, it is the result of sheer ignorance."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.7 The abandoning of daily obligatory acts (nityakamas) is not justifiable. Giving up that through delusion is declared to be based on tamas."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.8",
+      "alignmentFingerprint": "4cbaac64b6ff4a0cf1682f1640d90e4a2f46e5029060cb56ec89e771a9fc3c4d",
+      "sanskrit": "दुःखमित्येव यत्कर्म कायक्लेशभयात्त्यजेत्।\nस कृत्वा राजसं त्यागं नैव त्यागफलं लभेत् ॥",
+      "iast": "duḥkhamityeva yatkarma kāyakleśabhayāttyajet\nsa kṛtvā rājasaṃ tyāgaṃ naiva tyāgaphalaṃ labhet",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.8",
+        "content": "Abstaining from a work grievous to flesh,\n  When one saith \"'Tis unpleasing!\" this is null!\n  Such an one acts from \"passion;\" nought of gain\n  Wins his Renunciation!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.8"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1109,
+            "end": 1278,
+            "lineStart": 2948,
+            "lineEnd": 2951,
+            "checksum": "7a9981f8b2835e2ee2269485eb650726d201c09baed517063a20c135486a1789"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.8 He who abandons action on account of the fear of bodily trouble (because it is painful), does not obtain the merit of renunciation by doing such Rajasic renunciation."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.8 To avoid an action through fear of physical suffering, because it is likely to be painful, is to act from passion, and the benefit of renunciation will not follow."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.8 Whatever action one may relinish merely as being painful, from fear of physical suffering, he, having resorted to renunciation based on rajas, will surely not acire the fruits of renunciation."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.9",
+      "alignmentFingerprint": "0ffe450db5305af8e2f1d10da25e6215bea92135fa1608af0a779e17c4f9d22e",
+      "sanskrit": "कार्यमित्येव यत्कर्म नियतं क्रियतेऽर्जुन।\nसङ्गं त्यक्त्वा फलं चैव स त्यागः सात्त्विको मतः ॥",
+      "iast": "kāryamityeva yatkarma niyataṃ kriyate.arjuna\nsaṅgaṃ tyaktvā phalaṃ caiva sa tyāgaḥ sāttviko mataḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.9",
+        "content": "But, Arjun!\n  Abstaining from attachment to the work,\n  Abstaining from rewardment in the work,\n  While yet one doeth it full faithfully,\n  Saying, \"Tis right to do!\" that is \"true \" act\n  And abstinence!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.9"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1278,
+            "end": 1483,
+            "lineStart": 2951,
+            "lineEnd": 2956,
+            "checksum": "37416bd1a8f5f1e69a513414def4b0afe5f451b87fec961ad412c3b3a6e8309b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.9 Whatever obligatory action is done, O Arjuna, merely because it ought to be done, abandoning attachment and also the desire for reward, that renunciation is regarded as Sattvic (pure)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.9 He who performs an obligatory action, because he believes it to be a duty which ought to be done, without any personal desire to do the act or to receive any return - such renunciation is Pure."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.9 Whatever obligatory duty is performed just because it is a bounden duty, O Arjuna, by giving up attachment and the result as well,-that renunciation is considered to be based on sattva."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.10",
+      "alignmentFingerprint": "84253c289055bfe9574839557f4479982059ad475bc02a9951f414d65f29dfb4",
+      "sanskrit": "न द्वेष्ट्यकुशलं कर्म कुशले नानुषज्जते।\nत्यागी सत्त्वसमाविष्टो मेधावी छिन्नसंशयः ॥",
+      "iast": "na dveṣṭyakuśalaṃ karma kuśale nānuṣajjate\ntyāgī sattvasamāviṣṭo medhāvī chinnasaṃśayaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.10",
+        "content": "Who doeth duties so,\n  Unvexed if his work fail, if it succeed\n  Unflattered, in his own heart justified,\n  Quit of debates and doubts, his is \"true\" act:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.10"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1483,
+            "end": 1638,
+            "lineStart": 2956,
+            "lineEnd": 2959,
+            "checksum": "a5b76f7619ea5a32bc42bb67e9ce2d71285623517695d7026ed2f6a34a35e564"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.10 The man of renunciation, pervaded by purity, intelligent, and with his doubts cut asunder, does not hate a disagreeable work nor is he attached to an agreeable one."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.10 The wise man who has attained purity, whose doubts are solved, who is filled with the spirit of self-abnegation, does not shrink from action because it brings pain, nor does he desire it because it brings pleasure."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.10 The man of renunciation who has become imbued with sattva, who is wise and freed from doubts, does not hate unbefitting action, nor does he become attached to befitting activity."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.11",
+      "alignmentFingerprint": "b1e5535f5b24efcadd7c2e02685668572e88a7eea0fe2942d5165193da578558",
+      "sanskrit": "न हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः।\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते ॥",
+      "iast": "na hi dehabhṛtā śakyaṃ tyaktuṃ karmāṇyaśeṣataḥ\nyastu karmaphalatyāgī sa tyāgītyabhidhīyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.11",
+        "content": "For, being in the body, none may stand\n  Wholly aloof from act; yet, who abstains\n  From profit of his acts is abstinent.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.11"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1638,
+            "end": 1763,
+            "lineStart": 2960,
+            "lineEnd": 2963,
+            "checksum": "d81fc5faf80f9550b82e8e3b477b7d9dac938bc70219a7b18e1990b9555b51d1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.11 Verily, it is not possible for an embodied being to abandon actions entirely; but he who relinishes the rewards of actions is verily called a man of renunciation."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.11 But since those still in the body cannot entirely avoid action, in their case abandonment of the fruit of action is considered as complete renunciation."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.11 Since it is not possible for one who holds on to a body to give up actions entirely, therefore he, on the other hand, who renounces results on actions is called a man of renunciation."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.12",
+      "alignmentFingerprint": "3031f026558d4e0aebe81551edbecf520f6c55341eb59270f151ea1816052ea3",
+      "sanskrit": "अनिष्टमिष्टं मिश्रं च त्रिविधं कर्मणः फलम्।\nभवत्यत्यागिनां प्रेत्य न तु संन्यासिनां क्वचित् ॥",
+      "iast": "aniṣṭamiṣṭaṃ miśraṃ ca trividhaṃ karmaṇaḥ phalam\nbhavatyatyāgināṃ pretya na tu saṃnyāsināṃ kvacit",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.12",
+        "content": "The fruit of labours, in the lives to come,\n  Is threefold for all men,--Desirable,\n  And Undesirable, and mixed of both;\n  But no fruit is at all where no work was.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.12"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1763,
+            "end": 1932,
+            "lineStart": 2964,
+            "lineEnd": 2968,
+            "checksum": "2d58d1ffc47f34fa93d01fe7f10a269dffd18a779fc32ae6806f3f12c0aaf382"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.12 The threefold fruit of action (evil, good and mixed) accrues after death to the non-abandoners, but never to the abandoners."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.12 For those who cannot renounce all desire, the fruit of action hereafter is threefold - good, evil, and partly good and partly evil. But for him who has renounced, there is none."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.12 The threefold results of actions-the undesirable, the desirable, and the mixed-accrues after death to those who do not resort to renunciation, but never to those who resort to monasticism."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.13",
+      "alignmentFingerprint": "f499830d23dad2912759f2da258289031eb85c6d0f06898f14fb0d036a86fb62",
+      "sanskrit": "पञ्चैतानि महाबाहो कारणानि निबोध मे।\nसाङ्ख्ये कृतान्ते प्रोक्तानि सिद्धये सर्वकर्मणाम् ॥",
+      "iast": "pañcaitāni mahābāho kāraṇāni nibodha me\nsāṅkhye kṛtānte proktāni siddhaye sarvakarmaṇām",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.13",
+        "content": "Hear from me, Long-armed Lord! the makings five\n  Which go to every act, in Sankhya taught\n  As necessary.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.13"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1932,
+            "end": 2041,
+            "lineStart": 2969,
+            "lineEnd": 2971,
+            "checksum": "bc0d6f7f05721ae956dc0ca3077773448d3515416a69f76d37c93f21d66f4ff2"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.13 Learn from Me, O mighty-armed Arjuna, these five causes as declared in the Sankhya system for the accomplishment of all actions."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.13 I will tell thee now, O Mighty Man, the five causes which, according to the final decision of philosophy, must concur before an action can be accomplished."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.13 O mighty-armed one, learned from Me these [Another reading is etani.-Tr.] five factors for the accomplishment of all actions, which have been spoken of in the Vedanta in which actions terminate."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.14",
+      "alignmentFingerprint": "c5e4d09d317ae5ead382a34240a94a1f3a10f48b171564ce2a2e8ffa8a66d5b7",
+      "sanskrit": "अधिष्ठानं तथा कर्ता करणं च पृथग्विधम्।\nविविधाश्च पृथक्चेष्टा दैवं चैवात्र पञ्चमम् ॥",
+      "iast": "adhiṣṭhānaṃ tathā kartā karaṇaṃ ca pṛthagvidham\nvividhāśca pṛthakceṣṭā daivaṃ caivātra pañcamam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.14",
+        "content": "First the force; and then\n  The agent; next, the various instruments;\n  Fourth, the especial effort; fifth, the God.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.14"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2041,
+            "end": 2158,
+            "lineStart": 2971,
+            "lineEnd": 2973,
+            "checksum": "09cdcbed794328fbc76f62f7787ac7fad180c0bb80bee5e4bbbb4749b0cf4f23"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.14 The seat (body), the doer, the various senses, the different functions of various sorts, and the presiding deity, also, the fifth."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.14 They are a body, a personality, physical organs, their manifold activity and destiny."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.14 The locus as also the agent, the different kinds of organs, the many and distinct activities, and, the divine is here the fifth."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.15",
+      "alignmentFingerprint": "e782d5b5298ea4cf6028cf2dee4b815a65b5a6f3ee6a7c90202077e39e807941",
+      "sanskrit": "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः।\nन्याय्यं वा विपरीतं वा पञ्चैते तस्य हेतवः ॥",
+      "iast": "śarīravāṅmanobhiryatkarma prārabhate naraḥ\nnyāyyaṃ vā viparītaṃ vā pañcaite tasya hetavaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.15",
+        "content": "What work soever any mortal doth\n  Of body, mind, or speech, evil or good,\n  By these five doth he that.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.15"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2158,
+            "end": 2265,
+            "lineStart": 2974,
+            "lineEnd": 2976,
+            "checksum": "f0460e203fde7e2e82d24ae8e19a2c84f4070b0acb45be1b805737013e71a127"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.15 Whatever action a man performs with his body, speech and mind whether right or the reverse these five are its causes."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.15 Whatever action a man performs, whether by muscular effort or by speech or by thought, and whether it be right or wrong, these five are the essential causes."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.15 Whatever action a man performs with the body, speech and mind, be it just or its reverse, of it these five are the cuases."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.16",
+      "alignmentFingerprint": "9e6dcb784a1f2990978a31e3dbe56b64fd98bdb6876425028075df0d1141ef7d",
+      "sanskrit": "तत्रैवं सति कर्तारमात्मानं केवलं तु यः।\nपश्यत्यकृतबुद्धित्वान्न स पश्यति दुर्मतिः ॥",
+      "iast": "tatraivaṃ sati kartāramātmānaṃ kevalaṃ tu yaḥ\npaśyatyakṛtabuddhitvānna sa paśyati durmatiḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.16",
+        "content": "Which being thus,\n  Whoso, for lack of knowledge, seeth himself\n  As the sole actor, knoweth nought at all\n  And seeth nought.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.16"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2265,
+            "end": 2392,
+            "lineStart": 2976,
+            "lineEnd": 2979,
+            "checksum": "f61b21b6ac3b4d8bf7dd1c619ab9a209dcad5e900f218a354a1b244a1762484f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.16 Now, such being the case, verily he who owing to untrained understanding looks upon his Self, which is isolated, as the agent, he of perverted intelligence, sees not."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.16 But the fool who supposes, because of his immature judgment, that it is his own Self alone that acts, he perverts the truth and does not see rightly."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.16 This being the case, anyone, who, owing to the imperfection of his intellect, perceives the absolute Self as the agent, that man does not perceive (properly), and has a perverted intellect."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.17",
+      "alignmentFingerprint": "48d026a0fe5db762d9d25dd9636c76de29f77d90349095c39052a071603c5290",
+      "sanskrit": "यस्य नाहंकृतो भावो बुद्धिर्यस्य न लिप्यते।\nहत्वाऽपि स इमाँल्लोकान्न हन्ति न निबध्यते ॥",
+      "iast": "yasya nāhaṃkṛto bhāvo buddhiryasya na lipyate\nhatvā.api sa imā.Nllokānna hanti na nibadhyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.17",
+        "content": "Therefore, I say, if one--\n  Holding aloof from self--with unstained mind\n  Should slay all yonder host, being bid to slay,\n  He doth not slay; he is not bound thereby!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.17"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2392,
+            "end": 2562,
+            "lineStart": 2979,
+            "lineEnd": 2983,
+            "checksum": "6881d0f0ed5317ad0d6c968ab99b11fae8f58a9f801103927a7e1d2a1122f859"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.17 He who is free from the egoistic notion, whose intelligence is not tainted (by good or evil),\nthough he slays these people, he slayeth not, nor is he bound (by the action)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.17 He who has no pride, and whose intellect is unalloyed by attachment, even though he kill these people, yet he does not kill them, and his act does not bind him."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.17 He who has not the feeling of egoism, whose intellect is not tainted, he does not kill, nor does he become bound-even by killing these creatures!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.18",
+      "alignmentFingerprint": "da3719e15eae07c7582940b21046fb220fd7886b7dab3a9206f770e9d6949d10",
+      "sanskrit": "ज्ञानं ज्ञेयं परिज्ञाता त्रिविधा कर्मचोदना।\nकरणं कर्म कर्तेति त्रिविधः कर्मसंग्रहः ॥",
+      "iast": "jñānaṃ jñeyaṃ parijñātā trividhā karmacodanā\nkaraṇaṃ karma karteti trividhaḥ karmasaṃgrahaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.18",
+        "content": "Knowledge, the thing known, and the mind which knows,\n  These make the threefold starting-ground of act.\n  The act, the actor, and the instrument,\n  These make the threefold total of the deed.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.18"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2562,
+            "end": 2757,
+            "lineStart": 2984,
+            "lineEnd": 2987,
+            "checksum": "b015e57341b44306e07bb3d45380bab35228c8c84ac499fbd83a0d9da0c36780"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.18 Knowledge, the knowable and the knower form the threefold impulse to action; the organ, the action and the agent form the threefold basis of action."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.18 Knowledge, the knower and the object of knowledge, these are the three incentives to action; and the act, the actor and the instrument are the threefold constituents."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.18 Knowledge, the object the knowledge and the knower-this is the threefold inducement to action. The comprehension of actions comes under three heads-the instruments, the object and the subject."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.19",
+      "alignmentFingerprint": "433c00fc184a65bffbba32e45cabced9f4e12077aec22d711a6b0175a6420e2f",
+      "sanskrit": "ज्ञानं कर्म च कर्ताच त्रिधैव गुणभेदतः।\nप्रोच्यते गुणसङ्ख्याने यथावच्छृणु तान्यपि ॥",
+      "iast": "jñānaṃ karma ca kartāca tridhaiva guṇabhedataḥ\nprocyate guṇasaṅkhyāne yathāvacchṛṇu tānyapi",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.19",
+        "content": "But knowledge, agent, act, are differenced\n  By three dividing qualities. Hear now\n  Which be the qualities dividing them.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.19"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2757,
+            "end": 2883,
+            "lineStart": 2988,
+            "lineEnd": 2991,
+            "checksum": "1a8f7bbdd3973366b5513bbdc11141bcdcf92b06b543359ccb6a5f649f3bfc08"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.19 Knowledge, action and actor are declared in the science of the Gunas (Sankhya philosophy) to be of three kinds only, according to the distinction of the Gunas. Of these also, hear duly."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.19 The knowledge, the act and the doer differ according to the Qualities. Listen to this too:"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.19 Knowledge, action and agent are stated in the teaching about the gunas to be only of three kinds according to the differences of the gunas. Hear about them also as they are."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.20",
+      "alignmentFingerprint": "12eb3b9aad273aa3ee161095d1386faa7246cb009e131c0c803f1129023ea24e",
+      "sanskrit": "सर्वभूतेषु येनैकं भावमव्ययमीक्षते।\nअविभक्तं विभक्तेषु तज्ज्ञानं विद्धि सात्त्विकम् ॥",
+      "iast": "sarvabhūteṣu yenaikaṃ bhāvamavyayamīkṣate\navibhaktaṃ vibhakteṣu tajjñānaṃ viddhi sāttvikam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.20",
+        "content": "There is \"true\" Knowledge. Learn thou it is this:\n  To see one changeless Life in all the Lives,\n  And in the Separate, One Inseparable.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.20"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2883,
+            "end": 3022,
+            "lineStart": 2992,
+            "lineEnd": 2994,
+            "checksum": "b2f3e2bc3fa6d6056bb3eebb91f8e363c49a69f2aa02fd57c42db2a06f997864"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.20 That by which one sees the one indestructible Reality in all beings, not separate in all the separate beings know thou that knowledge to be Sattvic."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.20 That knowledge which sees the One Indestructible in all beings, the One Indivisible in all separate lives, may be truly called Pure Knowledge."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.20 Know that knowledge to be originating from sattva through which one sees a single, undecaying, undivided Entity in all the diversified things."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.21",
+      "alignmentFingerprint": "b1ccd6063957c7e076f56c7fbe76aefca9ae580806945c9d0c50833dc5253ebe",
+      "sanskrit": "पृथक्त्वेन तु यज्ज्ञानं नानाभावान्पृथग्विधान्।\nवेत्ति सर्वेषु भूतेषु तज्ज्ञानं विद्धि राजसम् ॥",
+      "iast": "pṛthaktvena tu yajjñānaṃ nānābhāvānpṛthagvidhān\nvetti sarveṣu bhūteṣu tajjñānaṃ viddhi rājasam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.21",
+        "content": "There is imperfect Knowledge: that which sees\n  The separate existences apart,\n  And, being separated, holds them real.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.21"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3022,
+            "end": 3144,
+            "lineStart": 2995,
+            "lineEnd": 2997,
+            "checksum": "fdc9c9131ab111fa42ea18b1dde03e2ac77d7e7ba7289855c07079f7ad2a1471"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.21 But that knowledge which sees in all beings various entities of distinct kinds as different from one another know thou that knowledge to be Rajasic."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.21 The knowledge which thinks of the manifold existence in all beings as separate - that comes from Passion."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.21 But know that knowledge to be originating from rajas which, amidst all things, apprehends the different entities of various kinds as distinct [As possessing distinct selves.]."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.22",
+      "alignmentFingerprint": "da001ce8c94f2e300a8d3f2f9a0e4f20a5339ba8a93820795688311ea688024e",
+      "sanskrit": "यत्तु कृत्स्नवदेकस्मिन्कार्ये सक्तमहैतुकम्।\nअतत्त्वार्थवदल्पं च तत्तामसमुदाहृतम् ॥",
+      "iast": "yattu kṛtsnavadekasminkārye saktamahaitukam\natattvārthavadalpaṃ ca tattāmasamudāhṛtam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.22",
+        "content": "There is false Knowledge: that which blindly clings\n  To one as if 'twere all, seeking no Cause,\n  Deprived of light, narrow, and dull, and \"dark.\"",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.22"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3144,
+            "end": 3295,
+            "lineStart": 2998,
+            "lineEnd": 3001,
+            "checksum": "e20c3e8685911e6796b8921707515d86a1bd2bb1dce7e7f6e8595922908e5286"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.22 But that which clings to one single effect as if it were the whole, without reason, without foundation in Truth, and trivial that is declared to be Tamasic."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.22 But that which clings blindly to one idea as if it were all, without logic, truth or insight, that has its origin in Darkness."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.22 But that (knowledge) is said to be born of tamas which is confined to one form as though it were all, which is irrational, not concern with truth and triivial."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.23",
+      "alignmentFingerprint": "c2fa5b844babc852ca8621a3754cc7c30f349922c752e4dcb682a847a944ddc0",
+      "sanskrit": "नियतं सङ्गरहितमरागद्वेषतः कृतम्।\nअफलप्रेप्सुना कर्म यत्तत्सात्त्विकमुच्यते ॥",
+      "iast": "niyataṃ saṅgarahitamarāgadveṣataḥ kṛtam\naphalaprepsunā karma yattatsāttvikamucyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.23",
+        "content": "There is \"right\" Action: that which being enjoined--\n  Is wrought without attachment, passionlessly,\n  For duty, not for love, nor hate, nor gain.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.23"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3295,
+            "end": 3444,
+            "lineStart": 3002,
+            "lineEnd": 3004,
+            "checksum": "e7487aa0e999db212b7658294bbcbedf73352a237f872174b7479a5d067912e1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.23 An action which is ordained, which is free from attachment, and which is done without love or hatred by one who is not desirous of any reward that action is declared to be Sattvic."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.23 An obligatory action done by one who is disinterested, who neither likes nor dislikes it, and gives no thought to the consequences that follow, such an action is Pure."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.23 The daily obligatory action which is performed without attachment and without likes or dislikes by one who does not hanker for rewards, that is said to be born of sattva."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.24",
+      "alignmentFingerprint": "1e0d70304aa46e2088b8123f7a8563ff5cb46d58ab967e9e4857a4f768e4832f",
+      "sanskrit": "यत्तु कामेप्सुना कर्म साहंकारेण वा पुनः।\nक्रियते बहुलायासं तद्राजसमुदाहृतम् ॥",
+      "iast": "yattu kāmepsunā karma sāhaṃkāreṇa vā punaḥ\nkriyate bahulāyāsaṃ tadrājasamudāhṛtam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.24",
+        "content": "There is \"vain\" Action: that which men pursue\n  Aching to satisfy desires, impelled\n  By sense of self, with all-absorbing stress:\n  This is of Rajas--passionate and vain.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.24"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3444,
+            "end": 3618,
+            "lineStart": 3005,
+            "lineEnd": 3008,
+            "checksum": "0601e777348a231cf771c3199c0020b57562dd47b777ee828e43f83db286148f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.24 But that action which is done by one longing for the fulfilment of desires or gain with egoism or with much effort that is declared to be Rajasic (passionate)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.24 But even though an action involve the most strenuous endeavour, yet if the doer is seeking to gratify his desires, and is filled with personal vanity, it may be assumed to originate in Passion."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.24 But that action is said to be born of rajas which is done by one desirous of results or by one who is egotistic, and which is highly strenuous."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.25",
+      "alignmentFingerprint": "24fb1d9ce4052ad899dab5a94da6884226ac85a5bdef4d4e3d1d991eeec5c318",
+      "sanskrit": "अनुबन्धं क्षयं हिंसामनपेक्ष्य च पौरुषम्।\nमोहादारभ्यते कर्म यत्तत्तामसमुच्यते ॥",
+      "iast": "anubandhaṃ kṣayaṃ hiṃsāmanapekṣya ca pauruṣam\nmohādārabhyate karma yattattāmasamucyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.25",
+        "content": "There is \"dark\" Action: when one doth a thing\n  Heedless of issues, heedless of the hurt\n  Or wrong for others, heedless if he harm\n  His own soul--'tis of Tamas, black and bad!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.25"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3618,
+            "end": 3799,
+            "lineStart": 3009,
+            "lineEnd": 3013,
+            "checksum": "4b75fdd3433615d53fac3199b6108c3d3348e7237f3fb9a1f29d8dac7c5abec4"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.25 That action which is undertaken from delusion, without a regard for the conseences, loss, injury and (one's own) ability that is declared to be Tamasic (dark)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.25 An action undertaken through delusion, and with no regard to the spiritual issues involved, or the real capacity of the doer, or to the injury which may follow, such an act may be assumed to be the product of Ignorance."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.25 That action is said to be born of tamas which is undertaken out of delusion, (and) without consideration of its conseence, loss, harm and ability."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.26",
+      "alignmentFingerprint": "9c0560080c39397e4d5cdaeb7705376cbd14091b0bb3c872ac0d80ce718c744e",
+      "sanskrit": "मुक्तसङ्गोऽनहंवादी धृत्युत्साहसमन्वितः।\nसिद्ध्यसिद्ध्योर्निर्विकारः कर्ता सात्त्विक उच्यते ॥",
+      "iast": "muktasaṅgo.anahaṃvādī dhṛtyutsāhasamanvitaḥ\nsiddhyasiddhyornirvikāraḥ kartā sāttvika ucyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.26",
+        "content": "There is the \"rightful\"doer. He who acts\n  Free from self-seeking, humble, resolute,\n  Steadfast, in good or evil hap the same,\n  Content to do aright-he \"truly\" acts.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.26"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3799,
+            "end": 3969,
+            "lineStart": 3014,
+            "lineEnd": 3017,
+            "checksum": "d42824015ebc40699547423bdc5fab566ca82410c5b698d0ea9ab2d50966d234"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.26 An agent who is free from attachment, non-egoistic, endowed with firmness and enthusiasm, and unaffected by success or failure, is called Sattvic (pure)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.26 But when a man has no sentiment and no personal vanity, when he possesses courage and confidence, cares not whether he succeeds or fails, then his action arises from Purity."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.26 [Ast. introduces this verse with 'Idanim kartrbhedah ucyate, Now is being stated the distinctions among the agents.'-Tr.] The agent who is free from attachment [Attachment to results or the idea of agentship.], not egotistic, endowed with fortitude and diligence, and unperturbed by success and failure is said to be possessed of sattva."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.27",
+      "alignmentFingerprint": "57ee8f97c8f42f1f8a68ce26dde0382ad570f8d6d2c4ebfd852fa025b36744d4",
+      "sanskrit": "रागी कर्मफलप्रेप्सुर्लुब्धो हिंसात्मकोऽशुचिः।\nहर्षशोकान्वितः कर्ता राजसः परिकीर्तितः ॥",
+      "iast": "rāgī karmaphalaprepsurlubdho hiṃsātmako.aśuciḥ\nharṣaśokānvitaḥ kartā rājasaḥ parikīrtitaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.27",
+        "content": "There is th' \"impassioned\" doer. He that works\n  From impulse, seeking profit, rude and bold\n  To overcome, unchastened; slave by turns\n  Of sorrow and of joy: of Rajas he!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.27"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3969,
+            "end": 4144,
+            "lineStart": 3018,
+            "lineEnd": 3021,
+            "checksum": "11a281d4d32d27d30c4ea08b32df09db42e62d2bf769b5713ef6ad2291b8a737"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.27 Passionate, desiring to obtain the reward of actions, greedy, cruel, impure, moved by joy and sorrow, such an agent is said to be Rajasic (passionate)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.27 In him who is impulsive, greedy, looking for reward, violent, impure, torn between joy and sorrow,it may be assumed that in him Passion is predominant."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.27 The agent who has attachment, who is desirous of the results of actions, covetous, cruel by nature, unclean and subject to joy and sorrow is declared to be possessed of rajas."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.28",
+      "alignmentFingerprint": "60ab3023e05bb72c4b6195f98cacc273e03b567cc9ad5d9465ab3301e1d01bed",
+      "sanskrit": "अयुक्तः प्राकृतः स्तब्धः शठो नैष्कृतिकोऽलसः।\nविषादी दीर्घसूत्री च कर्ता तामस उच्यते ॥",
+      "iast": "ayuktaḥ prākṛtaḥ stabdhaḥ śaṭho naiṣkṛtiko.alasaḥ\nviṣādī dīrghasūtrī ca kartā tāmasa ucyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.28",
+        "content": "And there be evil doers; loose of heart,\n  Low-minded, stubborn, fraudulent, remiss,\n  Dull, slow, despondent--children of the \"dark.\"",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.28"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4144,
+            "end": 4282,
+            "lineStart": 3022,
+            "lineEnd": 3025,
+            "checksum": "afde604dd48df145fa8e98e7684eb9476ab028526cb636bf7b710ff4a959f4d3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.28 Unsteady, vulgar, unbending, cheating, malicious, lazy, desponding and procrastinating such an agent is called Tamasic."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.28 While he whose purpose is infirm, who is low-minded, stubborn, dishonest, malicious, indolent, despondent, procrastinating - he may be assumed to be in Darkness."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.28 The agent who is unsteady, naive, unbending, deceitful, wicked, [A variant reading is naikrtikah.-Tr.] lazy, morose and procrastinating is said to be possessed of tamas."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.29",
+      "alignmentFingerprint": "013178fe58e511bda471d553c80d679408ee0581d3e0578104dd0c1d82e83396",
+      "sanskrit": "बुद्धेर्भेदं धृतेश्चैव गुणतस्त्रिविधं शृणु।\nप्रोच्यमानमशेषेण पृथक्त्वेन धनञ्जय ॥",
+      "iast": "buddherbhedaṃ dhṛteścaiva guṇatastrividhaṃ śṛṇu\nprocyamānamaśeṣeṇa pṛthaktvena dhanañjaya",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.29",
+        "content": "Hear, too, of Intellect and Steadfastness\n  The threefold separation, Conqueror-Prince!\n  How these are set apart by Qualities.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.29"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4282,
+            "end": 4413,
+            "lineStart": 3026,
+            "lineEnd": 3029,
+            "checksum": "7952faaa50840dd1eebab42dd7cf4ecfdf07b59c569ae47850bbc886b81047ef"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.29 Hear thou the threefold division of intellect and firmness according to the Gunas, as I declare them fully and distinctly, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.29 Reason and conviction are threefold, according to the Quality which is dominant. I will explain them fully and severally, O Arjuna!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.29 O Dhananjaya, listen to the classification of the intellect as also of fortitude, which is threefold according to the gunas, while it is being stated elaborately and severally."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.30",
+      "alignmentFingerprint": "ae51222cd73a9e4213484e32f57410af6e50a47b6f1a3cb4de9240ebbf22630f",
+      "sanskrit": "प्रवृत्तिं च निवृत्तिं च कार्याकार्ये भयाभये।\nबन्धं मोक्षं च या वेत्ति बुद्धिः सा पार्थ सात्त्विकी ॥",
+      "iast": "pravṛttiṃ ca nivṛttiṃ ca kāryākārye bhayābhaye\nbandhaṃ mokṣaṃ ca yā vetti buddhiḥ sā pārtha sāttvikī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.30",
+        "content": "Good is the Intellect which comprehends\n  The coming forth and going back of life,\n  What must be done, and what must not be done,\n  What should be feared, and what should not be feared,\n  What binds and what emancipates the soul:\n  That is of Sattwan, Prince! of \"soothfastness.\"",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.30"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4413,
+            "end": 4696,
+            "lineStart": 3030,
+            "lineEnd": 3035,
+            "checksum": "8ad53b6ec0154add10fb396fa990b6581617d6a24aaf2ae4b3e47eea4e69c009"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.30 The intellect which knows the path of work and renunciation, what ought to be done and what ought not to be done, fear and fearlessness, bondage and liberation that intellect is Sattvic (pure), O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.30 That intellect which understands the creation and dissolution of life, what actions should be done and what not, which discriminates between fear and fearlessness, bondage and deliverance, that is Pure."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.30 O Partha, that intellect is born of sattva which understands action and withdrawal, duty and what is not duty, the sources of fear and fearlessness, and bondage and freedom."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.31",
+      "alignmentFingerprint": "a9b7455407ae7fc9ed29134e985e13d4985c80c0005232116b24059ccff9946f",
+      "sanskrit": "यया धर्ममधर्मं च कार्यं चाकार्यमेव च।\nअयथावत्प्रजानाति बुद्धिः सा पार्थ राजसी ॥",
+      "iast": "yayā dharmamadharmaṃ ca kāryaṃ cākāryameva ca\nayathāvatprajānāti buddhiḥ sā pārtha rājasī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.31",
+        "content": "Marred is the Intellect which, knowing right\n  And knowing wrong, and what is well to do\n  And what must not be done, yet understands\n  Nought with firm mind, nor as the calm truth is:\n  This is of Rajas, Prince! and \"passionate!\"",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.31"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4696,
+            "end": 4929,
+            "lineStart": 3036,
+            "lineEnd": 3040,
+            "checksum": "6840c6cf3a05c21030bfaf8aec4f6e776bff640c054e58f4c0a62f66e31b5477"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.31 That, by which one wrongly understands Dharma and Adharma and also what ought to be done and what ought not to be done that intellect, O Arjuna, is Rajasic (passionate)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.31 The intellect which does not understand what is right and what is wrong, and what should be done and what not, is under the sway of Passion."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.31 O Partha, that intellect is born of rajas with which one wrongly understands virtue and vice as also what ought to be done and ought not to be done."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.32",
+      "alignmentFingerprint": "f2bf27dd66e0469a0e048e7586d7f5c11fb03f385dff77a0f96ad19e308cdde6",
+      "sanskrit": "अधर्मं धर्ममिति या मन्यते तमसावृता।\nसर्वार्थान्विपरीतांश्च बुद्धिः सा पार्थ तामसी ॥",
+      "iast": "adharmaṃ dharmamiti yā manyate tamasāvṛtā\nsarvārthānviparītāṃśca buddhiḥ sā pārtha tāmasī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.32",
+        "content": "Evil is Intellect which, wrapped in gloom,\n  Looks upon wrong as right, and sees all things\n  Contrariwise of Truth. O Pritha's Son!\n  That is of Tamas, \"dark\" and desperate!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.32"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4929,
+            "end": 5107,
+            "lineStart": 3041,
+            "lineEnd": 3045,
+            "checksum": "bfb2b5e814d924b1d59dcb238b21109448bf0bedb6b05c092ace55cf6d08ef4f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.32 That, which, enveloped in darkness, sees Adharma as Dharma and all things perverted that intellect, O Arjuna, is Tamasic (dark)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.32 And that which, shrouded in Ignorance, thinks wrong right, and sees everything perversely, O Arjuna, that intellect is ruled by Darkness."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.32 O Parhta, that intellect is born of tamas which, being covered by darkness, considers vice as virtue, and verily perceives all things contrary ot what they are."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.33",
+      "alignmentFingerprint": "769eca3939739d2ce35d98badca1a97e01b1c98cc351dc12377354bf7a0e7143",
+      "sanskrit": "धृत्या यया धारयते मनःप्राणेन्द्रियक्रियाः।\nयोगेनाव्यभिचारिण्या धृतिः सा पार्थ सात्त्विकी ॥",
+      "iast": "dhṛtyā yayā dhārayate manaḥprāṇendriyakriyāḥ\nyogenāvyabhicāriṇyā dhṛtiḥ sā pārtha sāttvikī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.33",
+        "content": "Good is the steadfastness whereby a man\n  Masters his beats of heart, his very breath\n  Of life, the action of his senses; fixed\n  In never-shaken faith and piety:\n  That is of Sattwan, Prince! \"soothfast\" and fair!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.33"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5107,
+            "end": 5325,
+            "lineStart": 3046,
+            "lineEnd": 3050,
+            "checksum": "3cf0441da78f219f39a6031ccbab50d7a98ce9e5a487d89d9f435d14a87041b2"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.33 The unwavering firmness by which, through Yoga, the functions of the mind, the life-force and the senses are restrained that firmness, O Arjuna, is Sattvic (pure)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.33 The conviction and steady concentration by which the mind, the vitality and the senses are controlled - O Arjuna! They are the product of Purity."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.33 O Partha, the firmness that is unfailing through concentration, with which one restrains the functions of the mind, vital forces and the organs, that firmness is born of sattva."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.34",
+      "alignmentFingerprint": "10ed13ca5dcbd0c493de9b0ca42b524cefad7bb3f04e50044da6fcf80610d9f9",
+      "sanskrit": "यया तु धर्मकामार्थान्धृत्या धारयतेऽर्जुन।\nप्रसङ्गेन फलाकाङ्क्षी धृतिः सा पार्थ राजसी ॥",
+      "iast": "yayā tu dharmakāmārthāndhṛtyā dhārayate.arjuna\nprasaṅgena phalākāṅkṣī dhṛtiḥ sā pārtha rājasī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.34",
+        "content": "Stained is the steadfastness whereby a man\n  Holds to his duty, purpose, effort, end,\n  For life's sake, and the love of goods to gain,\n  Arjuna! 'tis of Rajas, passion-stamped!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.34"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5325,
+            "end": 5505,
+            "lineStart": 3051,
+            "lineEnd": 3054,
+            "checksum": "deb7147bc79528138f2233baf7fe09b46ea91943ae2111aef680cccfe783fe01"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.34 But that, O Arjuna, by which, on account of attachment and desire for reward, one holds fast to Dharma (duty), enjoyment of pleasures and earning of wealth that firmness, O Arjuna, is Rajasic (passionate)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.34 The conviction which always holds fast to rituals, to self-interest and wealth, for the sake of what they may bring forth - that comes from Passion."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.34 But, O Partha, the firmness with which one holds on to righteousness, covetable things and wealth, being desirous of their fruits as the occasion for each arises, that firmness is born of rajas."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.35",
+      "alignmentFingerprint": "f41d5a158c14cd230d41a32f2a51e1497ee6d8e91e813bc495bd674db53f3d96",
+      "sanskrit": "यया स्वप्नं भयं शोकं विषादं मदमेव च।\nन विमुञ्चति दुर्मेधा धृतिः सा पार्थ तामसी ॥",
+      "iast": "yayā svapnaṃ bhayaṃ śokaṃ viṣādaṃ madameva ca\nna vimuñcati durmedhā dhṛtiḥ sā pārtha tāmasī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.35",
+        "content": "Sad is the steadfastness wherewith the fool\n  Cleaves to his sloth, his sorrow, and his fears,\n  His folly and despair. This--Pritha's Son!--\n  Is born of Tamas, \"dark\" and miserable!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.35"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5505,
+            "end": 5693,
+            "lineStart": 3055,
+            "lineEnd": 3060,
+            "checksum": "c9a587941c137d6152fb1e169d7d54dfc7c86a6c25142a1fa80375a4d1ab8650"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.35 That, by which a stupid man does not abandon sleep, fear, grief, despair and also conceit that firmness, O Arjuna, is Tamasic."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.35 And that which clings perversely to false idealism, fear, grief, despair and vanity is the product of Ignorance."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.35 That firmness is considered [Some editions read partha in place of mata (considered).-Tr.] to be born of tamas due to which a person with a corrupt intellect does not give up sleep, fear, sorrow, despondency as also sensuality."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.36",
+      "alignmentFingerprint": "2d87ca87e89efb96584b6e032bc712126568b1bbfb31acf7913449d8f109d6b3",
+      "sanskrit": "सुखं त्विदानीं त्रिविधं शृणु मे भरतर्षभ।\nअभ्यासाद्रमते यत्र दुःखान्तं च निगच्छति ॥",
+      "iast": "sukhaṃ tvidānīṃ trividhaṃ śṛṇu me bharatarṣabha\nabhyāsādramate yatra duḥkhāntaṃ ca nigacchati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.36",
+        "content": "Hear further, Chief of Bharatas! from Me\n  The threefold kinds of Pleasure which there be.\n\n  Good Pleasure is the pleasure that endures,\n  Banishing pain for aye;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.36"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5693,
+            "end": 5859,
+            "lineStart": 3061,
+            "lineEnd": 3065,
+            "checksum": "f38c9dab14bf5d3ebe03169334849d6dee255eaf1d6bd4402570947a0d2a9644"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.36 And now hear from Me, O Arjuna, of the threefold pleasure, in which one rejoices by practice and surely comes to the end of pain."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.36 Hear further the three kinds of pleasure. That which increases day after day delivers one from misery,"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.36 Now hear from Me, O scion of the Bharata dynasty, as regards the three kinds of joy: That in which one delights owing to habit, and certainly attains the cessation of sorrows; [S. and S.S. take the second line of this verse along with the next verse referring to sattvika happiness.-Tr.]"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.37",
+      "alignmentFingerprint": "2cf406f083095b6fdc079dec9f65286799f0d7eb85e47920e02b7c850fd3f014",
+      "sanskrit": "यत्तदग्रे विषमिव परिणामेऽमृतोपमम्।\nतत्सुखं सात्त्विकं प्रोक्तमात्मबुद्धिप्रसादजम् ॥",
+      "iast": "yattadagre viṣamiva pariṇāme.amṛtopamam\ntatsukhaṃ sāttvikaṃ proktamātmabuddhiprasādajam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.37",
+        "content": "bitter at first\n  As poison to the soul, but afterward\n  Sweet as the taste of Amrit. Drink of that!\n  It springeth in the Spirit's deep content.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.37"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5859,
+            "end": 6005,
+            "lineStart": 3065,
+            "lineEnd": 3068,
+            "checksum": "bfd184f76ab9c25beede637c59056a5ab40c2214526b7df481b7c412d576f11a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.37 That which is like poison at first but in the end like nectar that happiness is declared to be Sattvic, born of the purity of one's own mind due to Self-realisation."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.37 Which at first seems like poison but afterwards acts like nectar - that pleasure is Pure, for it is born of Wisdom."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.37 That which is like poison in the beginning, but comparable to nectar in the end, and which, arises from the purity of one's intellect-that joy is spoken of as born of sattva."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.38",
+      "alignmentFingerprint": "53fff15b4905f58795df65892b79ba6dd882481a1ad62aad341b6b04e9dd4c8b",
+      "sanskrit": "विषयेन्द्रियसंयोगाद्यत्तदग्रेऽमृतोपमम्।\nपरिणामे विषमिव तत्सुखं राजसं स्मृतम् ॥",
+      "iast": "viṣayendriyasaṃyogādyattadagre.amṛtopamam\npariṇāme viṣamiva tatsukhaṃ rājasaṃ smṛtam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.38",
+        "content": "And painful Pleasure springeth from the bond\n  Between the senses and the sense-world. Sweet\n  As Amrit is its first taste, but its last\n  Bitter as poison. 'Tis of Rajas, Prince!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.38"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6005,
+            "end": 6187,
+            "lineStart": 3069,
+            "lineEnd": 3072,
+            "checksum": "8f6b2ac188df9e3722fe1757d354eb855e76fb6195f219d999f9d465868da18c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.38 That happiness which arises from the contact of the sense-organs with the objects, which is at first like nectar, and in the end like poison that is declared to be Rajasic."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.38 That which as first is like nectar, because the senses revel in their objects, but in the end acts like poison - that pleasure arises from Passion."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.38 That joy is referred to as born of rajas which, arising from the contact of the organs and (their) objects, is like nectar in the beginning, but like poison at the end."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.39",
+      "alignmentFingerprint": "77f492053a6dd0a0b1cae19ae3ec038b51c4ec9aa2ed0d7bbf23f7a460f1a1f0",
+      "sanskrit": "यदग्रे चानुबन्धे च सुखं मोहनमात्मनः।\nनिद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम् ॥",
+      "iast": "yadagre cānubandhe ca sukhaṃ mohanamātmanaḥ\nnidrālasyapramādotthaṃ tattāmasamudāhṛtam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.39",
+        "content": "And foul and \"dark\" the Pleasure is which springs\n  From sloth and sin and foolishness; at first\n  And at the last, and all the way of life\n  The soul bewildering. 'Tis of Tamas, Prince!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.39"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6187,
+            "end": 6377,
+            "lineStart": 3073,
+            "lineEnd": 3077,
+            "checksum": "8f6133a24a489cd3c9d357b834d457a0b316b1eefbf1dfa14c6f259823dd679c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.39 That happiness which at first as well as in the seel deludes the self, and which arises from sleep, indolence and heedlessness that is declared to be Tamasic."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.39 While the pleasure which from first to last merely drugs the senses, which springs from indolence, lethargy and folly - that pleasure flows from Ignorance."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.39 That joy is said to be born of tams which, both in the beginning and in the seel, is delusive to oneself and arises from sleep, laziness and inadvertence."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.40",
+      "alignmentFingerprint": "64c2f73b55a9ec6a2f0eec59342f8d46d09ea7b9acf0cab5998b382ed38f5e54",
+      "sanskrit": "न तदस्ति पृथिव्यां वा दिवि देवेषु वा पुनः।\nसत्त्वं प्रकृतिजैर्मुक्तं यदेभिः स्यात्त्रिभिर्गुणैः ॥",
+      "iast": "na tadasti pṛthivyāṃ vā divi deveṣu vā punaḥ\nsattvaṃ prakṛtijairmuktaṃ yadebhiḥ syāttribhirguṇaiḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.40",
+        "content": "For nothing lives on earth, nor 'midst the gods\n  In utmost heaven, but hath its being bound\n  With these three Qualities, by Nature framed.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.40"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6377,
+            "end": 6521,
+            "lineStart": 3078,
+            "lineEnd": 3081,
+            "checksum": "861a744a182a96202180be7f6527c733bfd2526754072786eb73a4a715ab2807"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.40 There is no being on earth or again in heaven among the gods, that is liberated from the three alities born of Nature."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.40 There is nothing anywhere on earth or in the higher worlds which is free from the three Qualities - for they are born of Nature."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.40 There is no such entity in the world or, again, among the gods in heaven, which can be free from these three gunas born of Nature."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.41",
+      "alignmentFingerprint": "765884a7702bf87264d0ad6e6f23dea5627e6af59df5721a2e131e6b932cba67",
+      "sanskrit": "ब्राह्मणक्षत्रियविशां शूद्राणां च परन्तप।\nकर्माणि प्रविभक्तानि स्वभावप्रभवैर्गुणैः ॥",
+      "iast": "brāhmaṇakṣatriyaviśāṃ śūdrāṇāṃ ca parantapa\nkarmāṇi pravibhaktāni svabhāvaprabhavairguṇaiḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.41",
+        "content": "The work of Brahmans, Kshatriyas, Vaisyas,\n  And Sudras, O thou Slayer of thy Foes!\n  Is fixed by reason of the Qualities\n  Planted in each:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.41"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6521,
+            "end": 6665,
+            "lineStart": 3082,
+            "lineEnd": 3086,
+            "checksum": "86511ef7aaa4f83cc2d3c7a625e9e9d9afb9c7ea03d4b63cb80a22308c64583f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.41 Of Brahmanas, Kshatriyas and Vaisyas, as also of Sudras, O Arjuna, the duties are distributed according to the alities born of their own nature."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.41 O Arjuna! The duties of spiritual teachers, the soldiers, the traders and the servants have all been fixed according to the dominant Quality in their nature."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.41 O scorcher of enemies, the duties of the Brahmanas, the Ksatriyas and the Vaisyas, as also of the Sudras have been fully classified according to the gunas born from Nature."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.42",
+      "alignmentFingerprint": "9b4bbfd7cb436a967d7252818d5d43f717017d287a78bd9c3c23549049ae66d7",
+      "sanskrit": "शमो दमस्तपः शौचं क्षान्तिरार्जवमेव च।\nज्ञानं विज्ञानमास्तिक्यं ब्रह्मकर्म स्वभावजम् ॥",
+      "iast": "śamo damastapaḥ śaucaṃ kṣāntirārjavameva ca\njñānaṃ vijñānamāstikyaṃ brahmakarma svabhāvajam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.42",
+        "content": "A Brahman's virtues, Prince!\n  Born of his nature, are serenity,\n  Self-mastery, religion, purity,\n  Patience, uprightness, learning, and to know\n  The truth of things which be.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.42"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6665,
+            "end": 6845,
+            "lineStart": 3087,
+            "lineEnd": 3091,
+            "checksum": "3ad1140028ddb9c5cc271ef76aee717c2fc18d1c6b04de785a773aede47b2a49"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.42 Serenity, self-restraint, austerity, purity, forgiveness and also uprightness, knowledge, realisation and belief in God are the duties of the Brahmanas, born of (their own) nature."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.42 Serenity, self-restraint, austerity, purity, forgiveness, as well as uprightness, knowledge, wisdom and faith in God - these constitute the duty of a spiritual Teacher."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.42 The natural duties of the Brahmanas are the control of the internal and external organs, austerity, purity, forgiveness, straightforwardness, knowledge as also wisdom [Knowledge refers to the understanding of subjects presented by the scriptures; wisdom means making them matters of one's own experience.] and faith."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.43",
+      "alignmentFingerprint": "3209295353da50cf7097639590e82694eb8abb8a1453407ac326dcc371056434",
+      "sanskrit": "शौर्यं तेजो धृतिर्दाक्ष्यं युद्धे चाप्यपलायनम्।\nदानमीश्वरभावश्च क्षात्रं कर्म स्वभावजम् ॥",
+      "iast": "śauryaṃ tejo dhṛtirdākṣyaṃ yuddhe cāpyapalāyanam\ndānamīśvarabhāvaśca kṣātraṃ karma svabhāvajam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.43",
+        "content": "A Kshatriya's pride,\n  Born of his nature, lives in valour, fire,\n  Constancy, skilfulness, spirit in fight,\n  And open-handedness and noble mien,\n  As of a lord of men.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.43"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6845,
+            "end": 7015,
+            "lineStart": 3091,
+            "lineEnd": 3095,
+            "checksum": "8a1c471e14c38e7f50769708d2e6240be97ad9daf9b4071e84217564e871da82"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.43 Prowess, splendour, firmness, dexterity and also not fleeing from battle, generosity and lordliness are the duties of the Kshatriyas, born of (their own) nature."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.43 Valour, glory, firmness, skill, generosity, steadiness in battle and ability to rule - these constitute the duty of a soldier. They flow from his own nature."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.43 The natural duties of the Ksatriyas are heroism, boldness, fortitude, capability, and also not retreating from battle, generosity and lordliness."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.44",
+      "alignmentFingerprint": "05db2d08e34c20428823b4592d38449e630194e14a189fe9c3c1845f411f8cde",
+      "sanskrit": "कृषिगौरक्ष्यवाणिज्यं वैश्यकर्म स्वभावजम्।\nपरिचर्यात्मकं कर्म शूद्रस्यापि स्वभावजम् ॥",
+      "iast": "kṛṣigaurakṣyavāṇijyaṃ vaiśyakarma svabhāvajam\nparicaryātmakaṃ karma śūdrasyāpi svabhāvajam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.44",
+        "content": "A Vaisya's task,\n  Born with his nature, is to till the ground,\n  Tend cattle, venture trade. A Sudra's state,\n  Suiting his nature, is to minister.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.44"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7015,
+            "end": 7165,
+            "lineStart": 3095,
+            "lineEnd": 3099,
+            "checksum": "54cdb800ecd85a038ccb0257e8297439605d7fbc2e42d08319489fda51a74ae4"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.44 Agriculture, cattle-rearing and trade are the duties of the Vaisya (merchant), born of (their own) nature; and action consisting of service is the duty of the Sudra (servant-class), born of (their own) nature."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.44 Agriculture, protection of the cow and trade are the duty of a trader, again in accordance with his nature. The duty of a servant is to serve, and that too agrees with his nature."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.44 The natural duties of the Vaisyas are agriculture, cattle-rearing and trade. Of the Sudras, too, the natural duty is in the form of service."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.45",
+      "alignmentFingerprint": "07095c37e9106806292981b530a09878d73719f6f61c8d9f2eb823d207e58218",
+      "sanskrit": "स्वे स्वे कर्मण्यभिरतः संसिद्धिं लभते नरः।\nस्वकर्मनिरतः सिद्धिं यथा विन्दति तच्छृणु ॥",
+      "iast": "sve sve karmaṇyabhirataḥ saṃsiddhiṃ labhate naraḥ\nsvakarmanirataḥ siddhiṃ yathā vindati tacchṛṇu",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.45",
+        "content": "Whoso performeth--diligent, content--\n  The work allotted him, whate'er it be,\n  Lays hold of perfectness! Hear how a man\n  Findeth perfection, being so content:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.45"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7165,
+            "end": 7329,
+            "lineStart": 3100,
+            "lineEnd": 3103,
+            "checksum": "6776ca912f0f464f62188db9358222b1504f44427815de3d39c324f742634bfe"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "5.10 He who does actions, offering them to Brahman, and abandoning attachment, is not tainted by sin, just as a lotus-leaf is not tainted by water."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "5.10 He who dedicates his actions to the Spirit, without any personal attachment to them, he is no more tainted by sin than the water lily is wetted by water."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "5.10 One who acts by dedicating actions to Brahman and by renouncing attachment, he does not become polluted by sin, just as a lotus leaf is not by water."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.46",
+      "alignmentFingerprint": "2a9a3caeaa323d184ba2e6d0242a7c1db4db312e882ef978c12928e77091e8e0",
+      "sanskrit": "यतः प्रवृत्तिर्भूतानां येन सर्वमिदं ततम्।\nस्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानवः ॥",
+      "iast": "yataḥ pravṛttirbhūtānāṃ yena sarvamidaṃ tatam\nsvakarmaṇā tamabhyarcya siddhiṃ vindati mānavaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.46",
+        "content": "He findeth it through worship--wrought by work--\n  Of Him that is the Source of all which lives,\n  Of HIM by Whom the universe was stretched.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.46"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7329,
+            "end": 7474,
+            "lineStart": 3104,
+            "lineEnd": 3107,
+            "checksum": "1abc1540265465e8a7f366b7fd60b866c5db3239a411188c082f5c1046052720"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.46 He from Whom all the beings have evolved and by Whom all this is pervaded worshipping Him with his own duty, man attains perfection."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.46 Man reaches perfection by dedicating his actions to God, Who is the source of all being, and fills everything."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.46 A human being achieves success by adoring through his own duties Him from whom is the origin of creatures, and by whom is all this pervaded."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.47",
+      "alignmentFingerprint": "4c9408a4f61c021221c03a2bc074b55421bff796b914279e5d0a3ee2252cf6b5",
+      "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\nस्वभावनियतं कर्म कुर्वन्नाप्नोति किल्बिषम् ॥",
+      "iast": "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt\nsvabhāvaniyataṃ karma kurvannāpnoti kilbiṣam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.47",
+        "content": "Better thine own work is, though done with fault,\n  Than doing others' work, ev'n excellently.\n  He shall not fall in sin who fronts the task\n  Set him by Nature's hand!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.47"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7474,
+            "end": 7646,
+            "lineStart": 3108,
+            "lineEnd": 3111,
+            "checksum": "28e79d0aeae5968669b9f8472f3b4b989d8f7b3953d64fe905ffa5edd6228a37"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.47 Better is one's own duty (though) destitute of merits, than the duty of another well performed. He who does the duty ordained by his own nature incurs no sin."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.47 It is better to do one's own duty, however defective it may be, than to follow the duty of another, however well one may perform it. He who does his duty as his own nature reveals it, never sins."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.47 One's own duty, (though) defective, is superior to another's duty well performed. By performing a duty as dictated by one's own nature, one does not incur sin."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.48",
+      "alignmentFingerprint": "f2ed1046129edb2a23e0c111bb8128f563832b0407b13f0a6e0a00689304de93",
+      "sanskrit": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत्।\nसर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः ॥",
+      "iast": "sahajaṃ karma kaunteya sadoṣamapi na tyajet\nsarvārambhā hi doṣeṇa dhūmenāgnirivāvṛtāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.48",
+        "content": "Let no man leave\n  His natural duty, Prince! though it bear blame!\n  For every work hath blame, as every flame\n  Is wrapped in smoke!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.48"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7646,
+            "end": 7780,
+            "lineStart": 3111,
+            "lineEnd": 3114,
+            "checksum": "5f8930183590932f4646b2c42f4202d797a78c4adbee4bd0ff9c6c502c0f017f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.48 One should not abandon, O Arjuna, the duty to which one is born, though faulty; for, all undertakings are enveloped by evil, as fire by smoke."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.48 The duty that of itself falls to one's lot should not be abandoned, though it may have its defects. All acts are marred by defects, as fire is obscured by smoke."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.48 O son of Kunti, one should not give up the duty to which one is born, even though it be faulty. For all undertakings are surrounded with evil, as fire is with smoke."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.49",
+      "alignmentFingerprint": "9f0c66fdfb426136a94435e5f81d1e843160086e7be3c5f332de4cc2e10283c7",
+      "sanskrit": "असक्तबुद्धिः सर्वत्र जितात्मा विगतस्पृहः।\nनैष्कर्म्यसिद्धिं परमां संन्यासेनाधिगच्छति ॥",
+      "iast": "asaktabuddhiḥ sarvatra jitātmā vigataspṛhaḥ\nnaiṣkarmyasiddhiṃ paramāṃ saṃnyāsenādhigacchati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.49",
+        "content": "Only that man attains\n  Perfect surcease of work whose work was wrought\n  With mind unfettered, soul wholly subdued,\n  Desires for ever dead, results renounced.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.49"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7780,
+            "end": 7942,
+            "lineStart": 3114,
+            "lineEnd": 3118,
+            "checksum": "afbf855964974789d30f25ff7649fa597193bb30d8664cf323e29fb00774f8a4"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.49 He whose intellect is unattached everywhere, who has subdued his self, from whom desire has fled, he by renunciation, attains the supreme state of freedom from action."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.49 He whose mind is entirely detached, who has conquered himself, whose desires have vanished, by his renunciation reaches that stage of perfect freedom where action completes itself and leaves no seed."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.49 He whose intellect remains unattached to everything, who has conered his internal organs and is desireless, attains through monasticism the supreme perfection consisting in the state of one free from duties."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.50",
+      "alignmentFingerprint": "5506b85c4fb416ce77b2f34f29a07992c72549d33a4f4ad5217ee605b7b5b1aa",
+      "sanskrit": "सिद्धिं प्राप्तो यथा ब्रह्म तथाप्नोति निबोध मे।\nसमासेनैव कौन्तेय निष्ठा ज्ञानस्य या परा ॥",
+      "iast": "siddhiṃ prāpto yathā brahma tathāpnoti nibodha me\nsamāsenaiva kaunteya niṣṭhā jñānasya yā parā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.50",
+        "content": "Learn from me, Son of Kunti! also this,\n  How one, attaining perfect peace, attains\n  BRAHM, the supreme, the highest height of all!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.50"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7942,
+            "end": 8078,
+            "lineStart": 3119,
+            "lineEnd": 3122,
+            "checksum": "b9cb979742d990dd94f1173fd4989b5dbc75d74e420b359fed9d44efe36127a2"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.50 Learn from Me in brief, O Arjuna, how he who has attained perfection reaches Brahman (the Eternal), that supreme state of knowledge."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.50 I will now state briefly how he, who has reached perfection, finds the Eternal Spirit, the state of Supreme Wisdom."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.50 Understand for certain from Me, in brief indeed, O son of Kunti, that process by which one who has achieved success attains Brahman, which is the supreme consummation of Knowledge."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.51",
+      "alignmentFingerprint": "ffe4a9d4262d8ea170a40d68614b49a3320e20aca3bfb2b31d51f83fc8a88303",
+      "sanskrit": "बुद्ध्या विशुद्धया युक्तो धृत्यात्मानं नियम्य च।\nशब्दादीन्विषयांस्त्यक्त्वा रागद्वेषौ व्युदस्य च ॥",
+      "iast": "buddhyā viśuddhayā yukto dhṛtyātmānaṃ niyamya ca\nśabdādīnviṣayāṃstyaktvā rāgadveṣau vyudasya ca",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.51",
+        "content": "Devoted--with a heart grown pure, restrained\n  In lordly self-control, forgoing wiles\n  Of song and senses, freed from love and hate,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.51"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8078,
+            "end": 8214,
+            "lineStart": 3123,
+            "lineEnd": 3125,
+            "checksum": "6b8c8a971ac86faadbb77047cc5cadb632d08ad51b5a4a44e1d6dadef82d802f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.51 Endowed with a pure intellect, controlling the self by firmness, relinishing sound and other objects and abandoning attraction and hatred."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.51 Guided always by pure reason, bravely restraining himself, renouncing the objects of sense and giving up attachment and hatred;"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.51 Being endowed with a pure intellect, and controlling oneself with fortitude, rejecting the objects-beginning from sound [Sound, touch, form and colour, taste and smell.-Tr.], and eliminating attachment and hatred;"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.52",
+      "alignmentFingerprint": "e2b21bc44fe60910ffdabeab53cdbdbed0d6177c4bf5eb717248e5d9f7d3572d",
+      "sanskrit": "विविक्तसेवी लघ्वाशी यतवाक्कायमानसः।\nध्यानयोगपरो नित्यं वैराग्यं समुपाश्रितः ॥",
+      "iast": "viviktasevī laghvāśī yatavākkāyamānasaḥ\ndhyānayogaparo nityaṃ vairāgyaṃ samupāśritaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.52",
+        "content": "Dwelling 'mid solitudes, in diet spare,\n  With body, speech, and will tamed to obey,\n  Ever to holy meditation vowed,\n  From passions liberate,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.52"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8214,
+            "end": 8360,
+            "lineStart": 3126,
+            "lineEnd": 3129,
+            "checksum": "637eb8fcb97cc8f801cece7baee803f825add1804a20d08ca67f5b61e1b0751a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.52 Dwelling in solitude, eating but little, with speech, body and mind subdued, always engaged in meditation and concentration, resorting to dispassion."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.52 Enjoying solitude, abstemiousness, his body, mind and speech under perfect control, absorbed in meditation, he becomes free - always filled with the spirit of renunciation."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.52 One who resorts to solitude, eats sparingly, has speech, body and mind under control, to whom meditation and concentration are ever the highest (duty), and who is possessed of dispassion;"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.53",
+      "alignmentFingerprint": "8a316be841f0b8cf767ca2f887d7b6e26034cee9fd70e82b38eced364a053482",
+      "sanskrit": "अहंकारं बलं दर्पं कामं क्रोधं परिग्रहम्।\nविमुच्य निर्ममः शान्तो ब्रह्मभूयाय कल्पते ॥",
+      "iast": "ahaṃkāraṃ balaṃ darpaṃ kāmaṃ krodhaṃ parigraham\nvimucya nirmamaḥ śānto brahmabhūyāya kalpate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.53",
+        "content": "quit of the Self,\n  Of arrogance, impatience, anger, pride;\n  Freed from surroundings, quiet, lacking nought--\n  Such an one grows to oneness with the BRAHM;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.53"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8360,
+            "end": 8518,
+            "lineStart": 3129,
+            "lineEnd": 3132,
+            "checksum": "79da422ef95a3356c62e02cae71d6767aa7f6b4fbb9cb0b0a7032ca781f20880"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.53 Having abandoned egoism, strength, arrogance, desire, anger and covetousness, and free from the notion of 'mine' and peaceful, he is fit for becoming Brahman."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.53 Having abandoned selfishness, power, arrogance, anger and desire, possessing nothing of his own and having attained peace, he is fit to join the Eternal Spirit."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.53 (That person,) having discarded egotism, force, pride, desire, anger and superfluous possessions, free from the idea of possession, and serene, is fit for becoming Brahman."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.54",
+      "alignmentFingerprint": "6cddac930231aa275fb1865aedc8536655f4979a3f73f1312bda7e6be016a790",
+      "sanskrit": "ब्रह्मभूतः प्रसन्नात्मा न शोचति न काङ्क्षति।\nसमः सर्वेषु भूतेषु मद्भक्तिं लभते पराम् ॥",
+      "iast": "brahmabhūtaḥ prasannātmā na śocati na kāṅkṣati\nsamaḥ sarveṣu bhūteṣu madbhaktiṃ labhate parām",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.54",
+        "content": "Such an one, growing one with BRAHM, serene,\n  Sorrows no more, desires no more; his soul,\n  Equally loving all that lives, loves well\n  Me, Who have made them, and attains to Me.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.54"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8518,
+            "end": 8700,
+            "lineStart": 3133,
+            "lineEnd": 3136,
+            "checksum": "7c0a0088bc6e6ecabebe1d2836759bc229f5bc5f056150b62868989000e9aaab"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.54 Becoming Brahman, serene in the Self, he neither grieves nor desires, the same to all beings, he obtains supreme devotion to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.54 And when he becomes one with the Eternal, and his soul knows the bliss that belongs to the Self, he feels no desire and no regret, he regards all beings equally and enjoys the blessing of supreme devotion to Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.54 One who has become Brahman and has attained the blissful Self does not grieve or desire. Becoming the same towards all beings, he attains supreme devotion to Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.55",
+      "alignmentFingerprint": "3fab0ecae89588357747af3b2e513d87a59e187391d7c3bd24d41f36c7b86854",
+      "sanskrit": "भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः।\nततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ॥",
+      "iast": "bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ\ntato māṃ tattvato jñātvā viśate tadanantaram",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.55",
+        "content": "By this same love and worship doth he know\n  Me as I am, how high and wonderful,\n  And knowing, straightway enters into Me.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.55"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8700,
+            "end": 8826,
+            "lineStart": 3137,
+            "lineEnd": 3139,
+            "checksum": "2431c974217b7bef7dc527d45ec665226fdbf221414140dff53ec76ef0bc5a81"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.55 By devotion he knows Me in truth, what and who I am; then having known Me in truth, he forthwith enters into the Supreme."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.55 By such devotion, he sees Me, who I am and what I am; and thus realising the Truth, he enters My Kingdom."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.55 Through devotion he knows Me in reality, as to what and who I am. Then, having known Me in truth, he enters (into Me) immediately after that (Knowledge)."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.56",
+      "alignmentFingerprint": "72f545a42d2808f73ddc3dca9f5c20cc0c3b2a879b22703c644015bb4046a77d",
+      "sanskrit": "सर्वकर्माण्यपि सदा कुर्वाणो मद्व्यपाश्रयः।\nमत्प्रसादादवाप्नोति शाश्वतं पदमव्ययम् ॥",
+      "iast": "sarvakarmāṇyapi sadā kurvāṇo madvyapāśrayaḥ\nmatprasādādavāpnoti śāśvataṃ padamavyayam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.56",
+        "content": "And whatsoever deeds he doeth--fixed\n  In Me, as in his refuge--he hath won\n  For ever and for ever by My grace\n  Th' Eternal Rest!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.56"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8826,
+            "end": 8960,
+            "lineStart": 3140,
+            "lineEnd": 3143,
+            "checksum": "4b158e24f1ba8afce3561ac557dc72c8f61286e42a2bc6c9bdde3e91b3851c5e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.56 Doing all actions always having taken refuge in Me, by My grace he obtains the eternal indestructible state of being."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.56 Relying on Me in all his action and doing them for My sake, he attains, by My Grace, Eternal and Unchangeable Life."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.56 Ever engaging even in all actions, one to whom I am the refuge, attains the eternal, immutable State through My grace."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.57",
+      "alignmentFingerprint": "e1dc1473a1786c57108c5e93a019d14e14b0917f2df2a5de24d82eabeab6c68e",
+      "sanskrit": "चेतसा सर्वकर्माणि मयि संन्यस्य मत्परः।\nबुद्धियोगमुपाश्रित्य मच्चित्तः सततं भव ॥",
+      "iast": "cetasā sarvakarmāṇi mayi saṃnyasya matparaḥ\nbuddhiyogamupāśritya maccittaḥ satataṃ bhava",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.57",
+        "content": "So win thou! In thy thoughts\n  Do all thou dost for Me! Renounce for Me!\n  Sacrifice heart and mind and will to Me!\n  Live in the faith of Me!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.57"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8960,
+            "end": 9103,
+            "lineStart": 3143,
+            "lineEnd": 3146,
+            "checksum": "7965c5de0a073011d576c5d8468519ac21e597dde7b51ba25c0b4adffdde45f1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.57 Mentally renouncing all actions in Me, having Me as the highest goal, resorting to the Yoga of discrimination do thou ever fix thy mind on Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.57 Surrender then thy actions unto Me, live in Me, concentrate thine intellect on Me, and think always of Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.57 Mentally surrendering all actions to Me and accepting Me as the supreme, have your mind ever fixed on Me by resorting to the concentration of your intellect."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.58",
+      "alignmentFingerprint": "71989ca7d7620c4af195a8fb1dea8da4b13726a42eb0470035e7e77313e33c10",
+      "sanskrit": "मच्चित्तः सर्वदुर्गाणि मत्प्रसादात्तरिष्यसि।\nअथ चेत्त्वमहंकारान्न श्रोष्यसि विनङ्क्ष्यसि ॥",
+      "iast": "maccittaḥ sarvadurgāṇi matprasādāttariṣyasi\natha cettvamahaṃkārānna śroṣyasi vinaṅkṣyasi",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.58",
+        "content": "In faith of Me\n  All dangers thou shalt vanquish, by My grace;\n  But, trusting to thyself and heeding not,\n  Thou can'st but perish!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.58"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9103,
+            "end": 9236,
+            "lineStart": 3146,
+            "lineEnd": 3149,
+            "checksum": "ae2c4262226e61c66d83568b00c4e0fa0b2a8d22d0eab07552b874c3e28700f9"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.58 Fixing thy mind on Me, thou shalt by My grace overcome all obstacles; but if from egoism thou wilt not hear Me, thou shalt perish."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.58 Fix but thy mind on Me, and by My grace thou shalt overcome the obstacles in thy path. But if, misled by pride, thou wilt not listen, then indeed thou shalt be lost."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.58 Having your mind fixed on Me, you will cross over all difficulties through My grace. If, on the other hand, you do not listen out of egotism, you will get destroyed."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.59",
+      "alignmentFingerprint": "994a1e2621f3e3e630f89db4dfed6e29b9b09491f526d6998c6ec0d80a0d8a88",
+      "sanskrit": "यदहंकारमाश्रित्य न योत्स्य इति मन्यसे।\nमिथ्यैष व्यवसायस्ते प्रकृतिस्त्वां नियोक्ष्यति ॥",
+      "iast": "yadahaṃkāramāśritya na yotsya iti manyase\nmithyaiṣa vyavasāyaste prakṛtistvāṃ niyokṣyati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.59",
+        "content": "If this day thou say'st,\n  Relying on thyself, \"I will not fight!\"\n  Vain will the purpose prove! thy qualities\n  Would spur thee to the war.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.59"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9236,
+            "end": 9378,
+            "lineStart": 3149,
+            "lineEnd": 3152,
+            "checksum": "f66bced5bcacdebca5547a2d91a5d0955edaff1d903a54aab9cc481b8788c1a6"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.59 If, filled with egoism, thou thinkest: \"I will not fight\", vain is this, thy resolve; Nature will compel thee."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.59 If thou in thy vanity thinkest of avoiding this fight, thy will shall not be fulfilled, for Nature herself will compel thee."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.59 That you think 'I shall not fight', by relying on egotism,-vain is this determination of yours. (Your) nature impel you!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.60",
+      "alignmentFingerprint": "d808baddb662ea7c86c1a7d54c604df6fa7903328bf821a231e67c84e74802f1",
+      "sanskrit": "स्वभावजेन कौन्तेय निबद्धः स्वेन कर्मणा।\nकर्तुं नेच्छसि यन्मोहात्करिष्यस्यवशोपि तत् ॥",
+      "iast": "svabhāvajena kaunteya nibaddhaḥ svena karmaṇā\nkartuṃ necchasi yanmohātkariṣyasyavaśopi tat",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.60",
+        "content": "What thou dost shun,\n  Misled by fair illusions, thou wouldst seek\n  Against thy will, when the task comes to thee\n  Waking the promptings in thy nature set.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.60"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9378,
+            "end": 9536,
+            "lineStart": 3152,
+            "lineEnd": 3155,
+            "checksum": "b9b1e5961a23d9f4c4fbb3556eacf0a52147c795764f5fd971e0508d2d548aec"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.60 O Arjuna, bound by thy own Karma (action) born of thy own nature, that which from delusion thou wishest not to do, even that thou shalt do helplessly."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.60 O Arjuna! Thy duty binds thee. From thine own nature has it arisen, and that which in thy delusion thou desire not to do, that very thing thou shalt do. Thou art helpless."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.60 Being bound by your own duty born of nature, O son of Kunti, you, being helpless, will verily do that which you do not wish to do owing to indiscrimination."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.61",
+      "alignmentFingerprint": "d3a8701934a34c254cb360dcf2d659fe5bfc1ee2131f7ec98324e631a5d6b722",
+      "sanskrit": "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति।\nभ्रामयन्सर्वभूतानि यन्त्रारूढानि मायया ॥",
+      "iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe.arjuna tiṣṭhati\nbhrāmayansarvabhūtāni yantrārūḍhāni māyayā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.61",
+        "content": "There lives a Master in the hearts of men\n  Maketh their deeds, by subtle  pulling--strings,\n  Dance to what tune HE will.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.61"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9536,
+            "end": 9661,
+            "lineStart": 3156,
+            "lineEnd": 3158,
+            "checksum": "68801fa57f63d08b009aa63b02919a1110dfb4d3ea6898a8666301b9dd7b3d0d"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.61 The Lord dwells in the hearts of all beings, O Arjuna, causing all beings, by His illusive power, to revolve as if mounted on a machine."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.61 God dwells in the hearts of all beings, O Arjuna! He causes them to revolve as it were on a wheel by His mystic power."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.61 O Arjuna, the Lord resides in the region of the heart of all creatures, revolving through Maya all the creatures (as though) mounted on a machine!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.62",
+      "alignmentFingerprint": "9a531817f6ae86fa63cf552b1b256fbc82a7d14ba72807e72ab79acbc83b0565",
+      "sanskrit": "तमेव शरणं गच्छ सर्वभावेन भारत।\nतत्प्रसादात्परां शान्तिं स्थानं प्राप्स्यसि शाश्वतम् ॥",
+      "iast": "tameva śaraṇaṃ gaccha sarvabhāvena bhārata\ntatprasādātparāṃ śāntiṃ sthānaṃ prāpsyasi śāśvatam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.62",
+        "content": "With all thy soul\n  Trust Him, and take Him for thy succour, Prince!\n  So--only so, Arjuna!--shalt thou gain--\n  By grace of Him--the uttermost repose,\n  The Eternal Place!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.62"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9661,
+            "end": 9835,
+            "lineStart": 3158,
+            "lineEnd": 3163,
+            "checksum": "ea28957e6fca543b3a36940291354404d692835dcf586b4b587c78dd5d13ec2a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.62 Fly unto Him for refuge with all thy being, O Arjuna; by His grace thou shalt obtain supreme peace (and) the eternal abode."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.62 With all thy strength, fly unto Him and surrender thyself, and by His grace shalt thou attain Supreme Peace and reach the Eternal Home."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.62 Take refuge in Him alone with your whole being, O scion of the Bharata dynasty. Through His grace you will attain the supreme Peace and the eternal Abode."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.63",
+      "alignmentFingerprint": "0ef9125161e32db5072aa1049b67f46ec2fbdff9e3be85bb62b4555af4209822",
+      "sanskrit": "इति ते ज्ञानमाख्यातं गुह्याद्गुह्यतरं मया।\nविमृश्यैतदशेषेण यथेच्छसि तथा कुरु ॥",
+      "iast": "iti te jñānamākhyātaṃ guhyādguhyataraṃ mayā\nvimṛśyaitadaśeṣeṇa yathecchasi tathā kuru",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.63",
+        "content": "Thus hath been opened thee\n  This Truth of Truths, the Mystery more hid\n  Than any secret mystery. Meditate!\n  And--as thou wilt--then act!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.63"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9835,
+            "end": 9978,
+            "lineStart": 3164,
+            "lineEnd": 3168,
+            "checksum": "4719948d2db656fcbaa4a8c2221d589dd615706f0c417f74f61ca959acda9a2c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.63 Thus has wisdom, more secret than secrecy itself, been declared unto thee by Me; having reflected over it fully, then act as thou wishest."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.63 Thus have I revealed to thee the Truth, the Mystery of mysteries. Having thought it over, thou art free to act as thou wilt."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.63 To you has been imparted by Me this knowledge [Derived in the instrumental sense of 'means of knowledge'; i.e. the scripture Gita.] which is moe secret than any secret. Pondering over this as a whole, do as you like."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.64",
+      "alignmentFingerprint": "1350a7ce9fa1a949aa29cec22b948f82e5f97d3ddb98a47bf2cb8a38231ba8eb",
+      "sanskrit": "सर्वगुह्यतमं भूयः शृणु मे परमं वचः।\nइष्टोऽसि मे दृढमिति ततो वक्ष्यामि ते हितम् ॥",
+      "iast": "sarvaguhyatamaṃ bhūyaḥ śṛṇu me paramaṃ vacaḥ\niṣṭo.asi me dṛḍhamiti tato vakṣyāmi te hitam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.64",
+        "content": "Nay! but once more\n  Take My last word, My utmost meaning have!\n  Precious thou art to Me; right well-beloved!\n  Listen! I tell thee for thy comfort this.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.64"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9978,
+            "end": 10135,
+            "lineStart": 3169,
+            "lineEnd": 3172,
+            "checksum": "571cc7c237803fc5b86917d51e644e6b81f1439fcab06923229d1fc202a0109d"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.64 Hear thou again My supreme word, most secret of all; because thou art dearly beloved of Me, I will tell thee what is good."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.64 Only listen once more to My last word, the deepest secret of all; thou art My beloved, thou are My friend, and I speak for thy welfare."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.64 Listen again to My highest utterance which is the profoundest of all. Since you are ever dear to Me, therefore I shall speak what is beneficial to you."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.65",
+      "alignmentFingerprint": "07981096f8411933032e8d143a509a9cb107a9d75bb0c0c8ecfafa02ef4e43f8",
+      "sanskrit": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु।\nमामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे ॥",
+      "iast": "manmanā bhava madbhakto madyājī māṃ namaskuru\nmāmevaiṣyasi satyaṃ te pratijāne priyo.asi me",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.65",
+        "content": "Give Me thy heart! adore Me! serve Me! cling\n  In faith and love and reverence to Me!\n  So shalt thou come to Me! I promise true,\n  For thou art sweet to Me!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.65"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10135,
+            "end": 10296,
+            "lineStart": 3173,
+            "lineEnd": 3177,
+            "checksum": "ebcf3b4de512da27d0fea94d5425c691c8f8eb309c21e8d2a29072818cb30a38"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.65 Fix thy mind on Me, by devoted to Me, sacrifice to Me, bow down to Me. Thou shalt come even to Me; truly do I promise unto thee, (for) thou art dear to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.65 Dedicate thyself to Me, worship Me, sacrifice all for Me, prostrate thyself before Me, and to Me thou shalt surely come. Truly do I pledge thee; thou art My own beloved."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.65 Have your mind fixed on Me, be My devotee, be a sacrificer to Me and bow down to Me. (Thus) you will come to Me alone. (This) truth do I pormise to you. (For) you are dear to Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.66",
+      "alignmentFingerprint": "a0f422287e9affe48ef4878277e1c2627f082675b8b4bb3c0f7781457a95a737",
+      "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज।\nअहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥",
+      "iast": "sarvadharmānparityajya māmekaṃ śaraṇaṃ vraja\nahaṃ tvāṃ sarvapāpebhyo mokṣyayiṣyāmi mā śucaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.66",
+        "content": "And let go those--\n  Rites and writ duties! Fly to Me alone!\n  Make Me thy single refuge! I will free\n  Thy soul from all its  sins! Be of good cheer!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.66"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10296,
+            "end": 10450,
+            "lineStart": 3178,
+            "lineEnd": 3182,
+            "checksum": "70321458344a1b9606e48108d5783c22da15f2d0f2ad958a824405d3081199b3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.66 Abandoning all duties, take refuge in Me alone: I will liberate thee from all sins; grieve not."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.66 Give up then thy earthly duties, surrender thyself to Me only. Do not be anxious; I will absolve thee from all thy sin."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.66 Abandoning all forms of rites and duties, take refuge in Me alone. I sahll free you from all sins. (Therefore) do not grieve."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.67",
+      "alignmentFingerprint": "581ec262af44422e680ec043cb8bfb38e674c121bf440e2c401d47aedc5d3fdd",
+      "sanskrit": "इदं ते नातपस्काय नाभक्ताय कदाचन।\nन चाशुश्रूषवे वाच्यं न च मां योऽभ्यसूयति ॥",
+      "iast": "idaṃ te nātapaskāya nābhaktāya kadācana\nna cāśuśrūṣave vācyaṃ na ca māṃ yo.abhyasūyati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.67",
+        "content": "[Hide, the holy Krishna saith,\n  This from him that hath no faith,\n  Him that worships not, nor seeks\n  Wisdom's teaching when she speaks:\n  Hide it from all men who mock;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.67"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10450,
+            "end": 10624,
+            "lineStart": 3183,
+            "lineEnd": 3187,
+            "checksum": "cc78dc9f0f0f27712bddefc299fad56e72747daa7bd8e758c7c28d8c47a719a4"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.67 This is never to be spoken by thee to one who is devoid of austerities or devotion, nor to one who does not render service or who does not desire to listen, nor to one who cavils at Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.67 Speak not this to one who has not practised austerities, or to him who does not love, or who will not listen, or who mocks."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.67 This (that I have taught) you should not ever be taught to one who is devoid of austerities and to one who is not a devotee; also, neither to one who does not render service, nor as well to one who cavils at Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.68",
+      "alignmentFingerprint": "ba38a48f932d6fe5c543fa88dab53252922199f7d90c188888e2ba5ae25afa42",
+      "sanskrit": "य इदं परमं गुह्यं मद्भक्तेष्वभिधास्यति।\nभक्तिं मयि परां कृत्वा मामेवैष्यत्यसंशयः ॥",
+      "iast": "ya idaṃ paramaṃ guhyaṃ madbhakteṣvabhidhāsyati\nbhaktiṃ mayi parāṃ kṛtvā māmevaiṣyatyasaṃśayaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.68",
+        "content": "But, wherever, 'mid the flock\n  Of My lovers, one shall teach\n  This  divinest, wisest, speech--\n  Teaching in the faith to bring\n  Truth to them, and offering\n  Of all honour unto Me--\n  Unto Brahma cometh he!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.68"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10624,
+            "end": 10837,
+            "lineStart": 3188,
+            "lineEnd": 3194,
+            "checksum": "364d0d70fd8f1baf701b1c1c569fd420e1af17e8837202b3ae764dce6b9b0a7a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.68 He who with supreme devotion to Me will teach this supreme secret to My devotees, shall doubtlessly come to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.68 But he who teaches this great secret to My devotees, his is the highest devotion, and verily he shall come unto Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.68 He who, entertaining supreme devotion to Me, will speak of this highest secret, to My devotees will without doubt reach Me alone."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.69",
+      "alignmentFingerprint": "6167f86fb627a7a03e69a03046c32a8b8d8f121ed4f5294eec6c77bee30fe1d4",
+      "sanskrit": "न च तस्मान्मनुष्येषु कश्चिन्मे प्रियकृत्तमः।\nभविता न च मे तस्मादन्यः प्रियतरो भुवि ॥",
+      "iast": "na ca tasmānmanuṣyeṣu kaścinme priyakṛttamaḥ\nbhavitā na ca me tasmādanyaḥ priyataro bhuvi",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.69",
+        "content": "Nay, and nowhere shall ye find\n  Any man of all mankind\n  Doing dearer deed for Me;\n  Nor shall any dearer be\n  In My earth.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.69"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10837,
+            "end": 10964,
+            "lineStart": 3195,
+            "lineEnd": 3199,
+            "checksum": "ca13e662339bbd6318cc7847aa89ceb34fdb1b68c6382365b1e717b86d5ea52c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.69 Nor is there any among men who does dearer service to Me, nor shall there be another on earth dearer to Me than he."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.69 Nor is there among men any who can perform a service dearer to Me than this, or any man on earth more beloved by Me than he."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.69 And as compared with him, none else among human beings is the best accomplisher of what is dear to Me. Moreover, nor will there be anyone else in the world dearer to Me than he."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.70",
+      "alignmentFingerprint": "34f5a78f0de9cef37940f6a81a16c9f212c186f8fc1604a6ba06281e8010a937",
+      "sanskrit": "अध्येष्यते च य इमं धर्म्यं संवादमावयोः।\nज्ञानयज्ञेन तेनाहमिष्टः स्यामिति मे मतिः ॥",
+      "iast": "adhyeṣyate ca ya imaṃ dharmyaṃ saṃvādamāvayoḥ\njñānayajñena tenāhamiṣṭaḥ syāmiti me matiḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.70",
+        "content": "Yea, furthermore,\n  Whoso reads this converse o'er,\n  Held by Us upon the plain,\n  Pondering piously and fain,\n  He hath paid Me sacrifice!\n  (Krishna speaketh in this wise!)",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.70"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10964,
+            "end": 11139,
+            "lineStart": 3199,
+            "lineEnd": 3204,
+            "checksum": "5d3068560c47bc0be2a99754143534664e3a8c43e706d39adb8052d1879dd6a7"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.70 And he who will study this sacred dialogue of ours, by him I shall have been worshipped by the sacrifice of wisdom, such is My conviction."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.70 He who will study this spiritual discourse of ours, I assure thee, he shall thereby worship Me at the altar of Wisdom."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.70 And he who will study this sacred conversation between us two, which is conducive to virtue, by him I shall be adored through the Sacrifice in the form of Knowledge. This is My judgement."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.71",
+      "alignmentFingerprint": "5b9cf98e32e40382060ba3681111404653f759342bebd0263c05442545bf8133",
+      "sanskrit": "श्रद्धावाननसूयश्च शृणुयादपि यो नरः।\nसोऽपि मुक्तः शुभाँल्लोकान्प्राप्नुयात्पुण्यकर्मणाम् ॥",
+      "iast": "śraddhāvānanasūyaśca śṛṇuyādapi yo naraḥ\nso.api muktaḥ śubhā.Nllokānprāpnuyātpuṇyakarmaṇām",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.71",
+        "content": "Yea, and whoso, full of faith,\n  Heareth wisely what it saith,\n  Heareth meekly,--when he dies,\n  Surely shall his spirit rise\n  To those regions where the Blest,\n  Free of flesh, in joyance rest.]",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.71"
+        ],
+        "sourceSpans": [
+          {
+            "start": 11139,
+            "end": 11340,
+            "lineStart": 3205,
+            "lineEnd": 3211,
+            "checksum": "26919a4d58858f17291c0ced9e6dd2ebdb57174f649810e3ded718995166198c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.71 Also the man who hears this, full of faith and free from malice, he, too, liberated, shall attain to the happy worlds of those of righteous deeds."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.71 Yea, he who listens to it with faith and without doubt, even he, freed from evil, shalt rise to the worlds which the virtuous attain through righteous deeds."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.71 Any man who, being reverential and free from cavilling, might even hear (this), he too, becoming free, shall attain the blessed worlds of those who perform virtuous deeds."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.72",
+      "alignmentFingerprint": "ea893896701425199cc6077daa4d9e0b1547907da4a7b378a79e10d3d345719d",
+      "sanskrit": "कच्चिदेतच्छ्रुतं पार्थ त्वयैकाग्रेण चेतसा।\nकच्चिदज्ञानसम्मोहः प्रनष्टस्ते धनञ्जय ॥",
+      "iast": "kaccidetacchrutaṃ pārtha tvayaikāgreṇa cetasā\nkaccidajñānasammohaḥ pranaṣṭaste dhanañjaya",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.18.72",
+        "content": "Hath this been heard by thee, O Indian Prince!\n  With mind intent? hath all the ignorance--\n  Which bred thy trouble--vanished, My Arjun?",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.72"
+        ],
+        "sourceSpans": [
+          {
+            "start": 11340,
+            "end": 11481,
+            "lineStart": 3212,
+            "lineEnd": 3215,
+            "checksum": "4a5b33db3eae9efbae80d504a79c27d50885dc90f49f61875b6ef976de7afdc8"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.72 Has this been heard, O Arjuna, with one-pointed mind? Has the delusion of thy ignorance been destroyed, O Dhananjaya?"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.72 O Arjuna! Hast thou listened attentively to My words? Has thy ignorance and thy delusion gone?"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.72 O Partha, has this been listened to by you with a one-pointed mind? O Dhananjaya, has your delusion caused by ignorance been destroyed?"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.73",
+      "alignmentFingerprint": "5d4fe5846cecc2d739dbce1aae09b42f16327a10170efa57c38f04292e476e58",
+      "sanskrit": "अर्जुन उवाच।\nनष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत।\nस्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव ॥",
+      "iast": "arjuna uvāca\nnaṣṭo mohaḥ smṛtirlabdhā tvatprasādānmayācyuta\nsthito.asmi gatasandehaḥ kariṣye vacanaṃ tava",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.18.73",
+        "content": "Arjuna.\n  Trouble and ignorance are gone! the Light\n  Hath come unto me, by Thy favour, Lord!\n  Now am I fixed! my doubt is fled away!\n  According to Thy word, so will I do!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.73"
+        ],
+        "sourceSpans": [
+          {
+            "start": 11481,
+            "end": 11658,
+            "lineStart": 3216,
+            "lineEnd": 3221,
+            "checksum": "66c6ea9152ac390df4624e895938ac630b14f8906bc03ff50bff62908698b22f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.73 Arjuna said Destroyed is my delusion as I have gained my knowledge (memory) through Thy grace, O Krishna. I remain freed from doubts. I will act according to Thy word."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.73 Arjuna replied: My Lord! O Immutable One! My delusion has fled. By Thy Grace, O Changeless One, the light has dawned. My doubts are gone, and I stand before Thee ready to do Thy will.\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.73 Arjuna said O Acyuta, (my) delusion has been destroyed and memory has been regained by me through Your grace. I stand with my doubt removed; I shall follow Your instruction."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.74",
+      "alignmentFingerprint": "4784b5f88b71e1f8a3f4c9d08c01ef24bb4657ffb98664f92224cf34172062d8",
+      "sanskrit": "सञ्जय उवाच।\nइत्यहं वासुदेवस्य पार्थस्य च महात्मनः।\nसंवादमिममश्रौषमद्भुतं रोमहर्षणम् ॥",
+      "iast": "sañjaya uvāca\nityahaṃ vāsudevasya pārthasya ca mahātmanaḥ\nsaṃvādamimamaśrauṣamadbhutaṃ romaharṣaṇam",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.18.74",
+        "content": "Sanjaya.\n  Thus gathered I the gracious speech of Krishna, O my King!\n  Thus have I told, with heart a-thrill, this wise and wondrous thing",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.74"
+        ],
+        "sourceSpans": [
+          {
+            "start": 11658,
+            "end": 11800,
+            "lineStart": 3222,
+            "lineEnd": 3224,
+            "checksum": "ffe2a570abbde44136e73bb2aa30a301a2476aa4320059b6a0032ed2eeb62996"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.74 Sanjaya said Thus I have heard this wonderful dialogue between Krishna and the high-souled Arjuna, which causes the hair to stand on end."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.74 Sanjaya told: \"Thus have I heard this rare, wonderful and soul-stirring discourse of the Lord Shri Krishna and the great-souled Arjuna."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.74 Sanjaya said I thus heard this conversation of Vasudeva and of the great-souled Partha, which is unie and makes one's hair stand on end."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.75",
+      "alignmentFingerprint": "41ae12c1f64b451e46df88b40d6830039e38b721bd2fe1e071eff6f58a363327",
+      "sanskrit": "व्यासप्रसादाच्छ्रुतवानेतद्गुह्यमहं परम्।\nयोगं योगेश्वरात्कृष्णात्साक्षात्कथयतः स्वयम् ॥",
+      "iast": "vyāsaprasādācchrutavānetadguhyamahaṃ param\nyogaṃ yogeśvarātkṛṣṇātsākṣātkathayataḥ svayam",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.18.75",
+        "content": "By great Vyasa's learning writ, how Krishna's self made known\n  The Yoga, being Yoga's Lord. So is the high truth shown!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.75"
+        ],
+        "sourceSpans": [
+          {
+            "start": 11800,
+            "end": 11923,
+            "lineStart": 3225,
+            "lineEnd": 3226,
+            "checksum": "f857bcc5867bbde816d68e4ce401114ec2b8268774da86c0ce5b550b5233d22f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.75 Through the grace of Vyasa I have heard this supreme and most secret Yoga direct from Krishna, the Lord of Yoga, Himself declaring it."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.75 Through the blessing of the sage Vyasa, I listened to this secret and noble science from the lips of its Master, the Lord Shri Krishna."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.75 Through the favour of Vyasa I heard this secret concerning the supreme Yoga from Krsna, the Lord of yogas, while He Himself was actually speaking!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.76",
+      "alignmentFingerprint": "670fe216a8fc2e71eebbee7630c6eb9f0551c806dda6c12437331ab2e354cd54",
+      "sanskrit": "राजन्संस्मृत्य संस्मृत्य संवादमिममद्भुतम्।\nकेशवार्जुनयोः पुण्यं हृष्यामि च मुहुर्मुहुः ॥",
+      "iast": "rājansaṃsmṛtya saṃsmṛtya saṃvādamimamadbhutam\nkeśavārjunayoḥ puṇyaṃ hṛṣyāmi ca muhurmuhuḥ",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.18.76",
+        "content": "And aye, when I remember, O Lord my King, again\n  Arjuna and the God in talk, and all this holy strain,\n  Great is my gladness:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.76"
+        ],
+        "sourceSpans": [
+          {
+            "start": 11923,
+            "end": 12053,
+            "lineStart": 3227,
+            "lineEnd": 3229,
+            "checksum": "d71d799e16555f0a1cacede01729e2e1fa0640a2f9f54f34fa5a8922a65d4d04"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.76 O King, remembering this wonderful and holy dialogue between Krishna and Arjuna, I rejoice again and again."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.76 O King! The more I think of that marvellous and holy discourse, the more I lose myself in joy."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.76 And, O king, while repeatedly remembering this unie, sacred dialogue between Kesava and Arjuna, I rejoice every moment."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.77",
+      "alignmentFingerprint": "4c1390bfc50d34534039b9068d09a696b9acd6f60c9431b8095127b34a017659",
+      "sanskrit": "तच्च संस्मृत्य संस्मृत्य रूपमत्यद्भुतं हरेः।\nविस्मयो मे महान् राजन्हृष्यामि च पुनः पुनः ॥",
+      "iast": "tacca saṃsmṛtya saṃsmṛtya rūpamatyadbhutaṃ hareḥ\nvismayo me mahān rājanhṛṣyāmi ca punaḥ punaḥ",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.18.77",
+        "content": "when I muse that splendour, passing speech,\n  Of Hari, visible and plain, there is no tongue to reach\n  My marvel and my love and bliss.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.77"
+        ],
+        "sourceSpans": [
+          {
+            "start": 12053,
+            "end": 12190,
+            "lineStart": 3229,
+            "lineEnd": 3231,
+            "checksum": "aacda881a09fabbe3641051aedf3894d51e12db2afd0ead4bee55205ff76c0be"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.77 And, remembering again and again, also that most wonderful form of Hari, great is my wonder, O King; and I rejoice again and again."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.77 As memory recalls again and again the exceeding beauty of the Lord, I am filled with amazement and happiness."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.77 O king, repeatedly recollecting that greatly extraordinary form of Hari, I am struck with wonder. And I rejoice again and again."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.18.78",
+      "alignmentFingerprint": "9044d58c373e1b03a8dcd3c6a9e910d914caa123a33058db289a09d9b5eb1d17",
+      "sanskrit": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः।\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ॥",
+      "iast": "yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanurdharaḥ\ntatra śrīrvijayo bhūtirdhruvā nītirmatirmama",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.18.78",
+        "content": "O Archer-Prince! all hail!\n  O Krishna, Lord of Yoga! surely there shall not fail\n  Blessing, and victory, and power, for Thy most mighty sake,\n  Where this song comes of Arjun, and how with God he spake.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.18.78"
+        ],
+        "sourceSpans": [
+          {
+            "start": 12190,
+            "end": 12396,
+            "lineStart": 3231,
+            "lineEnd": 3235,
+            "checksum": "871e429da5450ecc44c27a5179150421f20181d682c8334fd95f1f15cb74b5b0"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "18.78 Wherever is Krishna, the Lord of Yoga; wherever is Arjuna, the wielder of the bow; there are prosperity, victory, happiness and firm policy; such is my conviction."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "18.78 Wherever is the Lord Shri Krishna, the Prince of Wisdom, and wherever is Arjuna, the Great Archer, I am more than convinced that good fortune, victory, happiness and righteousness will follow\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "18.78 Where there is Krsna, the Lord of yogas, and where there is Partha, the wielder of the bow, there are fortune, victory, prosperity and unfailing prudence. Such is my conviction."
+        }
+      ]
+    }
+  ]
+}

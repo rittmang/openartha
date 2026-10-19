@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 15,
+  "inputSha256": "59dfa7031f8de8be48aa36d6825fd3fa30b2d86c0b411e4bdaaad79ca9642d4a",
+  "reviews": [
+    {
+      "canonicalRef": "gita.15.1",
+      "alignmentFingerprint": "79f1da3ba5033bbbf75776ce1fbf4f4f3e7130ab2f9573d6a75d6510171b0846",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The inverted Ashvattha tree with roots above and branches below, whose leaves are Vedic hymns; he who knows it is the Veda-knower.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.2",
+      "alignmentFingerprint": "956ee787df0b23b38546e2d2984b7531da24252b002c417cb86114023e8ee48d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Its branches spread above and below nourished by Gunas with sense objects as buds; secondary roots stretch downward binding man to action; includes footnote 30.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.3",
+      "alignmentFingerprint": "94586e43b136d134f9ea078945b3e16b7a7c7d819362e6754260777688f82dd5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Its true form is not perceived here, nor its end, beginning, or foundation; cutting down this firmly rooted Ashvattha with the strong weapon of detachment; ends at '--to set'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.4",
+      "alignmentFingerprint": "622139efeceb0ffd23ffc13e7e53d9efb514ef58718fb25d2ad5a04a500a96e0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Then that goal must be sought from which none return: 'I take refuge in that Primal Person whence streamed forth ancient cosmic activity'; starts at 'New growths'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.5",
+      "alignmentFingerprint": "ea07b9133a8ef4c0e2607590efebbdb6369ecbdc66fc5fd3c8493cf2ef27ec7d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Free from pride and delusion, victorious over the evil of attachment, constant in spiritual knowledge, freed from dualities of pleasure and pain, the undeluded reach the eternal goal.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.6",
+      "alignmentFingerprint": "61c199ec05c0898e44228f7b2a496422bf1f1f8436691f786df3dc036a86d64c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Neither sun, nor moon, nor fire illumines that supreme abode of Mine, having reached which souls do not return.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.7",
+      "alignmentFingerprint": "a97859bc2afc495b0b2adf3ec1614e067fe43d059035676addb9f25f4c7df571",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "An eternal fraction of Myself in the world of the living, becoming a living soul, draws to itself the five senses and mind seated in Prakriti.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.8",
+      "alignmentFingerprint": "0728cacf88695da504915578165b88f2ddc285847a8e042bf593812909ffd3c3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "When the Lord acquires a body and when He leaves it, He takes these senses and mind along as the wind carries scents from flower-beds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.9",
+      "alignmentFingerprint": "7d49bafbd6071155e55c81bc54d6969aea3bd443254cecc9fb127858f8f97c2e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Presiding over ear, eye, touch, taste, smell, and mind, the soul experiences the objects of the senses.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.10",
+      "alignmentFingerprint": "61a6b85229d14fedb898c822152b4e2e86269efcf64fa5661c2a769aac48f5a5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The deluded do not perceive the soul departing, staying, or experiencing united with the Gunas; those with eyes of wisdom see.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.11",
+      "alignmentFingerprint": "fcc96483a59a52cd9a8e2c02968c4639d72dcb1537b7e9b7f1f600f4d5410be8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Striving yogis perceive Him established in themselves; but the unrefined and unintelligent, though striving, do not perceive Him.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.12",
+      "alignmentFingerprint": "e53db19e29d2762f29d84f31316be5fc98e171c31d598acc000018f4770d1b36",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The radiance in the sun illuminating the entire universe, in the moon, and in fire—know that splendor to be Mine.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.13",
+      "alignmentFingerprint": "bb1e10236adcd1e4273a4ea78e59e1b1fe4fad931ec0e8d4f2063ffd7c6b0026",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Entering the earth I sustain all beings with My vital force, and becoming the sapful moon I nourish all plants.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.14",
+      "alignmentFingerprint": "72b01d482b4371c0125ff5975e178f78a1f149854141a2c7ba3605882a085a47",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Becoming the Vaishvanara digestive fire in living bodies, uniting with prana and apana, I digest the four kinds of food; ends with note 31 marker.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.15",
+      "alignmentFingerprint": "9915c6323deb812b10cef84b5209b260b1c6b28058be32e6902dc9db04b0a3b4",
+      "status": "verified",
+      "confidence": 1,
+      "notes": "Verified source omission. Arnold explicitly omits canonical 15.15 ('sarvasya cāhaṃ hṛdi sanniviṣṭo...'), confirmed by footnote 31 ('I omit a verse here, evidently interpolated.').",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.16",
+      "alignmentFingerprint": "ff35c03c77c2b4a985e82ab67fbb2e4b7717f5eab598f95a1374c19a5fab210a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Two persons in the world: the perishable (all beings) and the imperishable (the immutable/kutastha).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.17",
+      "alignmentFingerprint": "debb7b88d3649153022004dd36d1d7ae3a2721904cc1043c84e1892b2589597b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The Supreme Person is another, declared as Paramatman, the imperishable Lord Who enters the three worlds and sustains them.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.18",
+      "alignmentFingerprint": "c527e8e9d4b0576e3d1931bdefc54b09adfb0c6b5b7b5b82996fa384b82b988f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Since I transcend the perishable and am higher even than the imperishable, I am celebrated in the world and the Vedas as Purushottama.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.19",
+      "alignmentFingerprint": "7880ca8b9a8eced77e4750dfb290eb52381f3b38d44eaefd5886dac23def0305",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "He who, undeluded, knows Me thus as the Purushottama, knows all and worships Me with his whole being.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.15.20",
+      "alignmentFingerprint": "35be7ef1736adfa1558bc6ffd513820cb5758b69569a9b980e41799b98acfbfc",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Thus this most secret doctrine has been imparted by Me; knowing this, a man becomes truly wise and fulfills all duties.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Arnold translates verses 15.1–15.6 in lyrical rhymed stanzas ('Parable of the fig-tree', note 30), requiring careful inter-stanza clause alignment across enjambments.",
+    "Verse 15.15 is an explicit, verified source omission where Arnold dropped the shloka on memory, knowledge, and Vedic authorship, directly attested by footnote 31.",
+    "The remaining 19 verses map with exceptional precision to canonical 15.1–15.14 and 15.16–15.20."
+  ]
+}

@@ -1,0 +1,2362 @@
+{
+  "schemaVersion": 1,
+  "workId": "gita",
+  "translationId": "edwin-arnold",
+  "chapter": 11,
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "numbering": "Standard 700-verse canon; Chapter 13 has 34 verses and excludes Arjuna's alternate opening question.",
+  "sourceChapterWithLineNumbers": "1:   Arjuna.\n2:   This, for my soul's peace, have I heard from Thee,\n3:   The unfolding of the Mystery Supreme\n4:   Named Adhyatman; comprehending which,\n5:   My darkness is dispelled; for now I know--\n6:   O Lotus-eyed![FN#21]--whence is the birth of men,\n7:   And whence their death, and what the majesties\n8:   Of Thine immortal rule. Fain would I see,\n9:   As thou Thyself declar'st it, Sovereign Lord!\n10:   The likeness of that glory of Thy Form\n11:   Wholly revealed. O Thou Divinest One!\n12:   If this can be, if I may bear the sight,\n13:   Make Thyself visible, Lord of all prayers!\n14:   Show me Thy very self, the Eternal God!\n15: \n16:   Krishna.\n17:   Gaze, then, thou Son of Pritha! I manifest for thee\n18:   Those hundred thousand thousand shapes that clothe my Mystery:\n19:   I show thee all my semblances, infinite, rich, divine,\n20:   My changeful hues, my countless forms. See! in this face of mine,\n21:   Adityas, Vasus, Rudras, Aswins, and Maruts; see\n22:   Wonders unnumbered, Indian Prince! revealed to none save thee.\n23:   Behold! this is the Universe!--Look! what is live and dead\n24:   I gather all in one--in Me! Gaze, as thy lips have said,\n25:   On GOD ETERNAL, VERY GOD! See Me! see what thou prayest!\n26: \n27:   Thou canst not!--nor, with human eyes, Arjuna! ever mayest!\n28:   Therefore I give thee sense divine. Have other eyes, new light!\n29:   And, look! This is My glory, unveiled to mortal sight!\n30: \n31:   Sanjaya.\n32:   Then, O King! the God, so saying,\n33:   Stood, to Pritha's Son displaying\n34:   All the splendour, wonder, dread\n35:   Of His vast Almighty-head.\n36:   Out of countless eyes beholding,\n37:   Out of countless mouths commanding,\n38:   Countless mystic forms enfolding\n39:   In one Form: supremely standing\n40:   Countless radiant glories wearing,\n41:   Countless heavenly weapons bearing,\n42:   Crowned with garlands of star-clusters,\n43:   Robed in garb of woven lustres,\n44:   Breathing from His perfect Presence\n45:   Breaths of every subtle essence\n46:   Of all heavenly odours; shedding\n47:   Blinding brilliance; overspreading--\n48:   Boundless, beautiful--all spaces\n49:   With His all-regarding faces;\n50:   So He showed! If there should rise\n51:   Suddenly within the skies\n52:   Sunburst of a thousand suns\n53:   Flooding earth with beams undeemed-of,\n54:   Then might be that Holy One's\n55:   Majesty and radiance dreamed of!\n56: \n57:   So did Pandu's Son behold\n58:   All this universe enfold\n59:   All its huge diversity\n60:   Into one vast shape, and be\n61:   Visible, and viewed, and blended\n62:   In one Body--subtle, splendid,\n63:   Nameless--th' All-comprehending\n64:   God of Gods, the Never-Ending\n65:   Deity!\n66: \n67:   But, sore amazed,\n68:   Thrilled, o'erfilled, dazzled, and dazed,\n69:   Arjuna knelt; and bowed his head,\n70:   And clasped his palms; and cried, and said:\n71: \n72:   Arjuna.\n73:   Yea! I have seen! I see!\n74:   Lord! all is wrapped in Thee!\n75:   The gods are in Thy glorious frame! the creatures\n76:   Of earth, and heaven, and hell\n77:   In Thy Divine form dwell,\n78:   And in Thy countenance shine all the features\n79: \n80:   Of Brahma, sitting lone\n81:   Upon His lotus-throne;\n82:   Of saints and sages, and the serpent races\n83:   Ananta, Vasuki;\n84:   Yea! mightiest Lord! I see\n85:   Thy thousand thousand arms, and breasts, and faces,\n86:   And eyes,--on every side\n87:   Perfect, diversified;\n88:   And nowhere end of Thee, nowhere beginning,\n89:   Nowhere a centre! Shifts--\n90:   Wherever soul's gaze lifts--\n91:   Thy central Self, all-wielding, and all-winning!\n92: \n93:   Infinite King! I see\n94:   The anadem on Thee,\n95:   The club, the shell, the discus; see Thee burning\n96:   In beams insufferable,\n97:   Lighting earth, heaven, and hell\n98:   With brilliance blazing, glowing, flashing; turning\n99: \n100:   Darkness to dazzling day,\n101:   Look I whichever way;\n102:   Ah, Lord! I worship Thee, the Undivided,\n103:   The Uttermost of thought,\n104:   The Treasure-Palace wrought\n105:   To hold the wealth of the worlds; the Shield provided\n106: \n107:   To shelter Virtue's laws;\n108:   The Fount whence Life's stream draws\n109:   All waters of all rivers of all being:\n110:   The One Unborn, Unending:\n111:   Unchanging and Unblending!\n112:   With might and majesty, past thought, past seeing!\n113: \n114:   Silver of moon and gold\n115:   Of sun are glories rolled\n116:   From Thy great eyes; Thy visage, beaming tender\n117:   Throughout the stars and skies,\n118:   Doth to warm life surprise\n119:   Thy Universe. The worlds are filled with wonder\n120: \n121:   Of Thy perfections! Space\n122:   Star-sprinkled, and void place\n123:   From pole to pole of the Blue, from bound to bound,\n124:   Hath Thee in every spot,\n125:   Thee, Thee!--Where Thou art not,\n126:   O Holy, Marvellous Form! is nowhere found!\n127: \n128:   O Mystic, Awful One!\n129:   At sight of Thee, made known,\n130:   The Three Worlds quake; the lower gods draw nigh Thee;\n131:   They fold their palms, and bow\n132:   Body, and breast, and brow,\n133:   And, whispering worship, laud and magnify Thee!\n134: \n135:   Rishis and Siddhas cry\n136:   \"Hail! Highest Majesty!\"\n137:   From sage and singer breaks the hymn of glory\n138:   In dulcet harmony,\n139:   Sounding the praise of Thee;\n140:   While countless companies take up the story,\n141: \n142:   Rudras, who ride the storms,\n143:   Th' Adityas' shining forms,\n144:   Vasus and Sadhyas, Viswas, Ushmapas;\n145:   Maruts, and those great Twins\n146:   The heavenly, fair, Aswins,\n147:   Gandharvas, Rakshasas, Siddhas, and Asuras,[FN#22]--\n148: \n149:   These see Thee, and revere\n150:   In sudden-stricken fear;\n151:   Yea! the Worlds,--seeing Thee with form stupendous,\n152:   With faces manifold,\n153:   With eyes which all behold,\n154:   Unnumbered eyes, vast arms, members tremendous,\n155: \n156:   Flanks, lit with sun and star,\n157:   Feet planted near and far,\n158:   Tushes of terror, mouths wrathful and tender;--\n159:   The Three wide Worlds before Thee\n160:   Adore, as I adore Thee,\n161:   Quake, as I quake, to witness so much splendour!\n162: \n163:   I mark Thee strike the skies\n164:   With front, in wondrous wise\n165:   Huge, rainbow-painted, glittering; and thy mouth\n166:   Opened, and orbs which see\n167:   All things, whatever be\n168:   In all Thy worlds, east, west, and north and south.\n169: \n170:   O Eyes of God! O Head!\n171:   My strength of soul is fled,\n172:   Gone is heart's force, rebuked is mind's desire!\n173:   When I behold Thee so,\n174:   With awful brows a-glow,\n175:   With burning glance, and lips lighted by fire\n176: \n177:   Fierce as those flames which shall\n178:   Consume, at close of all,\n179:   Earth, Heaven! Ah me! I see no Earth and Heaven!\n180:   Thee, Lord of Lords! I see,\n181:   Thee only-only Thee!\n182:   Now let Thy mercy unto me be given,\n183: \n184:   Thou Refuge of the World!\n185:   Lo! to the cavern hurled\n186:   Of Thy wide-opened throat, and lips white-tushed,\n187:   I see our noblest ones,\n188:   Great Dhritarashtra's sons,\n189:   Bhishma, Drona, and Karna, caught and crushed!\n190: \n191:   The Kings and Chiefs drawn in,\n192:   That gaping gorge within;\n193:   The best of both these armies torn and riven!\n194:   Between Thy jaws they lie\n195:   Mangled full bloodily,\n196:   Ground into dust and death! Like streams down-driven\n197: \n198:   With helpless haste, which go\n199:   In headlong furious flow\n200:   Straight to the gulfing deeps of th' unfilled ocean,\n201:   So to that flaming cave\n202:   Those heroes great and brave\n203:   Pour, in unending streams, with helpless motion!\n204: \n205:   Like moths which in the night\n206:   Flutter towards a light,\n207:   Drawn to their fiery doom, flying and dying,\n208:   So to their death still throng,\n209:   Blind, dazzled, borne along\n210:   Ceaselessly, all those multitudes, wild flying!\n211: \n212:   Thou, that hast fashioned men,\n213:   Devourest them again,\n214:   One with another, great and small, alike!\n215:   The creatures whom Thou mak'st,\n216:   With flaming jaws Thou tak'st,\n217:   Lapping them up! Lord God! Thy terrors strike\n218: \n219:   From end to end of earth,\n220:   Filling life full, from birth\n221:   To death, with deadly, burning, lurid dread!\n222:   Ah, Vishnu! make me know\n223:   Why is Thy visage so?\n224:   Who art Thou, feasting thus upon Thy dead?\n225: \n226:   Who? awful Deity!\n227:   I bow myself to Thee,\n228:   Namostu Te, Devavara! Prasid![FN#23]\n229:   O Mightiest Lord! rehearse\n230:   Why hast Thou face so fierce?\n231:   Whence doth this aspect horrible proceed?\n232: \n233:   Krishna.\n234:   Thou seest Me as Time who kills,\n235:   Time who brings all to doom,\n236:   The Slayer Time, Ancient of Days, come hither to consume;\n237:   Excepting thee, of all these hosts of hostile chiefs arrayed,\n238:   There stands not one shall leave alive the battlefield! Dismayed\n239:   No longer be! Arise! obtain renown! destroy thy foes!\n240:   Fight for the kingdom waiting thee when thou hast vanquished those.\n241:   By Me they fall--not thee! the stroke of death is dealt them now,\n242:   Even as they show thus gallantly; My instrument art thou!\n243:   Strike, strong-armed Prince, at Drona! at Bhishma strike! deal death\n244:   On Karna, Jyadratha; stay all their warlike breath!\n245:   'Tis I who bid them perish! Thou wilt but slay the slain;\n246:   Fight! they must fall, and thou must live, victor upon this plain!\n247: \n248:   Sanjaya.\n249:   Hearing mighty Keshav's word,\n250:   Tremblingly that helmed Lord\n251:   Clasped his lifted palms, and--praying\n252:   Grace of Krishna--stood there, saying,\n253:   With bowed brow and accents broken,\n254:   These words, timorously spoken:\n255: \n256:   Arjuna.\n257:   Worthily, Lord of Might!\n258:   The whole world hath delight\n259:   In Thy surpassing power, obeying Thee;\n260:   The Rakshasas, in dread\n261:   At sight of Thee, are sped\n262:   To all four quarters; and the company\n263: \n264:   Of Siddhas sound Thy name.\n265:   How should they not proclaim\n266:   Thy Majesties, Divinest, Mightiest?\n267:   Thou Brahm, than Brahma greater!\n268:   Thou Infinite Creator!\n269:   Thou God of gods, Life's Dwelling-place and Rest!\n270: \n271:   Thou, of all souls the Soul!\n272:   The Comprehending Whole!\n273:   Of being formed, and formless being the Framer;\n274:   O Utmost One! O Lord!\n275:   Older than eld, Who stored\n276:   The worlds with wealth of life! O Treasure-Claimer,\n277: \n278:   Who wottest all, and art\n279:   Wisdom Thyself! O Part\n280:   In all, and All; for all from Thee have risen\n281:   Numberless now I see\n282:   The aspects are of Thee!\n283:   Vayu[FN#24] Thou art, and He who keeps the prison\n284: \n285:   Of Narak, Yama dark;\n286:   And Agni's shining spark;\n287:   Varuna's waves are Thy waves. Moon and starlight\n288:   Are Thine! Prajapati\n289:   Art Thou, and 'tis to Thee\n290:   They knelt in worshipping the old world's far light,\n291: \n292:   The first of mortal men.\n293:   Again, Thou God! again\n294:   A thousand thousand times be magnified!\n295:   Honour and worship be--\n296:   Glory and praise,--to Thee\n297:   Namo, Namaste, cried on every side;\n298: \n299:   Cried here, above, below,\n300:   Uttered when Thou dost go,\n301:   Uttered where Thou dost come! Namo! we call;\n302:   Namostu! God adored!\n303:   Namostu! Nameless Lord!\n304:   Hail to Thee! Praise to Thee! Thou One in all;\n305: \n306:   For Thou art All! Yea, Thou!\n307:   Ah! if in anger now\n308:   Thou shouldst remember I did think Thee Friend,\n309:   Speaking with easy speech,\n310:   As men use each to each;\n311:   Did call Thee \"Krishna,\" \"Prince,\" nor comprehend\n312: \n313:   Thy hidden majesty,\n314:   The might, the awe of Thee;\n315:   Did, in my heedlessness, or in my love,\n316:   On journey, or in jest,\n317:   Or when we lay at rest,\n318:   Sitting at council, straying in the grove,\n319: \n320:   Alone, or in the throng,\n321:   Do Thee, most Holy! wrong,\n322:   Be Thy grace granted for that witless sin!\n323:   For Thou art, now I know,\n324:   Father of all below,\n325:   Of all above, of all the worlds within\n326: \n327:   Guru of Gurus; more\n328:   To reverence and adore\n329:   Than all which is adorable and high!\n330:   How, in the wide worlds three\n331:   Should any equal be?\n332:   Should any other share Thy Majesty?\n333: \n334:   Therefore, with body bent\n335:   And reverent intent,\n336:   I praise, and serve, and seek Thee, asking grace.\n337:   As father to a son,\n338:   As friend to friend, as one\n339:   Who loveth to his lover, turn Thy face\n340: \n341:   In gentleness on me!\n342:   Good is it I did see\n343:   This unknown marvel of Thy Form! But fear\n344:   Mingles with joy! Retake,\n345:   Dear Lord! for pity's sake\n346:   Thine earthly shape, which earthly eyes may bear!\n347: \n348:   Be merciful, and show\n349:   The visage that I know;\n350:   Let me regard Thee, as of yore, arrayed\n351:   With disc and forehead-gem,\n352:   With mace and anadem,\n353:   Thou that sustainest all things! Undismayed\n354: \n355:   Let me once more behold\n356:   The form I loved of old,\n357:   Thou of the thousand arms and countless eyes!\n358:   This frightened heart is fain\n359:   To see restored again\n360:   My Charioteer, in Krishna's kind disguise.\n361: \n362:   Krishna.\n363:   Yea! thou hast seen, Arjuna! because I loved thee well,\n364:   The secret countenance of Me, revealed by mystic spell,\n365:   Shining, and wonderful, and vast, majestic, manifold,\n366:   Which none save thou in all the years had favour to behold;\n367:   For not by Vedas cometh this, nor sacrifice, nor alms,\n368:   Nor works well-done, nor penance long, nor prayers, nor chaunted\n369:   psalms,\n370:   That mortal eyes should bear to view the Immortal Soul unclad,\n371:   Prince of the Kurus! This was kept for thee alone! Be glad!\n372:   Let no more trouble shake thy heart, because thine eyes have seen\n373:   My terror with My glory. As I before have been\n374:   So will I be again for thee; with lightened heart behold!\n375:   Once more I am thy Krishna, the form thou knew'st of old!\n376: \n377:   Sanjaya.\n378:   These words to Arjuna spake\n379:   Vasudev, and straight did take\n380:   Back again the semblance dear\n381:   Of the well-loved charioteer;\n382:   Peace and joy it did restore\n383:   When the Prince beheld once more\n384:   Mighty BRAHMA's form and face\n385:   Clothed in Krishna's gentle grace.\n386: \n387:   Arjuna.\n388:   Now that I see come back, Janardana!\n389:   This friendly human frame, my mind can think\n390:   Calm thoughts once more; my heart beats still again!\n391: \n392:   Krishna.\n393:   Yea! it was wonderful and terrible\n394:   To view me as thou didst, dear Prince! The gods\n395:   Dread and desire continually to view!\n396:   Yet not by Vedas, nor from sacrifice,\n397:   Nor penance, nor gift-giving, nor with prayer\n398:   Shall any so behold, as thou hast seen!\n399:   Only by fullest service, perfect faith,\n400:   And uttermost surrender am I known\n401:   And seen, and entered into, Indian Prince!\n402:   Who doeth all for Me; who findeth Me\n403:   In all; adoreth always; loveth all\n404:   Which I have made, and Me, for Love's sole end\n405:   That man, Arjuna! unto Me doth wend.\n406: \n407:   HERE ENDETH CHAPTER XI. OF THE BHAGAVAD-GITA,\n408:   Entitled \"Viswarupadarsanam,\"\n409:   Or \"The Book of the Manifesting of the One and Manifold.\"",
+  "translatorNotes": [
+    {
+      "number": 1,
+      "marker": "[FN#1]",
+      "text": "Some repetitionary lines are here omitted."
+    },
+    {
+      "number": 2,
+      "marker": "[FN#2]",
+      "text": "Technical phrases of Vedic religion."
+    },
+    {
+      "number": 3,
+      "marker": "[FN#3]",
+      "text": "The whole of this passage is highly involved and difficult to\nrender."
+    },
+    {
+      "number": 4,
+      "marker": "[FN#4]",
+      "text": "I feel convinced sankhyanan and yoginan must be transposed\nhere in sense."
+    },
+    {
+      "number": 5,
+      "marker": "[FN#5]",
+      "text": "I am doubtful of accuracy here."
+    },
+    {
+      "number": 6,
+      "marker": "[FN#6]",
+      "text": "A name of the sun."
+    },
+    {
+      "number": 7,
+      "marker": "[FN#7]",
+      "text": "Without desire of fruit."
+    },
+    {
+      "number": 8,
+      "marker": "[FN#8]",
+      "text": "That is,\"joy and sorrow, success and failure, heat and cold,\"&c."
+    },
+    {
+      "number": 9,
+      "marker": "[FN#9]",
+      "text": "i.e., the body."
+    },
+    {
+      "number": 10,
+      "marker": "[FN#10]",
+      "text": "The Sanskrit has this play on the double meaning of Atman."
+    },
+    {
+      "number": 11,
+      "marker": "[FN#11]",
+      "text": "So in original."
+    },
+    {
+      "number": 12,
+      "marker": "[FN#12]",
+      "text": "Beings of low and devilish nature."
+    },
+    {
+      "number": 13,
+      "marker": "[FN#13]",
+      "text": "Krishna."
+    },
+    {
+      "number": 14,
+      "marker": "[FN#14]",
+      "text": "I read here janma, \"birth;\" not jara,\"age\""
+    },
+    {
+      "number": 15,
+      "marker": "[FN#15]",
+      "text": "I have discarded ten lines of Sanskrit text here as an\nundoubted interpolation by some Vedantist"
+    },
+    {
+      "number": 16,
+      "marker": "[FN#16]",
+      "text": "The Sanskrit poem here rises to an elevation of style and\nmanner which I have endeavoured to mark by change of metre."
+    },
+    {
+      "number": 17,
+      "marker": "[FN#17]",
+      "text": "Ahinsa."
+    },
+    {
+      "number": 18,
+      "marker": "[FN#18]",
+      "text": "The nectar of immortality."
+    },
+    {
+      "number": 19,
+      "marker": "[FN#19]",
+      "text": "Called \"The Jap.\""
+    },
+    {
+      "number": 20,
+      "marker": "[FN#20]",
+      "text": "The compound form of Sanskrit words."
+    },
+    {
+      "number": 21,
+      "marker": "[FN#21]",
+      "text": "\"Kamalapatraksha\""
+    },
+    {
+      "number": 22,
+      "marker": "[FN#22]",
+      "text": "These are all divine or deified orders of the Hindoo Pantheon."
+    },
+    {
+      "number": 23,
+      "marker": "[FN#23]",
+      "text": "\"Hail to Thee, God of Gods! Be favourable!\""
+    },
+    {
+      "number": 24,
+      "marker": "[FN#24]",
+      "text": "The wind."
+    },
+    {
+      "number": 25,
+      "marker": "[FN#25]",
+      "text": "\"Not peering about,\"anapeksha."
+    },
+    {
+      "number": 26,
+      "marker": "[FN#26]",
+      "text": "The Calcutta edition of the Mahabharata has these three\nopening lines."
+    },
+    {
+      "number": 27,
+      "marker": "[FN#27]",
+      "text": "This is the nearest possible version of\nKshetrakshetrajnayojnanan yat tajnan matan mama."
+    },
+    {
+      "number": 28,
+      "marker": "[FN#28]",
+      "text": "I omit two lines of the Sanskrit here, evidently interpolated by\nsome Vedantist."
+    },
+    {
+      "number": 29,
+      "marker": "[FN#29]",
+      "text": "Wombs."
+    },
+    {
+      "number": 30,
+      "marker": "[FN#30]",
+      "text": "I do not consider the Sanskrit verses here-which are somewhat\nfreely rendered--\"an attack on the authority of the Vedas,\" with Mr\nDavies, but a beautiful lyrical episode, a new \"Parable of the fig-tree.\""
+    },
+    {
+      "number": 31,
+      "marker": "[FN#31]",
+      "text": "I omit a verse here, evidently interpolated."
+    },
+    {
+      "number": 32,
+      "marker": "[FN#32]",
+      "text": "\"Of the Asuras,\" lit."
+    },
+    {
+      "number": 33,
+      "marker": "[FN#33]",
+      "text": "I omit the ten concluding shlokas, with Mr Davis."
+    },
+    {
+      "number": 34,
+      "marker": "[FN#34]",
+      "text": "Rakshasas and Yakshas are unembodied but capricious beings\nof great power, gifts, and beauty, same times also of benignity."
+    },
+    {
+      "number": 35,
+      "marker": "[FN#35]",
+      "text": "These are spirits of evil wandering ghosts."
+    },
+    {
+      "number": 36,
+      "marker": "[FN#36]",
+      "text": "Yatayaman, food which has remained after the watches of the\nnight. In India this would probably \"go bad.\""
+    },
+    {
+      "number": 37,
+      "marker": "[FN#37]",
+      "text": "I omit the concluding shlokas, as of very doubtful authenticity."
+    }
+  ],
+  "paratext": [
+    {
+      "chapter": 11,
+      "type": "chapter-colophon",
+      "text": "HERE ENDETH CHAPTER XI. OF THE BHAGAVAD-GITA,\n  Entitled \"Viswarupadarsanam,\"\n  Or \"The Book of the Manifesting of the One and Manifold.\"",
+      "checksum": "7475c015719227519258c796af10a3db5d20369f575b9d0b4ec6666960770c51",
+      "sourceSpan": {
+        "start": 13253,
+        "end": 13392,
+        "lineStart": 2218,
+        "lineEnd": 2220,
+        "checksum": "fccd218d1112da68ecb46bc89797c474c1d7d2afdfefad8dea4ff4dd7f453690"
+      }
+    }
+  ],
+  "records": [
+    {
+      "canonicalRef": "gita.11.1",
+      "alignmentFingerprint": "36322393023af3c72365fae6fde89bcfcae3c357fc0d47bc8a28cad7ee798a42",
+      "sanskrit": "अर्जुन उवाच।\nमदनुग्रहाय परमं गुह्यमध्यात्मसंज्ञितम्।\nयत्त्वयोक्तं वचस्तेन मोहोऽयं विगतो मम ॥",
+      "iast": "arjuna uvāca\nmadanugrahāya paramaṃ guhyamadhyātmasaṃjñitam\nyattvayoktaṃ vacastena moho.ayaṃ vigato mama",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.1",
+        "content": "Arjuna.\n  This, for my soul's peace, have I heard from Thee,\n  The unfolding of the Mystery Supreme\n  Named Adhyatman; comprehending which,\n  My darkness is dispelled;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.1"
+        ],
+        "sourceSpans": [
+          {
+            "start": 0,
+            "end": 170,
+            "lineStart": 1812,
+            "lineEnd": 1816,
+            "checksum": "c4e089a8fad591b1f037704684214029de65684aeb70ba4798f94aa2c84bc361"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.1 Arjuna said By this word (explanation) of the highest secret concerning the Self which Thou hast spoken, for the sake of blessing me, my delusion is gone."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.1 \"Arjuna said: My Lord! Thy words concerning the Supreme Secret of Self, given for my blessing, have dispelled the illusions which surrounded me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.1 Arjuna said This delusion of mine has departed as a result of that speech which is most secret and known as pertaining to the Self, and which was uttered by You for my benefit."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.2",
+      "alignmentFingerprint": "e533221b65bd3a4e4c3d9fff80faaace770c3d51c7a63ad0e1f2e56605e4aeb9",
+      "sanskrit": "भवाप्ययौ हि भूतानां श्रुतौ विस्तरशो मया।\nत्वत्तः कमलपत्राक्ष माहात्म्यमपि चाव्ययम् ॥",
+      "iast": "bhavāpyayau hi bhūtānāṃ śrutau vistaraśo mayā\ntvattaḥ kamalapatrākṣa māhātmyamapi cāvyayam",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.2",
+        "content": "for now I know--\n  O Lotus-eyed![FN#21]--whence is the birth of men,\n  And whence their death, and what the majesties\n  Of Thine immortal rule.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.2"
+        ],
+        "sourceSpans": [
+          {
+            "start": 170,
+            "end": 314,
+            "lineStart": 1816,
+            "lineEnd": 1819,
+            "checksum": "861bf98f71a945dc5a31373a4ceb597e2bc002e3a757d7a0fc0d5d46da117616"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.2 The origin and the destruction of beings verily have been heard by me in detail from Thee, O lotus-eyed Lord, and also Thy inexhaustible greatness."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.2 O Lord, whose eyes are like the lotus petal! Thou hast described in detail the origin and the dissolution of being, and Thine own Eternal Majesty."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.2 O you with eyes like lotus leaves, the origin and dissolution of beings have been heard by me in detail from You. ['From You have been heard the origin and dissolution of beings in You.'] And (Your) undecaying glory, too, (has been heard)."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.3",
+      "alignmentFingerprint": "3dca7004b118f789f704d30eb6c4783205f5e2b9e3ee820ead26a0f36f9eae52",
+      "sanskrit": "एवमेतद्यथात्थ त्वमात्मानं परमेश्वर।\nद्रष्टुमिच्छामि ते रूपमैश्वरं पुरुषोत्तम ॥",
+      "iast": "evametadyathāttha tvamātmānaṃ parameśvara\ndraṣṭumicchāmi te rūpamaiśvaraṃ puruṣottama",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.3",
+        "content": "Fain would I see,\n  As thou Thyself declar'st it, Sovereign Lord!\n  The likeness of that glory of Thy Form\n  Wholly revealed.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.3"
+        ],
+        "sourceSpans": [
+          {
+            "start": 314,
+            "end": 440,
+            "lineStart": 1819,
+            "lineEnd": 1822,
+            "checksum": "5370ecd126db328227e027a6eff900ca6b8e151d4c8139708b2c44b68ac4d402"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.3 (Now) O Supreme Lord, as Thou hast thus described Thyself, O Supreme Person, I wish to see Thy divine form."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.3 I believe all as Thou hast declared it. I long now to have a vision of thy Divine Form, O Thou Most High!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.3 O supreme Lord, so it is, as You speak about Yourself. O supreme Person, I wish to see the divine form of Yours."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.4",
+      "alignmentFingerprint": "8e82ec16a213ad390148fdfa189b8eac69a094ef769559e219695d4d3e0628e1",
+      "sanskrit": "मन्यसे यदि तच्छक्यं मया द्रष्टुमिति प्रभो।\nयोगेश्वर ततो मे त्वं दर्शयात्मानमव्ययम् ॥",
+      "iast": "manyase yadi tacchakyaṃ mayā draṣṭumiti prabho\nyogeśvara tato me tvaṃ darśayātmānamavyayam",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.4",
+        "content": "O Thou Divinest One!\n  If this can be, if I may bear the sight,\n  Make Thyself visible, Lord of all prayers!\n  Show me Thy very self, the Eternal God!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.4"
+        ],
+        "sourceSpans": [
+          {
+            "start": 440,
+            "end": 592,
+            "lineStart": 1822,
+            "lineEnd": 1826,
+            "checksum": "20107bc4adb98a5b367e608c93703347e5af427c34efdae4cc0d33a68cb3dca9"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.4 If Thou, O Lord, thinkest it possible for me to see it, do Thou, then, O Lord of the Yogins, show me Thy imperishable Self."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.4 If Thou thinkest that it can be made possible for me to see it, show me, O Lord of Lords, Thine own Eternal Self."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.4 O Lord, if You think that it is possible to be seen by me, then, O Lord of Yoga, You show me Your eternal Self."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.5",
+      "alignmentFingerprint": "04f28f6cb913a22e40b469e67cedd61b78882f1065773f8c45653f2a7f0fdb42",
+      "sanskrit": "श्रीभगवानुवाच।\nपश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः।\nनानाविधानि दिव्यानि नानावर्णाकृतीनि च ॥",
+      "iast": "śrībhagavānuvāca\npaśya me pārtha rūpāṇi śataśo.atha sahasraśaḥ\nnānāvidhāni divyāni nānāvarṇākṛtīni ca",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.5",
+        "content": "Krishna.\n  Gaze, then, thou Son of Pritha! I manifest for thee\n  Those hundred thousand thousand shapes that clothe my Mystery:\n  I show thee all my semblances, infinite, rich, divine,\n  My changeful hues, my countless forms.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.5"
+        ],
+        "sourceSpans": [
+          {
+            "start": 592,
+            "end": 820,
+            "lineStart": 1827,
+            "lineEnd": 1831,
+            "checksum": "dc2bea390bfd6143e5d1187c48a45870df26e22d9bd6e09913b0d0afe819a7ee"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.5 The Blessed Lord said Behold, O Arjuna, forms of Mine, by the hundreds and thousands, of different sorts, divine, and of various colours and shapes."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.5 Lord Shri Krishna replied: Behold, O Arjuna! My celestial forms, by hundred and thousands, various in kind, in colour and in shape."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.5 The Blessed Lord said O son of Prtha, behold My forms in (their) hundreds and in thousands, of different kinds, celestial, and of various colours and shapes."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.6",
+      "alignmentFingerprint": "2cbd0d0555f865a54430f73c9884c4b18540305bb7f06f13d50e3bb3f8439797",
+      "sanskrit": "पश्यादित्यान्वसून्रुद्रानश्विनौ मरुतस्तथा।\nबहून्यदृष्टपूर्वाणि पश्याश्चर्याणि भारत ॥",
+      "iast": "paśyādityānvasūnrudrānaśvinau marutastathā\nbahūnyadṛṣṭapūrvāṇi paśyāścaryāṇi bhārata",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.6",
+        "content": "See! in this face of mine,\n  Adityas, Vasus, Rudras, Aswins, and Maruts; see\n  Wonders unnumbered, Indian Prince! revealed to none save thee.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.6"
+        ],
+        "sourceSpans": [
+          {
+            "start": 820,
+            "end": 962,
+            "lineStart": 1831,
+            "lineEnd": 1833,
+            "checksum": "f19badccc8e0950b04cf989e11ffaa401a41eba81492eb0394694c6ac76c29a4"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.6 Behold the Adityas, the Vasus, the Rudras, the two Asvins and also the Maruts; behold many wonders never seen before, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.6 Behold thou the Powers of Nature: fire, earth, wind and sky; the sun, the heavens, the moon, the stars; all forces of vitality and of healing; and the roving winds. See the myriad wonders revealed to none but thee."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.6 See the Adiyas, the Vasus, the Rudras, the two Asvins and the Maruts. O scion of the Bharata dynasty, behold also the many wonders not seen before."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.7",
+      "alignmentFingerprint": "3584b7b8eb0958229c8b35cbe267e5a1419c60b210a13d58d75ec811c4f38c42",
+      "sanskrit": "इहैकस्थं जगत्कृत्स्नं पश्याद्य सचराचरम्।\nमम देहे गुडाकेश यच्चान्यद् द्रष्टुमिच्छसि ॥",
+      "iast": "ihaikasthaṃ jagatkṛtsnaṃ paśyādya sacarācaram\nmama dehe guḍākeśa yaccānyad draṣṭumicchasi",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.7",
+        "content": "Behold! this is the Universe!--Look! what is live and dead\n  I gather all in one--in Me! Gaze, as thy lips have said,\n  On GOD ETERNAL, VERY GOD! See Me! see what thou prayest!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.7"
+        ],
+        "sourceSpans": [
+          {
+            "start": 962,
+            "end": 1142,
+            "lineStart": 1834,
+            "lineEnd": 1837,
+            "checksum": "30a587d75213b1a6c8bebd2f75d54638b55b9b9a6bd0faca7b4753965226e3bc"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.7 Now behold, O Arjuna, in this, My body, the whole universe centred in one including the moving and the unmoving and whatever else thou desirest to see."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.7 Here in Me living as one, O Arjuna, behold the whole universe, movable and immovable, and anything else that thou wouldst see!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.7 See now, O gudakesa, O Gudakesa (Arjuna), the entire Universe together with the moving and the non-moving, concentrated at the same place here in My body, as also whatever else you would like to see."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.8",
+      "alignmentFingerprint": "a574de3ebe7e61f108035b3bd7d0a17ba46a6b5eb64a81590558c3eb2583851b",
+      "sanskrit": "न तु मां शक्यसे द्रष्टुमनेनैव स्वचक्षुषा।\nदिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम् ॥",
+      "iast": "na tu māṃ śakyase draṣṭumanenaiva svacakṣuṣā\ndivyaṃ dadāmi te cakṣuḥ paśya me yogamaiśvaram",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.8",
+        "content": "Thou canst not!--nor, with human eyes, Arjuna! ever mayest!\n  Therefore I give thee sense divine. Have other eyes, new light!\n  And, look! This is My glory, unveiled to mortal sight!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.8"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1142,
+            "end": 1328,
+            "lineStart": 1838,
+            "lineEnd": 1841,
+            "checksum": "f04c488bb4e76d7d79cab12e267679a0647f6e54ab4dab2bcd5603f6efbcd3c1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.8 But thou art not able to behold Me with these thine own eyes; I give thee the divine eye; behold My lordly Yoga."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.8 Yet since with mortal eyes thou canst not see Me, lo! I give thee the Divine Sight. See now the glory of My Sovereignty.\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.8 But you are not able to see Me merely with this eye of yours. I grant you the supernatural eye; bhold My divine Yoga."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.9",
+      "alignmentFingerprint": "10c83904ef67307387b0b67311f3387b11107df8be2e1d4a5fcdee06f202e39b",
+      "sanskrit": "सञ्जय उवाच।\nएवमुक्त्वा ततो राजन्महायोगेश्वरो हरिः।\nदर्शयामास पार्थाय परमं रूपमैश्वरम् ॥",
+      "iast": "sañjaya uvāca\nevamuktvā tato rājanmahāyogeśvaro hariḥ\ndarśayāmāsa pārthāya paramaṃ rūpamaiśvaram",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.11.9",
+        "content": "Sanjaya.\n  Then, O King! the God, so saying,\n  Stood, to Pritha's Son displaying\n  All the splendour, wonder, dread\n  Of His vast Almighty-head.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.9"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1328,
+            "end": 1475,
+            "lineStart": 1842,
+            "lineEnd": 1846,
+            "checksum": "9352bb1e9528691c8ff124e72791ccc5363a96ecac884e384c5fc1a763e2b57d"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.9 Sanjaya said Having thus spoken, O king, the great Lord of Yoga, hari (Krishna), showed to Arjuna His supreme form as the Lord."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.9 Sanjaya continued: \"Having thus spoken, O King, the Lord Shri Krishna, the Almighty Prince of Wisdom, showed to Arjuna the Supreme Form of the Great God."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.9 Sanjaya said O King, having spoken thus, thereafter, Hari [Hari: destroyer of ignorance along with its conseences.] (Krsna) the great Master of Yoga, showed to the son of Prtha the supreme divine form:"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.10",
+      "alignmentFingerprint": "825ff83aa99f6ac86684659cb235037eec3b694b0058598a6d0e716e499208e5",
+      "sanskrit": "अनेकवक्त्रनयनमनेकाद्भुतदर्शनम्।\nअनेकदिव्याभरणं दिव्यानेकोद्यतायुधम् ॥",
+      "iast": "anekavaktranayanamanekādbhutadarśanam\nanekadivyābharaṇaṃ divyānekodyatāyudham",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.11.10",
+        "content": "Out of countless eyes beholding,\n  Out of countless mouths commanding,\n  Countless mystic forms enfolding\n  In one Form: supremely standing\n  Countless radiant glories wearing,\n  Countless heavenly weapons bearing,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.10"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1475,
+            "end": 1692,
+            "lineStart": 1847,
+            "lineEnd": 1852,
+            "checksum": "e3a78eb6ed40053003387e00e2a23416077c3d3c90995bde1572251f666f62ab"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.10 With numerous mouths and eyes, with numerous wonderful sights, with numerous divine ornaments, with numerous divine weapons uplifted (such a form He showed)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.10 There were countless eyes and mouths, and mystic forms innumerable, with shining ornaments and flaming celestial weapons."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.10 Having many faces and eyes, possessing many wonderful sights, adorned with numerous celestial ornaments, holding many uplifted heavenly weapons;"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.11",
+      "alignmentFingerprint": "2f630b91f9bb1a5d2f980793e40bcb63120acad62b1a5bf097d49d48c2e6ae42",
+      "sanskrit": "दिव्यमाल्याम्बरधरं दिव्यगन्धानुलेपनम्।\nसर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम् ॥",
+      "iast": "divyamālyāmbaradharaṃ divyagandhānulepanam\nsarvāścaryamayaṃ devamanantaṃ viśvatomukham",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.11.11",
+        "content": "Crowned with garlands of star-clusters,\n  Robed in garb of woven lustres,\n  Breathing from His perfect Presence\n  Breaths of every subtle essence\n  Of all heavenly odours; shedding\n  Blinding brilliance; overspreading--\n  Boundless, beautiful--all spaces\n  With His all-regarding faces;\n  So He showed!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.11"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1692,
+            "end": 1997,
+            "lineStart": 1853,
+            "lineEnd": 1861,
+            "checksum": "46b64290895e805f79f37d1802d1986c242f052e2aa9576cce206be11e71fc18"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.11 Wearing divine garlands (necklaces) and apparel, anointed with divine unguents, the all-wonderful, resplendent (Being) endless with faces on all sides."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.11 Crowned with heavenly garlands, clothed in shining garments, anointed with divine unctions, He showed Himself as the Resplendent One, Marvellous, Boundless, Omnipresent."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.11 Wearing heavenly garlands and apparel, anointed with heavenly scents, abounding in all kinds of wonder, resplendent, infinite, and with faces everywhere."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.12",
+      "alignmentFingerprint": "202422268c43588cbd60d21023b6f642417d6b86fe5fd6b0cd5ef9676292b8da",
+      "sanskrit": "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता।\nयदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः ॥",
+      "iast": "divi sūryasahasrasya bhavedyugapadutthitā\nyadi bhāḥ sadṛśī sā syādbhāsastasya mahātmanaḥ",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.11.12",
+        "content": "If there should rise\n  Suddenly within the skies\n  Sunburst of a thousand suns\n  Flooding earth with beams undeemed-of,\n  Then might be that Holy One's\n  Majesty and radiance dreamed of!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.12"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1997,
+            "end": 2185,
+            "lineStart": 1861,
+            "lineEnd": 1867,
+            "checksum": "14da94b59ab50a66eca0b8d7f8a2308790aa9a411c4ee000dcaf826b8edd3c6b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.12 If the splendour of a thousand suns were to blaze out at once (simultaneously) in the sky, that would be the splendour of that mighty Being (great Soul)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.12 Could a thousand suns blaze forth together it would be but a faint reflection of the radiance of the Lord God."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.12 Should the effulgence of a thousand suns blaze forth simultaneously in the sky, that might be similar to the radiance of that exalted One."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.13",
+      "alignmentFingerprint": "7e60abdc1ff2ee3da8e068674d363dcdb69ba4cc46c1d1931a89dc89de9a2d5d",
+      "sanskrit": "तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा।\nअपश्यद्देवदेवस्य शरीरे पाण्डवस्तदा ॥",
+      "iast": "tatraikasthaṃ jagatkṛtsnaṃ pravibhaktamanekadhā\napaśyaddevadevasya śarīre pāṇḍavastadā",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.11.13",
+        "content": "So did Pandu's Son behold\n  All this universe enfold\n  All its huge diversity\n  Into one vast shape, and be\n  Visible, and viewed, and blended\n  In one Body--subtle, splendid,\n  Nameless--th' All-comprehending\n  God of Gods, the Never-Ending\n  Deity!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.13"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2185,
+            "end": 2439,
+            "lineStart": 1868,
+            "lineEnd": 1877,
+            "checksum": "c81813cfe1faddebec7887f03b41cb4c50fb2ba4b98cfbdb6e15765efa3a1181"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.13 There, in the body of the God of gods, Arjuna then saw the whole universe resting in one, with its many groups."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.13 In that vision Arjuna saw the universe, with its manifold shapes, all embraced in One, its Supreme Lord."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.13 At that time, Pandava saw there, in the body of the God of gods, the whole diversely differentiated Universe united in the one (Cosmic form)."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.14",
+      "alignmentFingerprint": "1f5cab9d61db7386b6a8b29f92e2e191f1b88e7ffc88205e4e6a6cd407a7e6c4",
+      "sanskrit": "ततः स विस्मयाविष्टो हृष्टरोमा धनञ्जयः।\nप्रणम्य शिरसा देवं कृताञ्जलिरभाषत ॥",
+      "iast": "tataḥ sa vismayāviṣṭo hṛṣṭaromā dhanañjayaḥ\npraṇamya śirasā devaṃ kṛtāñjalirabhāṣata",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.11.14",
+        "content": "But, sore amazed,\n  Thrilled, o'erfilled, dazzled, and dazed,\n  Arjuna knelt; and bowed his head,\n  And clasped his palms; and cried, and said:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.14"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2439,
+            "end": 2586,
+            "lineStart": 1878,
+            "lineEnd": 1882,
+            "checksum": "0c6977310dcd6b0c97cb4589d9e12844f948b72eaea037554fda8e9538ef2e2a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.14 Then, Arjuna, filled with wonder and with his hair standing on end, bowed down his head to the God and spoke with joined palms."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.14 Thereupon Arjuna, dumb with awe, his hair on end, his head bowed, his hands clasped in salutation, addressed the Lord thus:"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.14 Then, filled with wonder, with hairs standing on end, he, Dhananjaya, (Arjuna), bowing down with his head to the Lord, said with folded hands:"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.15",
+      "alignmentFingerprint": "4412b8bb5051f1af61dde4150edc9fffc562840b913616c573fd6a34f3023113",
+      "sanskrit": "अर्जुन उवाच।\nपश्यामि देवांस्तव देव देहे\nसर्वांस्तथा भूतविशेषसङ्घान्।\nब्रह्माणमीशं कमलासनस्थ-\nमृषींश्च सर्वानुरगांश्च दिव्यान् ॥",
+      "iast": "arjuna uvāca\npaśyāmi devāṃstava deva dehe sarvāṃstathā bhūtaviśeṣasaṅghān\nbrahmāṇamīśaṃ kamalāsanasthaṃ ṛṣīṃśca sarvānuragāṃśca divyān",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.15",
+        "content": "Arjuna.\n  Yea! I have seen! I see!\n  Lord! all is wrapped in Thee!\n  The gods are in Thy glorious frame! the creatures\n  Of earth, and heaven, and hell\n  In Thy Divine form dwell,\n  And in Thy countenance shine all the features\n\n  Of Brahma, sitting lone\n  Upon His lotus-throne;\n  Of saints and sages, and the serpent races\n  Ananta, Vasuki;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.15"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2586,
+            "end": 2933,
+            "lineStart": 1883,
+            "lineEnd": 1895,
+            "checksum": "c6cb42135182a50a3505c902e99b80a5260e8598c746e67074a11b37259ce859"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.15 Arjuna said I see all the gods, O God, in Thy body, and (also) hosts of various classes of beings, Brahma, the Lord, seated on the lotus, all the sages and the celestial serpents."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.15 Arjuna said: O almighty God! I see in Thee the powers of Nature, the various creatures of the world, the Progenitor on his lotus throne, the Sages and the shining angels."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.15 Arjuna said O God, I see in Your body all the gods as also hosts of (various) classes of beings; Brahma the ruler, sitting on a lotus seat, and all the heavely sages and serpents."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.16",
+      "alignmentFingerprint": "b7b018d7bd1db3422d0effdcdc8e452c11321eb2a77e5a0ea6d0e8ddd16a9da1",
+      "sanskrit": "अनेकबाहूदरवक्त्रनेत्रं\nपश्यामि त्वां सर्वतोऽनन्तरूपम्।\nनान्तं न मध्यं न पुनस्तवादिं\nपश्यामि विश्वेश्वर विश्वरूप ॥",
+      "iast": "anekabāhūdaravaktranetraṃ paśyāmi tvāṃ sarvato.anantarūpam\nnāntaṃ na madhyaṃ na punastavādiṃ paśyāmi viśveśvara viśvarūpa",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.16",
+        "content": "Yea! mightiest Lord! I see\n  Thy thousand thousand arms, and breasts, and faces,\n  And eyes,--on every side\n  Perfect, diversified;\n  And nowhere end of Thee, nowhere beginning,\n  Nowhere a centre! Shifts--\n  Wherever soul's gaze lifts--\n  Thy central Self, all-wielding, and all-winning!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.16"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2933,
+            "end": 3223,
+            "lineStart": 1895,
+            "lineEnd": 1903,
+            "checksum": "518ed7c9290780eb39f06eb980a08136a73a7e2200ce1ba7876636f8286b914a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.16 I see Thee of boundless form on every side with many arms, stomachs, mouths and eyes: neither the end nor the middle nor also the beginning do I see, O Lord of the universe, O Cosmic Form."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.16 I see Thee, infinite in form, with, as it were, faces, eyes and limbs everywhere; no beginning, no middle, no end; O Thou Lord of the Universe, Whose Form is universal!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.16 I see You as possessed of numerous arms, bellies, mouths and eyes; as having infinite forms all around. O Lord of the Universe, O Cosmic Person, I see not Your limit nor the middle, nor again the beginning!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.17",
+      "alignmentFingerprint": "44a542811351ce947cc58c34e2a89e70d06330868b72f27998f8f83605724100",
+      "sanskrit": "किरीटिनं गदिनं चक्रिणं च\nतेजोराशिं सर्वतो दीप्तिमन्तम्।\nपश्यामि त्वां दुर्निरीक्ष्यं समन्ताद्\nदीप्तानलार्कद्युतिमप्रमेयम् ॥",
+      "iast": "kirīṭinaṃ gadinaṃ cakriṇaṃ ca tejorāśiṃ sarvato dīptimantam\npaśyāmi tvāṃ durnirīkṣyaṃ samantād dīptānalārkadyutimaprameyam",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.17",
+        "content": "Infinite King! I see\n  The anadem on Thee,\n  The club, the shell, the discus; see Thee burning\n  In beams insufferable,\n  Lighting earth, heaven, and hell\n  With brilliance blazing, glowing, flashing; turning\n\n  Darkness to dazzling day,\n  Look I whichever way;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.17"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3223,
+            "end": 3489,
+            "lineStart": 1904,
+            "lineEnd": 1913,
+            "checksum": "8043f8242b34488d207d663a95e2ab3983539501a573cbefa69c3771da3656cd"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.17 I see Thee with the diadem, the club and the discus, a mass of radiance shining\neverywhere, very hard to look at, blazing all round like burning fire and the sun, and immeasurable."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.17 I see thee with the crown, the sceptre and the discus; a blaze of splendour. Scarce can I gaze on thee, so radiant thou art, glowing like the blazing fire, brilliant as the sun, immeasurable."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.17 I see You as wearing a diadem, wielding a mace, and holding a disc; a mass of brilliance glowing all around, difficult to look at from all sides, possessed of the radiance of the blazing fire and sun, and immeasurable."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.18",
+      "alignmentFingerprint": "999b0b8a177b2a559bc46f433744f550b52877b782ea18b1c29bbaa984149edd",
+      "sanskrit": "त्वमक्षरं परमं वेदितव्यं\nत्वमस्य विश्वस्य परं निधानम्।\nत्वमव्ययः शाश्वतधर्मगोप्ता\nसनातनस्त्वं पुरुषो मतो मे ॥",
+      "iast": "tvamakṣaraṃ paramaṃ veditavyaṃ tvamasya viśvasya paraṃ nidhānam\ntvamavyayaḥ śāśvatadharmagoptā sanātanastvaṃ puruṣo mato me",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.18",
+        "content": "Ah, Lord! I worship Thee, the Undivided,\n  The Uttermost of thought,\n  The Treasure-Palace wrought\n  To hold the wealth of the worlds; the Shield provided\n\n  To shelter Virtue's laws;\n  The Fount whence Life's stream draws\n  All waters of all rivers of all being:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.18"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3489,
+            "end": 3753,
+            "lineStart": 1913,
+            "lineEnd": 1920,
+            "checksum": "9fa9ea61edc783b70554eda8ccc4d950eaf7daf47723818e9c8d9b5634affd29"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.18 Thou art the Imperishable, the Supreme Being, worthy to be known. Thou art the great treasure-house of this universe; Thou art the imperishable protector of the eternal Dhrama; Thou art the Primal Person, I deem."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.18 Imperishable art Thou, the Sole One worthy to be known, the priceless Treasure-house of the universe, the immortal Guardian of the Life Eternal, the Spirit Everlasting."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.18 You are the Immutable, the supreme One to be known; You are the most perfect repository of this Universe. You are the Imperishable, the Protector of the ever-existing religion; You are the eternal Person. This is my belief."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.19",
+      "alignmentFingerprint": "8c3379a6e60f734125541e2208ace7e11fc48bfad8c7ab40fb3a903fa2480cbf",
+      "sanskrit": "अनादिमध्यान्तमनन्तवीर्य-\nमनन्तबाहुं शशिसूर्यनेत्रम्।\nपश्यामि त्वां दीप्तहुताशवक्त्रं\nस्वतेजसा विश्वमिदं तपन्तम् ॥",
+      "iast": "anādimadhyāntamanantavīryam anantabāhuṃ śaśisūryanetram\npaśyāmi tvāṃ dīptahutāśavaktraṃ svatejasā viśvamidaṃ tapantam",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.19",
+        "content": "The One Unborn, Unending:\n  Unchanging and Unblending!\n  With might and majesty, past thought, past seeing!\n\n  Silver of moon and gold\n  Of sun are glories rolled\n  From Thy great eyes; Thy visage, beaming tender\n  Throughout the stars and skies,\n  Doth to warm life surprise\n  Thy Universe.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.19"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3753,
+            "end": 4047,
+            "lineStart": 1921,
+            "lineEnd": 1930,
+            "checksum": "97c65fceb71c300d402352cd64d7655366dcbb05bd5ce514392cdb79561af7b6"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.19 I see Thee without beginning, middle or end, infinite in power, of endless arms, the sun and the moon being Thy eyes, the burning fire Thy mouth, heating the whole universe with Thy radiance."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.19 Without beginning, without middle and without end, infinite in power, Thine arms all-embracing, the sun and moon Thine eyes, Thy face beaming with the fire of sacrifice, flooding the whole universe with light."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.19 I see You as without beginning, middle and end, possessed of infinite valour, having innumerable arms, having the sun and the moon as eyes, having a mouth like a blazing fire, and heating up this Universe by Your own brilliance."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.20",
+      "alignmentFingerprint": "f59537c99efb0d81f8aa995dacc0b3c0988a85141cd156094602de31e32f44ae",
+      "sanskrit": "द्यावापृथिव्योरिदमन्तरं हि\nव्याप्तं त्वयैकेन दिशश्च सर्वाः।\nदृष्ट्वाद्भुतं रूपमुग्रं तवेदं\nलोकत्रयं प्रव्यथितं महात्मन् ॥",
+      "iast": "dyāvāpṛthivyoridamantaraṃ hi vyāptaṃ tvayaikena diśaśca sarvāḥ\ndṛṣṭvādbhutaṃ rūpamugraṃ tavedaṃ lokatrayaṃ pravyathitaṃ mahātman",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.20",
+        "content": "The worlds are filled with wonder\n\n  Of Thy perfections! Space\n  Star-sprinkled, and void place\n  From pole to pole of the Blue, from bound to bound,\n  Hath Thee in every spot,\n  Thee, Thee!--Where Thou art not,\n  O Holy, Marvellous Form! is nowhere found!\n\n  O Mystic, Awful One!\n  At sight of Thee, made known,\n  The Three Worlds quake;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.20"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4047,
+            "end": 4386,
+            "lineStart": 1930,
+            "lineEnd": 1941,
+            "checksum": "81d97d86c0ef4d617cef981bde06d3e06ffa4a605c599de334684eecc984607c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.20 This space between the earth and the heaven and all the arters are filled by Thee alone; having seen this, Thy wonderful and teriible form, the three worlds are trembling with fear, O great-souled Being."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.20 Alone thou fillest all the quarters of the sky, earth and heaven, and the regions between. O Almighty Lord! Seeing Thy marvellous and awe-inspiring Form, the spheres tremble with fear."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.20 Indeed, this intermediate space between heaven and earth as also all the directions are pervaded by You alone. O exalted One, the three worlds are struck with fear by seeing this strange, fearful form of Yours."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.21",
+      "alignmentFingerprint": "0323211688eebbbfef43cde0cec7c0e95f5db78c6da96f8461cdbc303bb5bee3",
+      "sanskrit": "अमी हि त्वां सुरसङ्घा विशन्ति\nकेचिद्भीताः प्राञ्जलयो गृणन्ति।\nस्वस्तीत्युक्त्वा महर्षिसिद्धसङ्घाः\nस्तुवन्ति त्वां स्तुतिभिः पुष्कलाभिः ॥",
+      "iast": "amī hi tvāṃ surasaṅghā viśanti kecidbhītāḥ prāñjalayo gṛṇanti\nsvastītyuktvā maharṣisiddhasaṅghāḥ stuvanti tvāṃ stutibhiḥ puṣkalābhiḥ",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.21",
+        "content": "the lower gods draw nigh Thee;\n  They fold their palms, and bow\n  Body, and breast, and brow,\n  And, whispering worship, laud and magnify Thee!\n\n  Rishis and Siddhas cry\n  \"Hail! Highest Majesty!\"\n  From sage and singer breaks the hymn of glory\n  In dulcet harmony,\n  Sounding the praise of Thee;\n  While countless companies take up the story,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.21"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4386,
+            "end": 4731,
+            "lineStart": 1941,
+            "lineEnd": 1952,
+            "checksum": "2602b78f892d6022be38abee4714c68c2c06e1da87aa392231163f3745a2841b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.21 Verily, into Thee enter these hosts of gods; some extol Thee in fear with joined palms; saying 'may it be well', bands of great sages and perfected ones praise Thee with hymns complete."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.21 The troops of celestial beings enter into Thee, some invoking Thee in fear, with folded palms; the Great Seers and Adepts sing hymns to Thy Glory, saying All Hail.'"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.21 Those very groups of gods enter into You; struck with fear, some extol (You) with joined palms. Groups of great sages and perfected beings praise You with elaborate hymns,saying 'May it be well!'"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.22",
+      "alignmentFingerprint": "5fe528f17e2c3ab0743276a93cca91c3e358ecd85e829aaf29fabf3ea7a7ce6e",
+      "sanskrit": "रुद्रादित्या वसवो ये च साध्या\nविश्वेऽश्विनौ मरुतश्चोष्मपाश्च।\nगन्धर्वयक्षासुरसिद्धसङ्घा\nवीक्षन्ते त्वां विस्मिताश्चैव सर्वे ॥",
+      "iast": "rudrādityā vasavo ye ca sādhyā viśve.aśvinau marutaścoṣmapāśca\ngandharvayakṣāsurasiddhasaṅghā vīkṣante tvāṃ vismitāścaiva sarve",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.22",
+        "content": "Rudras, who ride the storms,\n  Th' Adityas' shining forms,\n  Vasus and Sadhyas, Viswas, Ushmapas;\n  Maruts, and those great Twins\n  The heavenly, fair, Aswins,\n  Gandharvas, Rakshasas, Siddhas, and Asuras,[FN#22]--\n\n  These see Thee, and revere\n  In sudden-stricken fear;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.22"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4731,
+            "end": 5007,
+            "lineStart": 1953,
+            "lineEnd": 1962,
+            "checksum": "0585f14904535553eb838dcd63f6f3fddf38c036e50c3ef93a2dc992d942b61f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.22 The Rudras, Adityas, Vasus, Sadhyas, Visvedevas, the two Asvins, Maruts, the manes and the hosts of celestial singers, Yakshas, demons and the perfected ones, are all looking at Thee, in great amazement."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.22 The Vital Forces, the Major stars, Fire, Earth, Air, Sky, Sun, Heaven, Moon and Planets; the Angels, the Guardians of the Universe, the divine Healers, the Winds, the Fathers, the Heavenly Singers; and hosts of Mammon-worshippers, demons as well as saints, are amazed."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.22 Those who are the Rudras, the Adityas, the Vasus and the Sadhyas [sadhyas: A particular class of celestial beings.-V.S.A.], the Visve (-devas), the two Asvins, the Maruts and the Usmapas, and hosts of Gandharvas, Yaksas, demons and Siddhas-all of those very ones gaze at You, being indeed struck with wonder."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.23",
+      "alignmentFingerprint": "ad758217315346c31ec96e78b7791652c2f58372e0812275c84c95a9187aac8e",
+      "sanskrit": "रूपं महत्ते बहुवक्त्रनेत्रं\nमहाबाहो बहुबाहूरुपादम्।\nबहूदरं बहुदंष्ट्राकरालं\nदृष्ट्वा लोकाः प्रव्यथितास्तथाहम् ॥",
+      "iast": "rūpaṃ mahatte bahuvaktranetraṃ mahābāho bahubāhūrupādam\nbahūdaraṃ bahudaṃṣṭrākarālaṃ dṛṣṭvā lokāḥ pravyathitāstathāham",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.23",
+        "content": "Yea! the Worlds,--seeing Thee with form stupendous,\n  With faces manifold,\n  With eyes which all behold,\n  Unnumbered eyes, vast arms, members tremendous,\n\n  Flanks, lit with sun and star,\n  Feet planted near and far,\n  Tushes of terror, mouths wrathful and tender;--\n  The Three wide Worlds before Thee\n  Adore, as I adore Thee,\n  Quake, as I quake, to witness so much splendour!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.23"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5007,
+            "end": 5389,
+            "lineStart": 1962,
+            "lineEnd": 1973,
+            "checksum": "ebad8c6b6e20534f177de0c6cae924184fa3fc435f7c25112ad044f75cca308a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.23 Having seen Thy immeasurable form with many mouths and eyes, O mighty-armed, with many arms, thighs and feet, with many stomachs and fearful with many teeth the worlds are terrified and so am I."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.23 Seeing Thy stupendous Form, O Most Mighty, with its myriad faces, its innumerable eyes and limbs and terrible jaws, I myself and all the worlds are overwhelmed with awe."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.23 O mighty-armed One, seeing Your immense form with many mouths and eyes, having numerous arms, thighs and feet, with many bellies, and fearful with many teeth, the creatures are struck with terror, and so am I."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.24",
+      "alignmentFingerprint": "c2f0d4030c8e4bacea2f8ba1c9f76791a69e0cb284595c337b7edaba80f62028",
+      "sanskrit": "नभःस्पृशं दीप्तमनेकवर्णं\nव्यात्ताननं दीप्तविशालनेत्रम्।\nदृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा\nधृतिं न विन्दामि शमं च विष्णो ॥",
+      "iast": "nabhaḥspṛśaṃ dīptamanekavarṇaṃ vyāttānanaṃ dīptaviśālanetram\ndṛṣṭvā hi tvāṃ pravyathitāntarātmā dhṛtiṃ na vindāmi śamaṃ ca viṣṇo",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.24",
+        "content": "I mark Thee strike the skies\n  With front, in wondrous wise\n  Huge, rainbow-painted, glittering; and thy mouth\n  Opened, and orbs which see\n  All things, whatever be\n  In all Thy worlds, east, west, and north and south.\n\n  O Eyes of God! O Head!\n  My strength of soul is fled,\n  Gone is heart's force, rebuked is mind's desire!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.24"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5389,
+            "end": 5719,
+            "lineStart": 1974,
+            "lineEnd": 1983,
+            "checksum": "b8cf3eec73d3edfc982410f930e73a934fd6fe987c1b0163f965be255c253b1a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.24 On seeing Thee (the Cosmic Form) touching the sky, shining in many colours, with mouths wide open, with large fiery eyes, I am terrified at heart and find neither courage nor peace, O Vishnu."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.24 When I see Thee, touching the Heavens, glowing with colour, with open mouth and wide open fiery eyes, I am terrified. O My Lord! My courage and peace of mind desert me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.24 O Visnu, verily, seeing Your form touching heaven, blazing, with many colours, open-mouthed, with fiery large eyes, I , becoming terrified in my mind, do not find steadiness and peace."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.25",
+      "alignmentFingerprint": "1ffe51aa1e14734fa39f88dc51bf99fcda40a9eacd7753f0994f429bf7f4a9fb",
+      "sanskrit": "दंष्ट्राकरालानि च ते मुखानि\nदृष्ट्वैव कालानलसन्निभानि।\nदिशो न जाने न लभे च शर्म\nप्रसीद देवेश जगन्निवास ॥",
+      "iast": "daṃṣṭrākarālāni ca te mukhāni dṛṣṭvaiva kālānalasannibhāni\ndiśo na jāne na labhe ca śarma prasīda deveśa jagannivāsa",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.25",
+        "content": "When I behold Thee so,\n  With awful brows a-glow,\n  With burning glance, and lips lighted by fire\n\n  Fierce as those flames which shall\n  Consume, at close of all,\n  Earth, Heaven! Ah me! I see no Earth and Heaven!\n  Thee, Lord of Lords! I see,\n  Thee only-only Thee!\n  Now let Thy mercy unto me be given,\n\n  Thou Refuge of the World!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.25"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5719,
+            "end": 6056,
+            "lineStart": 1984,
+            "lineEnd": 1995,
+            "checksum": "d1c4f979fb53cbfa080ba37d6397a226f92bdde5fe921917dafc0ea4bcf5fc7d"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.25 Having seen Thy mouths fearful with teeth (blazing) like the fires of cosmic dissolution, I know not the four arters, nor do I find peace. Have mercy, O Lord of the gods, O abode of the universe."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.25 When I see Thy mouths with their fearful jaws like glowing fires at the dissolution of creation, I lose all sense of place; I find no rest. Be merciful, O Lord in whom this universe abides!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.25 Having merely seen Your mouths made terrible with (their) teeth and resembling the fire of Dissolution, I have lost the sense of direction and find no comfort. Be gracious, O Lord of gods, O Abode of the Universe."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.26",
+      "alignmentFingerprint": "2118f54a441f7abfd606ce0115a7b2b69a7beeb67821af630193ba0702738995",
+      "sanskrit": "अमी च त्वां धृतराष्ट्रस्य पुत्राः\nसर्वे सहैवावनिपालसङ्घैः।\nभीष्मो द्रोणः सूतपुत्रस्तथासौ\nसहास्मदीयैरपि योधमुख्यैः ॥",
+      "iast": "amī ca tvāṃ dhṛtarāṣṭrasya putrāḥ sarve sahaivāvanipālasaṅghaiḥ\nbhīṣmo droṇaḥ sūtaputrastathāsau sahāsmadīyairapi yodhamukhyaiḥ",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.26",
+        "content": "Lo! to the cavern hurled\n  Of Thy wide-opened throat, and lips white-tushed,\n  I see our noblest ones,\n  Great Dhritarashtra's sons,\n  Bhishma, Drona, and Karna, caught and crushed!\n\n  The Kings and Chiefs drawn in,\n  That gaping gorge within;\n  The best of both these armies torn and riven!\n  Between Thy jaws they lie\n  Mangled full bloodily,\n  Ground into dust and death!",
+        "relation": "shared-source-span",
+        "references": [
+          "gita.11.26",
+          "gita.11.27"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6056,
+            "end": 6433,
+            "lineStart": 1996,
+            "lineEnd": 2007,
+            "checksum": "e620d8c1b15000890ab39c694bb10bd34fa379e8cbed8e7b24ac5f56666fc5c6"
+          }
+        ],
+        "note": "Arnold interweaves the named warriors (11.26) with their entry into the jaws (11.27)."
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.26 All the sons of Dhritarashtra, with the hosts of kings of the earth, Bhishma, Drona and Karna, with the chief among our warriors."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.26 All these sons of Dhritarashtra, with the hosts of princes, Bheeshma, Drona and Karna, as well as the other warrior chiefs belonging to our side;"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.26 And into You (enter) all those sons of Dhrtarastra along with multitudes of the rulers of the earth; (also) Bhisma, Drona and that son of a Suta (Karna), together with even our prominent warriors."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.27",
+      "alignmentFingerprint": "33dcdb55755ac072681fdd160b9b48b76aabe2d5f1676a1e84503644bbfab600",
+      "sanskrit": "वक्त्राणि ते त्वरमाणा विशन्ति\nदंष्ट्राकरालानि भयानकानि।\nकेचिद्विलग्ना दशनान्तरेषु\nसन्दृश्यन्ते चूर्णितैरुत्तमाङ्गैः ॥",
+      "iast": "vaktrāṇi te tvaramāṇā viśanti daṃṣṭrākarālāni bhayānakāni\nkecidvilagnā daśanāntareṣu sandṛśyante cūrṇitairuttamāṅgaiḥ",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.27",
+        "content": "Lo! to the cavern hurled\n  Of Thy wide-opened throat, and lips white-tushed,\n  I see our noblest ones,\n  Great Dhritarashtra's sons,\n  Bhishma, Drona, and Karna, caught and crushed!\n\n  The Kings and Chiefs drawn in,\n  That gaping gorge within;\n  The best of both these armies torn and riven!\n  Between Thy jaws they lie\n  Mangled full bloodily,\n  Ground into dust and death!",
+        "relation": "shared-source-span",
+        "references": [
+          "gita.11.26",
+          "gita.11.27"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6056,
+            "end": 6433,
+            "lineStart": 1996,
+            "lineEnd": 2007,
+            "checksum": "e620d8c1b15000890ab39c694bb10bd34fa379e8cbed8e7b24ac5f56666fc5c6"
+          }
+        ],
+        "note": "Arnold interweaves the named warriors (11.26) with their entry into the jaws (11.27)."
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.27 Some hurriedly enter Thy mouths with their terrible teeth, fearful to behold. Some are found sticking in the gaps between the teeth with their heads crushed to powder."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.27 1 see them all rushing headlong into Thy mouths, with terrible tusks, horrible to behold. Some are mangled between thy jaws, with their heads crushed to atoms."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.27 They rapidly enter into Your terrible mouths with cruel teeths! Some are seen sticking in the gaps between the teeth, with their heads crushed!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.28",
+      "alignmentFingerprint": "9fc097d8f0cd95bb4855a912ce4fbbf30f9d38097ba84584d148efb01e928172",
+      "sanskrit": "यथा नदीनां बहवोऽम्बुवेगाः\nसमुद्रमेवाभिमुखा द्रवन्ति।\nतथा तवामी नरलोकवीरा\nविशन्ति वक्त्राण्यभिविज्वलन्ति ॥",
+      "iast": "yathā nadīnāṃ bahavo.ambuvegāḥ samudramevābhimukhā dravanti\ntathā tavāmī naralokavīrā viśanti vaktrāṇyabhivijvalanti",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.28",
+        "content": "Like streams down-driven\n\n  With helpless haste, which go\n  In headlong furious flow\n  Straight to the gulfing deeps of th' unfilled ocean,\n  So to that flaming cave\n  Those heroes great and brave\n  Pour, in unending streams, with helpless motion!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.28"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6433,
+            "end": 6682,
+            "lineStart": 2007,
+            "lineEnd": 2015,
+            "checksum": "725bdb932ce92850bb54a20d36b4967d8bbc493538cb6fb594c97f4bf53e50a0"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.28 Verily, just as many torrents of rivers flow towards the ocean, even so these heroes in the world of men enter Thy flaming mouths."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.28 As rivers in flood surge furiously to the ocean, so these heroes, the greatest among men, fling themselves into Thy flaming mouths."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.28 As the numerous currents of the waters of rivers rush towards the sea alone so also do those heroes of the human world enter into Your blazing mouths."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.29",
+      "alignmentFingerprint": "4a3a76c6fcb4815083bcb551453e34cf2daa6e929bdba22b1d8988fe51774707",
+      "sanskrit": "यथा प्रदीप्तं ज्वलनं पतङ्गा\nविशन्ति नाशाय समृद्धवेगाः।\nतथैव नाशाय विशन्ति लोकास्-\nतवापि वक्त्राणि समृद्धवेगाः ॥",
+      "iast": "yathā pradīptaṃ jvalanaṃ pataṅgā viśanti nāśāya samṛddhavegāḥ\ntathaiva nāśāya viśanti lokāsa- tavāpi vaktrāṇi samṛddhavegāḥ",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.29",
+        "content": "Like moths which in the night\n  Flutter towards a light,\n  Drawn to their fiery doom, flying and dying,\n  So to their death still throng,\n  Blind, dazzled, borne along\n  Ceaselessly, all those multitudes, wild flying!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.29"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6682,
+            "end": 6903,
+            "lineStart": 2016,
+            "lineEnd": 2022,
+            "checksum": "08c56de7293e32bcf0de51c9e91a0f4b9fdd8652253818059bd8d897293f8a8c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.29 As moths hurriedly rush into a blazing fire for (their own) destruction, so also these creatures hurriedly rush into Thy mouths for (their own) destruction."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.29 As moths fly impetuously to the flame only to be killed, so these men rush into Thy mouths to court their own destruction."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.29 As moths enter with increased haste into a glowing fire for destruction, in that very way do the creatures enter into Your mouths too, with increased hurry for destruction."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.30",
+      "alignmentFingerprint": "e2d2d725290cda2b5445011564f81253e593453c241a87606dc18c19b74f2fef",
+      "sanskrit": "लेलिह्यसे ग्रसमानः समन्ताल्-\nलोकान्समग्रान्वदनैर्ज्वलद्भिः।\nतेजोभिरापूर्य जगत्समग्रं\nभासस्तवोग्राः प्रतपन्ति विष्णो ॥",
+      "iast": "lelihyase grasamānaḥ samantāl- lokānsamagrānvadanairjvaladbhiḥ\ntejobhirāpūrya jagatsamagraṃ bhāsastavogrāḥ pratapanti viṣṇo",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.30",
+        "content": "Thou, that hast fashioned men,\n  Devourest them again,\n  One with another, great and small, alike!\n  The creatures whom Thou mak'st,\n  With flaming jaws Thou tak'st,\n  Lapping them up! Lord God! Thy terrors strike\n\n  From end to end of earth,\n  Filling life full, from birth\n  To death, with deadly, burning, lurid dread!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.30"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6903,
+            "end": 7229,
+            "lineStart": 2023,
+            "lineEnd": 2033,
+            "checksum": "c012a8717531f61ef91b4da817497a8544b20d5b94ac9143cb2f250e0380580c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.30 Thou lickest up, devouring all the worlds on every side with Thy flaming mouths. Thy fierce rays, filling the whole world with radiance, are burning, O Vishnu!"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.30 Thou seemest to swallow up the worlds, to lap them in flame. Thy glory fills the universe. Thy fierce rays beat down upon it irresistibly."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.30 You lick Your lips while devouring all the creatures from every side with flaming mouths which are completely filling the entire world with heat."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.31",
+      "alignmentFingerprint": "1448a9e1ef2c5d38f69378290567efbc364c1c1df7635e2401b9794995e41fab",
+      "sanskrit": "आख्याहि मे को भवानुग्ररूपो\nनमोऽस्तु ते देववर प्रसीद।\nविज्ञातुमिच्छामि भवन्तमाद्यं\nन हि प्रजानामि तव प्रवृत्तिम् ॥",
+      "iast": "ākhyāhi me ko bhavānugrarūpo namo.astu te devavara prasīda\nvijñātumicchāmi bhavantamādyaṃ na hi prajānāmi tava pravṛttim",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.31",
+        "content": "Ah, Vishnu! make me know\n  Why is Thy visage so?\n  Who art Thou, feasting thus upon Thy dead?\n\n  Who? awful Deity!\n  I bow myself to Thee,\n  Namostu Te, Devavara! Prasid![FN#23]\n  O Mightiest Lord! rehearse\n  Why hast Thou face so fierce?\n  Whence doth this aspect horrible proceed?",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.31"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7229,
+            "end": 7513,
+            "lineStart": 2033,
+            "lineEnd": 2043,
+            "checksum": "5536a09a2849e422276b451dbc338d033c75a780458f7098ce2079679b2f3405"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.31 Tell me, who Thou art, so fierce of form. Salutations to Thee, O God Supreme: have mercy. I desire to know Thee, the original Being. I know not indeed Thy working."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.31 Tell me then who Thou art, that wearest this dreadful Form? I bow before Thee, O Mighty One! Have mercy, I pray, and let me see Thee as Thou wert at first. I do not know what Thou intendest."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.31 Tell me who You are, fierce in form. Salutation be to you, O supreme God; be gracious. I desire to fully know You who are the Prima One. For I do not understand Your actions!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.32",
+      "alignmentFingerprint": "713627d84ab562b63b028f111c023b352cfd6a7fb2e2993d6f7e008bb5ee9b23",
+      "sanskrit": "श्रीभगवानुवाच।\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धो\nलोकान्समाहर्तुमिह प्रवृत्तः।\nऋतेऽपि त्वां न भविष्यन्ति सर्वे\nयेऽवस्थिताः प्रत्यनीकेषु योधाः ॥",
+      "iast": "śrībhagavānuvāca\nkālo.asmi lokakṣayakṛtpravṛddho lokānsamāhartumiha pravṛttaḥ\nṛte.api tvāṃ na bhaviṣyanti sarve ye.avasthitāḥ pratyanīkeṣu yodhāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.32",
+        "content": "Krishna.\n  Thou seest Me as Time who kills,\n  Time who brings all to doom,\n  The Slayer Time, Ancient of Days, come hither to consume;\n  Excepting thee, of all these hosts of hostile chiefs arrayed,\n  There stands not one shall leave alive the battlefield!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.32"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7513,
+            "end": 7772,
+            "lineStart": 2044,
+            "lineEnd": 2049,
+            "checksum": "a5f1c387ea3784e9c57e544d5971a40dc5bf313be8ab71aa25d4f9c31db63a1a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.32 The Blessed Lord said I am the full-grown world-destroying Time, now engaged in destroying the worlds. Even without thee, none of the warriors arrayed in the hostile armies shall live."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.32 Lord Shri Krishna replied: I have shown myself to thee as the Destroyer who lays waste the world and whose purpose is destruction. In spite of thy efforts, all these warriors gathered for battle shall not escape death."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.32 The Blessed Lord said I am the world-destroying Time, [Time: The supreme God with His limiting adjunct of the power of action.] grown in stature [Pravrddhah, mighty-according to S.-Tr.] and now engaged in annihilating the creatures. Even without you, all the warriors who are arrayed in the confronting armies will cease to exist!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.33",
+      "alignmentFingerprint": "b7615b3c84c67c7af9996500372e0fd8f19fff0f364b61dae2365d5870407372",
+      "sanskrit": "तस्मात्त्वमुत्तिष्ठ यशो लभस्व\nजित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम्।\nमयैवैते निहताः पूर्वमेव\nनिमित्तमात्रं भव सव्यसाचिन् ॥",
+      "iast": "tasmāttvamuttiṣṭha yaśo labhasva jitvā śatrūn bhuṅkṣva rājyaṃ samṛddham\nmayaivaite nihatāḥ pūrvameva nimittamātraṃ bhava savyasācin",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.33",
+        "content": "Dismayed\n  No longer be! Arise! obtain renown! destroy thy foes!\n  Fight for the kingdom waiting thee when thou hast vanquished those.\n  By Me they fall--not thee! the stroke of death is dealt them now,\n  Even as they show thus gallantly; My instrument art thou!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.33"
+        ],
+        "sourceSpans": [
+          {
+            "start": 7772,
+            "end": 8035,
+            "lineStart": 2049,
+            "lineEnd": 2053,
+            "checksum": "52605e2b116d231da9bc3598f46d5a34c0333e8691be5fe57252afdd4b1ba196"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.33 Therefore, stand up and obtain fame. Coner the enemies and enjoy the unrivalled kingdom. Verily by Me have they been already slain; be thou a mere instrument, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.33 Then gird up thy loins and conquer. Subdue thy foes and enjoy the kingdom in prosperity. I have already doomed them. Be thou my instrument, Arjuna!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.33 Therefore you rise up, (and) gain fame; and defeating the enemies, enjoy a prosperous kingdom. These have been killed verily by Me even earlier; be you merely an instrument, O Savyasacin (Arjuna)."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.34",
+      "alignmentFingerprint": "5a89a0304f5d6ac880ddac36501aa7ae5d64e988b29e40ee1d86135efedfdeb2",
+      "sanskrit": "द्रोणं च भीष्मं च जयद्रथं च\nकर्णं तथान्यानपि योधवीरान्।\nमया हतांस्त्वं जहि मा व्यथिष्ठा\nयुध्यस्व जेतासि रणे सपत्नान् ॥",
+      "iast": "droṇaṃ ca bhīṣmaṃ ca jayadrathaṃ ca karṇaṃ tathānyānapi yodhavīrān\nmayā hatāṃstvaṃ jahi mavyathiṣṭhā yudhyasva jetāsi raṇe sapatnān",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.34",
+        "content": "Strike, strong-armed Prince, at Drona! at Bhishma strike! deal death\n  On Karna, Jyadratha; stay all their warlike breath!\n  'Tis I who bid them perish! Thou wilt but slay the slain;\n  Fight! they must fall, and thou must live, victor upon this plain!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.34"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8035,
+            "end": 8290,
+            "lineStart": 2054,
+            "lineEnd": 2058,
+            "checksum": "2f01d1dee71ba7a1a71b38d7d62df0433e6bd1a925683606b16ea69b51c61779"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.34 Drona, Bhishma, Jayadratha, Karna and other brave warriors these are already slain by Me: do thou kill; be not distressed with fear; fight and thou shalt coner thy enemies in battle."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.34 Drona and Bheeshma, Jayadratha and Karna, and other brave warriors - I have condemned them all. Destroy them; fight and fear not. Thy foes shall be crushed.\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.34 You destroy Drona and Bhisma, and Jayadratha and Karna as also the other heroic warriors who have been killed by Me. Do not be afraid. Fight! You shall coner the enemies in battle."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.35",
+      "alignmentFingerprint": "d86e8771b9950351933df984700eb72f3396440776605d48eb82282b16f16030",
+      "sanskrit": "सञ्जय उवाच।\nएतच्छ्रुत्वा वचनं केशवस्य\nकृताञ्जलिर्वेपमानः किरीटी।\nनमस्कृत्वा भूय एवाह कृष्णं\nसगद्गदं भीतभीतः प्रणम्य ॥",
+      "iast": "sañjaya uvāca\netacchrutvā vacanaṃ keśavasya kṛtāñjalirvepamānaḥ kirīṭī\nnamaskṛtvā bhūya evāha kṛṣṇaṃ sagadgadaṃ bhītabhītaḥ praṇamya",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.11.35",
+        "content": "Sanjaya.\n  Hearing mighty Keshav's word,\n  Tremblingly that helmed Lord\n  Clasped his lifted palms, and--praying\n  Grace of Krishna--stood there, saying,\n  With bowed brow and accents broken,\n  These words, timorously spoken:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.35"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8290,
+            "end": 8519,
+            "lineStart": 2059,
+            "lineEnd": 2066,
+            "checksum": "ef3537cc81a3559837d79b4a411d90ac79ce6582ca115899f4ec846ec58a1560"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.35 Sanjaya said Having heard that speech of Lord Krishna, Arjuna, with joined palms, trembling, prostrating himself, again addressed Krishna, in a choked voice, bowing down, overwhelmed with fear."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.35 Sanjaya continued: \"Having heard these words from the Lord Shri Krishna, the Prince Arjuna, with folded hands trembling, prostrated himself and with choking voice, bowing down again and again, and overwhelmed with awe, once more addressed the Lord."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.35 Sanjaya said Hearing this utterance of Kesava, Kiriti (Arjuna), with joined palms and trembling, protrating himself, said again to Krsna with a faltering voice, bowing down overcome by fits of fear:"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.36",
+      "alignmentFingerprint": "373bc64d1fe38544e30e5e6532ae2f8bb5aca501ccfd5a075c08a1d1ea3330c5",
+      "sanskrit": "अर्जुन उवाच।\nस्थाने हृषीकेश तव प्रकीर्त्या\nजगत्प्रहृष्यत्यनुरज्यते च।\nरक्षांसि भीतानि दिशो द्रवन्ति\nसर्वे नमस्यन्ति च सिद्धसङ्घाः ॥",
+      "iast": "arjuna uvāca\nsthāne hṛṣīkeśa tava prakīrtyā jagatprahṛṣyatyanurajyate ca\nrakṣāṃsi bhītāni diśo dravanti sarve namasyanti ca siddhasaṅghāḥ",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.36",
+        "content": "Arjuna.\n  Worthily, Lord of Might!\n  The whole world hath delight\n  In Thy surpassing power, obeying Thee;\n  The Rakshasas, in dread\n  At sight of Thee, are sped\n  To all four quarters; and the company\n\n  Of Siddhas sound Thy name.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.36"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8519,
+            "end": 8753,
+            "lineStart": 2067,
+            "lineEnd": 2075,
+            "checksum": "7ee4949a1a2171f79c4a38f02c856d580a6bc497b3aac03e5c86584d6178fc46"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.36 Arjuna said It is meet, O Krishna, that the world delights and rejoices in Thy praise; demons fly in fear to all arters and the hosts of the perfected ones bow to Thee."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.36 Arjuna said: My Lord! It is natural that the world revels and rejoices when it sings the praises of Thy glory; the demons fly in fear and the saints offer Thee their salutations."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.36 Arjuna said It is proper, O Hrsikesa, that the world becomes delighted and attracted by Your praise; that the Raksasas, stricken with fear, run in all directions; and that all the groups of the Siddhas bow down (toYou)."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.37",
+      "alignmentFingerprint": "b43572999de1d9cd5186d54190ff5e86da0337c281b088ac6c912b3124cfc4d6",
+      "sanskrit": "कस्माच्च ते न नमेरन्महात्मन्\nगरीयसे ब्रह्मणोऽप्यादिकर्त्रे।\nअनन्त देवेश जगन्निवास\nत्वमक्षरं सदसत्तत्परं यत् ॥",
+      "iast": "kasmācca te na nameranmahātman garīyase brahmaṇo.apyādikartre\nananta deveśa jagannivāsa tvamakṣaraṃ sadasattatparaṃ yat",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.37",
+        "content": "How should they not proclaim\n  Thy Majesties, Divinest, Mightiest?\n  Thou Brahm, than Brahma greater!\n  Thou Infinite Creator!\n  Thou God of gods, Life's Dwelling-place and Rest!\n\n  Thou, of all souls the Soul!\n  The Comprehending Whole!\n  Of being formed, and formless being the Framer;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.37"
+        ],
+        "sourceSpans": [
+          {
+            "start": 8753,
+            "end": 9043,
+            "lineStart": 2076,
+            "lineEnd": 2084,
+            "checksum": "832e5e94bd6df60931e430b2770a1b69d29856cf71c0c96344df91c48c40b74e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.37 And why should they not, O great Soul, bow to Thee Who art greater (than all else), the primal cause even of the Creator (Brahma), O Infinite Being, O Lord of the gods, O Abode of the universe; Thou art the imperishable, the Being, the non-being and That which is the supreme (that which is beyond the Being and the non-being)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.37 How should they do otherwise? O Thou Supremest Self, greater than the Powers of creation, the First Cause, Infinite, the Lord of Lords, the Home of the universe, Imperishable, Being and Not-Being, yet transcending both."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.37 And why should they not bow down to You, O exalted [i.e. not narrow-minded.] One, who are greater (than all) and who are the first Creator even of Brahma! O infinite One, supreme God, Abode of the Universe, You are the Immutable,being and non-being, (and) that which is Transcendental."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.38",
+      "alignmentFingerprint": "20491b4ca751f10d6d7cbe32dbd3170a829d6d5ee15de7e2067da599d8b4e14d",
+      "sanskrit": "त्वमादिदेवः पुरुषः पुराणस्-\nत्वमस्य विश्वस्य परं निधानम्।\nवेत्तासि वेद्यं च परं च धाम\nत्वया ततं विश्वमनन्तरूप ॥",
+      "iast": "tvamādidevaḥ puruṣaḥ purāṇasa- tvamasya viśvasya paraṃ nidhānam\nvettāsi vedyaṃ ca paraṃ ca dhāma tvayā tataṃ viśvamanantarūpa",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.38",
+        "content": "O Utmost One! O Lord!\n  Older than eld, Who stored\n  The worlds with wealth of life! O Treasure-Claimer,\n\n  Who wottest all, and art\n  Wisdom Thyself! O Part\n  In all, and All; for all from Thee have risen\n  Numberless now I see\n  The aspects are of Thee!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.38"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9043,
+            "end": 9303,
+            "lineStart": 2085,
+            "lineEnd": 2094,
+            "checksum": "129a6688783dd8d1c7d085df49ef40c5698a10453519209c0a37c0d29acb42c3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.38 Thou art the primal God, the ancient Purusha, the supreme refuge of this universe, the knower, the knowable and the supreme Abode. By Thee is the universe pervaded, O Being of infinite forms."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.38 Thou art the Primal God, the Ancient, the Supreme Abode of this universe, the Knower, the Knowledge and the Final Home. Thou fillest everything. Thy form is infinite."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.38 You are the primal Deity, the ancient Person; You are the supreme Resort of this world. You are the knower as also the object of knowledge, and the supreme Abode. O You of infinite forms, the Universe is pervaded by You!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.39",
+      "alignmentFingerprint": "a219184060ec1931586a4076c4bb2db1ab717bd2ac23c0115574502e195330c2",
+      "sanskrit": "वायुर्यमोऽग्निर्वरुणः शशाङ्कः\nप्रजापतिस्त्वं प्रपितामहश्च।\nनमो नमस्तेऽस्तु सहस्रकृत्वः\nपुनश्च भूयोऽपि नमो नमस्ते ॥",
+      "iast": "vāyuryamo.agnirvaruṇaḥ śaśāṅkaḥ prajāpatistvaṃ prapitāmahaśca\nnamo namaste.astu sahasrakṛtvaḥ punaśca bhūyo.api namo namaste",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.39",
+        "content": "Vayu[FN#24] Thou art, and He who keeps the prison\n\n  Of Narak, Yama dark;\n  And Agni's shining spark;\n  Varuna's waves are Thy waves. Moon and starlight\n  Are Thine! Prajapati\n  Art Thou, and 'tis to Thee\n  They knelt in worshipping the old world's far light,\n\n  The first of mortal men.\n  Again, Thou God! again\n  A thousand thousand times be magnified!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.39"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9303,
+            "end": 9658,
+            "lineStart": 2094,
+            "lineEnd": 2105,
+            "checksum": "9de2d5ae0be45a13a0ecb417e661d767767de5ac83a6a330423efe356abeefd1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.39 Thou art Vayu, Yama, Agni, Varuna, the moon, the Creator, and the great-grandfather. Salutations, salutations unto Thee, a thousand times, and again salutations, salutations unto Thee."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.39 Thou art the Wind, Thou art Death, Thou art the Fire, the Water, the Moon, the Father and the Grandfather. Honour and glory to Thee a thousand and a thousand times! Again and again, salutation be to Thee, O my Lord!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.39 You are Air, Death, Fire, the god of the waters, the moon, the Lord of the creatures, and the Greater-grandfather. Salutations! Salutation be to You a thousand times; salutation to You again and again! Salutation!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.40",
+      "alignmentFingerprint": "a659452fa9f7db3188f25eb0b71f65854efcbac781f76dfa8d7ff798ce2f922f",
+      "sanskrit": "नमः पुरस्तादथ पृष्ठतस्ते\nनमोऽस्तु ते सर्वत एव सर्व।\nअनन्तवीर्यामितविक्रमस्त्वं\nसर्वं समाप्नोषि ततोऽसि सर्वः ॥",
+      "iast": "namaḥ purastādatha pṛṣṭhataste namo.astu te sarvata eva sarva\nanantavīryāmitavikramastvaṃ sarvaṃ samāpnoṣi tato.asi sarvaḥ",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.40",
+        "content": "Honour and worship be--\n  Glory and praise,--to Thee\n  Namo, Namaste, cried on every side;\n\n  Cried here, above, below,\n  Uttered when Thou dost go,\n  Uttered where Thou dost come! Namo! we call;\n  Namostu! God adored!\n  Namostu! Nameless Lord!\n  Hail to Thee! Praise to Thee! Thou One in all;\n\n  For Thou art All! Yea, Thou!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.40"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9658,
+            "end": 9988,
+            "lineStart": 2106,
+            "lineEnd": 2118,
+            "checksum": "ecd474827168d6e0b48d5de22b4e34b7fe5fd0d6423c4b11889674446d380391"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.40 Salutations to Thee, in front and behind! Salutations to Thee on every side! O All!! Thou infinite in power and prowess, pervadest all; wherefore Thou art all."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.40 Salutations to Thee in front and on every side, Thou who encompasseth me round about. Thy power is infinite; Thy majesty immeasurable; thou upholdest all things; yea,Thou Thyself art All."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.40 Salutation to You in the East and behind. Salutation be to You on all sides in deed, O All! You are possessed of infinite strength and infinite heroism. You pervade everything; hence You are all!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.41",
+      "alignmentFingerprint": "ca0909e654933ae3245aacfabaec0bdfeb8cf834f7b1ab5d536d1f9917344deb",
+      "sanskrit": "सखेति मत्वा प्रसभं यदुक्तं\nहे कृष्ण हे यादव हे सखेति।\nअजानता महिमानं तवेदं\nमया प्रमादात्प्रणयेन वापि ॥",
+      "iast": "sakheti matvā prasabhaṃ yaduktaṃ he kṛṣṇa he yādava he sakheti\najānatā mahimānaṃ tavedaṃ mayā pramādātpraṇayena vāpi",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.41",
+        "content": "Ah! if in anger now\n  Thou shouldst remember I did think Thee Friend,\n  Speaking with easy speech,\n  As men use each to each;\n  Did call Thee \"Krishna,\" \"Prince,\" nor comprehend\n\n  Thy hidden majesty,\n  The might, the awe of Thee;\n  Did, in my heedlessness, or in my love,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.41"
+        ],
+        "sourceSpans": [
+          {
+            "start": 9988,
+            "end": 10261,
+            "lineStart": 2118,
+            "lineEnd": 2126,
+            "checksum": "8377ae7dba2dac7f991a59dc9293fa465a17a26ff079637fecf7d1fdea1a1311"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.41 Whatever I have presumptuously said from carelessness or love, addressing Thee as O Krishna! O Yadava! O Friend! regarding Thee merely as a friend, unknowing of this, Thy greatness."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.41 Whatever I have said unto Thee in rashness, taking Thee only for a friend and addressing Thee as O Krishna! O Yadava! O Friend!' in thoughtless familiarity, no understanding Thy greatness;"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.41 Without knowing this greatness of Yours, whatever was said by me (to You) rashly, through inadvertence or even out of intimacy, thinking (You to be) a friend, addressing (You) as 'O krsna,' 'O Yadava,' 'O friend,' etc.-."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.42",
+      "alignmentFingerprint": "a31050be23adf6f41b2bd851d7c677c978a56e29d4bad27d3feb216453850444",
+      "sanskrit": "यच्चावहासार्थमसत्कृतोऽसि\nविहारशय्यासनभोजनेषु।\nएकोऽथवाप्यच्युत तत्समक्षं\nतत्क्षामये त्वामहमप्रमेयम् ॥",
+      "iast": "yaccāvahāsārthamasatkṛto.asi vihāraśayyāsanabhojaneṣu\neko.athavāpyacyuta tatsamakṣaṃ tatkṣāmaye tvāmahamaprameyam",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.42",
+        "content": "On journey, or in jest,\n  Or when we lay at rest,\n  Sitting at council, straying in the grove,\n\n  Alone, or in the throng,\n  Do Thee, most Holy! wrong,\n  Be Thy grace granted for that witless sin!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.42"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10261,
+            "end": 10460,
+            "lineStart": 2127,
+            "lineEnd": 2133,
+            "checksum": "a4ef33acba075e99ebbee6b8ab4ab649084d7b762378cbbe10790071c7076e0a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.42 In whatever way I may have insulted Thee for the sake of fun, while at play, reposing, sitting or at meals, when alone (with Thee), O Krishna, or in company that I implore Thee, immeasurable one, to forgive."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.42 Whatever insult I have offered to Thee in jest, in sport or in repose, in conversation or at the banquet, alone or in a multitude, I ask Thy forgiveness for them all, O Thou Who art without an equal!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.42 And that You have been discourteously treated out of fun-while walking, while on a bed, while on a seat, while eating, in privacy, or, O Acyuta, even in public, for that I beg pardon of You, the incomprehensible One."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.43",
+      "alignmentFingerprint": "e9235d7dab9fc1f93c1a56fc5276f5a69caa9eead1aae5ea62ac22eae9986c5c",
+      "sanskrit": "पितासि लोकस्य चराचरस्य\nत्वमस्य पूज्यश्च गुरुर्गरीयान्।\nन त्वत्समोऽस्त्यभ्यधिकः कुतोऽन्यो\nलोकत्रयेऽप्यप्रतिमप्रभाव ॥",
+      "iast": "pitāsi lokasya carācarasya tvamasya pūjyaśca gururgarīyān\nna tvatsamo.astyabhyadhikaḥ kuto.anyo lokatraye.apyapratimaprabhāva",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.43",
+        "content": "For Thou art, now I know,\n  Father of all below,\n  Of all above, of all the worlds within\n\n  Guru of Gurus; more\n  To reverence and adore\n  Than all which is adorable and high!\n  How, in the wide worlds three\n  Should any equal be?\n  Should any other share Thy Majesty?",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.43"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10460,
+            "end": 10733,
+            "lineStart": 2134,
+            "lineEnd": 2144,
+            "checksum": "f199179faa80b7cd48ea6979d458c1bcdd6e90a3bdc3727e8485252781423a50"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.43 Thou art the Father of this world, moving and unmoving. Thou art to be adored by this world, Thou, the greatest Guru; (for) none there exists who is eal to Thee; how then could there be another superior to Thee in the three worlds, O Being of unealled power?"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.43 For Thou art the Father of all things movable and immovable, the Worshipful, the Master of Masters! In all the worlds there is none equal to Thee, how then superior, O Thou who standeth alone, Supreme."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.43 You are the Father of all beings moving and non-moving; to this (world) You are worthy of worship, the Teacher, and greater (than a teacher). There is none eal to You; how at all can there be anyone greater even in all the three worlds, O You or unrivalled power?"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.44",
+      "alignmentFingerprint": "042ee6a9dfb65ec92d07d30f80b7566a6a0b9831922bc5da779ed9dab944dc85",
+      "sanskrit": "तस्मात्प्रणम्य प्रणिधाय कायं\nप्रसादये त्वामहमीशमीड्यम्।\nपितेव पुत्रस्य सखेव सख्युः\nप्रियः प्रियायार्हसि देव सोढुम् ॥",
+      "iast": "tasmātpraṇamya praṇidhāya kāyaṃ prasādaye tvāmahamīśamīḍyam\npiteva putrasya sakheva sakhyuḥ priyaḥ priyāyārhasi deva soḍhum",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.44",
+        "content": "Therefore, with body bent\n  And reverent intent,\n  I praise, and serve, and seek Thee, asking grace.\n  As father to a son,\n  As friend to friend, as one\n  Who loveth to his lover, turn Thy face\n\n  In gentleness on me!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.44"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10733,
+            "end": 10955,
+            "lineStart": 2145,
+            "lineEnd": 2153,
+            "checksum": "0c74f9c5fa8a987a1765076fa0c2a354f050f2d672d9d0a723810047a0022751"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.44 Therefore, bowing down, prostrating my body, I crave Thy forgiveness, O adorable Lord. As a father forgives his son, a friend his (dear) friend, a lover his beloved, even so shouldst Thou\nforgive me, O God."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.44 Therefore I prostrate myself before Thee, O Lord! Most Adorable! I salute Thee, I ask Thy blessing. Only Thou canst be trusted to bear with me, as father to son, as friend to friend, as lover to his beloved."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.44 Therefore, by bowing down and prostrating the body, I seek to propitate You who are God and are adorable. O Lord, You should [The elision of a (in arhasi of priyayarhasi) is a metrical licence.] forgive (my faults) as would a father (the faults) of a son, as a friend, of a friend, and as a lover of a beloved."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.45",
+      "alignmentFingerprint": "132b03f145960c67a27e758f69c4231cfdd695a38c2045c9c09dea1710f8ca61",
+      "sanskrit": "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा\nभयेन च प्रव्यथितं मनो मे।\nतदेव मे दर्शय देव रूपं\nप्रसीद देवेश जगन्निवास ॥",
+      "iast": "adṛṣṭapūrvaṃ hṛṣito.asmi dṛṣṭvā bhayena ca pravyathitaṃ mano me\ntadeva me darśaya deva rūpaṃ prasīda deveśa jagannivāsa",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.45",
+        "content": "Good is it I did see\n  This unknown marvel of Thy Form! But fear\n  Mingles with joy! Retake,\n  Dear Lord! for pity's sake\n  Thine earthly shape, which earthly eyes may bear!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.45"
+        ],
+        "sourceSpans": [
+          {
+            "start": 10955,
+            "end": 11130,
+            "lineStart": 2153,
+            "lineEnd": 2158,
+            "checksum": "19c5a8031dbc16f396a80e5d38f02913ae58f50fb5102cd3f4b0264635adffa0"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.45 I am delighted, having seen what has never been seen before; and yet my mind is distressed with fear. Show me that (previous) form only, O God; have mercy, O God of gods, O Abode of the universe."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.45 I rejoice that I have seen what never man saw before; yet, O Lord! I am overwhelmed with fear. Please take again the Form I know. Be merciful, O Lord! thou Who are the Home of the whole universe."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.45 I am delighted by seeing something not seen heretofore, and my mind is stricken with fear. O Lord, show me that very form; O supreme God, O Abode of the Universe, be gracious!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.46",
+      "alignmentFingerprint": "f7b10b682118f844649249d148f4d7216165041703026d137a91ed4d8cc6246b",
+      "sanskrit": "किरीटिनं गदिनं चक्रहस्तं\nइच्छामि त्वां द्रष्टुमहं तथैव।\nतेनैव रूपेण चतुर्भुजेन\nसहस्रबाहो भव विश्वमूर्ते ॥",
+      "iast": "kirīṭinaṃ gadinaṃ cakrahastaṃ icchāmi tvāṃ draṣṭumahaṃ tathaiva\ntenaiva rūpeṇa caturbhujena sahasrabāho bhava viśvamūrte",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.46",
+        "content": "Be merciful, and show\n  The visage that I know;\n  Let me regard Thee, as of yore, arrayed\n  With disc and forehead-gem,\n  With mace and anadem,\n  Thou that sustainest all things! Undismayed\n\n  Let me once more behold\n  The form I loved of old,\n  Thou of the thousand arms and countless eyes!\n  This frightened heart is fain\n  To see restored again\n  My Charioteer, in Krishna's kind disguise.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.46"
+        ],
+        "sourceSpans": [
+          {
+            "start": 11130,
+            "end": 11526,
+            "lineStart": 2159,
+            "lineEnd": 2172,
+            "checksum": "f6d47d3063cb29f26b9d4b7278182cc7b5be3571e5aa287a6585f88a4a2fa2ba"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.46 I desire to see Thee as before, crowned, bearing a mace, with the discus in hand, in Thy former form only, having four arms, O thousand-armed, Cosmic Form (Being)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.46 I long to see Thee as thou wert before, with the crown, the sceptre and the discus in Thy hands; in Thy other Form, with Thy four hands, O Thou Whose arms are countless and Whose forms are infinite."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.46 I want to see You just as before, wearing a crown, wielding a mace, and holding a disc in hand. O You with thousand arms, O You of Cosmic form, appear with that very form with four hands."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.47",
+      "alignmentFingerprint": "b824beacbd6d7cb35a1e2296e3f8e757c86017a9785ac193f4e6b0f64131db86",
+      "sanskrit": "श्रीभगवानुवाच।\nमया प्रसन्नेन तवार्जुनेदं\nरूपं परं दर्शितमात्मयोगात्।\nतेजोमयं विश्वमनन्तमाद्यं\nयन्मे त्वदन्येन न दृष्टपूर्वम् ॥",
+      "iast": "śrībhagavānuvāca\nmayā prasannena tavārjunedaṃ rūpaṃ paraṃ darśitamātmayogāt\ntejomayaṃ viśvamanantamādyaṃ yanme tvadanyena na dṛṣṭapūrvam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.47",
+        "content": "Krishna.\n  Yea! thou hast seen, Arjuna! because I loved thee well,\n  The secret countenance of Me, revealed by mystic spell,\n  Shining, and wonderful, and vast, majestic, manifold,\n  Which none save thou in all the years had favour to behold;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.47"
+        ],
+        "sourceSpans": [
+          {
+            "start": 11526,
+            "end": 11771,
+            "lineStart": 2173,
+            "lineEnd": 2177,
+            "checksum": "25422745ad542c35ba82761d4358fdbdda41edb4b005b9788c734e55b10e594e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.47 The Blessed Lord said O Arjuna, this Cosmic Form has graciously been shown to thee by Me by My own Yogic power; full of splendour, primeval, and infinite, this Cosmic Form of Mine has never been seen before by anyone other than thyself."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.47 Lord Shri Krishna replied: My beloved friend! It is only through My grace and power that thou hast been able to see this vision of splendour, the Universal, the Infinite, the Original. Never has it been seen by any but thee."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.47 The Blessed Lord said Out of grace, O Arjuna, this supreme, radiant, Cosmic, infinite, primeval form-which (form) of Mine has not been seen before by anyone other than you, has been shown to you by Me through the power of My own Yoga."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.48",
+      "alignmentFingerprint": "767d0407216e986445cc77fa066e684a6170eb75b49519a6681ead3a280cb539",
+      "sanskrit": "न वेदयज्ञाध्ययनैर्न दानैर्-\nन च क्रियाभिर्न तपोभिरुग्रैः।\nएवंरूपः शक्य अहं नृलोके\nद्रष्टुं त्वदन्येन कुरुप्रवीर ॥",
+      "iast": "na vedayajñādhyayanairna dānaira- na ca kriyābhirna tapobhirugraiḥ\nevaṃrūpaḥ śakya ahaṃ nṛloke draṣṭuṃ tvadanyena kurupravīra",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.48",
+        "content": "For not by Vedas cometh this, nor sacrifice, nor alms,\n  Nor works well-done, nor penance long, nor prayers, nor chaunted\n  psalms,\n  That mortal eyes should bear to view the Immortal Soul unclad,\n  Prince of the Kurus! This was kept for thee alone! Be glad!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.48"
+        ],
+        "sourceSpans": [
+          {
+            "start": 11771,
+            "end": 12032,
+            "lineStart": 2178,
+            "lineEnd": 2182,
+            "checksum": "9c4476c0c3c9e0b18144623e2c3ebae3be7d27eadc4b6ceab610ff786412ef84"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.48 Neither by the study of the Vedas and sacrifices, nor by gifts nor by rituals nor by severe austerities can I be seen in this form in the world of men by any other than thyself, O great hero of the Kurus (Arjuna)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.48 Not by study of the scriptures, not by sacrifice or gift, not by ritual or rigorous austerity, is it possible for man on earth to see what thou hast seen, O thou foremost hero of the Kuru-clan!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.48 Not by the study of the Vedas and sacrifices, not by gifts, not even by rituals, not by severe austerities can I, in this form, be perceived in the human world by anyone ['By anyone who has not received My grace'. other than you, O most valiant among the Kurus."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.49",
+      "alignmentFingerprint": "0219fe0fa158e7878d4c6ff1247da1ea50de039b593d81e392b4010fbd1380bd",
+      "sanskrit": "मा ते व्यथा मा च विमूढभावो\nदृष्ट्वा रूपं घोरमीदृङ्ममेदम्।\nव्यपेतभीः प्रीतमनाः पुनस्त्वं\nतदेव मे रूपमिदं प्रपश्य ॥",
+      "iast": "mā te vyathā mā ca vimūḍhabhāvo dṛṣṭvā rūpaṃ ghoramīdṛṅmamedam\nvyapetabhīḥ prītamanāḥ punastvaṃ tadeva me rūpamidaṃ prapaśya",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.49",
+        "content": "Let no more trouble shake thy heart, because thine eyes have seen\n  My terror with My glory. As I before have been\n  So will I be again for thee; with lightened heart behold!\n  Once more I am thy Krishna, the form thou knew'st of old!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.49"
+        ],
+        "sourceSpans": [
+          {
+            "start": 12032,
+            "end": 12270,
+            "lineStart": 2183,
+            "lineEnd": 2187,
+            "checksum": "5f363076a0ada0add1aec7b53ea5cdbbc919bc0e44ee67b20b74410cf14b2148"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.49 Be not afraid, nor bewildered on seeing such a teriible form of Mine as this; with thy fear dispelled and with a gladdened heart, now behold again this former form of Mine."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.49 Be not afraid or bewildered by the terrible vision. Put away thy fear and, with joyful mind, see Me once again in My usual Form.\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.49 May you have no fear, and may not there be bewilderment by seeing this form of Mine so terrible Becoming free from fear and gladdened in mind again, see this very earlier form of Mine."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.50",
+      "alignmentFingerprint": "eea34e81041da36a58bf5bccff7738b5bd39e9ece3b1e40e3c23733e25e91c81",
+      "sanskrit": "सञ्जय उवाच।\nइत्यर्जुनं वासुदेवस्तथोक्त्वा\nस्वकं रूपं दर्शयामास भूयः।\nआश्वासयामास च भीतमेनं\nभूत्वा पुनः सौम्यवपुर्महात्मा ॥",
+      "iast": "sañjaya uvāca\nityarjunaṃ vāsudevastathoktvā svakaṃ rūpaṃ darśayāmāsa bhūyaḥ\nāśvāsayāmāsa ca bhītamenaṃ bhūtvā punaḥ saumyavapurmahātmā",
+      "speaker": "Sanjaya",
+      "arnold": {
+        "canonicalRef": "gita.11.50",
+        "content": "Sanjaya.\n  These words to Arjuna spake\n  Vasudev, and straight did take\n  Back again the semblance dear\n  Of the well-loved charioteer;\n  Peace and joy it did restore\n  When the Prince beheld once more\n  Mighty BRAHMA's form and face\n  Clothed in Krishna's gentle grace.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.50"
+        ],
+        "sourceSpans": [
+          {
+            "start": 12270,
+            "end": 12544,
+            "lineStart": 2188,
+            "lineEnd": 2197,
+            "checksum": "773014a03620883b4088638ad5f44fc17a4366b5c7beb16c413ba92d83ae5948"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.50 Sanjaya said Having thus spoken to Arjuna, Krishna again showed His own form and the great Soul (Krishna), assuming His gentle form, consoled him (Arjuna) who was terrified."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.50 Sanjaya continued: \"Having thus spoken to Arjuna, Lord Shri Krishna showed Himself again in His accustomed form; and the Mighty Lord, in gentle tones, softly consoled him who lately trembled with fear."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.50 Sanjaya said Thus, having spoken to Arjuna in that manner, Vasudeva showed His own form again. And He, the exalted One, reassured this terrified one by again becoming serene in form."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.51",
+      "alignmentFingerprint": "7a1a8c19236cc82eda25f1ecedc82322018752d3819b9c60da00ae188c806409",
+      "sanskrit": "अर्जुन उवाच।\nदृष्ट्वेदं मानुषं रूपं तव सौम्यं जनार्दन।\nइदानीमस्मि संवृत्तः सचेताः प्रकृतिं गतः ॥",
+      "iast": "arjuna uvāca\ndṛṣṭvedaṃ mānuṣaṃ rūpaṃ tava saumyaṃ janārdana\nidānīmasmi saṃvṛttaḥ sacetāḥ prakṛtiṃ gataḥ",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.11.51",
+        "content": "Arjuna.\n  Now that I see come back, Janardana!\n  This friendly human frame, my mind can think\n  Calm thoughts once more; my heart beats still again!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.51"
+        ],
+        "sourceSpans": [
+          {
+            "start": 12544,
+            "end": 12696,
+            "lineStart": 2198,
+            "lineEnd": 2202,
+            "checksum": "b6e9b33457551ff718f8d832ed316db27005c1de5877d42cbf24b2f085cf34a3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.51 Arjuna said Having seen this Thy gentle human form, O Krishna, now I am composed and am restored to my own nature."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.51 Arjuna said: Seeing Thee in Thy gentle human form, my Lord, I am myself again, calm once more."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.51 Arjuna said O Janardana, having seen this serene human form of Yours, I have now become calm in mind and restored to my own nature."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.52",
+      "alignmentFingerprint": "56741aed6478350056808ce6de84addef5a9b64079c8cdff5a945b7fab30896e",
+      "sanskrit": "श्रीभगवानुवाच।\nसुदुर्दर्शमिदं रूपं दृष्टवानसि यन्मम।\nदेवा अप्यस्य रूपस्य नित्यं दर्शनकाङ्क्षिणः ॥",
+      "iast": "śrībhagavānuvāca\nsudurdarśamidaṃ rūpaṃ dṛṣṭavānasi yanmama\ndevā apyasya rūpasya nityaṃ darśanakāṅkṣiṇaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.52",
+        "content": "Krishna.\n  Yea! it was wonderful and terrible\n  To view me as thou didst, dear Prince! The gods\n  Dread and desire continually to view!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.52"
+        ],
+        "sourceSpans": [
+          {
+            "start": 12696,
+            "end": 12834,
+            "lineStart": 2203,
+            "lineEnd": 2206,
+            "checksum": "1d043ff0c83beb14943762db373d5eada0644c865f687cc1895942f9745dc12a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.52 The Blessed Lord said Very hard indeed it is to see this form of Mine which thou hast seen. Even the gods are ever longing to behold it."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.52 Lord Shri Krishna replied: It is hard to see this vision of Me that thou hast seen. Even the most powerful have longed for it in vain."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.52 The Blessed Lord said This form of Mine which you have seen is very difficult to see; even the gods are ever desirous of a vision of this form."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.53",
+      "alignmentFingerprint": "f526cdeac86cba6863cb85f8a1f4c85e0f320158bde601bbad77a432f36a5fa4",
+      "sanskrit": "नाहं वेदैर्न तपसा न दानेन न चेज्यया।\nशक्य एवंविधो द्रष्टुं दृष्टवानसि मां यथा ॥",
+      "iast": "nāhaṃ vedairna tapasā na dānena na cejyayā\nśakya evaṃvidho draṣṭuṃ dṛṣṭavānasi māṃ yathā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.53",
+        "content": "Yet not by Vedas, nor from sacrifice,\n  Nor penance, nor gift-giving, nor with prayer\n  Shall any so behold, as thou hast seen!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.53"
+        ],
+        "sourceSpans": [
+          {
+            "start": 12834,
+            "end": 12964,
+            "lineStart": 2207,
+            "lineEnd": 2209,
+            "checksum": "9d0176f40eef83d7dfaa27fce98fd14f7db722384f2b11f46f1954639a570423"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.53 Neither by the Vedas nor by austerity, nor by gift, nor by sacrifice can I be seen in this form as thou hast seen Me (so easily)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.53 Not by study of the scriptures, or by austerities, not by gifts or sacrifices, is it possible to see Me as thou hast done."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.53 Not through the Vedas, not by austerity, not by gifts, nor even by sacrifice can I be seen in this form as you have seen Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.54",
+      "alignmentFingerprint": "7baddc8a46d6c7579e8e71c949a6581f157427589219ec6f17e36852245aa5e5",
+      "sanskrit": "भक्त्या त्वनन्यया शक्य अहमेवंविधोऽर्जुन।\nज्ञातुं द्रष्टुं च तत्त्वेन प्रवेष्टुं च परन्तप ॥",
+      "iast": "bhaktyā tvananyayā śakya ahamevaṃvidho.arjuna\njñātuṃ draṣṭuṃ ca tattvena praveṣṭuṃ ca parantapa",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.54",
+        "content": "Only by fullest service, perfect faith,\n  And uttermost surrender am I known\n  And seen, and entered into, Indian Prince!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.54"
+        ],
+        "sourceSpans": [
+          {
+            "start": 12964,
+            "end": 13088,
+            "lineStart": 2210,
+            "lineEnd": 2212,
+            "checksum": "087480e4fa599836ac668097e1947b1402add126214f37fbdb358a4d10a5c64a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.54 But by single-minded devotion can I, of this Form, be known and seen in reality and also entered into, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.54 Only by tireless devotion can I be seen and known; only thus can a man become one with Me, O Arjuna!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.54 But, O Arjuna, by single-minded devotion am I-in this form-able to be known and seen in reality, and also be entered into, O destroyer of foes."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.11.55",
+      "alignmentFingerprint": "db4f82be0b6f2a4e47305da997f6b4c35f01cdc0a9a91eb853b43a01d6ae2d8e",
+      "sanskrit": "मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः।\nनिर्वैरः सर्वभूतेषु यः स मामेति पाण्डव ॥",
+      "iast": "matkarmakṛnmatparamo madbhaktaḥ saṅgavarjitaḥ\nnirvairaḥ sarvabhūteṣu yaḥ sa māmeti pāṇḍava",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.11.55",
+        "content": "Who doeth all for Me; who findeth Me\n  In all; adoreth always; loveth all\n  Which I have made, and Me, for Love's sole end\n  That man, Arjuna! unto Me doth wend.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.11.55"
+        ],
+        "sourceSpans": [
+          {
+            "start": 13088,
+            "end": 13253,
+            "lineStart": 2213,
+            "lineEnd": 2217,
+            "checksum": "7c49228a0aa29bb8b92bfe0afe938576b516719b85a0a008bad2d4489d34f53d"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "11.55 He who does all actions for Me, who looks upon Me as the Supreme, who is devoted to Me, who is free from attachment, who bears enmity towards no creature, he comes to Me, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "11.55 He whose every action is done for My sake, to whom I am the final goal, who loves Me only and hates no one - O My dearest son, only he can realize Me!\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "11.55 O son of Pandu, he who works for Me, accepts Me as the supreme Goal, is devoted to Me, is devoid of attachment and free from enmity towards all beings-he attains Me."
+        }
+      ]
+    }
+  ]
+}

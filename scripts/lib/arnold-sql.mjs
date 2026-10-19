@@ -19,6 +19,7 @@ export function arnoldSeedSql(translation) {
   }
   insert('commentary_sources', ['id', 'title', 'repository_url', 'commit_sha', 'license', 'license_url', 'corpus_version'], [[translation.source.id, translation.title, translation.source.catalogUrl, translation.source.sha256, translation.source.rights, translation.source.licenseUrl, translation.corpusVersion]], true);
   insert('commentary_authors', ['id', 'source_key', 'display_name', 'available_fields', 'public_fields', 'rights_status', 'rights_note'], [[translation.id, translation.source.id, translation.translator, '["et"]', '["et"]', 'full-text-allowed', `${translation.source.rights}. Project Gutenberg ebook #2388; ${translation.reviewStatus}.`]], true);
+  statements.push(`UPDATE commentary_authors SET rights_note = ${sql(`${translation.source.rights}. Project Gutenberg ebook #2388; ${translation.reviewStatus}.`)} WHERE id = ${sql(translation.id)};`);
   insert('commentary_editions', ['id', 'author_id', 'source_id', 'field_code', 'language', 'script', 'content_type', 'public_text', 'rights_status', 'corpus_version'], [['edwin-arnold-et', translation.id, translation.source.id, 'et', 'en', 'Latn', 'translation', 1, 'full-text-allowed', translation.corpusVersion]], true);
   statements.push("DELETE FROM commentary_fts WHERE unit_id IN (SELECT id FROM commentary_units WHERE edition_id = 'edwin-arnold-et');");
   statements.push("DELETE FROM commentary_unit_chunks WHERE unit_id IN (SELECT id FROM commentary_units WHERE edition_id = 'edwin-arnold-et');");

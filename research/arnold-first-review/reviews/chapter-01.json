@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 1,
+  "inputSha256": "dffa44c9b6ad48bcf04c9940c9d1dc78a23ee4007445e04560f65985d65ba35b",
+  "reviews": [
+    {
+      "canonicalRef": "gita.1.1",
+      "alignmentFingerprint": "37a4f08eaa82e47bbf116603caa8d64d6e6ab2ff61c9c51b869995007d2fadee",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Dhritarashtra opening question to Sanjaya on the holy field of Kurukshetra is cleanly translated, preserving speaker prefix.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.2",
+      "alignmentFingerprint": "384267882678a4dee5e990bbf6b4e5f7c0f7715c516088adb0dadc2bf9547a70",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sanjaya opening narrative as Duryodhana approaches Drona upon seeing the Pandava army arrayed.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.3",
+      "alignmentFingerprint": "257d5ea129c64d73a7cffe469ef4517b13114864ddea20bb546c1ff1600cd609",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Duryodhana address to Drona pointing out the Pandava battle array marshaled by Drupada son.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.4",
+      "alignmentFingerprint": "692aea3ee59b0819db2db8789da7cc857c73fc480c8019ba58abaa4460ab7fe2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Catalog of heroic Pandava bowmen comparable to Bhima and Arjuna (Virata, Yuyudhana, Drupada).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.5",
+      "alignmentFingerprint": "7ca493aac6e81a462005868396216a2fe0b5cd52ef40babae7b9299bbf412774",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Enumeration of Dhrishtaketu, Chekitana, King of Kasi, Purujit, Kuntibhoja, and Saibya.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.6",
+      "alignmentFingerprint": "2ecc6d4b344a0a7fa9cf656881868c3099574291447ce1fd8e796f68ed6b0869",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Enumeration of Yudhamanyu, Uttamaujas, Saubhadra (Abhimanyu), and Draupadi sons.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.7",
+      "alignmentFingerprint": "1b51a6dfd87f47cd4e3ca5b09bf4a286ac36fda86ed413e0f2a8f12ce63bdb34",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Duryodhana turns to recount the principal commanders on his own side to the preceptor Drona.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.8",
+      "alignmentFingerprint": "96eaa7111d8c052b4b384b7f6c046cbbc12a39b417f820361ecd73327b8a6033",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Listing of Kaurava leaders: Drona, Bhishma, Karna, Kripa, Vikarna, Asvatthaman, and Saumadatti.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.9",
+      "alignmentFingerprint": "d0ec798a4c10a545e0cecac84ce27e327d2fd943d122dec245032d850ead4f01",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Reference to countless other valiant warriors ready to lay down their lives for Duryodhana.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.10",
+      "alignmentFingerprint": "2022281449baf6e84ba29a294a6b6001335cca186d3dfaae1954ea10b0d0c55c",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Duryodhana assessment of armies; Arnold renders apary\u0101ptam as \"Weakest\" and pary\u0101ptam as \"something too strong\", reflecting his translation interpretation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.11",
+      "alignmentFingerprint": "28c7d3fa2a71c9e50b12c772bc690754e5dcf4bde66589f6f97f7ae0f07aa4bd",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Order to all Kaurava divisions to guard Bhishma steadfastly.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.12",
+      "alignmentFingerprint": "1ac1ba6cc7343b6c1f3736596100716f1238339de71e0d36936d236041beb5c8",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Bhishma blowing the great conch with a lion-like roar to gladden Duryodhana.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.13",
+      "alignmentFingerprint": "a7823d42aa7839d33e144b0d1a1fff6624f4c531ba4ad4d663e6365c3bdbd367",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sudden clamor of Kaurava horns, drums, tabors, and cymbals sounding like a tempest.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.14",
+      "alignmentFingerprint": "8921525666a87dabfafc60083a31cbf0600ad3a3dd88394974360f9d752d1562",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna and Arjuna seen on their magnificent golden chariot yoked with white steeds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.15",
+      "alignmentFingerprint": "8cd88dcb44c272c6b29e80723a8564fdf720e41757f6dd42b4a587599cc7ffdb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Blowing of divine conches: Krishna blowing Panchajanya, Arjuna blowing Devadatta, Bhima blowing Paundra.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.16",
+      "alignmentFingerprint": "ccdcce4f76bb678c721d9b85e61126e94f73c50d3fd5a04e00f9e7fa3102ccad",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Yudhishthira blowing Anantavijaya, Nakula blowing Sughosha, and Sahadeva blowing Manipushpaka.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.17",
+      "alignmentFingerprint": "6bd582eac158b4aa3c1fe121d5a5ba18a6fbf99795a20ea1152447e6c96033a3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Kasi prince, Shikhandi, Dhrishtadyumna, Virata, and unconquered Satyaki blowing conches.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.18",
+      "alignmentFingerprint": "99ccfc7dc82c58971abaa48fcfda95dcbc4f99ff429366949d71fcffc8ccded0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Drupada, the sons of Draupadi, and Saubhadra blowing their battle shells all together.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.19",
+      "alignmentFingerprint": "95bf66fb50149005e83a2d7877e631a2db8313cb1167d363225ec187dc08a172",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The tumultuous roar piercing the hearts of the Kauravas and echoing across earth and heaven.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.20",
+      "alignmentFingerprint": "e12b14db69470ccfe67029771c45fb81fa1eec756d3e19d8dc44df1682998ea3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna, bearing the monkey banner (Hanuman), beholding the battle set and lifting his bow to speak to Krishna.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.21",
+      "alignmentFingerprint": "70f6873f9d12a0351860dea3c08b49f6792d7bc0ca66d78b2842cbf6e9a07eeb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna request to Krishna to station the chariot between the two opposing hosts.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.22",
+      "alignmentFingerprint": "806f32652a5092f888cba66f414378df64e0415d6c4fe7fbce52e4945be0f6fa",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Arjuna desire to scrutinize those standing arrayed and eager for combat.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.23",
+      "alignmentFingerprint": "22d872ae88627265339ad701f6eb627a1774521c1cfe48218e1c5c2dc6b66c41",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna observing those bent on battle to please the evil-minded son of Dhritarashtra.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.24",
+      "alignmentFingerprint": "884ae661511c9584941773b94c10313f56b3bc2b6b24040e7e2f777b4f8150ff",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sanjaya narration of Krishna driving the chariot into the space between the two hosts.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.25",
+      "alignmentFingerprint": "38594d1c1f1bb6736e6e58ced3ee7585a29a2a0b84118a0fa66d31a3ed7d4a0a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna halting the chariot before Bhishma and Drona and bidding Arjuna behold the assembled Kurus.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.26",
+      "alignmentFingerprint": "4c32f4fff9a954a0dd06a862b0d1f5d610bba412bb27e47feac94ca28c51ca7d",
+      "status": "verified",
+      "confidence": 0.92,
+      "notes": "Arjuna surveying grandfathers, fathers, teachers, uncles, and kinsmen; unified with 1.27 in shared source span.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.27",
+      "alignmentFingerprint": "c781724d0a54f0aef39799ba33cf248ce94f26cf9c2c5681dd3f4dc2696fbcfe",
+      "status": "verified",
+      "confidence": 0.92,
+      "notes": "Survey of kinsmen on both sides; shared span with 1.26 properly absorbs introductory transitional clause ending at 1.27.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.28",
+      "alignmentFingerprint": "c7f37bb5f1bee147b61b4da0c07bc8c7e8e66b1ab93e6e1883a4a6cc96894704",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Arjuna direct speech lamenting the sight of assembled kinsmen gathered for mutual slaughter.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.29",
+      "alignmentFingerprint": "76a7a24ad9a1c47e00877eb388d4a0ad14a528d8a8f66e488353e76cb2ce2914",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Somatic symptoms of dejection: failing limbs, parched mouth, bodily trembling, and horripilation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.30",
+      "alignmentFingerprint": "3b5ef7ada943f1132248462f09d46d1564445272528b9baf62cb6735db67ef6d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Gandiva slipping from the hand, burning sensation of skin, and spinning of the mind.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.31",
+      "alignmentFingerprint": "e04a11b6d5b9a7475782edbda202ee72954758cbe97be13174175fabfe7d5e73",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna perceiving adverse omens and seeing no good arising from slaying kinsmen in battle.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.32",
+      "alignmentFingerprint": "063c587da6235b4bbb9997cf3cedc181e5a10f1ef1c6c21ecb482d363897c67d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Renunciation of desire for victory, sovereignty, and pleasures purchased by kinsmen blood.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.33",
+      "alignmentFingerprint": "64e02a3c157b5861717632db1e3125bd2f87f2aeda00330f7ae87de0904719ae",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna highlighting that those for whose sake royal life is coveted now stand ready to die.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.34",
+      "alignmentFingerprint": "3986634e96d92c88fe7a25f3e46f4bfa7771567b62994dc66ccb4be37255022e",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Enumeration of teachers, fathers, sons, grandfathers, uncles, and fathers-in-law.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.35",
+      "alignmentFingerprint": "677754af77fdae3e43ae1c8cb0e7c822b5a44d50a0769ba79e95e8b1f27b1762",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Refusal to slay kinsmen even for sovereignty over the three worlds, much less the earthly realm.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.36",
+      "alignmentFingerprint": "49807a972e56ea503d24173a34fa0d4cd023930dab4e759fd54a93d4b66d8c80",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Reflection on sin and sorrow that would ensue from killing the Dhartarashtras.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.37",
+      "alignmentFingerprint": "8db3976fe89a71171866617c618bf64babf46347f588d8f7821f8b3783a12762",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Conclusion that it is improper to slay kinsmen, as no happiness can come from destroying one own people.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.38",
+      "alignmentFingerprint": "1664707ce76bab5567131b40653eb0af5d82ec9b335d21a8d2713ed28a475a09",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Acknowledgment that opponents are blinded by greed (lobhopahata-cetasa\u1e25) to the guilt of family ruin.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.39",
+      "alignmentFingerprint": "3a02075a5e6e8e72dfc1113edc1ce40b6e0169675805265fca5d809c11868bdd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna urging that those who clearly discern the sin of destroying family lines must turn away from it.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.40",
+      "alignmentFingerprint": "659dcad0b8088e9e4eb1daf867b093185a75cf439fada68da9f5333d5fc6fafe",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Doctrinal explanation of family destruction leading to the collapse of eternal family dharmas.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.41",
+      "alignmentFingerprint": "053f498da870aa2c781e4bf1b4885ffd27f0736ad6128389d51a2be0a42200f3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Ascendance of adharma causing corruption of women and consequent caste confusion (varna-samkara).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.42",
+      "alignmentFingerprint": "1a4d9b6d23f1e7a773b379fac4232ec239a79c0bb4f5754677e8a9645d4d5237",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Ancestors falling from heaven bereft of funeral cakes and libations; note [FN#1] marks omission of repetitive lines.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.43",
+      "alignmentFingerprint": "94fdbcb6da9d318a25ecabd3fb65c21de358ef24bb39cc6c90c33b6d914d83be",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Verified source omission: Arnold omitted Sanskrit 1.43 under footnote 1 (\"Some repetitionary lines are here omitted\").",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.44",
+      "alignmentFingerprint": "2990af5a69fb8757d060bb18c040799f44cdf56afe924a01d8ae35dedd9d1043",
+      "status": "verified",
+      "confidence": 0.9,
+      "notes": "Arnold \"So teach our holy hymns\" translates the closing clause ityanu\u015bu\u015bruma, with the rest of 1.44 omitted alongside 1.43.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.45",
+      "alignmentFingerprint": "a9552d556af3429f39e430068eaba107a5f126e0f46e6ee1c129a891a907ad6c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Lamentation over undertaking great sin through greed for kingdom pleasures (Ahovat! = aho bata).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.46",
+      "alignmentFingerprint": "ce1d30a964a5a79e42d02384032b4ee9c1af5baf2aa95549a236f79e38b019ba",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna preference to be slain weaponless and unresisting by armed Kauravas.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.1.47",
+      "alignmentFingerprint": "b9ffaf55b9e43065fd6c10513a0c65eff772aa0c4dfea6e7537cc24d2e48bc0c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sanjaya closing narrative: Arjuna casting away bow and arrows and sinking despondent on chariot seat.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Arnold combines verses 1.26 and 1.27 into a single unified sentence describing relatives across both armies, accurately represented as a shared source span.",
+    "Verse 1.43 is a genuine source omission flagged by Arnold in footnote 1 (\"Some repetitionary lines are here omitted\"), and 1.44 preserves only the closing clause \"So teach our holy hymns\" (ityanu\u015bu\u015bruma).",
+    "Arnold translation in 1.10 renders apary\u0101ptam as \"Weakest\" and pary\u0101ptam as \"something too strong\", reflecting his poetic translation choice rather than an alignment fault."
+  ]
+}

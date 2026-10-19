@@ -1,0 +1,987 @@
+{
+  "schemaVersion": 1,
+  "workId": "gita",
+  "translationId": "edwin-arnold",
+  "chapter": 15,
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "numbering": "Standard 700-verse canon; Chapter 13 has 34 verses and excludes Arjuna's alternate opening question.",
+  "sourceChapterWithLineNumbers": "1:   Krishna.\n2:   Men call the Aswattha,--the Banyan-tree,--\n3:   Which hath its boughs beneath, its roots above,--\n4:   The ever-holy tree. Yea! for its leaves\n5:   Are green and waving hymns which whisper Truth!\n6:   Who knows the Aswattha, knows Veds, and all.\n7: \n8:   Its branches shoot to heaven and sink to earth,[FN#30]\n9:   Even as the deeds of men, which take their birth\n10:     From qualities: its silver sprays and blooms,\n11:   And all the eager verdure of its girth,\n12:   Leap to quick life at kiss of sun and air,\n13:   As men's lives quicken to the temptings fair\n14:     Of wooing sense: its hanging rootlets seek\n15:   The soil beneath, helping to hold it there,\n16: \n17:   As actions wrought amid this world of men\n18:   Bind them by ever-tightening bonds again.\n19:     If ye knew well the teaching of the Tree,\n20:   What its shape saith; and whence it springs; and, then\n21: \n22:   How it must end, and all the ills of it,\n23:   The axe of sharp Detachment ye would whet,\n24:     And cleave the clinging snaky roots, and lay\n25:   This Aswattha of sense-life low,--to set\n26: \n27:   New growths upspringing to that happier sky,--\n28:   Which they who reach shall have no day to die,\n29:     Nor fade away, nor fall--to Him, I mean,\n30:   FATHER and FIRST, Who made the mystery\n31: \n32:   Of old Creation; for to Him come they\n33:   From passion and from dreams who break away;\n34:     Who part the bonds constraining them to flesh,\n35:   And,--Him, the Highest, worshipping alway--\n36: \n37:   No longer grow at mercy of what breeze\n38:   Of summer pleasure stirs the sleeping trees,\n39:     What blast of tempest tears them, bough and stem\n40:   To the eternal world pass such as these!\n41: \n42:   Another Sun gleams there! another Moon!\n43:   Another Light,--not Dusk, nor Dawn, nor Noon--\n44:     Which they who once behold return no more;\n45:   They have attained My rest, life's Utmost boon!\n46: \n47:   When, in this world of manifested life,\n48:   The undying Spirit, setting forth from Me,\n49:   Taketh on form, it draweth to itself\n50:   From Being's storehouse,--which containeth all,--\n51:   Senses and intellect. The Sovereign Soul\n52:   Thus entering the flesh, or quitting it,\n53:   Gathers these up, as the wind gathers scents,\n54:   Blowing above the flower-beds. Ear and Eye,\n55:   And Touch and Taste, and Smelling, these it takes,--\n56:   Yea, and a sentient mind;--linking itself\n57:   To sense-things so.\n58: \n59:   The unenlightened ones\n60:   Mark not that Spirit when he goes or comes,\n61:   Nor when he takes his pleasure in the form,\n62:   Conjoined with qualities; but those see plain\n63:   Who have the eyes to see. Holy souls see\n64:   Which strive thereto. Enlightened, they perceive\n65:   That Spirit in themselves; but foolish ones,\n66:   Even though they strive, discern not, having hearts\n67:   Unkindled, ill-informed!\n68: \n69:   Know, too, from Me\n70:   Shineth the gathered glory of the suns\n71:   Which lighten all the world: from Me the moons\n72:   Draw silvery beams, and fire fierce loveliness.\n73:   I penetrate the clay, and lend all shapes\n74:   Their living force; I glide into the plant--\n75:   Root, leaf, and bloom--to make the woodlands green\n76:   With springing sap. Becoming vital warmth,\n77:   I glow in glad, respiring frames, and pass,\n78:   With outward and with inward breath, to feed\n79:   The body by all meats.[FN#31]\n80: \n81:   For in this world\n82:   Being is twofold: the Divided, one;\n83:   The Undivided, one. All things that live\n84:   Are \"the Divided.\" That which sits apart,\n85:   \"The Undivided.\"\n86: \n87:   Higher still is He,\n88:   The Highest, holding all, whose Name is LORD,\n89:   The Eternal, Sovereign, First! Who fills all worlds,\n90:   Sustaining them. And--dwelling thus beyond\n91:   Divided Being and Undivided--I\n92:   Am called of men and Vedas, Life Supreme,\n93:   The PURUSHOTTAMA.\n94: \n95:   Who knows Me thus,\n96:   With mind unclouded, knoweth all, dear Prince!\n97:   And with his whole soul ever worshippeth Me.\n98: \n99: \n100:   Now is the sacred, secret Mystery\n101:   Declared to thee! Who comprehendeth this\n102:   Hath wisdom! He is quit of works in bliss!\n103: \n104:   HERE ENDS CHAPTER XV. OF THE BHAGAVAD-GITA\n105:   Entitled \"Purushottamapraptiyog,\"\n106:   Or \"The Book of Religion by attaining the Supreme.\"",
+  "translatorNotes": [
+    {
+      "number": 1,
+      "marker": "[FN#1]",
+      "text": "Some repetitionary lines are here omitted."
+    },
+    {
+      "number": 2,
+      "marker": "[FN#2]",
+      "text": "Technical phrases of Vedic religion."
+    },
+    {
+      "number": 3,
+      "marker": "[FN#3]",
+      "text": "The whole of this passage is highly involved and difficult to\nrender."
+    },
+    {
+      "number": 4,
+      "marker": "[FN#4]",
+      "text": "I feel convinced sankhyanan and yoginan must be transposed\nhere in sense."
+    },
+    {
+      "number": 5,
+      "marker": "[FN#5]",
+      "text": "I am doubtful of accuracy here."
+    },
+    {
+      "number": 6,
+      "marker": "[FN#6]",
+      "text": "A name of the sun."
+    },
+    {
+      "number": 7,
+      "marker": "[FN#7]",
+      "text": "Without desire of fruit."
+    },
+    {
+      "number": 8,
+      "marker": "[FN#8]",
+      "text": "That is,\"joy and sorrow, success and failure, heat and cold,\"&c."
+    },
+    {
+      "number": 9,
+      "marker": "[FN#9]",
+      "text": "i.e., the body."
+    },
+    {
+      "number": 10,
+      "marker": "[FN#10]",
+      "text": "The Sanskrit has this play on the double meaning of Atman."
+    },
+    {
+      "number": 11,
+      "marker": "[FN#11]",
+      "text": "So in original."
+    },
+    {
+      "number": 12,
+      "marker": "[FN#12]",
+      "text": "Beings of low and devilish nature."
+    },
+    {
+      "number": 13,
+      "marker": "[FN#13]",
+      "text": "Krishna."
+    },
+    {
+      "number": 14,
+      "marker": "[FN#14]",
+      "text": "I read here janma, \"birth;\" not jara,\"age\""
+    },
+    {
+      "number": 15,
+      "marker": "[FN#15]",
+      "text": "I have discarded ten lines of Sanskrit text here as an\nundoubted interpolation by some Vedantist"
+    },
+    {
+      "number": 16,
+      "marker": "[FN#16]",
+      "text": "The Sanskrit poem here rises to an elevation of style and\nmanner which I have endeavoured to mark by change of metre."
+    },
+    {
+      "number": 17,
+      "marker": "[FN#17]",
+      "text": "Ahinsa."
+    },
+    {
+      "number": 18,
+      "marker": "[FN#18]",
+      "text": "The nectar of immortality."
+    },
+    {
+      "number": 19,
+      "marker": "[FN#19]",
+      "text": "Called \"The Jap.\""
+    },
+    {
+      "number": 20,
+      "marker": "[FN#20]",
+      "text": "The compound form of Sanskrit words."
+    },
+    {
+      "number": 21,
+      "marker": "[FN#21]",
+      "text": "\"Kamalapatraksha\""
+    },
+    {
+      "number": 22,
+      "marker": "[FN#22]",
+      "text": "These are all divine or deified orders of the Hindoo Pantheon."
+    },
+    {
+      "number": 23,
+      "marker": "[FN#23]",
+      "text": "\"Hail to Thee, God of Gods! Be favourable!\""
+    },
+    {
+      "number": 24,
+      "marker": "[FN#24]",
+      "text": "The wind."
+    },
+    {
+      "number": 25,
+      "marker": "[FN#25]",
+      "text": "\"Not peering about,\"anapeksha."
+    },
+    {
+      "number": 26,
+      "marker": "[FN#26]",
+      "text": "The Calcutta edition of the Mahabharata has these three\nopening lines."
+    },
+    {
+      "number": 27,
+      "marker": "[FN#27]",
+      "text": "This is the nearest possible version of\nKshetrakshetrajnayojnanan yat tajnan matan mama."
+    },
+    {
+      "number": 28,
+      "marker": "[FN#28]",
+      "text": "I omit two lines of the Sanskrit here, evidently interpolated by\nsome Vedantist."
+    },
+    {
+      "number": 29,
+      "marker": "[FN#29]",
+      "text": "Wombs."
+    },
+    {
+      "number": 30,
+      "marker": "[FN#30]",
+      "text": "I do not consider the Sanskrit verses here-which are somewhat\nfreely rendered--\"an attack on the authority of the Vedas,\" with Mr\nDavies, but a beautiful lyrical episode, a new \"Parable of the fig-tree.\""
+    },
+    {
+      "number": 31,
+      "marker": "[FN#31]",
+      "text": "I omit a verse here, evidently interpolated."
+    },
+    {
+      "number": 32,
+      "marker": "[FN#32]",
+      "text": "\"Of the Asuras,\" lit."
+    },
+    {
+      "number": 33,
+      "marker": "[FN#33]",
+      "text": "I omit the ten concluding shlokas, with Mr Davis."
+    },
+    {
+      "number": 34,
+      "marker": "[FN#34]",
+      "text": "Rakshasas and Yakshas are unembodied but capricious beings\nof great power, gifts, and beauty, same times also of benignity."
+    },
+    {
+      "number": 35,
+      "marker": "[FN#35]",
+      "text": "These are spirits of evil wandering ghosts."
+    },
+    {
+      "number": 36,
+      "marker": "[FN#36]",
+      "text": "Yatayaman, food which has remained after the watches of the\nnight. In India this would probably \"go bad.\""
+    },
+    {
+      "number": 37,
+      "marker": "[FN#37]",
+      "text": "I omit the concluding shlokas, as of very doubtful authenticity."
+    }
+  ],
+  "paratext": [
+    {
+      "chapter": 15,
+      "type": "chapter-colophon",
+      "text": "HERE ENDS CHAPTER XV. OF THE BHAGAVAD-GITA\n  Entitled \"Purushottamapraptiyog,\"\n  Or \"The Book of Religion by attaining the Supreme.\"",
+      "checksum": "bcc192c0e1ac256ccf0be0b41a4d48c2a618ea781f5bb1d7fd35d925c61216ea",
+      "sourceSpan": {
+        "start": 3772,
+        "end": 3906,
+        "lineStart": 2687,
+        "lineEnd": 2689,
+        "checksum": "57d6c2c1253d7a3dc2b58278f9e095ce3d1d231d02fb3de3f9a8d2f9011dd463"
+      }
+    }
+  ],
+  "records": [
+    {
+      "canonicalRef": "gita.15.1",
+      "alignmentFingerprint": "79f1da3ba5033bbbf75776ce1fbf4f4f3e7130ab2f9573d6a75d6510171b0846",
+      "sanskrit": "श्रीभगवानुवाच।\nऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्।\nछन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित् ॥",
+      "iast": "śrībhagavānuvāca\nūrdhvamūlamadhaḥśākhamaśvatthaṃ prāhuravyayam\nchandāṃsi yasya parṇāni yastaṃ veda sa vedavit",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.1",
+        "content": "Krishna.\n  Men call the Aswattha,--the Banyan-tree,--\n  Which hath its boughs beneath, its roots above,--\n  The ever-holy tree. Yea! for its leaves\n  Are green and waving hymns which whisper Truth!\n  Who knows the Aswattha, knows Veds, and all.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.1"
+        ],
+        "sourceSpans": [
+          {
+            "start": 0,
+            "end": 248,
+            "lineStart": 2584,
+            "lineEnd": 2590,
+            "checksum": "4ed14b0a54443c5dd7aebb20d8c93d892a17294420a4451706ba6743eb7a58e8"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.1 The Blessed Lord said They (the wise) speak of the indestructible peepul tree having its root above and branches below, whose leaves are the metres or hymns: he who knows it is a knower of the Vedas."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.1 \"Lord Shri Krishna continued: This phenomenal creation, which is both ephemeral and eternal, is like a tree, but having its seed above in the Highest and its ramifications on this earth below. The scriptures are its leaves, and he who understands this, knows."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.1 The Blessed Lord said They say that the peepul Tree, which has its roots upward and the branches downward, and of which the Vedas are the leaves, is imperishable. He who realizes it is knower of the Vedas."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.2",
+      "alignmentFingerprint": "956ee787df0b23b38546e2d2984b7531da24252b002c417cb86114023e8ee48d",
+      "sanskrit": "अधश्चोर्ध्वं प्रसृतास्तस्य शाखा\nगुणप्रवृद्धा विषयप्रवालाः।\nअधश्च मूलान्यनुसन्ततानि\nकर्मानुबन्धीनि मनुष्यलोके ॥",
+      "iast": "adhaścordhvaṃ prasṛtāstasya śākhā guṇapravṛddhā viṣayapravālāḥ\nadhaśca mūlānyanusantatāni karmānubandhīni manuṣyaloke",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.2",
+        "content": "Its branches shoot to heaven and sink to earth,[FN#30]\n  Even as the deeds of men, which take their birth\n    From qualities: its silver sprays and blooms,\n  And all the eager verdure of its girth,\n  Leap to quick life at kiss of sun and air,\n  As men's lives quicken to the temptings fair\n    Of wooing sense: its hanging rootlets seek\n  The soil beneath, helping to hold it there,\n\n  As actions wrought amid this world of men\n  Bind them by ever-tightening bonds again.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.2"
+        ],
+        "sourceSpans": [
+          {
+            "start": 248,
+            "end": 726,
+            "lineStart": 2591,
+            "lineEnd": 2602,
+            "checksum": "02d192eb9d380a7e0fb5d5c3f181204136fde5a4ca014d3cbf057b33388cd14c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.2 Below and above spread its branches, nourished by the Gunas; sense-objects are its buds; and below, in the world of men, stretch forth the roots, originating action."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.2 Its branches shoot upwards and downwards, deriving their nourishment from the Qualities; its buds are the objects of sense; and its roots, which follow the Law causing man's regeneration and degeneration, pierce downwards into the soil."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.2 The branches of that (Tree), extending down-wards and upwards, are strengthened by the alities and have sense-objects as their shoots. And the roots, which are followed by actions, spread down-wards in the human world [According to A.G. and M.S. manusya-loke means a body distinguished by Brahminhood etc.]."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.3",
+      "alignmentFingerprint": "94586e43b136d134f9ea078945b3e16b7a7c7d819362e6754260777688f82dd5",
+      "sanskrit": "न रूपमस्येह तथोपलभ्यते\nनान्तो न चादिर्न च सम्प्रतिष्ठा।\nअश्वत्थमेनं सुविरूढमूलं\nअसङ्गशस्त्रेण दृढेन छित्त्वा ॥",
+      "iast": "na rūpamasyeha tathopalabhyate nānto na cādirna ca sampratiṣṭhā\naśvatthamenaṃ suvirūḍhamūlaṃ asaṅgaśastreṇa dṛḍhena chittvā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.3",
+        "content": "If ye knew well the teaching of the Tree,\n  What its shape saith; and whence it springs; and, then\n\n  How it must end, and all the ills of it,\n  The axe of sharp Detachment ye would whet,\n    And cleave the clinging snaky roots, and lay\n  This Aswattha of sense-life low,--to set",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.3"
+        ],
+        "sourceSpans": [
+          {
+            "start": 726,
+            "end": 1007,
+            "lineStart": 2602,
+            "lineEnd": 2609,
+            "checksum": "beeaa4c96602f6b23b118c134a864b32a3d9f602870feab49fa3febd23e93f78"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.3 Its form is not perceived here as such, neither its end nor its origin, nor its foundation nor resting place: having cut asunder this firmly rooted peepul tree with the strong axe of non-attachment."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.3 In this world its true form is not known, neither its origin nor its end, and its strength is not understood., until the tree with its roots striking deep into the earth is hewn down by the sharp axe of non-attachment."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.3 Its form is not perceived here in that way; nor its end, nor beginning, nor continuance, After felling this Peepul whose roots are well developed, with the strong sword of detachment-;"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.4",
+      "alignmentFingerprint": "622139efeceb0ffd23ffc13e7e53d9efb514ef58718fb25d2ad5a04a500a96e0",
+      "sanskrit": "ततः पदं तत्परिमार्गितव्यं\nयस्मिन्गता न निवर्तन्ति भूयः।\nतमेव चाद्यं पुरुषं प्रपद्ये।\nयतः प्रवृत्तिः प्रसृता पुराणी ॥",
+      "iast": "tataḥ padaṃ tatparimārgitavyaṃ yasmingatā na nivartanti bhūyaḥ\ntameva cādyaṃ puruṣaṃ prapadye\nyataḥ pravṛttiḥ prasṛtā purāṇī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.4",
+        "content": "New growths upspringing to that happier sky,--\n  Which they who reach shall have no day to die,\n    Nor fade away, nor fall--to Him, I mean,\n  FATHER and FIRST, Who made the mystery\n\n  Of old Creation;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.4"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1007,
+            "end": 1211,
+            "lineStart": 2610,
+            "lineEnd": 2615,
+            "checksum": "b3253d69f6240ad3ba1e45b530361ff482bd90dd312b904e377b22ec82391c43"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.4 Then That goal should be sought for, whither having gone none returns again. I seek refuge in that Primeval Purusha Whence streamed forth the ancient activity or energy."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.4 Beyond lies the Path, from which, when found, there is no return. This is the Primal God from whence this ancient creation has sprung."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.4 Thereafter, that State has to be sought for, going where they do not return again: I take refuge in that Primeval Person Himself, from whom has ensued the eternal Manifestation."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.5",
+      "alignmentFingerprint": "ea07b9133a8ef4c0e2607590efebbdb6369ecbdc66fc5fd3c8493cf2ef27ec7d",
+      "sanskrit": "निर्मानमोहा जितसङ्गदोषा\nअध्यात्मनित्या विनिवृत्तकामाः।\nद्वन्द्वैर्विमुक्ताः सुखदुःखसंज्ञैर्-\nगच्छन्त्यमूढाः पदमव्ययं तत् ॥",
+      "iast": "nirmānamohā jitasaṅgadoṣā adhyātmanityā vinivṛttakāmāḥ\ndvandvairvimuktāḥ sukhaduḥkhasaṃjñaira- gacchantyamūḍhāḥ padamavyayaṃ tat",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.5",
+        "content": "for to Him come they\n  From passion and from dreams who break away;\n    Who part the bonds constraining them to flesh,\n  And,--Him, the Highest, worshipping alway--\n\n  No longer grow at mercy of what breeze\n  Of summer pleasure stirs the sleeping trees,\n    What blast of tempest tears them, bough and stem\n  To the eternal world pass such as these!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.5"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1211,
+            "end": 1562,
+            "lineStart": 2615,
+            "lineEnd": 2624,
+            "checksum": "9b3dfc3d9b5eba6819d14a83be07b4394a6504248c232b5b235c4ee945e5ab4b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.5 Free from pride and delusion, victorious over the evil of attachment, dwelling constantly in the Self, their desires having completely turned away, freed from the pairs of opposites known as pleasure and pain, the undeluded reach the eternal goal."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.5 The wise attain Eternity when, freed from pride and delusion, they have conquered their love for the things of sense; when, renouncing desire and fixing their gaze on the Self, they have ceased to be tossed to and fro by the opposing sensations, like pleasure and pain."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.5 The wise ones who are free from pride and non-discrimination, who have conered the evil of association, [Hatred and love arising from association with foes and friends.] who are ever devoted to spirituality, completely free from desires, free from the dualities called happiness and sorrow, reach that undecaying State."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.6",
+      "alignmentFingerprint": "61c199ec05c0898e44228f7b2a496422bf1f1f8436691f786df3dc036a86d64c",
+      "sanskrit": "न तद्भासयते सूर्यो न शशाङ्को न पावकः।\nयद्गत्वा न निवर्तन्ते तद्धाम परमं मम ॥",
+      "iast": "na tadbhāsayate sūryo na śaśāṅko na pāvakaḥ\nyadgatvā na nivartante taddhāma paramaṃ mama",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.6",
+        "content": "Another Sun gleams there! another Moon!\n  Another Light,--not Dusk, nor Dawn, nor Noon--\n    Which they who once behold return no more;\n  They have attained My rest, life's Utmost boon!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.6"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1562,
+            "end": 1751,
+            "lineStart": 2625,
+            "lineEnd": 2629,
+            "checksum": "63ead2b1d1da89fe1622f104cdcccae46bda13afe5a03e4933d4c785c42cad44"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.6 Neither doth the sun illumine there nor the moon, nor the fire; having gone thither they return not; that is My supreme abode."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.6 Neither sun, moon, nor fire shines there. Those who go thither never come back. For, O Arjuna, that is my Celestial Home!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.6 Neither the sun nor the moon nor fire illumines That. That is My supreme Abode, reaching which they do not return."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.7",
+      "alignmentFingerprint": "a97859bc2afc495b0b2adf3ec1614e067fe43d059035676addb9f25f4c7df571",
+      "sanskrit": "ममैवांशो जीवलोके जीवभूतः सनातनः।\nमनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति ॥",
+      "iast": "mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ\nmanaḥṣaṣṭhānīndriyāṇi prakṛtisthāni karṣati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.7",
+        "content": "When, in this world of manifested life,\n  The undying Spirit, setting forth from Me,\n  Taketh on form, it draweth to itself\n  From Being's storehouse,--which containeth all,--\n  Senses and intellect.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.7"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1751,
+            "end": 1953,
+            "lineStart": 2630,
+            "lineEnd": 2634,
+            "checksum": "103f371da7eee08a333c8758ba336d7110a9218f3c8d1d19cfb1053a3fbd19bc"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.7 An eternal portion of Myself having become a living soul in the world of life, draws to (itself) the (five) senses with the mind for the sixth, abiding in Nature."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.7 It is only a very small part of My Eternal Self, which is the life of the universe, drawing round itself the six senses, the mind the last, which have their source in Nature."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.7 It is verily a part of Mine which, becoming the eternal individual soul in the region of living beings, draws (to itself) the organs which have the mind as their sixth, and which abide in Nature."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.8",
+      "alignmentFingerprint": "0728cacf88695da504915578165b88f2ddc285847a8e042bf593812909ffd3c3",
+      "sanskrit": "शरीरं यदवाप्नोति यच्चाप्युत्क्रामतीश्वरः।\nगृहीत्वैतानि संयाति वायुर्गन्धानिवाशयात् ॥",
+      "iast": "śarīraṃ yadavāpnoti yaccāpyutkrāmatīśvaraḥ\ngṛhitvaitāni saṃyāti vāyurgandhānivāśayāt",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.8",
+        "content": "The Sovereign Soul\n  Thus entering the flesh, or quitting it,\n  Gathers these up, as the wind gathers scents,\n  Blowing above the flower-beds.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.8"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1953,
+            "end": 2096,
+            "lineStart": 2634,
+            "lineEnd": 2637,
+            "checksum": "e293710ca22a97c1c568b01be630e464540c36d5ac43eaa89d4858a2d7f1e9b0"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.8 When the Lord (as the individual soul) obtains a body and when He leaves it, He takes these and goes (with them) as the wind takes the scents from their seats (flowers, etc.)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.8 When the Supreme Lord enters a body or leaves it, He gathers these senses together and travels on with them, as the wind gathers perfume while passing through the flowers."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.8 When the master leaves it and even when he assumes a body, he departs taking these, as wind (carries away) odours from their receptacles."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.9",
+      "alignmentFingerprint": "7d49bafbd6071155e55c81bc54d6969aea3bd443254cecc9fb127858f8f97c2e",
+      "sanskrit": "श्रोत्रं चक्षुः स्पर्शनं च रसनं घ्राणमेव च।\nअधिष्ठाय मनश्चायं विषयानुपसेवते ॥",
+      "iast": "śrotraṃ cakṣuḥ sparśanaṃ ca rasanaṃ ghrāṇameva ca\nadhiṣṭhāya manaścāyaṃ viṣayānupasevate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.9",
+        "content": "Ear and Eye,\n  And Touch and Taste, and Smelling, these it takes,--\n  Yea, and a sentient mind;--linking itself\n  To sense-things so.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.9"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2096,
+            "end": 2231,
+            "lineStart": 2637,
+            "lineEnd": 2641,
+            "checksum": "42378207c51845a8d4a4d0bfb3ae69fbb38140848dc0cdc8a4ff8b3f4277a651"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.9 Presiding over the ear, the eye, touch, taste and smell, as well as the mind, it enjoys the objects of the senses."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.9 He is the perception of the ear, the eye, the touch, the taste and the smell, yea and of the mind also; and the enjoyment the things which they perceive is also His."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.9 This one enjoys the objects by presiding over the ear, eyes, skin and tongue as also the nose and the mind."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.10",
+      "alignmentFingerprint": "61a6b85229d14fedb898c822152b4e2e86269efcf64fa5661c2a769aac48f5a5",
+      "sanskrit": "उत्क्रामन्तं स्थितं वापि भुञ्जानं वा गुणान्वितम्।\nविमूढा नानुपश्यन्ति पश्यन्ति ज्ञानचक्षुषः ॥",
+      "iast": "utkrāmantaṃ sthitaṃ vāpi bhuñjānaṃ vā guṇānvitam\nvimūḍhā nānupaśyanti paśyanti jñānacakṣuṣaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.10",
+        "content": "The unenlightened ones\n  Mark not that Spirit when he goes or comes,\n  Nor when he takes his pleasure in the form,\n  Conjoined with qualities; but those see plain\n  Who have the eyes to see.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.10"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2231,
+            "end": 2424,
+            "lineStart": 2642,
+            "lineEnd": 2646,
+            "checksum": "80210b15621d5b5b4ac69a194f4cf242305890ebf2ae9c7f72b1aa19c69be8c7"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.10 The deluded do not see Him Who departs, stays and enjoys; but they who possess the eye of knowledge behold Him."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.10 The ignorant do not see that it is He Who is present in life and Who departs at death or even that it is He Who enjoys pleasure through the Qualities. Only the eye of wisdom sees."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.10 Persons who are diversely deluded do not see it even when it is leaving or residing (in this body), or experiencing, or in association with the alities. Those with the eye of knowledge see."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.11",
+      "alignmentFingerprint": "fcc96483a59a52cd9a8e2c02968c4639d72dcb1537b7e9b7f1f600f4d5410be8",
+      "sanskrit": "यतन्तो योगिनश्चैनं पश्यन्त्यात्मन्यवस्थितम्।\nयतन्तोऽप्यकृतात्मानो नैनं पश्यन्त्यचेतसः ॥",
+      "iast": "yatanto yoginaścainaṃ paśyantyātmanyavasthitam\nyatanto.apyakṛtātmāno nainaṃ paśyantyacetasaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.11",
+        "content": "Holy souls see\n  Which strive thereto. Enlightened, they perceive\n  That Spirit in themselves; but foolish ones,\n  Even though they strive, discern not, having hearts\n  Unkindled, ill-informed!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.11"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2424,
+            "end": 2619,
+            "lineStart": 2646,
+            "lineEnd": 2651,
+            "checksum": "f4a724b82b2474b3f881b3c031ed56564b5b69de8c86ade9ecdb4c092589bd1e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.11 The Yogins striving (for perfection) behold Him dwelling in the Self; but, the unrefined and unintelligent, even though striving, see Him not."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.11 The saints with great effort find Him within themselves; but not the unintelligent, who in spite of every effort cannot control their minds."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.11 And the yogis who are diligent see this one as existing in themselves. The non-discriminating ones who lack self-control do not see this one-though (they be) diligent."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.12",
+      "alignmentFingerprint": "e53db19e29d2762f29d84f31316be5fc98e171c31d598acc000018f4770d1b36",
+      "sanskrit": "यदादित्यगतं तेजो जगद्भासयतेऽखिलम्।\nयच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम् ॥",
+      "iast": "yadādityagataṃ tejo jagadbhāsayate.akhilam\nyaccandramasi yaccāgnau tattejo viddhi māmakam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.12",
+        "content": "Know, too, from Me\n  Shineth the gathered glory of the suns\n  Which lighten all the world: from Me the moons\n  Draw silvery beams, and fire fierce loveliness.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.12"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2619,
+            "end": 2780,
+            "lineStart": 2652,
+            "lineEnd": 2655,
+            "checksum": "f810c7704728661713c5418790df88ce3f5d1dfec4ffd91bd3dba81de25d5558"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.12 That light which residing in the sun illumines the whole world, that which is in the moon and in the fire know that light to be Mine."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.12 Remember that the Light which, proceeding from the sun, illumines the whole world, and the Light which is in the moon, and That which is in the fire also, all are born of Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.12 That light in the sun which illumines the whole world, that which is in the moon, and that which is in fire,-know that light to be Mine."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.13",
+      "alignmentFingerprint": "bb1e10236adcd1e4273a4ea78e59e1b1fe4fad931ec0e8d4f2063ffd7c6b0026",
+      "sanskrit": "गामाविश्य च भूतानि धारयाम्यहमोजसा।\nपुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः ॥",
+      "iast": "gāmāviśya ca bhūtāni dhārayāmyahamojasā\npuṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.13",
+        "content": "I penetrate the clay, and lend all shapes\n  Their living force; I glide into the plant--\n  Root, leaf, and bloom--to make the woodlands green\n  With springing sap.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.13"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2780,
+            "end": 2946,
+            "lineStart": 2656,
+            "lineEnd": 2659,
+            "checksum": "0c6a517b641738cf818cf9dbf3085dc1e6bcd0061aab35ba4166d66ea30d767e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.13 Permeating the earth I support all beings by (My) energy; and having become the watery moon I nourish all herbs."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.13 1 enter this world and animate all My creatures with My vitality; and by My cool moonbeams I nourish the plants."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.13 And entering the earth I sustain the beings through (My) power; and nourish all the plants by becoming Soma [According to S. and most other translators, Soma means the moon.-Tr.] which is of the nature of sap."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.14",
+      "alignmentFingerprint": "72b01d482b4371c0125ff5975e178f78a1f149854141a2c7ba3605882a085a47",
+      "sanskrit": "अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः।\nप्राणापानसमायुक्तः पचाम्यन्नं चतुर्विधम् ॥",
+      "iast": "ahaṃ vaiśvānaro bhūtvā prāṇināṃ dehamāśritaḥ\nprāṇāpānasamāyuktaḥ pacāmyannaṃ caturvidham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.14",
+        "content": "Becoming vital warmth,\n  I glow in glad, respiring frames, and pass,\n  With outward and with inward breath, to feed\n  The body by all meats.[FN#31]",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.14"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2946,
+            "end": 3095,
+            "lineStart": 2659,
+            "lineEnd": 2663,
+            "checksum": "ec5f94ba24e0f8376be8e27662a34cd41e336a3e4c9079c6d4268580244c844f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.14 Having become the fire Vaisvanara, I abide in the body of living beings and, associated with the Prana and the Apana, digest the fourfold food."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.14 Becoming the fire of life, I pass into their bodies and, uniting with the vital streams of Prana and Apana, I digest the various kinds of food."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.14 Taking the form of Vaisvanara and residing in the bodies of creatures, I, in association with Prana and Apana, digest the four kinds of food."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.15",
+      "alignmentFingerprint": "9915c6323deb812b10cef84b5209b260b1c6b28058be32e6902dc9db04b0a3b4",
+      "sanskrit": "सर्वस्य चाहं हृदि सन्निविष्टो\nमत्तः स्मृतिर्ज्ञानमपोहनञ्च।\nवेदैश्च सर्वैरहमेव वेद्यो\nवेदान्तकृद्वेदविदेव चाहम् ॥",
+      "iast": "sarvasya cāhaṃ hṛdi sanniviṣṭo mattaḥ smṛtirjñānamapohanañca\nvedaiśca sarvairahameva vedyo vedāntakṛdvedavideva cāham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.15",
+        "content": "",
+        "relation": "source-omission",
+        "references": [
+          "gita.15.15"
+        ],
+        "sourceSpans": [],
+        "note": "Arnold omits the verse about memory, knowledge, and the Vedas; translator note 31 explicitly says he omits a verse at this point."
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.15 And I am seated in the hearts of all; from Me are memory and knowledge, as well as their absence. I am verily That which has to be known by all the Vedas; I am indeed the author of the Vedanta and the knower of the Vedas am I."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.15 I am enthroned in the hearts of all; memory, wisdom and discrimination owe their origins to Me. I am He Who is to be realised in the scriptures; I inspire their wisdom and I know their truth."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.15 And I am seated in the hearts of all. From Me are memory, knowledge and their loss. I alone am the object to be known through all the Vedas; I am also the originator of the Vedanta, and I Myself am the knower of the Vedas."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.16",
+      "alignmentFingerprint": "ff35c03c77c2b4a985e82ab67fbb2e4b7717f5eab598f95a1374c19a5fab210a",
+      "sanskrit": "द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च।\nक्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते ॥",
+      "iast": "dvāvimau puruṣau loke kṣaraścākṣara eva ca\nkṣaraḥ sarvāṇi bhūtāni kūṭastho.akṣara ucyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.16",
+        "content": "For in this world\n  Being is twofold: the Divided, one;\n  The Undivided, one. All things that live\n  Are \"the Divided.\" That which sits apart,\n  \"The Undivided.\"",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.16"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3095,
+            "end": 3260,
+            "lineStart": 2664,
+            "lineEnd": 2669,
+            "checksum": "92ae225211d6a1854224ccd9b9d272fcf1a9f73f8cc53da6d098330013d4e86c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.16 Two Purushas there are in this world, the perishable and the imperishable. All beings are\nthe perishable and the Kutastha the unchanging is called the imperishable."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.16 There are two aspects in Nature: the perishable and the imperishable. All life in this world belongs to the former, the unchanging element belongs to the latter."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.16 There are these two persons in the world-the mutable and the immutable. The mutable consists of all things; the one existing as Maya is called the immutable."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.17",
+      "alignmentFingerprint": "debb7b88d3649153022004dd36d1d7ae3a2721904cc1043c84e1892b2589597b",
+      "sanskrit": "उत्तमः पुरुषस्त्वन्यः परमात्मेत्युधाहृतः।\nयो लोकत्रयमाविश्य बिभर्त्यव्यय ईश्वरः ॥",
+      "iast": "uttamaḥ puruṣastvanyaḥ paramātmetyudhāhṛtaḥ\nyo lokatrayamāviśya bibhartyavyaya īśvaraḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.17",
+        "content": "Higher still is He,\n  The Highest, holding all, whose Name is LORD,\n  The Eternal, Sovereign, First! Who fills all worlds,\n  Sustaining them.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.17"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3260,
+            "end": 3404,
+            "lineStart": 2670,
+            "lineEnd": 2673,
+            "checksum": "0e9f798062d6bd83c7f19d650091ea1b6561ec5dd469818a63d81d5c84cc3fcf"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.17 But distinct is the Supreme Purusha called the highest Self, the indestructible Lord Who, pervading the three worlds, sustains them."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.17 But higher than all am I, the Supreme God, the Absolute Self, the Eternal Lord, Who pervades the worlds and upholds them all."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.17 But different is th supreme Person who is spoken of as the transcendental Self, who, permeating the three worlds, upholds (them), and is the imperisahble God."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.18",
+      "alignmentFingerprint": "c527e8e9d4b0576e3d1931bdefc54b09adfb0c6b5b7b5b82996fa384b82b988f",
+      "sanskrit": "यस्मात्क्षरमतीतोऽहमक्षरादपि चोत्तमः।\nअतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमः ॥",
+      "iast": "yasmātkṣaramatīto.ahamakṣarādapi cottamaḥ\nato.asmi loke vedeca prathitaḥ puruṣottamaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.18",
+        "content": "And--dwelling thus beyond\n  Divided Being and Undivided--I\n  Am called of men and Vedas, Life Supreme,\n  The PURUSHOTTAMA.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.18"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3404,
+            "end": 3528,
+            "lineStart": 2673,
+            "lineEnd": 2677,
+            "checksum": "194aed0acfee726ac3c8b05ead2557c55432c1c11427b2a35575db8b9108ddcc"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.18 As I transcend the perishable and am even higher than the imperishable, I am declared to be the highest Purusha in the world and in the Vedas."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.18 Beyond comparison of the Eternal with the non-eternal am I, Who am called by scriptures and sages the Supreme Personality, the Highest God."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.18 Since I am transcendental to the mutable and above even the immutable, hence I am well known in the world and in the Vedas as the supreme Person."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.19",
+      "alignmentFingerprint": "7880ca8b9a8eced77e4750dfb290eb52381f3b38d44eaefd5886dac23def0305",
+      "sanskrit": "यो मामेवमसम्मूढो जानाति पुरुषोत्तमम्।\nस सर्वविद्भजति मां सर्वभावेन भारत ॥",
+      "iast": "yo māmevamasammūḍho jānāti puruṣottamam\nsa sarvavidbhajati māṃ sarvabhāvena bhārata",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.19",
+        "content": "Who knows Me thus,\n  With mind unclouded, knoweth all, dear Prince!\n  And with his whole soul ever worshippeth Me.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.19"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3528,
+            "end": 3647,
+            "lineStart": 2678,
+            "lineEnd": 2682,
+            "checksum": "ee6e56f3b88f83200c6e01966f8e64daf30e34687a5335582a5dd1fad08d9f84"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.19 He who, undeluded, knows Me thus as the highest Purusha, he, knowing all, worships Me with his whole being (heart), O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.19 He who with unclouded vision sees Me as the Lord-God, knows all there is to be known, and always shall worship Me with his whole heart."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.19 O scion of the Bharata dynasty, he who, being free from delusion, knows Me the supreme Person thus, he is all-knowing and adores Me with his whole being."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.15.20",
+      "alignmentFingerprint": "35be7ef1736adfa1558bc6ffd513820cb5758b69569a9b980e41799b98acfbfc",
+      "sanskrit": "इति गुह्यतमं शास्त्रमिदमुक्तं मयानघ।\nएतद्बुद्ध्वा बुद्धिमान्स्यात्कृतकृत्यश्च भारत ॥",
+      "iast": "iti guhyatamaṃ śāstramidamuktaṃ mayānagha\netadbuddhvā buddhimānsyātkṛtakṛtyaśca bhārata",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.15.20",
+        "content": "Now is the sacred, secret Mystery\n  Declared to thee! Who comprehendeth this\n  Hath wisdom! He is quit of works in bliss!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.15.20"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3647,
+            "end": 3772,
+            "lineStart": 2683,
+            "lineEnd": 2686,
+            "checksum": "4772c2c958f34fcba49093bad44b5ddfc19eca37d852000df00a9fcd0b751fa7"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "15.20 Thus, this most secret science has been taught by Me, O sinless one; on knowing this, a man becomes wise, and all his duties are accomplished, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "15.20 Thus, O Sinless One, I have revealed to thee this most mystic knowledge. He who understands gains wisdom and attains the consummation of life.\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "15.20 O sinless one, this most secret scripture has thus been uttered by Me. Understanding this, one becomes wise and has his duties fulfilled, O scion of the Bharata dynasty."
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@ export const arnoldAuthor = {
   availableFields: ['et'],
   publicFields: ['et'],
   rightsStatus: 'full-text-allowed',
-  rightsNote: `${arnoldTranslation.source.rights}. The Song Celestial, ${arnoldTranslation.editionYear} edition; Project Gutenberg ebook #2388. Verse alignment by gpt-6.1-sol; independent review pending.`,
+  rightsNote: `${arnoldTranslation.source.rights}. The Song Celestial, ${arnoldTranslation.editionYear} edition; Project Gutenberg ebook #2388. ${arnoldTranslation.reviewStatus}.`,
   sourceId: arnoldTranslation.source.id,
   sourceUrl: arnoldTranslation.source.catalogUrl,
   corpusVersion: arnoldTranslation.corpusVersion,

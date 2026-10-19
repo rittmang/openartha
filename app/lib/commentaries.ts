@@ -40,6 +40,13 @@ export type Commentary = {
   sourceChecksum?: string;
   rights?: string;
   alignmentRelation?: string;
+  firstReview?: {
+    reviewerModel: string;
+    status: string;
+    confidence: number;
+    notes: string;
+    secondReview: string;
+  };
   alignment?: {
     id: string;
     references: string[];
@@ -98,8 +105,13 @@ export function commentaryLang(commentary: Pick<Commentary, 'language' | 'script
 }
 
 export function commentaryReviewSummary(commentary: Commentary) {
+  const shared = commentary.alignment && commentary.alignment.references.length > 1 ? `Shared rendering of ${commentary.alignment.references.map((ref) => ref.replace('gita.', '')).join('–')}. ` : '';
+  if (commentary.firstReview) {
+    const review = commentary.firstReview;
+    const outcome = review.status === 'verified' ? 'verified' : review.status === 'needs-correction' ? 'flagged for correction' : 'uncertain';
+    return `${shared}First model review ${outcome} (${review.reviewerModel} confidence: ${Math.round(review.confidence * 100)}%); second review pending.`;
+  }
   if (commentary.alignment) {
-    const shared = commentary.alignment.references.length > 1 ? `Shared rendering of ${commentary.alignment.references.map((ref) => ref.replace('gita.', '')).join('–')}. ` : '';
     return `${shared}Aligned by ${commentary.alignment.review.reviewerModel}; independent review pending.`;
   }
   return `First review verified (google/gemini-3.8-flash confidence: ${Math.round(commentaryConfidence(commentary) * 100)}%); second review pending.`;

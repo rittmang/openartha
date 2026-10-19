@@ -1,0 +1,1853 @@
+{
+  "schemaVersion": 1,
+  "workId": "gita",
+  "translationId": "edwin-arnold",
+  "chapter": 4,
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "numbering": "Standard 700-verse canon; Chapter 13 has 34 verses and excludes Arjuna's alternate opening question.",
+  "sourceChapterWithLineNumbers": "1:   Krishna.\n2:   This deathless Yoga, this deep union,\n3:   I taught Vivaswata,[FN#6] the Lord of Light;\n4:   Vivaswata to Manu gave it; he\n5:   To Ikshwaku; so passed it down the line\n6:   Of all my royal Rishis. Then, with years,\n7:   The truth grew dim and perished, noble Prince!\n8:   Now once again to thee it is declared--\n9:   This ancient lore, this mystery supreme--\n10:   Seeing I find thee votary and friend.\n11: \n12:   Arjuna.\n13:   Thy birth, dear Lord, was in these later days,\n14:   And bright Vivaswata's preceded time!\n15:   How shall I comprehend this thing thou sayest,\n16:   \"From the beginning it was I who taught?\"\n17: \n18:   Krishna.\n19:   Manifold the renewals of my birth\n20:   Have been, Arjuna! and of thy births, too!\n21:   But mine I know, and thine thou knowest not,\n22:   O Slayer of thy Foes! Albeit I be\n23:   Unborn, undying, indestructible,\n24:   The Lord of all things living; not the less--\n25:   By Maya, by my magic which I stamp\n26:   On floating Nature-forms, the primal vast--\n27:   I come, and go, and come. When Righteousness\n28:   Declines, O Bharata! when Wickedness\n29:   Is strong, I rise, from age to age, and take\n30:   Visible shape, and move a man with men,\n31:   Succouring the good, thrusting the evil back,\n32:   And setting Virtue on her seat again.\n33:   Who knows the truth touching my births on earth\n34:   And my divine work, when he quits the flesh\n35:   Puts on its load no more, falls no more down\n36:   To earthly birth: to Me he comes, dear Prince!\n37:   Many there be who come! from fear set free,\n38:   From anger, from desire; keeping their hearts\n39:   Fixed upon me--my Faithful--purified\n40:   By sacred flame of Knowledge. Such as these\n41:   Mix with my being. Whoso worship me,\n42:   Them I exalt; but all men everywhere\n43:   Shall fall into my path; albeit, those souls\n44:   Which seek reward for works, make sacrifice\n45:   Now, to the lower gods. I say to thee\n46:   Here have they their reward. But I am He\n47:   Made the Four Castes, and portioned them a place\n48:   After their qualities and gifts. Yea, I\n49:   Created, the Reposeful; I that live\n50:   Immortally, made all those mortal births:\n51:   For works soil not my essence, being works\n52:   Wrought uninvolved.[FN#7] Who knows me acting thus\n53:   Unchained by action, action binds not him;\n54:   And, so perceiving, all those saints of old\n55:   Worked, seeking for deliverance. Work thou\n56:   As, in the days gone by, thy fathers did.\n57: \n58:   Thou sayst, perplexed, It hath been asked before\n59:   By singers and by sages, \"What is act,\n60:   And what inaction? \"I will teach thee this,\n61:   And, knowing, thou shalt learn which work doth save\n62:   Needs must one rightly meditate those three--\n63:   Doing,--not doing,--and undoing. Here\n64:   Thorny and dark the path is! He who sees\n65:   How action may be rest, rest action--he\n66:   Is wisest 'mid his kind; he hath the truth!\n67:   He doeth well, acting or resting. Freed\n68:   In all his works from prickings of desire,\n69:   Burned clean in act by the white fire of truth,\n70:   The wise call that man wise; and such an one,\n71:   Renouncing fruit of deeds, always content.\n72:   Always self-satisfying, if he works,\n73:   Doth nothing that shall stain his separate soul,\n74:   Which--quit of fear and hope--subduing self--\n75:   Rejecting outward impulse--yielding up\n76:   To body's need nothing save body, dwells\n77:   Sinless amid all sin, with equal calm\n78:   Taking what may befall, by grief unmoved,\n79:   Unmoved by joy, unenvyingly; the same\n80:   In good and evil fortunes; nowise bound\n81:   By bond of deeds. Nay, but of such an one,\n82:   Whose crave is gone, whose soul is liberate,\n83:   Whose heart is set on truth--of such an one\n84:   What work he does is work of sacrifice,\n85:   Which passeth purely into ash and smoke\n86:   Consumed upon the altar! All's then God!\n87:   The sacrifice is Brahm, the ghee and grain\n88:   Are Brahm, the fire is Brahm, the flesh it eats\n89:   Is Brahm, and unto Brahm attaineth he\n90:   Who, in such office, meditates on Brahm.\n91:   Some votaries there be who serve the gods\n92:   With flesh and altar-smoke; but other some\n93:   Who, lighting subtler fires, make purer rite\n94:   With will of worship. Of the which be they\n95:   Who, in white flame of continence, consume\n96:   Joys of the sense, delights of eye and ear,\n97:   Forgoing tender speech and sound of song:\n98:   And they who, kindling fires with torch of Truth,\n99:   Burn on a hidden altar-stone the bliss\n100:   Of youth and love, renouncing happiness:\n101:   And they who lay for offering there their wealth,\n102:   Their penance, meditation, piety,\n103:   Their steadfast reading of the scrolls, their lore\n104:   Painfully gained with long austerities:\n105:   And they who, making silent sacrifice,\n106:   Draw in their breath to feed the flame of thought,\n107:   And breathe it forth to waft the heart on high,\n108:   Governing the ventage of each entering air\n109:   Lest one sigh pass which helpeth not the soul:\n110:   And they who, day by day denying needs,\n111:   Lay life itself upon the altar-flame,\n112:   Burning the body wan. Lo! all these keep\n113:   The rite of offering, as if they slew\n114:   Victims; and all thereby efface much sin.\n115:   Yea! and who feed on the immortal food\n116:   Left of such sacrifice, to Brahma pass,\n117:   To The Unending. But for him that makes\n118:   No sacrifice, he hath nor part nor lot\n119:   Even in the present world. How should he share\n120:   Another, O thou Glory of thy Line?\n121: \n122:   In sight of Brahma all these offerings\n123:   Are spread and are accepted! Comprehend\n124:   That all proceed by act; for knowing this,\n125:   Thou shalt be quit of doubt. The sacrifice\n126:   Which Knowledge pays is better than great gifts\n127:   Offered by wealth, since gifts' worth--O my Prince!\n128:   Lies in the mind which gives, the will that serves:\n129:   And these are gained by reverence, by strong search,\n130:   By humble heed of those who see the Truth\n131:   And teach it. Knowing Truth, thy heart no more\n132:   Will ache with error, for the Truth shall show\n133:   All things subdued to thee, as thou to Me.\n134:   Moreover, Son of Pandu! wert thou worst\n135:   Of all wrong-doers, this fair ship of Truth\n136:   Should bear thee safe and dry across the sea\n137:   Of thy transgressions. As the kindled flame\n138:   Feeds on the fuel till it sinks to ash,\n139:   So unto ash, Arjuna! unto nought\n140:   The flame of Knowledge wastes works' dross away!\n141:   There is no purifier like thereto\n142:   In all this world, and he who seeketh it\n143:   Shall find it--being grown perfect--in himself.\n144:   Believing, he receives it when the soul\n145:   Masters itself, and cleaves to Truth, and comes--\n146:   Possessing knowledge--to the higher peace,\n147:   The uttermost repose. But those untaught,\n148:   And those without full faith, and those who fear\n149:   Are shent; no peace is here or other where,\n150:   No hope, nor happiness for whoso doubts.\n151:   He that, being self-contained, hath vanquished doubt,\n152:   Disparting self from service, soul from works,\n153:   Enlightened and emancipate, my Prince!\n154:   Works fetter him no more! Cut then atwain\n155:   With sword of wisdom, Son of Bharata!\n156:   This doubt that binds thy heart-beats! cleave the bond\n157:   Born of thy ignorance! Be bold and wise!\n158:   Give thyself to the field with me! Arise!\n159: \n160:   HERE ENDETH CHAPTER IV. OF THE BHAGAVAD-GITA,\n161:   Entitled \"Jnana Yog,\"\n162:   Or \"The Book of the Religion of Knowledge,\"",
+  "translatorNotes": [
+    {
+      "number": 1,
+      "marker": "[FN#1]",
+      "text": "Some repetitionary lines are here omitted."
+    },
+    {
+      "number": 2,
+      "marker": "[FN#2]",
+      "text": "Technical phrases of Vedic religion."
+    },
+    {
+      "number": 3,
+      "marker": "[FN#3]",
+      "text": "The whole of this passage is highly involved and difficult to\nrender."
+    },
+    {
+      "number": 4,
+      "marker": "[FN#4]",
+      "text": "I feel convinced sankhyanan and yoginan must be transposed\nhere in sense."
+    },
+    {
+      "number": 5,
+      "marker": "[FN#5]",
+      "text": "I am doubtful of accuracy here."
+    },
+    {
+      "number": 6,
+      "marker": "[FN#6]",
+      "text": "A name of the sun."
+    },
+    {
+      "number": 7,
+      "marker": "[FN#7]",
+      "text": "Without desire of fruit."
+    },
+    {
+      "number": 8,
+      "marker": "[FN#8]",
+      "text": "That is,\"joy and sorrow, success and failure, heat and cold,\"&c."
+    },
+    {
+      "number": 9,
+      "marker": "[FN#9]",
+      "text": "i.e., the body."
+    },
+    {
+      "number": 10,
+      "marker": "[FN#10]",
+      "text": "The Sanskrit has this play on the double meaning of Atman."
+    },
+    {
+      "number": 11,
+      "marker": "[FN#11]",
+      "text": "So in original."
+    },
+    {
+      "number": 12,
+      "marker": "[FN#12]",
+      "text": "Beings of low and devilish nature."
+    },
+    {
+      "number": 13,
+      "marker": "[FN#13]",
+      "text": "Krishna."
+    },
+    {
+      "number": 14,
+      "marker": "[FN#14]",
+      "text": "I read here janma, \"birth;\" not jara,\"age\""
+    },
+    {
+      "number": 15,
+      "marker": "[FN#15]",
+      "text": "I have discarded ten lines of Sanskrit text here as an\nundoubted interpolation by some Vedantist"
+    },
+    {
+      "number": 16,
+      "marker": "[FN#16]",
+      "text": "The Sanskrit poem here rises to an elevation of style and\nmanner which I have endeavoured to mark by change of metre."
+    },
+    {
+      "number": 17,
+      "marker": "[FN#17]",
+      "text": "Ahinsa."
+    },
+    {
+      "number": 18,
+      "marker": "[FN#18]",
+      "text": "The nectar of immortality."
+    },
+    {
+      "number": 19,
+      "marker": "[FN#19]",
+      "text": "Called \"The Jap.\""
+    },
+    {
+      "number": 20,
+      "marker": "[FN#20]",
+      "text": "The compound form of Sanskrit words."
+    },
+    {
+      "number": 21,
+      "marker": "[FN#21]",
+      "text": "\"Kamalapatraksha\""
+    },
+    {
+      "number": 22,
+      "marker": "[FN#22]",
+      "text": "These are all divine or deified orders of the Hindoo Pantheon."
+    },
+    {
+      "number": 23,
+      "marker": "[FN#23]",
+      "text": "\"Hail to Thee, God of Gods! Be favourable!\""
+    },
+    {
+      "number": 24,
+      "marker": "[FN#24]",
+      "text": "The wind."
+    },
+    {
+      "number": 25,
+      "marker": "[FN#25]",
+      "text": "\"Not peering about,\"anapeksha."
+    },
+    {
+      "number": 26,
+      "marker": "[FN#26]",
+      "text": "The Calcutta edition of the Mahabharata has these three\nopening lines."
+    },
+    {
+      "number": 27,
+      "marker": "[FN#27]",
+      "text": "This is the nearest possible version of\nKshetrakshetrajnayojnanan yat tajnan matan mama."
+    },
+    {
+      "number": 28,
+      "marker": "[FN#28]",
+      "text": "I omit two lines of the Sanskrit here, evidently interpolated by\nsome Vedantist."
+    },
+    {
+      "number": 29,
+      "marker": "[FN#29]",
+      "text": "Wombs."
+    },
+    {
+      "number": 30,
+      "marker": "[FN#30]",
+      "text": "I do not consider the Sanskrit verses here-which are somewhat\nfreely rendered--\"an attack on the authority of the Vedas,\" with Mr\nDavies, but a beautiful lyrical episode, a new \"Parable of the fig-tree.\""
+    },
+    {
+      "number": 31,
+      "marker": "[FN#31]",
+      "text": "I omit a verse here, evidently interpolated."
+    },
+    {
+      "number": 32,
+      "marker": "[FN#32]",
+      "text": "\"Of the Asuras,\" lit."
+    },
+    {
+      "number": 33,
+      "marker": "[FN#33]",
+      "text": "I omit the ten concluding shlokas, with Mr Davis."
+    },
+    {
+      "number": 34,
+      "marker": "[FN#34]",
+      "text": "Rakshasas and Yakshas are unembodied but capricious beings\nof great power, gifts, and beauty, same times also of benignity."
+    },
+    {
+      "number": 35,
+      "marker": "[FN#35]",
+      "text": "These are spirits of evil wandering ghosts."
+    },
+    {
+      "number": 36,
+      "marker": "[FN#36]",
+      "text": "Yatayaman, food which has remained after the watches of the\nnight. In India this would probably \"go bad.\""
+    },
+    {
+      "number": 37,
+      "marker": "[FN#37]",
+      "text": "I omit the concluding shlokas, as of very doubtful authenticity."
+    }
+  ],
+  "paratext": [
+    {
+      "chapter": 4,
+      "type": "chapter-colophon",
+      "text": "HERE ENDETH CHAPTER IV. OF THE BHAGAVAD-GITA,\n  Entitled \"Jnana Yog,\"\n  Or \"The Book of the Religion of Knowledge,\"",
+      "checksum": "2a8d588f567e8dc19be451fe5150c3bfffb8fb2ff6b6de19d07201f09ce3ef30",
+      "sourceSpan": {
+        "start": 6784,
+        "end": 6901,
+        "lineStart": 957,
+        "lineEnd": 959,
+        "checksum": "1730c4f75036359cc2c370eb77c7ef153b99a0b4da1cf2b10110655840b6e66b"
+      }
+    }
+  ],
+  "records": [
+    {
+      "canonicalRef": "gita.4.1",
+      "alignmentFingerprint": "dbb26c108d0df5ef770e7a77372171b6c505abe29d58b8012566a1b89a63b8b0",
+      "sanskrit": "श्रीभगवानुवाच।\nइमं विवस्वते योगं प्रोक्तवानहमव्ययम्।\nविवस्वान्मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत् ॥",
+      "iast": "śrībhagavānuvāca\nimaṃ vivasvate yogaṃ proktavānahamavyayam\nvivasvānmanave prāha manurikṣvākave.abravīt",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.1",
+        "content": "Krishna.\n  This deathless Yoga, this deep union,\n  I taught Vivaswata,[FN#6] the Lord of Light;\n  Vivaswata to Manu gave it; he\n  To Ikshwaku;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.1"
+        ],
+        "sourceSpans": [
+          {
+            "start": 0,
+            "end": 145,
+            "lineStart": 798,
+            "lineEnd": 802,
+            "checksum": "89df61f828d7519786d620ef78b13a0a06f7d92ec4d208d7cdef7502ebf64063"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.1 The Blessed Lord said I taught this imperishable Yoga to Vivasvan; he told it to Manu; Manu proclaimed it to Ikshvaku."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.1 \"Lord Shri Krishna said: This imperishable philosophy I taught to Viwaswana, the founder of the Sun dynasty, Viwaswana gave it to Manu the lawgiver, and Manu to King Ikshwaku!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.1 The Blessed Lord said I imparted this imperishable Yoga to Vivasvan, Vivasvan taught this to Manu, and Manu transmitted this to Iksavaku."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.2",
+      "alignmentFingerprint": "0390158ba30bb474df4ae7af523e1f0b6dddfc23be1c616f7f9976315356bc2a",
+      "sanskrit": "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः।\nस कालेनेह महता योगो नष्टः परन्तप ॥",
+      "iast": "evaṃ paramparāprāptamimaṃ rājarṣayo viduḥ\nsa kāleneha mahatā yogo naṣṭaḥ parantapa",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.2",
+        "content": "so passed it down the line\n  Of all my royal Rishis. Then, with years,\n  The truth grew dim and perished, noble Prince!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.2"
+        ],
+        "sourceSpans": [
+          {
+            "start": 145,
+            "end": 265,
+            "lineStart": 802,
+            "lineEnd": 804,
+            "checksum": "069d4528f9667c0ad823cac4d079d9d97f8e9efd9d185a81323f9f1f6a51bb6e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.2 This, handed down thus in regular succession, the royal sages knew. This Yoga, by long lapse of time, has been lost here, O Parantapa (burner of the foes)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.2 The Divine Kings knew it, for it was their tradition. Then, after a long time, at last it was forgotten."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.2 The king-sages knew this (yoga) which was received thus in regular succession. That Yoga, O destroyer of foes, in now lost owing to a long lapse of time."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.3",
+      "alignmentFingerprint": "5ab72147bfd584083e649d6cc5a49cc2a825ee774a7d06b455af63aa5ba9d3a6",
+      "sanskrit": "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः।\nभक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम् ॥",
+      "iast": "sa evāyaṃ mayā te.adya yogaḥ proktaḥ purātanaḥ\nbhakto.asi me sakhā ceti rahasyaṃ hyetaduttamam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.3",
+        "content": "Now once again to thee it is declared--\n  This ancient lore, this mystery supreme--\n  Seeing I find thee votary and friend.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.3"
+        ],
+        "sourceSpans": [
+          {
+            "start": 265,
+            "end": 392,
+            "lineStart": 805,
+            "lineEnd": 808,
+            "checksum": "e0697efb782842d2d625cdf91d10544513ad0c8b36360340801af47239154d4a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.3 That same ancient Yoga has been today taught to thee by Me, for thou art My devotee and My friend; it is the supreme secret."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.3 It is the same ancient Path that I have now revealed to thee, since thou are My devotee and My friend. It is the supreme Secret."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.3 That ancient Yoga itself, which is this, has been taught to you by Me today, considering that you are My devotee and friend, For, this (Yoga) is a profound secret."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.4",
+      "alignmentFingerprint": "65f0b43b2f9262ac2330be3cb0c88dcdbbaf886cf85b80e7f73e99e45d59ce8c",
+      "sanskrit": "अर्जुन उवाच।\nअपरं भवतो जन्म परं जन्म विवस्वतः।\nकथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति ॥",
+      "iast": "arjuna uvāca\naparaṃ bhavato janma paraṃ janma vivasvataḥ\nkathametadvijānīyāṃ tvamādau proktavāniti",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.4.4",
+        "content": "Arjuna.\n  Thy birth, dear Lord, was in these later days,\n  And bright Vivaswata's preceded time!\n  How shall I comprehend this thing thou sayest,\n  \"From the beginning it was I who taught?\"",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.4"
+        ],
+        "sourceSpans": [
+          {
+            "start": 392,
+            "end": 585,
+            "lineStart": 809,
+            "lineEnd": 814,
+            "checksum": "1c6271f3b6c3d9700e21cb3b17da43b5949a2d50863c2d21ce1d788f122dfb4b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.4 Arjuna said Later on was Thy birth, and prior to it was the birth of Vivasvan (the Sun); how am I to understand that Thou taughtest this Yoga in the beginning?"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.4 Arjuna asked: My Lord! Viwaswana was born before Thee; how then canst Thou have revealed it to him?"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.4 Arjuna said Your birth was later, (whereas) the birth of Vivasvan was earlier. How am I to understand this that You instructed (him) in the beginning?"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.5",
+      "alignmentFingerprint": "0bb7211caf06bfda5fb8b7243138107d0cd9b75f4f13ac309410f970127cae2e",
+      "sanskrit": "श्रीभगवानुवाच।\nबहूनि मे व्यतीतानि जन्मानि तव चार्जुन।\nतान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप ॥",
+      "iast": "śrībhagavānuvāca\nbahūni me vyatītāni janmāni tava cārjuna\ntānyahaṃ veda sarvāṇi na tvaṃ vettha parantapa",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.5",
+        "content": "Krishna.\n  Manifold the renewals of my birth\n  Have been, Arjuna! and of thy births, too!\n  But mine I know, and thine thou knowest not,\n  O Slayer of thy Foes!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.5"
+        ],
+        "sourceSpans": [
+          {
+            "start": 585,
+            "end": 748,
+            "lineStart": 815,
+            "lineEnd": 819,
+            "checksum": "dc2743134f1be9307a8dc2a19d29910b2fba53ec4bd0b624ccd0abf175001cf9"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.5 The Blessed Lord said Many births of Mine have passed as well as of thine, O Arjuna; I know them all but thou knowest not, O Parantapa (scorcher of foes)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.5 Lord Shri Krishna replied: I have been born again and again, from time to time; thou too,O Arjuna! My births are known to Me, but thou knowest not thine."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.5 The Blessed Lord said O Arjuna, many lives of Mine have passed, and so have yours. I know them all, (but) you know not, O scorcher of enemies!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.6",
+      "alignmentFingerprint": "ccaefc5891a035661d15c6a5b9a3259b2e8a8179ddb7a63d7b880cb90e76f7ba",
+      "sanskrit": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन्।\nप्रकृतिं स्वामधिष्ठाय सम्भवाम्यात्ममायया ॥",
+      "iast": "ajo.api sannavyayātmā bhūtānāmīśvaro.api san\nprakṛtiṃ svāmadhiṣṭhāya sambhavāmyātmamāyayā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.6",
+        "content": "Albeit I be\n  Unborn, undying, indestructible,\n  The Lord of all things living; not the less--\n  By Maya, by my magic which I stamp\n  On floating Nature-forms, the primal vast--\n  I come, and go, and come.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.6"
+        ],
+        "sourceSpans": [
+          {
+            "start": 748,
+            "end": 954,
+            "lineStart": 819,
+            "lineEnd": 824,
+            "checksum": "73a4b3840c593f739da44bf06174757d83f0268aa9edb5fa8ce392ea8c77db85"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.6 Though I am unborn, of imperishable nature, and though I am the Lord of all beings, yet, governing My own Nature, I am born by My own Maya."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.6 have no beginning. Though I am imperishable, as well as Lord of all that exists, yet by My own will and power do I manifest Myself."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.6 Though I am birthless, undecaying by nature, and the Lord of beings, (still) by subjugating My Prakriti, I take birth by means of My own Maya."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.7",
+      "alignmentFingerprint": "c90208f25cb6b654a759a433927fb7c758d072922acddd0201cdf567ba69b53d",
+      "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥",
+      "iast": "yadā yadā hi dharmasya glānirbhavati bhārata\nabhyutthānamadharmasya tadātmānaṃ sṛjāmyaham",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.7",
+        "content": "When Righteousness\n  Declines, O Bharata! when Wickedness\n  Is strong, I rise,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.7"
+        ],
+        "sourceSpans": [
+          {
+            "start": 954,
+            "end": 1033,
+            "lineStart": 824,
+            "lineEnd": 826,
+            "checksum": "2e0875099a177f5944ca1d21e942d998eae12ac25cba98b4dc0d9a232bc30f6d"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.7 Whenever there is decline of righteousness, O Arjuna, and rise of unrighteousness, then I manifest Myself."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.7 Whenever spirituality decays and materialism is rampant, then, O Arjuna, I reincarnate Myself!"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.7 O scion of the Bharata dynasty, whenever there is a decline one virtue and increase of vice, then do I manifest Myself."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.8",
+      "alignmentFingerprint": "b28ee29fbee79e0676ee7b3fd2c8973d481c01d98ede9251651e24402eca8caf",
+      "sanskrit": "परित्राणाय साधूनां विनाशाय च दुष्कृताम्।\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥",
+      "iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām\ndharmasaṃsthāpanārthāya sambhavāmi yuge yuge",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.8",
+        "content": "from age to age, and take\n  Visible shape, and move a man with men,\n  Succouring the good, thrusting the evil back,\n  And setting Virtue on her seat again.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.8"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1033,
+            "end": 1189,
+            "lineStart": 826,
+            "lineEnd": 829,
+            "checksum": "cdeb78dfd21f5b6ef0107dd4085ca84b3daab1457828d71941df2aa6f12546cf"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.8 For the protection of the good, for the destruction of the wicked and for the establishment of righteousness, I am born in every age."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.8 To protect the righteous, to destroy the wicked and to establish the kingdom of God, I am reborn from age to age."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.8 For the protection of the pious, the destruction of the evil-doers, and establishing virtue, I manifest Myself in every age."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.9",
+      "alignmentFingerprint": "ed7b18fbd57b0b3cd3858e249e7e2fc5d152a54906f49f5b3b1c4ce66425c80c",
+      "sanskrit": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः।\nत्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन ॥",
+      "iast": "janma karma ca me divyamevaṃ yo vetti tattvataḥ\ntyaktvā dehaṃ punarjanma naiti māmeti so.arjuna",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.9",
+        "content": "Who knows the truth touching my births on earth\n  And my divine work, when he quits the flesh\n  Puts on its load no more, falls no more down\n  To earthly birth: to Me he comes, dear Prince!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.9"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1189,
+            "end": 1381,
+            "lineStart": 830,
+            "lineEnd": 833,
+            "checksum": "482ad10144fcdf37930d759650f0b1a4eed992b02a3871e04c1a001d2e699f44"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.9 He who thus know, in their true light, My divine birth and action, having abandoned the body, is not born again, he comes to Me, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.9 He who realises the divine truth concerning My birth and life is not born again; and when he leaves his body, he becomes one with Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.9 He who thus knows truly the divine birth and actions of Mine does not get rirth after casting off the body. He attains Me, O Arjuna."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.10",
+      "alignmentFingerprint": "1322ef42852e261e74f0ecdef2ad159d011a80bb72afb8c4dbc93347505d1653",
+      "sanskrit": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः।\nबहवो ज्ञानतपसा पूता मद्भावमागताः ॥",
+      "iast": "vītarāgabhayakrodhā manmayā māmupāśritāḥ\nbahavo jñānatapasā pūtā madbhāvamāgatāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.10",
+        "content": "Many there be who come! from fear set free,\n  From anger, from desire; keeping their hearts\n  Fixed upon me--my Faithful--purified\n  By sacred flame of Knowledge. Such as these\n  Mix with my being.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.10"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1381,
+            "end": 1581,
+            "lineStart": 834,
+            "lineEnd": 838,
+            "checksum": "5d5343a1371585b69e8deca73f98d27c5a8730718e30efc0daba431ada878255"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.10 Freed from attachment, fear and anger, absorbed in Me, taking refuge in Me, purified by the fire of knowledge, many have attained to My Being."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.10 Many have merged their existences in Mine, being freed from desire, fear and anger, filled always with Me and purified by the illuminating flame of self-abnegation."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.10 Many who were devoid of attachment, fear and anger, who were absorbed in Me, who had taken refuge in Me, and were purified by the austerity of Knowledge, have attained My state."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.11",
+      "alignmentFingerprint": "ba764e46e82ac7cf228e4b1801af174623f13116e04019fa619f342fb90147ac",
+      "sanskrit": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्।\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ॥",
+      "iast": "ye yathā māṃ prapadyante tāṃstathaiva bhajāmyaham\nmama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.11",
+        "content": "Whoso worship me,\n  Them I exalt; but all men everywhere\n  Shall fall into my path;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.11"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1581,
+            "end": 1665,
+            "lineStart": 838,
+            "lineEnd": 840,
+            "checksum": "df4c3d520a1bf8d5dd486f157d4ae84b5551bc18f2d4671160fb697a13d3fdc1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.11 In whatever way men approach Me even so do I reward them; My path do men tread in all ways, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.11 Howsoever men try to worship Me, so do I welcome them. By whatever path they travel, it leads to Me at last."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.11 According to the manner in which they approach Me, I favour them in that very manner. O son of Partha, human beings follow My path in every way."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.12",
+      "alignmentFingerprint": "1ba765cbb0f4ee8c742b27e432308b2aa6c7e323794130697e1de4e22326cc6b",
+      "sanskrit": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः।\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा ॥",
+      "iast": "kāṅkṣantaḥ karmaṇāṃ siddhiṃ yajanta iha devatāḥ\nkṣipraṃ hi mānuṣe loke siddhirbhavati karmajā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.12",
+        "content": "albeit, those souls\n  Which seek reward for works, make sacrifice\n  Now, to the lower gods. I say to thee\n  Here have they their reward.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.12"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1665,
+            "end": 1802,
+            "lineStart": 840,
+            "lineEnd": 843,
+            "checksum": "8cb225e82646514840c3258ae19822864eb1eaec83c78c36ac37048b3a1af0c3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.12 Those who long for success in action in this world sacrifice to the gods; because success is ickly attained by men through action."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.12 Those who look for success, worship the Powers; and in this world their actions bear immediate fruit."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.12 Longing for the fruition of actions (of their rites and duties), they worship the gods here. For, in the human world, success from action comes ickly."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.13",
+      "alignmentFingerprint": "2b76734de318bc65a1dcfb38439cbce8a7fd7950c2a8015f3d33457b78480ebd",
+      "sanskrit": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः।\nतस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम् ॥",
+      "iast": "cāturvarṇyaṃ mayā sṛṣṭaṃ guṇakarmavibhāgaśaḥ\ntasya kartāramapi māṃ viddhyakartāramavyayam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.13",
+        "content": "But I am He\n  Made the Four Castes, and portioned them a place\n  After their qualities and gifts. Yea, I\n  Created, the Reposeful; I that live\n  Immortally, made all those mortal births:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.13"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1802,
+            "end": 1989,
+            "lineStart": 843,
+            "lineEnd": 847,
+            "checksum": "72087c06ff13fcfde72e970ca3736b0ec662b221d657f5771447561a87256b5e"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.13 The fourfold caste has been created by Me according to the differentiation of Guna and Karma; though I am the author thereof know Me as non-doer and immutable."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.13 The four divisions of society (the wise, the soldier, the merchant, the labourer) were created by Me, according to the natural distribution of Qualities and instincts. I am the author of them, though I Myself do no action, and am changeless."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.13 The four castes have been created by Me through a classification of the gunas and duties. Even though I am the agent of that (act of classification), still know Me to be a non-agent and changeless."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.14",
+      "alignmentFingerprint": "44c428de6b6fe7cbb8c8aa0aaf795aafac923b8818643b83e954fdf7b4cd3c60",
+      "sanskrit": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा।\nइति मां योऽभिजानाति कर्मभिर्न स बध्यते ॥",
+      "iast": "na māṃ karmāṇi limpanti na me karmaphale spṛhā\niti māṃ yo.abhijānāti karmabhirna sa badhyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.14",
+        "content": "For works soil not my essence, being works\n  Wrought uninvolved.[FN#7] Who knows me acting thus\n  Unchained by action, action binds not him;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.14"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1989,
+            "end": 2132,
+            "lineStart": 848,
+            "lineEnd": 850,
+            "checksum": "771a05516ca1e969347792682f1a63420e5f8eaa9ffb84dbf1e44168b374a085"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.14 Actions do not taint Me, nor have I a desire for the fruit of actions. He who knows Me thus is not bound by actions."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.14 My actions do not fetter Me, nor do I desire anything that they can bring. He who thus realises Me is not enslaved by action."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.14 Actions do not taint Me; for Me there is no hankering for the results of actions. One who knows Me thus, does not become bound by actions."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.15",
+      "alignmentFingerprint": "3ea2e5f1b024b5fcf4e8e8eaa127db22dab1d348e9d2771ae43e54d87084fb54",
+      "sanskrit": "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः।\nकुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम् ॥",
+      "iast": "evaṃ jñātvā kṛtaṃ karma pūrvairapi mumukṣubhiḥ\nkuru karmaiva tasmāttvaṃ pūrvaiḥ pūrvataraṃ kṛtam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.15",
+        "content": "And, so perceiving, all those saints of old\n  Worked, seeking for deliverance. Work thou\n  As, in the days gone by, thy fathers did.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.15"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2132,
+            "end": 2268,
+            "lineStart": 851,
+            "lineEnd": 854,
+            "checksum": "307c646c939866593e452baff324fb46688090e1d9d0e0b8a95864eabc119a7c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.15 Having known this, the ancient seekers after freedom also performed action; therefore do thou also perform action, as did the ancients in days of yore."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.15 In the light of wisdom, our ancestors, who sought deliverance, performed their acts. Act thou also, as did our fathers of old."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.15 Having known thus, duties were performed even by the ancient seekers of Liberation. Thererfore you undertake action itself as was performed earlier by the ancient ones."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.16",
+      "alignmentFingerprint": "8995a22139fe98abe4575b0b056f28a3d6e240e7855ca946ca86ba049170a355",
+      "sanskrit": "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः।\nतत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ॥",
+      "iast": "kiṃ karma kimakarmeti kavayo.apyatra mohitāḥ\ntatte karma pravakṣyāmi yajjñātvā mokṣyase.aśubhāt",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.16",
+        "content": "Thou sayst, perplexed, It hath been asked before\n  By singers and by sages, \"What is act,\n  And what inaction? \"I will teach thee this,\n  And, knowing, thou shalt learn which work doth save",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.16"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2268,
+            "end": 2460,
+            "lineStart": 855,
+            "lineEnd": 858,
+            "checksum": "d66e9753b64656862597fcbe10d1dec4607f4ad8c89ea03fc9406d72fd53f4d8"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.16 What is action? What is inaction? As to this even the wise are confused. Therefore I shall teach thee such action (the nature of action and inaction) by knowing which thou shalt be liberated from the evil (of Samsara, the wheel of birth and death)."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.16 What is action and what is inaction? It is a question which has bewildered the wise. But I will declare unto thee the philosophy of action, and knowing it, thou shalt be free from evil."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.16 Even the intelligent are confounded as to what is action and what is inaction. I shall tell you of that action by knowing which you will become free from evil."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.17",
+      "alignmentFingerprint": "735e20105eaa794291d4a5ba1ee19387866cea20d561eb705da8dd7dc6fb07d1",
+      "sanskrit": "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः।\nअकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः ॥",
+      "iast": "karmaṇo hyapi boddhavyaṃ boddhavyaṃ ca vikarmaṇaḥ\nakarmaṇaśca boddhavyaṃ gahanā karmaṇo gatiḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.17",
+        "content": "Needs must one rightly meditate those three--\n  Doing,--not doing,--and undoing. Here\n  Thorny and dark the path is!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.17"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2460,
+            "end": 2579,
+            "lineStart": 859,
+            "lineEnd": 861,
+            "checksum": "22e5698eddc45036a80ffb853b99af3b74de75d8621736823749c42acca04621"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.17 For verily (the true nature) of action (enjoined by the scriptures) should be known, also (that)\nof forbidden (or unlawful) action, and of inaction; hard to understand is the nature (path) of action."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.17 It is necessary to consider what is right action, what is wrong action, and what is inaction, for mysterious is the law of action."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.17 For there is something to be known even about action, and something to be known about prohibited action; and something has to be known about inaction. The true nature of action is inscrutable."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.18",
+      "alignmentFingerprint": "f25399df829663d0061570b2dcabb31fd9a716aec0593f6964811ba1e932d5fa",
+      "sanskrit": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः।\nस बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ॥",
+      "iast": "karmaṇyakarma yaḥ paśyedakarmaṇi ca karma yaḥ\nsa buddhimānmanuṣyeṣu sa yuktaḥ kṛtsnakarmakṛt",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.18",
+        "content": "He who sees\n  How action may be rest, rest action--he\n  Is wisest 'mid his kind; he hath the truth!\n  He doeth well, acting or resting.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.18"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2579,
+            "end": 2715,
+            "lineStart": 861,
+            "lineEnd": 864,
+            "checksum": "82d1d87eb88cef73e0198718e04dd4374f76e8231c85cd07d56c64687ea63dbb"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.18 He who seeth inaction in action and action in inaction, he is wise among men; he is a Yogi and performer of all actions."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.18 He who can see inaction in action, and action in inaction, is the wisest among men. He is a saint, even though he still acts."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.18 He who finds inaction in action, and action in inaction, he is the wise one [Possessed of the knowledge of Brahman] among men; he is engaged in yoga and is a performer of all actions!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.19",
+      "alignmentFingerprint": "0ad5ba70c55752b31aaa14d8b6eff2e7f926f23dc65a4e25edd70820120f0dd6",
+      "sanskrit": "यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः।\nज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः ॥",
+      "iast": "yasya sarve samārambhāḥ kāmasaṅkalpavarjitāḥ\njñānāgnidagdhakarmāṇaṃ tamāhuḥ paṇḍitaṃ budhāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.19",
+        "content": "Freed\n  In all his works from prickings of desire,\n  Burned clean in act by the white fire of truth,\n  The wise call that man wise;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.19"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2715,
+            "end": 2847,
+            "lineStart": 864,
+            "lineEnd": 867,
+            "checksum": "25d30657829bf2677234497f5f8c07d1a67b8b0c79dbec9ebb44540e81603da5"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.19 He whose undertakings are all devoid of desires and (selfish) purposes and whose actions have been burnt by the fire of knowledge, him the wise call a sage."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.19 The wise call him a sage, for whatever he undertakes is free from the motive of desire, and his deeds are purified by the fire of Wisdom."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.19 The wise call him learned whose actions are all devoid of desires and their thougts, [Kama-sankalpa is variously translated as 'desires and purposes', 'plans and desires for results', 'hankering for desires', etc. But Sankarcarya shows sankalpa as the cause of kama. -Tr.] and whose actions have been burnt away by the fire of wisdom."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.20",
+      "alignmentFingerprint": "aacb65c89a2e13a22a19345b3ea97d1717000727e0949aced92bd528e3756d43",
+      "sanskrit": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः।\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः ॥",
+      "iast": "tyaktvā karmaphalāsaṅgaṃ nityatṛpto nirāśrayaḥ\nkarmaṇyabhipravṛtto.api naiva kiñcitkaroti saḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.20",
+        "content": "and such an one,\n  Renouncing fruit of deeds, always content.\n  Always self-satisfying, if he works,\n  Doth nothing that shall stain his separate soul,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.20"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2847,
+            "end": 3001,
+            "lineStart": 867,
+            "lineEnd": 871,
+            "checksum": "904b1086a64b880cc817d6972a6414b919d936ed1ac2e670fff5e07e1cbc9b6b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.20 Having abandoned attachment to the fruits of the action, ever content, depending on nothing, he does not do anything though engaged in activity."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.20 Having surrendered all claim to the results of his actions, always contented and independent, in reality he does nothing, even though he is apparently acting."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.20 Having given up attachment to the results of action, he who is ever-contented, dependent on nothing, he really does not do anything even though engaged in action."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.21",
+      "alignmentFingerprint": "7795babc6f04551f9f9677a295d7b7e5c9bf37d1485ecb5ea228c2d0c9f070fb",
+      "sanskrit": "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः।\nशारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम् ॥",
+      "iast": "nirāśīryatacittātmā tyaktasarvaparigrahaḥ\nśārīraṃ kevalaṃ karma kurvannāpnoti kilbiṣam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.21",
+        "content": "Which--quit of fear and hope--subduing self--\n  Rejecting outward impulse--yielding up\n  To body's need nothing save body, dwells\n  Sinless amid all sin,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.21"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3001,
+            "end": 3155,
+            "lineStart": 871,
+            "lineEnd": 874,
+            "checksum": "a7337c61cb48827b48853de1c6d7cca502b637e7e0101ca23c4eb2dfffe93fec"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.21 Without hope and with the mind and the self controlled, having abandoned all covetousness, doing mere bodily action, he incurs no sin."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.21 Expecting nothing, his mind and personality controlled, without greed, doing bodily actions only; though he acts, yet he remains untainted."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.21 One who is without solicitation, who has the mind and organs under control, (and) is totally without possessions, he incurs no sin by performing actions merely for the (maintenance of the) body."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.22",
+      "alignmentFingerprint": "6a5598dad59e891996bdc4fca2b771df133f2f8a30840a304aa84d81769bc3bd",
+      "sanskrit": "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः।\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते ॥",
+      "iast": "yadṛcchālābhasantuṣṭo dvandvātīto vimatsaraḥ\nsamaḥ siddhāvasiddhau ca kṛtvāpi na nibadhyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.22",
+        "content": "with equal calm\n  Taking what may befall, by grief unmoved,\n  Unmoved by joy, unenvyingly; the same\n  In good and evil fortunes; nowise bound\n  By bond of deeds.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.22"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3155,
+            "end": 3317,
+            "lineStart": 874,
+            "lineEnd": 878,
+            "checksum": "05eab9f03a4aa27dd49be23e84cdeacc24072252e0834f9a78441cbabe5e71e2"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.22 Content with what comes to him without effort, free from the pairs of opposites and envy, even-minded in success and failure, though acting, he is not bound."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.22 Content with what comes to him without effort of his own, mounting above the pairs of opposites, free from envy, his mind balanced both in success and failure; though he acts, yet the consequences do not bind him."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.22 Remaining satisfied with what comes unasked for, having transcended the dualities, being free from spite, and eipoised under success and failure, he is not bound even by performing actions."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.23",
+      "alignmentFingerprint": "18a4550862c74337877e819c4d2eff50d611600ac90b8b54552c262a3183744f",
+      "sanskrit": "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः।\nयज्ञायाचरतः कर्म समग्रं प्रविलीयते ॥",
+      "iast": "gatasaṅgasya muktasya jñānāvasthitacetasaḥ\nyajñāyācarataḥ karma samagraṃ pravilīyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.23",
+        "content": "Nay, but of such an one,\n  Whose crave is gone, whose soul is liberate,\n  Whose heart is set on truth--of such an one\n  What work he does is work of sacrifice,\n  Which passeth purely into ash and smoke\n  Consumed upon the altar!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.23"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3317,
+            "end": 3546,
+            "lineStart": 878,
+            "lineEnd": 883,
+            "checksum": "788c438e8a08a636eb0d3e6d05229c4ed6109d36f0f128be8369d871760264e4"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.23 To one who is devoid of attchment, who is liberated, whose mind is established in knowledge, who works for the sake of sacrifice (for the sake of God), the whole action is dissolved."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.23 He who is without attachment, free, his mind centered in wisdom, his actions, being done as a sacrifice, leave no trace behind."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.23 Of the liberated person who has got rid of attachment, whose mind is fixed in Knowledge, actions undertaken for a sacrifice get totally destroyed."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.24",
+      "alignmentFingerprint": "d5d3fc291c329f32f115a8c3e2193502f727cfe51d26529e98572b194a160075",
+      "sanskrit": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम्।\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ॥",
+      "iast": "brahmārpaṇaṃ brahma havirbrahmāgnau brahmaṇā hutam\nbrahmaiva tena gantavyaṃ brahmakarmasamādhinā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.24",
+        "content": "All's then God!\n  The sacrifice is Brahm, the ghee and grain\n  Are Brahm, the fire is Brahm, the flesh it eats\n  Is Brahm, and unto Brahm attaineth he\n  Who, in such office, meditates on Brahm.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.24"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3546,
+            "end": 3740,
+            "lineStart": 883,
+            "lineEnd": 887,
+            "checksum": "51a74ccc98e31b28cd77927568d5e3dc94672a8d7c92d6b5c10f2e39fd83fc2d"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.24 Brahman is the oblation; Brahman is the melted butter (ghee); by Brahman is the oblation poured into the fire of Brahman; Brahman verily shall be reached by him who always sees Brahman in action."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.24 For him, the sacrifice itself is the Spirit; the Spirit and the oblation are one; it is the Spirit Itself which is sacrificed in Its own fire, and the man even in action is united with God, since while performing his act, his mind never ceases to be fixed on Him."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.24 The ladle is Brahman [Some translate as 'Brahman is the ladle৷৷.,' etc.-Tr.], the oblations is Brahman, the offering is poured by Brahman in the fire of Brahman. Brahman alone is to be reached by him who has concentration on Brahman as the objective [As an object to be known and attained. (Some translate brahma-karma-samadhina as, 'by him who sees Brahman in action'.)"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.25",
+      "alignmentFingerprint": "0ba7419e4e9b2190696917e430128c1fe1a0fedda516ad885b12bf3c5eeaa21a",
+      "sanskrit": "दैवमेवापरे यज्ञं योगिनः पर्युपासते।\nब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति ॥",
+      "iast": "daivamevāpare yajñaṃ yoginaḥ paryupāsate\nbrahmāgnāvapare yajñaṃ yajñenaivopajuhvati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.25",
+        "content": "Some votaries there be who serve the gods\n  With flesh and altar-smoke; but other some\n  Who, lighting subtler fires, make purer rite\n  With will of worship.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.25"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3740,
+            "end": 3900,
+            "lineStart": 888,
+            "lineEnd": 891,
+            "checksum": "dabb659e77b2485da8c82621ef406e21a37fcd75e2f6746ab74c493204a0eb03"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.25 Some Yogies perform sacrifice to the gods alone; while others (who have realised the Self) offer the self as sacrifice by the Self in the fire of Brahman alone."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.25 Some sages sacrifice to the Powers; others offer themselves on the alter of the Eternal."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.25 Other yogis undertake sacrifice to gods alone, Others offer the Self, as a sacrifice by the Self itself, in the fire of Brahman."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.26",
+      "alignmentFingerprint": "1a5de6b034dbceb8bc80534762cc6949c46cf3eaf1baceb5f28566baa35b86ab",
+      "sanskrit": "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति।\nशब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति ॥",
+      "iast": "śrotrādīnīndriyāṇyanye saṃyamāgniṣu juhvati\nśabdādīnviṣayānanya indriyāgniṣu juhvati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.26",
+        "content": "Of the which be they\n  Who, in white flame of continence, consume\n  Joys of the sense, delights of eye and ear,\n  Forgoing tender speech and sound of song:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.26"
+        ],
+        "sourceSpans": [
+          {
+            "start": 3900,
+            "end": 4056,
+            "lineStart": 891,
+            "lineEnd": 894,
+            "checksum": "4f9b2c4d3ef3659319de2e5b2af498fed5d3de150622b6c26416c894c212d382"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.26 Some again offer the organ of hearing and other senses as sacrifice in the fire of restraint; others offer sound and other objects of the senses as sacrifice in the fire of the senses."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.26 Some sacrifice their physical senses in the fire of self-control; others offer up their contact with external objects in the sacrificial fire of their senses."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.26 Others offer the organs, viz ear etc., in the fires of self-control. Others offer the objects, viz sound etc., in the fires of the organs."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.27",
+      "alignmentFingerprint": "5c3d16277e2046ebe8e4df18785bd6737d4ee4eeea754efb3aacabac344afc1a",
+      "sanskrit": "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे।\nआत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते ॥",
+      "iast": "sarvāṇīndriyakarmāṇi prāṇakarmāṇi cāpare\nātmasaṃyamayogāgnau juhvati jñānadīpite",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.27",
+        "content": "And they who, kindling fires with torch of Truth,\n  Burn on a hidden altar-stone the bliss\n  Of youth and love, renouncing happiness:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.27"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4056,
+            "end": 4192,
+            "lineStart": 895,
+            "lineEnd": 897,
+            "checksum": "591b3aecb86e4e24ff539f8734d488953baf0c84b28863fbf59c8176e29dd96c"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.27 Others again sacrifice all the functions of the senses and those of the breath (vital energy or Prana) in the fire of the Yoga of self-restraint kindled by knowledge."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.27 Other again sacrifice their activities and their vitality in the Spiritual fire of self-abnegation, kindled by wisdom."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.27 Others offer all the activities of the organs and the activities of the vital force into the fire of the yoga of sel-control which has been lighted by Knowledge."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.28",
+      "alignmentFingerprint": "0070f79d3cabb5545d05e85fcd2808fe4ff25e2fcc53e1eb672f34ac1171a674",
+      "sanskrit": "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे।\nस्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः ॥",
+      "iast": "dravyayajñāstapoyajñā yogayajñāstathāpare\nsvādhyāyajñānayajñāśca yatayaḥ saṃśitavratāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.28",
+        "content": "And they who lay for offering there their wealth,\n  Their penance, meditation, piety,\n  Their steadfast reading of the scrolls, their lore\n  Painfully gained with long austerities:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.28"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4192,
+            "end": 4375,
+            "lineStart": 898,
+            "lineEnd": 901,
+            "checksum": "a1a60ae700a90dc8cb0c2279ab5f76c7bb48a38ea28959cdbf01feea727f1860"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.28 Others again offer wealth, austerity and Yoga as sacrifice, while the ascetics of self-restraint and rigid vows offer study of scriptures and knowledge as sacrifice."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.28 And yet others offer as their sacrifice wealth, austerities and meditation. Monks wedded to their vows renounce their scriptural learning and even their spiritual powers."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.28 Similarly, others are performers of sacrifices through wealth, through austerity, through yoga, and through study and knowledge; others are ascetics with severe vows."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.29",
+      "alignmentFingerprint": "b7d407240b8164a62fd7cc23746f79bbaf4ae3e6a76a02e74846c98d54da7ce2",
+      "sanskrit": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे।\nप्राणापानगती रुद्ध्वा प्राणायामपरायणाः ॥",
+      "iast": "apāne juhvati prāṇaṃ prāṇe.apānaṃ tathāpare\nprāṇāpānagatī ruddhvā prāṇāyāmaparāyaṇāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.29",
+        "content": "And they who, making silent sacrifice,\n  Draw in their breath to feed the flame of thought,\n  And breathe it forth to waft the heart on high,\n  Governing the ventage of each entering air\n  Lest one sigh pass which helpeth not the soul:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.29"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4375,
+            "end": 4613,
+            "lineStart": 902,
+            "lineEnd": 906,
+            "checksum": "be932f967043a0757725bd936d92b9e83814ecf87783c101a1cb07e2aa2e7e18"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.29 Others offer as sacrifice the outgoing breath in the incoming, and the incoming in the outgoing, restraining the course of the outgoing and the incoming breaths, solely absorbed in the restraint of the breath."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.29 There are some who practise control of the Vital Energy and govern the subtle forces of Prana and Apana, thereby sacrificing their Prana unto Apana, or their Apana unto Prana."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.29 Constantly practising control of the vital forces by stopping the movements of the outgoing and the incoming breaths, some offer as a sacrifice the outgoing breath in the incoming breath; while still others, the incoming breath in the outgoing breath."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.30",
+      "alignmentFingerprint": "3f5751168f67a262473e7e8846c8f3b2e67470165f6fd388a270cd871ccf56e4",
+      "sanskrit": "अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति।\nसर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः ॥",
+      "iast": "apare niyatāhārāḥ prāṇānprāṇeṣu juhvati\nsarve.apyete yajñavido yajñakṣapitakalmaṣāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.30",
+        "content": "And they who, day by day denying needs,\n  Lay life itself upon the altar-flame,\n  Burning the body wan. Lo! all these keep\n  The rite of offering, as if they slew\n  Victims; and all thereby efface much sin.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.30"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4613,
+            "end": 4822,
+            "lineStart": 907,
+            "lineEnd": 911,
+            "checksum": "24f8d9947dfe26eb328a3c238cae49a0ec4dff825e64a38720cba6af6f52f8cc"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.30 Others who regulate their diet offer life-breaths in life-breaths. All these are knowers of sacrifice, whose sins are destroyed by sacrifice."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.30 Others, controlling their diet, sacrifice their worldly life to the spiritual fire. All understand the principal of sacrifice, and by its means their sins are washed away."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.30 Others, having their food regulated, offer the vital forces in the vital forces. All of them are knowers of the sacrifice and have their sins destroyed by sacrifice."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.31",
+      "alignmentFingerprint": "55ae4f9bd9860e11c955c463a90eba36de98722fc687e0ef0f3e30dd5d21700a",
+      "sanskrit": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्।\nनायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम ॥",
+      "iast": "yajñaśiṣṭāmṛtabhujo yānti brahma sanātanam\nnāyaṃ loko.astyayajñasya kuto.anyaḥ kurusattama",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.31",
+        "content": "Yea! and who feed on the immortal food\n  Left of such sacrifice, to Brahma pass,\n  To The Unending. But for him that makes\n  No sacrifice, he hath nor part nor lot\n  Even in the present world. How should he share\n  Another, O thou Glory of thy Line?",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.31"
+        ],
+        "sourceSpans": [
+          {
+            "start": 4822,
+            "end": 5075,
+            "lineStart": 912,
+            "lineEnd": 918,
+            "checksum": "8b3fa287f7c70a23d1ee965b0b34f0082c161262156803e0e3163345214bad25"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.31 Those who eat the remnants of the sacrifice, which are like nectar, go to the eternal Brahman. This world is not for the man who does not perform sacrifice; how then can he have the other, O Arjuna?"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.31 Tasting the nectar of immortality, as the reward of sacrifice, they reach the Eternal. This world is not for those who refuse to sacrifice; much less the other world."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.31 Those who partake of the nectar left over after a sacrifice, reach the eternal Brahman. This world ceases to exist for one who does not perform sacrifices. What to speak of the other (world), O best among the Kurus (Arjuna)!"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.32",
+      "alignmentFingerprint": "859ef9c656de97ebb28964022b7140071f57a1ddaf2be4b2b87dc2322a024496",
+      "sanskrit": "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे।\nकर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे ॥",
+      "iast": "evaṃ bahuvidhā yajñā vitatā brahmaṇo mukhe\nkarmajānviddhi tānsarvānevaṃ jñātvā vimokṣyase",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.32",
+        "content": "In sight of Brahma all these offerings\n  Are spread and are accepted! Comprehend\n  That all proceed by act; for knowing this,\n  Thou shalt be quit of doubt.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.32"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5075,
+            "end": 5234,
+            "lineStart": 919,
+            "lineEnd": 922,
+            "checksum": "020e6966b686364da6fe7230f71f485bb467719fa2d49c66b8c68d9ced2242ce"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.32 Thus, manifold sacrifices are spread out before Brahman (literally) at the mouth or face of Brahman). Know them all as born of action and thus knowing, thou shalt be liberated."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.32 In this way other sacrifices too may be undergone for the Spirit's sake. Know thou that they all depend on action. Knowing this, thou shalt be free."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.32 Thus, various kinds of sacrifices lie spread at the mouth of the Vedas. Know them all to be born of action. Knowing thus, you will become liberated."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.33",
+      "alignmentFingerprint": "635c3a74247c877018012270c34d40e7e54dccc9b7e4284b5eb002cbcef348b9",
+      "sanskrit": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप।\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते ॥",
+      "iast": "śreyāndravyamayādyajñājjñānayajñaḥ parantapa\nsarvaṃ karmākhilaṃ pārtha jñāne parisamāpyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.33",
+        "content": "The sacrifice\n  Which Knowledge pays is better than great gifts\n  Offered by wealth, since gifts' worth--O my Prince!\n  Lies in the mind which gives, the will that serves:",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.33"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5234,
+            "end": 5406,
+            "lineStart": 922,
+            "lineEnd": 925,
+            "checksum": "6bf3bf4cc86cec1f81cb45a676af116992463f9dfe231e1b646961dec526e6f9"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "Swami Sivananda did not comment on this sloka"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "Shri Purohit Swami did not comment on this sloka"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "Swami Gambirananda did not comment on this sloka"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.34",
+      "alignmentFingerprint": "8f3a805da0051e991cc2626e509e75851432f492e26949bbbe8316dbae7bee90",
+      "sanskrit": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया।\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ॥",
+      "iast": "tadviddhi praṇipātena paripraśnena sevayā\nupadekṣyanti te jñānaṃ jñāninastattvadarśinaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.34",
+        "content": "And these are gained by reverence, by strong search,\n  By humble heed of those who see the Truth\n  And teach it.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.34"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5406,
+            "end": 5521,
+            "lineStart": 926,
+            "lineEnd": 928,
+            "checksum": "743dbd45adb67f251a4d7b5b7c6c79421139cafabb5ccee9ac130f399613316b"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.34 Know That by long prostration, by estion and by service; the wise who have realised the Truth will instruct thee in (that) knowledge."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.34 This shalt thou learn by prostrating thyself at the Master's feet, by questioning Him and by serving Him. The wise who have realised the Truth will teach thee wisdom."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.34 Know that through prostration, iniry and service. The wise ones who have realized the Truth will impart the Knowledge to you."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.35",
+      "alignmentFingerprint": "04c7f5ae1042b9e3099daa8160df143753b95b6da91b137645f970426a573b61",
+      "sanskrit": "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव।\nयेन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि (var अशेषाणि) ॥",
+      "iast": "yajjñātvā na punarmohamevaṃ yāsyasi pāṇḍava\nyena bhūtānyaśeṣāṇi drakṣyasyātmanyatho mayi",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.35",
+        "content": "Knowing Truth, thy heart no more\n  Will ache with error, for the Truth shall show\n  All things subdued to thee, as thou to Me.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.35"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5521,
+            "end": 5648,
+            "lineStart": 928,
+            "lineEnd": 930,
+            "checksum": "7ade7673ce224eb5d4380bb26eab88a369139b7b79eaceba54823756fe6dee5f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.35 Knowing ï1thatï1 thou shalt not, O Arjuna, again get deluded like this; and by that thou shalt see all beings in thy Self and also in Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.35 Having known That, thou shalt never again be confounded; and, O Arjuna, by the power of that wisdom, thou shalt see all these people as if they were thine own Self, and therefore as Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.35 Knowing which, O Pandava (Arjuna), you will not come under delusion again in this way, and through which you will see all beings without exception in the Self and also in Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.36",
+      "alignmentFingerprint": "ea5f412d17b416a8020b712c61b2cba02cdc9e2f783808079febc6cd7e614363",
+      "sanskrit": "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः।\nसर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि ॥",
+      "iast": "api cedasi pāpebhyaḥ sarvebhyaḥ pāpakṛttamaḥ\nsarvaṃ jñānaplavenaiva vṛjinaṃ santariṣyasi",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.36",
+        "content": "Moreover, Son of Pandu! wert thou worst\n  Of all wrong-doers, this fair ship of Truth\n  Should bear thee safe and dry across the sea\n  Of thy transgressions.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.36"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5648,
+            "end": 5808,
+            "lineStart": 931,
+            "lineEnd": 934,
+            "checksum": "0779785055c30b3b05ad388e787aa1ebed9fa7aa72a58e3727f6fbbca5ec2abf"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.36 Even if thou art the most sinful of all sinners, yet thou shalt verily cross all sins by the raft of knowledge."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.36 Be thou the greatest of sinners, yet thou shalt cross over all sin by the ferryboat of wisdom."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.36 Even if you be the worst sinner among all sinners, still you will cross over all the wickedness with the raft of Knowledge alone."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.37",
+      "alignmentFingerprint": "ebe108af9c1c03b4801ec27113feb1af7cc6756b54ec1e917bd9b6ed54d1ab8f",
+      "sanskrit": "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन।\nज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा ॥",
+      "iast": "yathaidhāṃsi samiddho.agnirbhasmasātkurute.arjuna\njñānāgniḥ sarvakarmāṇi bhasmasātkurute tathā",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.37",
+        "content": "As the kindled flame\n  Feeds on the fuel till it sinks to ash,\n  So unto ash, Arjuna! unto nought\n  The flame of Knowledge wastes works' dross away!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.37"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5808,
+            "end": 5957,
+            "lineStart": 934,
+            "lineEnd": 937,
+            "checksum": "0ebc0516ae5bfd189f3c61ee39241fbf53d890e1f2571d2e0d069b1f16e1751a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.37 As the blazing fire reduces fuel to ashes, O Arjuna, so does the fire of knowledge reduce all actions to ashes."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.37 As the kindled fire consumes the fuel, so, O Arjuna, in the flame of wisdom the embers of action are burnt to ashes."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.37 O Arjuna, as a blazing fire reduces pieces of wood to ashes, similarly the fire of Knowledge reduces all actions to ashes."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.38",
+      "alignmentFingerprint": "7815da80737b269db8d0209c0f17861ae76fb28e2ec798c0392197d074b3e822",
+      "sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ॥",
+      "iast": "na hi jñānena sadṛśaṃ pavitramiha vidyate\ntatsvayaṃ yogasaṃsiddhaḥ kālenātmani vindati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.38",
+        "content": "There is no purifier like thereto\n  In all this world, and he who seeketh it\n  Shall find it--being grown perfect--in himself.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.38"
+        ],
+        "sourceSpans": [
+          {
+            "start": 5957,
+            "end": 6086,
+            "lineStart": 938,
+            "lineEnd": 940,
+            "checksum": "1bffdd3bc67de8f33c977c0c9b3ccd466aca9d48bb7610bb8bf3c9d79980e094"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.38 Verily, there is no purifier in this world like knowledge. He who is perfected in Yoga finds it in the Self in time."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.38 There is nothing in the world so purifying as wisdom; and he who is a perfect saint finds that at last in his own Self."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.38 Indeed, there is nothing purifying here comparable to Knowledge. One who has become perfected after a (long) time through yoga, realizes That by himself in his own heart."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.39",
+      "alignmentFingerprint": "09857f4f560e9b401f0c5031bd2e2c39a15ef01bb00bb8ea028096f6b86878ec",
+      "sanskrit": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः।\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ॥",
+      "iast": "śraddhāvā.Nllabhate jñānaṃ tatparaḥ saṃyatendriyaḥ\njñānaṃ labdhvā parāṃ śāntimacireṇādhigacchati",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.39",
+        "content": "Believing, he receives it when the soul\n  Masters itself, and cleaves to Truth, and comes--\n  Possessing knowledge--to the higher peace,\n  The uttermost repose.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.39"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6086,
+            "end": 6249,
+            "lineStart": 941,
+            "lineEnd": 944,
+            "checksum": "af7f0c77b936359fe269fe2d54745058b515ec8d593d5c322a290a8a65039346"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.39 The man who is full of faith, who is devoted to it, and who has subdued the senses obtains (this) knowledge; and having obtained the knowledge he attains at once to the supreme peace."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.39 He who is full of faith attains wisdom, and he too who can control his senses, having attained that wisdom, he shall ere long attain Supreme Peace."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.39 The man who has faith, is diligent and has control over the organs, attains Knowledge. Achieving Knowledge, one soon attains supreme Peace."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.40",
+      "alignmentFingerprint": "6a9d42afcb7224922cabcf5040f8b168db57e35b256b32eaafdf3f04a47c07cf",
+      "sanskrit": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति।\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः ॥",
+      "iast": "ajñaścāśraddadhānaśca saṃśayātmā vinaśyati\nnāyaṃ loko.asti na paro na sukhaṃ saṃśayātmanaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.40",
+        "content": "But those untaught,\n  And those without full faith, and those who fear\n  Are shent; no peace is here or other where,\n  No hope, nor happiness for whoso doubts.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.40"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6249,
+            "end": 6409,
+            "lineStart": 944,
+            "lineEnd": 947,
+            "checksum": "e86c1dc6020a0045ad19e9ded7a0afa2516773430708c78b3aa2598ca4fe39e1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.40 The ignorant the faithless, the doubting self goes to destruction; there is neither this world nor the other, nor happiness for the doubting."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.40 But the ignorant man, and he who has no faith, and the sceptic are lost. Neither in this world nor elsewhere is there any happiness in store for him who always doubts."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.40 One who is ignorant and faithless, and has a doubting mind perishes. Neither this world nor the next nor happiness exists for one who has a doubting mind."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.41",
+      "alignmentFingerprint": "ddc786af8276f7650c622c439da1c7a5e1a197724f9e22c0a900b1d0f76146c4",
+      "sanskrit": "योगसंन्यस्तकर्माणं ज्ञानसञ्छिन्नसंशयम्।\nआत्मवन्तं न कर्माणि निबध्नन्ति धनञ्जय ॥",
+      "iast": "yogasaṃnyastakarmāṇaṃ jñānasañchinnasaṃśayam\nātmavantaṃ na karmāṇi nibadhnanti dhanañjaya",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.41",
+        "content": "He that, being self-contained, hath vanquished doubt,\n  Disparting self from service, soul from works,\n  Enlightened and emancipate, my Prince!\n  Works fetter him no more!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.41"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6409,
+            "end": 6583,
+            "lineStart": 948,
+            "lineEnd": 951,
+            "checksum": "1adbff8b21f930e49e25f85da9f143ba1db3c947b9264753940a0c9d6b98cd14"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.41 He who has renounced actions by Yoga, whose doubts are rent asunder by knowledge, and who is self-possessed actions do not bind him, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.41 But the man who has renounced his action for meditation, who has cleft his doubt in twain by the sword of wisdom, who remains always enthroned in his Self, is not bound by his acts."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.41 O Dhananjaya (Arjuna), actions do not bind one who has renounced actions through yoga, whose doubt has been fully dispelled by Knowledge, and who is not inadvertent."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.4.42",
+      "alignmentFingerprint": "2a8314c2352226d932e4a029ec113132de4d4030a6cf0cfaf46d4e8b196d2924",
+      "sanskrit": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः।\nछित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ॥",
+      "iast": "tasmādajñānasambhūtaṃ hṛtsthaṃ jñānāsinātmanaḥ\nchittvainaṃ saṃśayaṃ yogamātiṣṭhottiṣṭha bhārata",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.4.42",
+        "content": "Cut then atwain\n  With sword of wisdom, Son of Bharata!\n  This doubt that binds thy heart-beats! cleave the bond\n  Born of thy ignorance! Be bold and wise!\n  Give thyself to the field with me! Arise!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.4.42"
+        ],
+        "sourceSpans": [
+          {
+            "start": 6583,
+            "end": 6784,
+            "lineStart": 951,
+            "lineEnd": 956,
+            "checksum": "22d885cd9c206a201f324271b03b8dfe6aed37e1e344f36363785ffb3e891e62"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "4.42 Therefore with the sword of the knowledge (of the Self) cut asunder the doubt of the self born of ignorance, residing in thy heart, and take refuge in Yoga. Arise, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "4.42 Therefore, cleaving asunder with the sword of wisdom the doubts of the heart, which thine own ignorance has engendered, follow the Path of Wisdom and arise!\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "4.42 Therefore, O scion of the Bharata dyasty, take recourse to yoga and rise up, cutting asunder with the sword of Knowledge this doubt of your own in the heart, arising from ignorance."
+        }
+      ]
+    }
+  ]
+}

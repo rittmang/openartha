@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "translationId": "edwin-arnold",
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "canonicalPassages": 700,
+  "chapters": [
+    {
+      "chapter": 1,
+      "records": 47,
+      "path": "inputs/chapter-01.json",
+      "sha256": "dffa44c9b6ad48bcf04c9940c9d1dc78a23ee4007445e04560f65985d65ba35b"
+    },
+    {
+      "chapter": 2,
+      "records": 72,
+      "path": "inputs/chapter-02.json",
+      "sha256": "b819045a709fb9cb5318a9a2d448a7278db3f459858aacf41dc066d22d74aa8a"
+    },
+    {
+      "chapter": 3,
+      "records": 43,
+      "path": "inputs/chapter-03.json",
+      "sha256": "356532def55e53a4e37ec2d0636a886b7c3cae81d96795b1674769301e8cc32b"
+    },
+    {
+      "chapter": 4,
+      "records": 42,
+      "path": "inputs/chapter-04.json",
+      "sha256": "0fc659bd6ec25fa3bedf76cb1a04b941f6ec5818f0c75083b3361c46df776722"
+    },
+    {
+      "chapter": 5,
+      "records": 29,
+      "path": "inputs/chapter-05.json",
+      "sha256": "39c218664790ce83232958652e05b7645315ecbf9affe515431a04cfcc6ea044"
+    },
+    {
+      "chapter": 6,
+      "records": 47,
+      "path": "inputs/chapter-06.json",
+      "sha256": "a28ec3814417fdfe41f17cfb6dad277fd94c538f0b21b8364642a8b7729578a0"
+    },
+    {
+      "chapter": 7,
+      "records": 30,
+      "path": "inputs/chapter-07.json",
+      "sha256": "c55e69244e146eaa9937d42c1a89c8dd77ece0a47d253316d77f8692f9618582"
+    },
+    {
+      "chapter": 8,
+      "records": 28,
+      "path": "inputs/chapter-08.json",
+      "sha256": "8f1eac63760e41fa6418b47bac3e860a6953a52ba9d5d3f716819dd3bb633e25"
+    },
+    {
+      "chapter": 9,
+      "records": 34,
+      "path": "inputs/chapter-09.json",
+      "sha256": "cd7b7dfefe3211d59bfb18710e13a734b778d4086150ef94b6be43596f14eef7"
+    },
+    {
+      "chapter": 10,
+      "records": 42,
+      "path": "inputs/chapter-10.json",
+      "sha256": "d1201f3a5b1dd282598a8b78fb66e35a8623b85c7d5f79daa2f4eab5db12b233"
+    },
+    {
+      "chapter": 11,
+      "records": 55,
+      "path": "inputs/chapter-11.json",
+      "sha256": "64093ec5abcf2c9968526c05921dfc73301c1213ae5f1b159f67ebe9fbdc7ccf"
+    },
+    {
+      "chapter": 12,
+      "records": 20,
+      "path": "inputs/chapter-12.json",
+      "sha256": "aa884338ea21fc1ba904e7a784a53fa618afeb4f8b50ef5ddfb47b21f1ab2e44"
+    },
+    {
+      "chapter": 13,
+      "records": 34,
+      "path": "inputs/chapter-13.json",
+      "sha256": "47f83e3a0c4c892140a1ad2a3383b37582b275b6977087693af550220af4bbfd"
+    },
+    {
+      "chapter": 14,
+      "records": 27,
+      "path": "inputs/chapter-14.json",
+      "sha256": "8df23bccfc19611834374ea2457055de6921fa4ce0201ddb71b14e98c2f0b0c8"
+    },
+    {
+      "chapter": 15,
+      "records": 20,
+      "path": "inputs/chapter-15.json",
+      "sha256": "59dfa7031f8de8be48aa36d6825fd3fa30b2d86c0b411e4bdaaad79ca9642d4a"
+    },
+    {
+      "chapter": 16,
+      "records": 24,
+      "path": "inputs/chapter-16.json",
+      "sha256": "3dff2e6e150520778eedc3a105fb199c52d77390a9a119b20d5dc29fa0de5906"
+    },
+    {
+      "chapter": 17,
+      "records": 28,
+      "path": "inputs/chapter-17.json",
+      "sha256": "094155a6372d17ac77f9818c93cd64b0af04d533c6fa6cfc5eb6813352da5ba9"
+    },
+    {
+      "chapter": 18,
+      "records": 78,
+      "path": "inputs/chapter-18.json",
+      "sha256": "d3dbc247a80e22a987247c07227d0bdba3687e4abebf14f97264799265214cf4"
+    }
+  ]
+}

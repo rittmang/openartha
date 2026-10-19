@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 14,
+  "inputSha256": "8df23bccfc19611834374ea2457055de6921fa4ce0201ddb71b14e98c2f0b0c8",
+  "reviews": [
+    {
+      "canonicalRef": "gita.14.1",
+      "alignmentFingerprint": "02c1d0b9c6c64d1615f65a7be2e47e6ef6f565559af0f978eb4f30acb85c63ee",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna declares supreme knowledge by knowing which all sages attained perfection.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.2",
+      "alignmentFingerprint": "796f44871f758550ab2fa533effc67b8f42c6f08495b5040704e5bbad237b41c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Taking refuge in this wisdom, sages attain My nature, neither reborn at creation nor perturbed at dissolution.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.3",
+      "alignmentFingerprint": "9fe5100cafeb86b63e129959c284f5a16da82842a67b6dc973bcbad05caaa7ef",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Great Brahma (Prakriti) is My womb in which I place the seed, whence comes the birth of all beings.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.4",
+      "alignmentFingerprint": "3b58ce100fc7b5998f5bc6f3c0147a747af8246e75eef088d5ab3b3339df7ce0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "In whatever wombs forms are produced, great Brahma is the womb and I am the seed-giving father.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.5",
+      "alignmentFingerprint": "128a941800f2c1972800cf6452b7bd81f05d72906b7f31f4f692aba77bf03e46",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattva, Rajas, and Tamas born of Prakriti bind the imperishable embodied soul in the body.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.6",
+      "alignmentFingerprint": "a756bb5c33d5e7ecc7fdae59c038a2ceea5d0020f3e5f1f23aecdfbb518b428b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattva, being stainless, luminous, and healthy, binds by attachment to happiness and knowledge.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.7",
+      "alignmentFingerprint": "f17ef94f48ee3e4e15cb9a8d9e5b5b49cf86e9c7e2d9d1bdb9c3cfbf11a66c5b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Rajas, passionate by nature, born of thirst and attachment, binds the embodied soul by attachment to actions.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.8",
+      "alignmentFingerprint": "cc832e3393f440878f81a2ccd164dd57dc2f6eb2f85eede915487562703ddb5a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Tamas, born of ignorance, deluding all embodied beings, binds by heedlessness, indolence, and sleep.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.9",
+      "alignmentFingerprint": "59eac295b82482778581035ff904fd2d16c6bcfbe5c873fd4016bb6948ac1dc0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattva attaches to happiness, Rajas to action, while Tamas, shrouding wisdom, attaches to heedlessness/sloth.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.10",
+      "alignmentFingerprint": "587b6c256eb245186ea7e1cca0f7fb65d8e7f9265f4cd7f7d832d010ed14e1e6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sattva prevails overpowering Rajas and Tamas; Rajas prevails overpowering Sattva and Tamas; Tamas prevails overpowering Sattva and Rajas.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.11",
+      "alignmentFingerprint": "18c7cad6db63ced13a6e8b5b23144cb1914ccd104350e347a217931072ef4afd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "When the light of knowledge shines through all gates of the body, Sattva is known to be predominant.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.12",
+      "alignmentFingerprint": "695c812df2c2902ba82f1667f2b4c8671c4e6257daeef17737841963538c378b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Greed, activity, undertaking of works, restlessness, and longing arise when Rajas is predominant; cleanly ends at 'engrained;'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.13",
+      "alignmentFingerprint": "872e217d25905bba560b8bdd1b7cdb56a7f48529c73ebaba8032bc93864d5ade",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Darkness, stagnation, heedlessness, and delusion arise when Tamas is predominant; begins cleanly at 'and where'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.14",
+      "alignmentFingerprint": "5ce49fb489c08eb11fb86aa8d131a948422397d942e576630507c9950732e37c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "If the embodied soul meets death when Sattva prevails, it attains the stainless worlds of the knowers of the highest.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.15",
+      "alignmentFingerprint": "9a38b5ce70f2e74f8a988a52502dc19bee84ca465f5bf73edc5b574d982c48d5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Dying in Rajas, one is born among those attached to work; dying in Tamas, one is born in the wombs of the deluded/witless.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.16",
+      "alignmentFingerprint": "992a07caeb160c11b948f7b446af398d9b70dbbfc3c59b50393ee8b68d1f7f6c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The fruit of good action is Sattvic and pure; fruit of Rajas is pain; fruit of Tamas is ignorance/darkness.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.17",
+      "alignmentFingerprint": "37348097458cf179f1101cd6a1ebf9472e7b79acc0ad98a7fa89199704012650",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "From Sattva arises knowledge; from Rajas greed; from Tamas heedlessness, delusion, and ignorance.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.18",
+      "alignmentFingerprint": "3fc400d42ddab705b63ea829fb41f84b6bfc88f6ff2af105d7950bfb5b529b5a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Those established in Sattva rise upward; the Rajasic stay in the middle; the Tamasic sink downward into lowest conditions.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.19",
+      "alignmentFingerprint": "fa9ffb3af5a270dbf83d0ce8219c949d3ee5e5dab4e9ae07c672b393f0caa466",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "When the seer beholds no agent other than the Gunas and knows That which is beyond the Gunas, he attains My being.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.20",
+      "alignmentFingerprint": "b384e98bbdcf9388e1043860fab1fc00bfded4dddcca4a7109515b64a898a301",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Transcending the three Gunas that produce the body, the embodied soul is freed from birth, death, old age, and sorrow, drinking Amrit.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.21",
+      "alignmentFingerprint": "e3ec3b469f80160e8152bb3d67243325edbcf33955b110e9f69825f393897936",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna asks the marks of one who has transcended the three Gunas, his conduct, and how he goes beyond them.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.22",
+      "alignmentFingerprint": "bfd1456fae99e797859790ca0eacd974e383c1f468020ac40ef437195bacd6b1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna defines the Gunatita: he neither hates light, activity, or delusion when present, nor longs for them when absent.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.23",
+      "alignmentFingerprint": "6453ef1e69f8d9e336508a55b4192661f8a5490c61b963ade8930bfe96dd0bcb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Seated like an unconcerned witness, unperturbed by Gunas, knowing 'the Gunas operate', he stands firm and wavers not.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.24",
+      "alignmentFingerprint": "d9af4164609bc8a689025bcf4365d35ffee2ea067e7cd9308aa7e635f20531c3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Equal in pain and pleasure, dwelling in the Self, regarding clod, stone, and gold alike, equal to pleasant and unpleasant, steadfast, equal in blame and praise; ends cleanly at 'dispraise;'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.25",
+      "alignmentFingerprint": "3c6a9b1b42802078286bfc111f84ad2abb3b053c9b21697be68fc0f01b9bee58",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Equal in honor and dishonor, equal to friend and foe, renouncing all enterprise—he is called transcender of Gunas; starts cleanly at 'satisfied'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.26",
+      "alignmentFingerprint": "61afc75e3e9d4a32ed86bb5c9b5ca7d493da99921ed5727304dbccc7c732a2ce",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "He who serves Me with unswerving Bhakti-yoga, transcending these Gunas, is fit for becoming Brahman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.14.27",
+      "alignmentFingerprint": "f51afb9ccb9761148d5b1e30efc1d47c3f4a0d2b95447c41683a106d48555c38",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "For I am the abode of Brahman, of immortal and immutable life, of eternal Dharma, and of absolute bliss.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Complete 27-verse coverage with zero omissions or verse-merging.",
+    "Precise intra-line splits at verse boundaries: line 42 cleanly divides 14.12 ('engrained;') and 14.13 ('and where'), and line 95 divides 14.24 ('dispraise;') and 14.25 ('satisfied').",
+    "Arnold renders technical Guna terminology with poetic Victorian archaisms ('Soothfastness', 'Passion', 'Ignorance') while preserving exact philosophical distinctions."
+  ]
+}

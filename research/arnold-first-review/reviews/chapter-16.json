@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 16,
+  "inputSha256": "3dff2e6e150520778eedc3a105fb199c52d77390a9a119b20d5dc29fa0de5906",
+  "reviews": [
+    {
+      "canonicalRef": "gita.16.1",
+      "alignmentFingerprint": "9bcb3e596cc93cd3aae85f6a0eccc8de6206624e98d90f5a8025ad7956e59f65",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Opening divine qualities: fearlessness, purity of heart, steadfastness in knowledge, charity, self-restraint, sacrifice, study, austerity, and uprightness; ends cleanly at 'Uprightness,'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.2",
+      "alignmentFingerprint": "9a4f36da1ee315b5367d43130b1a45979ae30d940b0ff6b8ad32ff723258c8d3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Continuation of divine qualities: harmlessness, truth, freedom from wrath, renunciation, peace, non-slander, compassion, uncovetousness, gentleness, modesty, steadiness; ends at 'grave,'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.3",
+      "alignmentFingerprint": "87ba97f9910a948521c81872c39a640d41600c466ed2dc6a0142202fcb14798a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Concluding divine qualities: vigour/radiance, forgiveness, fortitude, cleanliness, freedom from malice and excessive pride, characterizing one born to divine destiny; starts at 'with manhood nobly mixed'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.4",
+      "alignmentFingerprint": "f7c91c257ca4bbdb1c91a96613b1c5261c0d578c605cfbb3646a21189696ad27",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Demonic qualities: hypocrisy, pride, arrogance, wrath, harshness, and ignorance, belonging to one born of demonic destiny; includes footnote 32.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.5",
+      "alignmentFingerprint": "ece0133d1e811d3f0ca7209881bee7f4eb1911e3967da49ea9499933f5600e1b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Divine endowment leads to liberation, demonic to bondage; Krishna reassures Arjuna that he is born with divine qualities.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.6",
+      "alignmentFingerprint": "a0550cf655848bf9657390d1624d2429edcfbeaebd43f2df676edd31bbf0472d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Two orders of created beings in this world: the divine and the demonic; divine described at length, hear now of the demonic.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.7",
+      "alignmentFingerprint": "57da5197f3f0e698a5c4693f090adce07f28df4888f619bf1b095b1cce59cdde",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Demonic persons know neither right action nor renunciation; neither purity, right conduct, nor truth is found in them.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.8",
+      "alignmentFingerprint": "7bc67be2d9c4b8fb573d198ac71152defe7d7cd16cfaeedd004d67deaaada3a8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "They say the world is without truth, without moral basis, without a Lord, brought about by sexual union alone, caused only by lust.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.9",
+      "alignmentFingerprint": "b42312bf8ed044c9b601270221852e7ca51805d49c8290a67b3a991dbdc0dfe4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Holding this view, these ruined souls of small intellect and fierce deeds emerge as enemies of the world for its destruction.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.10",
+      "alignmentFingerprint": "926446fe6a62b43b5072329d325e7728f99428c08188a95f607022bbc387e406",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Surrendering to insatiable desires, full of hypocrisy, pride, and arrogance, holding false notions through delusion, they act with unholy vows; ends cleanly at 'sinful course,'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.11",
+      "alignmentFingerprint": "ee2b0609f0cae7863eb51f9c66d03c4b5ef75d9b0f7840e3062eb47182d46b94",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Beset with boundless anxieties ending only in death, regarding sensual enjoyment as the highest goal, convinced that this is all; starts cleanly at 'they trust this lie'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.12",
+      "alignmentFingerprint": "b01aadbfd05c537d9477de3d4c4787260d90eb4b1659d31ce119d144206f729b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Bound by hundreds of ties of hope, devoted to lust and anger, they strive by unjust means to accumulate wealth for sense gratification.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.13",
+      "alignmentFingerprint": "d88fce22946563b5d67c2fceab721e0436f7e110b8765cfc1c0b7309280aad5a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Inner monologue of the demonic: 'This has been gained by me today; this desire I shall obtain; this wealth is mine, and this also shall be mine in future'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.14",
+      "alignmentFingerprint": "31d627633155b4e8a4b33da2fa36588c09d05b753e52f4eb7537c84e64aa9a56",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Demonic boasting: 'That enemy has been slain by me, and others also I shall slay; I am the lord, I enjoy, I am successful, powerful, and happy'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.15",
+      "alignmentFingerprint": "eda3769e548d49116afd88d44e7c0a20e88deb488a8e36947259e23c7a8a68e7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Demonic self-glorification: 'I am wealthy and well-born; who else is equal to me? I will sacrifice, give alms, and rejoice', deluded by ignorance; ends at 'ignorance;'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.16",
+      "alignmentFingerprint": "f26901ac42caf64cc7bd432a80f6a92d653ae8816eab27a7ade43bb0841ab4f2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Bewildered by numerous thoughts, entangled in the mesh of delusion, addicted to gratification of lust, they fall into foul Naraka; starts at 'and so they fall--'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.17",
+      "alignmentFingerprint": "bdb811dc99ace6a28c867c1a2989c6a537eb1d92d92fc8d736409bb927e6057a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Self-conceited, stubborn, filled with pride and intoxication of wealth, they perform ostentatious sacrifices in name only, disregarding scriptural injunctions.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.18",
+      "alignmentFingerprint": "85d5af42486d6dde1ced09d31a57c8e74d21acacbc9a9c679174725b1bb8c17d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Given over to egotism, power, insolence, lust, and wrath, these malicious people hate Me dwelling in their own bodies and those of others; ends at 'my foemen are,'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.19",
+      "alignmentFingerprint": "4106440570a6a9047c1d0b5199caaf3016af785ea4abc0e7d52deb16c353b410",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Those who hate, cruel, evil, lowest of men—I cast them perpetually into demonic wombs in the cycle of samsara; ends at 'devilish womb,'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.20",
+      "alignmentFingerprint": "7922fe9077adbce7dd35a22d87da0e6b192aebd88ddc2c0f3969aef1d849340c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Fallen into demonic wombs, deluded birth after birth, failing to reach Me, they sink to the lowest degradation; starts at 'whence--birth by birth--'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.21",
+      "alignmentFingerprint": "9704ce81efb884a83c923256322962457dcc402c228d43474d01ec4c510ceb16",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Threefold is the gate of hell leading to self-ruin: lust, anger, and greed; therefore let a man renounce these three.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.22",
+      "alignmentFingerprint": "37e0644de6fd1691d223c8f743e626297408a95cf04e22080e7d303c819b8325",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The man who is released from these three gates of darkness acts for his own welfare and thereby reaches the supreme goal.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.23",
+      "alignmentFingerprint": "f545bd100b370d95be183194dd32975cb74dc44d0a0fd0e68f95f74e893eb779",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Verified source omission. The source omits canonical 16.23 on disregarding scriptural rules; Arnold terminates the chapter rendering after 16.22 with footnote 33.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.16.24",
+      "alignmentFingerprint": "c256d2cd1369f5f9e68b555cb30831db1c858dd4a6c388e5650a662dc985271c",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Verified source omission. The source omits canonical 16.24 on scripture as the standard of action; footnote 33 claims omission of 'ten concluding shlokas' (a source marker anomaly, as standard canon has 24 verses).",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Translator footnote 33 asserts the omission of 'the ten concluding shlokas, with Mr Davis', whereas standard canonical Chapter 16 has 24 verses total, leaving exactly two omitted shlokas (16.23–16.24); this discrepancy is a historical source anomaly correctly preserved.",
+    "The divine virtues catalog in 16.1–16.3 is split with exceptional accuracy across line boundaries (line 6 at 'Uprightness,' and line 13 at 'manhood nobly mixed').",
+    "Careful segmentation of demonic psychological profiles across verses 16.10–16.11, 16.15–16.16, and 16.19–16.20 accurately reflects the Sanskrit syntactic units."
+  ]
+}

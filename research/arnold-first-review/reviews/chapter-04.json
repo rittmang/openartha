@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 4,
+  "inputSha256": "0fc659bd6ec25fa3bedf76cb1a04b941f6ec5818f0c75083b3361c46df776722",
+  "reviews": [
+    {
+      "canonicalRef": "gita.4.1",
+      "alignmentFingerprint": "dbb26c108d0df5ef770e7a77372171b6c505abe29d58b8012566a1b89a63b8b0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna recounts primordial transmission of Yoga to Vivasvan (Sun god), then Manu, then Ikshvaku.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.2",
+      "alignmentFingerprint": "0390158ba30bb474df4ae7af523e1f0b6dddfc23be1c616f7f9976315356bc2a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Transmission through royal sages (r\u0101jar\u1e63aya\u1e25) and subsequent decay of the ancient lineage over time.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.3",
+      "alignmentFingerprint": "5ab72147bfd584083e649d6cc5a49cc2a825ee774a7d06b455af63aa5ba9d3a6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna reveals this supreme secret Yoga anew to Arjuna because he is a loyal devotee and beloved friend.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.4",
+      "alignmentFingerprint": "65f0b43b2f9262ac2330be3cb0c88dcdbbaf886cf85b80e7f73e99e45d59ce8c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna chronological question: how could Krishna have taught Vivasvan who lived ages earlier in time?",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.5",
+      "alignmentFingerprint": "0bb7211caf06bfda5fb8b7243138107d0cd9b75f4f13ac309410f970127cae2e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna explains the reality of multiple births: I remember them all, whereas thou rememberest them not.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.6",
+      "alignmentFingerprint": "ccaefc5891a035661d15c6a5b9a3259b2e8a8179ddb7a63d7b880cb90e76f7ba",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Divine incarnation doctrine: unborn, imperishable Lord taking birth through his own creative power (Maya).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.7",
+      "alignmentFingerprint": "c90208f25cb6b654a759a433927fb7c758d072922acddd0201cdf567ba69b53d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Celebrated avatar declaration: whenever righteousness declines and evil rises, I manifest Myself.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.8",
+      "alignmentFingerprint": "b28ee29fbee79e0676ee7b3fd2c8973d481c01d98ede9251651e24402eca8caf",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Purpose of divine descent: protecting the virtuous, destroying evildoers, and restoring dharma age after age.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.9",
+      "alignmentFingerprint": "ed7b18fbd57b0b3cd3858e249e7e2fc5d152a54906f49f5b3b1c4ce66425c80c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Whoso comprehends the truth of Krishna divine birth and work transcends rebirth, merging into His being.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.10",
+      "alignmentFingerprint": "1322ef42852e261e74f0ecdef2ad159d011a80bb72afb8c4dbc93347505d1653",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Many seekers, purified by the austerity of wisdom and freed from passion, fear, and wrath, attain divine union.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.11",
+      "alignmentFingerprint": "ba764e46e82ac7cf228e4b1801af174623f13116e04019fa619f342fb90147ac",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Universal responsiveness: in whatever way men approach Me, so do I welcome them; all paths lead to Me.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.12",
+      "alignmentFingerprint": "1ba765cbb0f4ee8c742b27e432308b2aa6c7e323794130697e1de4e22326cc6b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Men worship lesser deities seeking swift worldly fruit, which readily materializes in this mortal realm.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.13",
+      "alignmentFingerprint": "2b76734de318bc65a1dcfb38439cbce8a7fd7950c2a8015f3d33457b78480ebd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Creation of the four orders (c\u0101turvar\u1e47yam) based on innate qualities and duties; God is author yet non-doer.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.14",
+      "alignmentFingerprint": "44c428de6b6fe7cbb8c8aa0aaf795aafac923b8818643b83e954fdf7b4cd3c60",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Works do not contaminate the Lord because He harbors no craving for fruits; knowing this frees from karmic bondage.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.15",
+      "alignmentFingerprint": "3ea2e5f1b024b5fcf4e8e8eaa127db22dab1d348e9d2771ae43e54d87084fb54",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Ancient seekers after liberation acted with this understanding; Arjuna is urged to follow their venerable footsteps.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.16",
+      "alignmentFingerprint": "8995a22139fe98abe4575b0b056f28a3d6e240e7855ca946ca86ba049170a355",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The paradox of action and inaction that confuses even sages; Krishna promises to expound saving knowledge.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.17",
+      "alignmentFingerprint": "735e20105eaa794291d4a5ba1ee19387866cea20d561eb705da8dd7dc6fb07d1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Necessity to distinguish lawful action, prohibited action (vikarma), and inaction (akarma); deep is the path.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.18",
+      "alignmentFingerprint": "f25399df829663d0061570b2dcabb31fd9a716aec0593f6964811ba1e932d5fa",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Highest insight: he who discerns inaction in action, and action in inaction, is truly wise among humans.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.19",
+      "alignmentFingerprint": "0ad5ba70c55752b31aaa14d8b6eff2e7f926f23dc65a4e25edd70820120f0dd6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The sage whose enterprises are devoid of selfish intent has his works consumed in the fire of wisdom.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.20",
+      "alignmentFingerprint": "aacb65c89a2e13a22a19345b3ea97d1717000727e0949aced92bd528e3756d43",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Renouncing fruit of action, ever content, and independent, one remains inactive in spirit even while acting.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.21",
+      "alignmentFingerprint": "7795babc6f04551f9f9677a295d7b7e5c9bf37d1485ecb5ea228c2d0c9f070fb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Free from yearning, self-controlled, relinquishing greed, performing mere bodily functions without guilt.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.22",
+      "alignmentFingerprint": "6a5598dad59e891996bdc4fca2b771df133f2f8a30840a304aa84d81769bc3bd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Content with whatever chance brings, transcending dualities, free from envy, equal in success and failure.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.23",
+      "alignmentFingerprint": "18a4550862c74337877e819c4d2eff50d611600ac90b8b54552c262a3183744f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The work of an unattached, liberated soul whose consciousness is anchored in wisdom melts away wholly.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.24",
+      "alignmentFingerprint": "d5d3fc291c329f32f115a8c3e2193502f727cfe51d26529e98572b194a160075",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "All is Brahman: the ladle, the oblation, the fire, the offerer, and the goal of him who meditates on Brahman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.25",
+      "alignmentFingerprint": "0ba7419e4e9b2190696917e430128c1fe1a0fedda516ad885b12bf3c5eeaa21a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Survey of sacrifices: some offer worship to the gods; others offer sacrifice into the flame of Brahman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.26",
+      "alignmentFingerprint": "1a5de6b034dbceb8bc80534762cc6949c46cf3eaf1baceb5f28566baa35b86ab",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Ascetics who offer the senses into the fire of restraint, and others who offer sense-objects into sense-fires.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.27",
+      "alignmentFingerprint": "5c3d16277e2046ebe8e4df18785bd6737d4ee4eeea754efb3aacabac344afc1a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Yogins offering all vital and sensory actions into the fire of self-discipline kindled by wisdom.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.28",
+      "alignmentFingerprint": "0070f79d3cabb5545d05e85fcd2808fe4ff25e2fcc53e1eb672f34ac1171a674",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Variety of seekers: offering wealth, penance, yogic disciplines, silent scriptural study, and knowledge.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.29",
+      "alignmentFingerprint": "b7d407240b8164a62fd7cc23746f79bbaf4ae3e6a76a02e74846c98d54da7ce2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Pranayama disciplines: pouring inhalation into exhalation and exhalation into inhalation to still breath.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.30",
+      "alignmentFingerprint": "3f5751168f67a262473e7e8846c8f3b2e67470165f6fd388a270cd871ccf56e4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Those who fast strictly offering life-breaths into life-breaths; all such offerings purge the taint of sin.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.31",
+      "alignmentFingerprint": "55ae4f9bd9860e11c955c463a90eba36de98722fc687e0ef0f3e30dd5d21700a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Partakers of the immortal sacrificial remnants attain eternal Brahman; without sacrifice neither world is won.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.32",
+      "alignmentFingerprint": "859ef9c656de97ebb28964022b7140071f57a1ddaf2be4b2b87dc2322a024496",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Diverse sacrifices spread before Brahman; recognizing them as products of action brings liberation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.33",
+      "alignmentFingerprint": "635c3a74247c877018012270c34d40e7e54dccc9b7e4284b5eb002cbcef348b9",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The sacrifice of wisdom is superior to material oblations, for all action finds its consummation in knowledge.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.34",
+      "alignmentFingerprint": "8f3a805da0051e991cc2626e509e75851432f492e26949bbbe8316dbae7bee90",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Approach the seers of truth with reverence, earnest inquiry, and humble service to receive divine instruction.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.35",
+      "alignmentFingerprint": "04c7f5ae1042b9e3099daa8160df143753b95b6da91b137645f970426a573b61",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Endowed with truth, you will never fall back into delusion, beholding all creatures in the Self and in Me.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.36",
+      "alignmentFingerprint": "ea5f412d17b416a8020b712c61b2cba02cdc9e2f783808079febc6cd7e614363",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Even the greatest sinner can cross over all ocean of transgression upon the reliable bark of spiritual wisdom.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.37",
+      "alignmentFingerprint": "ebe108af9c1c03b4801ec27113feb1af7cc6756b54ec1e917bd9b6ed54d1ab8f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "As blazing flame reduces fuel to ashes, so the fire of knowledge (j\u00f1\u0101n\u0101gni\u1e25) burns all works to ash.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.38",
+      "alignmentFingerprint": "7815da80737b269db8d0209c0f17861ae76fb28e2ec798c0392197d074b3e822",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "No purifier exists comparable to wisdom; the person perfected in Yoga realizes it naturally within in due time.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.39",
+      "alignmentFingerprint": "09857f4f560e9b401f0c5031bd2e2c39a15ef01bb00bb8ea028096f6b86878ec",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The person endowed with faith, dedication, and sensory mastery secures knowledge and swiftly wins supreme peace.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.40",
+      "alignmentFingerprint": "6a9d42afcb7224922cabcf5040f8b168db57e35b256b32eaafdf3f04a47c07cf",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The ignorant, faithless, and doubt-ridden soul is ruined; neither this world, nor heaven, nor joy awaits the doubter.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.41",
+      "alignmentFingerprint": "ddc786af8276f7650c622c439da1c7a5e1a197724f9e22c0a900b1d0f76146c4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Actions cannot bind one who has renounced works through Yoga, severed doubts by wisdom, and possesses the Self.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.4.42",
+      "alignmentFingerprint": "2a8314c2352226d932e4a029ec113132de4d4030a6cf0cfaf46d4e8b196d2924",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Concluding call: cleave the doubt born of ignorance with the sword of wisdom, take refuge in Yoga, and arise!",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Chapter 4 provides unbroken, one-to-one alignment for all 42 canonical references without omissions, expansions, or text loss.",
+    "The avatar declaration (4.7-4.8) and the comprehensive categorization of yaj\u00f1as (4.24-4.32) are accurately segmented.",
+    "Twenty intra-line verse transitions (e.g. 4.1/4.2, 4.5-4.8, 4.10-4.13, 4.17-4.23, 4.25/4.26, 4.32-4.37, 4.39-4.42) reflect precise poetic clause divisions."
+  ]
+}

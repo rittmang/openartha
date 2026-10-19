@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 6,
+  "inputSha256": "a28ec3814417fdfe41f17cfb6dad277fd94c538f0b21b8364642a8b7729578a0",
+  "reviews": [
+    {
+      "canonicalRef": "gita.6.1",
+      "alignmentFingerprint": "a7a6d66ae7d9d80ed0c3d9472524d758909f14fd12e278d4454ea02f92143201",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna defines the true sanny\u0101sin and yogin as one who performs duty without reliance on the fruits of action.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.2",
+      "alignmentFingerprint": "a9f4d65426206a25dc3862039cb281e7cc881d73e1ac9d4f888c6f4029742a2c",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Equivalence of sanny\u0101sa and yoga: no one becomes a yogin without renouncing selfish motive and imagination.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.3",
+      "alignmentFingerprint": "a561f4d820cbf539b67b6331ed55940313fe6891e0b3c367b55615ab1a1fdac2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Dynamic of spiritual progress: action is the instrument for ascending yoga, while serenity is the mark of attainment.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.4",
+      "alignmentFingerprint": "5d26de030cac3d787e52a4e5260d4913b87814bc898f32ae266b52bc6398b40b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Definition of the yog\u0101r\u016b\u1e0dha: one detached from sensory objects and actions, having renounced all selfish schemes.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.5",
+      "alignmentFingerprint": "14c57780fdd7cdd4340f38a92fdeb46d14ea33d54f190aa457ac57ca51c2af9a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Classic dictum on self-elevation: let each raise the self by the Self; the Self alone is friend or foe to oneself.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.6",
+      "alignmentFingerprint": "f82cd377be5efbe7a214338476f57f4f25ea06b53f8fd26850a937874704940f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Inner dynamics: the Self is friend to one who has conquered self, but behaves like an enemy to the unconquered.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.7",
+      "alignmentFingerprint": "55f1025cd70c518ed76dbac600d1f557699ca8db227d81c4ce0262953c91d5ac",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The self-governed soul in serene peace remains identical in cold and heat, pleasure and pain, honor and dishonor.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.8",
+      "alignmentFingerprint": "1e549c59cc06c0bfd9416e78eb18167fa93b7b6b042927beefbe1ba16eafac77",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The yukta yogin satisfied in wisdom and realization, sensing a clod of earth, a stone, and gold as of equal worth.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.9",
+      "alignmentFingerprint": "67775345b16b44fb6d531bc27eff82d2cebe2af5f4c458e119a6a846c35424e4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The highest marks of spiritual equality toward friends, foes, neutrals, arbiters, saints, and sinners alike.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.10",
+      "alignmentFingerprint": "73bae2f902e22aa017dcee9e065d240a347aeced74aaeae08ed5b1f956e83d9f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Prescription of meditation in solitary seclusion, constant, self-controlled, rid of yearning and possession.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.11",
+      "alignmentFingerprint": "c51e2ee2d3d9ca0c4ff7a5154b53ebed099ce62de27fdf98ad558077cc0a9035",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Preparation of the meditation seat in a clean spot: neither too high nor too low, layered with grass, skin, and cloth.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.12",
+      "alignmentFingerprint": "4ac24cb47ca31067f54719b17c1f419a8f9a7a29a337a5ffa0be467b26bfee9a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Concentration of mind upon the One, stilling thoughts and senses on the seat to achieve self-purification.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.13",
+      "alignmentFingerprint": "09a21d52f706e098cf0e3e546d08cbdd86dfbcb4a953f90825cece3732cf3b86",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Physical posture: holding body, neck, and head erect and motionless, gazing steadily at the nose-tip without wandering.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.14",
+      "alignmentFingerprint": "ce015dce6f933985bce06f442eb11ff7b28b4a55d4594ed83232e4536c689c04",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Serene, fearless, firm in the Brahmacharya vow, with mind controlled and dedicated solely to Krishna as supreme goal.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.15",
+      "alignmentFingerprint": "8eecd5d0f4797e18bde0d3b0de1de0555f7914cfa749c4cbb278c04fe3605c3f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The disciplined yogin constantly harmonizing his soul reaches the peace abiding in God, culminating in Nirvana.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.16",
+      "alignmentFingerprint": "457c3045964961a64393edbcbc17f623ccbac56bc2448db2993bedb050e2b85b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Golden mean in physical discipline: Yoga is ruined by over-eating, absolute fasting, excessive sleep, or over-vigil.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.17",
+      "alignmentFingerprint": "4667dd2ec2260f1b4efebb095e381b6fca74cc05007c7d0dc15483f79a076a0a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Yoga destroys all sorrow for him who is temperate in eating, recreation, work, sleeping, and waking hours.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.18",
+      "alignmentFingerprint": "0ec9cbe8db21695d5edb3b51c88f717e754a3e72c1e80edd5543913d223a2219",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Attainment of yukta status when the disciplined mind rests centered in the Soul, detached from all cravings.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.19",
+      "alignmentFingerprint": "3774b47eb2045e4fe35844cf50953449a7e8b87bcc81e79eb972c27d346d3e49",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Celebrated simile: as a lamp burns steadfast and motionless in a windless place, so rests the yogin controlled mind.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.20",
+      "alignmentFingerprint": "10e91111791ca6dba5434d5f6e5d4986fa9f99e10a81e0a95506866e2f5f7195",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Beginning of definition of Yoga: where the mind rests stilled by practice, beholding the Self by the Self with joy.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.21",
+      "alignmentFingerprint": "d0261172d271b6bb3b7f518190e8be057d2e405576aa6f6eb9ed7f5cf089f758",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Where the soul experiences the transcendent joy beyond sensory reach and never deviates from divine Truth.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.22",
+      "alignmentFingerprint": "cc19e3b3be1fa74052f6b3fa226f834715d87e464a3cea37e0550f084c18c600",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Where, possessing this supreme treasure, no other gain seems greater, and gravest sorrow cannot shake the spirit.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.23",
+      "alignmentFingerprint": "94a95656701aff2b0f1fc6686b7eabe92d174f2045fbadc99073051b9e89b0d4",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Conclusion of sequence: know that severance from union with grief to be true Yoga, to be pursued with tireless resolve.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.24",
+      "alignmentFingerprint": "6c12c13cb784cca686c33b0481c3c4d4b611fcebff54ad3956d2c46cba486535",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Casting away all imaginative desires and curbing the sensory flock on all sides by the power of mind.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.25",
+      "alignmentFingerprint": "fd2f6bd810ccc99589b80984b6d79d38b6174c1253607b915c9000600987b0a5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Attaining quietude step by step through firm intellect, anchoring the mind in the Self and thinking of nothing else.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.26",
+      "alignmentFingerprint": "44328825ae02b49dc3fa67190e732e61173955ea4d247fb78fbd583a8e2c44d1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Restlessness remedy: wherever the wavering mind strays, bring it back under the sovereign control of the Self.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.27",
+      "alignmentFingerprint": "0fdd5f5ecd5d2022a7bd211f20a2faef82fbef4a7a6526e0b368af0e7162f90d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Supreme bliss attends the tranquil-minded yogin whose passion is quieted, who is sinless and one with Brahman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.28",
+      "alignmentFingerprint": "ce8d621cb8e560f9d4f23f545cd96254385bbf52ad363d74d4ac099f669e7d72",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Constantly uniting the soul to the Supreme, the purified yogin effortlessly tastes the infinite bliss of Brahman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.29",
+      "alignmentFingerprint": "611b3b00ccb5db9545adebc0935fff2c851fe3fe51cd0134904a725436ab412b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Equal vision (sama-dar\u015bana): the harmonized yogin perceives the Self abiding in all beings and all beings in the Self.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.30",
+      "alignmentFingerprint": "7ee7d8cc5714b854f7be5446640d25b8d7845eb5d2aa38be28574f84067aa78a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Divine omnipresence: he who sees Me everywhere and all things in Me is never severed from Me nor I from him.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.31",
+      "alignmentFingerprint": "e5d75265c924c54857d8d35669547c949ac62d5be69e5564ef51c0e86f082515",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The yogin who, established in unity, adores Me dwelling in all creatures, lives ever in Me whatever his outward state.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.32",
+      "alignmentFingerprint": "b011dd007333a2fa40bf3d8ee318259a82c1f65732a60ebc43336983c547489b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Supreme empathy: he who judges the pleasure and pain of all beings by the analogy of his own self is the highest yogin.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.33",
+      "alignmentFingerprint": "e56b10a646299841ae1a491f1f7bd4969ac306baa7f2a6061af19204f33cb078",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna objection: confesses inability to maintain this steady equanimity owing to the fickle restlessness of the mind.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.34",
+      "alignmentFingerprint": "ac5d63b8a8dc16456d671e72daf541651f3b0cb187252eda4df127493c75c811",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna compares the restless, tumultuous, forceful mind to the wild wind, seemingly impossible to bridle.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.35",
+      "alignmentFingerprint": "7786b41b768a539ce7c913340d2179c343873bae26506a13abef92c8acddb3e2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna concedes the mind is hard to curb, but affirms it can be mastered through persistent practice (abhy\u0101sa) and detachment.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.36",
+      "alignmentFingerprint": "73805610351f68bec07dda76603997b2ff27dd35162b4ad1f1cd8a709a217082",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Yoga is elusive for the undisciplined, but accessible to the self-governed seeker who strives with appropriate means.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.37",
+      "alignmentFingerprint": "89d165cececb6d9766169f96e038860d5eb349d9f0049b1dee510e78e509d80a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna question on the fate of the yoga-bhrashta: what becomes of the believer who falls away from yoga unperfected?",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.38",
+      "alignmentFingerprint": "f98adc31e2e0b065f55eb1bbb8f7bdbdad393dc2457ec011bb6b7637c5ae68a0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna asks if such a fallen seeker perishes like a torn cloud, ungrounded and lost to both worlds.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.39",
+      "alignmentFingerprint": "a9ed987c9ba4c26c927f317cbc00e51a5f625a0333368069dc46fef14743ad04",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna asks Krishna to dispel this tormenting doubt completely, since none other can resolve it.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.40",
+      "alignmentFingerprint": "103201434dbe2d4cbc7683a15f817e1172d2f9c0de1b449baa0e14dcdd16eb29",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna reassuring promise: neither in this world nor the next does destruction await the doer of good.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.41",
+      "alignmentFingerprint": "73b1e54b5c23646539d371c8c2d273c55ffc4ca133f6b432961633313c206711",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The seeker fallen from Yoga dwells in blessed worlds for long ages, then takes birth in a pure and prosperous home.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.42",
+      "alignmentFingerprint": "8c4bb01ced6adcfe289494f2ac4e21a0f1b976ed93d2b87314ed43e9f97fb5f3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Or he is born into a family of enlightened yogins, a fortune far rarer and more conducive to spiritual attainment.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.43",
+      "alignmentFingerprint": "fa28d9f3a720eec5c85f8a3bb3542e04a37c58950ae9010e318c50ba88ca9b38",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "In that new birth he recovers the latent spiritual consciousness of his prior life, striving afresh toward perfection.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.44",
+      "alignmentFingerprint": "5856cdd14fc56527bac5dd2a91d63c12ff1fc40370d9336bf0d7f0ae3680d8c6",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Carried forward irresistibly by past spiritual momentum, even the mere inquirer surpasses scriptural ritualism.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.45",
+      "alignmentFingerprint": "c2ffaa1135a6f847e63b6a6eb4621ab0fed6b0ca04136d0b1665bbe02c5089c8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Striving with earnest perseverance through many lifetimes, the purified yogin at last achieves the supreme goal.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.46",
+      "alignmentFingerprint": "7c63d7ba479826fa34799f715b1962ed383882d97b4484d632f537b1ac5aff02",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The yogin is exalted above mere ascetics, dry scholars, and ritualistic workers; therefore be a yogin, Arjuna!",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.6.47",
+      "alignmentFingerprint": "e426adb9d9f80f4e8b64f227648d552afb8ac80c33310a7593b0e879449ae61b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Concluding benediction: of all yogins, he who worships Me with inner soul merged in faith is most intimately united.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Chapter 6 exhibits complete, verse-by-verse one-to-one fidelity for all 47 canonical references.",
+    "The practical meditation instructions (6.10-6.15), the four-verse definition of Yoga (6.20-6.23), and the destiny of the fallen seeker (6.37-6.45) align seamlessly with their Sanskrit counterparts.",
+    "Intra-line poetic splits (e.g. 6.2/6.3, 6.3/6.4, 6.8/6.9, 6.10/6.11, 6.12/6.13, 6.16-6.19, 6.20-6.31, 6.33/6.34, 6.35/6.36, 6.40-6.42, 6.45-6.47) reflect accurate boundary placement."
+  ]
+}

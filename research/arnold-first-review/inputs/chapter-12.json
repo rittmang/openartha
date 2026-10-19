@@ -1,0 +1,995 @@
+{
+  "schemaVersion": 1,
+  "workId": "gita",
+  "translationId": "edwin-arnold",
+  "chapter": 12,
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "canonicalCorpusVersion": "gita-1.0.0-rc.1",
+  "numbering": "Standard 700-verse canon; Chapter 13 has 34 verses and excludes Arjuna's alternate opening question.",
+  "sourceChapterWithLineNumbers": "1:   Arjuna.\n2:   Lord! of the men who serve Thee--true in heart--\n3:   As God revealed; and of the men who serve,\n4:   Worshipping Thee Unrevealed, Unbodied, Far,\n5:   Which take the better way of faith and life?\n6: \n7:   Krishna.\n8:   Whoever serve Me--as I show Myself--\n9:   Constantly true, in full devotion fixed,\n10:   Those hold I very holy. But who serve--\n11:   Worshipping Me The One, The Invisible,\n12:   The Unrevealed, Unnamed, Unthinkable,\n13:   Uttermost, All-pervading, Highest, Sure--\n14:   Who thus adore Me, mastering their sense,\n15:   Of one set mind to all, glad in all good,\n16:   These blessed souls come unto Me.\n17: \n18:   Yet, hard\n19:   The travail is for such as bend their minds\n20:   To reach th' Unmanifest That viewless path\n21:   Shall scarce be trod by man bearing the flesh!\n22:   But whereso any doeth all his deeds\n23:   Renouncing self for Me, full of Me, fixed\n24:   To serve only the Highest, night and day\n25:   Musing on Me--him will I swiftly lift\n26:   Forth from life's ocean of distress and death,\n27:   Whose soul clings fast to Me. Cling thou to Me!\n28:   Clasp Me with heart and mind! so shalt thou dwell\n29:   Surely with Me on high. But if thy thought\n30:   Droops from such height; if thou be'st weak to set\n31:   Body and soul upon Me constantly,\n32:   Despair not! give Me lower service! seek\n33:   To reach Me, worshipping with steadfast will;\n34:   And, if thou canst not worship steadfastly,\n35:   Work for Me, toil in works pleasing to Me!\n36:   For he that laboureth right for love of Me\n37:   Shall finally attain! But, if in this\n38:   Thy faint heart fails, bring Me thy failure! find\n39:   Refuge in Me! let fruits of labour go,\n40:   Renouncing hope for Me, with lowliest heart,\n41:   So shalt thou come; for, though to know is more\n42:   Than diligence, yet worship better is\n43:   Than knowing, and renouncing better still.\n44:   Near to renunciation--very near--\n45:   Dwelleth Eternal Peace!\n46: \n47:   Who hateth nought\n48:   Of all which lives, living himself benign,\n49:   Compassionate, from arrogance exempt,\n50:   Exempt from love of self, unchangeable\n51:   By good or ill; patient, contented, firm\n52:   In faith, mastering himself, true to his word,\n53:   Seeking Me, heart and soul; vowed unto Me,--\n54:   That man I love! Who troubleth not his kind,\n55:   And is not troubled by them; clear of wrath,\n56:   Living too high for gladness, grief, or fear,\n57:   That man I love! Who, dwelling quiet-eyed,[FN#25]\n58:   Stainless, serene, well-balanced, unperplexed,\n59:   Working with Me, yet from all works detached,\n60:   That man I love! Who, fixed in faith on Me,\n61:   Dotes upon none, scorns none; rejoices not,\n62:   And grieves not, letting good or evil hap\n63:   Light when it will, and when it will depart,\n64:   That man I love! Who, unto friend and foe\n65:   Keeping an equal heart, with equal mind\n66:   Bears shame and glory; with an equal peace\n67:   Takes heat and cold, pleasure and pain; abides\n68:   Quit of desires, hears praise or calumny\n69:   In passionless restraint, unmoved by each;\n70:   Linked by no ties to earth, steadfast in Me,\n71:   That man I love! But most of all I love\n72:   Those happy ones to whom 'tis life to live\n73:   In single fervid faith and love unseeing,\n74:   Drinking the blessed Amrit of my Being!\n75: \n76:   HERE ENDETH CHAPTER XII. OF THE BHAGAVAD-GITA,\n77:   Entitled \"Bhaktiyog,\"\n78:   Or\"The Book of the Religion of Faith.\"",
+  "translatorNotes": [
+    {
+      "number": 1,
+      "marker": "[FN#1]",
+      "text": "Some repetitionary lines are here omitted."
+    },
+    {
+      "number": 2,
+      "marker": "[FN#2]",
+      "text": "Technical phrases of Vedic religion."
+    },
+    {
+      "number": 3,
+      "marker": "[FN#3]",
+      "text": "The whole of this passage is highly involved and difficult to\nrender."
+    },
+    {
+      "number": 4,
+      "marker": "[FN#4]",
+      "text": "I feel convinced sankhyanan and yoginan must be transposed\nhere in sense."
+    },
+    {
+      "number": 5,
+      "marker": "[FN#5]",
+      "text": "I am doubtful of accuracy here."
+    },
+    {
+      "number": 6,
+      "marker": "[FN#6]",
+      "text": "A name of the sun."
+    },
+    {
+      "number": 7,
+      "marker": "[FN#7]",
+      "text": "Without desire of fruit."
+    },
+    {
+      "number": 8,
+      "marker": "[FN#8]",
+      "text": "That is,\"joy and sorrow, success and failure, heat and cold,\"&c."
+    },
+    {
+      "number": 9,
+      "marker": "[FN#9]",
+      "text": "i.e., the body."
+    },
+    {
+      "number": 10,
+      "marker": "[FN#10]",
+      "text": "The Sanskrit has this play on the double meaning of Atman."
+    },
+    {
+      "number": 11,
+      "marker": "[FN#11]",
+      "text": "So in original."
+    },
+    {
+      "number": 12,
+      "marker": "[FN#12]",
+      "text": "Beings of low and devilish nature."
+    },
+    {
+      "number": 13,
+      "marker": "[FN#13]",
+      "text": "Krishna."
+    },
+    {
+      "number": 14,
+      "marker": "[FN#14]",
+      "text": "I read here janma, \"birth;\" not jara,\"age\""
+    },
+    {
+      "number": 15,
+      "marker": "[FN#15]",
+      "text": "I have discarded ten lines of Sanskrit text here as an\nundoubted interpolation by some Vedantist"
+    },
+    {
+      "number": 16,
+      "marker": "[FN#16]",
+      "text": "The Sanskrit poem here rises to an elevation of style and\nmanner which I have endeavoured to mark by change of metre."
+    },
+    {
+      "number": 17,
+      "marker": "[FN#17]",
+      "text": "Ahinsa."
+    },
+    {
+      "number": 18,
+      "marker": "[FN#18]",
+      "text": "The nectar of immortality."
+    },
+    {
+      "number": 19,
+      "marker": "[FN#19]",
+      "text": "Called \"The Jap.\""
+    },
+    {
+      "number": 20,
+      "marker": "[FN#20]",
+      "text": "The compound form of Sanskrit words."
+    },
+    {
+      "number": 21,
+      "marker": "[FN#21]",
+      "text": "\"Kamalapatraksha\""
+    },
+    {
+      "number": 22,
+      "marker": "[FN#22]",
+      "text": "These are all divine or deified orders of the Hindoo Pantheon."
+    },
+    {
+      "number": 23,
+      "marker": "[FN#23]",
+      "text": "\"Hail to Thee, God of Gods! Be favourable!\""
+    },
+    {
+      "number": 24,
+      "marker": "[FN#24]",
+      "text": "The wind."
+    },
+    {
+      "number": 25,
+      "marker": "[FN#25]",
+      "text": "\"Not peering about,\"anapeksha."
+    },
+    {
+      "number": 26,
+      "marker": "[FN#26]",
+      "text": "The Calcutta edition of the Mahabharata has these three\nopening lines."
+    },
+    {
+      "number": 27,
+      "marker": "[FN#27]",
+      "text": "This is the nearest possible version of\nKshetrakshetrajnayojnanan yat tajnan matan mama."
+    },
+    {
+      "number": 28,
+      "marker": "[FN#28]",
+      "text": "I omit two lines of the Sanskrit here, evidently interpolated by\nsome Vedantist."
+    },
+    {
+      "number": 29,
+      "marker": "[FN#29]",
+      "text": "Wombs."
+    },
+    {
+      "number": 30,
+      "marker": "[FN#30]",
+      "text": "I do not consider the Sanskrit verses here-which are somewhat\nfreely rendered--\"an attack on the authority of the Vedas,\" with Mr\nDavies, but a beautiful lyrical episode, a new \"Parable of the fig-tree.\""
+    },
+    {
+      "number": 31,
+      "marker": "[FN#31]",
+      "text": "I omit a verse here, evidently interpolated."
+    },
+    {
+      "number": 32,
+      "marker": "[FN#32]",
+      "text": "\"Of the Asuras,\" lit."
+    },
+    {
+      "number": 33,
+      "marker": "[FN#33]",
+      "text": "I omit the ten concluding shlokas, with Mr Davis."
+    },
+    {
+      "number": 34,
+      "marker": "[FN#34]",
+      "text": "Rakshasas and Yakshas are unembodied but capricious beings\nof great power, gifts, and beauty, same times also of benignity."
+    },
+    {
+      "number": 35,
+      "marker": "[FN#35]",
+      "text": "These are spirits of evil wandering ghosts."
+    },
+    {
+      "number": 36,
+      "marker": "[FN#36]",
+      "text": "Yatayaman, food which has remained after the watches of the\nnight. In India this would probably \"go bad.\""
+    },
+    {
+      "number": 37,
+      "marker": "[FN#37]",
+      "text": "I omit the concluding shlokas, as of very doubtful authenticity."
+    }
+  ],
+  "paratext": [
+    {
+      "chapter": 12,
+      "type": "chapter-colophon",
+      "text": "HERE ENDETH CHAPTER XII. OF THE BHAGAVAD-GITA,\n  Entitled \"Bhaktiyog,\"\n  Or\"The Book of the Religion of Faith.\"",
+      "checksum": "7980bc74df54725d0f8906d730960af0e617c36c41d03e7e8c61ba9830bd1839",
+      "sourceSpan": {
+        "start": 3040,
+        "end": 3153,
+        "lineStart": 2303,
+        "lineEnd": 2305,
+        "checksum": "38a6ca7517f07850635463266e60dc6eba573b3f7113121886baf2ead72e23f4"
+      }
+    }
+  ],
+  "records": [
+    {
+      "canonicalRef": "gita.12.1",
+      "alignmentFingerprint": "0534cb1ac464f32f62d2ca5537350bcfe8bb184f63b5b76eda31b835455009df",
+      "sanskrit": "अर्जुन उवाच।\nएवं सततयुक्ता ये भक्तास्त्वां पर्युपासते।\nये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः ॥",
+      "iast": "arjuna uvāca\nevaṃ satatayuktā ye bhaktāstvāṃ paryupāsate\nye cāpyakṣaramavyaktaṃ teṣāṃ ke yogavittamāḥ",
+      "speaker": "Arjuna",
+      "arnold": {
+        "canonicalRef": "gita.12.1",
+        "content": "Arjuna.\n  Lord! of the men who serve Thee--true in heart--\n  As God revealed; and of the men who serve,\n  Worshipping Thee Unrevealed, Unbodied, Far,\n  Which take the better way of faith and life?",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.1"
+        ],
+        "sourceSpans": [
+          {
+            "start": 0,
+            "end": 200,
+            "lineStart": 2228,
+            "lineEnd": 2233,
+            "checksum": "6e9158b2459aaca3bce3f74f4b956aef2c69f4048b848045fada07d6ee944c01"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.1 Arjuna said Those devotees who, ever steadfast, thus worship Thee and those also who worship the imperishable and the unmanifested which of them are better versed in Yoga?"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.1 \"Arjuna asked: My Lord! Which are the better devotees who worship Thee, those who try to know Thee as a Personal God, or those who worship Thee as Impersonal and Indestructible?"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.1 Arjuna said Those devotees who, being thus ever dedicated, meditate on You, and those again (who meditate) on the Immutable, the Unmanifested-of them, who are the best experiencers of yoga [(Here) yoga means samadhi, spiritual absorption.] ?"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.2",
+      "alignmentFingerprint": "481c40d1b375108188b8d57e629361aa8a10e76740fa202a99780a85878867c3",
+      "sanskrit": "श्रीभगवानुवाच।\nमय्यावेश्य मनो ये मां नित्ययुक्ता उपासते।\nश्रद्धया परयोपेताः ते मे युक्ततमा मताः ॥",
+      "iast": "śrībhagavānuvāca\nmayyāveśya mano ye māṃ nityayuktā upāsate\nśraddhayā parayopetāḥ te me yuktatamā matāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.2",
+        "content": "Krishna.\n  Whoever serve Me--as I show Myself--\n  Constantly true, in full devotion fixed,\n  Those hold I very holy.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.2"
+        ],
+        "sourceSpans": [
+          {
+            "start": 200,
+            "end": 319,
+            "lineStart": 2234,
+            "lineEnd": 2237,
+            "checksum": "e2b88290c7cd9e91ba9c116eabfbdbaa8b3172c0ff48263340250ad496a97b24"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.2 The Blessed Lord said Those who, fixing their mind on Me, worship Me, ever steadfast and endowed with supreme faith, are the best in Yoga in My opinion."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.2 Lord Shri Krishna replied: Those who keep their minds fixed on Me, who worship Me always with unwavering faith and concentration; these are the very best."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.2 The Blessed Lord said Those who meditate on Me by fixing their minds on Me with steadfast devotion (and) being endowed with supreme faith-they are considered to be the most perfect yogis according to Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.3",
+      "alignmentFingerprint": "143c661a62d400e11637308602e30ba222cc04e9e12f3ff69a81f61be251680d",
+      "sanskrit": "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते।\nसर्वत्रगमचिन्त्यञ्च कूटस्थमचलन्ध्रुवम् ॥",
+      "iast": "ye tvakṣaramanirdeśyamavyaktaṃ paryupāsate\nsarvatragamacintyañca kūṭasthamacalandhruvam",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.3",
+        "content": "But who serve--\n  Worshipping Me The One, The Invisible,\n  The Unrevealed, Unnamed, Unthinkable,\n  Uttermost, All-pervading, Highest, Sure--",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.3"
+        ],
+        "sourceSpans": [
+          {
+            "start": 319,
+            "end": 460,
+            "lineStart": 2237,
+            "lineEnd": 2240,
+            "checksum": "bceddee40f152f6e101d4c7e83c7f9df382f900d73eddf5e2d8c25c6f3f8de47"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "Swami Sivananda did not comment on this sloka"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "Shri Purohit Swami did not comment on this sloka"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "Swami Gambirananda did not comment on this sloka"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.4",
+      "alignmentFingerprint": "3a83346395d40b258b733f721970ac9dcaa59dc3dc19624be103fb1ae0961bf2",
+      "sanskrit": "सन्नियम्येन्द्रियग्रामं सर्वत्र समबुद्धयः।\nते प्राप्नुवन्ति मामेव सर्वभूतहिते रताः ॥",
+      "iast": "sanniyamyendriyagrāmaṃ sarvatra samabuddhayaḥ\nte prāpnuvanti māmeva sarvabhūtahite ratāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.4",
+        "content": "Who thus adore Me, mastering their sense,\n  Of one set mind to all, glad in all good,\n  These blessed souls come unto Me.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.4"
+        ],
+        "sourceSpans": [
+          {
+            "start": 460,
+            "end": 585,
+            "lineStart": 2241,
+            "lineEnd": 2244,
+            "checksum": "128f3f7df32fe42d17d198a4662c1fe40f2043250a3c036807159176552d0b43"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.4 Having restrained all the senses, even-minded everywhere, intent on the welfare of all beings verily they also come unto Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.4 Subduing their senses, viewing all conditions of life with the same eye, and working for the welfare of all beings, assuredly they come to Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.4 By fully controlling all the organs and always being even-minded, they, engaged in the welfare of all beings, attain Me alone."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.5",
+      "alignmentFingerprint": "b9c8a7e0a4067045e5d26fba89e1aecc1f71b740d52cd735d385fec9624f8332",
+      "sanskrit": "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम्।\nअव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते ॥",
+      "iast": "kleśo.adhikatarasteṣāmavyaktāsaktacetasām\navyaktā hi gatirduḥkhaṃ dehavadbhiravāpyate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.5",
+        "content": "Yet, hard\n  The travail is for such as bend their minds\n  To reach th' Unmanifest That viewless path\n  Shall scarce be trod by man bearing the flesh!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.5"
+        ],
+        "sourceSpans": [
+          {
+            "start": 585,
+            "end": 737,
+            "lineStart": 2245,
+            "lineEnd": 2248,
+            "checksum": "07176e168b19c6ee5af11a04bd1712f626e1daef0c95410cc81653afa5270214"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.5 Greater is their trouble whose minds are set on the unmanifested; for the goal; the unmanifested, is very hard for the embodied to reach."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.5 But they who thus fix their attention on the Absolute and Impersonal encounter greater hardships, for it is difficult for those who possess a body to realise Me as without one."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.5 For them who have their minds attached to the Unmanifested the struggle is greater; for, the Goal which is the Unmanifest is attained with difficulty by the embodied ones."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.6",
+      "alignmentFingerprint": "875b3a28472e83b395ab99b42925bdc8d269c575117c624ed001a55ba053fdda",
+      "sanskrit": "ये तु सर्वाणि कर्माणि मयि संन्यस्य मत्परः।\nअनन्येनैव योगेन मां ध्यायन्त उपासते ॥",
+      "iast": "ye tu sarvāṇi karmāṇi mayi saṃnyasya matparaḥ\nananyenaiva yogena māṃ dhyāyanta upāsate",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.6",
+        "content": "But whereso any doeth all his deeds\n  Renouncing self for Me, full of Me, fixed\n  To serve only the Highest, night and day\n  Musing on Me--",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.6"
+        ],
+        "sourceSpans": [
+          {
+            "start": 737,
+            "end": 878,
+            "lineStart": 2249,
+            "lineEnd": 2252,
+            "checksum": "e19782dc896089fd995a8a9dc7443900a1564e210f6707eafcb9ae2eb525f8ce"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.6 But to those who worship Me, renouncing all actions in Me, regarding Me as the supreme gaol, meditating on Me with single-minded Yoga."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.6 Verily, those who surrender their actions to Me, who muse on Me, worship Me and meditate on Me alone, with no thought save of Me,"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.6 As for those who, having dedicated all actions to Me and accepted Me as the supreme, meditate by thinking of Me with single-minded concentration only-."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.7",
+      "alignmentFingerprint": "7148094186451ebbae2d6e631c89b4340ec65c8a7d01f75ae58125f50c3a6656",
+      "sanskrit": "तेषामहं समुद्धर्ता मृत्युसंसारसागरात्।\nभवामि नचिरात्पार्थ मय्यावेशितचेतसाम् ॥",
+      "iast": "teṣāmahaṃ samuddhartā mṛtyusaṃsārasāgarāt\nbhavāmi nacirātpārtha mayyāveśitacetasām",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.7",
+        "content": "him will I swiftly lift\n  Forth from life's ocean of distress and death,\n  Whose soul clings fast to Me.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.7"
+        ],
+        "sourceSpans": [
+          {
+            "start": 878,
+            "end": 983,
+            "lineStart": 2252,
+            "lineEnd": 2254,
+            "checksum": "9a62fea8888dbfae5cf6e86186a960a94995e14e40840a37cb63e2e5861f73fa"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.7 To those whose minds are set on Me, O Arjuna, verily I become ere long the saviour out of the ocean of Samsara."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.7 O Arjuna! I rescue them from the ocean of life and death, for their minds are fixed on Me."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.7 O son of Prtha, for them who have their minds absorbed in Me, I become, without delay, the Deliverer from the sea of the world which is fraught with death."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.8",
+      "alignmentFingerprint": "8cb7ff66ef740e505d6f69db9eae0d90eefb285be6cd09cb29da35543b224943",
+      "sanskrit": "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय।\nनिवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः ॥",
+      "iast": "mayyeva mana ādhatsva mayi buddhiṃ niveśaya\nnivasiṣyasi mayyeva ata ūrdhvaṃ na saṃśayaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.8",
+        "content": "Cling thou to Me!\n  Clasp Me with heart and mind! so shalt thou dwell\n  Surely with Me on high.",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.8"
+        ],
+        "sourceSpans": [
+          {
+            "start": 983,
+            "end": 1079,
+            "lineStart": 2254,
+            "lineEnd": 2256,
+            "checksum": "a57bd83eaf5c8f4bea3a81578a1d303e97161d8a09939269947e709108ebebcc"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.8 Fix thy mind in Me only, thy intellect in Me, (then) thou shalt no doubt live in Me alone hereafter."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.8 Then let thy mind cling only to Me, let thy intellect abide in Me; and without doubt thou shalt live hereafter in Me alone."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.8 Fix the mind on Me alone; in Me alone rest the intellect. There is no doubt that hereafter you will dwell in Me alone. [For the sake of metre, eva and atah (in the second line of the verse) are not joined together (to form evatah).]"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.9",
+      "alignmentFingerprint": "08b366d598d78523c031ea684c78d74ea2b94d775b4e9394a381f97d5906099e",
+      "sanskrit": "अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम्।\nअभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय ॥",
+      "iast": "atha cittaṃ samādhātuṃ na śaknoṣi mayi sthiram\nabhyāsayogena tato māmicchāptuṃ dhanañjaya",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.9",
+        "content": "But if thy thought\n  Droops from such height; if thou be'st weak to set\n  Body and soul upon Me constantly,\n  Despair not! give Me lower service! seek\n  To reach Me, worshipping with steadfast will;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.9"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1079,
+            "end": 1278,
+            "lineStart": 2256,
+            "lineEnd": 2260,
+            "checksum": "c1df2fee3ceec938be489a2cb57b31ec63e80b78f043c383100271a9b1690ae3"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.9 If thou art unable to fix thy mind steadily on Me, then by the Yoga of constant practice do thou seek to reach Me, O Arjuna."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.9 But if thou canst not fix thy mind firmly on Me, then, My beloved friend, try to do so by constant practice."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.9 If, however, you are unable to establish the mind steadily on Me, then, O Dhananjaya, seek to attain Me through the Yoga of Practice."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.10",
+      "alignmentFingerprint": "e6d201c52ee027857e4f22e6f5c2454638949c2a9e63f6211c36c566610af1f8",
+      "sanskrit": "अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव।\nमदर्थमपि कर्माणि कुर्वन्सिद्धिमवाप्स्यसि ॥",
+      "iast": "abhyāse.apyasamartho.asi matkarmaparamo bhava\nmadarthamapi karmāṇi kurvansiddhimavāpsyasi",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.10",
+        "content": "And, if thou canst not worship steadfastly,\n  Work for Me, toil in works pleasing to Me!\n  For he that laboureth right for love of Me\n  Shall finally attain!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.10"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1278,
+            "end": 1438,
+            "lineStart": 2261,
+            "lineEnd": 2264,
+            "checksum": "02c2adbeadf989708e53b8f31d71d0797a906935d341f5e5489f621998d1b9d6"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.10 If thou art unable to practise even this Abhyasa Yoga, be thou intent on doing actions for My sake; even by doing actions for My sake, thou shalt attain perfection."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.10 And if thou are not strong enough to practise concentration, then devote thyself to My service, do all thine acts for My sake, and thou shalt still attain the goal."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.10 If you are unable even to practise, be intent on works for Me. By undertaking works for Me as well, you will attain perfection. [Identity with Brahman.]"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.11",
+      "alignmentFingerprint": "a9e0a2470b04bb5e72e0cbeb0d804399a00aab372dd9ff58df6ee85339ffd7c8",
+      "sanskrit": "अथैतदप्यशक्तोऽसि कर्तुं मद्योगमाश्रितः।\nसर्वकर्मफलत्यागं ततः कुरु यतात्मवान् ॥",
+      "iast": "athaitadapyaśakto.asi kartuṃ madyogamāśritaḥ\nsarvakarmaphalatyāgaṃ tataḥ kuru yatātmavān",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.11",
+        "content": "But, if in this\n  Thy faint heart fails, bring Me thy failure! find\n  Refuge in Me! let fruits of labour go,\n  Renouncing hope for Me, with lowliest heart,\n  So shalt thou come;",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.11"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1438,
+            "end": 1616,
+            "lineStart": 2264,
+            "lineEnd": 2268,
+            "checksum": "9237a529f26754d45557b65033e9328220c91a84a26ee65035488b48bed1cbe7"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.11 If thou art unable to do even this, then, resorting to union with Me, renounce the fruits of all actions with the self controlled."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.11 And if thou art too weak even for this, then seek refuge in union with Me, and with perfect self-control renounce the fruit of thy action."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.11 If you are unable to do even this, in that case, having resorted to the Yoga for Me, thereafter renounce the results of all works by becoming controlled in mind."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.12",
+      "alignmentFingerprint": "571256502671237e327d7ad067612cf2c87dad87f10b0eb751e0c42c08d24ad5",
+      "sanskrit": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते।\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् ॥",
+      "iast": "śreyo hi jñānamabhyāsājjñānāddhyānaṃ viśiṣyate\ndhyānātkarmaphalatyāgastyāgācchāntiranantaram",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.12",
+        "content": "for, though to know is more\n  Than diligence, yet worship better is\n  Than knowing, and renouncing better still.\n  Near to renunciation--very near--\n  Dwelleth Eternal Peace!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.12"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1616,
+            "end": 1792,
+            "lineStart": 2268,
+            "lineEnd": 2273,
+            "checksum": "e5004a93918c8d49fce873425cfe12bc5d3701218cc50cd2f4ebfd8c934f0b33"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.12 Better indeed is knowledge than practice; than knowledge meditation is better; than meditation the renunciation of the fruits of actions: peace immediately follows renunciation."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.12 Knowledge is superior to blind action, meditation to mere knowledge, renunciation of the fruit of action to meditation, and where there is renunciation peace will follow."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.12 Knowledge is surely superior to practice; meditation surpasses knowledge. The renunciation of the results of works (excels) meditation. From renunciation, Peace follows immediately."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.13",
+      "alignmentFingerprint": "a11a27207b4aef31e4e927fa1310ca3355aa9c21d9c84d1c5abefb4b8a7b6952",
+      "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च।\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी ॥",
+      "iast": "adveṣṭā sarvabhūtānāṃ maitraḥ karuṇa eva ca\nnirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.13",
+        "content": "Who hateth nought\n  Of all which lives, living himself benign,\n  Compassionate, from arrogance exempt,\n  Exempt from love of self, unchangeable\n  By good or ill; patient,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.13"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1792,
+            "end": 1965,
+            "lineStart": 2274,
+            "lineEnd": 2278,
+            "checksum": "645c152a56b32c1fb747caa9f15a8328982a766dc539664a66d0cf0240f69912"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.13 He who hates no creature, who is friendly and compassionate to all, who is free from attachment and egoism, balanced in pleasure and pain, and forgiving."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.13 He who is incapable of hatred towards any being, who is kind and compassionate, free from selfishness, without pride, equable in pleasure and in pain, and forgiving,"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.13 He who is not hateful towards any creature, who is friendly and compassionate, who has no idea of 'mine' and the idea of egoism, who is the same under sorrow and happiness, who is forgiving;"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.14",
+      "alignmentFingerprint": "7946b62ed0557b00bc386f9513624dd98cd0a68d105eb952214ed8078956cf39",
+      "sanskrit": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः।\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ॥",
+      "iast": "santuṣṭaḥ satataṃ yogī yatātmā dṛḍhaniścayaḥ\nmayyarpitamanobuddhiryo madbhaktaḥ sa me priyaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.14",
+        "content": "contented, firm\n  In faith, mastering himself, true to his word,\n  Seeking Me, heart and soul; vowed unto Me,--\n  That man I love!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.14"
+        ],
+        "sourceSpans": [
+          {
+            "start": 1965,
+            "end": 2096,
+            "lineStart": 2278,
+            "lineEnd": 2281,
+            "checksum": "8367238ee0f06611bf791f66eff4a76f6ccb7392209bfcb5b69d6161033acbc6"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.14 Ever content, steady in meditation, self-controlled, possessed of firm conviction, with the mind and intellect dedicated to Me, he, My devtoee, is dear to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.14 Always contented, self-centred, self-controlled, resolute, with mind and reason dedicated to Me, such a devotee of Mine is My beloved."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.14 He who is ever content, who is a yogi, who has self-control, who has firm conviction, who has dedicated his mind and intellect to Me-he who is such a devotee of Mine is dear to Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.15",
+      "alignmentFingerprint": "29cd9515daeadcac0c4ca21a4a14a6e455851d3651b495a1c5642a641c8372c2",
+      "sanskrit": "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः।\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः ॥",
+      "iast": "yasmānnodvijate loko lokānnodvijate ca yaḥ\nharṣāmarṣabhayodvegairmukto yaḥ sa ca me priyaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.15",
+        "content": "Who troubleth not his kind,\n  And is not troubled by them; clear of wrath,\n  Living too high for gladness, grief, or fear,\n  That man I love!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.15"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2096,
+            "end": 2238,
+            "lineStart": 2281,
+            "lineEnd": 2284,
+            "checksum": "595cbc7498ac7e4d423fbcd1caa77279e3a14b06317aaa84d623dfc0e03c3896"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.15 He by whom the world is not agitated and who cannot be agitated by the world, and who is freed from joy, anger, fear and anxiety he is dear to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.15 He who does not harm the world, and whom the world cannot harm, who is not carried away by any impulse of joy, anger or fear, such a one is My beloved."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.15 He, too, owing to whom the world is not disturbed, and who is not disturbed by the world, who is free from joy, impatience, fear and anxiety, is dear to Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.16",
+      "alignmentFingerprint": "87a29b9da615202ac4e0cea0a2b54b69c55f39c3c2c09adf63cf89555e3c8299",
+      "sanskrit": "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः।\nसर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः ॥",
+      "iast": "anapekṣaḥ śucirdakṣa udāsīno gatavyathaḥ\nsarvārambhaparityāgī yo madbhaktaḥ sa me priyaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.16",
+        "content": "Who, dwelling quiet-eyed,[FN#25]\n  Stainless, serene, well-balanced, unperplexed,\n  Working with Me, yet from all works detached,\n  That man I love!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.16"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2238,
+            "end": 2387,
+            "lineStart": 2284,
+            "lineEnd": 2287,
+            "checksum": "76db4ea23ee42287151a304e8b70505c7b4975837ccd763370af73561ca9fdb6"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.16 He who is free from wants, pure, expert, unconcerned, and free from pain, renouncing all undertakings or commencements he who is (thus) devoted to Me, is dear to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.16 He who expects nothing, who is pure, watchful, indifferent, unruffled, and who renounces all initiative, such a one is My beloved."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.16 He who has no desires, who is pure, who is dextrous, who is impartial, who is free from fear, who has renounced every undertaking-he who is (such) a devotee of Mine is dear to Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.17",
+      "alignmentFingerprint": "f52bf4c8e9ac604b1918c12323485d2ea30e4da421d50632fc6471af9ea63568",
+      "sanskrit": "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति।\nशुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः ॥",
+      "iast": "yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati\nśubhāśubhaparityāgī bhaktimānyaḥ sa me priyaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.17",
+        "content": "Who, fixed in faith on Me,\n  Dotes upon none, scorns none; rejoices not,\n  And grieves not, letting good or evil hap\n  Light when it will, and when it will depart,\n  That man I love!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.17"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2387,
+            "end": 2570,
+            "lineStart": 2287,
+            "lineEnd": 2291,
+            "checksum": "55b1420a72b9da8f0ebd38ee063f999f63386361d7ef75a0f7028bde5b4fc982"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.17 He who neither rejoices, nor hates, nor grieves, nor desires, renouncing good and evil, and who is full of devotion, is dear to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.17 He who is beyond joy and hate, who neither laments nor desires, to whom good and evil fortunes are the same, such a one is My beloved."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.17 He who does not rejoice, does not fret, does not lament, does not hanker; who gives up good and bad, who is filled with devotion-he is dear to Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.18",
+      "alignmentFingerprint": "0846a601c0df38086a654503e4d8d1daf6f5d0ef8061d511a9f2e09457753ace",
+      "sanskrit": "समः शत्रौ च मित्रे च तथा मानापमानयोः।\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः ॥",
+      "iast": "samaḥ śatrau ca mitre ca tathā mānāpamānayoḥ\nśītoṣṇasukhaduḥkheṣu samaḥ saṅgavivarjitaḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.18",
+        "content": "Who, unto friend and foe\n  Keeping an equal heart, with equal mind\n  Bears shame and glory; with an equal peace\n  Takes heat and cold, pleasure and pain; abides\n  Quit of desires,",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.18"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2570,
+            "end": 2750,
+            "lineStart": 2291,
+            "lineEnd": 2295,
+            "checksum": "c86e1263e3fe3e2bfdf522a2f1d50711b88eb3d2687a87b0db13df9c1853b85f"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "Swami Sivananda did not comment on this sloka"
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "Shri Purohit Swami did not comment on this sloka"
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "Swami Gambirananda did not comment on this sloka"
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.19",
+      "alignmentFingerprint": "cf4505be6331b926f73738a8f574d73bab44c12345f9e8c229a775bb211dd706",
+      "sanskrit": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित्।\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः ॥",
+      "iast": "tulyanindāstutirmaunī santuṣṭo yena kenacit\naniketaḥ sthiramatirbhaktimānme priyo naraḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.19",
+        "content": "hears praise or calumny\n  In passionless restraint, unmoved by each;\n  Linked by no ties to earth, steadfast in Me,\n  That man I love!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.19"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2750,
+            "end": 2885,
+            "lineStart": 2295,
+            "lineEnd": 2298,
+            "checksum": "09147f8796bd6e5f4e067372ac7e4030c0774ea1270b957a381fd298bd2a491a"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.19 He to whom censure and praise are eal, who is silent, content with anything, homeless, of a steady mind, and full of devotion that man is dear to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.19 Who is indifferent to praise and censure, who enjoys silence, who is contented with every fate, who has no fixed abode, who is steadfast in mind, and filled with devotion, such a one is My beloved."
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.19 The person to whom denunciation and praise are the same, who is silent, content with anything, homeless, steady-minded, and full of devotion is dear to Me."
+        }
+      ]
+    },
+    {
+      "canonicalRef": "gita.12.20",
+      "alignmentFingerprint": "e668f52d428d667ae8b30008b4f98a7ec03da95c74cc1ac9935d25244e970ca1",
+      "sanskrit": "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते।\nश्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः ॥",
+      "iast": "ye tu dharmyāmṛtamidaṃ yathoktaṃ paryupāsate\nśraddadhānā matparamā bhaktāste.atīva me priyāḥ",
+      "speaker": "Krishna",
+      "arnold": {
+        "canonicalRef": "gita.12.20",
+        "content": "But most of all I love\n  Those happy ones to whom 'tis life to live\n  In single fervid faith and love unseeing,\n  Drinking the blessed Amrit of my Being!",
+        "relation": "semantic-verse-alignment",
+        "references": [
+          "gita.12.20"
+        ],
+        "sourceSpans": [
+          {
+            "start": 2885,
+            "end": 3040,
+            "lineStart": 2298,
+            "lineEnd": 2302,
+            "checksum": "1548df963a80418a851ac6b2aa22f050cb25b0db185b699e881ebcdd737042a1"
+          }
+        ],
+        "note": null
+      },
+      "witnesses": [
+        {
+          "author": "Swami Sivananda",
+          "text": "12.20 They verily who follow this immortal Dharma (law or doctrine) as described above, endowed with faith, regarding Me as their supreme goal, they, the devotees, are exceedingly dear to Me."
+        },
+        {
+          "author": "Shri Purohit Swami",
+          "text": "12.20 Verily those who love the spiritual wisdom as I have taught, whose faith never fails, and who concentrate their whole nature on Me, they indeed are My most beloved.\""
+        },
+        {
+          "author": "Swami Gambirananda",
+          "text": "12.20 But [Tu (but) is used to distinguish those who have attained the highest Goal from the aspirants.-Tr.] those devotees who accept Me as the supreme Goal, and with faith seek for this ambrosia [M.S.'s reading is dharmamrtam-nectar in the form of virtue. Virtue is called nectar because it leads to Immortality, or because it is sweet like nectar.] which is indistinguishable from the virtues as stated above, they are very dear to Me."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 13,
+  "inputSha256": "47f83e3a0c4c892140a1ad2a3383b37582b275b6977087693af550220af4bbfd",
+  "reviews": [
+    {
+      "canonicalRef": "gita.13.1",
+      "alignmentFingerprint": "af99b6498eff70961d696e8e80df45b6efc53f0a29241dfb8464227d99f614fb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arnold renders Krishna's response defining the body as Kshetra and the knowing soul as Kshetrajna; Arjuna's opening query is rightly separated as recensional prelude paratext.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.2",
+      "alignmentFingerprint": "6c863f0b6387905f72f444aa459046727faaa9a6e9aab5ca9a9728e9660df010",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Exact match for Krishna as the Kshetrajna in all fields and true knowledge as knowing the field and knower; Arnold footnote 27 explicitly marks the key Sanskrit half-verse.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.3",
+      "alignmentFingerprint": "2fa2cd72d1f6348aff3433dbebbf614baaba33ae86f9b0e2bb13bb391e128511",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Complete rendering of tat kṣetraṃ yacca yādṛk ca... announcing the discourse on the nature, changes, and power of the field.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.4",
+      "alignmentFingerprint": "d28f1e28541fd4c0899e5bf396691163cb20121ca1d1403895a1880de588fdf7",
+      "status": "verified",
+      "confidence": 1,
+      "notes": "Verified source omission. Arnold omits the two Sanskrit lines referencing sages, hymns, and Brahma-sutras, explicitly marked in the source by ellipsis and translator footnote 28.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.5",
+      "alignmentFingerprint": "5eef1feefd0d8b4c49dac504cd2856e467a7f9fbaca96939744401baf1e0fae5",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Accurate mapping of the 24 cosmic tattvas: elements, conscious life (ego/intellect), mind, unseen vital force (avyakta), bodily gates (ten senses), and five sense domains.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.6",
+      "alignmentFingerprint": "503f8f1220e3e6e6b49a9c485a8da1b7a1e9ea3287c18a98e1a211a3a1524f2e",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Accurate mapping of field modifications: desire, dislike, pleasure, pain, aggregate/thought, and persistence of being (dhriti).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.7",
+      "alignmentFingerprint": "eba8a92eb8343bb2f8eb4426fe50b07465a9dc7e95c9f1360ba1c31f0d939f54",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "First triad of knowledge attributes: humbleness (amanitva), truthfulness (adambhitva/arjava), harmlessness (ahimsa), patience, reverence for wise, purity, constancy, self-control.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.8",
+      "alignmentFingerprint": "683472ade207291ed57e129bf948b2df2a85f47946f2e54eb379f9926f24dd57",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Second group of knowledge attributes: contempt of sense pleasures (vairagya), self-sacrifice (anahankara), and perception of evil in birth, death, old age, disease, and suffering.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.9",
+      "alignmentFingerprint": "b4be505fab00567513a1c8be9118675a66ce7f62ec4d706bb66f32197900d7d1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Third group of knowledge attributes: detachment from home, spouse, children, and equanimity in favorable and unfavorable occurrences; cleanly divided before mid-line enjambment.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.10",
+      "alignmentFingerprint": "6117d70fa5db12adb8daf8f911b2031b035eadbaec87c220be063d6c5190bacb",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Fourth group of knowledge attributes: unswerving devotion to Krishna alone, resort to solitary places, and aversion to crowd society; exact mid-line boundaries.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.11",
+      "alignmentFingerprint": "925d95490c3eb967736271750d41c5ba7aa4febeb44b29ceded38500063da987",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Conclusion of knowledge attributes: steadfastness in self-knowledge, perception of truth's goal, and declaration that all else is ignorance; exact start at 'endeavours resolute'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.12",
+      "alignmentFingerprint": "f7992775602fd2ead4e472f2d75ce5923de4effc0b94079a48d33f72e9814710",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Announcement of that which is to be known (jneya) which grants immortality: the uncreated Para-Brahman, neither Sat nor Asat.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.13",
+      "alignmentFingerprint": "3deda9bff026fd2bc6bcd34aa5612fcd51848db6a32e59ee2137b68a67821c7f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Classic cosmic vision of the Supreme having hands, feet, eyes, heads, mouths, and ears everywhere, encompassing the universe.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.14",
+      "alignmentFingerprint": "d95d8dfb05e7af375a63dd7acbcf5052221ea82877eb62727d7f32bd521cf8db",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithful rendering of sarvendriyagunabhasa sarvendriyavivarjita: shining through all senses yet free from them, unattached yet sustaining all, master of modes yet attributeless.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.15",
+      "alignmentFingerprint": "57071962276d4d16f84bd1e8d56d6f7c2f64bbb752682d9b8788cf2e8d4dc25a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Within and without all beings, unmoving yet moving, incomprehensible due to subtlety, both near and far.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.16",
+      "alignmentFingerprint": "f890a63d8d841be8cfed6251b12d8e1765b5e33b31e599452c0e63ca544b8004",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Undivided yet seeming divided in all beings, sustainer of beings, devourer, and generator.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.17",
+      "alignmentFingerprint": "b208ab3645162cbf01a060e69c9d3f45bd5d05930e39b05e55d5e63e175fa9e3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Light of lights beyond darkness, wisdom, the object of wisdom, seated in the hearts of all.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.18",
+      "alignmentFingerprint": "f314dd10615888cfc4363baa557d07c7bde05441486b05a049c275140cdadf80",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Summary of the field, knowledge, and the object of knowledge; the devotee who understands this attains Krishna's being.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.19",
+      "alignmentFingerprint": "c06d194595148e4603cbc2a0303ad6a7ab762707e8574bd5da9e7f3a48a9e64e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Both Prakriti and Purusha are beginningless; all modifications and qualities originate from Prakriti.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.20",
+      "alignmentFingerprint": "e525ab8119b640c6e7387e6184076d67e4dcc82114ec8bd54ed946de0b6e1718",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "Prakriti is the cause in the generation of causes and effects; Purusha is the cause in the experience of pleasure and pain.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.21",
+      "alignmentFingerprint": "e1e311dc94ca57ab137d76de23ccd7b3a4982299f1dccd7a2a3af8ab59962187",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Purusha dwelling in Prakriti experiences the Gunas, and attachment to the Gunas causes birth in good and evil wombs (yonis, annotated in note 29).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.22",
+      "alignmentFingerprint": "0bed5b4e0a6392768657a1ad7fd74296772c42123db483407c81c18c53be1d33",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The Supreme Purusha in the body: spectator, permitter, supporter, experiencer, Great Lord, and Paramatman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.23",
+      "alignmentFingerprint": "ed3069bddafe74af377c8ad186741243fe94984fd1339e08b6a31d9109667419",
+      "status": "verified",
+      "confidence": 0.95,
+      "notes": "He who knows Purusha and Prakriti with the Gunas, in whatever state he lives, is not born again.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.24",
+      "alignmentFingerprint": "8675e58f18b1da4ccd86da175b051a5678e361aff12849c7ea8f94e3033a2b1b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Diverse spiritual paths: some perceive the Self through meditation, others through Sankhya philosophy, others through Karma-yoga.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.25",
+      "alignmentFingerprint": "f5c6c8ba3568d57a2787cc04c63474fe2882a01aab34e7f6e53736a9949bc202",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Those who lack direct knowledge but worship hearing from others also transcend death devoted to what they have heard.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.26",
+      "alignmentFingerprint": "7681761900211accfbc1f9deb4a2657a72b7d7c9b8fa74d6b08f32051f8a86f1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Whatever being is born, moving or unmoving, arises from the union of the field and the knower of the field.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.27",
+      "alignmentFingerprint": "98e8c99a917aeca66869e575997d5db205b683de9efa4493d1afac5a89917d0a",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "He who sees the Supreme Lord dwelling equally in all perishable beings as imperishable truly sees; cleanly begins at 'Know'.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.28",
+      "alignmentFingerprint": "2a72a74c974642ead95387bf194b14a9ab0d5f883baf4cb8863fe52920689f55",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Seeing the Lord equally present everywhere, he does not injure self by self and attains the supreme goal.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.29",
+      "alignmentFingerprint": "28c1fdfb44a48e3d3599e4f17b53e582419052eebf3dc3ad81208492f0060b8b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "He who sees that all actions are performed solely by Prakriti and that the Self is non-agent truly sees.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.30",
+      "alignmentFingerprint": "11feada87962416ad90997813d5945b271b1bc9914bde8a6fec85af168be1ee1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "When one sees the diversified existence of beings rooted in the One and expanding from It, he attains Brahman.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.31",
+      "alignmentFingerprint": "88ff47724d26fa9d1ecfe0e1e02a85a704216184567b2d2977579ff518ca0a88",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Being beginningless and attributeless, the Supreme Imperishable Self, even while dwelling in the body, neither acts nor is stained.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.32",
+      "alignmentFingerprint": "29bab4c6348fa1fe1a6b6c800070797166be76a0eba21e87e6101b056003d2b3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "As all-pervading space is not tainted due to its subtlety, so the Self situated everywhere in the body is untainted.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.33",
+      "alignmentFingerprint": "ac3344266e48be5c57319f68fa6ec70965c2b528380aeca42e8bd334184fcfae",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "As the single sun illuminates the whole world, so the Knower of the Field illuminates the entire field; bracketed gloss retained from source.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.13.34",
+      "alignmentFingerprint": "854537659f1cf5994f996f9218d836a4240cc9cdaeb3210a1987cd4b60bd3752",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Those who perceive with the eye of wisdom the distinction between field and knower and the liberation of beings from Prakriti go to the Supreme.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Canonical 13.1 begins with Krishna's discourse; Arjuna's introductory three lines ('Now would I hear...') are correctly segregated as recensional prelude paratext in accordance with the standard 34-verse canon.",
+    "Verse 13.4 is an explicit, verified source omission; Arnold omitted the two Sanskrit lines referencing Vedic chants and Brahma-sutra reasoning with an ellipsis and footnote 28.",
+    "Verses 13.9, 13.10, and 13.11 feature clean intra-line boundary splits around 'with a will set firm' and 'endeavours resolute', preserving exact semantic verse correspondences without bleed.",
+    "All 34 canonical references are fully accounted for with high semantic fidelity."
+  ]
+}

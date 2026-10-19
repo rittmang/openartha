@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 3,
+  "inputSha256": "356532def55e53a4e37ec2d0636a886b7c3cae81d96795b1674769301e8cc32b",
+  "reviews": [
+    {
+      "canonicalRef": "gita.3.1",
+      "alignmentFingerprint": "680e9e958489e8f7eee628ddfb7cfcf1f825579fa2d8a06006e4533bbed9feaa",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna opening dilemma: if knowledge is ranked above action, why urge participation in terrible warfare?",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.2",
+      "alignmentFingerprint": "c4076b3d8a49d7b88ec6e5afe6403a0eac44ab497f9af5cdd263052a7a5703b8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna asks Krishna to resolve seemingly conflicting counsel and clearly indicate the single path to supreme good.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.3",
+      "alignmentFingerprint": "afc83eb1fd28aabc3119d6a288f19bf1cdcaed1ddb7ea544a1cadd7b56f8f637",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna sets forth the twofold spiritual path: contemplation for the Sankhyas and action for the Yogins.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.4",
+      "alignmentFingerprint": "1fedbcbda0f331b41dd4191359a6e453d2d592a4263786f54690d2e7685e982d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Abstaining from action does not secure freedom from action (nai\u1e63karmyam), nor does mere renunciation bring perfection.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.5",
+      "alignmentFingerprint": "148a587ea65130af5b3c381fffaa83cbc776b4d41843919f62fab3993233c52e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "No living being remains motionless even for an instant, compelled to act by the innate gunas of Nature.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.6",
+      "alignmentFingerprint": "d6ba4a35f4e8fa62bdfde4d71782589aa185d6a4766a323cd23c5334aa3d1a21",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Denunciation of the hypocrite who reins in outer physical organs while mentally indulging in sensory objects.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.7",
+      "alignmentFingerprint": "f301ba93b0f176941a91f930e25bdc4a153a506663725e6890e0098bd5b628f2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Praise of the earnest seeker who governs the senses with the mind and undertakes karma-yoga unattached.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.8",
+      "alignmentFingerprint": "5c063d2ef3e3b086d9527eb877a6e5b0c2d2df4ec022f2c71c834f8e200f6398",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Injunction to perform allotted duties: work is superior to idleness, and bodily life itself requires action.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.9",
+      "alignmentFingerprint": "07d20c318ea4edc96755237afe39d731c2c461689d8cf342393ec521983b5b3d",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Work performed as sacred offering (yaj\u00f1\u0101rth\u0101t karma\u1e47a\u1e25) frees from worldly bondage; act selflessly for sacrifice.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.10",
+      "alignmentFingerprint": "4815383182ac67b8dbc61197658f8014eb4c02f7f06c9db1276af8bc24bad101",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Cosmic institution: Prajapati creating mankind alongside sacrifice, calling it the wish-yielding cow (Kamaduk).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.11",
+      "alignmentFingerprint": "16e6cf4cdbafbc351918129f81618f368e63b5112ea1f7d535cfed2e8b001dbc",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Reciprocal obligation: foster the divine powers through sacrifice that they in turn may foster human life.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.12",
+      "alignmentFingerprint": "1ff215950bcd8043d69786c521520ea7f844d6df6a52a3e3fa3ebfdd66dcbd77",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Gods reward selfless labor; one who consumes divine bounties without offering sacrificial return is a thief.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.13",
+      "alignmentFingerprint": "c00eda8170c4fb5e40c4a97b08f97a5e4edd1f0750fd50415b5aa6e6b2230783",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Righteous eaters of sacrificial remnants are absolved of fault, while those cooking solely for themselves eat sin.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.14",
+      "alignmentFingerprint": "4035f644cc63d72bd050ac01fe54bf345490f0a2589e6980217e56d49dfb608b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Cosmic chain: beings live by food, food comes from rain, rain from sacrifice, and sacrifice from human action.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.15",
+      "alignmentFingerprint": "d7a19f6c8b79f465ed8d61cdac32ea3ac2fb881bfac2e4d7d492fa6285f2aef7",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Action originates in Brahma, and Brahma from the Imperishable; the all-pervading divine is rooted in sacrifice.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.16",
+      "alignmentFingerprint": "8a44f8090aaea86f64bbfccc6592a6e602fae095200e7ca987c185ed0edf2b8b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Censure of one who refuses to sustain this cosmic wheel, indulging sensual appetite in vain, sinful existence.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.17",
+      "alignmentFingerprint": "d46f938759205b21a12f63e4db28079ecc4e6924df9c42b5f2be23a77c43c63f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Exemption for the self-realized sage who delights in the Self, satisfied and contented in the Self alone.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.18",
+      "alignmentFingerprint": "f65f3fdb818be857ca31bbc0ce730f35b829c2d550fc601c970e1db336970418",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "For the enlightened sage there is nothing to gain by action or inaction, and no dependency on creatures; note [FN#5].",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.19",
+      "alignmentFingerprint": "d94259894f3cdc678d6dca3f3b3952faa161cc650c69f89028314e5c3c068ccd",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Admonition to perform prescribed tasks with detachment, as selfless action conducts man to highest liberation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.20",
+      "alignmentFingerprint": "18747eea56a28fb7c2ab4753ded89558fde34bb853805fa5547279b2c7826bd3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Historical exemplar: King Janaka and ancient seers attained perfection through duty and world-maintenance (loka-sa\u1e45graham).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.21",
+      "alignmentFingerprint": "94dfde1ae3a3c8c32198c7e33fe2de96cb75fae446517eb2380a9b44c7d7ec9b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Leadership principle: whatever standards eminent men set, ordinary people adopt and follow.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.22",
+      "alignmentFingerprint": "0628d6ae0d2121e2f3e45d2bb76175176ab48e2c9874dd5d06fb3f5771d74b3b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna personal example: possessing no unfulfilled desires across the three worlds, yet ever engaged in action.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.23",
+      "alignmentFingerprint": "b45408e37f5c005f20f019bc78d9727be291514a0aa78f3ad36ff19b3099094b",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "If the Lord ceased tireless action, mankind would follow that idle example and decline into degradation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.24",
+      "alignmentFingerprint": "8eed6025526d6d9676f1cc5f291ffc341bf0acdd84c15304714245f12b9a7b53",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Cosmic ruin and confusion of human order would result if divine sustenance through righteous action were withdrawn.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.25",
+      "alignmentFingerprint": "6ff7a7a27ea7c36475bac6a17717bb88c669fec3b53d31fedf4f080132affa13",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The enlightened should work without attachment for the welfare of the world, just as the ignorant work for personal ends.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.26",
+      "alignmentFingerprint": "4ca54626e3e6d903f3773d72c6aa16db664627b03f2c80cf2e52865486b6f96e",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The wise must not unsettle the minds of the unenlightened, but inspire them by dedicated engagement in all duties.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.27",
+      "alignmentFingerprint": "76f42f94903290647f6673b093c79a86f742446b524562e4ce60abc65eb4b202",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "All activities are operated by the qualities of Nature; the egoist deceived by self-conceit thinks \"I am the doer\".",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.28",
+      "alignmentFingerprint": "51283c9c52d1385bc9f2417b4d9029584defb75d7ad1b402a0e7d839e42b4348",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The seer of truth recognizes that gunas act upon gunas, standing detached and unentangled in acts.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.29",
+      "alignmentFingerprint": "038e1dbd2af124a9371cbc808ac711719a66da97b802ef4dfbfd9ee356467bfa",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Those blinded by Nature qualities remain attached to works; the person of complete vision must not perturb them.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.30",
+      "alignmentFingerprint": "595c0224af68f713ebb56bde6a7dcc99122ad41cf930020231b8d4d653634d06",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Command to dedicate all works to Krishna with spiritual focus, devoid of selfish hope or egoism, fighting free of fever.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.31",
+      "alignmentFingerprint": "1ea09b269762ece7e11d81f1cf40e31c74e53bab7c8f1a3debefe9dba68e5cab",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Liberation promised to those who faithfully and without carping practice this divine doctrine in daily conduct.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.32",
+      "alignmentFingerprint": "5e8bd35b9dd1833687aeaf86c18e1563dbb32d1470d837cdf3906c1781213ab0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Those who revile and ignore this ordinance are declared devoid of wisdom, senseless, and doomed to spiritual ruin.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.33",
+      "alignmentFingerprint": "38848cb7f773a9a2010adc377c000fea945f3140c002d48edee48a444f8d64d3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Even the learned follow their innate disposition; all beings conform to nature, and mere suppression is futile.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.34",
+      "alignmentFingerprint": "42058f61a07bc77e8b855e9830ecbe5cf190b76ee65d49b0058f3eab980d7209",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Sensory organs have instinctive likes and dislikes toward their objects; one must not be enslaved by these twin adversaries.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.35",
+      "alignmentFingerprint": "4ae500fbf7d3f578c6c7728dfeb9db97734ac2f2b671f1600904c00ad3a98f56",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Superiority of one own duty (svadharma) over an alien path: death in one own calling is blessed, another path is fraught with dread.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.36",
+      "alignmentFingerprint": "10da8683f3638ce9abdbbc1c64f0b7f53a293465b6a32a0a57006ebd32fc7557",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Arjuna inquires what mysterious force compels a man to commit sinful deeds as if dragged against his will.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.37",
+      "alignmentFingerprint": "6c42a8953ef356c42c28acd8491e7cc6579b83c3e8520607810a9e94cc5dc0ff",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Krishna identifies desire (k\u0101ma) and anger (krodha), springing from the rajas quality, as humanity voracious enemy.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.38",
+      "alignmentFingerprint": "21a1c91ea7d2e8579442803810720785ba5185ae6fdc7d3a489821036afada69",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Tripartite simile of desire obscuring truth: like smoke enveloping flame, rust/dust a mirror, and the womb the embryo.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.39",
+      "alignmentFingerprint": "a3a6fa2d6f147587bf6c803e7b6da5397360737a9708ca266934a36a1a4b6a22",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Wisdom is veiled by this eternal adversary of the wise, assuming the protean and insatiable shape of desire.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.40",
+      "alignmentFingerprint": "f2326f76a4613ac36058c5cd944faf7ab9fb2c06b2a6d510d67f6491a0519029",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "The senses, mind, and intellect are identified as the fortress and stronghold of desire whence it bewilders the soul.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.41",
+      "alignmentFingerprint": "883aec0a5f02002eea4b039cb55397ad85ac48195087aaae9fdb649b0d647ff0",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Injunction to master the senses at the outset and destroy this sinful destroyer of knowledge and spiritual discernment.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.42",
+      "alignmentFingerprint": "529510e322ccfdc366d82d15e07a9fccf98c3c3a28de8e7a6d31d53f86184905",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Psychological hierarchy: senses are subtle, mind is higher than senses, intellect higher than mind, and the Soul above intellect.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.3.43",
+      "alignmentFingerprint": "18db3b7a271e603e8f3fb21ebbff6e4a4b13871696f48cd45b772528ccb8882f",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Concluding charge: perceiving the Supreme Self beyond intellect, subdue lower self by the Self and slay desire.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Chapter 3 maintains exact verse-by-verse alignment for all 43 canonical references without any textual gaps, omissions, or shared ranges.",
+    "The sacrificial cycle (yaj\u00f1a, Prajapati, rain, food in 3.10-3.16) and the psychological escalation of desire (3.36-3.43) map cleanly to their respective Sanskrit shlokas.",
+    "Mid-line clause boundaries (e.g. 3.3/3.4, 3.5/3.6, 3.7/3.8, 3.9/3.10, 3.10/3.11, 3.11/3.12, 3.15-3.23, 3.27-3.29, 3.30/3.31, 3.32-3.34, 3.41/3.42) are correctly segmented."
+  ]
+}

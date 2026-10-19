@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "reviewerModel": "google/gemini-3.8-flash",
+  "providerModel": "openrouter/google/gemini-3.8-flash",
+  "transport": "opencode",
+  "reviewedCommit": "0a55cab02e02fb7e651a16fc2488f5fa22ea149f",
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "chapter": 12,
+  "inputSha256": "aa884338ea21fc1ba904e7a784a53fa618afeb4f8b50ef5ddfb47b21f1ab2e44",
+  "reviews": [
+    {
+      "canonicalRef": "gita.12.1",
+      "alignmentFingerprint": "0534cb1ac464f32f62d2ca5537350bcfe8bb184f63b5b76eda31b835455009df",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents Arjuna's query comparing devotees of the revealed personal God with worshippers of the unrevealed, unbodied Absolute.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.2",
+      "alignmentFingerprint": "481c40d1b375108188b8d57e629361aa8a10e76740fa202a99780a85878867c3",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches Krishna's judgment that those who fix their minds on Him with steadfast faith and constant devotion are the most perfect yogis.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.3",
+      "alignmentFingerprint": "143c661a62d400e11637308602e30ba222cc04e9e12f3ff69a81f61be251680d",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Faithfully renders the attributes of the Akshara: Invisible, Unrevealed, Unnamed, Unthinkable, All-pervading, and Immovable.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.4",
+      "alignmentFingerprint": "3a83346395d40b258b733f721970ac9dcaa59dc3dc19624be103fb1ae0961bf2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches mastering the senses, remaining even-minded everywhere, delighting in the welfare of all beings, and attaining the Lord.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.5",
+      "alignmentFingerprint": "b9c8a7e0a4067045e5d26fba89e1aecc1f71b740d52cd735d385fec9624f8332",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately conveys the greater hardship (kleśo'dhikataras) of the unmanifest path for embodied mortals.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.6",
+      "alignmentFingerprint": "875b3a28472e83b395ab99b42925bdc8d269c575117c624ed001a55ba053fdda",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches dedicating all actions to Krishna, holding Him supreme, and meditating with unswerving devotion.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.7",
+      "alignmentFingerprint": "7148094186451ebbae2d6e631c89b4340ec65c8a7d01f75ae58125f50c3a6656",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders the Lord swiftly delivering those whose minds are absorbed in Him from the ocean of mortal existence (mṛtyusaṃsārasāgarāt).",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.8",
+      "alignmentFingerprint": "8cb7ff66ef740e505d6f69db9eae0d90eefb285be6cd09cb29da35543b224943",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately represents fixing heart and mind on Krishna alone, dwelling with Him beyond doubt.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.9",
+      "alignmentFingerprint": "08b366d598d78523c031ea684c78d74ea2b94d775b4e9394a381f97d5906099e",
+      "status": "verified",
+      "confidence": 0.97,
+      "notes": "Matches abhyāsayoga: seeking to attain the Lord through constant, steadfast practice if unable to fix the mind firmly at once.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.10",
+      "alignmentFingerprint": "e6d201c52ee027857e4f22e6f5c2454638949c2a9e63f6211c36c566610af1f8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches performing works dedicated to the Lord (matkarmaparamo bhava) to achieve perfection if unable to practice meditation.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.11",
+      "alignmentFingerprint": "a9e0a2470b04bb5e72e0cbeb0d804399a00aab372dd9ff58df6ee85339ffd7c8",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully reflects renouncing the fruits of all labor (sarvakarmaphalatyāga) with self-control as the refuge for the faint of heart.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.12",
+      "alignmentFingerprint": "571256502671237e327d7ad067612cf2c87dad87f10b0eb751e0c42c08d24ad5",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately preserves the graded hierarchy: knowledge excels mechanical practice, meditation excels knowledge, renunciation of fruits excels meditation, bringing immediate Peace.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.13",
+      "alignmentFingerprint": "a11a27207b4aef31e4e927fa1310ca3355aa9c21d9c84d1c5abefb4b8a7b6952",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders adveṣṭā sarvabhūtānāṃ maitraḥ karuṇa eva ca: hating no creature, friendly, compassionate, free from egoism and pride, patient in joy and grief.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.14",
+      "alignmentFingerprint": "7946b62ed0557b00bc386f9513624dd98cd0a68d105eb952214ed8078956cf39",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches ever content, self-controlled, of firm resolve, mind and intellect dedicated to Krishna ('That man I love!').",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.15",
+      "alignmentFingerprint": "29cd9515daeadcac0c4ca21a4a14a6e455851d3651b495a1c5642a641c8372c2",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately conveys neither troubling the world nor troubled by it, freed from joy, anger, fear, and anxiety ('That man I love!').",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.16",
+      "alignmentFingerprint": "87a29b9da615202ac4e0cea0a2b54b69c55f39c3c2c09adf63cf89555e3c8299",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Matches dwelling quiet-eyed (anapekṣa [FN#25]), pure, dexterous, impartial, and renouncing selfish undertakings.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.17",
+      "alignmentFingerprint": "f52bf4c8e9ac604b1918c12323485d2ea30e4da421d50632fc6471af9ea63568",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Faithfully renders neither rejoicing nor hating, grieving nor hankering, renouncing both good and evil, full of devotion.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.18",
+      "alignmentFingerprint": "0846a601c0df38086a654503e4d8d1daf6f5d0ef8061d511a9f2e09457753ace",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Directly matches remaining equal to friend and foe, in honour and ignominy, in heat and cold, and in pleasure and pain.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.19",
+      "alignmentFingerprint": "cf4505be6331b926f73738a8f574d73bab44c12345f9e8c229a775bb211dd706",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately captures equanimity under praise or blame (tulyanindāstutir), silent, content with whatever comes, homeless, steady in mind.",
+      "suggestedCorrection": null
+    },
+    {
+      "canonicalRef": "gita.12.20",
+      "alignmentFingerprint": "e668f52d428d667ae8b30008b4f98a7ec03da95c74cc1ac9935d25244e970ca1",
+      "status": "verified",
+      "confidence": 0.98,
+      "notes": "Accurately concludes the chapter: those who follow this immortal doctrine of devotion (dharmyāmṛtam) with faith and surrender are exceedingly dear to the Lord.",
+      "suggestedCorrection": null
+    }
+  ],
+  "chapterFindings": [
+    "Chapter 12 translation provides complete 1-to-1 canonical coverage across all 20 verses without omissions or mergers.",
+    "Arnold structures the concluding portrait of the ideal devotee with the recurring cadence 'That man I love!', faithfully reflecting the repeated Sanskrit refrain 'sa me priyaḥ'.",
+    "Footnote [FN#25] is accurately positioned on the translation of 'anapeksha' in verse 12.16."
+  ]
+}
