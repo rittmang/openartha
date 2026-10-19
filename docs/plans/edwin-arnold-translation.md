@@ -1,6 +1,6 @@
 # Edwin Arnold translation
 
-Status: original translation/review deployment completed as recorded below. Shared-author runtime follow-up is implemented and verified locally; the user authorized publication with “Deploy the changes.” Push/deployment is in progress. Remote migrations 0043–0044 are already applied and no new migration is needed.
+Status: shared-author runtime follow-up is complete and deployed. The user authorized publication with “Deploy the changes.” Application commit `630d3de` is pushed to `main` and deployed as Cloudflare version `db6b3856-53e4-4520-bb6f-5e91d5b95764` to `openartha.rittmang.xyz`, `gita.rittmang.xyz`, and `openartha.godmod.workers.dev`. Existing remote migrations 0043–0044 suffice; no new migration was needed.
 
 ## Shared author data path follow-up
 
@@ -18,6 +18,7 @@ Status: original translation/review deployment completed as recorded below. Shar
 - `docs/reports/public-api/local-shared-authors.json` records 3,943 local HTTP requests: 53,858 passed assertions, 41 remaining failures. All 414 author-chapter order checks and all 36 search-integrity checks pass; all 700 passages and 21,000 reading records still match their exports. The remaining 41 assertions cover unrelated cache/negotiation/scoped-envelope issues from the original audit.
 - Local review entry points: `http://localhost:3100/gita/commentaries/edwin-arnold/1`, `http://localhost:3100/gita/commentaries/swami-sivananda/1`, and `http://localhost:3100/gita/1/1`. No browser, push, deployment, remote migration, or production follow-up check was performed.
 - The user subsequently instructed “Deploy the changes,” authorizing publication of the locally verified follow-up. Use the existing Cloudflare deployment workflow; do not perform browser-based or other post-deployment checks.
+- [x] Publish the approved follow-up. Commit `630d3de` was pushed to `main`. [GitHub Actions run 39210983718](https://github.com/rittmang/openartha/actions/runs/39210983718) passed corpus/TEI validation, all 34 tests, and the build, then failed during Cloudflare authentication with codes 10000/9109 because its stored token remains invalid. `pnpm run deploy` completed successfully using the existing local Cloudflare authentication. Wrangler reported version `db6b3856-53e4-4520-bb6f-5e91d5b95764` and all three configured domains. No browser-based or other post-deployment checks were performed. The CI Cloudflare secret still requires replacement for future automated deployments.
 
 ## Scope and decisions
 

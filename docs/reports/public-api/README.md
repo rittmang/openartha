@@ -10,6 +10,8 @@ The [follow-up local audit](./local-shared-authors.json) sent 3,943 requests: **
 
 At the end of local verification, this follow-up had not been pushed or deployed, and production was not retested during it. The user subsequently authorized publication with “Deploy the changes”; deployment status is maintained in the [translation milestone](../../plans/edwin-arnold-translation.md#shared-author-data-path-follow-up). This local verification does not establish resolution of production resource-limit failures or review-state discrepancies. The original evidence files and findings below describe the baseline audit; follow-up results are retained separately.
 
+The approved follow-up was subsequently pushed as application commit `630d3de` and deployed successfully with the local Cloudflare CLI as version `db6b3856-53e4-4520-bb6f-5e91d5b95764`. The GitHub deployment workflow passed validation/tests/build but its invalid Cloudflare token prevented CI deployment. No production checks were performed after publication, following `AGENTS.md`; this report does not claim the remaining production findings are resolved.
+
 ## Method and coverage
 
 The audit sent ordinary HTTP requests to `https://openartha.rittmang.xyz` and the existing local server at `http://localhost:3100`. No browser, browser automation, deployment, remote database mutation, or application behavior change was used. The runner imports no application code. Expected text and metadata come from pinned public JSONL exports and release manifests, and returned content is independently hashed with SHA-256.
