@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "corpusVersion": "gita-edwin-arnold-1.0.0",
+  "workId": "gita",
+  "translationId": "edwin-arnold",
+  "granularity": "chapter",
+  "chapters": 18,
+  "translatorNotes": 37,
+  "sourceSha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+  "files": [
+    {
+      "name": "translation.json",
+      "bytes": 132510,
+      "sha256": "c16b48c2379eff997804a8464848c3efd4d2cc18806c82d9493296137271b1ae"
+    },
+    {
+      "name": "pg2388.txt",
+      "bytes": 147501,
+      "sha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0"
+    },
+    {
+      "name": "rights.json",
+      "bytes": 1182,
+      "sha256": "bee44c294e73791d408fc3edc17b6064f535d14e168c35cdc1ccd9b1abeec535"
+    }
+  ]
+}

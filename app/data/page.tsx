@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import manifest from '@/public/data/gita-1.0.0-rc.1/manifest.json';
 import commentaryManifest from '@/public/data/gita-commentaries-0.2.0/manifest.json';
+import translationManifest from '@/public/data/gita-edwin-arnold-1.0.0/manifest.json';
 import { corpus } from '@/app/lib/corpus';
 import { StatusPill } from '@/components/status-pill';
 
@@ -57,6 +58,11 @@ export default function DataPage() {
         <div className="release-heading"><div><span>Commentary research preview</span><h2 id="commentary-release-title">{commentaryManifest.corpusVersion}</h2></div><span>{commentaryManifest.commentaryRecords.toLocaleString()} records · {commentaryManifest.publicEditions} public witnesses</span></div>
         <div className="download-list">{commentaryManifest.files.map((file) => <a key={file.name} href={`/data/${commentaryManifest.corpusVersion}/${file.name}`} download><span className="file-type">{file.name.split('.').at(-1)?.toUpperCase()}</span><span><strong>{file.name}</strong><small>{commentaryFormatNote(file.name)} · {fileSize(file.bytes)}</small></span><span aria-hidden="true">↓</span></a>)}</div>
         <div className="manifest-links"><a href={`/data/${commentaryManifest.corpusVersion}/manifest.json`}>Manifest.json</a><a href={`/data/${commentaryManifest.corpusVersion}/checksums.sha256`}>SHA-256 checksums</a><a href="/api/v2/commentaries/authors">Author registry API</a></div>
+      </section>
+      <section className="release-card commentary-release" aria-labelledby="translation-release-title">
+        <div className="release-heading"><div><span>Edwin Arnold · The Song Celestial</span><h2 id="translation-release-title">English chapter translation</h2></div><span>{translationManifest.chapters} chapters · {translationManifest.translatorNotes} notes</span></div>
+        <div className="download-list">{translationManifest.files.map((file) => <a key={file.name} href={`/data/${translationManifest.corpusVersion}/${file.name}`} download><span className="file-type">{file.name.split('.').at(-1)?.toUpperCase()}</span><span><strong>{file.name}</strong><small>{file.name === 'translation.json' ? 'All 18 chapters, translator notes, and provenance' : file.name === 'pg2388.txt' ? 'Unchanged Gutenberg source, credits, and full license' : 'Source-specific rights and attribution'} · {fileSize(file.bytes)}</small></span><span aria-hidden="true">↓</span></a>)}</div>
+        <div className="manifest-links"><a href={`/data/${translationManifest.corpusVersion}/manifest.json`}>Manifest.json</a><a href={`/data/${translationManifest.corpusVersion}/checksums.sha256`}>SHA-256 checksums</a><a href="/gita/translations/edwin-arnold">Read the translation</a></div>
       </section>
       <section className="data-notice">
         <div><span className="eyebrow">Release gate</span><h2>Structured does not mean verified.</h2></div>

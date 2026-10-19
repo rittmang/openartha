@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { chapterTitles, corpus, getChapter } from '@/app/lib/corpus';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { PassageCard } from '@/components/passage-card';
+import { ChapterTranslationLinks } from '@/components/chapter-translation-links';
 
 type Props = { params: Promise<{ chapter: string }> };
 
@@ -37,6 +38,7 @@ export default async function ChapterPage({ params }: Props) {
         <p>{englishTitle}</p>
         <span>{passages.length} verses</span>
       </header>
+      <ChapterTranslationLinks chapter={chapter} />
       <div className="passage-list chapter-passages">
         {passages.map((passage) => <PassageCard key={passage.id} passage={passage} />)}
       </div>

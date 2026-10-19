@@ -1,0 +1,63 @@
+import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import { parseGutenbergTranslation } from './lib/parse-gutenberg-translation.mjs';
+
+const root = fileURLToPath(new URL('../', import.meta.url));
+const corpusDir = path.join(root, 'corpus/gita-translations/edwin-arnold');
+const metadata = JSON.parse(await readFile(path.join(corpusDir, 'source.json'), 'utf8'));
+const raw = await readFile(path.join(corpusDir, 'source/pg2388.txt'));
+const sha256 = (value) => createHash('sha256').update(value).digest('hex');
+assert.equal(sha256(raw), metadata.source.sha256, 'Downloaded source must match its pinned checksum');
+const parsed = parseGutenbergTranslation(raw.toString('utf8'));
+const translation = {
+  schemaVersion: 1,
+  ...metadata,
+  chapters: parsed.chapters.map((chapter) => ({
+    id: `gita.edwin-arnold.${chapter.chapter}`,
+    ...chapter,
+    checksum: sha256(chapter.text),
+  })),
+  notes: parsed.notes,
+};
+const rights = {
+  translationId: metadata.id,
+  workId: metadata.workId,
+  title: metadata.title,
+  translator: metadata.translator,
+  editionYear: metadata.editionYear,
+  rights: metadata.source.rights,
+  source: metadata.source,
+  distribution: 'The complete, unchanged Project Gutenberg source, including credits and full license, is included as pg2388.txt.',
+  metadataLicense: 'CC BY 4.0',
+};
+const files = [
+  { name: 'translation.json', data: JSON.stringify(translation, null, 2) + '\n' },
+  { name: 'pg2388.txt', data: raw },
+  { name: 'rights.json', data: JSON.stringify(rights, null, 2) + '\n' },
+];
+const manifest = {
+  schemaVersion: 1,
+  corpusVersion: metadata.corpusVersion,
+  workId: metadata.workId,
+  translationId: metadata.id,
+  granularity: metadata.granularity,
+  chapters: translation.chapters.length,
+  translatorNotes: translation.notes.length,
+  sourceSha256: metadata.source.sha256,
+  files: files.map(({ name, data }) => ({ name, bytes: Buffer.byteLength(data), sha256: sha256(data) })),
+};
+const publicDir = path.join(root, 'public/data', metadata.corpusVersion);
+await mkdir(publicDir, { recursive: true });
+await writeFile(path.join(corpusDir, 'translation.json'), files[0].data);
+for (const file of files) await writeFile(path.join(publicDir, file.name), file.data);
+const manifestJson = JSON.stringify(manifest, null, 2) + '\n';
+await writeFile(path.join(publicDir, 'manifest.json'), manifestJson);
+await writeFile(path.join(publicDir, 'checksums.sha256'), [
+  ...manifest.files.map((file) => `${file.sha256}  ${file.name}`),
+  `${sha256(manifestJson)}  manifest.json`,
+  '',
+].join('\n'));
+console.log(`Built ${metadata.corpusVersion}: ${translation.chapters.length} chapters, ${translation.notes.length} translator notes.`);

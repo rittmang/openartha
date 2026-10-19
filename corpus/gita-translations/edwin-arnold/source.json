@@ -1,0 +1,31 @@
+{
+  "id": "edwin-arnold",
+  "workId": "gita",
+  "corpusVersion": "gita-edwin-arnold-1.0.0",
+  "title": "The Song Celestial; Or, Bhagavad-Gîtâ (from the Mahâbhârata)",
+  "translator": "Sir Edwin Arnold",
+  "language": "en",
+  "editionYear": 1900,
+  "publisher": "Truslove, Hanson & Comba, Ltd., New York",
+  "granularity": "chapter",
+  "reviewStatus": "Source chapter boundaries checked automatically; independent textual review pending",
+  "alignmentStatus": "Chapter-level translation; verse alignment not verified",
+  "source": {
+    "id": "gutenberg-2388",
+    "ebookNumber": 2388,
+    "catalogUrl": "https://www.gutenberg.org/ebooks/2388",
+    "requestedTextUrl": "https://www.gutenberg.org/files/2388/2388-0.txt",
+    "textUrl": "https://www.gutenberg.org/cache/epub/2388/pg2388.txt",
+    "retrievedAt": "2026-10-19T02:36:09Z",
+    "sha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+    "credits": "Produced by J. C. Byers. HTML version by Al Haines.",
+    "rights": "Public domain in the USA",
+    "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+    "retrievalNote": "The requested files/2388/2388-0.txt URL returned HTTP 404. Downloaded once from the current plain-text link on the catalog page; no runtime API or network retrieval is used."
+  },
+  "sourceNotes": [
+    "The title page identifies the digitized print edition as 1900.",
+    "Arnold explicitly notes omissions and disputed readings. Chapter text is preserved without assigning it to individual canonical verses.",
+    "Chapter VIII repeats the [FN#14] marker, while note 15 has no matching marker. Chapter X prints [FN#l6] with a lowercase l. These source anomalies are preserved; all 37 notes remain available."
+  ]
+}

@@ -1,0 +1,3 @@
+# Preserve the downloaded Gutenberg source byte-for-byte, including CRLF and original spacing.
+corpus/gita-translations/edwin-arnold/source/pg2388.txt -text -whitespace
+public/data/gita-edwin-arnold-1.0.0/pg2388.txt -text -whitespace

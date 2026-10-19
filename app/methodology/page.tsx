@@ -14,6 +14,7 @@ const steps = [
   ['05', 'Version every correction', 'A released file is immutable. Corrections create a new corpus version, regenerate every export, and appear in the changelog.'],
   ['06', 'Keep verses and paratext distinct', 'The commentary source has 719 chapter-level records. Eighteen colophons and the alternate Chapter 13 opening are preserved as paratext, while only 700 records align to canonical verse IDs.'],
   ['07', 'Carry every license forward', 'All 29 supplied fields from 22 authors are published under the pinned dataset snapshot’s repository-wide GPL-3.0 license. The exact commit, source locators, license text, and checksums travel with the release.'],
+  ['08', 'Respect the source’s chapter structure', 'Edwin Arnold’s The Song Celestial is imported from a saved plain-text copy of Project Gutenberg ebook #2388. Its 18 chapters, colophons, and 37 translator notes retain their source wording and line breaks. Verse alignment has not been verified; the unchanged source, source line locators, and checksums accompany the chapter records.'],
 ];
 
 export default function MethodologyPage() {

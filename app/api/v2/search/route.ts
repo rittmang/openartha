@@ -1,5 +1,6 @@
 import { publicPassage, searchCorpusDetailed } from '@/app/lib/corpus';
 import { searchCommentaries } from '@/app/lib/commentaries';
+import { searchChapterTranslations } from '@/app/lib/translations';
 import { jsonResponse, markdownResponse, wantsMarkdown } from '@/app/lib/http';
 
 export async function GET(request: Request) {
@@ -14,16 +15,20 @@ export async function GET(request: Request) {
 
   const root = searchCorpusDetailed(query).results;
   const commentary = await searchCommentaries(query, limit);
+  const translations = searchChapterTranslations(query);
   const combined = [
     ...root.map((result) => ({ corpus: 'root' as const, kind: result.kind, canonicalRef: result.passage.canonicalRef, passage: publicPassage(result.passage), match: { hits: result.hits } })),
     ...commentary.map((result) => ({ corpus: 'commentary' as const, kind: result.kind, canonicalRef: result.canonicalRef, commentary: result })),
+    ...translations.map((result) => ({ corpus: 'translation' as const, kind: result.kind, chapterRef: result.chapter.chapterRef, translation: { ...result.chapter, translationId: result.translationId, translator: result.translator, corpusVersion: result.corpusVersion, granularity: 'chapter' as const }, match: { ranges: result.ranges } })),
   ].sort((left, right) => (left.kind === right.kind ? 0 : left.kind === 'exact' ? -1 : 1)).slice(0, limit);
 
   if (wantsMarkdown(request)) return markdownResponse([
     `# Unified search: ${query}`, '', `${combined.length} returned matches.`, '',
     ...combined.map((result) => result.corpus === 'root'
       ? `- [${result.passage.chapter}.${result.passage.verse}](/gita/${result.passage.chapter}/${result.passage.verse}) — root corpus · ${result.kind}`
-      : `- [${result.commentary.chapter}.${result.commentary.verse}](/gita/${result.commentary.chapter}/${result.commentary.verse}#commentaries) — ${result.commentary.author} · ${result.commentary.contentType} · ${result.kind}`), '',
+      : result.corpus === 'translation'
+        ? `- [Chapter ${result.translation.chapter}](/gita/translations/${result.translation.translationId}/${result.translation.chapter}) — ${result.translation.translator} · English chapter translation · ${result.kind}`
+        : `- [${result.commentary.chapter}.${result.commentary.verse}](/gita/${result.commentary.chapter}/${result.commentary.verse}#commentaries) — ${result.commentary.author} · ${result.commentary.contentType} · ${result.kind}`), '',
   ].join('\n'));
   return jsonResponse({ data: combined, meta: { query, returned: combined.length, limit, engine: 'unified-d1-fts5-v2' } });
 }

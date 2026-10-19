@@ -1,0 +1,23 @@
+{
+  "translationId": "edwin-arnold",
+  "workId": "gita",
+  "title": "The Song Celestial; Or, Bhagavad-Gîtâ (from the Mahâbhârata)",
+  "translator": "Sir Edwin Arnold",
+  "editionYear": 1900,
+  "rights": "Public domain in the USA",
+  "source": {
+    "id": "gutenberg-2388",
+    "ebookNumber": 2388,
+    "catalogUrl": "https://www.gutenberg.org/ebooks/2388",
+    "requestedTextUrl": "https://www.gutenberg.org/files/2388/2388-0.txt",
+    "textUrl": "https://www.gutenberg.org/cache/epub/2388/pg2388.txt",
+    "retrievedAt": "2026-10-19T02:36:09Z",
+    "sha256": "85b22401a9d256179f9a2e407215eb516da9b8213f23c32e03d66709d839a9e0",
+    "credits": "Produced by J. C. Byers. HTML version by Al Haines.",
+    "rights": "Public domain in the USA",
+    "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+    "retrievalNote": "The requested files/2388/2388-0.txt URL returned HTTP 404. Downloaded once from the current plain-text link on the catalog page; no runtime API or network retrieval is used."
+  },
+  "distribution": "The complete, unchanged Project Gutenberg source, including credits and full license, is included as pg2388.txt.",
+  "metadataLicense": "CC BY 4.0"
+}

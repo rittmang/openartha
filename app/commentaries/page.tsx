@@ -17,6 +17,7 @@ export default function CommentariesPage() {
         <div><div className="eyebrow">Interpretations across the Gita</div><h1>One text. Many paths to meaning.</h1><p>Read Sanskrit, English, and Hindi translations and commentaries beside the verses they interpret. Every reading stays linked to its source.</p></div>
         <StatusPill>{commentarySource.status}</StatusPill>
       </header>
+      <aside className="chapter-translation-links"><span className="eyebrow">English chapter translation</span><a href="/gita/translations/edwin-arnold">Sir Edwin Arnold · The Song Celestial →</a><p>Read all 18 chapters from Project Gutenberg ebook #2388. <a href="/gita/translations">Explore all available translations →</a></p></aside>
       <section aria-labelledby="published-title">
         <div className="section-heading"><h2 id="published-title">Explore by author</h2><span>{published.length} authors · {witnessCount} translations and commentaries</span></div>
         <div className="author-grid">{published.map((author) => <a className="author-card" key={author.id} href={`/gita/commentaries/${author.id}`}><span className="eyebrow">{author.publicFields.map((field) => commentaryFieldLabels[field]).join(' · ')}</span><h3>{author.displayName}</h3><p>{author.rightsNote}</p><span className="text-link">Read by chapter →</span></a>)}</div>

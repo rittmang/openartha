@@ -1,38 +1,45 @@
 import type { Metadata } from 'next';
 import { corpus, chapterTitles, searchCorpusDetailed, type PassageSearchResult, type Passage } from '@/app/lib/corpus';
 import { searchCommentaries, type CommentarySearchResult } from '@/app/lib/commentaries';
+import { searchChapterTranslations, type ChapterTranslationSearchResult } from '@/app/lib/translations';
 import { PassageCard } from '@/components/passage-card';
 import { CommentarySearchCard } from '@/components/commentary-search-card';
+import { TranslationSearchCard } from '@/components/translation-search-card';
 import { StatusPill } from '@/components/status-pill';
 
 export const metadata: Metadata = {
   title: 'Read the Bhagavad Gita',
-  description: 'Read and search all 700 verses of the Bhagavad Gita across Sanskrit, transliteration, English translation, and 29 supplied translations and commentaries.',
+  description: 'Read and search the Bhagavad Gita in Sanskrit, transliteration, Telang and Edwin Arnold English translations, and 29 supplied translations and commentaries.',
   alternates: { canonical: '/gita' },
 };
 
 type SearchParams = { q?: string };
 type UnifiedResult =
   | { source: 'root'; result: PassageSearchResult<Passage> }
-  | { source: 'commentary'; result: CommentarySearchResult };
+  | { source: 'commentary'; result: CommentarySearchResult }
+  | { source: 'translation'; result: ChapterTranslationSearchResult };
 
 function ResultCard({ item }: { item: UnifiedResult }) {
-  return item.source === 'root'
-    ? <PassageCard passage={item.result.passage} compact match={item.result} />
-    : <CommentarySearchCard result={item.result} />;
+  if (item.source === 'root') return <PassageCard passage={item.result.passage} compact match={item.result} />;
+  if (item.source === 'translation') return <TranslationSearchCard result={item.result} />;
+  return <CommentarySearchCard result={item.result} />;
 }
 
 function resultKey(item: UnifiedResult) {
-  return item.source === 'root' ? `root-${item.result.passage.id}` : `commentary-${item.result.id}`;
+  if (item.source === 'root') return `root-${item.result.passage.id}`;
+  if (item.source === 'translation') return `translation-${item.result.chapter.id}`;
+  return `commentary-${item.result.id}`;
 }
 
 export default async function GitaIndex({ searchParams }: { searchParams: Promise<SearchParams> }) {
   const query = (await searchParams).q?.trim() ?? '';
   const rootResults = query ? searchCorpusDetailed(query).results : [];
   const commentaryResults = query ? await searchCommentaries(query) : [];
+  const translationResults = query ? searchChapterTranslations(query) : [];
   const results: UnifiedResult[] = [
     ...rootResults.map((result): UnifiedResult => ({ source: 'root', result })),
     ...commentaryResults.map((result): UnifiedResult => ({ source: 'commentary', result })),
+    ...translationResults.map((result): UnifiedResult => ({ source: 'translation', result })),
   ];
   const exactResults = results.filter(({ result }) => result.kind === 'exact');
   const compoundResults = results.filter(({ result }) => result.kind === 'compound');
@@ -43,10 +50,12 @@ export default async function GitaIndex({ searchParams }: { searchParams: Promis
         <div>
           <div className="eyebrow">OpenArtha’s first text</div>
           <h1>Bhagavad Gita</h1>
-          <p>Read the Sanskrit text, transliteration, and English translation together. Search 29 supplied translations and commentaries alongside them.</p>
+          <p>Read the Sanskrit text, transliteration, and English translation together. Explore Telang and Edwin Arnold’s English editions alongside 29 supplied translations and commentaries.</p>
         </div>
         <StatusPill>Research preview</StatusPill>
       </header>
+
+      <nav className="reader-links" aria-label="Gita reading options"><a href="/gita/translations">Available translations →</a><a href="/gita/commentaries">Translations and commentaries →</a></nav>
 
       <form className="search-form" role="search" action="/gita">
         <label htmlFor="corpus-search">Search the text and its interpretations</label>
@@ -59,7 +68,7 @@ export default async function GitaIndex({ searchParams }: { searchParams: Promis
       {query ? (
         <section className="search-results" aria-labelledby="search-results-title">
           <div className="section-heading"><h2 id="search-results-title">{results.length} matches for “{query}”</h2><a href="/gita">Clear search</a></div>
-          <p className="search-explainer">Search covers the Sanskrit text, transliteration, Telang translation, and supplied Sanskrit, English, and Hindi translations and commentaries. Exact words appear before matches inside compound forms.</p>
+          <p className="search-explainer">Search covers Sanskrit, transliteration, Telang’s verse translation, Edwin Arnold’s chapter translation, and supplied Sanskrit, English, and Hindi translations and commentaries. Exact words appear before matches inside compound forms.</p>
           {results.length ? (
             <div className="search-groups">
               {exactResults.length ? <section className="search-group" aria-labelledby="exact-matches-title"><div className="search-group-heading"><h3 id="exact-matches-title">Exact word</h3><span>{exactResults.length} matches</span></div><div className="passage-list">{exactResults.map((item) => <ResultCard key={resultKey(item)} item={item} />)}</div></section> : null}
